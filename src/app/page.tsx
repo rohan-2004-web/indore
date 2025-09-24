@@ -127,14 +127,14 @@ export default function Home() {
         
         {/* Hero Section - Original Style */}
         <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 relative">
-          <div className="absolute inset-0 bg-gradient-to-br from-pink-200/80 via-purple-100/70 to-blue-200/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-pink-200/80 via-orange-100/70 to-pink-200/80"></div>
           <div className="absolute inset-0">
-            <div className="absolute top-10 left-10 w-72 h-72 bg-gradient-to-br from-pink-400/30 to-pink-600/30 rounded-full blur-3xl animate-pulse"></div>
-            <div className="absolute bottom-10 right-10 w-96 h-96 bg-gradient-to-br from-blue-400/30 to-blue-600/30 rounded-full blur-3xl animate-pulse"></div>
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-br from-purple-400/30 to-purple-600/30 rounded-full blur-3xl animate-pulse"></div>
+            <div className="absolute top-10 left-10 w-72 h-72 bg-gradient-to-br from-pink-400/30 to-orange-600/30 rounded-full blur-3xl animate-pulse"></div>
+            <div className="absolute bottom-10 right-10 w-96 h-96 bg-gradient-to-br from-orange-400/30 to-pink-600/30 rounded-full blur-3xl animate-pulse"></div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-br from-pink-400/30 to-orange-600/30 rounded-full blur-3xl animate-pulse"></div>
           </div>
           <div className="max-w-7xl mx-auto text-center relative z-10">
-            <h1 className="text-4xl md:text-6xl font-extrabold bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 bg-clip-text text-transparent mb-8 leading-tight">
+            <h1 className="text-4xl md:text-6xl font-extrabold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-8 leading-tight">
               Premium Escort Service In Indore
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto mb-10 font-medium leading-relaxed">
@@ -149,7 +149,7 @@ export default function Home() {
               </a>
               <a 
                 href="https://wa.me/919372662471" 
-                className="inline-block bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-12 py-6 rounded-full font-bold text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
+                className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-12 py-6 rounded-full font-bold text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
               >
                 💬 WhatsApp Now
               </a>
@@ -160,12 +160,12 @@ export default function Home() {
                 <h3 className="font-bold text-xl text-gray-800 mb-2">24/7 Available</h3>
                 <p className="text-gray-600">Round the clock service</p>
               </div>
-              <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-blue-200/50">
+              <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-orange-200/50">
                 <div className="text-4xl mb-3">🔒</div>
                 <h3 className="font-bold text-xl text-gray-800 mb-2">100% Verified</h3>
                 <p className="text-gray-600">All companions verified</p>
               </div>
-              <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-purple-200/50">
+              <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-pink-200/50">
                 <div className="text-4xl mb-3">💎</div>
                 <h3 className="font-bold text-xl text-gray-800 mb-2">Complete Discretion</h3>
                 <p className="text-gray-600">Privacy guaranteed</p>
