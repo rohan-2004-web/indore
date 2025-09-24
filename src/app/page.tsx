@@ -139,14 +139,14 @@ export default function Home() {
           <div className="text-center text-white max-w-7xl mx-auto">
             <div className="mb-8">
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
-                <span className="bg-gradient-to-r from-white via-pink-200 to-orange-300 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-blue-600 via-orange-500 to-blue-700 bg-clip-text text-transparent">
                   Saumya Kapoor
                 </span>
               </h1>
-              <p className="text-xl md:text-2xl text-pink-100 mb-8 max-w-4xl mx-auto">
+              <p className="text-2xl md:text-3xl text-pink-100 mb-8 max-w-4xl mx-auto font-bold">
                 🌟 Premium Professional Escorts & Elite Models | Available 24/7 Service
               </p>
-              <p className="text-lg text-white/90 mb-12 max-w-5xl mx-auto">
+              <p className="text-xl text-white/90 mb-12 max-w-5xl mx-auto leading-relaxed">
                 Experience the finest professional escort companions with our premium services in Indore. Beautiful, elegant, and professional escorts for discerning gentlemen.
                 ✨ 100% Verified • Safe & Discreet • Instant Booking • Satisfaction Guaranteed ✨
               </p>
@@ -866,17 +866,17 @@ export default function Home() {
               {/* Quick Location Links */}
               <div className="mt-6 space-y-3">
                 <h4 className="text-xl font-bold text-gray-800 mb-4">🗺️ Quick Access Areas:</h4>
-                <div className="grid grid-cols-2 gap-3">
-                  <a href="#vijay-nagar" className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-4 py-2 rounded-xl text-center font-semibold transition-all duration-300 transform hover:scale-105">
+                <div className="grid grid-cols-2 gap-4">
+                  <a href="#vijay-nagar" className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 py-4 rounded-2xl text-center font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
                     Vijay Nagar
                   </a>
-                  <a href="#saket" className="bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-4 py-2 rounded-xl text-center font-semibold transition-all duration-300 transform hover:scale-105">
+                  <a href="#saket" className="bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-6 py-4 rounded-2xl text-center font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
                     Saket
                   </a>
-                  <a href="#ab-road" className="bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-4 py-2 rounded-xl text-center font-semibold transition-all duration-300 transform hover:scale-105">
+                  <a href="#ab-road" className="bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-6 py-4 rounded-2xl text-center font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
                     AB Road
                   </a>
-                  <a href="#palasia" className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white px-4 py-2 rounded-xl text-center font-semibold transition-all duration-300 transform hover:scale-105">
+                  <a href="#palasia" className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white px-6 py-4 rounded-2xl text-center font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
                     Palasia
                   </a>
                 </div>
@@ -897,10 +897,10 @@ export default function Home() {
               Experience premium companion services with complete discretion and professionalism. Available 24/7 for your convenience.
             </p>
             <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-              <a href="tel:+919372662471" className="bg-green-500 hover:bg-green-600 text-white px-12 py-5 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-xl">
+              <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-12 py-6 rounded-2xl text-xl font-black transition-all duration-300 transform hover:scale-105 shadow-2xl border-2 border-green-300/50">
                 📞 Call Now: +91 9372662471
               </a>
-              <a href="#services" className="border-2 border-white text-white px-12 py-5 rounded-full text-xl font-bold hover:bg-white hover:text-purple-700 transition-all duration-300">
+              <a href="#services" className="border-3 border-white bg-white/20 backdrop-blur-sm text-white px-12 py-6 rounded-2xl text-xl font-black hover:bg-white hover:text-purple-700 transition-all duration-300 shadow-2xl">
                 Browse Companions
               </a>
             </div>
@@ -975,15 +975,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer - Pink-Orange Theme */}
-      <footer className="bg-gradient-to-br from-pink-900 via-orange-800 to-pink-800 text-white py-16">
+      {/* Footer - Light Pink-Orange Theme */}
+      <footer className="bg-gradient-to-br from-pink-200 via-orange-200 to-pink-300 text-gray-800 py-16">
         <div className="w-full px-4">
           <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-pink-200 via-orange-200 to-pink-300 bg-clip-text text-transparent drop-shadow-lg">
+              <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-blue-600 via-orange-500 to-blue-700 bg-clip-text text-transparent drop-shadow-lg">
                 Saumya Kapoor
               </h3>
-              <p className="text-gray-200 mb-6 leading-relaxed">
+              <p className="text-gray-700 mb-6 leading-relaxed text-lg">
                 Premium escort services in Indore with complete discretion and professionalism. Your satisfaction is our priority.
               </p>
               <div className="flex gap-4">
@@ -997,8 +997,8 @@ export default function Home() {
             </div>
             
             <div>
-              <h4 className="text-lg font-semibold mb-6 text-purple-200">Services</h4>
-              <ul className="space-y-3 text-gray-200">
+              <h4 className="text-xl font-semibold mb-6 text-blue-700">Services</h4>
+              <ul className="space-y-3 text-gray-600 text-lg">
                 <li>🌟 VIP Escorts</li>
                 <li>👸 Elite Models</li>
                 <li>💎 Celebrity Style</li>
@@ -1007,8 +1007,8 @@ export default function Home() {
             </div>
             
             <div>
-              <h4 className="text-lg font-semibold mb-6 text-blue-200">Features</h4>
-              <ul className="space-y-3 text-gray-200">
+              <h4 className="text-xl font-semibold mb-6 text-orange-600">Features</h4>
+              <ul className="space-y-3 text-gray-600 text-lg">
                 <li>⏰ 24/7 Availability</li>
                 <li>✅ Verified Professionals</li>
                 <li>🔒 Complete Discretion</li>
@@ -1017,8 +1017,8 @@ export default function Home() {
             </div>
             
             <div>
-              <h4 className="text-lg font-semibold mb-6 text-pink-200">Contact</h4>
-              <div className="space-y-3 text-gray-200">
+              <h4 className="text-xl font-semibold mb-6 text-pink-700">Contact</h4>
+              <div className="space-y-3 text-gray-600 text-lg">
                 <p>📞 +91 9372662471</p>
                 <p>💬 WhatsApp Available</p>
                 <p>🗺️ All Indore Areas</p>
@@ -1027,9 +1027,9 @@ export default function Home() {
             </div>
           </div>
           
-          <div className="border-t border-purple-300/30 mt-12 pt-8 text-center">
-            <p className="text-purple-200 text-lg">
-              © 2025 <span className="font-bold bg-gradient-to-r from-pink-300 to-blue-300 bg-clip-text text-transparent">Saumya Kapoor</span>. All rights reserved. | Premium Escort Services in Indore
+          <div className="border-t border-gray-400/30 mt-12 pt-8 text-center">
+            <p className="text-gray-600 text-xl">
+              © 2025 <span className="font-bold bg-gradient-to-r from-blue-600 via-orange-500 to-blue-700 bg-clip-text text-transparent">Saumya Kapoor</span>. All rights reserved. | Premium Escort Services in Indore
             </p>
           </div>
         </div>
