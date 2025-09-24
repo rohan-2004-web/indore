@@ -53,6 +53,27 @@ export default function HomePage() {
       image: "/images/services/e3649d9fe77db60518bbf7e230e41987.webp",
       icon: "✨",
       category: "BRAND"
+    },
+    {
+      title: "SEO Services",
+      description: "Search engine optimization to boost your online visibility",
+      image: "/images/services/0397121d113ececea2ba9056c9dd0980.webp",
+      icon: "🔍",
+      category: "SEO"
+    },
+    {
+      title: "Content Writing",
+      description: "Professional content creation for websites and marketing",
+      image: "/images/services/2b60624548447911360b06ed377bf722.webp",
+      icon: "✍️",
+      category: "CONTENT"
+    },
+    {
+      title: "Social Media",
+      description: "Social media management and marketing strategies",
+      image: "/images/services/3025e0fbb540f802d9608b54286647cc.webp",
+      icon: "📲",
+      category: "SOCIAL"
     }
   ]
 
@@ -116,10 +137,10 @@ export default function HomePage() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-16">
-              <a href="tel:+919372662471" className="bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
+              <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-5 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-xl">
                 📞 Call Now 24/7
               </a>
-              <a href="https://api.whatsapp.com/send?phone=919372662471" className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
+              <a href="https://api.whatsapp.com/send?phone=919372662471" className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-10 py-5 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-xl">
                 📱 WhatsApp Fast
               </a>
             </div>
@@ -163,41 +184,48 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {services.map((service, index) => (
-              <div key={index} className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden">
-                <div className="relative h-48 bg-gradient-to-br from-pink-400 to-blue-500 overflow-hidden">
-                  <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold text-gray-700 z-10">
-                    {service.category}
-                  </div>
+              <div key={index} className="bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-3 overflow-hidden group">
+                <div className="relative h-80 overflow-hidden">
                   <Image 
                     src={service.image} 
                     alt={service.title}
                     fill
-                    className="object-cover hover:scale-110 transition-transform duration-300" 
+                    className="object-cover group-hover:scale-105 transition-transform duration-500" 
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
-                  <div className="absolute bottom-4 right-4 text-4xl bg-white/20 backdrop-blur-sm rounded-full w-16 h-16 flex items-center justify-center z-10">
-                    {service.icon}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+                  
+                  {/* Category Badge */}
+                  <div className="absolute top-6 left-6 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-bold text-gray-800 shadow-lg">
+                    {service.icon} {service.category}
+                  </div>
+                  
+                  {/* Service Title Overlay */}
+                  <div className="absolute bottom-6 left-6 right-6">
+                    <h3 className="text-2xl font-bold text-white mb-2 leading-tight">{service.title}</h3>
                   </div>
                 </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">{service.title}</h3>
-                  <p className="text-gray-600 mb-4">{service.description}</p>
-                  <a href="#contact" className="inline-flex items-center text-pink-600 hover:text-pink-700 font-semibold transition-colors">
-                    Book {service.title}
-                    <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </a>
+                
+                <div className="p-8">
+                  <p className="text-gray-600 text-lg mb-6 leading-relaxed">{service.description}</p>
+                  
+                  <div className="flex gap-4">
+                    <a 
+                      href="#contact" 
+                      className="flex-1 bg-green-500 hover:bg-green-600 text-white px-6 py-4 rounded-full text-center font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    >
+                      Book {service.title.split(' ')[0]}
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}
           </div>
 
-          <div className="text-center mt-12">
-            <a href="#contact" className="bg-gradient-to-r from-pink-500 to-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-pink-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
-              View All Services
+          <div className="text-center mt-16">
+            <a href="#contact" className="bg-gradient-to-r from-green-500 to-green-600 text-white px-12 py-5 rounded-full text-xl font-bold hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105 shadow-xl">
+              📞 View All Services & Book Now
             </a>
           </div>
         </div>
@@ -308,10 +336,10 @@ export default function HomePage() {
             </p>
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
-              <a href="tel:+919372662471" className="bg-white text-pink-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-pink-50 transition-all duration-300 transform hover:scale-105 shadow-lg">
+              <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-green-600 text-white px-10 py-5 rounded-full text-xl font-bold hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105 shadow-xl">
                 📞 Call Now
               </a>
-              <a href="https://api.whatsapp.com/send?phone=919372662471" className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
+              <a href="https://api.whatsapp.com/send?phone=919372662471" className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-10 py-5 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-xl">
                 💬 WhatsApp
               </a>
             </div>
