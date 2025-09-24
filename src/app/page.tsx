@@ -83,6 +83,62 @@ export default function Home() {
       image: "/images/services/Outcall Service.webp",
       icon: "🏨",
       category: "OUTCALL"
+    },
+    {
+      title: "Housewife Escorts",
+      subtitle: "Mature Experience",
+      description: "Experienced mature companions with caring and understanding nature",
+      image: "/images/services/Housewife Escorts.webp",
+      icon: "🏠",
+      category: "MATURE"
+    },
+    {
+      title: "Slim Escorts",
+      subtitle: "Perfect Figure",
+      description: "Elegant slim companions with perfect figure and graceful personality",
+      image: "/images/services/Slim Escorts.webp",
+      icon: "✨",
+      category: "SLIM"
+    },
+    {
+      title: "Unsatisfied Bhabhi",
+      subtitle: "Seeking Excitement",
+      description: "Experienced companions who are looking for meaningful connections",
+      image: "/images/services/Unsatisfied Bhabhi.webp",
+      icon: "💕",
+      category: "MATURE"
+    },
+    {
+      title: "Local Beauties",
+      subtitle: "City Experts",
+      description: "Beautiful local companions who know all the best places in Indore",
+      image: "/images/services/Local Beauties.webp",
+      icon: "🌺",
+      category: "LOCAL"
+    },
+    {
+      title: "Pink Special",
+      subtitle: "Exclusive Service",
+      description: "Special premium companions offering exclusive and personalized experiences",
+      image: "/images/services/Pink Special.webp",
+      icon: "💖",
+      category: "SPECIAL"
+    },
+    {
+      title: "Young Girls",
+      subtitle: "Youthful Energy",
+      description: "Young beautiful companions for unforgettable and energetic experiences",
+      image: "/images/services/Young Girls.webp",
+      icon: "🌸",
+      category: "YOUNG"
+    },
+    {
+      title: "Indore Escorts",
+      subtitle: "City Specialists",
+      description: "Premium local escorts with deep knowledge of Indore city and culture",
+      image: "/images/services/indore escorts.webp",
+      icon: "🏙️",
+      category: "LOCAL"
     }
   ]
 
@@ -154,6 +210,7 @@ export default function Home() {
             <div className="w-full">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-12 border border-pink-200/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[400px] flex flex-col justify-center">
+                  <div className="text-6xl mb-4">🕐</div>
                   <div className="w-full h-64 mb-6 rounded-2xl overflow-hidden shadow-xl">
                     <img src="/images/services/Celebrity Escorts.webp" alt="24/7 Available Service" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
@@ -162,6 +219,7 @@ export default function Home() {
                 </div>
                 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-12 border border-orange-200/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[400px] flex flex-col justify-center">
+                  <div className="text-6xl mb-4">✅</div>
                   <div className="w-full h-64 mb-6 rounded-2xl overflow-hidden shadow-xl">
                     <img src="/images/services/VIP Escorts.webp" alt="100% Verified Service" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
@@ -170,6 +228,7 @@ export default function Home() {
                 </div>
                 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-12 border border-pink-200/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[400px] flex flex-col justify-center">
+                  <div className="text-6xl mb-4">🔒</div>
                   <div className="w-full h-64 mb-6 rounded-2xl overflow-hidden shadow-xl">
                     <img src="/images/services/Premium Models.webp" alt="Complete Privacy Service" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
@@ -195,6 +254,7 @@ export default function Home() {
                 
                 {/* Row 1 - Celebrity, VIP, Premium */}
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="text-4xl mb-3">⭐</div>
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
                     <img src="/images/services/Celebrity Escorts.webp" alt="Celebrity Escorts" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
@@ -204,6 +264,7 @@ export default function Home() {
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-blue-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="text-4xl mb-3">💫</div>
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
                     <img src="/images/services/VIP Escorts.webp" alt="VIP Escorts" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
@@ -213,6 +274,7 @@ export default function Home() {
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-orange-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="text-4xl mb-3">👑</div>
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
                     <img src="/images/services/Premium Models.webp" alt="Premium Models" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
@@ -223,6 +285,7 @@ export default function Home() {
 
                 {/* Row 2 - College, Housewife, Punjabi */}
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-purple-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="text-4xl mb-3">💎</div>
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
                     <img src="/images/services/College Girls.webp" alt="College Girls" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
@@ -232,6 +295,7 @@ export default function Home() {
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-green-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="text-4xl mb-3">🏠</div>
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
                     <img src="/images/services/Housewife Escorts.webp" alt="Housewife Escorts" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
@@ -241,6 +305,7 @@ export default function Home() {
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-red-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="text-4xl mb-3">🌟</div>
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
                     <img src="/images/services/Punjabi women.webp" alt="Punjabi Women" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
@@ -251,6 +316,7 @@ export default function Home() {
 
                 {/* Row 3 - Slim, Unsatisfied Bhabhi, Local */}
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-teal-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="text-4xl mb-3">✨</div>
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
                     <img src="/images/services/Slim Escorts.webp" alt="Slim Escorts" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
@@ -260,6 +326,7 @@ export default function Home() {
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-indigo-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="text-4xl mb-3">💕</div>
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
                     <img src="/images/services/Unsatisfied Bhabhi.webp" alt="Unsatisfied Bhabhi" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
@@ -269,6 +336,7 @@ export default function Home() {
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="text-4xl mb-3">🌺</div>
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
                     <img src="/images/services/Local Beauties.webp" alt="Local Beauties" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
@@ -279,6 +347,7 @@ export default function Home() {
 
                 {/* Row 4 - Event, Pink Special, Unsatisfied Females */}
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-yellow-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="text-4xl mb-3">🎭</div>
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
                     <img src="/images/services/Event Companion.webp" alt="Event Companion" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
@@ -288,6 +357,7 @@ export default function Home() {
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-rose-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="text-4xl mb-3">💖</div>
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
                     <img src="/images/services/Pink Special.webp" alt="Pink Special" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
@@ -297,6 +367,7 @@ export default function Home() {
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-violet-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="text-4xl mb-3">👩</div>
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
                     <img src="/images/services/Unsatisfied Females.webp" alt="Unsatisfied Females" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
@@ -307,6 +378,7 @@ export default function Home() {
 
                 {/* Row 5 - New Additional Services */}
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-blue-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="text-4xl mb-3">🏨</div>
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
                     <img src="/images/services/Incall Escorts.webp" alt="Incall Escorts" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
@@ -316,6 +388,7 @@ export default function Home() {
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-amber-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="text-4xl mb-3">🍂</div>
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
                     <img src="/images/services/Mature Escorts.webp" alt="Mature Escorts" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
@@ -325,6 +398,7 @@ export default function Home() {
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-emerald-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="text-4xl mb-3">🌸</div>
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
                     <img src="/images/services/Young Girls.webp" alt="Young Girls" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
@@ -334,6 +408,7 @@ export default function Home() {
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-indigo-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="text-4xl mb-3">🏙️</div>
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
                     <img src="/images/services/indore escorts.webp" alt="Indore Escorts" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
