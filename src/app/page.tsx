@@ -373,6 +373,34 @@ export default function Home() {
                   <a href="/services" className="inline-block bg-gradient-to-r from-violet-500 to-violet-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
                 </div>
 
+                {/* Row 5 - New Additional Services */}
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-blue-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/services/Incall Escorts.webp" alt="Incall Escorts" className="w-full h-80 object-cover object-center hover:scale-105 transition-transform duration-300" />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">Incall Escorts</h3>
+                  <p className="text-gray-600 mb-4 text-base flex-grow">Premium incall services at luxury locations</p>
+                  <a href="/services" className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                </div>
+
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-amber-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/services/Mature Escorts.webp" alt="Mature Escorts" className="w-full h-80 object-cover object-center hover:scale-105 transition-transform duration-300" />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">Mature Escorts</h3>
+                  <p className="text-gray-600 mb-4 text-base flex-grow">Experienced mature companions with sophistication</p>
+                  <a href="/services" className="inline-block bg-gradient-to-r from-amber-500 to-amber-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                </div>
+
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-emerald-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/services/Young Girls.webp" alt="Young Girls" className="w-full h-80 object-cover object-center hover:scale-105 transition-transform duration-300" />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">Young Girls</h3>
+                  <p className="text-gray-600 mb-4 text-base flex-grow">Young beautiful companions for unforgettable experiences</p>
+                  <a href="/services" className="inline-block bg-gradient-to-r from-emerald-500 to-emerald-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                </div>
+
               </div>
             </div>
           </div>
