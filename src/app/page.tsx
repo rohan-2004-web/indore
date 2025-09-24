@@ -13,67 +13,76 @@ export default function HomePage() {
 
   const services = [
     {
-      title: "Web Development",
-      description: "Professional websites and web applications with modern technologies",
+      title: "Riya Singh",
+      subtitle: "VIP Companion",
+      description: "Premium VIP service with exceptional elegance and professionalism",
+      image: "/images/services/Riya singh.webp",
+      icon: "⭐",
+      category: "VIP"
+    },
+    {
+      title: "Suman Singh", 
+      subtitle: "Elite Model",
+      description: "Professional model with stunning looks and sophisticated charm",
+      image: "/images/services/suman singh.webp",
+      icon: "💎",
+      category: "ELITE"
+    },
+    {
+      title: "Priya Sharma",
+      subtitle: "Celebrity Style",
+      description: "Star-like companion with celebrity-level sophistication",
       image: "/images/services/0397121d113ececea2ba9056c9dd0980.webp",
-      icon: "💻",
+      icon: "🌟",
+      category: "CELEBRITY"
+    },
+    {
+      title: "Anita Gupta",
+      subtitle: "High Class Model",
+      description: "Luxury model companion with exceptional beauty and grace",
+      image: "/images/services/3025e0fbb540f802d9608b54286647cc.webp",
+      icon: "👑",
+      category: "LUXURY"
+    },
+    {
+      title: "Kavya Patel",
+      subtitle: "Premium Service",
+      description: "Professional premium companion with elegant personality",
+      image: "/images/services/b0489d963dcb46271de22d7478adb06a.webp",
+      icon: "💫",
       category: "PREMIUM"
     },
     {
-      title: "UI/UX Design",
-      description: "Beautiful and intuitive user interface designs that engage users",
-      image: "/images/services/2b60624548447911360b06ed377bf722.webp",
-      icon: "🎨",
-      category: "CREATIVE"
-    },
-    {
-      title: "Mobile Apps",
-      description: "Native and cross-platform mobile applications for iOS and Android",
-      image: "/images/services/3025e0fbb540f802d9608b54286647cc.webp",
-      icon: "📱",
-      category: "MOBILE"
-    },
-    {
-      title: "E-commerce Solutions",
-      description: "Complete online store solutions with payment integration",
-      image: "/images/services/7d861a486a6e06fce0ac060cd0abe731.webp",
-      icon: "🛍️",
-      category: "BUSINESS"
-    },
-    {
-      title: "Digital Marketing",
-      description: "Comprehensive digital marketing strategies and campaigns",
-      image: "/images/services/b0489d963dcb46271de22d7478adb06a.webp",
-      icon: "📈",
-      category: "MARKETING"
-    },
-    {
-      title: "Brand Identity",
-      description: "Complete branding solutions including logo design and guidelines",
+      title: "Neha Verma",
+      subtitle: "Independent Model",
+      description: "Independent professional model with charming personality",
       image: "/images/services/e3649d9fe77db60518bbf7e230e41987.webp",
       icon: "✨",
-      category: "BRAND"
+      category: "INDEPENDENT"
     },
     {
-      title: "SEO Services",
-      description: "Search engine optimization to boost your online visibility",
-      image: "/images/services/0397121d113ececea2ba9056c9dd0980.webp",
-      icon: "🔍",
-      category: "SEO"
+      title: "Shreya Jain",
+      subtitle: "Young Beauty",
+      description: "Fresh youthful energy with beautiful and engaging personality",
+      image: "/images/services/77cd241032300db4162185430049843b.jpg",
+      icon: "🌸",
+      category: "FRESH"
     },
     {
-      title: "Content Writing",
-      description: "Professional content creation for websites and marketing",
-      image: "/images/services/2b60624548447911360b06ed377bf722.webp",
-      icon: "✍️",
-      category: "CONTENT"
+      title: "Pooja Kumar",
+      subtitle: "Elite Companion",
+      description: "Elite companion providing professional and discreet services",
+      image: "/images/services/8bbc046f619ed3007b7c5325809a6fd1.jpg",
+      icon: "💝",
+      category: "ELITE"
     },
     {
-      title: "Social Media",
-      description: "Social media management and marketing strategies",
-      image: "/images/services/3025e0fbb540f802d9608b54286647cc.webp",
-      icon: "📲",
-      category: "SOCIAL"
+      title: "Simran Kaur",
+      subtitle: "Top Class Model",
+      description: "Top class professional model with exceptional service standards",
+      image: "/images/services/b958fb1e67de1ea5766e3c5c0cef33fe.jpg",
+      icon: "👸",
+      category: "TOP CLASS"
     }
   ]
 
@@ -127,11 +136,11 @@ export default function HomePage() {
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-pink-100 mb-8 max-w-3xl mx-auto">
-                🌟 Premium Digital Solutions & Creative Design Expert | Professional Services Available 24/7
+                🌟 Premium Professional Companions & Elite Models | Available 24/7 Service
               </p>
               <p className="text-lg text-white/90 mb-12 max-w-4xl mx-auto">
-                Experience the finest digital services with our premium solutions. Professional web development, stunning UI/UX design, and comprehensive digital marketing services.
-                ✨ 100% Professional • Creative & Innovative • Client Satisfaction Guaranteed ✨
+                Experience the finest professional companions with our premium services. Beautiful, elegant, and professional companions for discerning gentlemen.
+                ✨ 100% Verified • Safe & Discreet • Instant Booking • Satisfaction Guaranteed ✨
               </p>
             </div>
 
@@ -148,25 +157,25 @@ export default function HomePage() {
             {/* Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-white mb-2">100+</div>
-                <div className="text-pink-200 text-sm">Verified Projects</div>
+                <div className="text-3xl md:text-4xl font-bold text-white mb-2">500+</div>
+                <div className="text-pink-200 text-sm">Verified Companions</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-white mb-2">100%</div>
-                <div className="text-pink-200 text-sm">Professional & Creative</div>
+                <div className="text-pink-200 text-sm">Safe & Discreet</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-white mb-2">⭐ 4.9/5</div>
-                <div className="text-pink-200 text-sm">Rating (150+ Reviews)</div>
+                <div className="text-3xl md:text-4xl font-bold text-white mb-2">⭐ 4.8/5</div>
+                <div className="text-pink-200 text-sm">Rating (2500+ Reviews)</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl md:text-4xl font-bold text-white mb-2">24/7</div>
-                <div className="text-pink-200 text-sm">Available Service</div>
+                <div className="text-pink-200 text-sm">Instant Booking</div>
               </div>
             </div>
 
             <div className="mt-12">
-              <p className="text-white/80 text-lg">🚀 All Services Available • 30-Min Response Time • Complete Satisfaction Guaranteed</p>
+              <p className="text-white/80 text-lg">🚀 All Areas Covered • 30-Min Arrival Time • Complete Satisfaction Guaranteed</p>
             </div>
           </div>
         </div>
@@ -177,33 +186,37 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-              Premium Services - Our <span className="text-pink-600">Expertise</span>
+              Premium Companions - Our <span className="text-pink-600">Professionals</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive digital solutions tailored for your success
+              Experience the finest companions with our premium professionals
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
             {services.map((service, index) => (
               <div key={index} className="bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-3 overflow-hidden group">
-                <div className="relative h-80 overflow-hidden">
+                <div className="relative h-96 overflow-hidden">
                   <Image 
                     src={service.image} 
                     alt={service.title}
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500" 
+                    className="object-cover object-top group-hover:scale-105 transition-transform duration-500" 
+                    style={{
+                      objectPosition: 'center top'
+                    }}
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                   
                   {/* Category Badge */}
-                  <div className="absolute top-6 left-6 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-bold text-gray-800 shadow-lg">
+                  <div className="absolute top-6 left-6 bg-pink-500/90 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-bold text-white shadow-lg">
                     {service.icon} {service.category}
                   </div>
                   
-                  {/* Service Title Overlay */}
-                  <div className="absolute bottom-6 left-6 right-6">
-                    <h3 className="text-2xl font-bold text-white mb-2 leading-tight">{service.title}</h3>
+                  {/* Name and Subtitle Overlay */}
+                  <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                    <h3 className="text-2xl font-bold mb-1">{service.title}</h3>
+                    <p className="text-pink-200 text-lg font-semibold">{service.subtitle}</p>
                   </div>
                 </div>
                 
@@ -212,7 +225,7 @@ export default function HomePage() {
                   
                   <div className="flex gap-4">
                     <a 
-                      href="#contact" 
+                      href="tel:+919372662471" 
                       className="flex-1 bg-green-500 hover:bg-green-600 text-white px-6 py-4 rounded-full text-center font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
                     >
                       Book {service.title.split(' ')[0]}
@@ -224,8 +237,8 @@ export default function HomePage() {
           </div>
 
           <div className="text-center mt-16">
-            <a href="#contact" className="bg-gradient-to-r from-green-500 to-green-600 text-white px-12 py-5 rounded-full text-xl font-bold hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105 shadow-xl">
-              📞 View All Services & Book Now
+            <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-green-600 text-white px-12 py-5 rounded-full text-xl font-bold hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105 shadow-xl">
+              📞 Call Now - Book Your Companion
             </a>
           </div>
         </div>
