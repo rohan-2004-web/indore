@@ -11,6 +11,81 @@ export default function Home() {
     setOpenFaq(openFaq === index ? null : index)
   }
 
+  const services = [
+    {
+      title: "Celebrity Escorts",
+      subtitle: "Star Quality Service",
+      description: "Experience celebrity-level companions with exceptional elegance and sophistication",
+      image: "/images/services/Celebrity Escorts.webp",
+      icon: "⭐",
+      category: "CELEBRITY"
+    },
+    {
+      title: "College Girls", 
+      subtitle: "Fresh & Young",
+      description: "Beautiful young companions with vibrant energy and charming personalities",
+      image: "/images/services/College Girls.webp",
+      icon: "💎",
+      category: "YOUNG"
+    },
+    {
+      title: "Punjabi Women",
+      subtitle: "Traditional Beauty",
+      description: "Authentic Punjabi companions with traditional charm and modern sophistication",
+      image: "/images/services/Punjabi women.webp",
+      icon: "🌟",
+      category: "TRADITIONAL"
+    },
+    {
+      title: "Event Companion",
+      subtitle: "Perfect Plus One",
+      description: "Professional companions for business events, parties, and social gatherings",
+      image: "/images/services/Event Companion.webp",
+      icon: "🎭",
+      category: "PROFESSIONAL"
+    },
+    {
+      title: "Premium Companions",
+      subtitle: "Luxury Experience",
+      description: "Exclusive high-end companions for discerning clients who demand the finest",
+      image: "/images/services/Premium Companions.webp",
+      icon: "👑",
+      category: "LUXURY"
+    },
+    {
+      title: "Travel Companions",
+      subtitle: "Adventure Partners", 
+      description: "Perfect travel partners for business trips, vacations, or weekend getaways",
+      image: "/images/services/Travel Companions.webp",
+      icon: "✈️",
+      category: "TRAVEL"
+    },
+    {
+      title: "VIP Escorts",
+      subtitle: "Ultimate Luxury",
+      description: "Our most exclusive VIP escorts offer the ultimate in luxury and sophistication",
+      image: "/images/services/VIP Escorts.webp",
+      icon: "💫",
+      category: "VIP"
+    },
+    {
+      title: "Dinner Dates",
+      subtitle: "Romantic Evenings",
+      description: "Elegant companions for romantic dinner dates and fine dining experiences",
+      image: "/images/services/Dinner Dates.webp",
+      icon: "🍷",
+      category: "ROMANTIC"
+    },
+    {
+      title: "Outcall Service",
+      subtitle: "Your Location",
+      description: "Professional outcall service to your hotel, home, or preferred location",
+      image: "/images/services/Outcall Service.webp",
+      icon: "🏨",
+      category: "OUTCALL"
+    }
+  ]
+
   const faqs = [
     {
       question: "How can I book an escort service in Indore?",
@@ -50,33 +125,46 @@ export default function Home() {
     <>
       <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-blue-50">
         
-        {/* Hero Section */}
-        <section className="py-24 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto text-center">
-            <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent mb-6">
-              Indore Premium Escort Service
+        {/* Hero Section - Original Style */}
+        <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 relative">
+          <div className="absolute inset-0 bg-gradient-to-br from-pink-100/60 via-white/80 to-blue-100/60"></div>
+          <div className="max-w-7xl mx-auto text-center relative z-10">
+            <h1 className="text-6xl md:text-8xl font-extrabold bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 bg-clip-text text-transparent mb-8 leading-tight">
+              Premium Escort Service In Indore
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto mb-8">
-              Experience luxury companionship with verified professional escorts available 24/7 across all prime locations in Indore
+            <p className="text-2xl md:text-3xl text-gray-700 max-w-5xl mx-auto mb-12 font-medium leading-relaxed">
+              Experience luxury companionship with verified professional escorts available 24/7 across all prime locations in Indore. Discreet, elegant, and unforgettable.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
               <a 
                 href="tel:+919372662471" 
-                className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl"
+                className="inline-block bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-12 py-6 rounded-full font-bold text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
               >
                 📞 Call Now: +91 9372662471
               </a>
               <a 
                 href="https://wa.me/919372662471" 
-                className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl"
+                className="inline-block bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-12 py-6 rounded-full font-bold text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
               >
                 💬 WhatsApp Now
               </a>
             </div>
-            <div className="text-center">
-              <span className="inline-block bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full font-semibold">
-                ⭐ 24/7 Available | 100% Verified | Complete Discretion
-              </span>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-pink-200/50">
+                <div className="text-4xl mb-3">⭐</div>
+                <h3 className="font-bold text-xl text-gray-800 mb-2">24/7 Available</h3>
+                <p className="text-gray-600">Round the clock service</p>
+              </div>
+              <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-blue-200/50">
+                <div className="text-4xl mb-3">🔒</div>
+                <h3 className="font-bold text-xl text-gray-800 mb-2">100% Verified</h3>
+                <p className="text-gray-600">All companions verified</p>
+              </div>
+              <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-purple-200/50">
+                <div className="text-4xl mb-3">💎</div>
+                <h3 className="font-bold text-xl text-gray-800 mb-2">Complete Discretion</h3>
+                <p className="text-gray-600">Privacy guaranteed</p>
+              </div>
             </div>
           </div>
         </section>
@@ -86,10 +174,10 @@ export default function Home() {
           <div className="w-full px-4">
             <div className="max-w-7xl mx-auto">
               <div className="text-center mb-12">
-                <h2 className="text-4xl font-bold bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent mb-4">
+                <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent mb-6">
                   Ready to Book? Contact Us Now
                 </h2>
-                <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
                   24/7 available for instant bookings. Professional service across all Indore locations.
                 </p>
               </div>
@@ -223,7 +311,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-br from-blue-100/40 via-pink-50/30 to-orange-100/40"></div>
           <div className="container mx-auto relative z-10">
             <div className="text-center mb-16">
-              <h2 className="text-5xl font-bold bg-gradient-to-r from-blue-600 via-pink-500 to-orange-600 bg-clip-text text-transparent mb-6">
+              <h2 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-600 via-pink-500 to-orange-600 bg-clip-text text-transparent mb-6">
                 Escort Services Available In All Indore Areas
               </h2>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
@@ -384,7 +472,7 @@ export default function Home() {
         <section className="py-20 px-4 bg-gradient-to-br from-blue-100/40 via-pink-50/30 to-orange-100/40">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-5xl font-bold bg-gradient-to-r from-blue-600 via-pink-500 to-orange-600 bg-clip-text text-transparent mb-6">
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-blue-600 via-pink-500 to-orange-600 bg-clip-text text-transparent mb-6">
                 How To Book Our Escort Service In Indore
               </h2>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
@@ -421,32 +509,32 @@ export default function Home() {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-20 px-4 bg-gradient-to-br from-pink-100/50 via-orange-50/40 to-blue-100/50">
+        <section className="py-20 px-4 bg-gradient-to-br from-purple-100/50 via-pink-50/40 to-blue-100/50">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-blue-600 bg-clip-text text-transparent mb-6">
+              <h2 className="text-6xl font-bold bg-gradient-to-r from-purple-600 via-pink-500 to-blue-600 bg-clip-text text-transparent mb-6">
                 Frequently Asked Questions
               </h2>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Common questions about our escort services in Indore
+                Common questions about our premium escort services in Indore
               </p>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="space-y-6">
               {faqs.map((faq, index) => (
-                <div key={index} className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl border border-gray-100/50 overflow-hidden">
+                <div key={index} className="bg-white/95 backdrop-blur-md rounded-2xl shadow-xl border border-gray-200/50 overflow-hidden hover:shadow-2xl transition-all duration-300">
                   <button
                     onClick={() => toggleFaq(index)}
-                    className="w-full p-8 text-left hover:bg-gray-50/50 transition-colors duration-200 flex justify-between items-center"
+                    className="w-full p-6 text-left hover:bg-gradient-to-r hover:from-purple-50/50 hover:to-pink-50/50 transition-all duration-200 flex justify-between items-center group"
                   >
-                    <h3 className="text-lg font-bold text-gray-800 pr-4">{faq.question}</h3>
-                    <span className={`text-2xl transition-transform duration-200 ${openFaq === index ? 'rotate-180' : ''}`}>
-                      ↓
+                    <h3 className="text-xl font-bold text-gray-800 pr-4 group-hover:text-purple-700">{faq.question}</h3>
+                    <span className={`text-3xl transition-all duration-300 text-purple-600 ${openFaq === index ? 'rotate-180 scale-110' : ''}`}>
+                      ▼
                     </span>
                   </button>
                   {openFaq === index && (
-                    <div className="px-8 pb-8">
-                      <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+                    <div className="px-6 pb-6 bg-gradient-to-r from-purple-50/30 to-pink-50/30">
+                      <p className="text-gray-600 leading-relaxed text-lg">{faq.answer}</p>
                     </div>
                   )}
                 </div>
@@ -459,7 +547,7 @@ export default function Home() {
         <section className="py-20 px-4 bg-gradient-to-br from-blue-100/40 via-pink-50/30 to-orange-100/40">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-5xl font-bold bg-gradient-to-r from-blue-600 via-pink-500 to-orange-600 bg-clip-text text-transparent mb-6">
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-blue-600 via-pink-500 to-orange-600 bg-clip-text text-transparent mb-6">
                 Contact Us For Booking
               </h2>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
