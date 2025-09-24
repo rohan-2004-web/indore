@@ -127,7 +127,12 @@ export default function Home() {
         
         {/* Hero Section - Original Style */}
         <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 relative">
-          <div className="absolute inset-0 bg-gradient-to-br from-pink-100/60 via-white/80 to-blue-100/60"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-pink-200/80 via-purple-100/70 to-blue-200/80"></div>
+          <div className="absolute inset-0">
+            <div className="absolute top-10 left-10 w-72 h-72 bg-gradient-to-br from-pink-400/30 to-pink-600/30 rounded-full blur-3xl animate-pulse"></div>
+            <div className="absolute bottom-10 right-10 w-96 h-96 bg-gradient-to-br from-blue-400/30 to-blue-600/30 rounded-full blur-3xl animate-pulse"></div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-br from-purple-400/30 to-purple-600/30 rounded-full blur-3xl animate-pulse"></div>
+          </div>
           <div className="max-w-7xl mx-auto text-center relative z-10">
             <h1 className="text-6xl md:text-8xl font-extrabold bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 bg-clip-text text-transparent mb-8 leading-tight">
               Premium Escort Service In Indore
@@ -282,24 +287,84 @@ export default function Home() {
             <div className="max-w-6xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
-                  <div className="text-6xl mb-4">⭐</div>
+                  <div className="w-full h-48 mb-6 rounded-2xl overflow-hidden">
+                    <img src="/images/services/Celebrity Escorts.webp" alt="Celebrity Escorts" className="w-full h-full object-cover" />
+                  </div>
                   <h3 className="text-2xl font-bold text-gray-800 mb-4">Celebrity Escorts</h3>
                   <p className="text-gray-600 mb-4">Premium companions with star quality service and exceptional elegance</p>
                   <a href="/services" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold">View Details</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-blue-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
-                  <div className="text-6xl mb-4">💎</div>
+                  <div className="w-full h-48 mb-6 rounded-2xl overflow-hidden">
+                    <img src="/images/services/VIP Escorts.jpg" alt="VIP Escorts" className="w-full h-full object-cover" />
+                  </div>
                   <h3 className="text-2xl font-bold text-gray-800 mb-4">VIP Escorts</h3>
                   <p className="text-gray-600 mb-4">Ultimate luxury companions for discerning clients seeking perfection</p>
                   <a href="/services" className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-2xl font-bold">View Details</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
-                  <div className="text-6xl mb-4">🌟</div>
-                  <h3 className="text-2xl font-bold text-gray-800 mb-4">Premium Companions</h3>
-                  <p className="text-gray-600 mb-4">High-end companions offering sophistication and unparalleled service</p>
+                  <div className="w-full h-48 mb-6 rounded-2xl overflow-hidden">
+                    <img src="/images/services/Premium Models.jpg" alt="Premium Models" className="w-full h-full object-cover" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">Premium Models</h3>
+                  <p className="text-gray-600 mb-4">High-end models offering sophistication and unparalleled service</p>
                   <a href="/services" className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold">View Details</a>
+                </div>
+
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-purple-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
+                  <div className="w-full h-48 mb-6 rounded-2xl overflow-hidden">
+                    <img src="/images/services/College Girls.webp" alt="College Girls" className="w-full h-full object-cover" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">College Girls</h3>
+                  <p className="text-gray-600 mb-4">Young and energetic companions for memorable experiences</p>
+                  <a href="/services" className="inline-block bg-gradient-to-r from-purple-500 to-purple-600 text-white px-6 py-3 rounded-2xl font-bold">View Details</a>
+                </div>
+
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-green-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
+                  <div className="w-full h-48 mb-6 rounded-2xl overflow-hidden">
+                    <img src="/images/services/Housewife Escorts.jpg" alt="Housewife Escorts" className="w-full h-full object-cover" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">Housewife Escorts</h3>
+                  <p className="text-gray-600 mb-4">Mature and experienced companions with caring nature</p>
+                  <a href="/services" className="inline-block bg-gradient-to-r from-green-500 to-green-600 text-white px-6 py-3 rounded-2xl font-bold">View Details</a>
+                </div>
+
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-red-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
+                  <div className="w-full h-48 mb-6 rounded-2xl overflow-hidden">
+                    <img src="/images/services/Punjabi women.webp" alt="Punjabi Women" className="w-full h-full object-cover" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">Punjabi Women</h3>
+                  <p className="text-gray-600 mb-4">Beautiful Punjabi companions with traditional charm and modern appeal</p>
+                  <a href="/services" className="inline-block bg-gradient-to-r from-red-500 to-red-600 text-white px-6 py-3 rounded-2xl font-bold">View Details</a>
+                </div>
+
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-teal-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
+                  <div className="w-full h-48 mb-6 rounded-2xl overflow-hidden">
+                    <img src="/images/services/Slim Escorts.webp" alt="Slim Escorts" className="w-full h-full object-cover" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">Slim Escorts</h3>
+                  <p className="text-gray-600 mb-4">Elegant slim companions with perfect figure and graceful personality</p>
+                  <a href="/services" className="inline-block bg-gradient-to-r from-teal-500 to-teal-600 text-white px-6 py-3 rounded-2xl font-bold">View Details</a>
+                </div>
+
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-indigo-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
+                  <div className="w-full h-48 mb-6 rounded-2xl overflow-hidden">
+                    <img src="/images/services/Unsatisfied Bhabhi.webp" alt="Unsatisfied Bhabhi" className="w-full h-full object-cover" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">Unsatisfied Bhabhi</h3>
+                  <p className="text-gray-600 mb-4">Experienced companions seeking excitement and meaningful connections</p>
+                  <a href="/services" className="inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 text-white px-6 py-3 rounded-2xl font-bold">View Details</a>
+                </div>
+
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
+                  <div className="w-full h-48 mb-6 rounded-2xl overflow-hidden">
+                    <img src="/images/services/Local Beauties.webp" alt="Local Beauties" className="w-full h-full object-cover" />
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-4">Local Beauties</h3>
+                  <p className="text-gray-600 mb-4">Beautiful local companions who know Indore inside out</p>
+                  <a href="/services" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold">View Details</a>
                 </div>
               </div>
             </div>
@@ -603,13 +668,58 @@ export default function Home() {
                   </div>
                   
                   <div className="mt-8 pt-8 border-t border-gray-200">
-                    <h4 className="font-bold text-gray-800 mb-4">Quick Booking</h4>
-                    <div className="flex flex-col sm:flex-row gap-4">
-                      <a href="tel:+919372662471" className="bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-6 py-3 rounded-2xl font-bold text-center transition-all duration-300 transform hover:scale-105">
-                        📞 Call Now
+                    <h4 className="font-bold text-gray-800 mb-6">Quick Booking Form</h4>
+                    <form className="space-y-4">
+                      <div>
+                        <input 
+                          type="text" 
+                          placeholder="Your Name" 
+                          className="w-full px-4 py-3 border border-gray-300 rounded-2xl focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-500/20 transition-all duration-300"
+                        />
+                      </div>
+                      <div>
+                        <input 
+                          type="tel" 
+                          placeholder="Your Phone Number" 
+                          className="w-full px-4 py-3 border border-gray-300 rounded-2xl focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-500/20 transition-all duration-300"
+                        />
+                      </div>
+                      <div>
+                        <select className="w-full px-4 py-3 border border-gray-300 rounded-2xl focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-500/20 transition-all duration-300 text-gray-700">
+                          <option value="">Select Service</option>
+                          <option value="celebrity">Celebrity Escorts</option>
+                          <option value="vip">VIP Escorts</option>
+                          <option value="premium">Premium Models</option>
+                          <option value="college">College Girls</option>
+                          <option value="housewife">Housewife Escorts</option>
+                          <option value="punjabi">Punjabi Women</option>
+                        </select>
+                      </div>
+                      <div>
+                        <select className="w-full px-4 py-3 border border-gray-300 rounded-2xl focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-500/20 transition-all duration-300 text-gray-700">
+                          <option value="">Select Location</option>
+                          <option value="vijaynagar">Vijay Nagar</option>
+                          <option value="palasia">Palasia</option>
+                          <option value="abroad">AB Road</option>
+                          <option value="saket">Saket</option>
+                          <option value="indore">Indore</option>
+                          <option value="rau">Rau</option>
+                        </select>
+                      </div>
+                      <div>
+                        <textarea 
+                          placeholder="Special Requirements (Optional)" 
+                          rows={3}
+                          className="w-full px-4 py-3 border border-gray-300 rounded-2xl focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-500/20 transition-all duration-300 resize-none"
+                        ></textarea>
+                      </div>
+                    </form>
+                    <div className="mt-6 flex flex-col sm:flex-row gap-4">
+                      <a href="tel:+919372662471" className="bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-6 py-3 rounded-2xl font-bold text-center transition-all duration-300 transform hover:scale-105 flex-1">
+                        📞 Call to Book
                       </a>
-                      <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-6 py-3 rounded-2xl font-bold text-center transition-all duration-300 transform hover:scale-105">
-                        💬 WhatsApp
+                      <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-6 py-3 rounded-2xl font-bold text-center transition-all duration-300 transform hover:scale-105 flex-1">
+                        💬 WhatsApp to Book
                       </a>
                     </div>
                   </div>
@@ -641,22 +751,22 @@ export default function Home() {
         </section>
 
         {/* Footer */}
-        <footer className="bg-gradient-to-r from-gray-800 to-gray-900 text-white py-16 px-4">
+        <footer className="bg-gradient-to-br from-pink-600 via-purple-700 to-blue-800 text-white py-16 px-4">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               
               <div>
-                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-pink-400 to-blue-400 bg-clip-text text-transparent">
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-white to-pink-200 bg-clip-text text-transparent">
                   Indore Premium Escort Service
                 </h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   Premium escort services in Indore with verified professional companions. Available 24/7 across all major locations with complete discretion and satisfaction guarantee.
                 </p>
                 <div className="flex space-x-4">
-                  <a href="tel:+919372662471" className="bg-pink-600 hover:bg-pink-700 px-4 py-2 rounded-full transition-colors">
+                  <a href="tel:+919372662471" className="bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105 font-bold">
                     📞 Call
                   </a>
-                  <a href="https://wa.me/919372662471" className="bg-green-600 hover:bg-green-700 px-4 py-2 rounded-full transition-colors">
+                  <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105 font-bold">
                     💬 WhatsApp
                   </a>
                 </div>
@@ -676,33 +786,33 @@ export default function Home() {
                 <h3 className="text-xl font-bold mb-6">Contact Information</h3>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
-                    <span className="text-pink-400">📞</span>
-                    <a href="tel:+919372662471" className="text-gray-300 hover:text-white">+91 9372 662 471</a>
+                    <span className="text-pink-300">📞</span>
+                    <a href="tel:+919372662471" className="text-gray-100 hover:text-white">+91 9372 662 471</a>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <span className="text-green-400">💬</span>
-                    <a href="https://wa.me/919372662471" className="text-gray-300 hover:text-white">WhatsApp Available</a>
+                    <span className="text-blue-300">💬</span>
+                    <a href="https://wa.me/919372662471" className="text-gray-100 hover:text-white">WhatsApp Available</a>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <span className="text-blue-400">✉️</span>
-                    <a href="mailto:contact@indoreescortservice.com" className="text-gray-300 hover:text-white">contact@indoreescortservice.com</a>
+                    <span className="text-purple-300">✉️</span>
+                    <a href="mailto:contact@indoreescortservice.com" className="text-gray-100 hover:text-white">contact@indoreescortservice.com</a>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <span className="text-orange-400">📍</span>
-                    <span className="text-gray-300">All Indore Areas</span>
+                    <span className="text-pink-300">📍</span>
+                    <span className="text-gray-100">All Indore Areas</span>
                   </div>
                 </div>
               </div>
             </div>
             
-            <div className="border-t border-gray-700 mt-12 pt-8 text-center">
-              <p className="text-gray-400 mb-4">
+            <div className="border-t border-pink-400/30 mt-12 pt-8 text-center">
+              <p className="text-gray-100 mb-4">
                 © 2024 Indore Premium Escort Service. All rights reserved. | 
-                <span className="text-pink-400"> 24/7 Available</span> | 
-                <span className="text-blue-400"> 100% Verified</span> | 
-                <span className="text-green-400"> Complete Discretion</span>
+                <span className="text-pink-200"> 24/7 Available</span> | 
+                <span className="text-blue-200"> 100% Verified</span> | 
+                <span className="text-purple-200"> Complete Discretion</span>
               </p>
-              <p className="text-gray-500 text-sm">
+              <p className="text-gray-200 text-sm">
                 Professional escort services for adults only. Must be 18+ to use our services.
               </p>
             </div>
