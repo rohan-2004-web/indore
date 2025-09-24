@@ -122,16 +122,16 @@ export default function Home() {
   ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-pink-50/30 via-pink-50/20 to-blue-50/30">
+    <div className="min-h-screen bg-gradient-to-br from-pink-100/70 via-orange-100/50 to-pink-200/60">
       <Header />
       
       {/* Hero Section */}
-      <section id="home" className="relative min-h-screen bg-gradient-to-br from-pink-600 via-purple-700 to-blue-800 overflow-hidden">
+      <section id="home" className="relative min-h-screen bg-gradient-to-br from-pink-500 via-orange-400 to-pink-600 overflow-hidden">
         {/* Animated Background Elements */}
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute -top-40 -left-40 w-80 h-80 bg-pink-400 rounded-full opacity-20 animate-pulse"></div>
-          <div className="absolute top-40 -right-40 w-96 h-96 bg-blue-400 rounded-full opacity-20 animate-pulse delay-1000"></div>
-          <div className="absolute bottom-40 left-1/3 w-64 h-64 bg-purple-400 rounded-full opacity-20 animate-pulse delay-2000"></div>
+          <div className="absolute -top-40 -left-40 w-80 h-80 bg-pink-300 rounded-full opacity-20 animate-pulse"></div>
+          <div className="absolute top-40 -right-40 w-96 h-96 bg-orange-300 rounded-full opacity-20 animate-pulse delay-1000"></div>
+          <div className="absolute bottom-40 left-1/3 w-64 h-64 bg-pink-400 rounded-full opacity-20 animate-pulse delay-2000"></div>
         </div>
 
         {/* Hero Content */}
@@ -139,7 +139,7 @@ export default function Home() {
           <div className="text-center text-white max-w-7xl mx-auto">
             <div className="mb-8">
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
-                <span className="bg-gradient-to-r from-white via-pink-200 to-blue-200 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-white via-pink-200 to-orange-300 bg-clip-text text-transparent">
                   Saumya Kapoor
                 </span>
               </h1>
@@ -154,10 +154,10 @@ export default function Home() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-16">
-              <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-12 py-6 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-xl">
+              <a href="tel:+919372662471" className="bg-gradient-to-r from-green-400 to-green-500 hover:from-green-500 hover:to-green-600 text-white px-12 py-6 rounded-full text-xl font-black transition-all duration-300 transform hover:scale-105 shadow-xl">
                 📞 Call Now 24/7
               </a>
-              <a href="#services" className="border-2 border-white text-white px-12 py-6 rounded-full text-xl font-bold hover:bg-white hover:text-purple-700 transition-all duration-300 transform hover:scale-105">
+              <a href="#services" className="border-2 border-white text-white px-12 py-6 rounded-full text-xl font-black hover:bg-white hover:text-purple-700 transition-all duration-300 transform hover:scale-105">
                 View Escorts
               </a>
             </div>
@@ -190,7 +190,7 @@ export default function Home() {
       </section>
 
       {/* Contact & Location Quick Access */}
-      <section className="py-16 bg-gradient-to-r from-pink-100/50 to-blue-100/50">
+      <section className="py-16 bg-gradient-to-r from-pink-100/60 to-orange-100/60">
         <div className="w-full px-4">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -228,10 +228,10 @@ export default function Home() {
 
       {/* Why Choose Our Escorts In Indore Section */}
       <section className="py-20 px-4 relative">
-        <div className="absolute inset-0 bg-gradient-to-br from-pink-50/30 via-white to-blue-50/30"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-pink-100/40 via-orange-50/30 to-pink-200/40"></div>
         <div className="container mx-auto relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 bg-clip-text text-transparent mb-6">
+            <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
               Why Choose Our Escorts In Indore
             </h2>
           </div>
@@ -278,10 +278,10 @@ export default function Home() {
       </section>
 
       {/* Services Section - 3x3 Horizontal Layout */}
-      <section id="services" className="py-20 bg-gradient-to-br from-pink-50/40 via-pink-50/30 to-blue-50/40">
+      <section id="services" className="py-20 bg-gradient-to-br from-pink-100/50 via-orange-50/40 to-pink-200/50">
         <div className="w-full px-4">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-blue-600 to-blue-700 bg-clip-text text-transparent mb-6">
+            <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
               Premium Escorts In Indore - Our Services
             </h2>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
@@ -310,7 +310,7 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent"></div>
                     
                     {/* Category Badge */}
-                    <div className="absolute top-6 left-6 bg-gradient-to-r from-pink-500 to-blue-600 backdrop-blur-sm px-5 py-3 rounded-2xl text-sm font-bold text-white shadow-2xl border border-white/20">
+                    <div className="absolute top-6 left-6 bg-gradient-to-r from-pink-400 to-orange-300 backdrop-blur-sm px-5 py-3 rounded-2xl text-sm font-black text-white shadow-2xl border border-white/20">
                       {service.icon} {service.category}
                     </div>
 
@@ -340,7 +340,7 @@ export default function Home() {
                       </div>
                     </div>
                     
-                    <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 py-4 rounded-2xl font-bold text-lg text-center transition-all duration-300 transform hover:scale-105 shadow-lg">
+                    <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-6 py-4 rounded-2xl font-bold text-lg text-center transition-all duration-300 transform hover:scale-105 shadow-lg">
                       📞 Book {service.title}
                     </a>
                   </div>
@@ -393,7 +393,7 @@ export default function Home() {
                       </div>
                     </div>
                     
-                    <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 py-4 rounded-2xl font-bold text-lg text-center transition-all duration-300 transform hover:scale-105 shadow-lg">
+                    <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-6 py-4 rounded-2xl font-bold text-lg text-center transition-all duration-300 transform hover:scale-105 shadow-lg">
                       📞 Book {service.title}
                     </a>
                   </div>
@@ -446,7 +446,7 @@ export default function Home() {
                       </div>
                     </div>
                     
-                    <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 py-4 rounded-2xl font-bold text-lg text-center transition-all duration-300 transform hover:scale-105 shadow-lg">
+                    <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-6 py-4 rounded-2xl font-bold text-lg text-center transition-all duration-300 transform hover:scale-105 shadow-lg">
                       📞 Book {service.title}
                     </a>
                   </div>
@@ -493,7 +493,7 @@ export default function Home() {
                     <p className="text-blue-600 font-bold text-lg mb-4">{location.area}</p>
                     <p className="text-gray-600 text-base mb-6 leading-relaxed">{location.description}</p>
                   </div>
-                  <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:from-blue-600 hover:via-blue-700 hover:to-blue-800 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center">
+                  <a href="/locations#vijay-nagar" className="w-full inline-block bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:from-blue-600 hover:via-blue-700 hover:to-blue-800 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center">
                     📞 Book in {location.name}
                   </a>
                 </div>
@@ -656,44 +656,238 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section id="faq" className="py-20 bg-gradient-to-br from-pink-50/40 via-pink-50/30 to-blue-50/40">
-        <div className="w-full px-4">
+      {/* FAQ Section - Stylish Pink-Orange Theme */}
+      <section id="faq" className="py-20 bg-gradient-to-br from-pink-200/60 via-orange-100/50 to-pink-300/40 relative overflow-hidden">
+        {/* Decorative Background Elements */}
+        <div className="absolute inset-0">
+          <div className="absolute top-20 left-10 w-32 h-32 bg-pink-300/30 rounded-full blur-xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-40 h-40 bg-orange-300/30 rounded-full blur-xl animate-pulse delay-1000"></div>
+          <div className="absolute top-1/2 left-1/2 w-24 h-24 bg-pink-400/20 rounded-full blur-xl animate-pulse delay-500"></div>
+        </div>
+        
+        <div className="w-full px-4 relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-blue-600 to-blue-700 bg-clip-text text-transparent mb-6">
+            <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-pink-500 to-orange-500 rounded-full mb-6 shadow-2xl">
+              <span className="text-3xl">❓</span>
+            </div>
+            <h2 className="text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6 drop-shadow-lg">
               Frequently Asked Questions
             </h2>
             <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-              Get detailed answers to common questions about our premium escort services in Indore
+              Get detailed answers to all your questions about our premium escort services in Indore
             </p>
           </div>
 
-          <div className="max-w-6xl mx-auto space-y-6">
-            {faqs.map((faq, index) => (
-              <div key={index} className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden border border-pink-200/50">
-                <button
-                  className="w-full px-8 py-8 text-left font-bold text-xl text-gray-800 hover:bg-pink-50/50 transition-all duration-300 flex items-center justify-between"
-                  onClick={() => toggleFaq(index)}
-                >
-                  <span className="text-gray-800 leading-relaxed">{faq.question}</span>
-                  <span className={`transform transition-transform duration-300 text-2xl text-blue-600 ${openFaq === index ? 'rotate-180' : ''}`}>
-                    ⌄
-                  </span>
-                </button>
-                {openFaq === index && (
-                  <div className="px-8 pb-8 bg-gradient-to-r from-pink-50/30 to-blue-50/30">
-                    <div className="w-full h-px bg-gradient-to-r from-pink-300 to-blue-300 mb-6"></div>
-                    <p className="text-gray-700 text-lg leading-relaxed font-medium">{faq.answer}</p>
+          {/* 2-Column FAQ Layout */}
+          <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              {/* Left Column */}
+              <div className="space-y-6">
+                {faqs.slice(0, Math.ceil(faqs.length / 2)).map((faq, index) => (
+                  <div key={index} className="group">
+                    <div className="bg-gradient-to-br from-white/95 via-pink-50/50 to-orange-50/30 backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden border-2 border-transparent hover:border-pink-300/50 transition-all duration-500 transform hover:-translate-y-2">
+                      <button
+                        className="w-full px-8 py-8 text-left transition-all duration-300 flex items-center justify-between group-hover:bg-gradient-to-r group-hover:from-pink-100/40 group-hover:to-orange-100/40"
+                        onClick={() => toggleFaq(index)}
+                      >
+                        <div className="flex items-center space-x-4 flex-1">
+                          <div className="w-12 h-12 bg-gradient-to-br from-pink-500 to-orange-500 rounded-full flex items-center justify-center shadow-lg">
+                            <span className="text-white font-bold text-lg">{index + 1}</span>
+                          </div>
+                          <span className="text-gray-800 leading-relaxed font-bold text-lg group-hover:text-pink-700 transition-colors duration-300">{faq.question}</span>
+                        </div>
+                        <div className={`transform transition-all duration-300 w-10 h-10 bg-gradient-to-br ${openFaq === index ? 'from-orange-500 to-pink-500 rotate-180' : 'from-pink-400 to-orange-400'} rounded-full flex items-center justify-center shadow-lg group-hover:scale-110`}>
+                          <span className="text-white text-xl font-bold">⌄</span>
+                        </div>
+                      </button>
+                      {openFaq === index && (
+                        <div className="px-8 pb-8 bg-gradient-to-r from-pink-100/50 via-orange-50/30 to-pink-100/50">
+                          <div className="w-full h-1 bg-gradient-to-r from-pink-400 via-orange-400 to-pink-500 rounded-full mb-6 shadow-sm"></div>
+                          <div className="bg-white/80 p-6 rounded-2xl shadow-lg border border-pink-200/50">
+                            <p className="text-gray-700 text-lg leading-relaxed font-medium">{faq.answer}</p>
+                          </div>
+                        </div>
+                      )}
+                    </div>
                   </div>
-                )}
+                ))}
               </div>
-            ))}
+
+              {/* Right Column */}
+              <div className="space-y-6">
+                {faqs.slice(Math.ceil(faqs.length / 2)).map((faq, index) => {
+                  const actualIndex = index + Math.ceil(faqs.length / 2);
+                  return (
+                    <div key={actualIndex} className="group">
+                      <div className="bg-gradient-to-br from-white/95 via-orange-50/50 to-pink-50/30 backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden border-2 border-transparent hover:border-orange-300/50 transition-all duration-500 transform hover:-translate-y-2">
+                        <button
+                          className="w-full px-8 py-8 text-left transition-all duration-300 flex items-center justify-between group-hover:bg-gradient-to-r group-hover:from-orange-100/40 group-hover:to-pink-100/40"
+                          onClick={() => toggleFaq(actualIndex)}
+                        >
+                          <div className="flex items-center space-x-4 flex-1">
+                            <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-pink-500 rounded-full flex items-center justify-center shadow-lg">
+                              <span className="text-white font-bold text-lg">{actualIndex + 1}</span>
+                            </div>
+                            <span className="text-gray-800 leading-relaxed font-bold text-lg group-hover:text-orange-700 transition-colors duration-300">{faq.question}</span>
+                          </div>
+                          <div className={`transform transition-all duration-300 w-10 h-10 bg-gradient-to-br ${openFaq === actualIndex ? 'from-pink-500 to-orange-500 rotate-180' : 'from-orange-400 to-pink-400'} rounded-full flex items-center justify-center shadow-lg group-hover:scale-110`}>
+                            <span className="text-white text-xl font-bold">⌄</span>
+                          </div>
+                        </button>
+                        {openFaq === actualIndex && (
+                          <div className="px-8 pb-8 bg-gradient-to-r from-orange-100/50 via-pink-50/30 to-orange-100/50">
+                            <div className="w-full h-1 bg-gradient-to-r from-orange-400 via-pink-400 to-orange-500 rounded-full mb-6 shadow-sm"></div>
+                            <div className="bg-white/80 p-6 rounded-2xl shadow-lg border border-orange-200/50">
+                              <p className="text-gray-700 text-lg leading-relaxed font-medium">{faq.answer}</p>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Form & Map Section */}
+      <section className="py-20 bg-gradient-to-br from-pink-100/60 via-orange-100/50 to-pink-200/60">
+        <div className="w-full px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+              Contact Us & Location
+            </h2>
+            <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+              Get in touch with us or visit our locations across Indore
+            </p>
+          </div>
+
+          <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
+            {/* Contact Form */}
+            <div className="bg-gradient-to-br from-white/95 via-pink-50/30 to-blue-50/30 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-pink-200/50">
+              <div className="text-center mb-8">
+                <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent mb-4">
+                  📝 Contact Form
+                </h3>
+                <p className="text-gray-600">Fill out the form below and we'll get back to you instantly</p>
+              </div>
+
+              <form className="space-y-6">
+                <div>
+                  <label className="block text-lg font-semibold text-gray-700 mb-2">Full Name *</label>
+                  <input 
+                    type="text" 
+                    className="w-full px-4 py-4 rounded-2xl border-2 border-pink-200 focus:border-pink-500 focus:outline-none transition-colors duration-300 bg-white/80 text-gray-800 placeholder-gray-500"
+                    placeholder="Enter your full name"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-lg font-semibold text-gray-700 mb-2">Mobile Number *</label>
+                  <input 
+                    type="tel" 
+                    className="w-full px-4 py-4 rounded-2xl border-2 border-pink-200 focus:border-pink-500 focus:outline-none transition-colors duration-300 bg-white/80 text-gray-800 placeholder-gray-500"
+                    placeholder="+91 9876543210"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-lg font-semibold text-gray-700 mb-2">Address</label>
+                  <input 
+                    type="text" 
+                    className="w-full px-4 py-4 rounded-2xl border-2 border-pink-200 focus:border-pink-500 focus:outline-none transition-colors duration-300 bg-white/80 text-gray-800 placeholder-gray-500"
+                    placeholder="Your address in Indore"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-lg font-semibold text-gray-700 mb-2">Service Required</label>
+                  <select className="w-full px-4 py-4 rounded-2xl border-2 border-pink-200 focus:border-pink-500 focus:outline-none transition-colors duration-300 bg-white/80 text-gray-800">
+                    <option>Select Service Type</option>
+                    <option>College Girls</option>
+                    <option>Celebrity Escorts</option>
+                    <option>Housewife</option>
+                    <option>Russian Models</option>
+                    <option>VIP Escorts</option>
+                    <option>Air Hostess</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label className="block text-lg font-semibold text-gray-700 mb-2">Message</label>
+                  <textarea 
+                    rows={4}
+                    className="w-full px-4 py-4 rounded-2xl border-2 border-pink-200 focus:border-pink-500 focus:outline-none transition-colors duration-300 bg-white/80 text-gray-800 placeholder-gray-500"
+                    placeholder="Tell us about your requirements..."
+                  ></textarea>
+                </div>
+
+                <button 
+                  type="submit" 
+                  className="w-full bg-gradient-to-r from-pink-500 to-orange-400 hover:from-pink-600 hover:to-orange-500 text-white px-6 py-4 rounded-2xl font-black text-lg transition-all duration-300 transform hover:scale-105 shadow-xl"
+                >
+                  📩 Submit Request
+                </button>
+
+                <div className="text-center pt-4">
+                  <p className="text-gray-600">Or call directly:</p>
+                  <a href="tel:+919372662471" className="text-2xl font-bold text-pink-600 hover:text-pink-800 transition-colors">
+                    📞 +91 9372 662 471
+                  </a>
+                </div>
+              </form>
+            </div>
+
+            {/* Google Map */}
+            <div className="bg-gradient-to-br from-white/95 via-blue-50/30 to-pink-50/30 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-blue-200/50">
+              <div className="text-center mb-8">
+                <h3 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-pink-600 bg-clip-text text-transparent mb-4">
+                  📍 Indore Map & Locations
+                </h3>
+                <p className="text-gray-600">We cover all major areas of Indore city</p>
+              </div>
+
+              {/* Interactive Google Map */}
+              <div className="relative w-full h-96 rounded-2xl overflow-hidden shadow-xl border-2 border-pink-200">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117218.64026851222!2d75.69903597775723!3d22.724509261506667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1703845201234!5m2!1sen!2sin"
+                  width="100%"
+                  height="100%"
+                  style={{border: 0}}
+                  allowFullScreen={true}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="rounded-2xl"
+                ></iframe>
+              </div>
+
+              {/* Quick Location Links */}
+              <div className="mt-6 space-y-3">
+                <h4 className="text-xl font-bold text-gray-800 mb-4">🗺️ Quick Access Areas:</h4>
+                <div className="grid grid-cols-2 gap-3">
+                  <a href="#vijay-nagar" className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-4 py-2 rounded-xl text-center font-semibold transition-all duration-300 transform hover:scale-105">
+                    Vijay Nagar
+                  </a>
+                  <a href="#saket" className="bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-4 py-2 rounded-xl text-center font-semibold transition-all duration-300 transform hover:scale-105">
+                    Saket
+                  </a>
+                  <a href="#ab-road" className="bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-4 py-2 rounded-xl text-center font-semibold transition-all duration-300 transform hover:scale-105">
+                    AB Road
+                  </a>
+                  <a href="#palasia" className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white px-4 py-2 rounded-xl text-center font-semibold transition-all duration-300 transform hover:scale-105">
+                    Palasia
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600">
+      <section className="py-20 bg-gradient-to-r from-pink-500 via-pink-400 to-orange-300">
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
@@ -781,58 +975,61 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-gray-900 text-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      {/* Footer - Pink-Orange Theme */}
+      <footer className="bg-gradient-to-br from-pink-900 via-orange-800 to-pink-800 text-white py-16">
+        <div className="w-full px-4">
+          <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-2xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-400">
+              <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-pink-200 via-orange-200 to-pink-300 bg-clip-text text-transparent drop-shadow-lg">
                 Saumya Kapoor
               </h3>
-              <p className="text-gray-300 mb-6 leading-relaxed">
-                Premium companion services with complete discretion and professionalism. Your satisfaction is our priority.
+              <p className="text-gray-200 mb-6 leading-relaxed">
+                Premium escort services in Indore with complete discretion and professionalism. Your satisfaction is our priority.
               </p>
               <div className="flex gap-4">
-                <a href="tel:+919372662471" className="bg-green-600 hover:bg-green-700 px-4 py-2 rounded-full text-sm font-semibold transition-colors duration-300">
-                  Call Now
+                <a href="tel:+919372662471" className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 px-4 py-2 rounded-full text-sm font-semibold transition-all duration-300 transform hover:scale-105">
+                  📞 Call Now
+                </a>
+                <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 px-4 py-2 rounded-full text-sm font-semibold transition-all duration-300 transform hover:scale-105">
+                  💬 WhatsApp
                 </a>
               </div>
             </div>
             
             <div>
-              <h4 className="text-lg font-semibold mb-6">Services</h4>
-              <ul className="space-y-3 text-gray-300">
-                <li>VIP Companions</li>
-                <li>Elite Models</li>
-                <li>Celebrity Style</li>
-                <li>Premium Service</li>
+              <h4 className="text-lg font-semibold mb-6 text-purple-200">Services</h4>
+              <ul className="space-y-3 text-gray-200">
+                <li>🌟 VIP Escorts</li>
+                <li>👸 Elite Models</li>
+                <li>💎 Celebrity Style</li>
+                <li>🎯 Premium Service</li>
               </ul>
             </div>
             
             <div>
-              <h4 className="text-lg font-semibold mb-6">Features</h4>
-              <ul className="space-y-3 text-gray-300">
-                <li>24/7 Availability</li>
-                <li>Verified Professionals</li>
-                <li>Complete Discretion</li>
-                <li>Instant Booking</li>
+              <h4 className="text-lg font-semibold mb-6 text-blue-200">Features</h4>
+              <ul className="space-y-3 text-gray-200">
+                <li>⏰ 24/7 Availability</li>
+                <li>✅ Verified Professionals</li>
+                <li>🔒 Complete Discretion</li>
+                <li>⚡ Instant Booking</li>
               </ul>
             </div>
             
             <div>
-              <h4 className="text-lg font-semibold mb-6">Contact</h4>
-              <div className="space-y-3 text-gray-300">
+              <h4 className="text-lg font-semibold mb-6 text-pink-200">Contact</h4>
+              <div className="space-y-3 text-gray-200">
                 <p>📞 +91 9372662471</p>
                 <p>💬 WhatsApp Available</p>
-                <p>🌍 All Major Cities</p>
+                <p>🗺️ All Indore Areas</p>
                 <p>⚡ 24/7 Service</p>
               </div>
             </div>
           </div>
           
-          <div className="border-t border-gray-700 mt-12 pt-8 text-center">
-            <p className="text-gray-400">
-              © 2025 Saumya Kapoor. All rights reserved. | Premium Companion Services
+          <div className="border-t border-purple-300/30 mt-12 pt-8 text-center">
+            <p className="text-purple-200 text-lg">
+              © 2025 <span className="font-bold bg-gradient-to-r from-pink-300 to-blue-300 bg-clip-text text-transparent">Saumya Kapoor</span>. All rights reserved. | Premium Escort Services in Indore
             </p>
           </div>
         </div>

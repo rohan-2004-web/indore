@@ -25,7 +25,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="text-3xl font-bold">
-            <span className="bg-gradient-to-r from-pink-500 via-pink-600 to-blue-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-pink-600 via-pink-500 to-orange-400 bg-clip-text text-transparent drop-shadow-2xl filter brightness-110">
               Saumya Kapoor
             </span>
           </div>
