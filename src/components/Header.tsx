@@ -32,27 +32,27 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className={`font-semibold transition-all duration-300 hover:scale-105 ${
+            <a href="#home" className={`font-bold text-lg transition-all duration-300 hover:scale-105 ${
               isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
             }`}>
               Home
             </a>
-            <a href="#about" className={`font-semibold transition-all duration-300 hover:scale-105 ${
+            <a href="#about" className={`font-bold text-lg transition-all duration-300 hover:scale-105 ${
               isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
             }`}>
               About
             </a>
-            <a href="#services" className={`font-semibold transition-all duration-300 hover:scale-105 ${
+            <a href="#services" className={`font-bold text-lg transition-all duration-300 hover:scale-105 ${
               isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
             }`}>
               Services
             </a>
-            <a href="#gallery" className={`font-semibold transition-all duration-300 hover:scale-105 ${
+            <a href="#gallery" className={`font-bold text-lg transition-all duration-300 hover:scale-105 ${
               isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
             }`}>
               Gallery
             </a>
-            <a href="#contact" className={`font-semibold transition-all duration-300 hover:scale-105 ${
+            <a href="#contact" className={`font-bold text-lg transition-all duration-300 hover:scale-105 ${
               isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
             }`}>
               Contact
@@ -87,22 +87,22 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden mt-4 pb-4 border-t border-pink-100 bg-white/95 backdrop-blur-lg rounded-lg">
             <div className="flex flex-col space-y-2 mt-4">
-              <a href="#home" className="text-gray-700 hover:text-pink-500 transition-colors font-semibold py-3 px-4 hover:bg-pink-50 rounded-lg">
+              <a href="#home" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-lg py-3 px-4 hover:bg-pink-50 rounded-lg">
                 Home
               </a>
-              <a href="#about" className="text-gray-700 hover:text-pink-500 transition-colors font-semibold py-3 px-4 hover:bg-pink-50 rounded-lg">
+              <a href="#about" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-lg py-3 px-4 hover:bg-pink-50 rounded-lg">
                 About
               </a>
-              <a href="#services" className="text-gray-700 hover:text-pink-500 transition-colors font-semibold py-3 px-4 hover:bg-pink-50 rounded-lg">
+              <a href="#services" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-lg py-3 px-4 hover:bg-pink-50 rounded-lg">
                 Services
               </a>
-              <a href="#gallery" className="text-gray-700 hover:text-pink-500 transition-colors font-semibold py-3 px-4 hover:bg-pink-50 rounded-lg">
+              <a href="#gallery" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-lg py-3 px-4 hover:bg-pink-50 rounded-lg">
                 Gallery
               </a>
-              <a href="#contact" className="text-gray-700 hover:text-pink-500 transition-colors font-semibold py-3 px-4 hover:bg-pink-50 rounded-lg">
+              <a href="#contact" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-lg py-3 px-4 hover:bg-pink-50 rounded-lg">
                 Contact
               </a>
-              <a href="#contact" className="bg-gradient-to-r from-pink-500 to-blue-600 text-white px-6 py-3 rounded-full font-semibold text-center mx-4 mt-2">
+              <a href="#contact" className="bg-gradient-to-r from-pink-500 to-blue-600 text-white px-6 py-3 rounded-full font-bold text-center mx-4 mt-2">
                 Get Started
               </a>
             </div>
