@@ -32,19 +32,19 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
-            <a href="#home" className="font-black text-lg text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
+            <a href="#home" className="font-black text-xl text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
               Home
             </a>
-            <a href="#about" className="font-black text-lg text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
+            <a href="#about" className="font-black text-xl text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
               About
             </a>
-            <a href="#services" className="font-black text-lg text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
+            <a href="#services" className="font-black text-xl text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
               Services
             </a>
-            <a href="#gallery" className="font-black text-lg text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
+            <a href="#gallery" className="font-black text-xl text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
               Gallery
             </a>
-            <a href="#contact" className="font-black text-lg text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
+            <a href="#contact" className="font-black text-xl text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
               Contact
             </a>
           </div>

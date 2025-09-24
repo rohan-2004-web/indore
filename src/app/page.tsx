@@ -176,6 +176,109 @@ export default function Home() {
           </div>
         </section>
 
+        {/* How To Book Section */}
+        <section className="py-20 px-4 bg-gradient-to-br from-pink-100/80 to-orange-100/80">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+                How To Book Our Escort Service In Indore
+              </h2>
+              <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto font-medium">
+                Simple and quick booking process for premium escort services
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+              {/* Step 1 */}
+              <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-pink-200/50 text-center transform hover:-translate-y-3 transition-all duration-500">
+                <div className="text-6xl font-bold text-pink-600 mb-4">1</div>
+                <h3 className="text-2xl font-bold text-gray-800 mb-4">Contact Us</h3>
+                <p className="text-gray-600 text-lg mb-6 leading-relaxed">
+                  Call us at +91 9372662471 or WhatsApp to discuss your requirements
+                </p>
+                <div className="space-y-3">
+                  <a 
+                    href="tel:+919372662471" 
+                    className="block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-6 py-3 rounded-2xl font-bold text-base transition-all duration-300 transform hover:scale-105 shadow-lg"
+                  >
+                    📞 Call
+                  </a>
+                  <a 
+                    href="https://wa.me/919372662471" 
+                    className="block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-6 py-3 rounded-2xl font-bold text-base transition-all duration-300 transform hover:scale-105 shadow-lg"
+                  >
+                    💬 WhatsApp
+                  </a>
+                </div>
+              </div>
+              
+              {/* Step 2 */}
+              <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-200/50 text-center transform hover:-translate-y-3 transition-all duration-500">
+                <div className="text-6xl font-bold text-orange-600 mb-4">2</div>
+                <h3 className="text-2xl font-bold text-gray-800 mb-4">Choose Service</h3>
+                <p className="text-gray-600 text-lg mb-6 leading-relaxed">
+                  Select your preferred companion type and service duration
+                </p>
+                <a 
+                  href="tel:+919372662471" 
+                  className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                >
+                  View Services
+                </a>
+              </div>
+              
+              {/* Step 3 */}
+              <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-pink-200/50 text-center transform hover:-translate-y-3 transition-all duration-500">
+                <div className="text-6xl font-bold text-pink-600 mb-4">3</div>
+                <h3 className="text-2xl font-bold text-gray-800 mb-4">Enjoy Service</h3>
+                <p className="text-gray-600 text-lg mb-6 leading-relaxed">
+                  Meet your professional companion and enjoy premium service
+                </p>
+                <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg shadow-lg">
+                  💯 100% Satisfaction
+                </div>
+              </div>
+            </div>
+            
+            {/* Contact Section */}
+            <div className="bg-gradient-to-r from-pink-600/10 to-orange-600/10 rounded-3xl p-12 text-center">
+              <h3 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Ready to Book? Contact Us Now</h3>
+              <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+                24/7 available for instant bookings. Professional service across all Indore locations.
+              </p>
+              
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="bg-white/90 rounded-2xl p-8 shadow-xl">
+                  <div className="text-5xl mb-4">📞</div>
+                  <h4 className="text-xl font-bold text-gray-800 mb-2">Call Now</h4>
+                  <a href="tel:+919372662471" className="text-pink-600 font-bold text-lg hover:underline">
+                    +91 9372 662 471
+                  </a>
+                  <p className="text-gray-600 mt-2">Instant Response</p>
+                </div>
+                
+                <div className="bg-white/90 rounded-2xl p-8 shadow-xl">
+                  <div className="text-5xl mb-4">💬</div>
+                  <h4 className="text-xl font-bold text-gray-800 mb-2">WhatsApp</h4>
+                  <a href="https://wa.me/919372662471" className="text-green-600 font-bold text-lg hover:underline">
+                    Chat Instantly
+                  </a>
+                  <p className="text-gray-600 mt-2">Quick Response</p>
+                </div>
+                
+                <div className="bg-white/90 rounded-2xl p-8 shadow-xl">
+                  <div className="text-5xl mb-4">✉️</div>
+                  <h4 className="text-xl font-bold text-gray-800 mb-2">Email</h4>
+                  <a href="mailto:contact@indoreescortservice.com" className="text-blue-600 font-bold text-lg hover:underline">
+                    Send Message
+                  </a>
+                  <p className="text-gray-600 mt-2">Professional Support</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Why Choose Our Escorts In Indore Section */}
         <section className="py-20 px-2 relative">
           <div className="absolute inset-0 bg-gradient-to-br from-pink-200/60 via-orange-100/50 to-pink-300/60"></div>
@@ -268,7 +371,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Celebrity Escorts</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Premium companions with star quality service</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Celebrity Girls</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-blue-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -277,7 +380,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">VIP Escorts</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Ultimate luxury companions for discerning clients</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book VIP Girls</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-orange-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -286,7 +389,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Premium Models</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">High-end models with sophistication</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Girls</a>
                 </div>
 
                 {/* Row 2 - College, Housewife, Punjabi */}
@@ -296,7 +399,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">College Girls</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Young energetic companions for memorable experiences</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-purple-500 to-purple-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-purple-500 to-purple-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book College Girls</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-green-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -305,7 +408,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Housewife Escorts</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Mature experienced companions with caring nature</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Girls</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-red-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -314,7 +417,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Punjabi Women</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Beautiful Punjabi companions with traditional charm</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-red-500 to-red-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-red-500 to-red-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Girls</a>
                 </div>
 
                 {/* Row 3 - Slim, Unsatisfied Bhabhi, Local */}
@@ -324,7 +427,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Slim Escorts</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Elegant slim companions with perfect figure</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-teal-500 to-teal-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-teal-500 to-teal-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Girls</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-indigo-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -333,7 +436,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Unsatisfied Bhabhi</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Experienced companions seeking excitement</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Girls</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -342,7 +445,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Local Beauties</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Beautiful local companions who know Indore</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Girls</a>
                 </div>
 
                 {/* Row 4 - Event, Pink Special, Unsatisfied Females */}
@@ -352,7 +455,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Event Companion</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Perfect companions for social events and parties</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-yellow-500 to-yellow-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-yellow-500 to-yellow-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Girls</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-rose-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -361,7 +464,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Pink Special</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Special premium companions for exclusive experiences</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-rose-500 to-rose-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-rose-500 to-rose-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Girls</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-violet-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -370,7 +473,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Unsatisfied Females</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Mature women seeking meaningful connections</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-violet-500 to-violet-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-violet-500 to-violet-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Girls</a>
                 </div>
 
                 {/* Row 5 - New Additional Services */}
@@ -380,7 +483,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Incall Escorts</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Premium incall services at luxury locations</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Girls</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-amber-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -389,7 +492,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Mature Escorts</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Experienced mature companions with sophistication</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-amber-500 to-amber-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-amber-500 to-amber-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Girls</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-emerald-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -398,7 +501,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Young Girls</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Young beautiful companions for unforgettable experiences</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-emerald-500 to-emerald-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-emerald-500 to-emerald-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Girls</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-indigo-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -407,7 +510,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Indore Escorts</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Premium local escorts with deep knowledge of Indore city</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">View Details</a>
+                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Girls</a>
                 </div>
 
               </div>
@@ -680,7 +783,7 @@ export default function Home() {
                 <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">2</div>
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">Choose Service</h3>
                 <p className="text-gray-600 mb-6">Select your preferred companion type and service duration</p>
-                <a href="/services" className="bg-blue-500 text-white px-6 py-2 rounded-full font-bold">View Services</a>
+                <a href="tel:+919372662471" className="bg-blue-500 text-white px-6 py-2 rounded-full font-bold">View Services</a>
               </div>
               
               <div className="bg-white/90 backdrop-blur-md rounded-3xl p-8 shadow-2xl border border-orange-100/50 text-center">
@@ -906,19 +1009,19 @@ export default function Home() {
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent">🌟 Our Services</h3>
                 <div className="space-y-3">
-                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">💎 Celebrity Escorts</a>
-                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">👑 VIP Escorts</a>
-                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">✨ Premium Models</a>
-                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🎓 College Girls</a>
-                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🏠 Housewife Escorts</a>
-                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">👸 Punjabi Women</a>
+                  <a href="tel:+919372662471" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">💎 Celebrity Escorts</a>
+                  <a href="tel:+919372662471" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">👑 VIP Escorts</a>
+                  <a href="tel:+919372662471" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">✨ Premium Models</a>
+                  <a href="tel:+919372662471" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🎓 College Girls</a>
+                  <a href="tel:+919372662471" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🏠 Housewife Escorts</a>
+                  <a href="tel:+919372662471" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">👸 Punjabi Women</a>
                 </div>
               </div>
               
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-orange-300 to-red-300 bg-clip-text text-transparent">🔗 Quick Links</h3>
                 <div className="space-y-3">
-                  <a href="/services" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">📋 All Services</a>
+                  <a href="tel:+919372662471" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">📋 All Services</a>
                   <a href="/locations" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">📍 Service Areas</a>
                   <a href="#faq" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">❓ FAQ</a>
                   <a href="tel:+919372662471" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">📞 Contact Us</a>
