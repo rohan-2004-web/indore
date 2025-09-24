@@ -14,7 +14,6 @@ export default function ServicesPage() {
       image: "/images/services/Celebrity Escorts.webp",
       icon: "⭐",
       category: "CELEBRITY",
-      price: "₹15,000 - ₹25,000",
       features: [
         "High-profile companions",
         "Red carpet ready",
@@ -31,7 +30,7 @@ export default function ServicesPage() {
       image: "/images/services/College Girls.webp",
       icon: "💎",
       category: "YOUNG",
-      price: "₹8,000 - ₹12,000",
+      
       features: [
         "Fresh and energetic",
         "College-educated",
@@ -48,7 +47,7 @@ export default function ServicesPage() {
       image: "/images/services/Punjabi women.webp",
       icon: "🌟",
       category: "TRADITIONAL",
-      price: "₹10,000 - ₹18,000",
+      
       features: [
         "Traditional beauty",
         "Cultural knowledge",
@@ -65,7 +64,7 @@ export default function ServicesPage() {
       image: "/images/services/Event Companion.webp",
       icon: "🎭",
       category: "PROFESSIONAL",
-      price: "₹12,000 - ₹20,000",
+      
       features: [
         "Business etiquette",
         "Social skills",
@@ -82,7 +81,7 @@ export default function ServicesPage() {
       image: "/images/services/Premium Companions.webp",
       icon: "👑",
       category: "LUXURY",
-      price: "₹20,000 - ₹35,000",
+      
       features: [
         "Elite companions",
         "Luxury experiences",
@@ -99,7 +98,7 @@ export default function ServicesPage() {
       image: "/images/services/Travel Companions.webp",
       icon: "✈️",
       category: "TRAVEL",
-      price: "₹15,000 - ₹25,000",
+      
       features: [
         "Travel experience",
         "Adventure spirit",
@@ -116,7 +115,7 @@ export default function ServicesPage() {
       image: "/images/services/VIP Escorts.webp",
       icon: "💫",
       category: "VIP",
-      price: "₹25,000 - ₹50,000",
+      
       features: [
         "VIP treatment",
         "Exclusive access",
@@ -133,7 +132,7 @@ export default function ServicesPage() {
       image: "/images/services/Dinner Dates.webp",
       icon: "🍷",
       category: "ROMANTIC",
-      price: "₹8,000 - ₹15,000",
+      
       features: [
         "Fine dining etiquette",
         "Romantic atmosphere",
@@ -150,13 +149,61 @@ export default function ServicesPage() {
       image: "/images/services/Outcall Service.webp",
       icon: "🏨",
       category: "OUTCALL",
-      price: "₹10,000 - ₹20,000",
+      
       features: [
         "Hotel visits",
         "Home service",
         "Discreet arrival",
         "Professional conduct",
         "Safe transportation"
+      ]
+    },
+    {
+      id: 'incall-escorts',
+      title: "Incall Escorts",
+      subtitle: "Luxury Locations",
+      description: "Premium incall services at luxury locations with complete privacy and comfort. Experience high-end companionship in sophisticated settings.",
+      image: "/images/services/Incall Escorts.webp",
+      icon: "🏠",
+      category: "INCALL",
+      features: [
+        "Luxury locations",
+        "Complete privacy",
+        "Professional setup",
+        "High-end amenities",
+        "Comfort guaranteed"
+      ]
+    },
+    {
+      id: 'mature-escorts',
+      title: "Mature Escorts",
+      subtitle: "Experienced Companions",
+      description: "Experienced mature companions with sophistication and worldly knowledge. Perfect for discerning clients who appreciate maturity and elegance.",
+      image: "/images/services/Mature Escorts.webp",
+      icon: "👸",
+      category: "MATURE",
+      features: [
+        "Life experience",
+        "Sophisticated conversation",
+        "Professional demeanor",
+        "Cultural knowledge",
+        "Emotional maturity"
+      ]
+    },
+    {
+      id: 'young-girls',
+      title: "Young Girls",
+      subtitle: "Youthful Energy",
+      description: "Young beautiful companions for unforgettable experiences with vibrant energy and fresh perspectives. Perfect for those seeking youthful charm.",
+      image: "/images/services/Young Girls.webp",
+      icon: "🌸",
+      category: "YOUNG",
+      features: [
+        "Youthful energy",
+        "Fresh perspective",
+        "Adventurous spirit",
+        "Modern outlook",
+        "Vibrant personality"
       ]
     }
   ]
@@ -209,7 +256,7 @@ export default function ServicesPage() {
                         src={service.image}
                         alt={service.title}
                         fill
-                        className="object-cover group-hover:scale-110 transition-transform duration-500"
+                        className="object-cover object-top group-hover:scale-110 transition-transform duration-500"
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -224,7 +271,6 @@ export default function ServicesPage() {
                     <p className="text-gray-600 text-lg mb-5 leading-relaxed">
                       {service.description.substring(0, 120)}...
                     </p>
-                    <div className="text-blue-600 font-bold text-2xl mb-6">{service.price}</div>
                   </div>
                   
                   <div className="space-y-3 mb-8">
