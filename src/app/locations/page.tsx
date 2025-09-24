@@ -279,72 +279,109 @@ export default function LocationsPage() {
         </div>
       </section>
       {/* FAQ Section - 2 Column Layout */}
-      <section className="py-20 bg-gradient-to-br from-pink-100/60 via-purple-100/40 to-blue-100/60">
+      <section className="py-20 bg-gradient-to-br from-pink-200/80 via-purple-200/70 to-blue-200/80">
         <div className="w-full px-4">
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 bg-clip-text text-transparent mb-6">
+              <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-pink-700 via-purple-700 to-blue-700 bg-clip-text text-transparent mb-6 drop-shadow-lg">
                 🤔 Frequently Asked Questions
               </h2>
-              <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-                Get instant answers to your questions about our premium escort services in Indore
-              </p>
+              <div className="bg-gradient-to-r from-pink-500/20 to-blue-500/20 backdrop-blur-sm rounded-2xl p-6 mx-auto max-w-3xl border-2 border-pink-300/50">
+                <p className="text-xl text-gray-800 font-semibold">
+                  🌟 Get instant answers to your questions about our premium escort services in Indore 🌟
+                </p>
+              </div>
             </div>
             
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              {faqData.map((faq, index) => (
-                <div
-                  key={index}
-                  className="bg-gradient-to-br from-white/95 via-pink-50/30 to-blue-50/30 backdrop-blur-lg rounded-2xl shadow-xl border border-pink-200/50 overflow-hidden transform hover:-translate-y-2 transition-all duration-300"
-                >
+              {faqData.map((faq, index) => {
+                const colorCombinations = [
+                  'from-pink-200/90 via-rose-100/80 to-pink-300/70', // Pink
+                  'from-blue-200/90 via-sky-100/80 to-blue-300/70', // Blue
+                  'from-purple-200/90 via-violet-100/80 to-purple-300/70', // Purple
+                  'from-green-200/90 via-emerald-100/80 to-green-300/70', // Green
+                  'from-orange-200/90 via-amber-100/80 to-orange-300/70', // Orange
+                  'from-indigo-200/90 via-cyan-100/80 to-indigo-300/70', // Indigo
+                ]
+                const borderColors = [
+                  'border-pink-400/60', 'border-blue-400/60', 'border-purple-400/60',
+                  'border-green-400/60', 'border-orange-400/60', 'border-indigo-400/60'
+                ]
+                const textColors = [
+                  'text-pink-700', 'text-blue-700', 'text-purple-700',
+                  'text-green-700', 'text-orange-700', 'text-indigo-700'
+                ]
+                const iconColors = [
+                  'text-pink-600', 'text-blue-600', 'text-purple-600',
+                  'text-green-600', 'text-orange-600', 'text-indigo-600'
+                ]
+                
+                return (
                   <div
-                    className="p-6 cursor-pointer"
-                    onClick={() => setActiveQuestion(activeQuestion === index ? null : index)}
+                    key={index}
+                    className={`bg-gradient-to-br ${colorCombinations[index % 6]} backdrop-blur-lg rounded-3xl shadow-2xl border-2 ${borderColors[index % 6]} overflow-hidden transform hover:-translate-y-3 hover:scale-105 transition-all duration-500 hover:shadow-xl`}
                   >
-                    <div className="flex items-center justify-between">
-                      <h3 className="text-lg font-bold text-gray-800 pr-4">
-                        {faq.question}
-                      </h3>
-                      <div className={`text-2xl transform transition-transform duration-300 ${
-                        activeQuestion === index ? 'rotate-180 text-pink-500' : 'text-blue-500'
-                      }`}>
-                        ▼
+                    <div
+                      className="p-8 cursor-pointer"
+                      onClick={() => setActiveQuestion(activeQuestion === index ? null : index)}
+                    >
+                      <div className="flex items-center justify-between mb-4">
+                        <h3 className={`text-xl font-bold ${textColors[index % 6]} pr-4 leading-tight`}>
+                          {faq.question}
+                        </h3>
+                        <div className={`text-3xl transform transition-all duration-500 ${
+                          activeQuestion === index 
+                            ? `rotate-180 ${iconColors[index % 6]} scale-125` 
+                            : `${iconColors[index % 6]} hover:scale-110`
+                        }`}>
+                          ▼
+                        </div>
                       </div>
-                    </div>
-                    
-                    <div className={`mt-4 transition-all duration-300 overflow-hidden ${
-                      activeQuestion === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
-                    }`}>
-                      <div className="border-t border-pink-200/50 pt-4">
-                        <p className="text-gray-700 leading-relaxed">
-                          {faq.answer}
-                        </p>
+                      
+                      <div className={`transition-all duration-500 overflow-hidden ${
+                        activeQuestion === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+                      }`}>
+                        <div className={`border-t-2 ${borderColors[index % 6]} pt-6 mt-4`}>
+                          <p className="text-gray-800 leading-relaxed text-lg font-medium bg-white/50 backdrop-blur-sm rounded-2xl p-4 shadow-inner">
+                            {faq.answer}
+                          </p>
+                        </div>
+                      </div>
+                      
+                      {/* Decorative Elements */}
+                      <div className="absolute top-4 right-4 opacity-20">
+                        <div className={`w-16 h-16 ${colorCombinations[index % 6]} rounded-full blur-sm`}></div>
+                      </div>
+                      <div className="absolute bottom-4 left-4 opacity-20">
+                        <div className={`w-12 h-12 ${colorCombinations[index % 6]} rounded-full blur-sm`}></div>
                       </div>
                     </div>
                   </div>
-                </div>
-              ))}
+                )
+              })}
             </div>
             
             {/* Call to Action */}
-            <div className="mt-16 text-center">
-              <div className="bg-gradient-to-r from-pink-500/10 via-purple-500/10 to-blue-500/10 backdrop-blur-lg rounded-3xl p-8 border border-pink-200/50">
-                <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                  🚀 Still have questions? Contact us now!
-                </h3>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a
-                    href="tel:+919372662471"
-                    className="bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white font-bold py-4 px-8 rounded-2xl transition-all duration-300 transform hover:scale-105 shadow-lg"
-                  >
-                    📞 Call +91 9372 662 471
-                  </a>
-                  <a
-                    href="https://wa.me/919372662471"
-                    className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-4 px-8 rounded-2xl transition-all duration-300 transform hover:scale-105 shadow-lg"
-                  >
-                    💬 WhatsApp Chat
-                  </a>
+            <div className="mt-20 text-center">
+              <div className="bg-gradient-to-r from-pink-400/30 via-purple-400/30 to-blue-400/30 backdrop-blur-xl rounded-4xl p-10 border-2 border-pink-300/60 shadow-2xl">
+                <div className="bg-white/20 backdrop-blur-sm rounded-3xl p-8 border border-white/30">
+                  <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-700 via-purple-700 to-blue-700 bg-clip-text text-transparent mb-6 drop-shadow-lg">
+                    🚀 Still have questions? Contact us now! 🚀
+                  </h3>
+                  <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                    <a
+                      href="tel:+919372662471"
+                      className="bg-gradient-to-r from-pink-500 via-pink-600 to-rose-600 hover:from-pink-600 hover:via-pink-700 hover:to-rose-700 text-white font-bold py-5 px-10 rounded-2xl text-lg transition-all duration-300 transform hover:scale-110 shadow-2xl hover:shadow-pink-500/50 border-2 border-pink-400/50"
+                    >
+                      📞 Call +91 9372 662 471
+                    </a>
+                    <a
+                      href="https://wa.me/919372662471"
+                      className="bg-gradient-to-r from-green-500 via-green-600 to-emerald-600 hover:from-green-600 hover:via-green-700 hover:to-emerald-700 text-white font-bold py-5 px-10 rounded-2xl text-lg transition-all duration-300 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 border-2 border-green-400/50"
+                    >
+                      💬 WhatsApp Chat
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
