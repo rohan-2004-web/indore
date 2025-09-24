@@ -192,19 +192,19 @@ export default function ServicesPage() {
 
         {/* Services Grid */}
         <section className="py-20 px-4 sm:px-6 lg:px-8">
-          <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="max-w-8xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
               {services.map((service, index) => (
                 <Link
                   key={service.id}
                   href={`/services/${service.id}`}
-                  className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border border-gray-100/50 transform hover:-translate-y-3 cursor-pointer"
+                  className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border border-gray-100/50 transform hover:-translate-y-3 cursor-pointer"
                 >
-                  <div className="text-center mb-6">
-                    <div className="text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">
+                  <div className="text-center mb-8">
+                    <div className="text-7xl mb-6 group-hover:scale-110 transition-transform duration-300">
                       {service.icon}
                     </div>
-                    <div className="relative h-48 w-full mb-4 rounded-2xl overflow-hidden">
+                    <div className="relative h-64 w-full mb-6 rounded-2xl overflow-hidden">
                       <Image
                         src={service.image}
                         alt={service.title}
@@ -213,29 +213,32 @@ export default function ServicesPage() {
                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                      <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-2 rounded-lg">
+                        <span className="text-gray-800 font-bold text-sm">{service.title}</span>
+                      </div>
                     </div>
-                    <h3 className="text-2xl font-bold text-gray-800 mb-2 group-hover:text-pink-600 transition-colors duration-300">
+                    <h3 className="text-3xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors duration-300">
                       {service.title}
                     </h3>
-                    <p className="text-pink-600 font-bold text-lg mb-3">{service.subtitle}</p>
-                    <p className="text-gray-600 text-base mb-4 leading-relaxed">
+                    <p className="text-pink-600 font-bold text-xl mb-4">{service.subtitle}</p>
+                    <p className="text-gray-600 text-lg mb-5 leading-relaxed">
                       {service.description.substring(0, 120)}...
                     </p>
-                    <div className="text-blue-600 font-bold text-xl mb-4">{service.price}</div>
+                    <div className="text-blue-600 font-bold text-2xl mb-6">{service.price}</div>
                   </div>
                   
-                  <div className="space-y-2 mb-6">
+                  <div className="space-y-3 mb-8">
                     {service.features.slice(0, 3).map((feature, idx) => (
-                      <div key={idx} className="flex items-center text-gray-600">
-                        <span className="text-green-500 mr-2">✓</span>
+                      <div key={idx} className="flex items-center text-gray-600 text-lg">
+                        <span className="text-green-500 mr-3 text-xl">✓</span>
                         {feature}
                       </div>
                     ))}
                   </div>
 
                   <div className="text-center">
-                    <span className="inline-block bg-gradient-to-r from-pink-500 to-blue-500 text-white px-6 py-3 rounded-2xl font-bold transition-all duration-300 group-hover:from-blue-500 group-hover:to-pink-500">
-                      View Details & Book Now
+                    <span className="inline-block bg-gradient-to-r from-pink-500 to-orange-500 text-white px-8 py-4 rounded-2xl font-bold text-lg transition-all duration-300 group-hover:from-orange-500 group-hover:to-pink-500 shadow-xl">
+                      Book {service.title} Now
                     </span>
                   </div>
                 </Link>
