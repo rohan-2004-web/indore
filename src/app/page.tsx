@@ -1,10 +1,10 @@
 'use client'
 
-import React, { useState } from 'react'
-import Image from 'next/image'
+import { useState } from 'react'
 import Header from '@/components/Header'
+import Image from 'next/image'
 
-export default function HomePage() {
+export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
 
   const toggleFaq = (index: number) => {
@@ -13,103 +13,103 @@ export default function HomePage() {
 
   const services = [
     {
-      title: "Riya Singh",
-      subtitle: "VIP Companion",
-      description: "Premium VIP service with exceptional elegance and professionalism",
-      image: "/images/services/Riya singh.webp",
+      title: "Celebrity Escorts",
+      subtitle: "Star Quality Service",
+      description: "Experience celebrity-level companions with exceptional elegance and sophistication",
+      image: "/images/services/Celebrity Escorts.webp",
       icon: "⭐",
-      category: "VIP"
-    },
-    {
-      title: "Suman Singh", 
-      subtitle: "Elite Model",
-      description: "Professional model with stunning looks and sophisticated charm",
-      image: "/images/services/suman singh.webp",
-      icon: "💎",
-      category: "ELITE"
-    },
-    {
-      title: "Priya Sharma",
-      subtitle: "Celebrity Style",
-      description: "Star-like companion with celebrity-level sophistication",
-      image: "/images/services/0397121d113ececea2ba9056c9dd0980.webp",
-      icon: "🌟",
       category: "CELEBRITY"
     },
     {
-      title: "Anita Gupta",
-      subtitle: "High Class Model",
-      description: "Luxury model companion with exceptional beauty and grace",
-      image: "/images/services/3025e0fbb540f802d9608b54286647cc.webp",
-      icon: "👑",
-      category: "LUXURY"
+      title: "College Girls", 
+      subtitle: "Fresh & Young",
+      description: "Beautiful young companions with vibrant energy and charming personalities",
+      image: "/images/services/College Girls.webp",
+      icon: "💎",
+      category: "YOUNG"
     },
     {
-      title: "Kavya Patel",
-      subtitle: "Premium Service",
-      description: "Professional premium companion with elegant personality",
-      image: "/images/services/b0489d963dcb46271de22d7478adb06a.webp",
-      icon: "💫",
-      category: "PREMIUM"
-    },
-    {
-      title: "Neha Verma",
-      subtitle: "Independent Model",
-      description: "Independent professional model with charming personality",
-      image: "/images/services/e3649d9fe77db60518bbf7e230e41987.webp",
-      icon: "✨",
-      category: "INDEPENDENT"
-    },
-    {
-      title: "Shreya Jain",
-      subtitle: "Young Beauty",
-      description: "Fresh youthful energy with beautiful and engaging personality",
-      image: "/images/services/77cd241032300db4162185430049843b.jpg",
-      icon: "🌸",
-      category: "FRESH"
-    },
-    {
-      title: "Pooja Kumar",
-      subtitle: "Elite Companion",
-      description: "Elite companion providing professional and discreet services",
-      image: "/images/services/8bbc046f619ed3007b7c5325809a6fd1.jpg",
-      icon: "💝",
+      title: "Elite Models",
+      subtitle: "Top Class Models",
+      description: "Professional elite models with stunning looks and sophisticated charm",
+      image: "/images/services/Elite Models.webp",
+      icon: "🌟",
       category: "ELITE"
     },
     {
-      title: "Simran Kaur",
-      subtitle: "Top Class Model",
-      description: "Top class professional model with exceptional service standards",
-      image: "/images/services/b958fb1e67de1ea5766e3c5c0cef33fe.jpg",
+      title: "Event Companion",
+      subtitle: "Social Events",
+      description: "Perfect companions for social events, parties and business meetings",
+      image: "/images/services/Event Companion.webp",
+      icon: "👑",
+      category: "EVENTS"
+    },
+    {
+      title: "Housewife Escorts",
+      subtitle: "Mature & Experienced",
+      description: "Experienced mature companions with caring personality and wisdom",
+      image: "/images/services/Housewife Escorts.jpg",
+      icon: "💫",
+      category: "MATURE"
+    },
+    {
+      title: "Local Beauties",
+      subtitle: "City Locals",
+      description: "Beautiful local companions who know the city and provide authentic experiences",
+      image: "/images/services/Local Beauties.webp",
+      icon: "✨",
+      category: "LOCAL"
+    },
+    {
+      title: "Premium Models",
+      subtitle: "Luxury Service",
+      description: "Premium luxury models providing exclusive high-end companion services",
+      image: "/images/services/Premium Models.jpg",
+      icon: "🌸",
+      category: "PREMIUM"
+    },
+    {
+      title: "Slim Escorts",
+      subtitle: "Perfect Figure",
+      description: "Slim and fit companions with perfect figures and engaging personalities",
+      image: "/images/services/Slim Escorts.webp",
+      icon: "💝",
+      category: "FITNESS"
+    },
+    {
+      title: "VIP Escorts",
+      subtitle: "VIP Treatment",
+      description: "Exclusive VIP companions for discerning clients seeking premium experiences",
+      image: "/images/services/VIP Escorts.jpg",
       icon: "👸",
-      category: "TOP CLASS"
+      category: "VIP"
     }
   ]
 
   const faqs = [
     {
       question: "What services do you offer?",
-      answer: "I offer a comprehensive range of digital services including web development, UI/UX design, mobile app development, e-commerce solutions, digital marketing, and complete branding services."
+      answer: "We offer premium companion services with verified professionals. All services are discreet, safe, and tailored to your preferences."
     },
     {
-      question: "How long does a project typically take?",
-      answer: "Project timelines vary depending on complexity and requirements. Simple websites can be completed in 2-3 weeks, while complex applications may take 2-3 months. I'll provide a detailed timeline after understanding your specific needs."
+      question: "How to book a companion?",
+      answer: "Simply call our 24/7 hotline or use our instant booking system. We ensure quick response and professional service."
     },
     {
-      question: "Do you provide ongoing support?",
-      answer: "Yes, I provide comprehensive ongoing support and maintenance for all projects. This includes updates, security patches, performance optimization, and technical support."
+      question: "Are all companions verified?",
+      answer: "Yes, all our companions are thoroughly verified professionals with complete background checks and health certifications."
     },
     {
       question: "What are your rates?",
-      answer: "My rates are competitive and depend on the project scope, complexity, and timeline. I offer both fixed-price packages and hourly rates. Contact me for a detailed quote based on your specific requirements."
+      answer: "Our rates vary based on the companion and service type. Contact us for detailed pricing and package information."
     },
     {
-      question: "Can you work with my existing team?",
-      answer: "Absolutely! I collaborate effectively with existing teams and can adapt to your current workflow, tools, and processes. I'm experienced in working with remote and in-house teams."
+      question: "Is the service discreet and safe?",
+      answer: "Absolutely! We maintain complete discretion and follow strict safety protocols. Your privacy and security are our top priorities."
     },
     {
-      question: "Do you offer revisions?",
-      answer: "Yes, I include a reasonable number of revisions in all my projects. The exact number depends on the project scope, but I always work with clients to ensure complete satisfaction with the final result."
+      question: "Do you provide 24/7 service?",
+      answer: "Yes, we provide round-the-clock service with instant booking and quick response times. Our team is available 24/7."
     }
   ]
 
@@ -149,8 +149,8 @@ export default function HomePage() {
               <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-5 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-xl">
                 📞 Call Now 24/7
               </a>
-              <a href="https://api.whatsapp.com/send?phone=919372662471" className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-10 py-5 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-xl">
-                📱 WhatsApp Fast
+              <a href="#services" className="border-2 border-white text-white px-10 py-5 rounded-full text-xl font-bold hover:bg-white hover:text-purple-700 transition-all duration-300 transform hover:scale-105">
+                View Companions
               </a>
             </div>
 
@@ -181,8 +181,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Services Section */}
-      <section id="services" className="py-20 bg-gray-50">
+      {/* Services Section - 3x3 Grid Layout */}
+      <section id="services" className="py-20 bg-gradient-to-br from-gray-50 via-pink-50 to-blue-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
@@ -193,51 +193,78 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-            {services.map((service, index) => (
-              <div key={index} className="bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-3 overflow-hidden group">
-                <div className="relative h-96 overflow-hidden">
-                  <Image 
-                    src={service.image} 
-                    alt={service.title}
-                    fill
-                    className="object-cover object-top group-hover:scale-105 transition-transform duration-500" 
-                    style={{
-                      objectPosition: 'center top'
-                    }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+          {/* 3x3 Grid Layout */}
+          <div className="max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {services.map((service, index) => (
+                <div key={index} className="group bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-700 overflow-hidden transform hover:-translate-y-3 border border-pink-100/50">
                   
-                  {/* Category Badge */}
-                  <div className="absolute top-6 left-6 bg-pink-500/90 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-bold text-white shadow-lg">
-                    {service.icon} {service.category}
+                  {/* Image Section */}
+                  <div className="relative h-80 overflow-hidden">
+                    <Image 
+                      src={service.image} 
+                      alt={service.title}
+                      fill
+                      className="object-cover object-top group-hover:scale-110 transition-transform duration-700" 
+                      style={{
+                        objectPosition: 'center top'
+                      }}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                    
+                    {/* Floating Category Badge */}
+                    <div className="absolute top-6 left-6 bg-gradient-to-r from-pink-500 to-purple-600 backdrop-blur-sm px-4 py-2 rounded-2xl text-sm font-bold text-white shadow-2xl border border-white/20">
+                      {service.icon} {service.category}
+                    </div>
+
+                    {/* Name Overlay at Bottom */}
+                    <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+                      <h3 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white via-pink-200 to-blue-200 mb-2 tracking-wide">
+                        {service.title}
+                      </h3>
+                      <p className="text-pink-200 text-lg font-semibold">{service.subtitle}</p>
+                    </div>
                   </div>
                   
-                  {/* Name and Subtitle Overlay */}
-                  <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                    <h3 className="text-2xl font-bold mb-1">{service.title}</h3>
-                    <p className="text-pink-200 text-lg font-semibold">{service.subtitle}</p>
+                  {/* Content Section */}
+                  <div className="p-8">
+                    <div className="space-y-6">
+                      {/* Description */}
+                      <p className="text-gray-600 text-lg leading-relaxed font-medium">
+                        {service.description}
+                      </p>
+                      
+                      {/* Premium Features */}
+                      <div className="grid grid-cols-1 gap-2 text-sm text-gray-500">
+                        <div className="flex items-center gap-2">
+                          <span className="text-green-500">✓</span> Verified Professional
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <span className="text-green-500">✓</span> 24/7 Availability
+                        </div>
+                        <div className="flex items-center gap-2">
+                          <span className="text-green-500">✓</span> Discreet Service
+                        </div>
+                      </div>
+                      
+                      {/* Book Button - Pink Color */}
+                      <div className="pt-4">
+                        <a 
+                          href="tel:+919372662471" 
+                          className="w-full inline-block bg-gradient-to-r from-pink-500 via-pink-600 to-pink-700 hover:from-pink-600 hover:via-pink-700 hover:to-pink-800 text-white px-8 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl border border-pink-400 text-center"
+                        >
+                          📞 Book {service.title}
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                
-                <div className="p-8">
-                  <p className="text-gray-600 text-lg mb-6 leading-relaxed">{service.description}</p>
-                  
-                  <div className="flex gap-4">
-                    <a 
-                      href="tel:+919372662471" 
-                      className="flex-1 bg-green-500 hover:bg-green-600 text-white px-6 py-4 rounded-full text-center font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
-                    >
-                      Book {service.title.split(' ')[0]}
-                    </a>
-                  </div>
-                </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
 
           <div className="text-center mt-16">
-            <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-green-600 text-white px-12 py-5 rounded-full text-xl font-bold hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105 shadow-xl">
+            <a href="tel:+919372662471" className="bg-gradient-to-r from-pink-500 to-pink-600 text-white px-12 py-5 rounded-full text-xl font-bold hover:from-pink-600 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-xl">
               📞 Call Now - Book Your Companion
             </a>
           </div>
@@ -252,80 +279,58 @@ export default function HomePage() {
               Why Choose <span className="text-pink-600">Saumya Kapoor</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              All our services are excellent and professional. We are highly professional and will always meet you with enthusiasm. Our dedication to providing the best services makes us stand out.
+              We provide premium companion services with complete professionalism and discretion
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="text-center p-6 bg-gradient-to-br from-pink-50 to-blue-50 rounded-2xl">
-              <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white text-2xl">✓</span>
-              </div>
-              <h3 className="text-xl font-bold text-gray-800 mb-3">100% Professional</h3>
-              <p className="text-gray-600">All our services are thoroughly professional and high-quality</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div className="text-center p-8 bg-gradient-to-br from-pink-50 to-purple-50 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="text-5xl mb-6">🔒</div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">100% Discreet</h3>
+              <p className="text-gray-600 leading-relaxed">Complete privacy and confidentiality guaranteed. Your personal information is always secure.</p>
             </div>
-
-            <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-pink-50 rounded-2xl">
-              <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white text-2xl">🕐</span>
-              </div>
-              <h3 className="text-xl font-bold text-gray-800 mb-3">24/7 Available</h3>
-              <p className="text-gray-600">Round the clock availability for your convenience</p>
+            <div className="text-center p-8 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="text-5xl mb-6">✅</div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">Verified Professionals</h3>
+              <p className="text-gray-600 leading-relaxed">All companions are thoroughly verified with background checks and health certifications.</p>
             </div>
-
-            <div className="text-center p-6 bg-gradient-to-br from-pink-50 to-blue-50 rounded-2xl">
-              <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white text-2xl">🔒</span>
-              </div>
-              <h3 className="text-xl font-bold text-gray-800 mb-3">Complete Discretion</h3>
-              <p className="text-gray-600">Your privacy and confidentiality is our top priority</p>
-            </div>
-
-            <div className="text-center p-6 bg-gradient-to-br from-blue-50 to-pink-50 rounded-2xl">
-              <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-pink-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-white text-2xl">⭐</span>
-              </div>
-              <h3 className="text-xl font-bold text-gray-800 mb-3">Premium Quality</h3>
-              <p className="text-gray-600">High-class services with exceptional quality and creativity</p>
+            <div className="text-center p-8 bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+              <div className="text-5xl mb-6">⚡</div>
+              <h3 className="text-2xl font-bold text-gray-800 mb-4">Instant Booking</h3>
+              <p className="text-gray-600 leading-relaxed">Quick response time with 24/7 availability and instant booking system.</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
-      <section id="faq" className="py-20 bg-gray-50">
+      <section id="faq" className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
               Frequently Asked <span className="text-pink-600">Questions</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Common questions about our services and process
+              Get answers to common questions about our companion services
             </p>
           </div>
 
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-4xl mx-auto space-y-4">
             {faqs.map((faq, index) => (
-              <div key={index} className="mb-4 bg-white rounded-2xl shadow-lg overflow-hidden">
+              <div key={index} className="bg-white rounded-2xl shadow-lg overflow-hidden border border-pink-100">
                 <button
-                  className="w-full px-8 py-6 text-left flex items-center justify-between hover:bg-pink-50 transition-colors"
+                  className="w-full px-8 py-6 text-left font-semibold text-lg text-gray-800 hover:bg-pink-50 transition-colors duration-300 flex items-center justify-between"
                   onClick={() => toggleFaq(index)}
                 >
-                  <h3 className="text-lg font-semibold text-gray-800 pr-4">{faq.question}</h3>
-                  <svg
-                    className={`w-6 h-6 text-pink-600 transform transition-transform ${
-                      openFaq === index ? 'rotate-180' : ''
-                    }`}
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                  </svg>
+                  {faq.question}
+                  <span className={`transform transition-transform duration-300 ${openFaq === index ? 'rotate-180' : ''}`}>
+                    ⌄
+                  </span>
                 </button>
                 {openFaq === index && (
-                  <div className="px-8 pb-6 text-gray-600 leading-relaxed border-t border-gray-100">
-                    <div className="pt-4">{faq.answer}</div>
+                  <div className="px-8 pb-6">
+                    <div className="w-full h-px bg-gradient-to-r from-pink-200 to-blue-200 mb-4"></div>
+                    <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
                   </div>
                 )}
               </div>
@@ -335,146 +340,89 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-r from-pink-600 to-blue-700">
+      <section className="py-20 bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600">
         <div className="container mx-auto px-4 text-center">
-          <div className="text-white">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Ready for an Unforgettable Experience?
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+              Ready to Book Your <span className="text-yellow-300">Perfect Companion?</span>
             </h2>
-            <p className="text-xl mb-8 max-w-3xl mx-auto text-pink-100">
-              Book your premium service today and discover the difference that true professionalism makes.
+            <p className="text-xl text-white/90 mb-12 max-w-2xl mx-auto">
+              Experience premium companion services with complete discretion and professionalism. Available 24/7 for your convenience.
             </p>
-            <p className="text-lg mb-12 text-white/90">
-              Discretion guaranteed • Available 24/7 • Premium quality assured
-            </p>
-
-            <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
-              <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-green-600 text-white px-10 py-5 rounded-full text-xl font-bold hover:from-green-600 hover:to-green-700 transition-all duration-300 transform hover:scale-105 shadow-xl">
-                📞 Call Now
+            <div className="flex flex-col md:flex-row items-center justify-center gap-6">
+              <a href="tel:+919372662471" className="bg-green-500 hover:bg-green-600 text-white px-12 py-5 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-xl">
+                📞 Call Now: +91 9372662471
               </a>
-              <a href="https://api.whatsapp.com/send?phone=919372662471" className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-10 py-5 rounded-full text-xl font-bold transition-all duration-300 transform hover:scale-105 shadow-xl">
-                💬 WhatsApp
+              <a href="#services" className="border-2 border-white text-white px-12 py-5 rounded-full text-xl font-bold hover:bg-white hover:text-purple-700 transition-all duration-300">
+                Browse Companions
               </a>
-            </div>
-
-            <div className="flex flex-wrap items-center justify-center gap-8 text-sm">
-              <div className="flex items-center">
-                <span className="text-2xl mr-2">✓</span>
-                100% Discreet
-              </div>
-              <div className="flex items-center">
-                <span className="text-2xl mr-2">⭐</span>
-                Premium Quality
-              </div>
-              <div className="flex items-center">
-                <span className="text-2xl mr-2">🕐</span>
-                24/7 Available
-              </div>
-              <div className="flex items-center">
-                <span className="text-2xl mr-2">👨‍💼</span>
-                Professional
-              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Contact & Map Section */}
+      {/* Contact Section */}
       <section id="contact" className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-              Get in <span className="text-pink-600">Touch</span>
+              Get In <span className="text-pink-600">Touch</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Contact us today to book your premium experience. We're available 24/7 for your convenience.
+              Contact us for premium companion services. Available 24/7 for your convenience and complete discretion.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Contact Information */}
-            <div>
-              <div className="bg-gradient-to-br from-pink-50 to-blue-50 rounded-2xl p-8">
-                <h3 className="text-2xl font-bold text-gray-800 mb-6">Contact Information</h3>
-                
-                <div className="space-y-4">
-                  <div className="flex items-center">
-                    <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-blue-600 rounded-full flex items-center justify-center mr-4">
-                      <span className="text-white">📞</span>
-                    </div>
-                    <div>
-                      <p className="text-gray-600">Phone:</p>
-                      <p className="text-lg font-semibold text-gray-800">+91 9372662471</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center">
-                    <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-blue-600 rounded-full flex items-center justify-center mr-4">
-                      <span className="text-white">📧</span>
-                    </div>
-                    <div>
-                      <p className="text-gray-600">Email:</p>
-                      <p className="text-lg font-semibold text-gray-800">saumya@professional.com</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center">
-                    <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-blue-600 rounded-full flex items-center justify-center mr-4">
-                      <span className="text-white">🕐</span>
-                    </div>
-                    <div>
-                      <p className="text-gray-600">Availability:</p>
-                      <p className="text-lg font-semibold text-gray-800">24/7 - Always available</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center">
-                    <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-blue-600 rounded-full flex items-center justify-center mr-4">
-                      <span className="text-white">💬</span>
-                    </div>
-                    <div>
-                      <p className="text-gray-600">WhatsApp:</p>
-                      <p className="text-lg font-semibold text-gray-800">+91 9372662471</p>
-                    </div>
-                  </div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+            <div className="space-y-8">
+              <div className="flex items-center gap-6 p-6 bg-gradient-to-r from-pink-50 to-blue-50 rounded-2xl">
+                <div className="text-3xl">📞</div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-2">Phone</h3>
+                  <p className="text-gray-600">+91 9372662471</p>
+                  <p className="text-sm text-green-600 font-semibold">Available 24/7</p>
                 </div>
-
-                <div className="mt-8 p-4 bg-pink-100 rounded-lg">
-                  <h4 className="font-semibold text-gray-800 mb-2">Important Notice</h4>
-                  <p className="text-sm text-gray-600">
-                    All services are for professionals 18+ only. We maintain strict confidentiality and professional standards.
-                  </p>
+              </div>
+              
+              <div className="flex items-center gap-6 p-6 bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl">
+                <div className="text-3xl">💬</div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-2">WhatsApp</h3>
+                  <p className="text-gray-600">+91 9372662471</p>
+                  <p className="text-sm text-green-600 font-semibold">Instant Response</p>
+                </div>
+              </div>
+              
+              <div className="flex items-center gap-6 p-6 bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl">
+                <div className="text-3xl">🌍</div>
+                <div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-2">Service Area</h3>
+                  <p className="text-gray-600">All Major Cities</p>
+                  <p className="text-sm text-blue-600 font-semibold">Premium Coverage</p>
                 </div>
               </div>
             </div>
 
-            {/* Google Map */}
-            <div>
-              <div className="bg-gray-100 rounded-2xl h-96 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-white text-2xl">📍</span>
-                  </div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Our Location</h3>
-                  <p className="text-gray-600 mb-4">Mumbai, Maharashtra</p>
-                  <p className="text-sm text-gray-500">Interactive map will be embedded here</p>
+            <div className="bg-gradient-to-br from-pink-50 to-blue-50 rounded-2xl p-8">
+              <h3 className="text-2xl font-bold text-gray-800 mb-6">Service Information</h3>
+              <div className="space-y-4">
+                <div className="flex items-center justify-between py-3 border-b border-gray-200">
+                  <span className="text-gray-600">Response Time</span>
+                  <span className="font-semibold text-green-600">Within 30 Minutes</span>
+                </div>
+                <div className="flex items-center justify-between py-3 border-b border-gray-200">
+                  <span className="text-gray-600">Availability</span>
+                  <span className="font-semibold text-blue-600">24/7</span>
+                </div>
+                <div className="flex items-center justify-between py-3 border-b border-gray-200">
+                  <span className="text-gray-600">Service Type</span>
+                  <span className="font-semibold text-purple-600">Premium Companions</span>
+                </div>
+                <div className="flex items-center justify-between py-3">
+                  <span className="text-gray-600">Privacy</span>
+                  <span className="font-semibold text-pink-600">100% Guaranteed</span>
                 </div>
               </div>
-              
-              {/* Actual Google Maps Embed - Replace with your location */}
-              {/* 
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.2763418970436!2d72.8776844!3d19.076090000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9c676018b95%3A0x6c8dd86a65c0c4f2!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1635834567890!5m2!1sen!2sin"
-                width="100%" 
-                height="384" 
-                style={{border:0, borderRadius: '1rem'}}
-                allowFullScreen 
-                loading="lazy" 
-                referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-2xl"
-              >
-              </iframe>
-              */}
             </div>
           </div>
         </div>
@@ -484,80 +432,55 @@ export default function HomePage() {
       <footer className="bg-gray-900 text-white py-16">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Brand */}
-            <div className="lg:col-span-2">
-              <div className="mb-6">
-                <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-400 to-blue-400 bg-clip-text text-transparent mb-4">
-                  Saumya Kapoor
-                </h3>
-                <p className="text-gray-400 leading-relaxed max-w-md">
-                  Premium digital services providing high-class solutions for discerning clients. 
-                  Professionalism, quality, and satisfaction guaranteed.
-                </p>
-              </div>
-              
-              <div className="flex space-x-4">
-                <a href="tel:+919372662471" className="w-10 h-10 bg-gradient-to-r from-pink-500 to-blue-600 rounded-full flex items-center justify-center hover:from-pink-600 hover:to-blue-700 transition-all">
-                  📞
-                </a>
-                <a href="https://api.whatsapp.com/send?phone=919372662471" className="w-10 h-10 bg-gradient-to-r from-green-500 to-green-600 rounded-full flex items-center justify-center hover:from-green-600 hover:to-green-700 transition-all">
-                  💬
-                </a>
-                <a href="mailto:saumya@professional.com" className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center hover:from-blue-600 hover:to-purple-700 transition-all">
-                  📧
+            <div>
+              <h3 className="text-2xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-400">
+                Saumya Kapoor
+              </h3>
+              <p className="text-gray-300 mb-6 leading-relaxed">
+                Premium companion services with complete discretion and professionalism. Your satisfaction is our priority.
+              </p>
+              <div className="flex gap-4">
+                <a href="tel:+919372662471" className="bg-green-600 hover:bg-green-700 px-4 py-2 rounded-full text-sm font-semibold transition-colors duration-300">
+                  Call Now
                 </a>
               </div>
             </div>
-
-            {/* Premium Services */}
+            
             <div>
-              <h4 className="text-lg font-semibold mb-4 text-pink-400">Premium Services</h4>
-              <ul className="space-y-2">
-                <li><a href="#services" className="text-gray-400 hover:text-pink-400 transition-colors">Web Development</a></li>
-                <li><a href="#services" className="text-gray-400 hover:text-pink-400 transition-colors">UI/UX Design</a></li>
-                <li><a href="#services" className="text-gray-400 hover:text-pink-400 transition-colors">Mobile Apps</a></li>
-                <li><a href="#services" className="text-gray-400 hover:text-pink-400 transition-colors">E-commerce</a></li>
-                <li><a href="#services" className="text-gray-400 hover:text-pink-400 transition-colors">Digital Marketing</a></li>
-                <li><a href="#services" className="text-gray-400 hover:text-pink-400 transition-colors">Brand Identity</a></li>
+              <h4 className="text-lg font-semibold mb-6">Services</h4>
+              <ul className="space-y-3 text-gray-300">
+                <li>VIP Companions</li>
+                <li>Elite Models</li>
+                <li>Celebrity Style</li>
+                <li>Premium Service</li>
               </ul>
             </div>
-
-            {/* Quick Links */}
+            
             <div>
-              <h4 className="text-lg font-semibold mb-4 text-blue-400">Quick Links</h4>
-              <ul className="space-y-2">
-                <li><a href="#home" className="text-gray-400 hover:text-blue-400 transition-colors">Home</a></li>
-                <li><a href="#about" className="text-gray-400 hover:text-blue-400 transition-colors">About</a></li>
-                <li><a href="#services" className="text-gray-400 hover:text-blue-400 transition-colors">Services</a></li>
-                <li><a href="#gallery" className="text-gray-400 hover:text-blue-400 transition-colors">Gallery</a></li>
-                <li><a href="#contact" className="text-gray-400 hover:text-blue-400 transition-colors">Contact</a></li>
-                <li><a href="#faq" className="text-gray-400 hover:text-blue-400 transition-colors">FAQ</a></li>
+              <h4 className="text-lg font-semibold mb-6">Features</h4>
+              <ul className="space-y-3 text-gray-300">
+                <li>24/7 Availability</li>
+                <li>Verified Professionals</li>
+                <li>Complete Discretion</li>
+                <li>Instant Booking</li>
               </ul>
+            </div>
+            
+            <div>
+              <h4 className="text-lg font-semibold mb-6">Contact</h4>
+              <div className="space-y-3 text-gray-300">
+                <p>📞 +91 9372662471</p>
+                <p>💬 WhatsApp Available</p>
+                <p>🌍 All Major Cities</p>
+                <p>⚡ 24/7 Service</p>
+              </div>
             </div>
           </div>
-
-          {/* Contact Info */}
-          <div className="border-t border-gray-800 mt-12 pt-8">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-              <div className="text-center md:text-left">
-                <p className="text-gray-400">📞 +91 9372662471</p>
-                <p className="text-gray-500 text-sm">WhatsApp Available</p>
-              </div>
-              <div className="text-center md:text-center">
-                <p className="text-gray-400">📧 saumya@professional.com</p>
-                <p className="text-gray-500 text-sm">24/7 Service</p>
-              </div>
-              <div className="text-center md:text-right">
-                <p className="text-gray-400">📍 Mumbai, Maharashtra</p>
-                <p className="text-gray-500 text-sm">Professional Services</p>
-              </div>
-            </div>
-
-            <div className="text-center text-gray-500 text-sm border-t border-gray-800 pt-8">
-              <p>© 2025 Saumya Kapoor. All Rights Reserved. Premium Professional Services.</p>
-              <p className="mt-2">Professional & Discreet | Creative & Innovative | 18+ Only</p>
-              <p className="mt-1 text-xs">This website is intended for professional services only. All content is for business purposes.</p>
-            </div>
+          
+          <div className="border-t border-gray-700 mt-12 pt-8 text-center">
+            <p className="text-gray-400">
+              © 2025 Saumya Kapoor. All rights reserved. | Premium Companion Services
+            </p>
           </div>
         </div>
       </footer>
