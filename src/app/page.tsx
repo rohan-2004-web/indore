@@ -256,118 +256,118 @@ export default function Home() {
               </h2>
             </div>
 
-            <div className="max-w-full mx-auto px-4">
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div className="max-w-7xl mx-auto px-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                 
                 {/* Row 1 - Celebrity, VIP, Premium */}
-                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
-                  <div className="w-full h-80 mb-6 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/Celebrity Escorts.webp" alt="Celebrity Escorts" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-5 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[450px] flex flex-col">
+                  <div className="w-full h-64 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/services/Celebrity Escorts.webp" alt="Celebrity Escorts" className="w-full h-64 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Celebrity Escorts</h3>
-                  <p className="text-gray-600 mb-4 text-sm">Premium companions with star quality service</p>
+                  <h3 className="text-lg font-bold text-gray-800 mb-2">Celebrity Escorts</h3>
+                  <p className="text-gray-600 mb-4 text-sm flex-grow">Premium companions with star quality service</p>
                   <a href="/services" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-4 py-2 rounded-xl font-bold text-sm hover:scale-105 transition-transform">View Details</a>
                 </div>
 
-                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-blue-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
-                  <div className="w-full h-80 mb-6 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/VIP Escorts.jpg" alt="VIP Escorts" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-5 border border-blue-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[450px] flex flex-col">
+                  <div className="w-full h-64 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/services/VIP Escorts.jpg" alt="VIP Escorts" className="w-full h-64 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">VIP Escorts</h3>
-                  <p className="text-gray-600 mb-4 text-sm">Ultimate luxury companions for discerning clients</p>
+                  <h3 className="text-lg font-bold text-gray-800 mb-2">VIP Escorts</h3>
+                  <p className="text-gray-600 mb-4 text-sm flex-grow">Ultimate luxury companions for discerning clients</p>
                   <a href="/services" className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white px-4 py-2 rounded-xl font-bold text-sm hover:scale-105 transition-transform">View Details</a>
                 </div>
 
-                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-orange-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
-                  <div className="w-full h-80 mb-6 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/Premium Models.jpg" alt="Premium Models" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-5 border border-orange-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[450px] flex flex-col">
+                  <div className="w-full h-64 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/services/Premium Models.jpg" alt="Premium Models" className="w-full h-64 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Premium Models</h3>
-                  <p className="text-gray-600 mb-4 text-sm">High-end models with sophistication</p>
+                  <h3 className="text-lg font-bold text-gray-800 mb-2">Premium Models</h3>
+                  <p className="text-gray-600 mb-4 text-sm flex-grow">High-end models with sophistication</p>
                   <a href="/services" className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-4 py-2 rounded-xl font-bold text-sm hover:scale-105 transition-transform">View Details</a>
                 </div>
 
                 {/* Row 2 - College, Housewife, Punjabi */}
-                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-purple-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
-                  <div className="w-full h-80 mb-6 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/College Girls.webp" alt="College Girls" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-5 border border-purple-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[450px] flex flex-col">
+                  <div className="w-full h-64 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/services/College Girls.webp" alt="College Girls" className="w-full h-64 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">College Girls</h3>
-                  <p className="text-gray-600 mb-4 text-sm">Young energetic companions for memorable experiences</p>
+                  <h3 className="text-lg font-bold text-gray-800 mb-2">College Girls</h3>
+                  <p className="text-gray-600 mb-4 text-sm flex-grow">Young energetic companions for memorable experiences</p>
                   <a href="/services" className="inline-block bg-gradient-to-r from-purple-500 to-purple-600 text-white px-4 py-2 rounded-xl font-bold text-sm hover:scale-105 transition-transform">View Details</a>
                 </div>
 
-                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-green-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
-                  <div className="w-full h-80 mb-6 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/Housewife Escorts.jpg" alt="Housewife Escorts" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-5 border border-green-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[450px] flex flex-col">
+                  <div className="w-full h-64 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/services/Housewife Escorts.jpg" alt="Housewife Escorts" className="w-full h-64 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Housewife Escorts</h3>
-                  <p className="text-gray-600 mb-4 text-sm">Mature experienced companions with caring nature</p>
+                  <h3 className="text-lg font-bold text-gray-800 mb-2">Housewife Escorts</h3>
+                  <p className="text-gray-600 mb-4 text-sm flex-grow">Mature experienced companions with caring nature</p>
                   <a href="/services" className="inline-block bg-gradient-to-r from-green-500 to-green-600 text-white px-4 py-2 rounded-xl font-bold text-sm hover:scale-105 transition-transform">View Details</a>
                 </div>
 
-                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-red-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
-                  <div className="w-full h-80 mb-6 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/Punjabi women.webp" alt="Punjabi Women" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-5 border border-red-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[450px] flex flex-col">
+                  <div className="w-full h-64 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/services/Punjabi women.webp" alt="Punjabi Women" className="w-full h-64 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Punjabi Women</h3>
-                  <p className="text-gray-600 mb-4 text-sm">Beautiful Punjabi companions with traditional charm</p>
+                  <h3 className="text-lg font-bold text-gray-800 mb-2">Punjabi Women</h3>
+                  <p className="text-gray-600 mb-4 text-sm flex-grow">Beautiful Punjabi companions with traditional charm</p>
                   <a href="/services" className="inline-block bg-gradient-to-r from-red-500 to-red-600 text-white px-4 py-2 rounded-xl font-bold text-sm hover:scale-105 transition-transform">View Details</a>
                 </div>
 
                 {/* Row 3 - Slim, Unsatisfied Bhabhi, Local */}
-                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-teal-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
-                  <div className="w-full h-80 mb-6 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/Slim Escorts.webp" alt="Slim Escorts" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-5 border border-teal-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[450px] flex flex-col">
+                  <div className="w-full h-64 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/services/Slim Escorts.webp" alt="Slim Escorts" className="w-full h-64 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Slim Escorts</h3>
-                  <p className="text-gray-600 mb-4 text-sm">Elegant slim companions with perfect figure</p>
+                  <h3 className="text-lg font-bold text-gray-800 mb-2">Slim Escorts</h3>
+                  <p className="text-gray-600 mb-4 text-sm flex-grow">Elegant slim companions with perfect figure</p>
                   <a href="/services" className="inline-block bg-gradient-to-r from-teal-500 to-teal-600 text-white px-4 py-2 rounded-xl font-bold text-sm hover:scale-105 transition-transform">View Details</a>
                 </div>
 
-                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-indigo-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
-                  <div className="w-full h-80 mb-6 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/Unsatisfied Bhabhi.webp" alt="Unsatisfied Bhabhi" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-5 border border-indigo-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[450px] flex flex-col">
+                  <div className="w-full h-64 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/services/Unsatisfied Bhabhi.webp" alt="Unsatisfied Bhabhi" className="w-full h-64 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Unsatisfied Bhabhi</h3>
-                  <p className="text-gray-600 mb-4 text-sm">Experienced companions seeking excitement</p>
+                  <h3 className="text-lg font-bold text-gray-800 mb-2">Unsatisfied Bhabhi</h3>
+                  <p className="text-gray-600 mb-4 text-sm flex-grow">Experienced companions seeking excitement</p>
                   <a href="/services" className="inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 text-white px-4 py-2 rounded-xl font-bold text-sm hover:scale-105 transition-transform">View Details</a>
                 </div>
 
-                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
-                  <div className="w-full h-80 mb-6 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/Local Beauties.webp" alt="Local Beauties" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-5 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[450px] flex flex-col">
+                  <div className="w-full h-64 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/services/Local Beauties.webp" alt="Local Beauties" className="w-full h-64 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Local Beauties</h3>
-                  <p className="text-gray-600 mb-4 text-sm">Beautiful local companions who know Indore</p>
+                  <h3 className="text-lg font-bold text-gray-800 mb-2">Local Beauties</h3>
+                  <p className="text-gray-600 mb-4 text-sm flex-grow">Beautiful local companions who know Indore</p>
                   <a href="/services" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-4 py-2 rounded-xl font-bold text-sm hover:scale-105 transition-transform">View Details</a>
                 </div>
 
                 {/* Row 4 - Event, Pink Special, Unsatisfied Females */}
-                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-yellow-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
-                  <div className="w-full h-80 mb-6 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/Event Companion.webp" alt="Event Companion" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-5 border border-yellow-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[450px] flex flex-col">
+                  <div className="w-full h-64 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/services/Event Companion.webp" alt="Event Companion" className="w-full h-64 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Event Companion</h3>
-                  <p className="text-gray-600 mb-4 text-sm">Perfect companions for social events and parties</p>
+                  <h3 className="text-lg font-bold text-gray-800 mb-2">Event Companion</h3>
+                  <p className="text-gray-600 mb-4 text-sm flex-grow">Perfect companions for social events and parties</p>
                   <a href="/services" className="inline-block bg-gradient-to-r from-yellow-500 to-yellow-600 text-white px-4 py-2 rounded-xl font-bold text-sm hover:scale-105 transition-transform">View Details</a>
                 </div>
 
-                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-rose-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
-                  <div className="w-full h-80 mb-6 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/Pink Special.webp" alt="Pink Special" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-5 border border-rose-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[450px] flex flex-col">
+                  <div className="w-full h-64 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/services/Pink Special.webp" alt="Pink Special" className="w-full h-64 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Pink Special</h3>
-                  <p className="text-gray-600 mb-4 text-sm">Special premium companions for exclusive experiences</p>
+                  <h3 className="text-lg font-bold text-gray-800 mb-2">Pink Special</h3>
+                  <p className="text-gray-600 mb-4 text-sm flex-grow">Special premium companions for exclusive experiences</p>
                   <a href="/services" className="inline-block bg-gradient-to-r from-rose-500 to-rose-600 text-white px-4 py-2 rounded-xl font-bold text-sm hover:scale-105 transition-transform">View Details</a>
                 </div>
 
-                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-violet-100/50 text-center transform hover:-translate-y-3 transition-all duration-500">
-                  <div className="w-full h-80 mb-6 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/Unsatisfied Females.webp" alt="Unsatisfied Females" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-5 border border-violet-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[450px] flex flex-col">
+                  <div className="w-full h-64 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/services/Unsatisfied Females.webp" alt="Unsatisfied Females" className="w-full h-64 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Unsatisfied Females</h3>
-                  <p className="text-gray-600 mb-4 text-sm">Mature women seeking meaningful connections</p>
+                  <h3 className="text-lg font-bold text-gray-800 mb-2">Unsatisfied Females</h3>
+                  <p className="text-gray-600 mb-4 text-sm flex-grow">Mature women seeking meaningful connections</p>
                   <a href="/services" className="inline-block bg-gradient-to-r from-violet-500 to-violet-600 text-white px-4 py-2 rounded-xl font-bold text-sm hover:scale-105 transition-transform">View Details</a>
                 </div>
 
@@ -508,6 +508,80 @@ export default function Home() {
                   </a>
                 </div>
               </div>
+
+              {/* Third Row - Additional 3 Large Cards */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="group bg-gradient-to-br from-yellow-100 to-yellow-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-yellow-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+                  <div className="text-center">
+                    <div className="text-6xl mb-6">🌳</div>
+                    <h3 className="text-3xl font-bold text-yellow-800 mb-3">Rau</h3>
+                    <p className="text-yellow-600 font-bold text-xl mb-4">Suburban Area</p>
+                    <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Peaceful suburban location with modern infrastructure and premium residential complexes.</p>
+                  </div>
+                  <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                    📞 Book Premium Escorts in Rau
+                  </a>
+                </div>
+                <div className="group bg-gradient-to-br from-indigo-100 to-indigo-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-indigo-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+                  <div className="text-center">
+                    <div className="text-6xl mb-6">🛣️</div>
+                    <h3 className="text-3xl font-bold text-indigo-800 mb-3">Ring Road</h3>
+                    <p className="text-indigo-600 font-bold text-xl mb-4">Connectivity Hub</p>
+                    <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Well-connected area with easy access to all parts of the city and premium establishments.</p>
+                  </div>
+                  <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                    📞 Book VIP Escorts in Ring Road
+                  </a>
+                </div>
+                <div className="group bg-gradient-to-br from-red-100 to-red-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-red-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+                  <div className="text-center">
+                    <div className="text-6xl mb-6">🏥</div>
+                    <h3 className="text-3xl font-bold text-red-800 mb-3">Bombay Hospital</h3>
+                    <p className="text-red-600 font-bold text-xl mb-4">Medical District</p>
+                    <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Healthcare hub with premium medical facilities and upscale accommodations nearby.</p>
+                  </div>
+                  <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                    📞 Book Elite Escorts in Bombay Hospital
+                  </a>
+                </div>
+              </div>
+
+              {/* Fourth Row - Final 3 Large Cards */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="group bg-gradient-to-br from-emerald-100 to-emerald-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-emerald-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+                  <div className="text-center">
+                    <div className="text-6xl mb-6">🏛️</div>
+                    <h3 className="text-3xl font-bold text-emerald-800 mb-3">MG Road</h3>
+                    <p className="text-emerald-600 font-bold text-xl mb-4">Heritage Area</p>
+                    <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Historic area with cultural significance, premium hotels and upscale amenities.</p>
+                  </div>
+                  <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                    📞 Book Premium Escorts in MG Road
+                  </a>
+                </div>
+                <div className="group bg-gradient-to-br from-rose-100 to-rose-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-rose-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+                  <div className="text-center">
+                    <div className="text-6xl mb-6">✈️</div>
+                    <h3 className="text-3xl font-bold text-rose-800 mb-3">Airport Road</h3>
+                    <p className="text-rose-600 font-bold text-xl mb-4">Aviation Zone</p>
+                    <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Airport vicinity with luxury hotels, business centers and premium travel services.</p>
+                  </div>
+                  <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-rose-500 to-rose-600 hover:from-rose-600 hover:to-rose-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                    📞 Book Elite Escorts in Airport Road
+                  </a>
+                </div>
+                <div className="group bg-gradient-to-br from-violet-100 to-violet-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-violet-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+                  <div className="text-center">
+                    <div className="text-6xl mb-6">🎯</div>
+                    <h3 className="text-3xl font-bold text-violet-800 mb-3">Treasure Island</h3>
+                    <p className="text-violet-600 font-bold text-xl mb-4">Entertainment Hub</p>
+                    <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Entertainment and recreation center with modern facilities and premium venues.</p>
+                  </div>
+                  <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-violet-500 to-violet-600 hover:from-violet-600 hover:to-violet-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                    📞 Book VIP Escorts in Treasure Island
+                  </a>
+                </div>
+              </div>
               
               {/* Coverage Summary */}
               <div className="bg-gradient-to-r from-pink-100/80 to-orange-100/80 backdrop-blur-lg rounded-3xl p-8 border-2 border-pink-200/50 mt-16">
@@ -616,35 +690,35 @@ export default function Home() {
         </section>
 
         {/* Contact Form and Map Section */}
-        <section className="py-24 px-4 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70 relative">
+        <section className="py-16 px-4 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70 relative">
           {/* Decorative Background Elements */}
           <div className="absolute inset-0 overflow-hidden">
-            <div className="absolute -top-24 -right-24 w-96 h-96 bg-gradient-to-br from-pink-300/20 to-orange-300/20 rounded-full blur-3xl"></div>
-            <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-gradient-to-br from-orange-300/20 to-pink-300/20 rounded-full blur-3xl"></div>
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-gradient-to-br from-pink-200/10 to-orange-200/10 rounded-full blur-2xl"></div>
+            <div className="absolute -top-16 -right-16 w-64 h-64 bg-gradient-to-br from-pink-300/20 to-orange-300/20 rounded-full blur-3xl"></div>
+            <div className="absolute -bottom-16 -left-16 w-64 h-64 bg-gradient-to-br from-orange-300/20 to-pink-300/20 rounded-full blur-3xl"></div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-gradient-to-br from-pink-200/10 to-orange-200/10 rounded-full blur-2xl"></div>
           </div>
-          <div className="max-w-7xl mx-auto relative z-10">
-            <div className="text-center mb-20">
-              <h2 className="text-6xl md:text-7xl font-bold bg-gradient-to-r from-pink-700 via-orange-600 to-pink-800 bg-clip-text text-transparent mb-8">
+          <div className="max-w-6xl mx-auto relative z-10">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-700 via-orange-600 to-pink-800 bg-clip-text text-transparent mb-6">
                 Contact Us For Booking
               </h2>
-              <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 max-w-4xl mx-auto shadow-lg border border-pink-200/50">
-                <p className="text-2xl font-semibold text-gray-800 leading-relaxed">
+              <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-6 max-w-3xl mx-auto shadow-lg border border-pink-200/50">
+                <p className="text-lg font-semibold text-gray-800 leading-relaxed">
                   ✨ Get in touch for premium escort services across Indore - Available 24/7 ✨
                 </p>
               </div>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-              <div className="bg-gradient-to-br from-blue-50 to-cyan-100 backdrop-blur-md rounded-3xl p-10 shadow-2xl border-2 border-blue-200/60 relative">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+              <div className="bg-gradient-to-br from-blue-50 to-cyan-100 backdrop-blur-md rounded-3xl p-6 shadow-2xl border-2 border-blue-200/60 relative">
                 {/* Decorative Corner Elements */}
-                <div className="absolute -top-4 -left-4 w-8 h-8 bg-gradient-to-br from-blue-400 to-cyan-500 rounded-full shadow-lg"></div>
-                <div className="absolute -top-4 -right-4 w-8 h-8 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-full shadow-lg"></div>
-                <div className="absolute -bottom-4 -left-4 w-8 h-8 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-full shadow-lg"></div>
-                <div className="absolute -bottom-4 -right-4 w-8 h-8 bg-gradient-to-br from-cyan-500 to-blue-400 rounded-full shadow-lg"></div>
+                <div className="absolute -top-3 -left-3 w-6 h-6 bg-gradient-to-br from-blue-400 to-cyan-500 rounded-full shadow-lg"></div>
+                <div className="absolute -top-3 -right-3 w-6 h-6 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-full shadow-lg"></div>
+                <div className="absolute -bottom-3 -left-3 w-6 h-6 bg-gradient-to-br from-blue-500 to-cyan-400 rounded-full shadow-lg"></div>
+                <div className="absolute -bottom-3 -right-3 w-6 h-6 bg-gradient-to-br from-cyan-500 to-blue-400 rounded-full shadow-lg"></div>
                 
-                <h3 className="text-4xl font-bold text-gray-800 mb-8 text-center">🗺️ Service Coverage Area</h3>
-                <div className="w-full h-96 rounded-3xl overflow-hidden shadow-2xl mb-8 border-4 border-blue-200/60">
+                <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">🗺️ Service Coverage Area</h3>
+                <div className="w-full h-60 rounded-2xl overflow-hidden shadow-xl mb-6 border-3 border-blue-200/60">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117060.47677400194!2d75.7674914!3d22.7195687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1234567890"
                     width="100%"
@@ -656,65 +730,65 @@ export default function Home() {
                     title="Indore Map - Escort Service Coverage Area"
                   ></iframe>
                 </div>
-                <div className="bg-gradient-to-r from-blue-100 to-cyan-100 rounded-2xl p-6 shadow-lg border border-blue-200/50 mb-6">
-                  <p className="text-blue-900 font-bold text-center text-xl">
+                <div className="bg-gradient-to-r from-blue-100 to-cyan-100 rounded-2xl p-4 shadow-lg border border-blue-200/50 mb-4">
+                  <p className="text-blue-900 font-bold text-center text-lg">
                     🏃‍♂️ We cover all major areas of Indore with fast response time ⚡
                   </p>
                 </div>
                 
                 {/* Coverage Statistics */}
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="bg-gradient-to-br from-blue-200/80 to-blue-300/60 rounded-xl p-4 text-center shadow-md">
-                    <div className="text-2xl mb-2">🕒</div>
-                    <p className="text-blue-900 font-bold text-lg">24/7 Available</p>
+                <div className="grid grid-cols-2 gap-3">
+                  <div className="bg-gradient-to-br from-blue-200/80 to-blue-300/60 rounded-xl p-3 text-center shadow-md">
+                    <div className="text-xl mb-1">🕒</div>
+                    <p className="text-blue-900 font-bold">24/7 Available</p>
                   </div>
-                  <div className="bg-gradient-to-br from-cyan-200/80 to-cyan-300/60 rounded-xl p-4 text-center shadow-md">
-                    <div className="text-2xl mb-2">⚡</div>
-                    <p className="text-cyan-900 font-bold text-lg">Quick Response</p>
+                  <div className="bg-gradient-to-br from-cyan-200/80 to-cyan-300/60 rounded-xl p-3 text-center shadow-md">
+                    <div className="text-xl mb-1">⚡</div>
+                    <p className="text-cyan-900 font-bold">Quick Response</p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-purple-50 to-pink-100 backdrop-blur-md rounded-3xl p-10 shadow-2xl border-2 border-purple-200/60 relative">
+              <div className="bg-gradient-to-br from-purple-50 to-pink-100 backdrop-blur-md rounded-3xl p-6 shadow-2xl border-2 border-purple-200/60 relative">
                 {/* Decorative Corner Elements */}
-                <div className="absolute -top-4 -left-4 w-8 h-8 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full shadow-lg"></div>
-                <div className="absolute -top-4 -right-4 w-8 h-8 bg-gradient-to-br from-pink-400 to-purple-500 rounded-full shadow-lg"></div>
-                <div className="absolute -bottom-4 -left-4 w-8 h-8 bg-gradient-to-br from-purple-500 to-pink-400 rounded-full shadow-lg"></div>
-                <div className="absolute -bottom-4 -right-4 w-8 h-8 bg-gradient-to-br from-pink-500 to-purple-400 rounded-full shadow-lg"></div>
+                <div className="absolute -top-3 -left-3 w-6 h-6 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full shadow-lg"></div>
+                <div className="absolute -top-3 -right-3 w-6 h-6 bg-gradient-to-br from-pink-400 to-purple-500 rounded-full shadow-lg"></div>
+                <div className="absolute -bottom-3 -left-3 w-6 h-6 bg-gradient-to-br from-purple-500 to-pink-400 rounded-full shadow-lg"></div>
+                <div className="absolute -bottom-3 -right-3 w-6 h-6 bg-gradient-to-br from-pink-500 to-purple-400 rounded-full shadow-lg"></div>
                 
-                <h3 className="text-4xl font-bold text-gray-800 mb-8 text-center">📝 Quick Booking Form</h3>
-                <div className="bg-gradient-to-br from-pink-50/80 to-orange-50/80 rounded-3xl p-8 shadow-inner border border-pink-200/30">
-                  <form className="space-y-8">
+                <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">📝 Quick Booking Form</h3>
+                <div className="bg-gradient-to-br from-pink-50/80 to-orange-50/80 rounded-3xl p-6 shadow-inner border border-pink-200/30">
+                  <form className="space-y-5">
                     <div>
-                      <label className="block text-gray-700 font-bold mb-3 text-lg">Your Name *</label>
+                      <label className="block text-gray-700 font-bold mb-2">Your Name *</label>
                       <input 
                         type="text" 
                         placeholder="Enter your full name" 
-                        className="w-full px-6 py-5 border-2 border-pink-200 rounded-2xl focus:outline-none focus:border-pink-500 focus:ring-4 focus:ring-pink-200/50 transition-all duration-300 bg-white shadow-md text-lg hover:shadow-lg"
+                        className="w-full px-4 py-3 border-2 border-pink-200 rounded-xl focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-200/50 transition-all duration-300 bg-white shadow-sm text-sm hover:shadow-md"
                         required
                       />
                     </div>
                     <div>
-                      <label className="block text-gray-700 font-bold mb-3 text-lg">Email Address *</label>
+                      <label className="block text-gray-700 font-bold mb-2">Email Address *</label>
                       <input 
                         type="email" 
                         placeholder="Enter your email address" 
-                        className="w-full px-6 py-5 border-2 border-pink-200 rounded-2xl focus:outline-none focus:border-pink-500 focus:ring-4 focus:ring-pink-200/50 transition-all duration-300 bg-white shadow-md text-lg hover:shadow-lg"
+                        className="w-full px-4 py-3 border-2 border-pink-200 rounded-xl focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-200/50 transition-all duration-300 bg-white shadow-sm text-sm hover:shadow-md"
                         required
                       />
                     </div>
                     <div>
-                      <label className="block text-gray-700 font-bold mb-3 text-lg">Phone Number *</label>
+                      <label className="block text-gray-700 font-bold mb-2">Phone Number *</label>
                       <input 
                         type="tel" 
                         placeholder="Enter your phone number" 
-                        className="w-full px-6 py-5 border-2 border-pink-200 rounded-2xl focus:outline-none focus:border-pink-500 focus:ring-4 focus:ring-pink-200/50 transition-all duration-300 bg-white shadow-md text-lg hover:shadow-lg"
+                        className="w-full px-4 py-3 border-2 border-pink-200 rounded-xl focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-200/50 transition-all duration-300 bg-white shadow-sm text-sm hover:shadow-md"
                         required
                       />
                     </div>
                     <div>
-                      <label className="block text-gray-700 font-bold mb-3 text-lg">Select Service *</label>
-                      <select className="w-full px-6 py-5 border-2 border-pink-200 rounded-2xl focus:outline-none focus:border-pink-500 focus:ring-4 focus:ring-pink-200/50 transition-all duration-300 text-gray-700 bg-white shadow-md text-lg hover:shadow-lg" required>
+                      <label className="block text-gray-700 font-bold mb-2">Select Service *</label>
+                      <select className="w-full px-4 py-3 border-2 border-pink-200 rounded-xl focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-200/50 transition-all duration-300 text-gray-700 bg-white shadow-sm text-sm hover:shadow-md" required>
                         <option value="">Choose a service</option>
                         <option value="celebrity">🌟 Celebrity Escorts</option>
                         <option value="vip">💎 VIP Escorts</option>
@@ -728,24 +802,24 @@ export default function Home() {
                       </select>
                     </div>
                     <div>
-                      <label className="block text-gray-700 font-bold mb-3 text-lg">Message (Optional)</label>
+                      <label className="block text-gray-700 font-bold mb-2">Message (Optional)</label>
                       <textarea 
                         placeholder="Tell us about your requirements..." 
-                        rows={5}
-                        className="w-full px-6 py-5 border-2 border-pink-200 rounded-2xl focus:outline-none focus:border-pink-500 focus:ring-4 focus:ring-pink-200/50 transition-all duration-300 bg-white shadow-md text-lg resize-none hover:shadow-lg"
+                        rows={3}
+                        className="w-full px-4 py-3 border-2 border-pink-200 rounded-xl focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-200/50 transition-all duration-300 bg-white shadow-sm text-sm resize-none hover:shadow-md"
                       ></textarea>
                     </div>
                     <button 
                       type="submit" 
-                      className="w-full bg-gradient-to-r from-pink-500 via-purple-500 to-orange-500 hover:from-orange-500 hover:via-pink-500 hover:to-purple-600 text-white px-8 py-6 rounded-2xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl border-2 border-pink-300/50 hover:border-orange-300/50"
+                      className="w-full bg-gradient-to-r from-pink-500 via-purple-500 to-orange-500 hover:from-orange-500 hover:via-pink-500 hover:to-purple-600 text-white px-6 py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl border-2 border-pink-300/50 hover:border-orange-300/50"
                     >
                       📝 Submit Booking Request ✨
                     </button>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8">
-                      <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-emerald-600 hover:to-green-700 text-white px-6 py-5 rounded-2xl font-bold text-lg text-center transition-all duration-300 transform hover:scale-105 shadow-xl border-2 border-green-300/50">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+                      <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-emerald-600 hover:to-green-700 text-white px-4 py-3 rounded-xl font-bold text-sm text-center transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-green-300/50">
                         📞 Call Now
                       </a>
-                      <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-green-600 to-lime-600 hover:from-lime-600 hover:to-green-700 text-white px-6 py-5 rounded-2xl font-bold text-lg text-center transition-all duration-300 transform hover:scale-105 shadow-xl border-2 border-lime-300/50">
+                      <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-green-600 to-lime-600 hover:from-lime-600 hover:to-green-700 text-white px-4 py-3 rounded-xl font-bold text-sm text-center transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-lime-300/50">
                         💬 WhatsApp
                       </a>
                     </div>

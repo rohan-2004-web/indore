@@ -21,38 +21,38 @@ export default function Header() {
         ? 'bg-white/95 backdrop-blur-lg shadow-lg border-b border-pink-100' 
         : 'bg-transparent'
     }`}>
-      <nav className="container mx-auto px-4 py-4">
+      <nav className="container mx-auto px-4 py-2">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="text-3xl font-bold">
+          <div className="text-2xl font-bold">
             <span className="bg-gradient-to-r from-blue-600 via-orange-500 to-blue-700 bg-clip-text text-transparent drop-shadow-2xl filter brightness-110">
               Saumya Kapoor
             </span>
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className={`font-bold text-lg transition-all duration-300 hover:scale-105 ${
+          <div className="hidden md:flex items-center space-x-6">
+            <a href="#home" className={`font-bold text-base transition-all duration-300 hover:scale-105 ${
               isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
             }`}>
               Home
             </a>
-            <a href="#about" className={`font-bold text-lg transition-all duration-300 hover:scale-105 ${
+            <a href="#about" className={`font-bold text-base transition-all duration-300 hover:scale-105 ${
               isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
             }`}>
               About
             </a>
-            <a href="#services" className={`font-bold text-lg transition-all duration-300 hover:scale-105 ${
+            <a href="#services" className={`font-bold text-base transition-all duration-300 hover:scale-105 ${
               isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
             }`}>
               Services
             </a>
-            <a href="#gallery" className={`font-bold text-lg transition-all duration-300 hover:scale-105 ${
+            <a href="#gallery" className={`font-bold text-base transition-all duration-300 hover:scale-105 ${
               isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
             }`}>
               Gallery
             </a>
-            <a href="#contact" className={`font-bold text-lg transition-all duration-300 hover:scale-105 ${
+            <a href="#contact" className={`font-bold text-base transition-all duration-300 hover:scale-105 ${
               isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
             }`}>
               Contact
@@ -61,7 +61,7 @@ export default function Header() {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <a href="#contact" className="bg-gradient-to-r from-pink-500 to-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:from-pink-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
+            <a href="#contact" className="bg-gradient-to-r from-pink-500 to-blue-600 text-white px-5 py-2 rounded-full font-semibold text-sm hover:from-pink-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
               Get Started
             </a>
           </div>
@@ -85,24 +85,24 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 pb-4 border-t border-pink-100 bg-white/95 backdrop-blur-lg rounded-lg">
-            <div className="flex flex-col space-y-2 mt-4">
-              <a href="#home" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-lg py-3 px-4 hover:bg-pink-50 rounded-lg">
+          <div className="md:hidden mt-3 pb-3 border-t border-pink-100 bg-white/95 backdrop-blur-lg rounded-lg">
+            <div className="flex flex-col space-y-1 mt-3">
+              <a href="#home" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-base py-2 px-3 hover:bg-pink-50 rounded-lg">
                 Home
               </a>
-              <a href="#about" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-lg py-3 px-4 hover:bg-pink-50 rounded-lg">
+              <a href="#about" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-base py-2 px-3 hover:bg-pink-50 rounded-lg">
                 About
               </a>
-              <a href="#services" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-lg py-3 px-4 hover:bg-pink-50 rounded-lg">
+              <a href="#services" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-base py-2 px-3 hover:bg-pink-50 rounded-lg">
                 Services
               </a>
-              <a href="#gallery" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-lg py-3 px-4 hover:bg-pink-50 rounded-lg">
+              <a href="#gallery" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-base py-2 px-3 hover:bg-pink-50 rounded-lg">
                 Gallery
               </a>
-              <a href="#contact" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-lg py-3 px-4 hover:bg-pink-50 rounded-lg">
+              <a href="#contact" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-base py-2 px-3 hover:bg-pink-50 rounded-lg">
                 Contact
               </a>
-              <a href="#contact" className="bg-gradient-to-r from-pink-500 to-blue-600 text-white px-6 py-3 rounded-full font-bold text-center mx-4 mt-2">
+              <a href="#contact" className="bg-gradient-to-r from-pink-500 to-blue-600 text-white px-4 py-2 rounded-full font-bold text-center mx-3 mt-2 text-sm">
                 Get Started
               </a>
             </div>
