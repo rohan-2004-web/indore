@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
+import Image from 'next/image'
 import Header from '@/components/Header'
 
 export default function HomePage() {
@@ -14,42 +15,42 @@ export default function HomePage() {
     {
       title: "Web Development",
       description: "Professional websites and web applications with modern technologies",
-      image: "/images/services/web-development.jpg",
+      image: "/images/services/0397121d113ececea2ba9056c9dd0980.webp",
       icon: "💻",
       category: "PREMIUM"
     },
     {
       title: "UI/UX Design",
       description: "Beautiful and intuitive user interface designs that engage users",
-      image: "/images/services/ui-ux-design.jpg",
+      image: "/images/services/2b60624548447911360b06ed377bf722.webp",
       icon: "🎨",
       category: "CREATIVE"
     },
     {
       title: "Mobile Apps",
       description: "Native and cross-platform mobile applications for iOS and Android",
-      image: "/images/services/mobile-apps.jpg",
+      image: "/images/services/3025e0fbb540f802d9608b54286647cc.webp",
       icon: "📱",
       category: "MOBILE"
     },
     {
       title: "E-commerce Solutions",
       description: "Complete online store solutions with payment integration",
-      image: "/images/services/ecommerce.jpg",
+      image: "/images/services/7d861a486a6e06fce0ac060cd0abe731.webp",
       icon: "🛍️",
       category: "BUSINESS"
     },
     {
       title: "Digital Marketing",
       description: "Comprehensive digital marketing strategies and campaigns",
-      image: "/images/services/digital-marketing.jpg",
+      image: "/images/services/b0489d963dcb46271de22d7478adb06a.webp",
       icon: "📈",
       category: "MARKETING"
     },
     {
       title: "Brand Identity",
       description: "Complete branding solutions including logo design and guidelines",
-      image: "/images/services/branding.jpg",
+      image: "/images/services/e3649d9fe77db60518bbf7e230e41987.webp",
       icon: "✨",
       category: "BRAND"
     }
@@ -165,15 +166,20 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
               <div key={index} className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden">
-                <div className="relative h-48 bg-gradient-to-br from-pink-400 to-blue-500">
-                  <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold text-gray-700">
+                <div className="relative h-48 bg-gradient-to-br from-pink-400 to-blue-500 overflow-hidden">
+                  <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-semibold text-gray-700 z-10">
                     {service.category}
                   </div>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-6xl">{service.icon}</div>
+                  <Image 
+                    src={service.image} 
+                    alt={service.title}
+                    fill
+                    className="object-cover hover:scale-110 transition-transform duration-300" 
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                  <div className="absolute bottom-4 right-4 text-4xl bg-white/20 backdrop-blur-sm rounded-full w-16 h-16 flex items-center justify-center z-10">
+                    {service.icon}
                   </div>
-                  {/* Placeholder for actual image */}
-                  {/* <img src={service.image} alt={service.title} className="w-full h-full object-cover" /> */}
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-800 mb-3">{service.title}</h3>
