@@ -1,69 +1,114 @@
-import Link from 'next/link';
+'use client'
+
+import React, { useState, useEffect } from 'react'
+import Link from 'next/link'
 
 export default function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50)
+    }
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   return (
-    <header className="bg-white/90 backdrop-blur-md border-b border-pink-100 sticky top-0 z-50 shadow-sm">
-      <div className="container mx-auto px-4 py-4">
-        <div className="flex justify-between items-center">
-          {/* Beautiful Logo */}
-          <div className="flex items-center">
-            <Link href="/" className="group">
-              <div className="text-3xl font-bold bg-gradient-to-r from-pink-600 via-purple-600 to-blue-600 bg-clip-text text-transparent hover:from-pink-700 hover:via-purple-700 hover:to-blue-700 transition-all duration-300 transform group-hover:scale-105">
-                Saumya Kapoor
-              </div>
-              <div className="text-xs text-gray-500 mt-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                Elegant & Professional
-              </div>
-            </Link>
+    <header className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+      isScrolled 
+        ? 'bg-white/95 backdrop-blur-lg shadow-lg border-b border-pink-100' 
+        : 'bg-transparent'
+    }`}>
+      <nav className="container mx-auto px-4 py-4">
+        <div className="flex items-center justify-between">
+          {/* Logo */}
+          <div className="text-3xl font-bold">
+            <span className="bg-gradient-to-r from-pink-500 via-pink-600 to-blue-600 bg-clip-text text-transparent">
+              Saumya Kapoor
+            </span>
           </div>
 
-          {/* Navigation Menu */}
-          <nav className="hidden md:flex space-x-8">
-            <Link 
-              href="/" 
-              className="text-gray-700 hover:text-pink-600 font-medium transition-all duration-200 relative group"
-            >
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex items-center space-x-8">
+            <a href="#home" className={`font-semibold transition-all duration-300 hover:scale-105 ${
+              isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
+            }`}>
               Home
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-pink-500 to-blue-500 group-hover:w-full transition-all duration-300"></span>
-            </Link>
-            <Link 
-              href="/about" 
-              className="text-gray-700 hover:text-pink-600 font-medium transition-all duration-200 relative group"
-            >
+            </a>
+            <a href="#about" className={`font-semibold transition-all duration-300 hover:scale-105 ${
+              isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
+            }`}>
               About
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-pink-500 to-blue-500 group-hover:w-full transition-all duration-300"></span>
-            </Link>
-            <Link 
-              href="/service" 
-              className="text-gray-700 hover:text-pink-600 font-medium transition-all duration-200 relative group"
-            >
-              Service
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-pink-500 to-blue-500 group-hover:w-full transition-all duration-300"></span>
-            </Link>
-            <Link 
-              href="/gallery" 
-              className="text-gray-700 hover:text-pink-600 font-medium transition-all duration-200 relative group"
-            >
+            </a>
+            <a href="#services" className={`font-semibold transition-all duration-300 hover:scale-105 ${
+              isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
+            }`}>
+              Services
+            </a>
+            <a href="#gallery" className={`font-semibold transition-all duration-300 hover:scale-105 ${
+              isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
+            }`}>
               Gallery
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-pink-500 to-blue-500 group-hover:w-full transition-all duration-300"></span>
-            </Link>
-            <Link 
-              href="/contact" 
-              className="text-gray-700 hover:text-pink-600 font-medium transition-all duration-200 relative group"
-            >
+            </a>
+            <a href="#contact" className={`font-semibold transition-all duration-300 hover:scale-105 ${
+              isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
+            }`}>
               Contact
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-pink-500 to-blue-500 group-hover:w-full transition-all duration-300"></span>
-            </Link>
-          </nav>
+            </a>
+          </div>
+
+          {/* CTA Button */}
+          <div className="hidden md:block">
+            <a href="#contact" className="bg-gradient-to-r from-pink-500 to-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:from-pink-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
+              Get Started
+            </a>
+          </div>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden flex flex-col space-y-1 group">
-            <span className="w-6 h-0.5 bg-gray-600 group-hover:bg-pink-600 transition-colors duration-200"></span>
-            <span className="w-6 h-0.5 bg-gray-600 group-hover:bg-pink-600 transition-colors duration-200"></span>
-            <span className="w-6 h-0.5 bg-gray-600 group-hover:bg-pink-600 transition-colors duration-200"></span>
+          <button
+            className={`md:hidden transition-colors ${
+              isScrolled ? 'text-gray-700' : 'text-white'
+            }`}
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              {isMenuOpen ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              )}
+            </svg>
           </button>
         </div>
-      </div>
+
+        {/* Mobile Navigation */}
+        {isMenuOpen && (
+          <div className="md:hidden mt-4 pb-4 border-t border-pink-100 bg-white/95 backdrop-blur-lg rounded-lg">
+            <div className="flex flex-col space-y-2 mt-4">
+              <a href="#home" className="text-gray-700 hover:text-pink-500 transition-colors font-semibold py-3 px-4 hover:bg-pink-50 rounded-lg">
+                Home
+              </a>
+              <a href="#about" className="text-gray-700 hover:text-pink-500 transition-colors font-semibold py-3 px-4 hover:bg-pink-50 rounded-lg">
+                About
+              </a>
+              <a href="#services" className="text-gray-700 hover:text-pink-500 transition-colors font-semibold py-3 px-4 hover:bg-pink-50 rounded-lg">
+                Services
+              </a>
+              <a href="#gallery" className="text-gray-700 hover:text-pink-500 transition-colors font-semibold py-3 px-4 hover:bg-pink-50 rounded-lg">
+                Gallery
+              </a>
+              <a href="#contact" className="text-gray-700 hover:text-pink-500 transition-colors font-semibold py-3 px-4 hover:bg-pink-50 rounded-lg">
+                Contact
+              </a>
+              <a href="#contact" className="bg-gradient-to-r from-pink-500 to-blue-600 text-white px-6 py-3 rounded-full font-semibold text-center mx-4 mt-2">
+                Get Started
+              </a>
+            </div>
+          </div>
+        )}
+      </nav>
     </header>
-  );
+  )
 }
