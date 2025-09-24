@@ -179,7 +179,7 @@ export default function Home() {
           <div className="w-full px-4">
             <div className="max-w-7xl mx-auto">
               <div className="text-center mb-12">
-                <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent mb-6">
+                <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-6">
                   Ready to Book? Contact Us Now
                 </h2>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -229,10 +229,37 @@ export default function Home() {
             </div>
 
             <div className="max-w-6xl mx-auto mb-16">
-              <div className="p-12">
-                <p className="text-xl text-gray-700 leading-relaxed text-center">
-                  All our Pink Bra escorts in Indore are excellent professionals who bring unmatched elegance and sophistication to every encounter. They are highly professional and will always meet you with genuine enthusiasm and warmth. Our independent escorts have a deep understanding of what distinguished gentlemen expect from premium companion services, which is why they are always successful in providing exceptional services with grace and professionalism. Each of our elite escorts possesses exceptional conversational skills, refined social etiquette, and the ability to adapt to any social setting with confidence. We maintain the highest standards of hygiene, safety, and professionalism across our entire network. When you choose our escort services in Indore, you're choosing a premium experience that combines luxury, discretion, and unparalleled satisfaction with 24/7 customer support.
-                </p>
+              <div className="bg-gradient-to-r from-pink-50/80 to-orange-50/80 backdrop-blur-lg rounded-3xl p-12 border-2 border-pink-200/50 shadow-2xl">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                  <div className="bg-white/90 rounded-2xl p-6 border border-pink-200/50">
+                    <h3 className="text-2xl font-bold text-pink-700 mb-4">🌟 Professional Excellence</h3>
+                    <p className="text-lg text-gray-800 leading-relaxed mb-4">
+                      All our escorts in Indore are excellent professionals who bring unmatched elegance and sophistication to every encounter. They are highly professional and will always meet you with genuine enthusiasm and warmth.
+                    </p>
+                    <p className="text-lg text-gray-800 leading-relaxed">
+                      Our independent escorts have a deep understanding of what distinguished gentlemen expect from premium companion services, which is why they are always successful in providing exceptional services with grace and professionalism.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-white/90 rounded-2xl p-6 border border-orange-200/50">
+                    <h3 className="text-2xl font-bold text-orange-700 mb-4">💎 Elite Companions</h3>
+                    <p className="text-lg text-gray-800 leading-relaxed mb-4">
+                      Each of our elite escorts possesses exceptional conversational skills, refined social etiquette, and the ability to adapt to any social setting with confidence.
+                    </p>
+                    <p className="text-lg text-gray-800 leading-relaxed">
+                      We maintain the highest standards of hygiene, safety, and professionalism across our entire network. When you choose our escort services in Indore, you're choosing a premium experience that combines luxury, discretion, and unparalleled satisfaction with 24/7 customer support.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="mt-8 bg-white/80 rounded-2xl p-6 border border-pink-300/50 text-center">
+                  <h3 className="text-2xl font-bold bg-gradient-to-r from-pink-700 to-orange-700 bg-clip-text text-transparent mb-4">
+                    🚀 Premium Experience Guaranteed
+                  </h3>
+                  <p className="text-xl text-gray-800 font-semibold">
+                    Experience the finest companionship services with complete discretion and satisfaction guarantee across all major locations in Indore.
+                  </p>
+                </div>
               </div>
             </div>
 
@@ -271,13 +298,38 @@ export default function Home() {
               <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
                 Premium Escorts In Indore - Our Services
               </h2>
+              <div className="bg-gradient-to-r from-pink-100/80 to-orange-100/80 backdrop-blur-lg rounded-3xl p-8 border-2 border-pink-200/50 mb-12">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  <div className="bg-white/90 rounded-2xl p-6 text-center">
+                    <h3 className="text-xl font-bold text-pink-700 mb-3">🌟 Premium Categories</h3>
+                    <p className="text-gray-800 font-semibold">
+                      Celebrity escorts, VIP companions, premium models, and exclusive event partners for distinguished clientele.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-white/90 rounded-2xl p-6 text-center">
+                    <h3 className="text-xl font-bold text-orange-700 mb-3">🎭 Diverse Selection</h3>
+                    <p className="text-gray-800 font-semibold">
+                      College girls, housewife escorts, Punjabi women, and local beauties to suit every preference and occasion.
+                    </p>
+                  </div>
+                  
+                  <div className="bg-white/90 rounded-2xl p-6 text-center">
+                    <h3 className="text-xl font-bold text-pink-700 mb-3">🔥 Special Services</h3>
+                    <p className="text-gray-800 font-semibold">
+                      Travel companions, dinner dates, outcall services, and customized experiences across all Indore locations.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
               <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-8">
                 Experience the finest professional escort companions with our premium services in Indore
               </p>
               <div className="max-w-4xl mx-auto text-center">
                 <a 
                   href="/services" 
-                  className="inline-block bg-gradient-to-r from-pink-500 to-blue-500 hover:from-blue-500 hover:to-pink-500 text-white px-8 py-4 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-xl"
+                  className="inline-block bg-gradient-to-r from-pink-500 to-orange-500 hover:from-orange-500 hover:to-pink-600 text-white px-8 py-4 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-xl border-2 border-white/30"
                 >
                   🔗 View All Services & Book Online
                 </a>
@@ -409,7 +461,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-br from-blue-100/40 via-pink-50/30 to-orange-100/40"></div>
           <div className="container mx-auto relative z-10">
             <div className="text-center mb-16">
-              <h2 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-blue-600 via-pink-500 to-orange-600 bg-clip-text text-transparent mb-6">
+              <h2 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
                 Escort Services Available In All Indore Areas
               </h2>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
@@ -562,6 +614,42 @@ export default function Home() {
                   </a>
                 </div>
               </div>
+              
+              <div className="bg-gradient-to-r from-pink-100/80 to-orange-100/80 backdrop-blur-lg rounded-3xl p-8 border-2 border-pink-200/50 mt-16">
+                <div className="text-center">
+                  <h3 className="text-3xl font-bold text-pink-700 mb-6">📍 Complete Coverage Across Indore</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                    <div className="bg-white/90 rounded-2xl p-6">
+                      <h4 className="font-bold text-pink-700 mb-3">🏙️ Business Districts</h4>
+                      <p className="text-gray-800">
+                        Premium escort services in Vijay Nagar, AB Road, Bhawar Kuan, and all major commercial areas with 5-star hotels.
+                      </p>
+                    </div>
+                    <div className="bg-white/90 rounded-2xl p-6">
+                      <h4 className="font-bold text-orange-700 mb-3">🏘️ Residential Areas</h4>
+                      <p className="text-gray-800">
+                        Discreet home visits in Saket, Scheme 78, Rau, and upscale residential colonies with guaranteed privacy.
+                      </p>
+                    </div>
+                    <div className="bg-white/90 rounded-2xl p-6">
+                      <h4 className="font-bold text-pink-700 mb-3">✈️ Travel & Tourism</h4>
+                      <p className="text-gray-800">
+                        Airport transfers, outstation travel companions, and hotel escort services across all premium locations.
+                      </p>
+                    </div>
+                  </div>
+                  <p className="text-xl text-gray-800 font-semibold mb-6">
+                    Professional escort services available 24/7 with instant response across 15+ prime locations in Indore. 
+                    Complete discretion, verified companions, and satisfaction guaranteed.
+                  </p>
+                  <a 
+                    href="/locations" 
+                    className="inline-block bg-gradient-to-r from-pink-500 to-orange-500 hover:from-orange-500 hover:to-pink-600 text-white px-8 py-4 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-xl border-2 border-white/30"
+                  >
+                    📍 View All Coverage Areas & Book Online
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -570,7 +658,7 @@ export default function Home() {
         <section className="py-20 px-4 bg-gradient-to-br from-blue-100/40 via-pink-50/30 to-orange-100/40">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
-              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-blue-600 via-pink-500 to-orange-600 bg-clip-text text-transparent mb-6">
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
                 How To Book Our Escort Service In Indore
               </h2>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
