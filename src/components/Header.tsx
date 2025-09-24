@@ -32,29 +32,19 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-6">
-            <a href="#home" className={`font-bold text-base transition-all duration-300 hover:scale-105 ${
-              isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
-            }`}>
+            <a href="#home" className="font-black text-lg text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
               Home
             </a>
-            <a href="#about" className={`font-bold text-base transition-all duration-300 hover:scale-105 ${
-              isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
-            }`}>
+            <a href="#about" className="font-black text-lg text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
               About
             </a>
-            <a href="#services" className={`font-bold text-base transition-all duration-300 hover:scale-105 ${
-              isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
-            }`}>
+            <a href="#services" className="font-black text-lg text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
               Services
             </a>
-            <a href="#gallery" className={`font-bold text-base transition-all duration-300 hover:scale-105 ${
-              isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
-            }`}>
+            <a href="#gallery" className="font-black text-lg text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
               Gallery
             </a>
-            <a href="#contact" className={`font-bold text-base transition-all duration-300 hover:scale-105 ${
-              isScrolled ? 'text-gray-700 hover:text-pink-500' : 'text-white hover:text-pink-300'
-            }`}>
+            <a href="#contact" className="font-black text-lg text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
               Contact
             </a>
           </div>
