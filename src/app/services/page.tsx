@@ -237,7 +237,7 @@ export default function ServicesPage() {
                   </div>
 
                   <div className="text-center">
-                    <span className="inline-block bg-gradient-to-r from-pink-500 to-orange-500 text-white px-8 py-4 rounded-2xl font-bold text-lg transition-all duration-300 group-hover:from-orange-500 group-hover:to-pink-500 shadow-xl">
+                    <span className="inline-block bg-gradient-to-r from-pink-500 to-orange-500 text-white px-12 py-6 rounded-3xl font-bold text-xl transition-all duration-300 group-hover:from-orange-500 group-hover:to-pink-500 shadow-2xl transform hover:scale-110">
                       Book {service.title} Now
                     </span>
                   </div>
