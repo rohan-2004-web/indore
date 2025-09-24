@@ -29,12 +29,12 @@ export default function Home() {
       category: "YOUNG"
     },
     {
-      title: "Elite Models",
-      subtitle: "Top Class Models",
-      description: "Professional elite models with stunning looks and sophisticated charm",
-      image: "/images/services/Elite Models.webp",
+      title: "Punjabi Women",
+      subtitle: "Traditional Beauty",
+      description: "Authentic Punjabi companions with traditional charm and modern sophistication",
+      image: "/images/services/Punjabi women.webp",
       icon: "🌟",
-      category: "ELITE"
+      category: "TRADITIONAL"
     },
     {
       title: "Event Companion",
@@ -181,7 +181,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Services Section - 3x3 Grid Layout */}
+      {/* Services Section - Horizontal Perfect Layout */}
       <section id="services" className="py-20 bg-gradient-to-br from-gray-50 via-pink-50 to-blue-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
@@ -193,65 +193,74 @@ export default function Home() {
             </p>
           </div>
 
-          {/* 3x3 Grid Layout */}
-          <div className="max-w-7xl mx-auto">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {services.map((service, index) => (
-                <div key={index} className="group bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-700 overflow-hidden transform hover:-translate-y-3 border border-pink-100/50">
+          {/* Horizontal Cards Layout */}
+          <div className="max-w-7xl mx-auto space-y-8">
+            {services.map((service, index) => (
+              <div key={index} className={`group bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-700 overflow-hidden transform hover:-translate-y-2 border border-pink-100/50 ${
+                index % 2 === 0 ? 'ml-0 mr-8' : 'ml-8 mr-0'
+              }`}>
+                <div className={`flex items-center ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'} h-80`}>
                   
-                  {/* Image Section */}
-                  <div className="relative h-80 overflow-hidden">
+                  {/* Image Section - Perfect Horizontal Size */}
+                  <div className="relative w-1/2 h-full overflow-hidden">
                     <Image 
                       src={service.image} 
                       alt={service.title}
                       fill
-                      className="object-cover object-top group-hover:scale-110 transition-transform duration-700" 
+                      className="object-cover object-center group-hover:scale-110 transition-transform duration-700" 
                       style={{
-                        objectPosition: 'center top'
+                        objectPosition: 'center center'
                       }}
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+                    <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-transparent to-black/40"></div>
                     
                     {/* Floating Category Badge */}
-                    <div className="absolute top-6 left-6 bg-gradient-to-r from-pink-500 to-purple-600 backdrop-blur-sm px-4 py-2 rounded-2xl text-sm font-bold text-white shadow-2xl border border-white/20">
+                    <div className="absolute top-6 left-6 bg-gradient-to-r from-pink-500 to-purple-600 backdrop-blur-sm px-5 py-3 rounded-2xl text-sm font-bold text-white shadow-2xl border border-white/20">
                       {service.icon} {service.category}
                     </div>
 
-                    {/* Name Overlay at Bottom */}
-                    <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                      <h3 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-white via-pink-200 to-blue-200 mb-2 tracking-wide">
+                    {/* Name Overlay on Image */}
+                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
+                      <h3 className="text-3xl font-extrabold text-white mb-2 tracking-wide">
                         {service.title}
                       </h3>
-                      <p className="text-pink-200 text-lg font-semibold">{service.subtitle}</p>
+                      <p className="text-pink-200 text-xl font-semibold">{service.subtitle}</p>
                     </div>
                   </div>
                   
-                  {/* Content Section */}
-                  <div className="p-8">
+                  {/* Content Section - Perfect Horizontal Size */}
+                  <div className={`w-1/2 h-full flex flex-col justify-center p-12 ${index % 2 === 0 ? 'text-left' : 'text-right'}`}>
                     <div className="space-y-6">
+                      
+                      {/* Title Display (Hidden since it's on image) */}
+                      <div className={`w-24 h-1 bg-gradient-to-r from-pink-500 to-blue-500 rounded-full ${index % 2 === 0 ? '' : 'ml-auto'}`}></div>
+                      
                       {/* Description */}
-                      <p className="text-gray-600 text-lg leading-relaxed font-medium">
+                      <p className="text-gray-600 text-xl leading-relaxed font-medium">
                         {service.description}
                       </p>
                       
                       {/* Premium Features */}
-                      <div className="grid grid-cols-1 gap-2 text-sm text-gray-500">
-                        <div className="flex items-center gap-2">
-                          <span className="text-green-500">✓</span> Verified Professional
+                      <div className="grid grid-cols-1 gap-3 text-base text-gray-500">
+                        <div className={`flex items-center gap-3 ${index % 2 === 0 ? '' : 'justify-end'}`}>
+                          <span className="text-green-500 text-lg">✓</span> 
+                          <span>Verified Professional</span>
                         </div>
-                        <div className="flex items-center gap-2">
-                          <span className="text-green-500">✓</span> 24/7 Availability
+                        <div className={`flex items-center gap-3 ${index % 2 === 0 ? '' : 'justify-end'}`}>
+                          <span className="text-green-500 text-lg">✓</span> 
+                          <span>24/7 Availability</span>
                         </div>
-                        <div className="flex items-center gap-2">
-                          <span className="text-green-500">✓</span> Discreet Service
+                        <div className={`flex items-center gap-3 ${index % 2 === 0 ? '' : 'justify-end'}`}>
+                          <span className="text-green-500 text-lg">✓</span> 
+                          <span>Complete Discretion</span>
                         </div>
                       </div>
                       
                       {/* Book Button - Pink Color */}
-                      <div className="pt-4">
+                      <div className="pt-6">
                         <a 
                           href="tel:+919372662471" 
-                          className="w-full inline-block bg-gradient-to-r from-pink-500 via-pink-600 to-pink-700 hover:from-pink-600 hover:via-pink-700 hover:to-pink-800 text-white px-8 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl border border-pink-400 text-center"
+                          className="inline-block bg-gradient-to-r from-pink-500 via-pink-600 to-pink-700 hover:from-pink-600 hover:via-pink-700 hover:to-pink-800 text-white px-10 py-4 rounded-2xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-xl hover:shadow-2xl border border-pink-400"
                         >
                           📞 Book {service.title}
                         </a>
@@ -259,8 +268,8 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
 
           <div className="text-center mt-16">
