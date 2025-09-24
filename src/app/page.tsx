@@ -125,24 +125,19 @@ export default function Home() {
     <>
       <div className="min-h-screen bg-gradient-to-br from-pink-200/60 via-orange-100/50 to-pink-300/60">
         
-        {/* Hero Section - Compact Style */}
+        {/* Hero Section - Enhanced Style */}
         <section className="pt-20 pb-12 relative">
           <div className="absolute inset-0 bg-gradient-to-br from-pink-300/90 via-orange-200/80 to-pink-300/90"></div>
-          <div className="absolute inset-0">
-            <div className="absolute top-5 left-10 w-48 h-48 bg-gradient-to-br from-pink-400/40 to-orange-600/40 rounded-full blur-3xl animate-pulse"></div>
-            <div className="absolute bottom-5 right-10 w-64 h-64 bg-gradient-to-br from-orange-400/40 to-pink-600/40 rounded-full blur-3xl animate-pulse"></div>
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-56 h-56 bg-gradient-to-br from-pink-400/40 to-orange-600/40 rounded-full blur-3xl animate-pulse"></div>
-          </div>
           <div className="w-full mx-auto text-center relative z-10 px-4">
-            <h1 className="text-4xl md:text-6xl font-extrabold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-8 leading-tight">
+            <h1 className="text-5xl md:text-8xl font-extrabold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-8 leading-tight">
               Premium Escort Service In Indore
             </h1>
-            <p className="text-xl md:text-2xl text-gray-700 max-w-6xl mx-auto mb-10 font-medium leading-relaxed">
+            <p className="text-2xl md:text-3xl text-gray-700 max-w-6xl mx-auto mb-12 font-medium leading-relaxed">
               Experience luxury companionship with verified professional escorts available 24/7 across all prime locations in Indore.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
               <a 
-                href="/services" 
+                href="tel:+919372662471" 
                 className="inline-block bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-12 py-6 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
               >
                 📞 Call Now: +91 9372662471
@@ -154,22 +149,32 @@ export default function Home() {
                 💬 WhatsApp Now
               </a>
             </div>
+            
+            {/* Enhanced Service Cards */}
             <div className="w-full">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-12 shadow-2xl border-2 border-pink-300/60 transform hover:scale-105 transition-all duration-300 min-h-[300px] flex flex-col justify-center">
-                  <div className="text-8xl mb-6">⭐</div>
-                  <h3 className="font-black text-2xl text-gray-800 mb-6">24/7 Available</h3>
-                  <p className="text-gray-600 text-lg leading-relaxed font-semibold">Premium escort service across all Indore locations.</p>
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-12 border border-pink-200/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[400px] flex flex-col justify-center">
+                  <div className="w-full h-64 mb-6 rounded-2xl overflow-hidden shadow-xl">
+                    <img src="/images/services/Celebrity Escorts.webp" alt="24/7 Available Service" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
+                  </div>
+                  <h3 className="text-3xl font-bold text-pink-600 mb-4">24/7 Available</h3>
+                  <p className="text-gray-600 text-lg leading-relaxed font-semibold">Premium escort service across all Indore locations with instant response.</p>
                 </div>
-                <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-12 shadow-2xl border-2 border-orange-300/60 transform hover:scale-105 transition-all duration-300 min-h-[300px] flex flex-col justify-center">
-                  <div className="text-8xl mb-6">🔒</div>
-                  <h3 className="font-black text-2xl text-gray-800 mb-6">100% Verified</h3>
-                  <p className="text-gray-600 text-lg leading-relaxed font-semibold">All companions are thoroughly verified and professional.</p>
+                
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-12 border border-orange-200/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[400px] flex flex-col justify-center">
+                  <div className="w-full h-64 mb-6 rounded-2xl overflow-hidden shadow-xl">
+                    <img src="/images/services/VIP Escorts.webp" alt="100% Verified Service" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
+                  </div>
+                  <h3 className="text-3xl font-bold text-orange-600 mb-4">100% Verified</h3>
+                  <p className="text-gray-600 text-lg leading-relaxed font-semibold">All companions are thoroughly verified professionals with excellent service records.</p>
                 </div>
-                <div className="bg-white/95 backdrop-blur-sm rounded-3xl p-12 shadow-2xl border-2 border-pink-300/60 transform hover:scale-105 transition-all duration-300 min-h-[300px] flex flex-col justify-center">
-                  <div className="text-8xl mb-6">💎</div>
-                  <h3 className="font-black text-2xl text-gray-800 mb-6">Complete Privacy</h3>
-                  <p className="text-gray-600 text-lg leading-relaxed font-semibold">Absolute discretion and confidentiality guaranteed.</p>
+                
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-12 border border-pink-200/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[400px] flex flex-col justify-center">
+                  <div className="w-full h-64 mb-6 rounded-2xl overflow-hidden shadow-xl">
+                    <img src="/images/services/Premium Models.webp" alt="Complete Privacy Service" className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-300" />
+                  </div>
+                  <h3 className="text-3xl font-bold text-pink-600 mb-4">Complete Privacy</h3>
+                  <p className="text-gray-600 text-lg leading-relaxed font-semibold">Absolute discretion and confidentiality guaranteed for all our premium services.</p>
                 </div>
               </div>
             </div>
@@ -376,7 +381,7 @@ export default function Home() {
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-blue-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/VIP Escorts.jpg" alt="VIP Escorts" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
+                    <img src="/images/services/VIP Escorts.webp" alt="VIP Escorts" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">VIP Escorts</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Ultimate luxury companions for discerning clients</p>
@@ -385,7 +390,7 @@ export default function Home() {
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-orange-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/Premium Models.jpg" alt="Premium Models" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
+                    <img src="/images/services/Premium Models.webp" alt="Premium Models" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Premium Models</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">High-end models with sophistication</p>
@@ -404,7 +409,7 @@ export default function Home() {
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-green-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/Housewife Escorts.jpg" alt="Housewife Escorts" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
+                    <img src="/images/services/Housewife Escorts.webp" alt="Housewife Escorts" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Housewife Escorts</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Mature experienced companions with caring nature</p>

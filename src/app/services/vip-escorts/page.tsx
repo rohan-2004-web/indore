@@ -42,7 +42,7 @@ export default function VIPEscortsPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="w-full h-96 rounded-2xl overflow-hidden shadow-xl mb-8">
-                    <img src="/images/services/VIP Escorts.jpg" alt="VIP Escorts" className="w-full h-full object-cover object-top" />
+                    <img src="/images/services/VIP Escorts.webp" alt="VIP Escorts" className="w-full h-full object-cover object-top" />
                   </div>
                 </div>
                 

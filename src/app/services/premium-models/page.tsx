@@ -42,7 +42,7 @@ export default function PremiumModelsPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="w-full h-96 rounded-2xl overflow-hidden shadow-xl mb-8">
-                    <img src="/images/services/Premium Models.jpg" alt="Premium Models" className="w-full h-full object-cover object-top" />
+                    <img src="/images/services/Premium Models.webp" alt="Premium Models" className="w-full h-full object-cover object-top" />
                   </div>
                 </div>
                 
