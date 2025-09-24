@@ -126,27 +126,27 @@ export default function Home() {
       <Header />
       
       {/* Hero Section */}
-      <section id="home" className="relative min-h-screen bg-gradient-to-br from-pink-500 via-orange-400 to-pink-600 overflow-hidden">
+      <section id="home" className="relative min-h-screen bg-gradient-to-br from-pink-200 via-orange-200 to-pink-300 overflow-hidden">
         {/* Animated Background Elements */}
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute -top-40 -left-40 w-80 h-80 bg-pink-300 rounded-full opacity-20 animate-pulse"></div>
-          <div className="absolute top-40 -right-40 w-96 h-96 bg-orange-300 rounded-full opacity-20 animate-pulse delay-1000"></div>
-          <div className="absolute bottom-40 left-1/3 w-64 h-64 bg-pink-400 rounded-full opacity-20 animate-pulse delay-2000"></div>
+          <div className="absolute -top-40 -left-40 w-80 h-80 bg-pink-200 rounded-full opacity-30 animate-pulse"></div>
+          <div className="absolute top-40 -right-40 w-96 h-96 bg-orange-200 rounded-full opacity-30 animate-pulse delay-1000"></div>
+          <div className="absolute bottom-40 left-1/3 w-64 h-64 bg-pink-300 rounded-full opacity-30 animate-pulse delay-2000"></div>
         </div>
 
         {/* Hero Content */}
         <div className="relative z-10 w-full px-4 pt-32 pb-20">
-          <div className="text-center text-white max-w-7xl mx-auto">
+          <div className="text-center text-gray-800 max-w-7xl mx-auto">
             <div className="mb-8">
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight">
                 <span className="bg-gradient-to-r from-blue-600 via-orange-500 to-blue-700 bg-clip-text text-transparent">
                   Saumya Kapoor
                 </span>
               </h1>
-              <p className="text-2xl md:text-3xl text-pink-100 mb-8 max-w-4xl mx-auto font-bold">
+              <p className="text-2xl md:text-3xl text-gray-700 mb-8 max-w-4xl mx-auto font-bold">
                 🌟 Premium Professional Escorts & Elite Models | Available 24/7 Service
               </p>
-              <p className="text-xl text-white/90 mb-12 max-w-5xl mx-auto leading-relaxed">
+              <p className="text-xl text-gray-600 mb-12 max-w-5xl mx-auto leading-relaxed">
                 Experience the finest professional escort companions with our premium services in Indore. Beautiful, elegant, and professional escorts for discerning gentlemen.
                 ✨ 100% Verified • Safe & Discreet • Instant Booking • Satisfaction Guaranteed ✨
               </p>
@@ -154,10 +154,10 @@ export default function Home() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-16">
-              <a href="tel:+919372662471" className="bg-gradient-to-r from-green-400 to-green-500 hover:from-green-500 hover:to-green-600 text-white px-12 py-6 rounded-full text-xl font-black transition-all duration-300 transform hover:scale-105 shadow-xl">
+              <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-12 py-6 rounded-full text-xl font-black transition-all duration-300 transform hover:scale-105 shadow-xl">
                 📞 Call Now 24/7
               </a>
-              <a href="#services" className="border-2 border-white text-white px-12 py-6 rounded-full text-xl font-black hover:bg-white hover:text-purple-700 transition-all duration-300 transform hover:scale-105">
+              <a href="#services" className="border-2 border-gray-700 bg-gray-700/20 backdrop-blur-sm text-gray-700 px-12 py-6 rounded-full text-xl font-black hover:bg-gray-700 hover:text-white transition-all duration-300 transform hover:scale-105">
                 View Escorts
               </a>
             </div>
@@ -165,25 +165,25 @@ export default function Home() {
             {/* Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-6xl mx-auto">
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-white mb-2">500+</div>
-                <div className="text-pink-200 text-sm">Verified Escorts</div>
+                <div className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">500+</div>
+                <div className="text-gray-600 text-sm">Verified Escorts</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-white mb-2">100%</div>
-                <div className="text-pink-200 text-sm">Safe & Discreet</div>
+                <div className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">100%</div>
+                <div className="text-gray-600 text-sm">Safe & Discreet</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-white mb-2">⭐ 4.8/5</div>
-                <div className="text-pink-200 text-sm">Rating (2500+ Reviews)</div>
+                <div className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">⭐ 4.8/5</div>
+                <div className="text-gray-600 text-sm">Rating (2500+ Reviews)</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl md:text-4xl font-bold text-white mb-2">24/7</div>
-                <div className="text-pink-200 text-sm">Instant Booking</div>
+                <div className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">24/7</div>
+                <div className="text-gray-600 text-sm">Instant Booking</div>
               </div>
             </div>
 
             <div className="mt-12">
-              <p className="text-white/80 text-lg">🚀 All Indore Areas Covered • 30-Min Arrival Time • Complete Satisfaction Guaranteed</p>
+              <p className="text-gray-700 text-lg">🚀 All Indore Areas Covered • 30-Min Arrival Time • Complete Satisfaction Guaranteed</p>
             </div>
           </div>
         </div>
@@ -237,13 +237,22 @@ export default function Home() {
           </div>
 
           {/* Why Choose Description */}
-          <div className="max-w-4xl mx-auto mb-16">
-            <div className="bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-2xl border border-pink-100/50">
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                All our Pink Bra escorts in Indore are excellent professionals. They are highly professional and will always meet you with enthusiasm. Their dedication to providing the best services makes them stand out, ensuring that your time with them is worthwhile. They go the extra mile to make sure you enjoy their companionship.
+          <div className="max-w-6xl mx-auto mb-16">
+            <div className="bg-white/80 backdrop-blur-md rounded-3xl p-12 shadow-2xl border border-pink-100/50">
+              <p className="text-xl text-gray-700 leading-relaxed mb-8">
+                All our Pink Bra escorts in Indore are excellent professionals who bring unmatched elegance and sophistication to every encounter. They are highly professional and will always meet you with genuine enthusiasm and warmth. Their unwavering dedication to providing the best premium services makes them stand out in the industry, ensuring that your time with them is not only worthwhile but truly unforgettable. They go the extra mile to make sure you enjoy their delightful companionship and create memories that last a lifetime.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Our independent escorts in Indore understand what gentlemen expect from them. This is why they are always successful in providing the services you desire. Their presence will make a significant difference in your life, bringing excitement and thrill. These top-ranking escorts in Indore are all you need to add excitement to your life.
+              <p className="text-xl text-gray-700 leading-relaxed mb-8">
+                Our independent escorts in Indore have a deep understanding of what distinguished gentlemen expect from premium companion services. This is precisely why they are always successful in providing the exceptional services you desire with grace and professionalism. Their captivating presence will make a significant difference in your life, bringing excitement, adventure, and pure thrill to every moment. These top-ranking escorts in Indore are all you need to add luxury, excitement and sophisticated companionship to your life.
+              </p>
+              <p className="text-xl text-gray-700 leading-relaxed mb-8">
+                Each of our elite escorts possesses exceptional conversational skills, refined social etiquette, and the ability to adapt to any social setting with confidence and poise. Whether you need a companion for business events, social gatherings, or intimate private moments, our escorts are trained to provide exactly what you're looking for. Their beauty is matched only by their intelligence and charm, making them the perfect choice for discerning clients.
+              </p>
+              <p className="text-xl text-gray-700 leading-relaxed mb-8">
+                We maintain the highest standards of hygiene, safety, and professionalism across our entire network of premium escorts. Every escort undergoes thorough background verification and regular health checkups to ensure your complete peace of mind. Our commitment to excellence extends beyond just physical beauty – we focus on providing companions who can engage in meaningful conversations and create genuine connections.
+              </p>
+              <p className="text-xl text-gray-700 leading-relaxed">
+                When you choose our escort services in Indore, you're choosing a premium experience that combines luxury, discretion, and unparalleled satisfaction. Our 24/7 customer support ensures that your every need is met promptly, and our flexible booking options make it convenient for you to enjoy our services whenever you desire. Experience the difference that true professionalism and dedication can make in your life.
               </p>
             </div>
           </div>
@@ -475,73 +484,163 @@ export default function Home() {
             </p>
           </div>
 
-          {/* 12 Enhanced Locations in 3 Rows of 4 Each */}
-          <div className="max-w-7xl mx-auto space-y-12">
+          {/* 12 Enhanced Locations in 6 Rows of 2 Each */}
+          <div className="max-w-5xl mx-auto space-y-8">
             
-            {/* Row 1 - First 4 Locations - Enhanced Size */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {[
-                { name: "Vijay Nagar", area: "Central Indore", icon: "🏢", description: "Business district with premium hotels and shopping centers", color: "blue" },
-                { name: "Saket", area: "Residential Hub", icon: "🏘️", description: "Upscale residential area with modern amenities", color: "blue" },
-                { name: "Scheme 78", area: "IT Sector", icon: "💻", description: "Tech hub with corporate offices and business hotels", color: "blue" },
-                { name: "AB Road", area: "Commercial Zone", icon: "🛍️", description: "Main commercial area with luxury shopping and dining", color: "blue" }
-              ].map((location, index) => (
-                <div key={index} className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border border-blue-100/50 transform hover:-translate-y-3 min-h-[280px] flex flex-col justify-between">
-                  <div className="text-center">
-                    <div className="text-5xl mb-6">{location.icon}</div>
-                    <h3 className="text-2xl font-bold text-gray-800 mb-3">{location.name}</h3>
-                    <p className="text-blue-600 font-bold text-lg mb-4">{location.area}</p>
-                    <p className="text-gray-600 text-base mb-6 leading-relaxed">{location.description}</p>
-                  </div>
-                  <a href="/locations#vijay-nagar" className="w-full inline-block bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:from-blue-600 hover:via-blue-700 hover:to-blue-800 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center">
-                    📞 Book in {location.name}
-                  </a>
+            {/* Row 1 - Vijay Nagar & Saket */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border border-pink-100/50 transform hover:-translate-y-3 min-h-[280px] flex flex-col justify-between">
+                <div className="text-center">
+                  <div className="text-5xl mb-6">🏢</div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-3">Vijay Nagar</h3>
+                  <p className="text-pink-600 font-bold text-lg mb-4">Central Indore</p>
+                  <p className="text-gray-600 text-base mb-6 leading-relaxed">Business district with premium hotels and shopping centers</p>
                 </div>
-              ))}
+                <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center">
+                  📞 Book in Vijay Nagar
+                </a>
+              </div>
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border border-blue-100/50 transform hover:-translate-y-3 min-h-[280px] flex flex-col justify-between">
+                <div className="text-center">
+                  <div className="text-5xl mb-6">🏘️</div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-3">Saket</h3>
+                  <p className="text-blue-600 font-bold text-lg mb-4">Residential Hub</p>
+                  <p className="text-gray-600 text-base mb-6 leading-relaxed">Upscale residential area with modern amenities</p>
+                </div>
+                <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center">
+                  📞 Book in Saket
+                </a>
+              </div>
             </div>
 
-            {/* Row 2 - Next 4 Locations - Enhanced Size */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {[
-                { name: "Palasia", area: "City Center", icon: "🌆", description: "Heart of Indore with premium facilities and accessibility", color: "purple" },
-                { name: "Bhawar Kuan", area: "Business District", icon: "🏛️", description: "Corporate area with five-star hotels and restaurants", color: "purple" },
-                { name: "Rau", area: "Suburban Area", icon: "🌳", description: "Peaceful suburban location with modern infrastructure", color: "purple" },
-                { name: "Ring Road", area: "Connectivity Hub", icon: "🛣️", description: "Well-connected area with easy access to all parts", color: "purple" }
-              ].map((location, index) => (
-                <div key={index + 4} className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border border-purple-100/50 transform hover:-translate-y-3 min-h-[280px] flex flex-col justify-between">
-                  <div className="text-center">
-                    <div className="text-5xl mb-6">{location.icon}</div>
-                    <h3 className="text-2xl font-bold text-gray-800 mb-3">{location.name}</h3>
-                    <p className="text-purple-600 font-bold text-lg mb-4">{location.area}</p>
-                    <p className="text-gray-600 text-base mb-6 leading-relaxed">{location.description}</p>
-                  </div>
-                  <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:from-purple-600 hover:via-purple-700 hover:to-purple-800 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center">
-                    📞 Book in {location.name}
-                  </a>
+            {/* Row 2 - Scheme 78 & AB Road */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border border-orange-100/50 transform hover:-translate-y-3 min-h-[280px] flex flex-col justify-between">
+                <div className="text-center">
+                  <div className="text-5xl mb-6">💻</div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-3">Scheme 78</h3>
+                  <p className="text-orange-600 font-bold text-lg mb-4">IT Sector</p>
+                  <p className="text-gray-600 text-base mb-6 leading-relaxed">Tech hub with corporate offices and business hotels</p>
                 </div>
-              ))}
+                <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center">
+                  📞 Book in Scheme 78
+                </a>
+              </div>
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border border-pink-100/50 transform hover:-translate-y-3 min-h-[280px] flex flex-col justify-between">
+                <div className="text-center">
+                  <div className="text-5xl mb-6">🛍️</div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-3">AB Road</h3>
+                  <p className="text-pink-600 font-bold text-lg mb-4">Commercial Zone</p>
+                  <p className="text-gray-600 text-base mb-6 leading-relaxed">Main commercial area with luxury shopping and dining</p>
+                </div>
+                <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center">
+                  📞 Book in AB Road
+                </a>
+              </div>
             </div>
 
-            {/* Row 3 - Last 4 Locations - Enhanced Size */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {[
-                { name: "Bombay Hospital", area: "Medical District", icon: "🏥", description: "Healthcare hub with premium medical facilities", color: "pink" },
-                { name: "Airport Road", area: "Aviation Zone", icon: "✈️", description: "Airport vicinity with luxury hotels and services", color: "pink" },
-                { name: "MG Road", area: "Heritage Area", icon: "🏛️", description: "Historic area with cultural significance and amenities", color: "pink" },
-                { name: "Treasure Island", area: "Entertainment Hub", icon: "🎯", description: "Entertainment and recreation center with modern facilities", color: "pink" }
-              ].map((location, index) => (
-                <div key={index + 8} className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border border-pink-100/50 transform hover:-translate-y-3 min-h-[280px] flex flex-col justify-between">
-                  <div className="text-center">
-                    <div className="text-5xl mb-6">{location.icon}</div>
-                    <h3 className="text-2xl font-bold text-gray-800 mb-3">{location.name}</h3>
-                    <p className="text-pink-600 font-bold text-lg mb-4">{location.area}</p>
-                    <p className="text-gray-600 text-base mb-6 leading-relaxed">{location.description}</p>
-                  </div>
-                  <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-pink-500 via-pink-600 to-pink-700 hover:from-pink-600 hover:via-pink-700 hover:to-pink-800 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center">
-                    📞 Book in {location.name}
-                  </a>
+            {/* Row 3 - Palasia & Bhawar Kuan */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border border-blue-100/50 transform hover:-translate-y-3 min-h-[280px] flex flex-col justify-between">
+                <div className="text-center">
+                  <div className="text-5xl mb-6">🌆</div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-3">Palasia</h3>
+                  <p className="text-blue-600 font-bold text-lg mb-4">City Center</p>
+                  <p className="text-gray-600 text-base mb-6 leading-relaxed">Heart of Indore with premium facilities and accessibility</p>
                 </div>
-              ))}
+                <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center">
+                  📞 Book in Palasia
+                </a>
+              </div>
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border border-orange-100/50 transform hover:-translate-y-3 min-h-[280px] flex flex-col justify-between">
+                <div className="text-center">
+                  <div className="text-5xl mb-6">🏛️</div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-3">Bhawar Kuan</h3>
+                  <p className="text-orange-600 font-bold text-lg mb-4">Business District</p>
+                  <p className="text-gray-600 text-base mb-6 leading-relaxed">Corporate area with five-star hotels and restaurants</p>
+                </div>
+                <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center">
+                  📞 Book in Bhawar Kuan
+                </a>
+              </div>
+            </div>
+
+            {/* Row 4 - Rau & Ring Road */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border border-pink-100/50 transform hover:-translate-y-3 min-h-[280px] flex flex-col justify-between">
+                <div className="text-center">
+                  <div className="text-5xl mb-6">🌳</div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-3">Rau</h3>
+                  <p className="text-pink-600 font-bold text-lg mb-4">Suburban Area</p>
+                  <p className="text-gray-600 text-base mb-6 leading-relaxed">Peaceful suburban location with modern infrastructure</p>
+                </div>
+                <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center">
+                  📞 Book in Rau
+                </a>
+              </div>
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border border-blue-100/50 transform hover:-translate-y-3 min-h-[280px] flex flex-col justify-between">
+                <div className="text-center">
+                  <div className="text-5xl mb-6">🛣️</div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-3">Ring Road</h3>
+                  <p className="text-blue-600 font-bold text-lg mb-4">Connectivity Hub</p>
+                  <p className="text-gray-600 text-base mb-6 leading-relaxed">Well-connected area with easy access to all parts</p>
+                </div>
+                <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center">
+                  📞 Book in Ring Road
+                </a>
+              </div>
+            </div>
+
+            {/* Row 5 - Bombay Hospital & Airport Road */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border border-orange-100/50 transform hover:-translate-y-3 min-h-[280px] flex flex-col justify-between">
+                <div className="text-center">
+                  <div className="text-5xl mb-6">🏥</div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-3">Bombay Hospital</h3>
+                  <p className="text-orange-600 font-bold text-lg mb-4">Medical District</p>
+                  <p className="text-gray-600 text-base mb-6 leading-relaxed">Healthcare hub with premium medical facilities</p>
+                </div>
+                <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center">
+                  📞 Book in Bombay Hospital
+                </a>
+              </div>
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border border-pink-100/50 transform hover:-translate-y-3 min-h-[280px] flex flex-col justify-between">
+                <div className="text-center">
+                  <div className="text-5xl mb-6">✈️</div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-3">Airport Road</h3>
+                  <p className="text-pink-600 font-bold text-lg mb-4">Aviation Zone</p>
+                  <p className="text-gray-600 text-base mb-6 leading-relaxed">Airport vicinity with luxury hotels and services</p>
+                </div>
+                <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center">
+                  📞 Book in Airport Road
+                </a>
+              </div>
+            </div>
+
+            {/* Row 6 - MG Road & Treasure Island */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border border-blue-100/50 transform hover:-translate-y-3 min-h-[280px] flex flex-col justify-between">
+                <div className="text-center">
+                  <div className="text-5xl mb-6">🏛️</div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-3">MG Road</h3>
+                  <p className="text-blue-600 font-bold text-lg mb-4">Heritage Area</p>
+                  <p className="text-gray-600 text-base mb-6 leading-relaxed">Historic area with cultural significance and amenities</p>
+                </div>
+                <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center">
+                  📞 Book in MG Road
+                </a>
+              </div>
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border border-orange-100/50 transform hover:-translate-y-3 min-h-[280px] flex flex-col justify-between">
+                <div className="text-center">
+                  <div className="text-5xl mb-6">🎯</div>
+                  <h3 className="text-2xl font-bold text-gray-800 mb-3">Treasure Island</h3>
+                  <p className="text-orange-600 font-bold text-lg mb-4">Entertainment Hub</p>
+                  <p className="text-gray-600 text-base mb-6 leading-relaxed">Entertainment and recreation center with modern facilities</p>
+                </div>
+                <a href="tel:+919372662471" className="w-full inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl text-center">
+                  📞 Book in Treasure Island
+                </a>
+              </div>
             </div>
           </div>
 
