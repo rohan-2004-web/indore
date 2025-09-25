@@ -250,51 +250,57 @@ export default function ServicesPage() {
               </p>
             </div>
 
-            {/* Enhanced Location Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Ultra Premium Location Cards */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
               {[
-                { name: "Vijay Nagar", icon: "🏢", description: "Central business district with luxury hotels", color: "from-purple-500 to-pink-500" },
-                { name: "Palasia", icon: "🛍️", description: "Shopping and entertainment hub", color: "from-pink-500 to-orange-500" },
-                { name: "AB Road", icon: "🏨", description: "Main commercial area with premium hotels", color: "from-orange-500 to-purple-500" },
-                { name: "Saket", icon: "🏡", description: "Upscale residential area", color: "from-purple-600 to-pink-600" },
-                { name: "MG Road", icon: "🌟", description: "Central business district", color: "from-pink-600 to-orange-600" },
-                { name: "Rajwada", icon: "🏰", description: "Historic and cultural center", color: "from-orange-600 to-purple-600" },
-                { name: "Bhanwar Kuwa", icon: "🎭", description: "Entertainment and nightlife area", color: "from-purple-500 to-pink-500" },
-                { name: "Ring Road", icon: "🚗", description: "Modern development zone", color: "from-pink-500 to-orange-500" },
-                { name: "Geeta Bhawan", icon: "🕉️", description: "Traditional and modern mix", color: "from-orange-500 to-purple-500" },
-                { name: "C21 Mall Area", icon: "🏬", description: "Shopping and dining hub", color: "from-purple-600 to-pink-600" },
-                { name: "Airport Road", icon: "✈️", description: "Business travel corridor", color: "from-pink-600 to-orange-600" },
-                { name: "Bhawarkua", icon: "🌆", description: "Central Indore location", color: "from-orange-600 to-purple-600" }
+                { name: "Vijay Nagar", icon: "🏢", description: "Premier business district with 5-star hotels", color: "from-violet-500 via-purple-500 to-pink-500", bgPattern: "from-violet-100/40 to-pink-100/40" },
+                { name: "Palasia", icon: "🛍️", description: "Elite shopping & entertainment zone", color: "from-pink-500 via-rose-500 to-orange-500", bgPattern: "from-pink-100/40 to-orange-100/40" },
+                { name: "AB Road", icon: "🏨", description: "Premium commercial corridor", color: "from-orange-500 via-amber-500 to-yellow-500", bgPattern: "from-orange-100/40 to-yellow-100/40" },
+                { name: "Saket", icon: "🏡", description: "Luxury residential paradise", color: "from-emerald-500 via-teal-500 to-cyan-500", bgPattern: "from-emerald-100/40 to-cyan-100/40" },
+                { name: "MG Road", icon: "🌟", description: "Central business & cultural hub", color: "from-cyan-500 via-blue-500 to-indigo-500", bgPattern: "from-cyan-100/40 to-indigo-100/40" },
+                { name: "Rajwada", icon: "🏰", description: "Historic royal heritage center", color: "from-indigo-500 via-purple-500 to-violet-500", bgPattern: "from-indigo-100/40 to-violet-100/40" },
+                { name: "Bhanwar Kuwa", icon: "🎭", description: "Premium nightlife & entertainment", color: "from-fuchsia-500 via-pink-500 to-rose-500", bgPattern: "from-fuchsia-100/40 to-rose-100/40" },
+                { name: "Ring Road", icon: "🚗", description: "Modern luxury development zone", color: "from-rose-500 via-red-500 to-pink-500", bgPattern: "from-rose-100/40 to-pink-100/40" },
+                { name: "Geeta Bhawan", icon: "🕉️", description: "Cultural & spiritual center", color: "from-amber-500 via-orange-500 to-red-500", bgPattern: "from-amber-100/40 to-red-100/40" },
+                { name: "C21 Mall Area", icon: "🏬", description: "Elite shopping & dining destination", color: "from-lime-500 via-green-500 to-emerald-500", bgPattern: "from-lime-100/40 to-emerald-100/40" },
+                { name: "Airport Road", icon: "✈️", description: "Business travel luxury corridor", color: "from-sky-500 via-blue-500 to-cyan-500", bgPattern: "from-sky-100/40 to-cyan-100/40" },
+                { name: "Bhawarkua", icon: "🌆", description: "Prime central Indore location", color: "from-purple-500 via-violet-500 to-fuchsia-500", bgPattern: "from-purple-100/40 to-fuchsia-100/40" }
               ].map((location, index) => (
-                <div key={index} className="group bg-gradient-to-br from-white/98 to-purple-50/95 backdrop-blur-lg rounded-3xl shadow-2xl border-2 border-purple-200/50 hover:border-pink-300/70 transform hover:scale-105 hover:-translate-y-3 transition-all duration-500 p-8 text-center">
-                  {/* Animated Background Pattern */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-pink-50/30 to-purple-100/30 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl"></div>
-                  <div className="absolute -top-4 -right-4 w-16 h-16 bg-gradient-to-br from-pink-300/20 to-purple-400/20 rounded-full blur-xl group-hover:scale-150 transition-transform duration-500"></div>
+                <div key={index} className={`group relative overflow-hidden bg-gradient-to-br ${location.bgPattern} backdrop-blur-lg rounded-3xl shadow-2xl border-3 border-white/30 hover:border-white/60 transform hover:scale-110 hover:-translate-y-6 transition-all duration-700 p-8 text-center cursor-pointer hover:shadow-4xl`}>
+                  {/* Animated Background Layers */}
+                  <div className={`absolute inset-0 bg-gradient-to-br ${location.color} opacity-0 group-hover:opacity-20 transition-opacity duration-700 rounded-3xl`}></div>
+                  <div className="absolute -top-8 -right-8 w-24 h-24 bg-gradient-to-br from-white/20 to-pink-300/30 rounded-full blur-2xl group-hover:scale-200 group-hover:rotate-180 transition-all duration-700"></div>
+                  <div className="absolute -bottom-8 -left-8 w-32 h-32 bg-gradient-to-tr from-purple-300/20 to-orange-300/30 rounded-full blur-2xl group-hover:scale-150 group-hover:-rotate-90 transition-all duration-700"></div>
                   
                   <div className="relative z-10">
-                    <div className="text-7xl mb-6 group-hover:scale-125 group-hover:rotate-12 transition-all duration-500 filter drop-shadow-2xl">
+                    {/* Premium Icon Animation */}
+                    <div className="text-8xl mb-6 group-hover:scale-150 group-hover:rotate-12 transition-all duration-700 filter drop-shadow-2xl group-hover:drop-shadow-[0_0_30px_rgba(255,255,255,0.8)]">
                       {location.icon}
                     </div>
                     
-                    <h3 className="text-2xl font-bold text-gray-800 mb-4 group-hover:text-purple-700 transition-colors duration-300">
+                    {/* Location Name with Gradient */}
+                    <h3 className={`text-2xl font-extrabold mb-4 bg-gradient-to-r ${location.color} bg-clip-text text-transparent group-hover:scale-110 transition-all duration-500`}>
                       {location.name}
                     </h3>
                     
-                    <p className="text-gray-600 mb-6 font-medium leading-relaxed">
+                    {/* Enhanced Description */}
+                    <p className="text-gray-700 mb-6 font-semibold leading-relaxed text-lg group-hover:text-gray-800 transition-colors duration-300">
                       {location.description}
                     </p>
                     
                     <div className="space-y-4">
-                      <div className={`inline-block bg-gradient-to-r ${location.color} text-white px-4 py-2 rounded-full text-sm font-bold group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
-                        ✅ Available 24/7
+                      {/* Premium Status Badge */}
+                      <div className={`inline-block bg-gradient-to-r ${location.color} text-white px-6 py-3 rounded-full text-base font-bold group-hover:scale-125 transition-all duration-500 shadow-2xl group-hover:shadow-[0_0_30px_rgba(255,255,255,0.6)]`}>
+                        ⭐ Premium Available 24/7 ⭐
                       </div>
                       
+                      {/* Enhanced Action Buttons */}
                       <div className="flex gap-3">
-                        <a href="tel:+919372662471" className="flex-1 bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 text-white px-4 py-3 rounded-xl font-bold text-base transition-all duration-400 hover:scale-105 shadow-lg hover:shadow-emerald-500/40">
-                          📞 Call
+                        <a href="tel:+919372662471" className="flex-1 bg-gradient-to-r from-emerald-500 via-green-500 to-teal-500 hover:from-emerald-600 hover:via-green-600 hover:to-teal-600 text-white px-4 py-4 rounded-2xl font-bold text-lg transition-all duration-500 hover:scale-110 shadow-2xl hover:shadow-emerald-500/50 transform hover:-translate-y-1">
+                          📞 Call Now
                         </a>
-                        <a href="https://wa.me/919372662471" className="flex-1 bg-gradient-to-r from-green-600 to-lime-500 hover:from-green-700 hover:to-lime-600 text-white px-4 py-3 rounded-xl font-bold text-base transition-all duration-400 hover:scale-105 shadow-lg hover:shadow-green-500/40">
-                          💬 Chat
+                        <a href="https://wa.me/919372662471" className="flex-1 bg-gradient-to-r from-green-500 via-lime-500 to-emerald-500 hover:from-green-600 hover:via-lime-600 hover:to-emerald-600 text-white px-4 py-4 rounded-2xl font-bold text-lg transition-all duration-500 hover:scale-110 shadow-2xl hover:shadow-green-500/50 transform hover:-translate-y-1">
+                          💬 WhatsApp
                         </a>
                       </div>
                     </div>
@@ -328,6 +334,128 @@ export default function ServicesPage() {
                 <p className="text-xl text-gray-700 font-semibold">
                   Professional escort services across all major areas with premium companions and instant booking availability.
                 </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Premium Service Features - Colorful Content Section */}
+        <section className="py-20 relative overflow-hidden bg-gradient-to-br from-violet-200/80 via-fuchsia-200/70 to-orange-200/80">
+          {/* Animated Background Elements */}
+          <div className="absolute inset-0">
+            <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-r from-pink-300/30 to-purple-400/30 rounded-full blur-3xl animate-pulse"></div>
+            <div className="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-r from-orange-300/30 to-pink-400/30 rounded-full blur-3xl animate-pulse delay-1000"></div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-r from-purple-300/20 to-cyan-400/20 rounded-full blur-3xl animate-pulse delay-500"></div>
+          </div>
+
+          <div className="w-full px-4 relative z-10">
+            <div className="text-center mb-16">
+              <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/95 to-orange-100/95 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-2xl border-2 border-pink-300/50">
+                <span className="text-3xl animate-bounce">🌟</span>
+                <span className="text-purple-800 font-bold text-xl">Premium Service Excellence</span>
+                <span className="text-3xl animate-bounce delay-200">💎</span>
+              </div>
+              
+              <h2 className="text-6xl md:text-7xl font-black bg-gradient-to-r from-violet-600 via-fuchsia-500 via-pink-500 to-orange-500 bg-clip-text text-transparent mb-8 leading-tight">
+                Why Choose Our Premium Services
+              </h2>
+              
+              <p className="text-2xl md:text-3xl text-gray-700 max-w-5xl mx-auto leading-relaxed font-medium mb-12">
+                Experience the ultimate in luxury escort services with unmatched quality, discretion, and satisfaction guarantee
+              </p>
+            </div>
+
+            {/* Service Features Grid */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-16">
+              {[
+                {
+                  icon: "🏆",
+                  title: "Premium Quality Guaranteed",
+                  description: "Only verified professional companions with exceptional beauty, intelligence, and sophistication to ensure your complete satisfaction.",
+                  gradient: "from-yellow-400 via-orange-500 to-red-500",
+                  bgGradient: "from-yellow-100/40 to-red-100/40"
+                },
+                {
+                  icon: "🔒",
+                  title: "Complete Discretion & Privacy",
+                  description: "Your privacy is our priority. All interactions are completely confidential with secure booking and professional service.",
+                  gradient: "from-blue-500 via-purple-500 to-pink-500",
+                  bgGradient: "from-blue-100/40 to-pink-100/40"
+                },
+                {
+                  icon: "⚡",
+                  title: "24/7 Instant Booking",
+                  description: "Available round the clock for immediate booking. Quick response time and flexible scheduling to meet your requirements.",
+                  gradient: "from-green-500 via-teal-500 to-cyan-500",
+                  bgGradient: "from-green-100/40 to-cyan-100/40"
+                },
+                {
+                  icon: "💝",
+                  title: "Diverse Companion Options",
+                  description: "Choose from 16+ categories including Celebrity Escorts, College Girls, VIP Models, and specialized companions for every preference.",
+                  gradient: "from-pink-500 via-rose-500 to-purple-500",
+                  bgGradient: "from-pink-100/40 to-purple-100/40"
+                },
+                {
+                  icon: "🎭",
+                  title: "Perfect for All Occasions",
+                  description: "Whether it's business events, dinner dates, social gatherings, or private moments - our companions excel in every setting.",
+                  gradient: "from-indigo-500 via-violet-500 to-fuchsia-500",
+                  bgGradient: "from-indigo-100/40 to-fuchsia-100/40"
+                },
+                {
+                  icon: "💯",
+                  title: "100% Satisfaction Promise",
+                  description: "We guarantee your complete satisfaction with our premium services. Professional, reliable, and exceeding expectations every time.",
+                  gradient: "from-emerald-500 via-lime-500 to-yellow-500",
+                  bgGradient: "from-emerald-100/40 to-yellow-100/40"
+                }
+              ].map((feature, index) => (
+                <div key={index} className={`group relative overflow-hidden bg-gradient-to-br ${feature.bgGradient} backdrop-blur-lg rounded-3xl shadow-2xl border-3 border-white/40 hover:border-white/70 transform hover:scale-105 hover:-translate-y-4 transition-all duration-700 p-10 text-center cursor-pointer hover:shadow-4xl`}>
+                  {/* Animated Background Effects */}
+                  <div className={`absolute inset-0 bg-gradient-to-br ${feature.gradient} opacity-0 group-hover:opacity-15 transition-opacity duration-700 rounded-3xl`}></div>
+                  <div className="absolute -top-6 -right-6 w-20 h-20 bg-white/20 rounded-full blur-xl group-hover:scale-150 group-hover:rotate-180 transition-all duration-700"></div>
+                  
+                  <div className="relative z-10">
+                    {/* Premium Icon with Animation */}
+                    <div className="text-8xl mb-6 group-hover:scale-125 group-hover:rotate-12 transition-all duration-700 filter drop-shadow-2xl group-hover:drop-shadow-[0_0_25px_rgba(255,255,255,0.9)]">
+                      {feature.icon}
+                    </div>
+                    
+                    {/* Feature Title with Gradient */}
+                    <h3 className={`text-2xl font-extrabold mb-6 bg-gradient-to-r ${feature.gradient} bg-clip-text text-transparent group-hover:scale-110 transition-all duration-500`}>
+                      {feature.title}
+                    </h3>
+                    
+                    {/* Enhanced Description */}
+                    <p className="text-gray-700 mb-8 font-semibold leading-relaxed text-lg group-hover:text-gray-800 transition-colors duration-300">
+                      {feature.description}
+                    </p>
+                    
+                    {/* Premium CTA Button */}
+                    <a href="tel:+919372662471" className={`inline-block bg-gradient-to-r ${feature.gradient} text-white px-8 py-4 rounded-2xl font-bold text-lg transition-all duration-500 hover:scale-110 shadow-2xl group-hover:shadow-[0_0_30px_rgba(255,255,255,0.6)] transform hover:-translate-y-1`}>
+                      ✨ Experience Now ✨
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Call to Action Banner */}
+            <div className="bg-gradient-to-r from-violet-500/95 via-fuchsia-500/95 via-pink-500/95 to-orange-500/95 backdrop-blur-lg rounded-3xl shadow-2xl border-3 border-white/30 p-12 text-center text-white">
+              <h3 className="text-4xl md:text-5xl font-black mb-6 text-white drop-shadow-2xl">
+                🚀 Ready for an Unforgettable Experience? 🚀
+              </h3>
+              <p className="text-xl md:text-2xl mb-10 opacity-95 font-semibold leading-relaxed">
+                Join thousands of satisfied clients who trust our premium escort services for the ultimate companion experience in Indore
+              </p>
+              <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                <a href="tel:+919372662471" className="inline-block bg-white text-purple-600 px-12 py-6 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-110 shadow-2xl hover:shadow-white/50 hover:-translate-y-2">
+                  📞 Call Now: +91 9372662471
+                </a>
+                <a href="https://wa.me/919372662471" className="inline-block bg-gradient-to-r from-green-500 to-emerald-500 text-white px-12 py-6 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 hover:-translate-y-2">
+                  💬 WhatsApp Now
+                </a>
               </div>
             </div>
           </div>
