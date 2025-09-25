@@ -10,6 +10,33 @@ export default function ServicesPage() {
     setOpenFaq(openFaq === index ? null : index);
   };
 
+  const faqs = [
+    {
+      question: "How can I book premium escort services in Indore?",
+      answer: "Booking is simple and discreet. You can call us directly at +91 9372662471, send a WhatsApp message, or email us. Our booking team is available 24/7 to assist you with selecting the perfect companion based on your preferences and requirements."
+    },
+    {
+      question: "Are all your escorts verified and professional?",
+      answer: "Yes, absolutely! All our escorts are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards of elegance, sophistication, and discretion. Every companion is genuine and committed to providing exceptional service."
+    },
+    {
+      question: "What areas in Indore do you provide services?",
+      answer: "We cover all major areas of Indore including Vijay Nagar, AB Road, Saket, Scheme 78, Palasia, Bhawar Kuan, Rau, Ring Road, New Palasia, Rajwada, Airport Road, and Treasure Island. Our escorts are available for both incall and outcall services across the city."
+    },
+    {
+      question: "Is privacy and discretion guaranteed?",
+      answer: "Privacy and discretion are our top priorities. All client information is kept strictly confidential. Our escorts are trained to maintain complete discretion, and we use secure communication channels. Your personal details and meeting arrangements are never shared or disclosed."
+    },
+    {
+      question: "What are your service rates and payment methods?",
+      answer: "Our rates are competitive and vary based on the service type, duration, and companion category. We offer flexible payment options including cash, digital payments, and advance booking discounts. Contact us directly for detailed pricing information tailored to your requirements."
+    },
+    {
+      question: "Do you provide 24/7 escort services?",
+      answer: "Yes, our premium escort services are available 24/7 across Indore. Whether you need companionship for daytime events, evening dinners, business meetings, or late-night occasions, our professional escorts are ready to provide exceptional service at any time."
+    }
+  ];
+
   return (
     <>
       <Header />
