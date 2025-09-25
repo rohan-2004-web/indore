@@ -432,7 +432,7 @@ export default function Home() {
                 {/* Row 6 - Additional Services to make total 20 */}
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-purple-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/service17.jpg" alt="Travel Companion" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
+                    <img src="/images/services/Unsatisfied Bhabhi.webp" alt="Travel Companion" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Travel Companion</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Perfect travel partners for business trips and vacations</p>
@@ -441,7 +441,7 @@ export default function Home() {
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-cyan-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/service18.jpg" alt="High Profile" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
+                    <img src="/images/services/Unsatisfied Females.webp" alt="High Profile" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">High Profile</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Elite high-profile companions for exclusive events</p>
@@ -450,7 +450,7 @@ export default function Home() {
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-fuchsia-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/service19.jpg" alt="Corporate Service" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
+                    <img src="/images/services/Expert Services.webp" alt="Corporate Service" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Corporate Service</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Professional companions for corporate events and meetings</p>
@@ -459,7 +459,7 @@ export default function Home() {
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-lime-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/service20.jpg" alt="24/7 Service" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
+                    <img src="/images/services/Local Beauties.webp" alt="24/7 Service" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">24/7 Service</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Round-the-clock escort services available anytime</p>

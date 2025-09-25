@@ -110,25 +110,25 @@ export default function GalleryPage() {
     },
     {
       id: 17,
-      src: "/images/service17.jpg",
+      src: "/images/services/Unsatisfied Bhabhi.webp",
       title: "Travel Companion",
       category: "Travel"
     },
     {
       id: 18,
-      src: "/images/service18.jpg",
+      src: "/images/services/Unsatisfied Females.webp",
       title: "High Profile",
       category: "Elite"
     },
     {
       id: 19,
-      src: "/images/service19.jpg",
+      src: "/images/services/Expert Services.webp",
       title: "Corporate Service",
       category: "Business"
     },
     {
       id: 20,
-      src: "/images/service20.jpg",
+      src: "/images/services/Local Beauties.webp",
       title: "24/7 Service",
       category: "Anytime"
     }
