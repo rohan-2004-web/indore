@@ -76,6 +76,30 @@ export default function GalleryPage() {
       src: "/images/services/Young Girls.webp",
       title: "Young Girls",
       category: "Fresh"
+    },
+    {
+      id: 13,
+      src: "/images/services/Expert Services.webp",
+      title: "Expert Services",
+      category: "Professional"
+    },
+    {
+      id: 14,
+      src: "/images/services/High Class Models.webp",
+      title: "High Class Models",
+      category: "Elite"
+    },
+    {
+      id: 15,
+      src: "/images/services/bold girls.webp",
+      title: "Bold Girls",
+      category: "Confident"
+    },
+    {
+      id: 16,
+      src: "/images/services/sexy girls.webp",
+      title: "Sexy Girls",
+      category: "Glamour"
     }
   ]
 

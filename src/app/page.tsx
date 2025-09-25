@@ -83,6 +83,38 @@ export default function Home() {
       image: "/images/services/Outcall Service.webp",
       icon: "🏨",
       category: "OUTCALL"
+    },
+    {
+      title: "Expert Services",
+      subtitle: "Professional Expertise",
+      description: "Expert companions with specialized skills and professional experience",
+      image: "/images/services/Expert Services.webp",
+      icon: "🎯",
+      category: "EXPERT"
+    },
+    {
+      title: "High Class Models",
+      subtitle: "Elite Fashion Models",
+      description: "Stunning high-class models with runway experience and sophistication",
+      image: "/images/services/High Class Models.webp",
+      icon: "💃",
+      category: "MODEL"
+    },
+    {
+      title: "Bold Girls",
+      subtitle: "Confident Companions",
+      description: "Bold and confident companions ready for exciting adventures",
+      image: "/images/services/bold girls.webp",
+      icon: "🔥",
+      category: "BOLD"
+    },
+    {
+      title: "Sexy Girls",
+      subtitle: "Stunning Beauty",
+      description: "Incredibly attractive companions with mesmerizing charm and appeal",
+      image: "/images/services/sexy girls.webp",
+      icon: "💋",
+      category: "GLAMOUR"
     }
   ]
 
