@@ -202,19 +202,36 @@ export default function Home() {
           </div>
         </section>
 
-        {/* About Section - Added Paragraph Below Hero */}
-        <section className="py-16 bg-gradient-to-br from-pink-100/80 via-orange-50/70 to-pink-100/80">
-          <div className="max-w-6xl mx-auto px-4 text-center">
-            <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-12 shadow-2xl border border-pink-200/50">
-              <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-700 via-orange-600 to-pink-700 bg-clip-text text-transparent mb-8">
-                Why Choose Our Premium Escort Services in Indore?
-              </h2>
-              <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-6 font-medium">
-                Indore's most trusted and sophisticated escort service provider, offering unmatched luxury companionship experiences. Our carefully selected professional escorts combine beauty, intelligence, and elegance to provide you with unforgettable moments across all prime locations in Indore.
-              </p>
-              <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-                From intimate dinner dates to business events, travel companionship to VIP experiences - we cater to discerning clients who appreciate the finer things in life. Every interaction is handled with complete discretion, professionalism, and attention to your unique preferences.
-              </p>
+        {/* Quick Access Section - Simplified */}
+        <section className="py-12 bg-gradient-to-r from-purple-200/60 via-pink-200/60 to-orange-200/60">
+          <div className="max-w-7xl mx-auto px-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="bg-gradient-to-br from-white/95 to-purple-50/95 backdrop-blur-sm rounded-2xl p-8 text-center shadow-xl border border-purple-200/50 transform hover:scale-105 transition-all duration-300">
+                <div className="text-5xl mb-4">📞</div>
+                <h3 className="text-2xl font-bold text-gray-800 mb-3">Instant Booking</h3>
+                <p className="text-gray-600 mb-4">Call now for immediate service</p>
+                <a href="tel:+919372662471" className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-xl font-bold hover:scale-105 transition-transform">
+                  📞 +91 9372 662 471
+                </a>
+              </div>
+              
+              <div className="bg-gradient-to-br from-white/95 to-pink-50/95 backdrop-blur-sm rounded-2xl p-8 text-center shadow-xl border border-pink-200/50 transform hover:scale-105 transition-all duration-300">
+                <div className="text-5xl mb-4">💬</div>
+                <h3 className="text-2xl font-bold text-gray-800 mb-3">WhatsApp Chat</h3>
+                <p className="text-gray-600 mb-4">Quick response guaranteed</p>
+                <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-pink-600 to-orange-600 text-white px-6 py-3 rounded-xl font-bold hover:scale-105 transition-transform">
+                  💬 Chat Now
+                </a>
+              </div>
+              
+              <div className="bg-gradient-to-br from-white/95 to-orange-50/95 backdrop-blur-sm rounded-2xl p-8 text-center shadow-xl border border-orange-200/50 transform hover:scale-105 transition-all duration-300">
+                <div className="text-5xl mb-4">⚡</div>
+                <h3 className="text-2xl font-bold text-gray-800 mb-3">24/7 Available</h3>
+                <p className="text-gray-600 mb-4">Round the clock service</p>
+                <span className="bg-gradient-to-r from-orange-600 to-purple-600 text-white px-6 py-3 rounded-xl font-bold">
+                  ⭐ Premium Service
+                </span>
+              </div>
             </div>
           </div>
         </section>
