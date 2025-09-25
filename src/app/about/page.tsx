@@ -161,37 +161,47 @@ export default function AboutPage() {
 
       {/* Ultra Premium Hero Section */}
       <section className="pt-32 pb-20 px-4 relative z-10 overflow-hidden">
-        {/* Animated Background Elements */}
+        {/* Enhanced Animated Background Elements */}
         <div className="absolute inset-0">
           <div className="absolute top-20 left-10 w-80 h-80 bg-gradient-to-r from-violet-400/30 to-fuchsia-500/30 rounded-full blur-3xl animate-pulse"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-r from-orange-400/30 to-pink-500/30 rounded-full blur-3xl animate-pulse delay-1000"></div>
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[40rem] h-[40rem] bg-gradient-to-r from-cyan-300/20 to-purple-400/20 rounded-full blur-3xl animate-pulse delay-500"></div>
+          {/* Additional colorful floating elements */}
+          <div className="absolute top-32 right-1/4 w-60 h-60 bg-gradient-to-br from-emerald-400/25 to-teal-500/25 rounded-full blur-3xl animate-pulse delay-2000"></div>
+          <div className="absolute bottom-40 left-1/4 w-72 h-72 bg-gradient-to-tr from-yellow-400/20 to-orange-400/25 rounded-full blur-3xl animate-pulse delay-3000"></div>
+          <div className="absolute top-60 right-16 w-48 h-48 bg-gradient-to-bl from-rose-400/30 to-pink-500/30 rounded-full blur-2xl animate-pulse delay-1500"></div>
         </div>
 
         <div className="max-w-7xl mx-auto text-center relative z-10">
-          {/* Ultra Premium Badge */}
-          <div className="inline-flex items-center gap-4 bg-gradient-to-r from-violet-500/30 via-fuchsia-500/30 to-orange-500/30 backdrop-blur-lg rounded-full px-12 py-6 mb-12 shadow-2xl border-3 border-white/40 hover:scale-110 transition-all duration-700 cursor-pointer">
+          {/* Ultra Premium Badge with Enhanced Colors */}
+          <div className="inline-flex items-center gap-4 bg-gradient-to-r from-violet-500/40 via-fuchsia-500/40 via-pink-500/40 to-orange-500/40 backdrop-blur-lg rounded-full px-12 py-6 mb-12 shadow-2xl border-3 border-white/50 hover:scale-110 hover:rotate-1 transition-all duration-700 cursor-pointer animate-pulse">
             <span className="text-5xl animate-bounce">🌟</span>
-            <span className="bg-gradient-to-r from-violet-600 via-fuchsia-600 to-orange-600 bg-clip-text text-transparent font-black text-3xl">
+            <span className="bg-gradient-to-r from-violet-600 via-fuchsia-600 via-pink-600 to-orange-600 bg-clip-text text-transparent font-black text-3xl animate-pulse">
               Indore's #1 Premium Escort Service
             </span>
             <span className="text-5xl animate-bounce delay-200">💎</span>
           </div>
 
-          <h1 className="text-8xl md:text-9xl lg:text-[12rem] font-black bg-gradient-to-r from-violet-600 via-fuchsia-500 via-pink-500 via-orange-500 to-violet-600 bg-clip-text text-transparent mb-12 leading-none tracking-tight hover:scale-105 transition-transform duration-700">
+          <h1 className="text-8xl md:text-9xl lg:text-[12rem] font-black bg-gradient-to-r from-violet-600 via-fuchsia-500 via-pink-500 via-orange-500 via-yellow-500 via-green-500 via-cyan-500 via-blue-500 to-violet-600 bg-clip-text text-transparent mb-12 leading-none tracking-tight hover:scale-105 transition-transform duration-700 animate-pulse">
             About Us
           </h1>
           
-          <div className="bg-gradient-to-br from-white/95 to-purple-50/90 backdrop-blur-lg rounded-4xl p-12 shadow-2xl border-2 border-purple-200/50 max-w-6xl mx-auto">
+          <div className="bg-gradient-to-br from-white/95 via-purple-50/90 via-pink-50/90 to-orange-50/90 backdrop-blur-lg rounded-4xl p-12 shadow-2xl border-3 border-purple-200/60 hover:border-pink-300/80 max-w-6xl mx-auto transform hover:scale-105 transition-all duration-700 relative overflow-hidden">
+            {/* Colorful corner decorations */}
+            <div className="absolute -top-4 -left-4 w-8 h-8 bg-gradient-to-br from-pink-500 to-purple-600 rounded-full shadow-lg animate-pulse"></div>
+            <div className="absolute -top-4 -right-4 w-8 h-8 bg-gradient-to-br from-orange-500 to-pink-600 rounded-full shadow-lg animate-pulse delay-500"></div>
+            <div className="absolute -bottom-4 -left-4 w-8 h-8 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-full shadow-lg animate-pulse delay-1000"></div>
+            <div className="absolute -bottom-4 -right-4 w-8 h-8 bg-gradient-to-br from-green-500 to-emerald-600 rounded-full shadow-lg animate-pulse delay-1500"></div>
+            
             <div className="flex items-center justify-center gap-4 mb-8">
-              <span className="text-5xl">✨</span>
-              <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-700 to-pink-600 bg-clip-text text-transparent">
+              <span className="text-5xl animate-bounce">✨</span>
+              <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-purple-700 via-pink-600 to-orange-600 bg-clip-text text-transparent animate-pulse">
                 Indore's Premier Escort Service
               </h2>
-              <span className="text-5xl">✨</span>
+              <span className="text-5xl animate-bounce delay-300">✨</span>
             </div>
             
-            <p className="text-2xl md:text-3xl font-bold text-gray-800 leading-relaxed mb-8">
+            <p className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-pink-700 via-purple-600 to-orange-600 bg-clip-text text-transparent leading-relaxed mb-8 animate-pulse">
               🔥 Trusted • Verified • Professional • 24/7 Available 🔥
             </p>
             
@@ -202,19 +212,19 @@ export default function AboutPage() {
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
-              <div className="bg-gradient-to-br from-purple-100/80 to-pink-100/80 rounded-2xl p-6 border border-purple-200/50">
-                <div className="text-4xl mb-3">🏆</div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-2">3+ Years</h3>
+              <div className="bg-gradient-to-br from-purple-100/80 via-violet-100/80 to-fuchsia-100/80 rounded-2xl p-6 border-2 border-purple-200/50 hover:border-purple-400/60 hover:scale-110 transition-all duration-500 shadow-lg">
+                <div className="text-4xl mb-3 animate-bounce">🏆</div>
+                <h3 className="text-2xl font-bold bg-gradient-to-r from-purple-700 to-fuchsia-600 bg-clip-text text-transparent mb-2">3+ Years</h3>
                 <p className="text-gray-600 font-medium">Trusted Experience</p>
               </div>
-              <div className="bg-gradient-to-br from-pink-100/80 to-orange-100/80 rounded-2xl p-6 border border-pink-200/50">
-                <div className="text-4xl mb-3">👥</div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-2">1000+</h3>
+              <div className="bg-gradient-to-br from-pink-100/80 via-rose-100/80 to-orange-100/80 rounded-2xl p-6 border-2 border-pink-200/50 hover:border-pink-400/60 hover:scale-110 transition-all duration-500 shadow-lg">
+                <div className="text-4xl mb-3 animate-bounce delay-200">👥</div>
+                <h3 className="text-2xl font-bold bg-gradient-to-r from-pink-700 to-orange-600 bg-clip-text text-transparent mb-2">1000+</h3>
                 <p className="text-gray-600 font-medium">Satisfied Clients</p>
               </div>
-              <div className="bg-gradient-to-br from-orange-100/80 to-purple-100/80 rounded-2xl p-6 border border-orange-200/50">
-                <div className="text-4xl mb-3">📍</div>
-                <h3 className="text-2xl font-bold text-gray-800 mb-2">12+</h3>
+              <div className="bg-gradient-to-br from-orange-100/80 via-yellow-100/80 to-purple-100/80 rounded-2xl p-6 border-2 border-orange-200/50 hover:border-orange-400/60 hover:scale-110 transition-all duration-500 shadow-lg">
+                <div className="text-4xl mb-3 animate-bounce delay-400">📍</div>
+                <h3 className="text-2xl font-bold bg-gradient-to-r from-orange-700 to-purple-600 bg-clip-text text-transparent mb-2">12+</h3>
                 <p className="text-gray-600 font-medium">Prime Locations</p>
               </div>
             </div>
@@ -291,6 +301,41 @@ export default function AboutPage() {
                     </div>
                   </div>
                 </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-20 px-4 bg-gradient-to-br from-pink-200/60 via-orange-100/50 to-pink-200/60">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+              Common questions about our premium escort services in Indore
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {faqs.map((faq, index) => (
+              <div key={index} className="bg-gradient-to-br from-pink-100 to-pink-200 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-pink-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
+                <button
+                  onClick={() => toggleFaq(index)}
+                  className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-pink-200/80 hover:to-orange-100/80 transition-all duration-200 flex justify-between items-center group"
+                >
+                  <h3 className="text-xl font-bold text-pink-900 pr-4 group-hover:text-orange-700">{faq.question}</h3>
+                  <span className={`text-3xl transition-all duration-300 text-pink-700 ${openFaq === index ? 'rotate-180 scale-110' : ''}`}>
+                    ▼
+                  </span>
+                </button>
+                {openFaq === index && (
+                  <div className="px-8 pb-8 bg-gradient-to-r from-pink-50/90 to-orange-50/90">
+                    <p className="text-gray-700 leading-relaxed text-lg font-medium">{faq.answer}</p>
+                  </div>
+                )}
               </div>
             ))}
           </div>
