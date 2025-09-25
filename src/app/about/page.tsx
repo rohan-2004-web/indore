@@ -159,8 +159,8 @@ export default function AboutPage() {
         <div className="absolute bottom-20 left-1/3 w-72 h-72 bg-gradient-to-br from-pink-500/15 to-purple-500/15 rounded-full blur-2xl animate-pulse" style={{animationDelay: '3s'}}></div>
       </div>
 
-      {/* Ultra Premium Hero Section - Home Page Style */}
-      <section className="pt-32 pb-20 px-4 relative z-10 overflow-hidden">
+      {/* Hero Section - Services Page Style */}
+      <section className="pt-32 pb-16 relative">
         {/* Enhanced Animated Background Elements - Home Page Style */}
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-br from-pink-300/95 via-orange-200/90 to-pink-300/95"></div>
@@ -172,7 +172,7 @@ export default function AboutPage() {
           <div className="absolute bottom-40 left-1/4 w-72 h-72 bg-gradient-to-tr from-yellow-400/20 to-orange-400/25 rounded-full blur-3xl animate-pulse" style={{animationDelay: '3000ms'}}></div>
         </div>
 
-        <div className="max-w-7xl mx-auto text-center relative z-10">
+        <div className="w-full mx-auto text-center relative z-10 px-4">
           {/* Premium Badge - Home Page Style */}
           <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
             <span className="text-3xl">💎</span>
