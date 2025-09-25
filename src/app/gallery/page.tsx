@@ -2,8 +2,15 @@
 
 import Header from '@/components/Header'
 import Image from 'next/image'
+import { useState } from 'react'
 
 export default function GalleryPage() {
+  const [openFaq, setOpenFaq] = useState<number | null>(null)
+
+  const toggleFaq = (index: number) => {
+    setOpenFaq(openFaq === index ? null : index)
+  }
+
   const galleryImages = [
     {
       id: 1,
@@ -100,6 +107,65 @@ export default function GalleryPage() {
       src: "/images/services/sexy girls.webp",
       title: "Sexy Girls",
       category: "Glamour"
+    },
+    {
+      id: 17,
+      src: "/images/service17.jpg",
+      title: "Travel Companion",
+      category: "Travel"
+    },
+    {
+      id: 18,
+      src: "/images/service18.jpg",
+      title: "High Profile",
+      category: "Elite"
+    },
+    {
+      id: 19,
+      src: "/images/service19.jpg",
+      title: "Corporate Service",
+      category: "Business"
+    },
+    {
+      id: 20,
+      src: "/images/service20.jpg",
+      title: "24/7 Service",
+      category: "Anytime"
+    }
+  ]
+
+  const faqs = [
+    {
+      question: "What type of escorts are featured in your gallery?",
+      answer: "Our gallery showcases a diverse collection of premium escorts including celebrity companions, VIP models, college girls, mature housewives, Punjabi beauties, and professional event companions. Each escort is carefully selected for their beauty, professionalism, and sophistication."
+    },
+    {
+      question: "Are the images in the gallery authentic and recent?",
+      answer: "Yes, all images in our gallery are authentic and regularly updated. We maintain strict quality standards and ensure all photographs represent our current available escorts accurately. We believe in complete transparency with our clients."
+    },
+    {
+      question: "How can I book the escort shown in the gallery?",
+      answer: "You can book any escort from our gallery by calling +91 9372662471 or messaging us on WhatsApp. Simply mention the category or name of the escort you're interested in, and our team will arrange the booking for you."
+    },
+    {
+      question: "Do you offer different categories of escorts as shown in the gallery?",
+      answer: "Absolutely! Our gallery represents various categories including Celebrity Escorts, VIP Companions, College Girls, Mature Escorts, High-Class Models, Event Companions, and many more to suit different preferences and occasions."
+    },
+    {
+      question: "Are all escorts in the gallery available in Indore?",
+      answer: "Yes, all escorts featured in our gallery are available for bookings in Indore and surrounding areas. We provide services across all major locations including Vijay Nagar, Palasia, AB Road, Saket, and 15+ other prime areas."
+    },
+    {
+      question: "What makes your escort gallery different from others?",
+      answer: "Our gallery features verified, professional escorts with high-quality images. Each escort is categorized for easy selection, and we provide detailed information about their specialties. We focus on quality over quantity."
+    },
+    {
+      question: "Can I request a specific type of escort not shown in the gallery?",
+      answer: "Yes, our gallery represents just a sample of our extensive network. If you have specific preferences or requirements not shown in the gallery, please contact us and we'll do our best to fulfill your request."
+    },
+    {
+      question: "How often do you update your gallery with new escorts?",
+      answer: "We regularly update our gallery to showcase new escorts joining our agency and refresh existing profiles. Our gallery is updated weekly to ensure you always have access to the latest and most current escorts available."
     }
   ]
 
@@ -194,6 +260,80 @@ export default function GalleryPage() {
                     </div>
                   </div>
                 ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-20 bg-gradient-to-br from-pink-100/80 via-orange-50/60 to-pink-200/70">
+          <div className="w-full px-4">
+            <div className="max-w-6xl mx-auto">
+              <div className="text-center mb-16">
+                <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+                  🔍 Gallery FAQs
+                </h2>
+                <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                  Everything you need to know about our premium escort gallery and booking process
+                </p>
+              </div>
+
+              <div className="space-y-6">
+                {faqs.map((faq, index) => (
+                  <div 
+                    key={index}
+                    className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl border border-pink-100/50 overflow-hidden transform transition-all duration-300 hover:shadow-3xl"
+                  >
+                    <button
+                      className="w-full text-left p-8 focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300"
+                      onClick={() => toggleFaq(index)}
+                    >
+                      <div className="flex items-center justify-between">
+                        <h3 className="text-xl font-bold text-gray-800 pr-8 leading-relaxed">
+                          {faq.question}
+                        </h3>
+                        <div className={`flex-shrink-0 transform transition-transform duration-300 ${openFaq === index ? 'rotate-180' : ''}`}>
+                          <svg className="w-8 h-8 text-pink-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
+                          </svg>
+                        </div>
+                      </div>
+                    </button>
+                    <div className={`transition-all duration-500 ease-in-out overflow-hidden ${openFaq === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
+                      <div className="px-8 pb-8">
+                        <div className="border-t border-pink-200 pt-6">
+                          <p className="text-gray-700 leading-loose text-lg font-medium">
+                            {faq.answer}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* Contact CTA within FAQ Section */}
+              <div className="mt-16 text-center bg-gradient-to-r from-pink-500/10 to-orange-500/10 rounded-3xl p-12">
+                <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-6">
+                  Still have questions about our gallery?
+                </h3>
+                <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+                  Contact us directly for personalized assistance with your escort selection
+                </p>
+                <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                  <a 
+                    href="tel:+919372662471" 
+                    className="inline-block bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-10 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl"
+                  >
+                    📞 Call Now: +91 9372662471
+                  </a>
+                  <a 
+                    href="https://wa.me/919372662471" 
+                    className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl"
+                  >
+                    💬 WhatsApp Now
+                  </a>
+                </div>
               </div>
             </div>
           </div>

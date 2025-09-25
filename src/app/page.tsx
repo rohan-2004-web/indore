@@ -429,6 +429,43 @@ export default function Home() {
                   <a href="/services" className="inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Indore Girls</a>
                 </div>
 
+                {/* Row 6 - Additional Services to make total 20 */}
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-purple-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/service17.jpg" alt="Travel Companion" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">Travel Companion</h3>
+                  <p className="text-gray-600 mb-4 text-base flex-grow">Perfect travel partners for business trips and vacations</p>
+                  <a href="/services" className="inline-block bg-gradient-to-r from-purple-500 to-purple-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Travel Girls</a>
+                </div>
+
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-cyan-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/service18.jpg" alt="High Profile" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">High Profile</h3>
+                  <p className="text-gray-600 mb-4 text-base flex-grow">Elite high-profile companions for exclusive events</p>
+                  <a href="/services" className="inline-block bg-gradient-to-r from-cyan-500 to-cyan-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Elite Girls</a>
+                </div>
+
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-fuchsia-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/service19.jpg" alt="Corporate Service" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">Corporate Service</h3>
+                  <p className="text-gray-600 mb-4 text-base flex-grow">Professional companions for corporate events and meetings</p>
+                  <a href="/services" className="inline-block bg-gradient-to-r from-fuchsia-500 to-fuchsia-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Corporate Girls</a>
+                </div>
+
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-lime-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/service20.jpg" alt="24/7 Service" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">24/7 Service</h3>
+                  <p className="text-gray-600 mb-4 text-base flex-grow">Round-the-clock escort services available anytime</p>
+                  <a href="/services" className="inline-block bg-gradient-to-r from-lime-500 to-lime-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Anytime</a>
+                </div>
+
               </div>
             </div>
           </div>
