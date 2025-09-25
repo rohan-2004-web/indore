@@ -728,6 +728,149 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Our Journey & Achievements Section */}
+      <section className="py-20 px-4 bg-gradient-to-br from-indigo-600/95 via-purple-600/90 to-pink-600/95 relative overflow-hidden">
+        {/* Dynamic Background Elements */}
+        <div className="absolute inset-0">
+          <div className="absolute top-16 right-16 w-72 h-72 bg-gradient-to-br from-cyan-400/30 to-blue-500/30 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-16 left-16 w-88 h-88 bg-gradient-to-br from-pink-400/25 to-purple-500/25 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1.5s'}}></div>
+          <div className="absolute top-1/3 left-1/3 w-64 h-64 bg-gradient-to-br from-emerald-400/20 to-teal-500/20 rounded-full blur-2xl animate-pulse" style={{animationDelay: '3s'}}></div>
+        </div>
+
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center gap-4 bg-gradient-to-r from-white/25 to-cyan-200/30 backdrop-blur-lg rounded-full px-12 py-6 mb-10 shadow-2xl border-2 border-white/50">
+              <span className="text-4xl">📈</span>
+              <span className="text-white font-black text-2xl">Our Journey</span>
+              <span className="text-4xl">🎯</span>
+            </div>
+            
+            <h2 className="text-6xl md:text-8xl font-black text-white mb-10 leading-tight drop-shadow-2xl">
+              Building Trust
+              <br />
+              <span className="bg-gradient-to-r from-cyan-300 via-blue-300 to-purple-300 bg-clip-text text-transparent">
+                Since Years
+              </span>
+            </h2>
+            
+            <p className="text-2xl md:text-3xl text-white/95 max-w-6xl mx-auto leading-relaxed font-bold">
+              Discover how we became Indore's most trusted premium escort service through dedication and excellence
+            </p>
+          </div>
+
+          {/* Journey Timeline */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+            <div className="space-y-8">
+              <div className="group bg-gradient-to-br from-white/20 to-cyan-100/20 backdrop-blur-lg rounded-3xl p-10 border-2 border-white/40 hover:border-cyan-300/60 transform hover:scale-105 transition-all duration-500 shadow-2xl">
+                <div className="flex items-center gap-6 mb-6">
+                  <div className="text-6xl group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">🚀</div>
+                  <h3 className="text-4xl font-black bg-gradient-to-r from-cyan-300 to-blue-400 bg-clip-text text-transparent">
+                    Our Beginning
+                  </h3>
+                </div>
+                <p className="text-white/90 text-xl leading-relaxed font-medium">
+                  Started with a vision to provide premium, professional, and discreet escort services in Indore. 
+                  Our commitment to quality and customer satisfaction set us apart from day one.
+                </p>
+              </div>
+
+              <div className="group bg-gradient-to-br from-white/20 to-purple-100/20 backdrop-blur-lg rounded-3xl p-10 border-2 border-white/40 hover:border-purple-300/60 transform hover:scale-105 transition-all duration-500 shadow-2xl">
+                <div className="flex items-center gap-6 mb-6">
+                  <div className="text-6xl group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">🏆</div>
+                  <h3 className="text-4xl font-black bg-gradient-to-r from-purple-300 to-pink-400 bg-clip-text text-transparent">
+                    Recognition
+                  </h3>
+                </div>
+                <p className="text-white/90 text-xl leading-relaxed font-medium">
+                  Earned the trust of thousands of clients through consistent quality, reliability, and 
+                  professional excellence. Became the most sought-after service in Indore.
+                </p>
+              </div>
+            </div>
+
+            <div className="space-y-8">
+              <div className="group bg-gradient-to-br from-white/20 to-emerald-100/20 backdrop-blur-lg rounded-3xl p-10 border-2 border-white/40 hover:border-emerald-300/60 transform hover:scale-105 transition-all duration-500 shadow-2xl">
+                <div className="flex items-center gap-6 mb-6">
+                  <div className="text-6xl group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">💎</div>
+                  <h3 className="text-4xl font-black bg-gradient-to-r from-emerald-300 to-teal-400 bg-clip-text text-transparent">
+                    Premium Standards
+                  </h3>
+                </div>
+                <p className="text-white/90 text-xl leading-relaxed font-medium">
+                  Established strict quality standards for companion selection, customer service, and 
+                  privacy protection. Every aspect designed for premium experience.
+                </p>
+              </div>
+
+              <div className="group bg-gradient-to-br from-white/20 to-orange-100/20 backdrop-blur-lg rounded-3xl p-10 border-2 border-white/40 hover:border-orange-300/60 transform hover:scale-105 transition-all duration-500 shadow-2xl">
+                <div className="flex items-center gap-6 mb-6">
+                  <div className="text-6xl group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">🌟</div>
+                  <h3 className="text-4xl font-black bg-gradient-to-r from-orange-300 to-red-400 bg-clip-text text-transparent">
+                    Future Vision
+                  </h3>
+                </div>
+                <p className="text-white/90 text-xl leading-relaxed font-medium">
+                  Continuously expanding our services and locations while maintaining the highest standards 
+                  of quality, discretion, and customer satisfaction.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Achievement Stats */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
+            {[
+              { number: "1000+", label: "Happy Clients", icon: "😊", gradient: "from-pink-400 to-red-500" },
+              { number: "99%", label: "Satisfaction Rate", icon: "💯", gradient: "from-green-400 to-emerald-500" },
+              { number: "12+", label: "Prime Locations", icon: "📍", gradient: "from-blue-400 to-cyan-500" },
+              { number: "24/7", label: "Availability", icon: "🕐", gradient: "from-purple-400 to-pink-500" }
+            ].map((stat, index) => (
+              <div key={index} className="group text-center bg-white/15 backdrop-blur-lg rounded-3xl p-8 border-2 border-white/30 hover:border-white/60 transform hover:scale-110 hover:-translate-y-3 transition-all duration-500 shadow-2xl">
+                <div className="text-5xl mb-4 group-hover:scale-125 group-hover:animate-bounce transition-all duration-300">
+                  {stat.icon}
+                </div>
+                <div className={`text-4xl font-black mb-2 bg-gradient-to-r ${stat.gradient} bg-clip-text text-transparent group-hover:scale-110 transition-transform duration-300`}>
+                  {stat.number}
+                </div>
+                <div className="text-white/90 font-bold text-lg group-hover:text-white transition-colors duration-300">
+                  {stat.label}
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Premium About CTA */}
+          <div className="text-center">
+            <div className="bg-gradient-to-r from-white/25 to-purple-200/25 backdrop-blur-lg rounded-4xl p-12 border-2 border-white/50 shadow-2xl max-w-5xl mx-auto">
+              <h3 className="text-4xl md:text-6xl font-black text-white mb-8">
+                🎖️ Join Our Premium Family 🎖️
+              </h3>
+              <p className="text-2xl text-white/95 mb-12 font-bold leading-relaxed">
+                Experience the difference that years of dedication and premium service standards make
+              </p>
+              <div className="flex flex-col sm:flex-row gap-8 justify-center">
+                <a 
+                  href="tel:+919372662471" 
+                  className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-700 hover:from-cyan-600 hover:via-blue-700 hover:to-purple-800 text-white px-14 py-7 rounded-full font-black text-xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-cyan-500/50 border-2 border-cyan-400/40"
+                >
+                  <span className="text-3xl group-hover:animate-bounce">📞</span>
+                  <span>Call Now: +91 9372662471</span>
+                  <span className="text-2xl group-hover:translate-x-2 transition-transform duration-300">→</span>
+                </a>
+                <a 
+                  href="https://wa.me/919372662471" 
+                  className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-purple-500 via-pink-600 to-red-600 hover:from-purple-600 hover:via-pink-700 hover:to-red-700 text-white px-14 py-7 rounded-full font-black text-xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-purple-500/50 border-2 border-purple-400/40"
+                >
+                  <span className="text-3xl group-hover:animate-bounce">💬</span>
+                  <span>WhatsApp Now</span>
+                  <span className="text-2xl group-hover:translate-x-2 transition-transform duration-300">→</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer - Same as Homepage */}
       <footer className="bg-gradient-to-br from-pink-600/95 via-purple-700/90 to-orange-600/95 text-white py-20 relative">
         {/* Decorative Background Elements */}

@@ -533,6 +533,123 @@ export default function ServicesPage() {
           </div>
         </section>
 
+        {/* Premium Service Excellence Section */}
+        <section className="py-20 px-4 bg-gradient-to-br from-purple-600/95 via-pink-500/90 to-orange-500/95 relative overflow-hidden">
+          {/* Animated Background Elements */}
+          <div className="absolute inset-0">
+            <div className="absolute top-20 left-20 w-64 h-64 bg-gradient-to-br from-yellow-400/30 to-orange-400/30 rounded-full blur-3xl animate-pulse"></div>
+            <div className="absolute bottom-20 right-20 w-80 h-80 bg-gradient-to-br from-pink-400/25 to-purple-400/25 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
+            <div className="absolute top-1/2 left-1/4 w-72 h-72 bg-gradient-to-br from-cyan-400/20 to-blue-400/20 rounded-full blur-2xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          </div>
+
+          <div className="max-w-7xl mx-auto relative z-10">
+            <div className="text-center mb-16">
+              <div className="inline-flex items-center gap-4 bg-gradient-to-r from-white/20 to-yellow-200/30 backdrop-blur-lg rounded-full px-10 py-5 mb-8 shadow-2xl border-2 border-white/40">
+                <span className="text-4xl">🏆</span>
+                <span className="text-white font-black text-2xl">Service Excellence</span>
+                <span className="text-4xl">💎</span>
+              </div>
+              
+              <h2 className="text-6xl md:text-7xl font-black text-white mb-8 leading-tight drop-shadow-2xl">
+                Why Choose Our
+                <br />
+                <span className="bg-gradient-to-r from-yellow-300 via-orange-300 to-pink-300 bg-clip-text text-transparent">
+                  Premium Services
+                </span>
+              </h2>
+              
+              <p className="text-2xl md:text-3xl text-white/90 max-w-5xl mx-auto leading-relaxed font-bold">
+                Experience the difference with Indore's most trusted and professional escort service
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+              {[
+                {
+                  icon: "🌟",
+                  title: "Premium Quality",
+                  description: "Only the finest companions who meet our strict standards for beauty, intelligence, and professionalism.",
+                  gradient: "from-yellow-400 to-orange-500"
+                },
+                {
+                  icon: "🔒",
+                  title: "Complete Privacy",
+                  description: "Your confidentiality is our priority. All interactions are handled with utmost discretion and security.",
+                  gradient: "from-blue-400 to-cyan-500"
+                },
+                {
+                  icon: "⚡",
+                  title: "Instant Booking",
+                  description: "Fast response times with immediate availability. Same-day bookings available across all locations.",
+                  gradient: "from-pink-400 to-purple-500"
+                },
+                {
+                  icon: "💯",
+                  title: "100% Verified",
+                  description: "All our companions are thoroughly verified for authenticity, health, and professional background.",
+                  gradient: "from-green-400 to-emerald-500"
+                },
+                {
+                  icon: "📍",
+                  title: "All Locations",
+                  description: "Service available across all major areas of Indore with flexible incall and outcall options.",
+                  gradient: "from-orange-400 to-red-500"
+                },
+                {
+                  icon: "🕐",
+                  title: "24/7 Support",
+                  description: "Round-the-clock customer support and companion availability for your convenience.",
+                  gradient: "from-purple-400 to-pink-500"
+                }
+              ].map((feature, index) => (
+                <div key={index} className="group bg-white/15 backdrop-blur-lg rounded-3xl p-8 border-2 border-white/30 hover:border-white/60 transform hover:scale-105 hover:-translate-y-3 transition-all duration-500 shadow-2xl hover:shadow-white/20">
+                  <div className="text-center">
+                    <div className="text-7xl mb-6 group-hover:scale-125 group-hover:animate-bounce transition-all duration-500">
+                      {feature.icon}
+                    </div>
+                    <h3 className={`text-3xl font-black mb-4 bg-gradient-to-r ${feature.gradient} bg-clip-text text-transparent group-hover:scale-110 transition-transform duration-300`}>
+                      {feature.title}
+                    </h3>
+                    <p className="text-white/90 text-lg leading-relaxed font-medium group-hover:text-white transition-colors duration-300">
+                      {feature.description}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Premium CTA */}
+            <div className="text-center">
+              <div className="bg-gradient-to-r from-white/20 to-yellow-200/20 backdrop-blur-lg rounded-4xl p-12 border-2 border-white/40 shadow-2xl max-w-4xl mx-auto">
+                <h3 className="text-4xl md:text-5xl font-black text-white mb-6">
+                  🚀 Ready for Premium Experience? 🚀
+                </h3>
+                <p className="text-2xl text-white/90 mb-10 font-bold">
+                  Join thousands of satisfied clients who trust our premium services
+                </p>
+                <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                  <a 
+                    href="tel:+919372662471" 
+                    className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-green-500 via-emerald-600 to-green-700 hover:from-green-600 hover:via-emerald-700 hover:to-green-800 text-white px-12 py-6 rounded-full font-black text-xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 border-2 border-green-400/30"
+                  >
+                    <span className="text-3xl group-hover:animate-bounce">📞</span>
+                    <span>Call Now: +91 9372662471</span>
+                    <span className="text-2xl group-hover:translate-x-2 transition-transform duration-300">→</span>
+                  </a>
+                  <a 
+                    href="https://wa.me/919372662471" 
+                    className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-yellow-500 via-orange-600 to-red-600 hover:from-yellow-600 hover:via-orange-700 hover:to-red-700 text-white px-12 py-6 rounded-full font-black text-xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-orange-500/50 border-2 border-orange-400/30"
+                  >
+                    <span className="text-3xl group-hover:animate-bounce">💬</span>
+                    <span>WhatsApp Now</span>
+                    <span className="text-2xl group-hover:translate-x-2 transition-transform duration-300">→</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <footer className="bg-gradient-to-br from-pink-600/95 via-purple-700/90 to-orange-600/95 text-white py-20 relative">
           <div className="w-full px-4 relative z-10">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
