@@ -159,17 +159,26 @@ export default function AboutPage() {
         <div className="absolute bottom-20 left-1/3 w-72 h-72 bg-gradient-to-br from-pink-500/15 to-purple-500/15 rounded-full blur-2xl animate-pulse" style={{animationDelay: '3s'}}></div>
       </div>
 
-      {/* Enhanced Hero Section */}
-      <section className="pt-32 pb-20 px-4 relative z-10">
-        <div className="max-w-7xl mx-auto text-center">
-          {/* Premium Badge */}
-          <div className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-2xl border border-purple-300/50">
-            <span className="text-4xl">🌟</span>
-            <span className="text-purple-800 font-black text-2xl">Premium Escort Service</span>
-            <span className="text-4xl">💎</span>
+      {/* Ultra Premium Hero Section */}
+      <section className="pt-32 pb-20 px-4 relative z-10 overflow-hidden">
+        {/* Animated Background Elements */}
+        <div className="absolute inset-0">
+          <div className="absolute top-20 left-10 w-80 h-80 bg-gradient-to-r from-violet-400/30 to-fuchsia-500/30 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-r from-orange-400/30 to-pink-500/30 rounded-full blur-3xl animate-pulse delay-1000"></div>
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[40rem] h-[40rem] bg-gradient-to-r from-cyan-300/20 to-purple-400/20 rounded-full blur-3xl animate-pulse delay-500"></div>
+        </div>
+
+        <div className="max-w-7xl mx-auto text-center relative z-10">
+          {/* Ultra Premium Badge */}
+          <div className="inline-flex items-center gap-4 bg-gradient-to-r from-violet-500/30 via-fuchsia-500/30 to-orange-500/30 backdrop-blur-lg rounded-full px-12 py-6 mb-12 shadow-2xl border-3 border-white/40 hover:scale-110 transition-all duration-700 cursor-pointer">
+            <span className="text-5xl animate-bounce">🌟</span>
+            <span className="bg-gradient-to-r from-violet-600 via-fuchsia-600 to-orange-600 bg-clip-text text-transparent font-black text-3xl">
+              Indore's #1 Premium Escort Service
+            </span>
+            <span className="text-5xl animate-bounce delay-200">💎</span>
           </div>
 
-          <h1 className="text-8xl md:text-9xl font-black bg-gradient-to-r from-purple-600 via-pink-500 via-orange-500 to-purple-600 bg-clip-text text-transparent mb-10 leading-tight tracking-tight">
+          <h1 className="text-8xl md:text-9xl lg:text-[12rem] font-black bg-gradient-to-r from-violet-600 via-fuchsia-500 via-pink-500 via-orange-500 to-violet-600 bg-clip-text text-transparent mb-12 leading-none tracking-tight hover:scale-105 transition-transform duration-700">
             About Us
           </h1>
           
@@ -232,47 +241,54 @@ export default function AboutPage() {
             </p>
           </div>
 
-          {/* Locations Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          {/* Ultra Premium 12 Locations Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
             {[
-              { name: "Vijay Nagar", icon: "🏢", description: "Premium business district with luxury hotels", color: "from-purple-500 to-pink-500" },
-              { name: "Palasia", icon: "🛍️", description: "Shopping and entertainment hub", color: "from-pink-500 to-orange-500" },
-              { name: "AB Road", icon: "🏨", description: "Main commercial area with top hotels", color: "from-orange-500 to-purple-500" },
-              { name: "Saket", icon: "🏡", description: "Upscale residential area", color: "from-purple-600 to-pink-600" },
-              { name: "MG Road", icon: "🌟", description: "Central business district", color: "from-pink-600 to-orange-600" },
-              { name: "Rajwada", icon: "🏰", description: "Historic and cultural center", color: "from-orange-600 to-purple-600" },
-              { name: "Bhanwar Kuwa", icon: "🎭", description: "Entertainment and nightlife area", color: "from-purple-500 to-pink-500" },
-              { name: "Ring Road", icon: "🚗", description: "Modern development zone", color: "from-pink-500 to-orange-500" },
-              { name: "Geeta Bhawan", icon: "🕉️", description: "Traditional and modern mix", color: "from-orange-500 to-purple-500" },
-              { name: "C21 Mall Area", icon: "🏬", description: "Shopping and dining hub", color: "from-purple-600 to-pink-600" },
-              { name: "Airport Road", icon: "✈️", description: "Business travel corridor", color: "from-pink-600 to-orange-600" },
-              { name: "Bhawarkua", icon: "🌆", description: "Central Indore location", color: "from-orange-600 to-purple-600" }
+              { name: "Vijay Nagar", icon: "🏢", description: "Elite business district with 5-star hotels", color: "from-violet-500 via-purple-500 to-fuchsia-500" },
+              { name: "Palasia", icon: "🛍️", description: "Luxury shopping & entertainment paradise", color: "from-fuchsia-500 via-pink-500 to-rose-500" },
+              { name: "AB Road", icon: "🏨", description: "Premier commercial with luxury hotels", color: "from-rose-500 via-pink-500 to-orange-500" },
+              { name: "Saket", icon: "🏡", description: "Ultra-luxury residential enclave", color: "from-orange-500 via-amber-500 to-yellow-500" },
+              { name: "MG Road", icon: "🌟", description: "Central business & cultural nucleus", color: "from-yellow-500 via-lime-500 to-green-500" },
+              { name: "Rajwada", icon: "🏰", description: "Royal heritage & cultural center", color: "from-green-500 via-emerald-500 to-teal-500" },
+              { name: "Bhanwar Kuwa", icon: "🎭", description: "Premium nightlife & entertainment", color: "from-teal-500 via-cyan-500 to-blue-500" },
+              { name: "Ring Road", icon: "🚗", description: "Modern luxury development zone", color: "from-blue-500 via-indigo-500 to-purple-500" },
+              { name: "Geeta Bhawan", icon: "🕉️", description: "Traditional meets modern luxury", color: "from-purple-500 via-violet-500 to-fuchsia-500" },
+              { name: "C21 Mall Area", icon: "🏬", description: "Elite shopping & dining destination", color: "from-pink-500 via-rose-500 to-red-500" },
+              { name: "Airport Road", icon: "✈️", description: "Business travel luxury hub", color: "from-red-500 via-orange-500 to-amber-500" },
+              { name: "Bhawarkua", icon: "🌆", description: "Prime central luxury location", color: "from-amber-500 via-yellow-500 to-lime-500" }
             ].map((location, index) => (
-              <div key={index} className={`group bg-gradient-to-br from-white/95 to-purple-50/90 backdrop-blur-lg rounded-3xl p-6 shadow-xl border-2 border-purple-200/50 hover:border-pink-300/70 transform hover:scale-105 hover:-translate-y-2 transition-all duration-500 text-center`}>
-                <div className="text-6xl mb-4 group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">
-                  {location.icon}
-                </div>
+              <div key={index} className={`group bg-gradient-to-br from-white/98 to-purple-50/95 backdrop-blur-xl rounded-3xl p-8 shadow-2xl border-3 border-purple-200/60 hover:border-white/80 transform hover:scale-110 hover:-translate-y-6 transition-all duration-700 text-center cursor-pointer hover:shadow-4xl relative overflow-hidden`}>
+                {/* Enhanced Background Effects */}
+                <div className={`absolute inset-0 bg-gradient-to-br ${location.color} opacity-0 group-hover:opacity-20 transition-opacity duration-700 rounded-3xl`}></div>
+                <div className="absolute -top-6 -right-6 w-20 h-20 bg-white/30 rounded-full blur-xl group-hover:scale-150 group-hover:rotate-180 transition-all duration-700"></div>
+                <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-gradient-to-tr from-pink-300/20 to-violet-300/30 rounded-full blur-xl group-hover:scale-125 group-hover:-rotate-90 transition-all duration-700"></div>
                 
-                <h3 className="text-2xl font-bold text-gray-800 mb-3 group-hover:text-purple-700 transition-colors duration-300">
-                  {location.name}
-                </h3>
-                
-                <p className="text-gray-600 mb-4 font-medium leading-relaxed">
-                  {location.description}
-                </p>
-                
-                <div className="space-y-3">
-                  <div className={`inline-block bg-gradient-to-r ${location.color} text-white px-4 py-2 rounded-full text-sm font-bold group-hover:scale-110 transition-transform duration-300`}>
-                    ✅ Available 24/7
+                <div className="relative z-10">
+                  <div className="text-8xl mb-6 group-hover:scale-125 group-hover:rotate-12 transition-all duration-700 filter drop-shadow-2xl">
+                    {location.icon}
                   </div>
                   
-                  <div className="flex gap-2">
-                    <a href="tel:+919372662471" className="flex-1 bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 text-white px-3 py-2 rounded-xl font-bold text-sm transition-all duration-300 hover:scale-105">
-                      📞 Call
-                    </a>
-                    <a href="https://wa.me/919372662471" className="flex-1 bg-gradient-to-r from-green-600 to-lime-500 hover:from-green-700 hover:to-lime-600 text-white px-3 py-2 rounded-xl font-bold text-sm transition-all duration-300 hover:scale-105">
-                      💬 Chat
-                    </a>
+                  <h3 className={`text-2xl font-black mb-4 bg-gradient-to-r ${location.color} bg-clip-text text-transparent group-hover:scale-110 transition-all duration-500`}>
+                    {location.name}
+                  </h3>
+                  
+                  <p className="text-gray-700 mb-6 font-bold leading-relaxed group-hover:text-gray-800 transition-colors duration-300">
+                    {location.description}
+                  </p>
+                  
+                  <div className="space-y-4">
+                    <div className={`inline-block bg-gradient-to-r ${location.color} text-white px-6 py-3 rounded-full text-sm font-bold group-hover:scale-110 transition-transform duration-300 shadow-lg`}>
+                      ⭐ Available 24/7 ⭐
+                    </div>
+                    
+                    <div className="flex gap-3">
+                      <a href="tel:+919372662471" className="flex-1 bg-gradient-to-r from-emerald-500 to-green-600 hover:from-emerald-600 hover:to-green-700 text-white px-4 py-3 rounded-xl font-bold text-sm transition-all duration-300 hover:scale-105 shadow-lg">
+                        📞 Call
+                      </a>
+                      <a href="https://wa.me/919372662471" className="flex-1 bg-gradient-to-r from-green-600 to-lime-500 hover:from-green-700 hover:to-lime-600 text-white px-4 py-3 rounded-xl font-bold text-sm transition-all duration-300 hover:scale-105 shadow-lg">
+                        💬 Chat
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -297,76 +313,89 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Left Content */}
-            <div className="space-y-8">
-              <div className="bg-gradient-to-br from-white/95 to-pink-50/90 backdrop-blur-lg rounded-3xl p-8 shadow-xl border-2 border-pink-200/50">
-                <div className="flex items-center gap-4 mb-6">
-                  <span className="text-4xl">🎯</span>
-                  <h3 className="text-3xl font-bold text-gray-800">Our Mission</h3>
+            {/* Enhanced Left Content - Mission & Vision */}
+            <div className="space-y-10">
+              <div className="group bg-gradient-to-br from-violet-200/90 via-purple-100/90 to-fuchsia-200/90 backdrop-blur-lg rounded-4xl p-10 shadow-2xl border-3 border-white/60 hover:border-white/80 transform hover:scale-105 hover:-translate-y-2 transition-all duration-500 cursor-pointer relative overflow-hidden">
+                {/* Mission Background Effects */}
+                <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-r from-violet-300/30 to-fuchsia-400/30 rounded-full blur-xl group-hover:scale-150 transition-all duration-500"></div>
+                <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-gradient-to-r from-purple-300/20 to-pink-400/30 rounded-full blur-xl group-hover:scale-125 transition-all duration-500"></div>
+                
+                <div className="relative z-10">
+                  <div className="flex items-center gap-6 mb-8">
+                    <span className="text-6xl group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">🎯</span>
+                    <h3 className="text-4xl font-black bg-gradient-to-r from-violet-700 via-purple-700 to-fuchsia-700 bg-clip-text text-transparent">Our Mission</h3>
+                  </div>
+                  <p className="text-lg text-gray-700 leading-relaxed font-bold">
+                    To deliver the world's finest escort services in Indore with uncompromising professionalism, absolute discretion, and 
+                    complete customer satisfaction. We connect distinguished clients with verified premium companions for extraordinary experiences.
+                  </p>
                 </div>
-                <p className="text-lg text-gray-700 leading-relaxed font-medium">
-                  To provide the finest escort services in Indore with complete professionalism, discretion, and customer satisfaction. 
-                  We aim to connect clients with verified premium companions for memorable experiences across all occasions.
-                </p>
               </div>
 
-              <div className="bg-gradient-to-br from-white/95 to-purple-50/90 backdrop-blur-lg rounded-3xl p-8 shadow-xl border-2 border-purple-200/50">
-                <div className="flex items-center gap-4 mb-6">
-                  <span className="text-4xl">👁️</span>
-                  <h3 className="text-3xl font-bold text-gray-800">Our Vision</h3>
+              <div className="group bg-gradient-to-br from-blue-200/90 via-cyan-100/90 to-teal-200/90 backdrop-blur-lg rounded-4xl p-10 shadow-2xl border-3 border-white/60 hover:border-white/80 transform hover:scale-105 hover:-translate-y-2 transition-all duration-500 cursor-pointer relative overflow-hidden">
+                {/* Vision Background Effects */}
+                <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-r from-blue-300/30 to-cyan-400/30 rounded-full blur-xl group-hover:scale-150 transition-all duration-500"></div>
+                <div className="absolute -bottom-4 -left-4 w-28 h-28 bg-gradient-to-r from-cyan-300/20 to-teal-400/30 rounded-full blur-xl group-hover:scale-125 transition-all duration-500"></div>
+                
+                <div className="relative z-10">
+                  <div className="flex items-center gap-6 mb-8">
+                    <span className="text-6xl group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">👁️</span>
+                    <h3 className="text-4xl font-black bg-gradient-to-r from-blue-700 via-cyan-700 to-teal-700 bg-clip-text text-transparent">Our Vision</h3>
+                  </div>
+                  <p className="text-lg text-gray-700 leading-relaxed font-bold">
+                    To become India's most prestigious escort service provider, establishing global standards for luxury companionship, 
+                    reliability, and customer excellence while maintaining the highest levels of privacy and professional integrity.
+                  </p>
                 </div>
-                <p className="text-lg text-gray-700 leading-relaxed font-medium">
-                  To be Indore's most trusted and premier escort service provider, setting industry standards for quality, 
-                  reliability, and customer satisfaction while maintaining the highest levels of privacy and discretion.
-                </p>
               </div>
             </div>
 
-            {/* Right Content */}
-            <div className="space-y-8">
-              <div className="bg-gradient-to-br from-white/95 to-orange-50/90 backdrop-blur-lg rounded-3xl p-8 shadow-xl border-2 border-orange-200/50">
-                <div className="flex items-center gap-4 mb-6">
-                  <span className="text-4xl">🏆</span>
-                  <h3 className="text-3xl font-bold text-gray-800">Why Choose Us?</h3>
-                </div>
-                <div className="space-y-4">
-                  <div className="flex items-center gap-3">
-                    <span className="text-2xl">✅</span>
-                    <span className="text-lg font-semibold text-gray-700">100% Verified Companions</span>
+            {/* Enhanced Right Content - Why Choose Us */}
+            <div className="space-y-10">
+              <div className="group bg-gradient-to-br from-orange-200/90 via-amber-100/90 to-yellow-200/90 backdrop-blur-lg rounded-4xl p-10 shadow-2xl border-3 border-white/60 hover:border-white/80 transform hover:scale-105 hover:-translate-y-2 transition-all duration-500 cursor-pointer relative overflow-hidden">
+                {/* Why Choose Us Background Effects */}
+                <div className="absolute -top-4 -right-4 w-28 h-28 bg-gradient-to-r from-orange-300/30 to-yellow-400/30 rounded-full blur-xl group-hover:scale-150 transition-all duration-500"></div>
+                <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-gradient-to-r from-amber-300/20 to-orange-400/30 rounded-full blur-xl group-hover:scale-125 transition-all duration-500"></div>
+                
+                <div className="relative z-10">
+                  <div className="flex items-center gap-6 mb-8">
+                    <span className="text-6xl group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">🏆</span>
+                    <h3 className="text-4xl font-black bg-gradient-to-r from-orange-700 via-amber-700 to-yellow-700 bg-clip-text text-transparent">Why Choose Us?</h3>
                   </div>
-                  <div className="flex items-center gap-3">
-                    <span className="text-2xl">🔒</span>
-                    <span className="text-lg font-semibold text-gray-700">Complete Privacy & Discretion</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <span className="text-2xl">⚡</span>
-                    <span className="text-lg font-semibold text-gray-700">24/7 Instant Booking</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <span className="text-2xl">💎</span>
-                    <span className="text-lg font-semibold text-gray-700">Premium Quality Service</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <span className="text-2xl">🌟</span>
-                    <span className="text-lg font-semibold text-gray-700">3+ Years Experience</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <span className="text-2xl">📍</span>
-                    <span className="text-lg font-semibold text-gray-700">12+ Prime Locations</span>
+                  <div className="space-y-5">
+                    {[
+                      { icon: "✅", text: "100% Verified Premium Companions", color: "from-green-500 to-emerald-500" },
+                      { icon: "🔒", text: "Complete Privacy & Discretion", color: "from-blue-500 to-cyan-500" },
+                      { icon: "⚡", text: "24/7 Instant Booking Available", color: "from-purple-500 to-pink-500" },
+                      { icon: "💎", text: "Premium Quality Service", color: "from-orange-500 to-red-500" },
+                      { icon: "🌟", text: "5+ Years Experience", color: "from-violet-500 to-fuchsia-500" },
+                      { icon: "📍", text: "12+ Prime Locations", color: "from-teal-500 to-green-500" }
+                    ].map((item, index) => (
+                      <div key={index} className="flex items-center gap-4 p-4 bg-white/80 backdrop-blur-sm rounded-xl border-2 border-white/50 hover:border-white/80 hover:bg-white/95 transition-all duration-300 group/item">
+                        <span className="text-3xl group-hover/item:scale-125 transition-transform duration-300">{item.icon}</span>
+                        <span className={`text-lg font-bold bg-gradient-to-r ${item.color} bg-clip-text text-transparent`}>
+                          {item.text}
+                        </span>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-purple-500 to-pink-600 rounded-3xl p-8 text-white shadow-xl">
-                <div className="text-center">
-                  <h3 className="text-3xl font-bold mb-4">Ready to Experience Premium Service?</h3>
-                  <p className="text-xl mb-6 opacity-90">Contact us now for instant booking</p>
-                  <div className="flex flex-col sm:flex-row gap-4">
-                    <a href="tel:+919372662471" className="bg-white text-purple-600 px-6 py-3 rounded-xl font-bold hover:bg-gray-100 transition-colors duration-300 flex-1 text-center">
-                      📞 Call Now
+              {/* Premium CTA Card */}
+              <div className="bg-gradient-to-br from-pink-500/95 via-fuchsia-600/95 to-violet-600/95 rounded-4xl p-10 shadow-2xl border-3 border-white/30 text-center text-white hover:scale-105 hover:-translate-y-2 transition-all duration-500 cursor-pointer relative overflow-hidden">
+                <div className="absolute -top-6 -left-6 w-24 h-24 bg-white/20 rounded-full blur-xl"></div>
+                <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-white/10 rounded-full blur-xl"></div>
+                
+                <div className="relative z-10">
+                  <h3 className="text-4xl font-black mb-6">🚀 Ready for Premium Experience? 🚀</h3>
+                  <p className="text-xl font-bold mb-8 opacity-95">Contact us now for instant booking and premium companionship</p>
+                  <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                    <a href="tel:+919372662471" className="bg-white text-pink-600 px-10 py-5 rounded-full font-bold text-lg hover:bg-gray-100 transition-colors duration-300 shadow-lg hover:scale-105 transform">
+                      📞 Call Now: +91 9372662471
                     </a>
-                    <a href="https://wa.me/919372662471" className="bg-green-500 text-white px-6 py-3 rounded-xl font-bold hover:bg-green-600 transition-colors duration-300 flex-1 text-center">
-                      💬 WhatsApp
+                    <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-10 py-5 rounded-full font-bold text-lg hover:from-green-600 hover:to-emerald-600 transition-all duration-300 shadow-lg hover:scale-105 transform">
+                      💬 WhatsApp Now
                     </a>
                   </div>
                 </div>
