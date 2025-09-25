@@ -105,7 +105,8 @@ export default function IndoreEscortsPage() {
                   <p className="text-gray-600">Perfect companions for business events, parties, and social gatherings in Indore.</p>
                 </div>
                 
-                <div path="text-4xl mb-4">🛍️</div>
+                <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
+                  <div className="text-4xl mb-4">🛍️</div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Shopping Tours</h3>
                   <p className="text-gray-600">Personal shopping companions for visits to Treasure Island, C21 Mall, and local markets.</p>
                 </div>
