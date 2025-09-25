@@ -5,6 +5,11 @@ import { useState } from 'react'
 
 export default function AboutPage() {
   const [activeTab, setActiveTab] = useState('about')
+  const [openFaq, setOpenFaq] = useState<number | null>(null)
+
+  const toggleFaq = (index: number) => {
+    setOpenFaq(openFaq === index ? null : index)
+  }
 
   const stats = [
     { number: '1000+', label: 'Happy Clients', icon: '👥' },
@@ -110,6 +115,41 @@ export default function AboutPage() {
     }
   ]
 
+  const faqs = [
+    {
+      question: "What makes your escort service different from others in Indore?",
+      answer: "Our escorts are highly professional, verified, and trained in providing exceptional companion services. We ensure complete discretion, customer satisfaction, and only work with premium quality companions who undergo thorough background checks."
+    },
+    {
+      question: "How do you ensure the privacy and discretion of your clients?",
+      answer: "Client privacy is our top priority. All communications are confidential, we use secure booking systems, and our companions are bound by strict confidentiality agreements. Your personal information and interactions remain completely private."
+    },
+    {
+      question: "What areas of Indore do you serve?",
+      answer: "We provide our premium escort services across all major areas of Indore including Vijay Nagar, Palasia, AB Road, Saket, MG Road, Rajwada, Sarafa Bazaar, and 15+ other prime locations throughout the city."
+    },
+    {
+      question: "Are all your escorts verified and professional?",
+      answer: "Yes, absolutely. All our escorts go through a rigorous verification process including background checks, professional training, and continuous quality monitoring to ensure they meet our premium standards."
+    },
+    {
+      question: "What types of escort services do you offer?",
+      answer: "We offer various categories including Celebrity Escorts, College Girls, VIP Companions, Event Companions, Travel Partners, Dinner Dates, and more. Each service is tailored to meet specific client preferences and occasions."
+    },
+    {
+      question: "How can I book your escort services?",
+      answer: "You can book our services by calling us at +91 9372 662 471, WhatsApp, or through our contact form. We're available 24/7 for instant bookings and provide immediate confirmation."
+    },
+    {
+      question: "Do you provide both incall and outcall services?",
+      answer: "Yes, we provide both incall and outcall services. Our escorts can visit your hotel, home, or preferred location across Indore, or you can visit our discrete and comfortable locations."
+    },
+    {
+      question: "What are your rates and payment options?",
+      answer: "Our rates vary based on the type of service, duration, and companion category. Please contact us directly for detailed pricing information. We accept various payment methods and offer flexible packages."
+    }
+  ]
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-100/60 via-orange-50/40 to-pink-200/60">
       {/* Hero Section */}
@@ -136,19 +176,72 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-16 px-4 bg-gradient-to-r from-pink-200/50 to-orange-200/50">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+      {/* Enhanced Stats Section with Premium Styling */}
+      <section className="py-20 px-4 relative overflow-hidden">
+        {/* Background Effects */}
+        <div className="absolute inset-0 bg-gradient-to-br from-pink-300/80 via-orange-200/70 to-pink-400/80"></div>
+        <div className="absolute top-10 left-10 w-72 h-72 bg-gradient-to-br from-pink-400/30 to-orange-300/30 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute bottom-10 right-10 w-96 h-96 bg-gradient-to-br from-orange-400/25 to-pink-400/25 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
+        
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="text-center mb-16">
+            <h2 className="text-6xl font-black bg-gradient-to-r from-pink-700 via-orange-600 to-pink-700 bg-clip-text text-transparent mb-6">
+              Our Premium Service Statistics
+            </h2>
+            <p className="text-2xl text-gray-800 font-bold max-w-4xl mx-auto">
+              Trusted by thousands • Verified excellence • Available round the clock
+            </p>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
             {stats.map((stat, index) => (
-              <div key={index} className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 text-center shadow-xl border border-pink-200/50 hover:scale-105 transition-all duration-300">
-                <div className="text-4xl mb-4">{stat.icon}</div>
-                <div className="text-4xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-2">
+              <div key={index} className="group bg-gradient-to-br from-white/95 to-pink-50/90 backdrop-blur-lg rounded-3xl p-8 text-center shadow-2xl border-2 border-pink-200/60 hover:border-orange-300/80 transform hover:scale-110 hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-500/30">
+                {/* Icon with enhanced styling */}
+                <div className="text-6xl mb-6 transform group-hover:scale-125 group-hover:animate-bounce transition-all duration-300">
+                  {stat.icon}
+                </div>
+                
+                {/* Number with gradient and animation */}
+                <div className="text-5xl font-black mb-3 bg-gradient-to-br from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent transform group-hover:scale-110 transition-all duration-300">
                   {stat.number}
                 </div>
-                <div className="text-gray-700 font-semibold text-lg">{stat.label}</div>
+                
+                {/* Label with enhanced typography */}
+                <div className="text-gray-800 font-bold text-xl group-hover:text-pink-700 transition-colors duration-300">
+                  {stat.label}
+                </div>
+
+                {/* Decorative elements */}
+                <div className="absolute -top-2 -left-2 w-4 h-4 bg-gradient-to-br from-pink-400 to-orange-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute -top-2 -right-2 w-4 h-4 bg-gradient-to-br from-orange-400 to-pink-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute -bottom-2 -left-2 w-4 h-4 bg-gradient-to-br from-pink-500 to-orange-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="absolute -bottom-2 -right-2 w-4 h-4 bg-gradient-to-br from-orange-500 to-pink-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
             ))}
+          </div>
+
+          {/* Additional Trust Indicators */}
+          <div className="mt-16 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 text-center shadow-xl border border-pink-200/50 transform hover:scale-105 transition-all duration-300">
+              <div className="text-4xl mb-3">🛡️</div>
+              <h3 className="text-xl font-bold text-gray-800 mb-2">Safe & Secure</h3>
+              <p className="text-gray-600 font-medium">Complete safety protocols</p>
+            </div>
+            <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 text-center shadow-xl border border-orange-200/50 transform hover:scale-105 transition-all duration-300">
+              <div className="text-4xl mb-3">⚡</div>
+              <h3 className="text-xl font-bold text-gray-800 mb-2">Instant Response</h3>
+              <p className="text-gray-600 font-medium">Quick booking process</p>
+            </div>
+            <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 text-center shadow-xl border border-pink-200/50 transform hover:scale-105 transition-all duration-300">
+              <div className="text-4xl mb-3">💯</div>
+              <h3 className="text-xl font-bold text-gray-800 mb-2">Satisfaction Guaranteed</h3>
+              <p className="text-gray-600 font-medium">100% client happiness</p>
+            </div>
+            <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 text-center shadow-xl border border-orange-200/50 transform hover:scale-105 transition-all duration-300">
+              <div className="text-4xl mb-3">🎖️</div>
+              <h3 className="text-xl font-bold text-gray-800 mb-2">Premium Quality</h3>
+              <p className="text-gray-600 font-medium">Luxury service standards</p>
+            </div>
           </div>
         </div>
       </section>
@@ -346,6 +439,41 @@ export default function AboutPage() {
                 💬 WhatsApp Chat
               </a>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section id="faq" className="py-20 px-4 bg-gradient-to-br from-pink-200/60 via-orange-100/50 to-pink-200/60">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+              Frequently Asked Questions
+            </h2>
+            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+              Common questions about our premium escort services and professional companions
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {faqs.map((faq, index) => (
+              <div key={index} className="bg-gradient-to-br from-pink-100 to-pink-200 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-pink-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
+                <button
+                  onClick={() => toggleFaq(index)}
+                  className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-pink-200/80 hover:to-orange-100/80 transition-all duration-200 flex justify-between items-center group"
+                >
+                  <h3 className="text-xl font-bold text-pink-900 pr-4 group-hover:text-orange-700">{faq.question}</h3>
+                  <span className={`text-3xl transition-all duration-300 text-pink-700 ${openFaq === index ? 'rotate-180 scale-110' : ''}`}>
+                    ▼
+                  </span>
+                </button>
+                {openFaq === index && (
+                  <div className="px-8 pb-8 bg-gradient-to-r from-pink-50/90 to-orange-50/90">
+                    <p className="text-gray-700 leading-relaxed text-lg font-medium">{faq.answer}</p>
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       </section>
