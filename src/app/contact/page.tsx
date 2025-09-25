@@ -62,60 +62,85 @@ export default function ContactPage() {
       <div className="min-h-screen bg-gradient-to-br from-pink-200/60 via-orange-100/50 to-pink-300/60">
         
         {/* Hero Section */}
-        <section className="pt-32 pb-16 relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-pink-300/90 via-purple-200/80 to-orange-300/90"></div>
-          {/* Decorative Elements */}
-          <div className="absolute top-20 left-10 w-32 h-32 bg-gradient-to-br from-pink-400/30 to-purple-500/30 rounded-full blur-xl animate-pulse"></div>
-          <div className="absolute bottom-10 right-10 w-40 h-40 bg-gradient-to-br from-orange-400/30 to-pink-500/30 rounded-full blur-xl animate-pulse delay-1000"></div>
-          <div className="absolute top-1/2 left-1/4 w-24 h-24 bg-gradient-to-br from-purple-400/20 to-blue-500/20 rounded-full blur-lg animate-bounce"></div>
+        <section className="pt-32 pb-20 relative overflow-hidden">
+          <div className="absolute inset-0">
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 opacity-90"></div>
+            <div className="absolute inset-0 bg-gradient-to-br from-yellow-400/20 via-orange-400/30 to-red-500/20"></div>
+          </div>
           
-          <div className="w-full mx-auto text-center relative z-10 px-4">
-            <div className="inline-flex items-center justify-center w-24 h-24 bg-gradient-to-br from-pink-500 to-purple-600 rounded-full mb-8 shadow-2xl">
-              <span className="text-4xl text-white">📞</span>
+          {/* Animated Background Elements */}
+          <div className="absolute top-10 left-20 w-40 h-40 bg-gradient-to-br from-cyan-400/40 to-blue-500/30 rounded-full blur-2xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-16 w-56 h-56 bg-gradient-to-br from-pink-400/40 to-purple-500/30 rounded-full blur-2xl animate-pulse delay-700"></div>
+          <div className="absolute top-1/3 left-1/3 w-32 h-32 bg-gradient-to-br from-yellow-400/30 to-orange-500/20 rounded-full blur-xl animate-bounce"></div>
+          <div className="absolute bottom-1/4 left-1/4 w-28 h-28 bg-gradient-to-br from-green-400/30 to-teal-500/20 rounded-full blur-lg animate-bounce delay-1000"></div>
+          
+          <div className="container mx-auto text-center relative z-10 px-4">
+            {/* Icon Group */}
+            <div className="flex justify-center items-center gap-4 mb-8">
+              <div className="w-16 h-16 bg-gradient-to-br from-pink-500 to-red-500 rounded-full flex items-center justify-center shadow-2xl animate-bounce">
+                <span className="text-2xl text-white">📞</span>
+              </div>
+              <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center shadow-2xl">
+                <span className="text-3xl text-white">💎</span>
+              </div>
+              <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center shadow-2xl animate-bounce delay-500">
+                <span className="text-2xl text-white">✨</span>
+              </div>
             </div>
-            <h1 className="text-6xl md:text-8xl font-extrabold bg-gradient-to-r from-pink-600 via-purple-500 to-blue-600 bg-clip-text text-transparent mb-8 leading-tight">
-              Get In Touch
-            </h1>
-            <p className="text-2xl md:text-3xl text-gray-700 max-w-6xl mx-auto mb-10 font-medium leading-relaxed">
-              Ready to connect with premium companions? We're here 24/7 to make your experience unforgettable
-            </p>
             
-            {/* Quick Contact Stats */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto mb-10">
-              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-4 border border-white/30">
-                <div className="text-2xl font-bold text-pink-700">24/7</div>
-                <div className="text-sm text-gray-700 font-medium">Available</div>
+            <h1 className="text-7xl md:text-9xl font-black bg-gradient-to-r from-yellow-300 via-pink-300 to-cyan-300 bg-clip-text text-transparent mb-8 leading-tight">
+              Contact Us
+            </h1>
+            <div className="relative mb-8">
+              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                🌟 Premium Escort Services Available 24/7 🌟
+              </h2>
+              <p className="text-xl md:text-2xl text-pink-100 max-w-5xl mx-auto leading-relaxed font-medium">
+                Connect with Indore's finest companions instantly! Quick response, complete discretion, and unforgettable experiences await you.
+              </p>
+            </div>
+            
+            {/* Enhanced Stats Cards */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto mb-12">
+              <div className="bg-gradient-to-br from-pink-500/30 to-rose-600/30 backdrop-blur-lg rounded-3xl p-6 border-2 border-white/20 transform hover:scale-105 transition-all duration-300">
+                <div className="text-4xl mb-2">🕒</div>
+                <div className="text-3xl font-bold text-white">24/7</div>
+                <div className="text-lg text-pink-100 font-medium">Always Available</div>
               </div>
-              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-4 border border-white/30">
-                <div className="text-2xl font-bold text-purple-700">5 Min</div>
-                <div className="text-sm text-gray-700 font-medium">Response</div>
+              <div className="bg-gradient-to-br from-blue-500/30 to-cyan-600/30 backdrop-blur-lg rounded-3xl p-6 border-2 border-white/20 transform hover:scale-105 transition-all duration-300">
+                <div className="text-4xl mb-2">⚡</div>
+                <div className="text-3xl font-bold text-white">2 Min</div>
+                <div className="text-lg text-blue-100 font-medium">Quick Response</div>
               </div>
-              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-4 border border-white/30">
-                <div className="text-2xl font-bold text-blue-700">100%</div>
-                <div className="text-sm text-gray-700 font-medium">Discrete</div>
+              <div className="bg-gradient-to-br from-purple-500/30 to-violet-600/30 backdrop-blur-lg rounded-3xl p-6 border-2 border-white/20 transform hover:scale-105 transition-all duration-300">
+                <div className="text-4xl mb-2">🔒</div>
+                <div className="text-3xl font-bold text-white">100%</div>
+                <div className="text-lg text-purple-100 font-medium">Private & Secure</div>
               </div>
-              <div className="bg-white/20 backdrop-blur-md rounded-2xl p-4 border border-white/30">
-                <div className="text-2xl font-bold text-orange-700">12+</div>
-                <div className="text-sm text-gray-700 font-medium">Locations</div>
+              <div className="bg-gradient-to-br from-orange-500/30 to-red-600/30 backdrop-blur-lg rounded-3xl p-6 border-2 border-white/20 transform hover:scale-105 transition-all duration-300">
+                <div className="text-4xl mb-2">📍</div>
+                <div className="text-3xl font-bold text-white">12+</div>
+                <div className="text-lg text-orange-100 font-medium">Prime Locations</div>
               </div>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-6 justify-center">
+            {/* Enhanced Action Buttons */}
+            <div className="flex flex-col sm:flex-row gap-8 justify-center">
               <a 
                 href="tel:+919372662471" 
-                className="inline-flex items-center justify-center bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-12 py-6 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
+                className="group inline-flex items-center justify-center bg-gradient-to-r from-green-500 via-emerald-500 to-teal-500 hover:from-green-600 hover:via-emerald-600 hover:to-teal-600 text-white px-12 py-6 rounded-full font-bold text-2xl transition-all duration-500 transform hover:scale-110 hover:rotate-1 shadow-2xl hover:shadow-green-500/30"
               >
-                <span className="mr-3">📞</span>
+                <span className="mr-4 text-3xl animate-bounce">📞</span>
                 Call Now: +91 9372662471
-                <span className="ml-3 animate-pulse">🔥</span>
+                <span className="ml-4 text-2xl group-hover:animate-ping">🔥</span>
               </a>
               <a 
                 href="https://wa.me/919372662471" 
-                className="inline-flex items-center justify-center bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-12 py-6 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
+                className="group inline-flex items-center justify-center bg-gradient-to-r from-pink-500 via-rose-500 to-red-500 hover:from-pink-600 hover:via-rose-600 hover:to-red-600 text-white px-12 py-6 rounded-full font-bold text-2xl transition-all duration-500 transform hover:scale-110 hover:-rotate-1 shadow-2xl hover:shadow-pink-500/30"
               >
-                <span className="mr-3">💬</span>
+                <span className="mr-4 text-3xl animate-pulse">💬</span>
                 WhatsApp Now
-                <span className="ml-3 animate-bounce">⚡</span>
+                <span className="ml-4 text-2xl group-hover:animate-bounce">⚡</span>
               </a>
             </div>
           </div>
@@ -353,123 +378,169 @@ export default function ContactPage() {
         </section>
 
         {/* Contact Form Section */}
-        <section className="py-20 relative">
-          <div className="absolute inset-0 bg-gradient-to-r from-pink-600/20 via-purple-600/20 to-blue-600/20"></div>
-          <div className="w-full px-4 relative z-10">
-            <div className="max-w-4xl mx-auto">
+        <section className="py-20 relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-br from-purple-600/20 via-pink-600/30 to-orange-500/20"></div>
+          <div className="absolute top-20 left-20 w-48 h-48 bg-gradient-to-br from-cyan-400/30 to-blue-500/20 rounded-full blur-2xl animate-pulse"></div>
+          <div className="absolute bottom-20 right-20 w-56 h-56 bg-gradient-to-br from-pink-400/30 to-purple-500/20 rounded-full blur-2xl animate-pulse delay-1000"></div>
+          
+          <div className="container mx-auto px-4 relative z-10">
+            <div className="max-w-5xl mx-auto">
               <div className="text-center mb-16">
-                <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-pink-500 to-purple-600 rounded-full mb-8 shadow-2xl">
-                  <span className="text-3xl text-white">📝</span>
+                <div className="flex justify-center items-center gap-4 mb-8">
+                  <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center shadow-2xl animate-spin-slow">
+                    <span className="text-3xl text-white">📝</span>
+                  </div>
+                  <div className="w-20 h-20 bg-gradient-to-br from-pink-500 to-purple-600 rounded-full flex items-center justify-center shadow-2xl">
+                    <span className="text-4xl text-white">💎</span>
+                  </div>
+                  <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-500 rounded-full flex items-center justify-center shadow-2xl animate-spin-slow">
+                    <span className="text-3xl text-white">⚡</span>
+                  </div>
                 </div>
-                <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-purple-500 to-blue-600 bg-clip-text text-transparent mb-6">
-                  ⚡ Quick Booking Form
+                <h2 className="text-6xl md:text-7xl font-black bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-6">
+                  Quick Booking Form
                 </h2>
-                <p className="text-xl text-gray-700 leading-relaxed font-medium max-w-3xl mx-auto">
-                  Fill out the form below and we'll contact you immediately via WhatsApp for instant booking confirmation
+                <p className="text-2xl text-gray-700 leading-relaxed font-bold max-w-4xl mx-auto bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                  Fill out this colorful form and we'll contact you instantly via WhatsApp for immediate booking confirmation! 🌈
                 </p>
               </div>
 
-              <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl border border-pink-100/50 p-8 md:p-12">
-                <form onSubmit={handleSubmit} className="space-y-6">
+              <div className="bg-gradient-to-br from-white/95 via-purple-50/90 to-pink-50/95 backdrop-blur-lg rounded-3xl shadow-2xl border-4 border-gradient-to-r from-pink-300 to-purple-300 p-8 md:p-12">
+                <form onSubmit={handleSubmit} className="space-y-8">
                   
                   {/* Name and Phone */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-gray-700 font-bold text-lg mb-2">Full Name *</label>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div className="relative">
+                      <label className="block text-2xl font-black text-transparent bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text mb-3">
+                        🧑 Full Name *
+                      </label>
                       <input
                         type="text"
                         name="name"
                         value={formData.name}
                         onChange={handleChange}
                         required
-                        className="w-full px-6 py-4 border-2 border-pink-200 rounded-xl focus:border-pink-500 focus:outline-none text-lg font-medium"
+                        className="w-full px-8 py-6 border-4 border-blue-300 rounded-2xl focus:border-blue-500 focus:outline-none text-xl font-bold text-gray-700 bg-gradient-to-r from-blue-50 to-cyan-50 shadow-lg transform focus:scale-105 transition-all duration-300"
                         placeholder="Enter your full name"
                       />
+                      <div className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center">
+                        <span className="text-white text-sm">✨</span>
+                      </div>
                     </div>
-                    <div>
-                      <label className="block text-gray-700 font-bold text-lg mb-2">Phone Number *</label>
+                    <div className="relative">
+                      <label className="block text-2xl font-black text-transparent bg-gradient-to-r from-green-600 to-teal-600 bg-clip-text mb-3">
+                        📱 Phone Number *
+                      </label>
                       <input
                         type="tel"
                         name="phone"
                         value={formData.phone}
                         onChange={handleChange}
                         required
-                        className="w-full px-6 py-4 border-2 border-pink-200 rounded-xl focus:border-pink-500 focus:outline-none text-lg font-medium"
+                        className="w-full px-8 py-6 border-4 border-green-300 rounded-2xl focus:border-green-500 focus:outline-none text-xl font-bold text-gray-700 bg-gradient-to-r from-green-50 to-teal-50 shadow-lg transform focus:scale-105 transition-all duration-300"
                         placeholder="+91 XXXXX XXXXX"
                       />
+                      <div className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-br from-green-500 to-teal-500 rounded-full flex items-center justify-center">
+                        <span className="text-white text-sm">🔥</span>
+                      </div>
                     </div>
                   </div>
 
                   {/* Email */}
-                  <div>
-                    <label className="block text-gray-700 font-bold text-lg mb-2">Email Address</label>
+                  <div className="relative">
+                    <label className="block text-2xl font-black text-transparent bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text mb-3">
+                      ✉️ Email Address
+                    </label>
                     <input
                       type="email"
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full px-6 py-4 border-2 border-pink-200 rounded-xl focus:border-pink-500 focus:outline-none text-lg font-medium"
+                      className="w-full px-8 py-6 border-4 border-purple-300 rounded-2xl focus:border-purple-500 focus:outline-none text-xl font-bold text-gray-700 bg-gradient-to-r from-purple-50 to-pink-50 shadow-lg transform focus:scale-105 transition-all duration-300"
                       placeholder="your.email@example.com"
                     />
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center">
+                      <span className="text-white text-sm">💎</span>
+                    </div>
                   </div>
 
                   {/* Service and Location */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                      <label className="block text-gray-700 font-bold text-lg mb-2">Preferred Service *</label>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div className="relative">
+                      <label className="block text-2xl font-black text-transparent bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text mb-3">
+                        🌟 Preferred Service *
+                      </label>
                       <select
                         name="service"
                         value={formData.service}
                         onChange={handleChange}
                         required
-                        className="w-full px-6 py-4 border-2 border-pink-200 rounded-xl focus:border-pink-500 focus:outline-none text-lg font-medium"
+                        className="w-full px-8 py-6 border-4 border-orange-300 rounded-2xl focus:border-orange-500 focus:outline-none text-xl font-bold text-gray-700 bg-gradient-to-r from-orange-50 to-red-50 shadow-lg transform focus:scale-105 transition-all duration-300"
                       >
-                        <option value="">Select a service</option>
+                        <option value="">🎭 Select a service</option>
                         {services.map((service) => (
                           <option key={service} value={service}>{service}</option>
                         ))}
                       </select>
+                      <div className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-br from-orange-500 to-red-500 rounded-full flex items-center justify-center">
+                        <span className="text-white text-sm">⚡</span>
+                      </div>
                     </div>
-                    <div>
-                      <label className="block text-gray-700 font-bold text-lg mb-2">Location *</label>
+                    <div className="relative">
+                      <label className="block text-2xl font-black text-transparent bg-gradient-to-r from-pink-600 to-rose-600 bg-clip-text mb-3">
+                        📍 Location *
+                      </label>
                       <select
                         name="location"
                         value={formData.location}
                         onChange={handleChange}
                         required
-                        className="w-full px-6 py-4 border-2 border-pink-200 rounded-xl focus:border-pink-500 focus:outline-none text-lg font-medium"
+                        className="w-full px-8 py-6 border-4 border-pink-300 rounded-2xl focus:border-pink-500 focus:outline-none text-xl font-bold text-gray-700 bg-gradient-to-r from-pink-50 to-rose-50 shadow-lg transform focus:scale-105 transition-all duration-300"
                       >
-                        <option value="">Select location</option>
+                        <option value="">🏙️ Select location</option>
                         {locations.map((location) => (
                           <option key={location} value={location}>{location}</option>
                         ))}
                       </select>
+                      <div className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-br from-pink-500 to-rose-500 rounded-full flex items-center justify-center">
+                        <span className="text-white text-sm">🌟</span>
+                      </div>
                     </div>
                   </div>
 
                   {/* Message */}
-                  <div>
-                    <label className="block text-gray-700 font-bold text-lg mb-2">Additional Message</label>
+                  <div className="relative">
+                    <label className="block text-2xl font-black text-transparent bg-gradient-to-r from-cyan-600 to-blue-600 bg-clip-text mb-3">
+                      💭 Additional Message
+                    </label>
                     <textarea
                       name="message"
                       value={formData.message}
                       onChange={handleChange}
                       rows={4}
-                      className="w-full px-6 py-4 border-2 border-pink-200 rounded-xl focus:border-pink-500 focus:outline-none text-lg font-medium resize-vertical"
+                      className="w-full px-8 py-6 border-4 border-cyan-300 rounded-2xl focus:border-cyan-500 focus:outline-none text-xl font-bold text-gray-700 bg-gradient-to-r from-cyan-50 to-blue-50 shadow-lg transform focus:scale-105 transition-all duration-300 resize-vertical"
                       placeholder="Any specific requirements or questions..."
                     />
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-full flex items-center justify-center">
+                      <span className="text-white text-sm">💫</span>
+                    </div>
                   </div>
 
                   {/* Submit Button */}
-                  <div className="text-center">
+                  <div className="text-center pt-8">
                     <button
                       type="submit"
-                      className="bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-16 py-6 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
+                      className="group bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 hover:from-purple-700 hover:via-pink-700 hover:to-red-700 text-white px-20 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 hover:rotate-2 shadow-2xl hover:shadow-purple-500/50 relative overflow-hidden"
                     >
-                      📱 Send via WhatsApp
+                      <span className="relative z-10 flex items-center justify-center">
+                        <span className="mr-4 text-3xl animate-bounce">📱</span>
+                        Send via WhatsApp
+                        <span className="ml-4 text-3xl group-hover:animate-ping">🚀</span>
+                      </span>
+                      <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 opacity-0 group-hover:opacity-30 transition-opacity duration-500"></div>
                     </button>
-                    <p className="text-gray-500 mt-4 text-sm">
-                      * This form will open WhatsApp with your message pre-filled
+                    <p className="text-gray-600 mt-6 text-lg font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                      ✨ This form will open WhatsApp with your message pre-filled ✨
                     </p>
                   </div>
 
@@ -480,28 +551,175 @@ export default function ContactPage() {
         </section>
 
         {/* Service Areas Section */}
-        <section className="py-20 bg-gradient-to-br from-purple-200/70 via-pink-100/60 to-orange-200/70">
-          <div className="w-full px-4">
+        <section className="py-20 relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 via-purple-600/25 to-pink-600/20"></div>
+          <div className="absolute top-10 left-10 w-40 h-40 bg-gradient-to-br from-yellow-400/30 to-orange-500/20 rounded-full blur-2xl animate-pulse"></div>
+          <div className="absolute bottom-10 right-10 w-48 h-48 bg-gradient-to-br from-green-400/30 to-teal-500/20 rounded-full blur-2xl animate-pulse delay-700"></div>
+          
+          <div className="container mx-auto px-4 relative z-10">
             <div className="text-center mb-16">
-              <h2 className="text-5xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-orange-600 bg-clip-text text-transparent mb-6">
+              <div className="flex justify-center items-center gap-4 mb-8">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center shadow-2xl animate-bounce">
+                  <span className="text-3xl text-white">🏙️</span>
+                </div>
+                <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-600 rounded-full flex items-center justify-center shadow-2xl">
+                  <span className="text-4xl text-white">📍</span>
+                </div>
+                <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-500 rounded-full flex items-center justify-center shadow-2xl animate-bounce delay-500">
+                  <span className="text-3xl text-white">🌟</span>
+                </div>
+              </div>
+              <h2 className="text-6xl md:text-7xl font-black bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-8">
                 Service Areas in Indore
               </h2>
-              <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                We provide premium escort services across all major areas in Indore
+              <p className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent max-w-4xl mx-auto leading-relaxed">
+                🌈 We provide premium escort services across all major areas in Indore with colorful excellence! 🌈
               </p>
             </div>
 
-            <div className="max-w-6xl mx-auto">
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                {locations.map((location) => (
-                  <div 
-                    key={location}
-                    className="bg-white/95 backdrop-blur-md rounded-2xl shadow-lg border border-purple-100/50 p-6 text-center transform hover:-translate-y-2 transition-all duration-300"
-                  >
-                    <div className="text-3xl mb-3">📍</div>
-                    <h3 className="text-lg font-bold text-purple-600">{location}</h3>
+            <div className="max-w-7xl mx-auto">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                
+                {/* Location Cards with Different Colors */}
+                <div className="group bg-gradient-to-br from-blue-400/90 to-cyan-500/90 backdrop-blur-lg rounded-3xl shadow-2xl border-4 border-blue-300/50 p-8 text-center transform hover:-translate-y-6 hover:rotate-3 transition-all duration-500">
+                  <div className="text-5xl mb-4 animate-bounce">🏢</div>
+                  <h3 className="text-2xl font-black text-white mb-2">Vijay Nagar</h3>
+                  <p className="text-blue-100 font-bold">Premium Business District</p>
+                  <div className="mt-4 w-full h-2 bg-white/30 rounded-full">
+                    <div className="w-full h-2 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full animate-pulse"></div>
                   </div>
-                ))}
+                </div>
+
+                <div className="group bg-gradient-to-br from-purple-400/90 to-pink-500/90 backdrop-blur-lg rounded-3xl shadow-2xl border-4 border-purple-300/50 p-8 text-center transform hover:-translate-y-6 hover:rotate-3 transition-all duration-500">
+                  <div className="text-5xl mb-4 animate-bounce delay-100">🛣️</div>
+                  <h3 className="text-2xl font-black text-white mb-2">MG Road</h3>
+                  <p className="text-purple-100 font-bold">Main Commercial Hub</p>
+                  <div className="mt-4 w-full h-2 bg-white/30 rounded-full">
+                    <div className="w-4/5 h-2 bg-gradient-to-r from-green-400 to-teal-500 rounded-full animate-pulse delay-200"></div>
+                  </div>
+                </div>
+
+                <div className="group bg-gradient-to-br from-green-400/90 to-teal-500/90 backdrop-blur-lg rounded-3xl shadow-2xl border-4 border-green-300/50 p-8 text-center transform hover:-translate-y-6 hover:rotate-3 transition-all duration-500">
+                  <div className="text-5xl mb-4 animate-bounce delay-200">🏛️</div>
+                  <h3 className="text-2xl font-black text-white mb-2">Palasia</h3>
+                  <p className="text-green-100 font-bold">Shopping Paradise</p>
+                  <div className="mt-4 w-full h-2 bg-white/30 rounded-full">
+                    <div className="w-full h-2 bg-gradient-to-r from-pink-400 to-red-500 rounded-full animate-pulse delay-300"></div>
+                  </div>
+                </div>
+
+                <div className="group bg-gradient-to-br from-orange-400/90 to-red-500/90 backdrop-blur-lg rounded-3xl shadow-2xl border-4 border-orange-300/50 p-8 text-center transform hover:-translate-y-6 hover:rotate-3 transition-all duration-500">
+                  <div className="text-5xl mb-4 animate-bounce delay-300">🌟</div>
+                  <h3 className="text-2xl font-black text-white mb-2">New Palasia</h3>
+                  <p className="text-orange-100 font-bold">Modern Living Area</p>
+                  <div className="mt-4 w-full h-2 bg-white/30 rounded-full">
+                    <div className="w-5/6 h-2 bg-gradient-to-r from-blue-400 to-purple-500 rounded-full animate-pulse delay-400"></div>
+                  </div>
+                </div>
+
+                <div className="group bg-gradient-to-br from-pink-400/90 to-rose-500/90 backdrop-blur-lg rounded-3xl shadow-2xl border-4 border-pink-300/50 p-8 text-center transform hover:-translate-y-6 hover:rotate-3 transition-all duration-500">
+                  <div className="text-5xl mb-4 animate-bounce delay-400">🛤️</div>
+                  <h3 className="text-2xl font-black text-white mb-2">AB Road</h3>
+                  <p className="text-pink-100 font-bold">Highway Connect</p>
+                  <div className="mt-4 w-full h-2 bg-white/30 rounded-full">
+                    <div className="w-full h-2 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full animate-pulse delay-500"></div>
+                  </div>
+                </div>
+
+                <div className="group bg-gradient-to-br from-cyan-400/90 to-blue-500/90 backdrop-blur-lg rounded-3xl shadow-2xl border-4 border-cyan-300/50 p-8 text-center transform hover:-translate-y-6 hover:rotate-3 transition-all duration-500">
+                  <div className="text-5xl mb-4 animate-bounce delay-500">🌈</div>
+                  <h3 className="text-2xl font-black text-white mb-2">Sapna Sangeeta Road</h3>
+                  <p className="text-cyan-100 font-bold">Entertainment Zone</p>
+                  <div className="mt-4 w-full h-2 bg-white/30 rounded-full">
+                    <div className="w-4/5 h-2 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full animate-pulse delay-600"></div>
+                  </div>
+                </div>
+
+                <div className="group bg-gradient-to-br from-yellow-400/90 to-orange-500/90 backdrop-blur-lg rounded-3xl shadow-2xl border-4 border-yellow-300/50 p-8 text-center transform hover:-translate-y-6 hover:rotate-3 transition-all duration-500">
+                  <div className="text-5xl mb-4 animate-bounce delay-600">🏘️</div>
+                  <h3 className="text-2xl font-black text-white mb-2">Scheme 78</h3>
+                  <p className="text-yellow-100 font-bold">Residential Elite</p>
+                  <div className="mt-4 w-full h-2 bg-white/30 rounded-full">
+                    <div className="w-full h-2 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full animate-pulse delay-700"></div>
+                  </div>
+                </div>
+
+                <div className="group bg-gradient-to-br from-indigo-400/90 to-purple-500/90 backdrop-blur-lg rounded-3xl shadow-2xl border-4 border-indigo-300/50 p-8 text-center transform hover:-translate-y-6 hover:rotate-3 transition-all duration-500">
+                  <div className="text-5xl mb-4 animate-bounce delay-700">🏡</div>
+                  <h3 className="text-2xl font-black text-white mb-2">Scheme 94</h3>
+                  <p className="text-indigo-100 font-bold">Premium Society</p>
+                  <div className="mt-4 w-full h-2 bg-white/30 rounded-full">
+                    <div className="w-5/6 h-2 bg-gradient-to-r from-green-400 to-teal-500 rounded-full animate-pulse delay-800"></div>
+                  </div>
+                </div>
+
+                <div className="group bg-gradient-to-br from-teal-400/90 to-green-500/90 backdrop-blur-lg rounded-3xl shadow-2xl border-4 border-teal-300/50 p-8 text-center transform hover:-translate-y-6 hover:rotate-3 transition-all duration-500">
+                  <div className="text-5xl mb-4 animate-bounce delay-800">⭐</div>
+                  <h3 className="text-2xl font-black text-white mb-2">Bhawar Kuan</h3>
+                  <p className="text-teal-100 font-bold">Central Location</p>
+                  <div className="mt-4 w-full h-2 bg-white/30 rounded-full">
+                    <div className="w-full h-2 bg-gradient-to-r from-orange-400 to-red-500 rounded-full animate-pulse delay-900"></div>
+                  </div>
+                </div>
+
+                <div className="group bg-gradient-to-br from-rose-400/90 to-pink-500/90 backdrop-blur-lg rounded-3xl shadow-2xl border-4 border-rose-300/50 p-8 text-center transform hover:-translate-y-6 hover:rotate-3 transition-all duration-500">
+                  <div className="text-5xl mb-4 animate-bounce delay-900">�</div>
+                  <h3 className="text-2xl font-black text-white mb-2">Rajwada</h3>
+                  <p className="text-rose-100 font-bold">Historic Royal Area</p>
+                  <div className="mt-4 w-full h-2 bg-white/30 rounded-full">
+                    <div className="w-4/5 h-2 bg-gradient-to-r from-blue-400 to-cyan-500 rounded-full animate-pulse delay-1000"></div>
+                  </div>
+                </div>
+
+                <div className="group bg-gradient-to-br from-amber-400/90 to-yellow-500/90 backdrop-blur-lg rounded-3xl shadow-2xl border-4 border-amber-300/50 p-8 text-center transform hover:-translate-y-6 hover:rotate-3 transition-all duration-500">
+                  <div className="text-5xl mb-4 animate-bounce delay-1000">🛒</div>
+                  <h3 className="text-2xl font-black text-white mb-2">Sarafa Bazaar</h3>
+                  <p className="text-amber-100 font-bold">Famous Food Street</p>
+                  <div className="mt-4 w-full h-2 bg-white/30 rounded-full">
+                    <div className="w-full h-2 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full animate-pulse delay-1100"></div>
+                  </div>
+                </div>
+
+                <div className="group bg-gradient-to-br from-violet-400/90 to-purple-500/90 backdrop-blur-lg rounded-3xl shadow-2xl border-4 border-violet-300/50 p-8 text-center transform hover:-translate-y-6 hover:rotate-3 transition-all duration-500">
+                  <div className="text-5xl mb-4 animate-bounce delay-1100">🌆</div>
+                  <h3 className="text-2xl font-black text-white mb-2">Other Areas</h3>
+                  <p className="text-violet-100 font-bold">All Indore Locations</p>
+                  <div className="mt-4 w-full h-2 bg-white/30 rounded-full">
+                    <div className="w-full h-2 bg-gradient-to-r from-green-400 to-blue-500 rounded-full animate-pulse delay-1200"></div>
+                  </div>
+                </div>
+
+              </div>
+
+              {/* Call to Action */}
+              <div className="mt-16 text-center">
+                <div className="bg-gradient-to-r from-purple-600 via-pink-600 to-orange-600 rounded-3xl p-8 shadow-2xl border-4 border-white/20">
+                  <h3 className="text-4xl font-black text-white mb-4">
+                    🎯 Need Service at Any Location? 🎯
+                  </h3>
+                  <p className="text-2xl text-white/90 mb-8 font-bold">
+                    Call us now and we'll arrange your preferred companion at any area in Indore within 30 minutes! 
+                  </p>
+                  
+                  <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                    <a 
+                      href="tel:+919372662471" 
+                      className="group inline-flex items-center justify-center bg-gradient-to-r from-green-500 to-teal-500 hover:from-green-600 hover:to-teal-600 text-white px-12 py-6 rounded-full font-black text-xl transition-all duration-500 transform hover:scale-110 hover:rotate-2 shadow-2xl hover:shadow-green-500/50"
+                    >
+                      <span className="mr-4 text-3xl animate-bounce">📞</span>
+                      Call Now: +91 9372662471
+                      <span className="ml-4 text-2xl group-hover:animate-ping">🚀</span>
+                    </a>
+                    <a 
+                      href="https://wa.me/919372662471?text=I need escort service at specific location in Indore" 
+                      className="group inline-flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white px-12 py-6 rounded-full font-black text-xl transition-all duration-500 transform hover:scale-110 hover:-rotate-2 shadow-2xl hover:shadow-blue-500/50"
+                    >
+                      <span className="mr-4 text-3xl animate-pulse">💬</span>
+                      WhatsApp Location
+                      <span className="ml-4 text-2xl group-hover:animate-bounce">⚡</span>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
