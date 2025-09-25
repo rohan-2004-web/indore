@@ -341,6 +341,72 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Why Choose Our Escorts Section */}
+        <section className="py-20 relative overflow-hidden">
+          <div className="absolute inset-0 bg-gradient-to-br from-pink-300/80 via-orange-200/70 to-pink-400/80"></div>
+          <div className="absolute inset-0 bg-gradient-to-t from-pink-200/50 to-orange-100/40"></div>
+          
+          {/* Decorative Elements */}
+          <div className="absolute -top-10 -right-10 w-32 h-32 bg-gradient-to-br from-pink-400/30 to-orange-400/30 rounded-full blur-2xl"></div>
+          <div className="absolute -bottom-10 -left-10 w-32 h-32 bg-gradient-to-br from-orange-400/30 to-pink-400/30 rounded-full blur-2xl"></div>
+          
+          <div className="w-full px-4 relative z-10">
+            <div className="max-w-6xl mx-auto">
+              <div className="text-center mb-12">
+                <h2 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-pink-700 via-orange-600 to-pink-800 bg-clip-text text-transparent mb-6 leading-tight">
+                  Why Choose Our Escorts In Indore
+                </h2>
+                <div className="w-24 h-1 bg-gradient-to-r from-pink-500 to-orange-500 mx-auto rounded-full mb-8"></div>
+              </div>
+              
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                {/* First Content Card */}
+                <div className="bg-gradient-to-br from-pink-50/95 to-orange-50/95 backdrop-blur-md rounded-3xl p-8 shadow-2xl border-2 border-pink-200/50 hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
+                  <div className="flex items-center mb-6">
+                    <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-pink-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mr-4 shadow-lg">
+                      ✨
+                    </div>
+                    <h3 className="text-2xl font-bold text-pink-800">Professional Excellence</h3>
+                  </div>
+                  <p className="text-lg text-gray-700 leading-relaxed font-medium">
+                    All our <span className="text-pink-600 font-bold">Pink Bra escorts in Indore</span> are excellent professionals. They are highly professional and will always meet you with enthusiasm. Their dedication to providing the best services makes them stand out, ensuring that your time with them is worthwhile. They go the extra mile to make sure you enjoy their companionship.
+                  </p>
+                </div>
+
+                {/* Second Content Card */}
+                <div className="bg-gradient-to-br from-orange-50/95 to-pink-50/95 backdrop-blur-md rounded-3xl p-8 shadow-2xl border-2 border-orange-200/50 hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
+                  <div className="flex items-center mb-6">
+                    <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-orange-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mr-4 shadow-lg">
+                      💎
+                    </div>
+                    <h3 className="text-2xl font-bold text-orange-800">Understanding & Excellence</h3>
+                  </div>
+                  <p className="text-lg text-gray-700 leading-relaxed font-medium">
+                    Our <span className="text-orange-600 font-bold">independent escorts in Indore</span> understand what gentlemen expect from them. This is why they are always successful in providing the services you desire. Their presence will make a significant difference in your life, bringing excitement and thrill. These <span className="text-pink-600 font-bold">top-ranking escorts in Indore</span> are all you need to add excitement to your life.
+                  </p>
+                </div>
+              </div>
+              
+              {/* Call to Action */}
+              <div className="text-center mt-12">
+                <div className="bg-gradient-to-r from-pink-600/20 to-orange-600/20 backdrop-blur-sm rounded-2xl p-6 inline-block shadow-xl border border-pink-300/50">
+                  <p className="text-xl font-bold text-gray-800 mb-4">
+                    🌟 Experience Premium Companionship in Indore 🌟
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/services" className="bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                      📞 Book Now
+                    </a>
+                    <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                      💬 WhatsApp
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Contact & Location Quick Access */}
         <section className="py-16 bg-gradient-to-r from-pink-100/60 to-orange-100/60">
           <div className="w-full px-4">
