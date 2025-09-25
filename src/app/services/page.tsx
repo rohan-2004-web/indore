@@ -192,7 +192,7 @@ export default function ServicesPage() {
                     {/* Action Buttons */}
                     <div className="space-y-3">
                       <a 
-                        href={/services/} 
+                        href="/contact" 
                         className="block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-6 py-3 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
                       >
                         View Details
