@@ -1,8 +1,15 @@
 'use client';
 
+import { useState } from 'react';
 import Header from '@/components/Header';
 
 export default function ServicesPage() {
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
+
+  const toggleFaq = (index: number) => {
+    setOpenFaq(openFaq === index ? null : index);
+  };
+
   return (
     <>
       <Header />
@@ -360,6 +367,180 @@ export default function ServicesPage() {
                     </a>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-20 bg-gradient-to-br from-pink-100/60 via-orange-50/50 to-pink-200/60">
+          <div className="w-full px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+                Frequently Asked Questions
+              </h2>
+              <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                Get answers to common questions about our premium escort services in Indore
+              </p>
+            </div>
+
+            <div className="max-w-6xl mx-auto space-y-6">
+              {/* FAQ 1 */}
+              <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl border border-pink-200/50 overflow-hidden">
+                <button 
+                  onClick={() => toggleFaq(1)} 
+                  className="w-full p-8 text-left hover:bg-pink-50/50 transition-colors duration-300 flex items-center justify-between"
+                >
+                  <span className="text-2xl font-bold text-gray-800 pr-4">
+                    How can I book premium escort services in Indore?
+                  </span>
+                  <span className="text-3xl text-pink-600 font-bold flex-shrink-0">
+                    {openFaq === 1 ? '−' : '+'}
+                  </span>
+                </button>
+                {openFaq === 1 && (
+                  <div className="px-8 pb-8">
+                    <div className="bg-gradient-to-r from-pink-50 to-orange-50 p-6 rounded-2xl">
+                      <p className="text-lg text-gray-700 leading-relaxed">
+                        Booking is simple and discreet. You can call us directly at +91 9372662471, send a WhatsApp message, or email us. Our booking team is available 24/7 to assist you with selecting the perfect companion based on your preferences and requirements.
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* FAQ 2 */}
+              <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl border border-orange-200/50 overflow-hidden">
+                <button 
+                  onClick={() => toggleFaq(2)} 
+                  className="w-full p-8 text-left hover:bg-orange-50/50 transition-colors duration-300 flex items-center justify-between"
+                >
+                  <span className="text-2xl font-bold text-gray-800 pr-4">
+                    Are all your escorts verified and professional?
+                  </span>
+                  <span className="text-3xl text-orange-600 font-bold flex-shrink-0">
+                    {openFaq === 2 ? '−' : '+'}
+                  </span>
+                </button>
+                {openFaq === 2 && (
+                  <div className="px-8 pb-8">
+                    <div className="bg-gradient-to-r from-orange-50 to-pink-50 p-6 rounded-2xl">
+                      <p className="text-lg text-gray-700 leading-relaxed">
+                        Yes, absolutely! All our escorts are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards of elegance, sophistication, and discretion. Every companion is genuine and committed to providing exceptional service.
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* FAQ 3 */}
+              <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl border border-purple-200/50 overflow-hidden">
+                <button 
+                  onClick={() => toggleFaq(3)} 
+                  className="w-full p-8 text-left hover:bg-purple-50/50 transition-colors duration-300 flex items-center justify-between"
+                >
+                  <span className="text-2xl font-bold text-gray-800 pr-4">
+                    What areas in Indore do you provide services?
+                  </span>
+                  <span className="text-3xl text-purple-600 font-bold flex-shrink-0">
+                    {openFaq === 3 ? '−' : '+'}
+                  </span>
+                </button>
+                {openFaq === 3 && (
+                  <div className="px-8 pb-8">
+                    <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-6 rounded-2xl">
+                      <p className="text-lg text-gray-700 leading-relaxed">
+                        We cover all major areas of Indore including Vijay Nagar, AB Road, Saket, Scheme 78, Palasia, Bhawar Kuan, Rau, Ring Road, New Palasia, Rajwada, Airport Road, and Treasure Island. Our escorts are available for both incall and outcall services across the city.
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* FAQ 4 */}
+              <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl border border-blue-200/50 overflow-hidden">
+                <button 
+                  onClick={() => toggleFaq(4)} 
+                  className="w-full p-8 text-left hover:bg-blue-50/50 transition-colors duration-300 flex items-center justify-between"
+                >
+                  <span className="text-2xl font-bold text-gray-800 pr-4">
+                    Is privacy and discretion guaranteed?
+                  </span>
+                  <span className="text-3xl text-blue-600 font-bold flex-shrink-0">
+                    {openFaq === 4 ? '−' : '+'}
+                  </span>
+                </button>
+                {openFaq === 4 && (
+                  <div className="px-8 pb-8">
+                    <div className="bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-2xl">
+                      <p className="text-lg text-gray-700 leading-relaxed">
+                        Privacy and discretion are our top priorities. All client information is kept strictly confidential. Our escorts are trained to maintain complete discretion, and we use secure communication channels. Your personal details and meeting arrangements are never shared or disclosed.
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* FAQ 5 */}
+              <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl border border-green-200/50 overflow-hidden">
+                <button 
+                  onClick={() => toggleFaq(5)} 
+                  className="w-full p-8 text-left hover:bg-green-50/50 transition-colors duration-300 flex items-center justify-between"
+                >
+                  <span className="text-2xl font-bold text-gray-800 pr-4">
+                    What are your service rates and payment methods?
+                  </span>
+                  <span className="text-3xl text-green-600 font-bold flex-shrink-0">
+                    {openFaq === 5 ? '−' : '+'}
+                  </span>
+                </button>
+                {openFaq === 5 && (
+                  <div className="px-8 pb-8">
+                    <div className="bg-gradient-to-r from-green-50 to-blue-50 p-6 rounded-2xl">
+                      <p className="text-lg text-gray-700 leading-relaxed">
+                        Our rates vary based on the type of companion, duration, and services required. We offer competitive pricing for all categories from college girls to VIP escorts. Payment can be made via cash, digital transfers, or other secure methods. Contact us for detailed pricing information.
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* FAQ 6 */}
+              <div className="bg-white/80 backdrop-blur-lg rounded-3xl shadow-2xl border border-red-200/50 overflow-hidden">
+                <button 
+                  onClick={() => toggleFaq(6)} 
+                  className="w-full p-8 text-left hover:bg-red-50/50 transition-colors duration-300 flex items-center justify-between"
+                >
+                  <span className="text-2xl font-bold text-gray-800 pr-4">
+                    Do you offer same-day booking services?
+                  </span>
+                  <span className="text-3xl text-red-600 font-bold flex-shrink-0">
+                    {openFaq === 6 ? '−' : '+'}
+                  </span>
+                </button>
+                {openFaq === 6 && (
+                  <div className="px-8 pb-8">
+                    <div className="bg-gradient-to-r from-red-50 to-pink-50 p-6 rounded-2xl">
+                      <p className="text-lg text-gray-700 leading-relaxed">
+                        Yes, we offer same-day bookings subject to availability. Our team works efficiently to accommodate last-minute requests. For guaranteed availability, we recommend booking at least 2-3 hours in advance. Emergency bookings are also possible with additional charges.
+                      </p>
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+
+            <div className="text-center mt-16">
+              <p className="text-xl text-gray-600 mb-8">
+                Still have questions? Contact us directly for personalized assistance
+              </p>
+              <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                  📞 Call +91 9372662471
+                </a>
+                <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                  💬 WhatsApp Chat
+                </a>
               </div>
             </div>
           </div>
