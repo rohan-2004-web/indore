@@ -430,40 +430,40 @@ export default function Home() {
                 </div>
 
                 {/* Row 6 - Additional Services to make total 20 */}
-                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-purple-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
-                  <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/Unsatisfied Bhabhi.webp" alt="Travel Companion" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
-                  </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Travel Companion</h3>
-                  <p className="text-gray-600 mb-4 text-base flex-grow">Perfect travel partners for business trips and vacations</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-purple-500 to-purple-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Travel Girls</a>
-                </div>
-
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-cyan-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/Unsatisfied Females.webp" alt="High Profile" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
+                    <img src="/images/services/Expert Services.webp" alt="Expert Services" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">High Profile</h3>
-                  <p className="text-gray-600 mb-4 text-base flex-grow">Elite high-profile companions for exclusive events</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-cyan-500 to-cyan-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Elite Girls</a>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">Expert Services</h3>
+                  <p className="text-gray-600 mb-4 text-base flex-grow">Expert companions with specialized skills and professional experience</p>
+                  <a href="/services" className="inline-block bg-gradient-to-r from-cyan-500 to-cyan-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Expert Girls</a>
                 </div>
 
-                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-fuchsia-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-purple-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/Expert Services.webp" alt="Corporate Service" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
+                    <img src="/images/services/High Class Models.webp" alt="High Class Models" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Corporate Service</h3>
-                  <p className="text-gray-600 mb-4 text-base flex-grow">Professional companions for corporate events and meetings</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-fuchsia-500 to-fuchsia-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Corporate Girls</a>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">High Class Models</h3>
+                  <p className="text-gray-600 mb-4 text-base flex-grow">Stunning high-class models with runway experience</p>
+                  <a href="/services" className="inline-block bg-gradient-to-r from-purple-500 to-purple-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Model Girls</a>
                 </div>
 
-                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-lime-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-red-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                    <img src="/images/services/Local Beauties.webp" alt="24/7 Service" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
+                    <img src="/images/services/bold girls.webp" alt="Bold Girls" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">24/7 Service</h3>
-                  <p className="text-gray-600 mb-4 text-base flex-grow">Round-the-clock escort services available anytime</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-lime-500 to-lime-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Anytime</a>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">Bold Girls</h3>
+                  <p className="text-gray-600 mb-4 text-base flex-grow">Bold and confident companions ready for exciting adventures</p>
+                  <a href="/services" className="inline-block bg-gradient-to-r from-red-500 to-red-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Bold Girls</a>
+                </div>
+
+                <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src="/images/services/sexy girls.webp" alt="Sexy Girls" className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">Sexy Girls</h3>
+                  <p className="text-gray-600 mb-4 text-base flex-grow">Incredibly attractive companions with mesmerizing charm</p>
+                  <a href="/services" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Sexy Girls</a>
                 </div>
 
               </div>
