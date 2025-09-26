@@ -200,6 +200,16 @@ export default function LocationsPage() {
                 </div>
               </a>
 
+              {/* Vijay Nagar */}
+              <a href="/locations/vijay-nagar" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30">
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🏛️</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">Vijay Nagar</h3>
+                <p className="text-gray-600 mb-4">Premium commercial area with luxury amenities and hotels</p>
+                <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                  Book in Vijay Nagar
+                </div>
+              </a>
+
             </div>
 
             <div className="text-center mt-16">
