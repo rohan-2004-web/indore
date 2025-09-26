@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import Header from '@/components/Header'
 
-export default function CelebrityEscortsPage() {
+export default function LocalBeautiesPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
 
   const toggleFaq = (index: number) => {
@@ -64,16 +64,16 @@ export default function CelebrityEscortsPage() {
           <div className="w-full mx-auto text-center relative z-10 px-4">
             {/* Premium Badge */}
             <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
-              <span className="text-3xl">🌟</span>
-              <span className="text-pink-800 font-bold text-lg">Premium Celebrity Escorts in Indore</span>
-              <span className="text-3xl">💎</span>
+              <span className="text-3xl">�</span>
+              <span className="text-pink-800 font-bold text-lg">Premium Local Beauties in Indore</span>
+              <span className="text-3xl">🏙️</span>
             </div>
 
             <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
-              Celebrity Escorts
+              Local Beauties
               <br />
               <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
-                Star Quality Service
+                Know Indore Best
               </span>
             </h1>
 
@@ -142,7 +142,7 @@ export default function CelebrityEscortsPage() {
                 {/* Celebrity Photo */}
                 <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-pink-100/50">
                   <div className="w-full h-[500px] rounded-2xl overflow-hidden shadow-xl mb-8">
-                    <img src="/images/services/Celebrity Escorts.webp" alt="Celebrity Escorts in Indore" className="w-full h-full object-cover object-top" />
+                    <img src="/images/services/Local Beauties.webp" alt="Local Beauties in Indore" className="w-full h-full object-cover object-top" />
                   </div>
                   <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-4 text-center">
                     🌟 Premium Celebrity Companions

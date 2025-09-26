@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import Link from 'next/link'
 import Header from '@/components/Header'
 
-export default function CelebrityEscortsPage() {
+export default function UnsatisfiedBhabhiPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
 
   const toggleFaq = (index: number) => {
@@ -64,25 +64,25 @@ export default function CelebrityEscortsPage() {
           <div className="w-full mx-auto text-center relative z-10 px-4">
             {/* Premium Badge */}
             <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
-              <span className="text-3xl">🌟</span>
-              <span className="text-pink-800 font-bold text-lg">Premium Celebrity Escorts in Indore</span>
-              <span className="text-3xl">💎</span>
+              <span className="text-3xl">💋</span>
+              <span className="text-pink-800 font-bold text-lg">Premium Unsatisfied Bhabhi in Indore</span>
+              <span className="text-3xl">🌹</span>
             </div>
 
             <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
-              Celebrity Escorts
+              Unsatisfied Bhabhi
               <br />
               <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
-                Star Quality Service
+                Experienced Companions
               </span>
             </h1>
 
             <div className="max-w-5xl mx-auto mb-12">
               <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
-                Premium Celebrity Companions with Model-Like Beauty & Sophistication
+                Premium Unsatisfied Bhabhi with Mature Experience & Seeking Excitement
               </p>
               <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
-                High-profile events • Business functions • Private parties • VIP treatment • 24/7 luxury companionship across Indore
+                Mature companions • Experienced service • Private meetings • Discrete relationships • 24/7 companionship across Indore
               </p>
             </div>
 
@@ -107,19 +107,19 @@ export default function CelebrityEscortsPage() {
             {/* Premium Features */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3">🌟</div>
-                <h3 className="text-lg font-bold text-gray-800 mb-2">Celebrity Quality</h3>
-                <p className="text-gray-700 font-medium">Model-like beauty with star-quality sophistication</p>
+                <div className="text-4xl mb-3">💋</div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Mature Experience</h3>
+                <p className="text-gray-700 font-medium">Experienced companions seeking new excitement</p>
               </div>
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3">🎭</div>
-                <h3 className="text-lg font-bold text-gray-800 mb-2">High-Profile Events</h3>
-                <p className="text-gray-700 font-medium">Perfect companions for exclusive parties and VIP gatherings</p>
+                <div className="text-4xl mb-3">�</div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Intimate Connections</h3>
+                <p className="text-gray-700 font-medium">Perfect for meaningful private encounters</p>
               </div>
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
                 <div className="text-4xl mb-3">🔒</div>
-                <h3 className="text-lg font-bold text-gray-800 mb-2">Ultimate Discretion</h3>
-                <p className="text-gray-700 font-medium">Complete privacy guaranteed for celebrity-level service</p>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Complete Discretion</h3>
+                <p className="text-gray-700 font-medium">Absolute privacy for mature relationships</p>
               </div>
             </div>
           </div>
@@ -130,10 +130,10 @@ export default function CelebrityEscortsPage() {
           <div className="w-full px-4">
             <div className="text-center mb-16">
               <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Why Choose Celebrity Escorts in Indore?
+                Why Choose Unsatisfied Bhabhi in Indore?
               </h2>
               <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-                Experience star-quality companionship with our premium celebrity escorts offering sophisticated service
+                Experience mature companionship with experienced bhabhis seeking excitement and meaningful connections
               </p>
             </div>
 
@@ -142,10 +142,10 @@ export default function CelebrityEscortsPage() {
                 {/* Celebrity Photo */}
                 <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-pink-100/50">
                   <div className="w-full h-[500px] rounded-2xl overflow-hidden shadow-xl mb-8">
-                    <img src="/images/services/Celebrity Escorts.webp" alt="Celebrity Escorts in Indore" className="w-full h-full object-cover object-top" />
+                    <img src="/images/services/Unsatisfied Bhabhi.webp" alt="Unsatisfied Bhabhi in Indore" className="w-full h-full object-cover object-top" />
                   </div>
                   <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-4 text-center">
-                    🌟 Premium Celebrity Companions
+                    💋 Premium Bhabhi Companions
                   </h3>
                   <p className="text-gray-700 text-lg text-center font-medium">
                     Model-like beauty, sophisticated personalities, and star-quality service for discerning clients seeking the ultimate luxury experience in Indore.
