@@ -16,7 +16,7 @@ export default function ABRoadPage() {
       subtitle: "Star Quality Service",
       description: "Experience celebrity-level companions in AB Road with exceptional elegance",
       image: "/images/services/Celebrity Escorts.webp",
-      icon: "",
+      icon: "⭐",
       category: "CELEBRITY",
       link: "/services/celebrity-escorts"
     },
@@ -25,7 +25,7 @@ export default function ABRoadPage() {
       subtitle: "Ultimate Luxury",
       description: "Our most exclusive VIP escorts in AB Road offering ultimate luxury",
       image: "/images/services/VIP Escorts.jpg",
-      icon: "",
+      icon: "💫",
       category: "VIP",
       link: "/services/vip-escorts"
     },
@@ -34,7 +34,7 @@ export default function ABRoadPage() {
       subtitle: "High-End Sophistication",
       description: "Premium models in AB Road with unmatched sophistication",
       image: "/images/services/Premium Models.jpg",
-      icon: "",
+      icon: "💎",
       category: "PREMIUM",
       link: "/services/premium-models"
     },
@@ -43,7 +43,7 @@ export default function ABRoadPage() {
       subtitle: "Fresh & Young",
       description: "Beautiful young companions in AB Road with vibrant energy",
       image: "/images/services/College Girls.webp",
-      icon: "",
+      icon: "🌟",
       category: "YOUNG",
       link: "/services/college-girls"
     },
@@ -52,7 +52,7 @@ export default function ABRoadPage() {
       subtitle: "Mature Experience",
       description: "Experienced mature companions in AB Road with caring nature",
       image: "/images/services/Housewife Escorts.jpg",
-      icon: "",
+      icon: "👑",
       category: "MATURE",
       link: "/services/housewife-escorts"
     },
@@ -61,7 +61,7 @@ export default function ABRoadPage() {
       subtitle: "Traditional Beauty",
       description: "Authentic Punjabi companions in AB Road with traditional charm",
       image: "/images/services/Punjabi women.webp",
-      icon: "",
+      icon: "🌺",
       category: "TRADITIONAL",
       link: "/services"
     },
@@ -70,7 +70,7 @@ export default function ABRoadPage() {
       subtitle: "Perfect Figure",
       description: "Elegant slim companions in AB Road with perfect figures",
       image: "/images/services/Slim Escorts.webp",
-      icon: "",
+      icon: "💃",
       category: "SLIM",
       link: "/services"
     },
@@ -79,7 +79,7 @@ export default function ABRoadPage() {
       subtitle: "Seeking Excitement",
       description: "Experienced companions in AB Road seeking excitement and connection",
       image: "/images/services/Unsatisfied Bhabhi.webp",
-      icon: "",
+      icon: "🔥",
       category: "BHABHI",
       link: "/services"
     },
@@ -88,7 +88,7 @@ export default function ABRoadPage() {
       subtitle: "Know Indore Best",
       description: "Beautiful local companions in AB Road who know the city inside out",
       image: "/images/services/Local Beauties.webp",
-      icon: "",
+      icon: "🏙️",
       category: "LOCAL",
       link: "/services"
     },
@@ -97,7 +97,7 @@ export default function ABRoadPage() {
       subtitle: "Perfect Plus One",
       description: "Professional companions in AB Road for business events and parties",
       image: "/images/services/Event Companion.webp",
-      icon: "",
+      icon: "🎭",
       category: "PROFESSIONAL",
       link: "/services"
     },
@@ -106,7 +106,7 @@ export default function ABRoadPage() {
       subtitle: "Exclusive Experience",
       description: "Special premium companions in AB Road for exclusive experiences",
       image: "/images/services/Pink Special.webp",
-      icon: "",
+      icon: "💖",
       category: "SPECIAL",
       link: "/services"
     },
@@ -115,7 +115,7 @@ export default function ABRoadPage() {
       subtitle: "Meaningful Connections",
       description: "Mature women in AB Road seeking meaningful connections",
       image: "/images/services/Unsatisfied Females.webp",
-      icon: "",
+      icon: "💕",
       category: "FEMALE",
       link: "/services"
     },
@@ -124,7 +124,7 @@ export default function ABRoadPage() {
       subtitle: "Luxury Locations",
       description: "Premium incall services in AB Road at luxury locations",
       image: "/images/services/Incall Escorts.webp",
-      icon: "",
+      icon: "🏨",
       category: "INCALL",
       link: "/services"
     },
@@ -133,7 +133,7 @@ export default function ABRoadPage() {
       subtitle: "Experienced Sophistication",
       description: "Experienced mature companions in AB Road with sophistication",
       image: "/images/services/Mature Escorts.webp",
-      icon: "",
+      icon: "🍷",
       category: "MATURE",
       link: "/services"
     },
@@ -142,7 +142,7 @@ export default function ABRoadPage() {
       subtitle: "Unforgettable Experiences",
       description: "Young beautiful companions in AB Road for unforgettable experiences",
       image: "/images/services/Young Girls.webp",
-      icon: "",
+      icon: "✨",
       category: "YOUNG",
       link: "/services"
     },
@@ -151,7 +151,7 @@ export default function ABRoadPage() {
       subtitle: "Local Expertise",
       description: "Premium local escorts in AB Road with deep knowledge of Indore",
       image: "/images/services/indore escorts.webp",
-      icon: "",
+      icon: "🏛️",
       category: "LOCAL",
       link: "/services"
     },
@@ -160,7 +160,7 @@ export default function ABRoadPage() {
       subtitle: "Professional Expertise",
       description: "Expert companions in AB Road with specialized skills",
       image: "/images/services/Expert Services.webp",
-      icon: "",
+      icon: "🎯",
       category: "EXPERT",
       link: "/services"
     },
@@ -169,7 +169,7 @@ export default function ABRoadPage() {
       subtitle: "Elite Fashion Models",
       description: "Stunning high-class models in AB Road with runway experience",
       image: "/images/services/High Class Models.webp",
-      icon: "",
+      icon: "👗",
       category: "MODEL",
       link: "/services"
     },
@@ -178,7 +178,7 @@ export default function ABRoadPage() {
       subtitle: "Confident & Adventurous",
       description: "Bold and confident companions in AB Road ready for adventures",
       image: "/images/services/bold girls.webp",
-      icon: "",
+      icon: "🔥",
       category: "BOLD",
       link: "/services"
     },
@@ -187,7 +187,7 @@ export default function ABRoadPage() {
       subtitle: "Mesmerizing Charm",
       description: "Incredibly attractive companions in AB Road with mesmerizing charm",
       image: "/images/services/sexy girls.webp",
-      icon: "",
+      icon: "💋",
       category: "SEXY",
       link: "/services"
     }
@@ -254,7 +254,7 @@ export default function ABRoadPage() {
             <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
               Escorts in AB Road
               <br />
-              <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
+                            <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
                 Commercial Hub
               </span>
             </h1>

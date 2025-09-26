@@ -16,7 +16,7 @@ export default function Scheme78Page() {
       subtitle: "Star Quality Service",
       description: "Experience celebrity-level companions in Scheme 78 with exceptional elegance",
       image: "/images/services/Celebrity Escorts.webp",
-      icon: "",
+      icon: "⭐",
       category: "CELEBRITY",
       link: "/services/celebrity-escorts"
     },
@@ -25,7 +25,7 @@ export default function Scheme78Page() {
       subtitle: "Ultimate Luxury",
       description: "Our most exclusive VIP escorts in Scheme 78 offering ultimate luxury",
       image: "/images/services/VIP Escorts.jpg",
-      icon: "",
+      icon: "💫",
       category: "VIP",
       link: "/services/vip-escorts"
     },
@@ -34,7 +34,7 @@ export default function Scheme78Page() {
       subtitle: "High-End Sophistication",
       description: "Premium models in Scheme 78 with unmatched sophistication",
       image: "/images/services/Premium Models.jpg",
-      icon: "",
+      icon: "💎",
       category: "PREMIUM",
       link: "/services/premium-models"
     },
@@ -43,7 +43,7 @@ export default function Scheme78Page() {
       subtitle: "Fresh & Young",
       description: "Beautiful young companions in Scheme 78 with vibrant energy",
       image: "/images/services/College Girls.webp",
-      icon: "",
+      icon: "🌟",
       category: "YOUNG",
       link: "/services/college-girls"
     },
@@ -52,7 +52,7 @@ export default function Scheme78Page() {
       subtitle: "Mature Experience",
       description: "Experienced mature companions in Scheme 78 with caring nature",
       image: "/images/services/Housewife Escorts.jpg",
-      icon: "",
+      icon: "👑",
       category: "MATURE",
       link: "/services/housewife-escorts"
     },
@@ -61,7 +61,7 @@ export default function Scheme78Page() {
       subtitle: "Traditional Beauty",
       description: "Authentic Punjabi companions in Scheme 78 with traditional charm",
       image: "/images/services/Punjabi women.webp",
-      icon: "",
+      icon: "🌺",
       category: "TRADITIONAL",
       link: "/services"
     },
@@ -70,7 +70,7 @@ export default function Scheme78Page() {
       subtitle: "Perfect Figure",
       description: "Elegant slim companions in Scheme 78 with perfect figures",
       image: "/images/services/Slim Escorts.webp",
-      icon: "",
+      icon: "💃",
       category: "SLIM",
       link: "/services"
     },
@@ -79,7 +79,7 @@ export default function Scheme78Page() {
       subtitle: "Seeking Excitement",
       description: "Experienced companions in Scheme 78 seeking excitement and connection",
       image: "/images/services/Unsatisfied Bhabhi.webp",
-      icon: "",
+      icon: "🔥",
       category: "BHABHI",
       link: "/services"
     },
@@ -88,7 +88,7 @@ export default function Scheme78Page() {
       subtitle: "Know Indore Best",
       description: "Beautiful local companions in Scheme 78 who know the city inside out",
       image: "/images/services/Local Beauties.webp",
-      icon: "",
+      icon: "🏙️",
       category: "LOCAL",
       link: "/services"
     },
@@ -97,7 +97,7 @@ export default function Scheme78Page() {
       subtitle: "Perfect Plus One",
       description: "Professional companions in Scheme 78 for business events and parties",
       image: "/images/services/Event Companion.webp",
-      icon: "",
+      icon: "🎭",
       category: "PROFESSIONAL",
       link: "/services"
     },
@@ -106,7 +106,7 @@ export default function Scheme78Page() {
       subtitle: "Exclusive Experience",
       description: "Special premium companions in Scheme 78 for exclusive experiences",
       image: "/images/services/Pink Special.webp",
-      icon: "",
+      icon: "💖",
       category: "SPECIAL",
       link: "/services"
     },
@@ -115,7 +115,7 @@ export default function Scheme78Page() {
       subtitle: "Meaningful Connections",
       description: "Mature women in Scheme 78 seeking meaningful connections",
       image: "/images/services/Unsatisfied Females.webp",
-      icon: "",
+      icon: "💕",
       category: "FEMALE",
       link: "/services"
     },
@@ -124,7 +124,7 @@ export default function Scheme78Page() {
       subtitle: "Luxury Locations",
       description: "Premium incall services in Scheme 78 at luxury locations",
       image: "/images/services/Incall Escorts.webp",
-      icon: "",
+      icon: "🏨",
       category: "INCALL",
       link: "/services"
     },
@@ -133,7 +133,7 @@ export default function Scheme78Page() {
       subtitle: "Experienced Sophistication",
       description: "Experienced mature companions in Scheme 78 with sophistication",
       image: "/images/services/Mature Escorts.webp",
-      icon: "",
+      icon: "🍷",
       category: "MATURE",
       link: "/services"
     },
@@ -142,7 +142,7 @@ export default function Scheme78Page() {
       subtitle: "Unforgettable Experiences",
       description: "Young beautiful companions in Scheme 78 for unforgettable experiences",
       image: "/images/services/Young Girls.webp",
-      icon: "",
+      icon: "✨",
       category: "YOUNG",
       link: "/services"
     },
@@ -151,7 +151,7 @@ export default function Scheme78Page() {
       subtitle: "Local Expertise",
       description: "Premium local escorts in Scheme 78 with deep knowledge of Indore",
       image: "/images/services/indore escorts.webp",
-      icon: "",
+      icon: "🏛️",
       category: "LOCAL",
       link: "/services"
     },
@@ -160,7 +160,7 @@ export default function Scheme78Page() {
       subtitle: "Professional Expertise",
       description: "Expert companions in Scheme 78 with specialized skills",
       image: "/images/services/Expert Services.webp",
-      icon: "",
+      icon: "🎯",
       category: "EXPERT",
       link: "/services"
     },
@@ -169,7 +169,7 @@ export default function Scheme78Page() {
       subtitle: "Elite Fashion Models",
       description: "Stunning high-class models in Scheme 78 with runway experience",
       image: "/images/services/High Class Models.webp",
-      icon: "",
+      icon: "👗",
       category: "MODEL",
       link: "/services"
     },
@@ -178,7 +178,7 @@ export default function Scheme78Page() {
       subtitle: "Confident & Adventurous",
       description: "Bold and confident companions in Scheme 78 ready for adventures",
       image: "/images/services/bold girls.webp",
-      icon: "",
+      icon: "🔥",
       category: "BOLD",
       link: "/services"
     },
@@ -187,7 +187,7 @@ export default function Scheme78Page() {
       subtitle: "Mesmerizing Charm",
       description: "Incredibly attractive companions in Scheme 78 with mesmerizing charm",
       image: "/images/services/sexy girls.webp",
-      icon: "",
+      icon: "💋",
       category: "SEXY",
       link: "/services"
     }
