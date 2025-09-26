@@ -218,7 +218,7 @@ export default function PinkSpecialPage() {
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
                     <div className="text-4xl mb-4">🎭</div>
                     <h3 className="text-xl font-bold text-gray-800 mb-3">Private Celebrations</h3>
-                    <p className="text-gray-600">Exclusive celebrity escorts for private parties, intimate gatherings, and special milestone celebrations.</p>
+                    <p className="text-gray-600">Unique pink special companions for private parties, intimate gatherings, and special celebrations.</p>
                   </div>
                   
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">

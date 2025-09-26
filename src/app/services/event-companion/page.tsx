@@ -64,16 +64,16 @@ export default function EventCompanionPage() {
           <div className="w-full mx-auto text-center relative z-10 px-4">
             {/* Premium Badge */}
             <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
+              <span className="text-3xl">�</span>
+              <span className="text-pink-800 font-bold text-lg">Premium Event Companions in Indore</span>
               <span className="text-3xl">🌟</span>
-              <span className="text-pink-800 font-bold text-lg">Premium Celebrity Escorts in Indore</span>
-              <span className="text-3xl">💎</span>
             </div>
 
             <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
-              Celebrity Escorts
+              Event Companion
               <br />
               <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
-                Star Quality Service
+                Perfect for Events
               </span>
             </h1>
 
@@ -130,10 +130,10 @@ export default function EventCompanionPage() {
           <div className="w-full px-4">
             <div className="text-center mb-16">
               <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Why Choose Celebrity Escorts in Indore?
+                Why Choose Event Companions in Indore?
               </h2>
               <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-                Experience star-quality companionship with our premium celebrity escorts offering sophisticated service
+                Perfect companions for all your special events, parties, and social gatherings with charm and elegance
               </p>
             </div>
 
@@ -200,7 +200,7 @@ export default function EventCompanionPage() {
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
                     <div className="text-4xl mb-4">🏢</div>
                     <h3 className="text-xl font-bold text-gray-800 mb-3">Corporate Functions</h3>
-                    <p className="text-gray-600">Sophisticated celebrity escorts for business meetings, corporate events, and professional networking functions.</p>
+                    <p className="text-gray-600">Professional event companions for business meetings, corporate events, and networking functions.</p>
                   </div>
                   
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
@@ -212,13 +212,13 @@ export default function EventCompanionPage() {
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
                     <div className="text-4xl mb-4">✈️</div>
                     <h3 className="text-xl font-bold text-gray-800 mb-3">Travel Companions</h3>
-                    <p className="text-gray-600">Premium celebrity escorts for business trips, vacations, and luxury travel experiences with complete sophistication.</p>
+                    <p className="text-gray-600">Elegant event companions for business trips, conferences, and travel events with professional service.</p>
                   </div>
                   
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
                     <div className="text-4xl mb-4">🎭</div>
                     <h3 className="text-xl font-bold text-gray-800 mb-3">Private Celebrations</h3>
-                    <p className="text-gray-600">Exclusive celebrity escorts for private parties, intimate gatherings, and special milestone celebrations.</p>
+                    <p className="text-gray-600">Perfect event companions for private parties, celebrations, and special milestone events.</p>
                   </div>
                   
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
@@ -237,7 +237,7 @@ export default function EventCompanionPage() {
           <div className="w-full px-4">
             <div className="text-center mb-16">
               <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Frequently Asked Questions - Celebrity Escorts
+                Frequently Asked Questions - Event Companions
               </h2>
               <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
                 Get answers to common questions about celebrity escort services in Indore

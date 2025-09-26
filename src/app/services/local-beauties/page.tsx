@@ -130,10 +130,10 @@ export default function LocalBeautiesPage() {
           <div className="w-full px-4">
             <div className="text-center mb-16">
               <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Why Choose Celebrity Escorts in Indore?
+                Why Choose Local Beauties in Indore?
               </h2>
               <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-                Experience star-quality companionship with our premium celebrity escorts offering sophisticated service
+                Experience genuine local companionship with beautiful Indore girls who know the city intimately
               </p>
             </div>
 
@@ -200,7 +200,7 @@ export default function LocalBeautiesPage() {
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
                     <div className="text-4xl mb-4">🏢</div>
                     <h3 className="text-xl font-bold text-gray-800 mb-3">Corporate Functions</h3>
-                    <p className="text-gray-600">Sophisticated celebrity escorts for business meetings, corporate events, and professional networking functions.</p>
+                    <p className="text-gray-600">Beautiful local beauties for business meetings, corporate events, and professional networking functions.</p>
                   </div>
                   
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
@@ -212,13 +212,13 @@ export default function LocalBeautiesPage() {
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
                     <div className="text-4xl mb-4">✈️</div>
                     <h3 className="text-xl font-bold text-gray-800 mb-3">Travel Companions</h3>
-                    <p className="text-gray-600">Premium celebrity escorts for business trips, vacations, and luxury travel experiences with complete sophistication.</p>
+                    <p className="text-gray-600">Charming local beauties for business trips, vacations, and travel experiences with authentic Indore connections.</p>
                   </div>
                   
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
                     <div className="text-4xl mb-4">🎭</div>
                     <h3 className="text-xl font-bold text-gray-800 mb-3">Private Celebrations</h3>
-                    <p className="text-gray-600">Exclusive celebrity escorts for private parties, intimate gatherings, and special milestone celebrations.</p>
+                    <p className="text-gray-600">Attractive local beauties for private parties, intimate gatherings, and special celebrations with local charm.</p>
                   </div>
                   
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
@@ -237,7 +237,7 @@ export default function LocalBeautiesPage() {
           <div className="w-full px-4">
             <div className="text-center mb-16">
               <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Frequently Asked Questions - Celebrity Escorts
+                Frequently Asked Questions - Local Beauties
               </h2>
               <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
                 Get answers to common questions about celebrity escort services in Indore

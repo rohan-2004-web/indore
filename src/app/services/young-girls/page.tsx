@@ -64,16 +64,16 @@ export default function YoungGirlsPage() {
           <div className="w-full mx-auto text-center relative z-10 px-4">
             {/* Premium Badge */}
             <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
-              <span className="text-3xl">🌟</span>
-              <span className="text-pink-800 font-bold text-lg">Premium Celebrity Escorts in Indore</span>
-              <span className="text-3xl">💎</span>
+              <span className="text-3xl">�</span>
+              <span className="text-pink-800 font-bold text-lg">Premium Young Girls in Indore</span>
+              <span className="text-3xl">�</span>
             </div>
 
             <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
-              Celebrity Escorts
+              Young Girls
               <br />
               <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
-                Star Quality Service
+                Fresh & Energetic
               </span>
             </h1>
 
@@ -130,10 +130,10 @@ export default function YoungGirlsPage() {
           <div className="w-full px-4">
             <div className="text-center mb-16">
               <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Why Choose Celebrity Escorts in Indore?
+                Why Choose Young Girls in Indore?
               </h2>
               <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-                Experience star-quality companionship with our premium celebrity escorts offering sophisticated service
+                Enjoy youthful energy and fresh companionship with our young, vibrant escorts in Indore
               </p>
             </div>
 
@@ -237,7 +237,7 @@ export default function YoungGirlsPage() {
           <div className="w-full px-4">
             <div className="text-center mb-16">
               <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Frequently Asked Questions - Celebrity Escorts
+                Frequently Asked Questions - Young Girls
               </h2>
               <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
                 Get answers to common questions about celebrity escort services in Indore
