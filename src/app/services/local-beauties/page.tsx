@@ -130,10 +130,10 @@ export default function LocalBeautiesPage() {
           <div className="w-full px-4">
             <div className="text-center mb-16">
               <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Why Choose Local Beauties in Indore?
+                Why Choose Celebrity Escorts in Indore?
               </h2>
               <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-                Experience genuine local companionship with beautiful Indore girls who know the city intimately
+                Experience star-quality companionship with our premium celebrity escorts offering sophisticated service
               </p>
             </div>
 
@@ -200,7 +200,7 @@ export default function LocalBeautiesPage() {
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
                     <div className="text-4xl mb-4">🏢</div>
                     <h3 className="text-xl font-bold text-gray-800 mb-3">Corporate Functions</h3>
-                    <p className="text-gray-600">Beautiful local beauties for business meetings, corporate events, and professional networking functions.</p>
+                    <p className="text-gray-600">Sophisticated celebrity escorts for business meetings, corporate events, and professional networking functions.</p>
                   </div>
                   
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
@@ -212,13 +212,13 @@ export default function LocalBeautiesPage() {
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
                     <div className="text-4xl mb-4">✈️</div>
                     <h3 className="text-xl font-bold text-gray-800 mb-3">Travel Companions</h3>
-                    <p className="text-gray-600">Charming local beauties for business trips, vacations, and travel experiences with authentic Indore connections.</p>
+                    <p className="text-gray-600">Premium celebrity escorts for business trips, vacations, and luxury travel experiences with complete sophistication.</p>
                   </div>
                   
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
                     <div className="text-4xl mb-4">🎭</div>
                     <h3 className="text-xl font-bold text-gray-800 mb-3">Private Celebrations</h3>
-                    <p className="text-gray-600">Attractive local beauties for private parties, intimate gatherings, and special celebrations with local charm.</p>
+                    <p className="text-gray-600">Exclusive celebrity escorts for private parties, intimate gatherings, and special milestone celebrations.</p>
                   </div>
                   
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
@@ -237,7 +237,7 @@ export default function LocalBeautiesPage() {
           <div className="w-full px-4">
             <div className="text-center mb-16">
               <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Frequently Asked Questions - Local Beauties
+                Frequently Asked Questions - Celebrity Escorts
               </h2>
               <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
                 Get answers to common questions about celebrity escort services in Indore
@@ -287,6 +287,101 @@ export default function LocalBeautiesPage() {
             </div>
           </div>
         </section>
+
+        {/* Footer */}
+        <footer className="bg-gradient-to-br from-pink-600/95 via-purple-700/90 to-orange-600/95 text-white py-20 relative">
+          {/* Decorative Background Elements */}
+          <div className="absolute inset-0 overflow-hidden">
+            <div className="absolute -top-16 -right-16 w-64 h-64 bg-gradient-to-br from-pink-400/20 to-orange-400/20 rounded-full blur-2xl"></div>
+            <div className="absolute -bottom-16 -left-16 w-64 h-64 bg-gradient-to-br from-orange-400/20 to-purple-400/20 rounded-full blur-2xl"></div>
+          </div>
+          <div className="w-full px-4 relative z-10">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+              
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-yellow-300 to-pink-300 bg-clip-text text-transparent">
+                  ✨ Indore Premium Escort Service
+                </h3>
+                <p className="text-pink-100 mb-6 leading-relaxed font-semibold text-lg">
+                  Premium escort services in Indore with verified professional companions. Available 24/7 across all major locations.
+                </p>
+                <div className="flex flex-col gap-4">
+                  <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
+                    📞 Call Now
+                  </a>
+                  <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-green-600 to-lime-600 hover:from-green-700 hover:to-lime-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
+                    💬 WhatsApp
+                  </a>
+                </div>
+              </div>
+              
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent">🌟 Our Services</h3>
+                <div className="space-y-3">
+                  <a href="/services/celebrity-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">💎 Celebrity Escorts</a>
+                  <a href="/services/college-girls" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🎓 College Girls</a>
+                  <a href="/services/high-class-models" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">✨ Premium Models</a>
+                  <a href="/services/local-beauties" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🏠 Local Beauties</a>
+                  <a href="/services/unsatisfied-bhabhi" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">👸 Unsatisfied Bhabhi</a>
+                  <a href="/services/mature-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🌹 Mature Escorts</a>
+                </div>
+              </div>
+              
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-orange-300 to-red-300 bg-clip-text text-transparent">🔗 Quick Links</h3>
+                <div className="space-y-3">
+                  <a href="/services" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">📋 All Services</a>
+                  <a href="/services" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">📍 Service Areas</a>
+                  <a href="#faq" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">❓ FAQ</a>
+                  <a href="tel:+919372662471" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">📞 Contact Us</a>
+                  <a href="/" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">ℹ️ About Us</a>
+                </div>
+              </div>
+              
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">📞 Contact Information</h3>
+                <div className="space-y-4">
+                  <div className="flex items-center space-x-3 p-3">
+                    <span className="text-2xl">📞</span>
+                    <a href="tel:+919372662471" className="text-yellow-200 hover:text-yellow-100 font-bold text-lg">+91 9372 662 471</a>
+                  </div>
+                  <div className="flex items-center space-x-3 p-3">
+                    <span className="text-2xl">💬</span>
+                    <a href="https://wa.me/919372662471" className="text-green-200 hover:text-green-100 font-bold text-lg">WhatsApp Available</a>
+                  </div>
+                  <div className="flex items-center space-x-3 p-3">
+                    <span className="text-2xl">✉️</span>
+                    <a href="mailto:contact@indoreescortservice.com" className="text-purple-200 hover:text-purple-100 font-bold text-lg">Email Us</a>
+                  </div>
+                  <div className="flex items-center space-x-3 p-3">
+                    <span className="text-2xl">📍</span>
+                    <span className="text-pink-200 font-bold text-lg">All Indore Areas</span>
+                  </div>
+                  <div className="flex items-center space-x-3 p-3">
+                    <span className="text-2xl">🕒</span>
+                    <span className="text-orange-200 font-bold text-lg">24/7 Available</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Footer Bottom */}
+            <div className="border-t-2 border-pink-400/40 mt-16 pt-10 text-center">
+              <p className="text-yellow-200 mb-6 font-bold text-xl leading-relaxed">
+                © 2024 Indore Premium Escort Service. All rights reserved. 🏆
+              </p>
+              <div className="flex flex-wrap justify-center gap-6 mb-6">
+                <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full font-bold">✅ 24/7 Available</span>
+                <span className="bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-6 py-3 rounded-full font-bold">✅ 100% Verified</span>
+                <span className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-3 rounded-full font-bold">✅ Complete Discretion</span>
+                <span className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-6 py-3 rounded-full font-bold">✅ Premium Quality</span>
+              </div>
+              <p className="text-pink-200 font-semibold text-lg">
+                🔞 Professional escort services for adults only. Must be 18+ to use our services. 🔞
+              </p>
+            </div>
+          </div>
+        </footer>
       </div>
     </>
   )
