@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { useState } from 'react'
 import Header from '@/components/Header'
@@ -31,7 +31,7 @@ export default function Scheme78Page() {
     },
     {
       title: "Premium Models",
-      subtitle: "High-End Sophistication",
+      subtitle: "High-End Sophistication", 
       description: "Premium models in Scheme 78 with unmatched sophistication",
       image: "/images/services/Premium Models.jpg",
       icon: "💎",
@@ -200,15 +200,15 @@ export default function Scheme78Page() {
     },
     {
       question: "Are your Scheme 78 escorts verified and professional?",
-      answer: "Yes, absolutely! All our escorts in Scheme 78 are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards of elegance and sophistication while serving clients in the developed Scheme 78 area."
+      answer: "Yes, absolutely! All our escorts in Scheme 78 are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards of elegance and sophistication while serving clients in the Scheme 78 residential hub."
     },
     {
-      question: "What makes Scheme 78 ideal for escort services in Indore?",
-      answer: "Scheme 78 is one of Indore's well-planned residential and commercial areas with modern infrastructure, shopping complexes, restaurants, and hotels. It offers excellent connectivity and upscale venues making it perfect for premium escort services."
+      question: "What makes Scheme 78 the best location for escort services in Indore?",
+      answer: "Scheme 78 is Indore's upscale residential hub with premium homes, peaceful environment, and private locations. It offers the perfect setting for high-end escort services with excellent privacy and sophisticated residential venues for meetings."
     },
     {
       question: "Do you provide both incall and outcall services in Scheme 78?",
-      answer: "Yes, we provide both incall and outcall services throughout Scheme 78. Our escorts can visit you at your hotel, residence, or office in Scheme 78, or you can visit our luxury incall locations in the area."
+      answer: "Yes, we provide both incall and outcall services throughout Scheme 78. Our escorts can visit you at your home, residence, or private location in Scheme 78, or you can visit our luxury incall locations in the area."
     },
     {
       question: "What are the rates for escort services in Scheme 78?",
@@ -216,15 +216,15 @@ export default function Scheme78Page() {
     },
     {
       question: "Is privacy and discretion guaranteed for Scheme 78 bookings?",
-      answer: "Privacy and discretion are our top priorities for all Scheme 78 bookings. All client information is kept strictly confidential. Our escorts are trained to maintain complete discretion in the well-developed Scheme 78 area."
+      answer: "Privacy and discretion are our top priorities for all Scheme 78 bookings. All client information is kept strictly confidential. Our escorts are trained to maintain complete discretion, especially important in the residential environment of Scheme 78."
     },
     {
-      question: "Which venues in Scheme 78 do you recommend for escort meetings?",
-      answer: "Scheme 78 has numerous modern venues including hotels, restaurants, shopping complexes, and private locations. We can recommend the best venues based on your preferences for seamless meetings in this developed area."
+      question: "Which locations in Scheme 78 do you recommend for escort meetings?",
+      answer: "Scheme 78 has several premium residential locations perfect for escort meetings including upscale homes, private apartments, and boutique accommodations. We can recommend the best locations based on your preferences and provide guidance for seamless meetings."
     },
     {
       question: "Are same-day bookings available for escorts in Scheme 78?",
-      answer: "Yes, we offer same-day bookings for escorts in Scheme 78 subject to availability. Given Scheme 78's growing popularity and demand, we recommend booking 2-3 hours in advance to ensure your preferred companion is available."
+      answer: "Yes, we offer same-day bookings for escorts in Scheme 78 subject to availability. Given Scheme 78's popularity and high demand, we recommend booking 2-3 hours in advance to ensure your preferred companion is available in the area."
     }
   ]
 
@@ -246,25 +246,25 @@ export default function Scheme78Page() {
           <div className="w-full mx-auto text-center relative z-10 px-4">
             {/* Premium Badge */}
             <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
-              <span className="text-3xl"></span>
+              <span className="text-3xl">💎</span>
               <span className="text-pink-800 font-bold text-lg">Premium Escorts in Scheme 78</span>
-              <span className="text-3xl"></span>
+              <span className="text-3xl">✨</span>
             </div>
 
             <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
               Escorts in Scheme 78
               <br />
               <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
-                Modern Development
+                Upscale Residential Hub
               </span>
             </h1>
 
             <div className="max-w-5xl mx-auto mb-12">
               <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
-                Premium Escort Services in Scheme 78's Modern Area
+                Premium Escort Services in Scheme 78's Upscale Residential Area
               </p>
               <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
-                Verified professional escorts in Scheme 78  24/7 availability  Modern venues & shopping areas  Complete discretion guaranteed
+                Verified professional escorts in Scheme 78 • 24/7 availability • Luxury homes & residential privacy • Complete discretion guaranteed
               </p>
             </div>
 
@@ -274,14 +274,14 @@ export default function Scheme78Page() {
                 href="tel:+919372662471" 
                 className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-pink-600 via-pink-700 to-pink-800 hover:from-pink-700 hover:via-pink-800 hover:to-pink-900 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-pink-500/50 border-2 border-pink-400/30"
               >
-                <span className="text-3xl group-hover:animate-bounce"></span>
+                <span className="text-3xl group-hover:animate-bounce">📞</span>
                 <span>Call Now: +91 9372 662 471</span>
               </a>
               <a 
                 href="https://wa.me/919372662471" 
                 className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:from-green-600 hover:via-green-700 hover:to-green-800 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 border-2 border-green-400/30"
               >
-                <span className="text-3xl group-hover:animate-bounce"></span>
+                <span className="text-3xl group-hover:animate-bounce">💬</span>
                 <span>WhatsApp Now</span>
               </a>
             </div>
@@ -289,19 +289,19 @@ export default function Scheme78Page() {
             {/* Premium Features */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3"></div>
-                <h3 className="text-lg font-bold text-gray-800 mb-2">Modern Development</h3>
-                <p className="text-gray-700 font-medium">Well-planned Scheme 78 with modern infrastructure</p>
+                <div className="text-4xl mb-3">�</div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Residential Hub Location</h3>
+                <p className="text-gray-700 font-medium">Upscale Scheme 78 with premium homes and residential privacy</p>
               </div>
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3"></div>
+                <div className="text-4xl mb-3">⭐</div>
                 <h3 className="text-lg font-bold text-gray-800 mb-2">Premium Companions</h3>
-                <p className="text-gray-700 font-medium">Verified high-class escorts perfect for modern lifestyle</p>
+                <p className="text-gray-700 font-medium">Verified high-class escorts perfect for residential meetings</p>
               </div>
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3"></div>
+                <div className="text-4xl mb-3">🔒</div>
                 <h3 className="text-lg font-bold text-gray-800 mb-2">Complete Discretion</h3>
-                <p className="text-gray-700 font-medium">100% privacy guaranteed for clients in Scheme 78</p>
+                <p className="text-gray-700 font-medium">100% privacy guaranteed for residential clients in Scheme 78</p>
               </div>
             </div>
           </div>
@@ -315,7 +315,7 @@ export default function Scheme78Page() {
                 Premium Escort Services in Scheme 78, Indore
               </h2>
               <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-                Experience luxury companionship in Scheme 78's modern development with our verified professional escorts
+                Experience luxury companionship in Indore's upscale residential hub with our verified professional escorts
               </p>
             </div>
 
@@ -346,7 +346,7 @@ export default function Scheme78Page() {
                   Why Choose Escorts in Scheme 78?
                 </h2>
                 <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                  Scheme 78 is a modern, well-planned area of Indore, offering the perfect setting for premium escort services
+                  Scheme 78 is Indore's upscale residential hub, offering the perfect setting for premium escort services
                 </p>
               </div>
 
@@ -354,24 +354,24 @@ export default function Scheme78Page() {
                 {/* Location Benefits */}
                 <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
                   <h3 className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text text-transparent mb-6">
-                     Modern Development Area
+                    �️ Prime Residential Location
                   </h3>
                   <div className="space-y-4">
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Well-Planned Residential & Commercial Area</p>
+                      <span className="text-2xl mr-4">�</span>
+                      <p className="font-semibold text-gray-700">Upscale Residential Hub of Indore</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Modern Shopping Complexes & Malls</p>
+                      <span className="text-2xl mr-4">�</span>
+                      <p className="font-semibold text-gray-700">Premium Homes & Private Locations</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Hotels & Modern Meeting Venues</p>
+                      <span className="text-2xl mr-4">🌳</span>
+                      <p className="font-semibold text-gray-700">Peaceful Residential Environment</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Excellent Road Connectivity</p>
+                      <span className="text-2xl mr-4">🚗</span>
+                      <p className="font-semibold text-gray-700">Excellent Connectivity & Accessibility</p>
                     </div>
                   </div>
                 </div>
@@ -379,24 +379,24 @@ export default function Scheme78Page() {
                 {/* Service Features */}
                 <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-pink-100/50">
                   <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-6">
-                     Premium Service Features
+                    ⭐ Premium Service Features
                   </h3>
                   <div className="space-y-4">
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Perfect for Modern Business Meetings</p>
+                      <span className="text-2xl mr-4">👔</span>
+                      <p className="font-semibold text-gray-700">Perfect for Business Meetings & Events</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
+                      <span className="text-2xl mr-4">🌟</span>
                       <p className="font-semibold text-gray-700">High-Class Professional Companions</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
+                      <span className="text-2xl mr-4">⏰</span>
                       <p className="font-semibold text-gray-700">24/7 Availability in Scheme 78</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Complete Privacy & Modern Discretion</p>
+                      <span className="text-2xl mr-4">🔐</span>
+                      <p className="font-semibold text-gray-700">Discretion for Corporate Clients</p>
                     </div>
                   </div>
                 </div>
@@ -405,7 +405,7 @@ export default function Scheme78Page() {
               {/* Booking Information */}
               <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
                 <h3 className="text-4xl font-bold bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text text-transparent mb-8 text-center">
-                   Book Escorts in Scheme 78 - Simple Process
+                  📱 Book Escorts in Scheme 78 - Simple Process
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <div className="text-center">
@@ -433,10 +433,10 @@ export default function Scheme78Page() {
                 <div className="text-center mt-8">
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-orange-500 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:scale-105 transition-transform shadow-xl">
-                       Call for Scheme 78: +91 9372662471
+                      📞 Call for Scheme 78: +91 9372662471
                     </a>
                     <a href="https://wa.me/919372662471" className="inline-block bg-gradient-to-r from-green-500 to-emerald-500 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:scale-105 transition-transform shadow-xl">
-                       WhatsApp Now
+                      💬 WhatsApp Now
                     </a>
                   </div>
                 </div>
@@ -467,7 +467,7 @@ export default function Scheme78Page() {
                     >
                       <h3 className="text-xl font-bold text-pink-900 pr-4 group-hover:text-orange-700">{faq.question}</h3>
                       <span className={`text-3xl transition-all duration-300 text-pink-700 ${openFaq === index ? 'rotate-180 scale-110' : ''}`}>
-                        
+                        ▼
                       </span>
                     </button>
                     {openFaq === index && (
@@ -488,10 +488,10 @@ export default function Scheme78Page() {
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
-                   Call +91 9372662471
+                  📞 Call +91 9372662471
                 </a>
                 <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
-                   WhatsApp Chat
+                  💬 WhatsApp Chat
                 </a>
               </div>
             </div>
@@ -507,7 +507,7 @@ export default function Scheme78Page() {
                 Ready to Book Premium Escorts in Scheme 78?
               </h2>
               <p className="text-2xl text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed">
-                Experience the finest escort services in Scheme 78's modern development with complete discretion and satisfaction guarantee
+                Experience the finest escort services in Indore's upscale residential hub with complete discretion and satisfaction guarantee
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a 
@@ -537,7 +537,7 @@ export default function Scheme78Page() {
                    Escorts in Scheme 78, Indore
                 </h3>
                 <p className="text-pink-100 mb-6 leading-relaxed font-semibold text-lg">
-                  Premium escort services in modern Scheme 78 with verified professional companions. Available 24/7.
+                  Premium escort services in Scheme 78 residential hub with verified professional companions. Available 24/7.
                 </p>
                 <div className="flex flex-col gap-4">
                   <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
