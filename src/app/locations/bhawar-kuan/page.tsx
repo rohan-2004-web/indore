@@ -1,329 +1,618 @@
-'use client'
+﻿'use client'
 
-import React, { useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import { useState } from 'react'
+import Header from '@/components/Header'
 
 export default function BhawarKuanPage() {
-  const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [openFaq, setOpenFaq] = useState<number | null>(null)
 
   const toggleFaq = (index: number) => {
-    setOpenFaq(openFaq === index ? null : index);
-  };
+    setOpenFaq(openFaq === index ? null : index)
+  }
 
   const services = [
     {
+      title: "Celebrity Escorts",
+      subtitle: "Star Quality Service",
+      description: "Experience celebrity-level companions in Bhawar Kuan with exceptional elegance",
+      image: "/images/services/Celebrity Escorts.webp",
+      icon: "",
+      category: "CELEBRITY",
+      link: "/services/celebrity-escorts"
+    },
+    {
+      title: "VIP Escorts", 
+      subtitle: "Ultimate Luxury",
+      description: "Our most exclusive VIP escorts in Bhawar Kuan offering ultimate luxury",
+      image: "/images/services/VIP Escorts.jpg",
+      icon: "",
+      category: "VIP",
+      link: "/services/vip-escorts"
+    },
+    {
+      title: "Premium Models",
+      subtitle: "High-End Sophistication",
+      description: "Premium models in Bhawar Kuan with unmatched sophistication",
+      image: "/images/services/Premium Models.jpg",
+      icon: "",
+      category: "PREMIUM",
+      link: "/services/premium-models"
+    },
+    {
       title: "College Girls",
-      image: "/images/service1.jpg",
-      description: "Professional college companion services in Bhawar Kuan area"
+      subtitle: "Fresh & Young",
+      description: "Beautiful young companions in Bhawar Kuan with vibrant energy",
+      image: "/images/services/College Girls.webp",
+      icon: "",
+      category: "YOUNG",
+      link: "/services/college-girls"
     },
     {
-      title: "Housewives",
-      image: "/images/service2.jpg",
-      description: "Discreet mature companion services near Bhawar Kuan intersection"
+      title: "Housewife Escorts",
+      subtitle: "Mature Experience",
+      description: "Experienced mature companions in Bhawar Kuan with caring nature",
+      image: "/images/services/Housewife Escorts.jpg",
+      icon: "",
+      category: "MATURE",
+      link: "/services/housewife-escorts"
     },
     {
-      title: "Call Girls",
-      image: "/images/service3.jpg",
-      description: "Premium call girl services in Bhawar Kuan commercial zone"
+      title: "Punjabi Women",
+      subtitle: "Traditional Beauty",
+      description: "Authentic Punjabi companions in Bhawar Kuan with traditional charm",
+      image: "/images/services/Punjabi women.webp",
+      icon: "",
+      category: "TRADITIONAL",
+      link: "/services"
     },
     {
-      title: "Celebrity",
-      image: "/images/service4.jpg",
-      description: "Exclusive celebrity companion services in Bhawar Kuan"
+      title: "Slim Escorts",
+      subtitle: "Perfect Figure",
+      description: "Elegant slim companions in Bhawar Kuan with perfect figures",
+      image: "/images/services/Slim Escorts.webp",
+      icon: "",
+      category: "SLIM",
+      link: "/services"
     },
     {
-      title: "Air Hostess",
-      image: "/images/service5.jpg",
-      description: "Sophisticated air hostess companion services near Bhawar Kuan"
+      title: "Unsatisfied Bhabhi",
+      subtitle: "Seeking Excitement",
+      description: "Experienced companions in Bhawar Kuan seeking excitement and connection",
+      image: "/images/services/Unsatisfied Bhabhi.webp",
+      icon: "",
+      category: "BHABHI",
+      link: "/services"
     },
     {
-      title: "Models",
-      image: "/images/service6.jpg",
-      description: "Professional model companion services in Bhawar Kuan area"
+      title: "Local Beauties",
+      subtitle: "Know Indore Best",
+      description: "Beautiful local companions in Bhawar Kuan who know the city inside out",
+      image: "/images/services/Local Beauties.webp",
+      icon: "",
+      category: "LOCAL",
+      link: "/services"
     },
     {
-      title: "Independent Girls",
-      image: "/images/service7.jpg",
-      description: "Independent companion services in Bhawar Kuan business district"
+      title: "Event Companion",
+      subtitle: "Perfect Plus One",
+      description: "Professional companions in Bhawar Kuan for business events and parties",
+      image: "/images/services/Event Companion.webp",
+      icon: "",
+      category: "PROFESSIONAL",
+      link: "/services"
     },
     {
-      title: "Russian Girls",
-      image: "/images/service8.jpg",
-      description: "Exotic Russian companion services near Bhawar Kuan"
+      title: "Pink Special",
+      subtitle: "Exclusive Experience",
+      description: "Special premium companions in Bhawar Kuan for exclusive experiences",
+      image: "/images/services/Pink Special.webp",
+      icon: "",
+      category: "SPECIAL",
+      link: "/services"
     },
     {
-      title: "VIP Girls",
-      image: "/images/service9.jpg",
-      description: "VIP companion services in prestigious Bhawar Kuan areas"
+      title: "Unsatisfied Females",
+      subtitle: "Meaningful Connections",
+      description: "Mature women in Bhawar Kuan seeking meaningful connections",
+      image: "/images/services/Unsatisfied Females.webp",
+      icon: "",
+      category: "FEMALE",
+      link: "/services"
     },
     {
-      title: "Hotel Service",
-      image: "/images/service10.jpg",
-      description: "Hotel companion services near Bhawar Kuan business hotels"
+      title: "Incall Escorts",
+      subtitle: "Luxury Locations",
+      description: "Premium incall services in Bhawar Kuan at luxury locations",
+      image: "/images/services/Incall Escorts.webp",
+      icon: "",
+      category: "INCALL",
+      link: "/services"
     },
     {
-      title: "Home Service",
-      image: "/images/service11.jpg",
-      description: "Private home companion services in Bhawar Kuan residential areas"
+      title: "Mature Escorts",
+      subtitle: "Experienced Sophistication",
+      description: "Experienced mature companions in Bhawar Kuan with sophistication",
+      image: "/images/services/Mature Escorts.webp",
+      icon: "",
+      category: "MATURE",
+      link: "/services"
     },
     {
-      title: "Party Girls",
-      image: "/images/service12.jpg",
-      description: "Party companion services for Bhawar Kuan social events"
+      title: "Young Girls",
+      subtitle: "Unforgettable Experiences",
+      description: "Young beautiful companions in Bhawar Kuan for unforgettable experiences",
+      image: "/images/services/Young Girls.webp",
+      icon: "",
+      category: "YOUNG",
+      link: "/services"
     },
     {
-      title: "Massage Service",
-      image: "/images/service13.jpg",
-      description: "Relaxing massage services in Bhawar Kuan commercial area"
+      title: "Indore Escorts",
+      subtitle: "Local Expertise",
+      description: "Premium local escorts in Bhawar Kuan with deep knowledge of Indore",
+      image: "/images/services/indore escorts.webp",
+      icon: "",
+      category: "LOCAL",
+      link: "/services"
     },
     {
-      title: "Overnight Service",
-      image: "/images/service14.jpg",
-      description: "Overnight companion services in Bhawar Kuan area"
+      title: "Expert Services",
+      subtitle: "Professional Expertise",
+      description: "Expert companions in Bhawar Kuan with specialized skills",
+      image: "/images/services/Expert Services.webp",
+      icon: "",
+      category: "EXPERT",
+      link: "/services"
     },
     {
-      title: "Dance Service",
-      image: "/images/service15.jpg",
-      description: "Professional dance companion services in Bhawar Kuan"
+      title: "High Class Models",
+      subtitle: "Elite Fashion Models",
+      description: "Stunning high-class models in Bhawar Kuan with runway experience",
+      image: "/images/services/High Class Models.webp",
+      icon: "",
+      category: "MODEL",
+      link: "/services"
     },
     {
-      title: "Girlfriend Experience",
-      image: "/images/service16.jpg",
-      description: "Intimate girlfriend experience services near Bhawar Kuan"
+      title: "Bold Girls",
+      subtitle: "Confident & Adventurous",
+      description: "Bold and confident companions in Bhawar Kuan ready for adventures",
+      image: "/images/services/bold girls.webp",
+      icon: "",
+      category: "BOLD",
+      link: "/services"
     },
     {
-      title: "Travel Companion",
-      image: "/images/service17.jpg",
-      description: "Travel companion services from Bhawar Kuan location"
-    },
-    {
-      title: "High Profile",
-      image: "/images/service18.jpg",
-      description: "High profile companion services in upscale Bhawar Kuan areas"
-    },
-    {
-      title: "Corporate Service",
-      image: "/images/service19.jpg",
-      description: "Corporate event companion services in Bhawar Kuan business district"
-    },
-    {
-      title: "24/7 Service",
-      image: "/images/service20.jpg",
-      description: "Round-the-clock companion services in Bhawar Kuan area"
+      title: "Sexy Girls",
+      subtitle: "Mesmerizing Charm",
+      description: "Incredibly attractive companions in Bhawar Kuan with mesmerizing charm",
+      image: "/images/services/sexy girls.webp",
+      icon: "",
+      category: "SEXY",
+      link: "/services"
     }
-  ];
+  ]
 
   const faqs = [
     {
-      question: "Are escort services available 24/7 in Bhawar Kuan?",
-      answer: "Yes, we provide round-the-clock escort services in Bhawar Kuan. Our premium companions are available for bookings throughout the day and night in this major intersection area."
+      question: "How can I book premium escorts in Bhawar Kuan, Indore?",
+      answer: "Booking escorts in Bhawar Kuan is simple and discreet. Call us directly at +91 9372662471 or WhatsApp. Our team is available 24/7 to help you select the perfect companion in the Bhawar Kuan area based on your preferences."
     },
     {
-      question: "What types of escort services are offered in Bhawar Kuan?",
-      answer: "We offer comprehensive escort services in Bhawar Kuan including college girls, housewives, models, air hostess companions, and VIP services tailored to the business and commercial environment."
+      question: "Are your Bhawar Kuan escorts verified and professional?",
+      answer: "Yes, absolutely! All our escorts in Bhawar Kuan are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards of elegance and sophistication while serving clients in this major transport hub."
     },
     {
-      question: "Is discretion maintained for escorts in Bhawar Kuan?",
-      answer: "Absolutely. We maintain complete discretion and privacy for all our escort services in Bhawar Kuan. Client confidentiality is our top priority in this busy commercial intersection."
+      question: "What makes Bhawar Kuan ideal for escort services in Indore?",
+      answer: "Bhawar Kuan is a key transport hub with excellent connectivity, numerous hotels, and busy commercial areas. It offers perfect accessibility with bus terminals, railway connections, and central location making it convenient for all clients."
     },
     {
-      question: "How to book escort services in Bhawar Kuan area?",
-      answer: "Booking escort services in Bhawar Kuan is simple through our website or direct contact. We ensure quick response times for bookings in the Bhawar Kuan business district."
+      question: "Do you provide both incall and outcall services in Bhawar Kuan?",
+      answer: "Yes, we provide both incall and outcall services throughout Bhawar Kuan. Our escorts can visit you at your hotel, residence, or office in Bhawar Kuan, or you can visit our luxury incall locations in the area."
     },
     {
-      question: "What makes Bhawar Kuan escort services special?",
-      answer: "Our Bhawar Kuan escort services are designed for the major intersection and business environment, offering companions who understand the area's commercial and transit culture."
+      question: "What are the rates for escort services in Bhawar Kuan?",
+      answer: "Our rates for escorts in Bhawar Kuan vary based on the service type, duration, and companion category. We offer competitive pricing for all categories from college girls to VIP escorts. Contact us directly for detailed pricing specific to Bhawar Kuan."
     },
     {
-      question: "Are outcall services available to Bhawar Kuan hotels?",
-      answer: "Yes, we provide outcall escort services to all major hotels and accommodations in the Bhawar Kuan area, ensuring convenient and discreet meetings."
+      question: "Is privacy and discretion guaranteed for Bhawar Kuan bookings?",
+      answer: "Privacy and discretion are our top priorities for all Bhawar Kuan bookings. All client information is kept strictly confidential. Our escorts are trained to maintain complete discretion in this busy commercial area."
     },
     {
-      question: "What is the booking process for escorts in Bhawar Kuan?",
-      answer: "Our Bhawar Kuan escort booking process is straightforward - select your preferred companion, choose the service duration, and we handle the rest with complete professionalism."
+      question: "Which hotels and venues in Bhawar Kuan do you recommend for escort meetings?",
+      answer: "Bhawar Kuan has numerous budget and mid-range hotels perfect for escort meetings. We can recommend the best locations based on your preferences, especially convenient given the area's transport connectivity."
     },
     {
-      question: "Do you provide escort services for Bhawar Kuan business events?",
-      answer: "Yes, we offer specialized escort services for business meetings, corporate events, and social gatherings in the Bhawar Kuan commercial district."
+      question: "Are same-day bookings available for escorts in Bhawar Kuan?",
+      answer: "Yes, we offer same-day bookings for escorts in Bhawar Kuan subject to availability. Given Bhawar Kuan's busy nature, we recommend booking 2-3 hours in advance to ensure your preferred companion is available."
     }
-  ];
+  ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-red-50 via-rose-50 to-pink-50">
-      {/* Header */}
-      <header className="bg-white/80 backdrop-blur-md shadow-lg sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex justify-between items-center">
-            <Link href="/" className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-pink-600">
-              Indore Escorts
-            </Link>
-            <nav className="hidden md:flex space-x-8">
-              <Link href="/" className="text-gray-700 hover:text-red-600 transition-colors font-medium">Home</Link>
-              <Link href="/about" className="text-gray-700 hover:text-red-600 transition-colors font-medium">About</Link>
-              <Link href="/services" className="text-gray-700 hover:text-red-600 transition-colors font-medium">Services</Link>
-              <Link href="/contact" className="text-gray-700 hover:text-red-600 transition-colors font-medium">Contact</Link>
-            </nav>
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-br from-pink-200/60 via-orange-100/50 to-pink-300/60">
+        
+        {/* Hero Section - Premium Enhanced Style */}
+        <section className="pt-20 pb-16 relative min-h-screen flex items-center overflow-hidden">
+          {/* Animated Background Elements */}
+          <div className="absolute inset-0">
+            <div className="absolute inset-0 bg-gradient-to-br from-pink-300/95 via-orange-200/90 to-pink-300/95"></div>
+            <div className="absolute top-10 left-10 w-72 h-72 bg-gradient-to-br from-pink-400/30 to-orange-300/30 rounded-full blur-3xl animate-pulse"></div>
+            <div className="absolute bottom-20 right-16 w-96 h-96 bg-gradient-to-br from-orange-400/25 to-pink-400/25 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-br from-pink-300/20 to-orange-300/20 rounded-full blur-2xl animate-pulse" style={{animationDelay: '2s'}}></div>
           </div>
-        </div>
-      </header>
+          
+          <div className="w-full mx-auto text-center relative z-10 px-4">
+            {/* Premium Badge */}
+            <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
+              <span className="text-3xl"></span>
+              <span className="text-pink-800 font-bold text-lg">Premium Escorts in Bhawar Kuan</span>
+              <span className="text-3xl"></span>
+            </div>
 
-      {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-red-600/10 via-rose-500/10 to-pink-600/10"></div>
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-rose-500 to-pink-600 mb-6">
-              Premium Escorts in Bhawar Kuan
+            <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
+              Escorts in Bhawar Kuan
+              <br />
+              <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
+                Transport Hub
+              </span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              Experience luxury companion services in Bhawar Kuan's major intersection. Professional escorts available for business meetings, social events, and transit companionship.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/contact" className="bg-gradient-to-r from-red-600 to-pink-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-red-700 hover:to-pink-700 transform hover:scale-105 transition-all shadow-xl">
-                Book Now
-              </Link>
-              <Link href="/services" className="bg-white/80 text-red-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-white border-2 border-red-600 transform hover:scale-105 transition-all shadow-xl">
-                View Services
-              </Link>
+
+            <div className="max-w-5xl mx-auto mb-12">
+              <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
+                Premium Escort Services in Bhawar Kuan Transport Hub
+              </p>
+              <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
+                Verified professional escorts in Bhawar Kuan  24/7 availability  Central transport location  Complete discretion guaranteed
+              </p>
+            </div>
+
+            {/* Enhanced CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-8 justify-center mb-16">
+              <a 
+                href="tel:+919372662471" 
+                className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-pink-600 via-pink-700 to-pink-800 hover:from-pink-700 hover:via-pink-800 hover:to-pink-900 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-pink-500/50 border-2 border-pink-400/30"
+              >
+                <span className="text-3xl group-hover:animate-bounce"></span>
+                <span>Call Now: +91 9372 662 471</span>
+              </a>
+              <a 
+                href="https://wa.me/919372662471" 
+                className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:from-green-600 hover:via-green-700 hover:to-green-800 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 border-2 border-green-400/30"
+              >
+                <span className="text-3xl group-hover:animate-bounce"></span>
+                <span>WhatsApp Now</span>
+              </a>
+            </div>
+
+            {/* Premium Features */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
+                <div className="text-4xl mb-3"></div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Transport Hub</h3>
+                <p className="text-gray-700 font-medium">Major bus terminal and transport connectivity center</p>
+              </div>
+              <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
+                <div className="text-4xl mb-3"></div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Premium Companions</h3>
+                <p className="text-gray-700 font-medium">Verified high-class escorts in busy commercial area</p>
+              </div>
+              <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
+                <div className="text-4xl mb-3"></div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Complete Discretion</h3>
+                <p className="text-gray-700 font-medium">100% privacy guaranteed in central location</p>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Bhawar Kuan Features */}
-      <section className="py-16 bg-white/50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-pink-600">
-            Why Choose Bhawar Kuan Location
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white/80 rounded-2xl p-8 shadow-xl text-center transform hover:scale-105 transition-all">
-              <div className="w-16 h-16 bg-gradient-to-r from-red-500 to-rose-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl text-white">🚦</span>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Major Intersection</h3>
-              <p className="text-gray-600">Prime location at a major intersection with excellent connectivity to all parts of Indore, ideal for companion services.</p>
+        {/* Services Section */}
+        <section className="py-20 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70">
+          <div className="w-full px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+                Premium Escort Services in Bhawar Kuan, Indore
+              </h2>
+              <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+                Experience luxury companionship in Bhawar Kuan's bustling transport hub with our verified professional escorts
+              </p>
             </div>
-            <div className="bg-white/80 rounded-2xl p-8 shadow-xl text-center transform hover:scale-105 transition-all">
-              <div className="w-16 h-16 bg-gradient-to-r from-rose-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl text-white">🏢</span>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Business Hub</h3>
-              <p className="text-gray-600">Bustling business area with corporate offices and commercial establishments, perfect for professional companion services.</p>
-            </div>
-            <div className="bg-white/80 rounded-2xl p-8 shadow-xl text-center transform hover:scale-105 transition-all">
-              <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-red-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl text-white">🎯</span>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Strategic Location</h3>
-              <p className="text-gray-600">Central position with easy access to hotels, restaurants, and entertainment venues throughout Indore.</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Services Grid */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-pink-600">
-            Our Premium Services in Bhawar Kuan
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {services.map((service, index) => (
-              <div key={index} className="bg-white/80 rounded-2xl overflow-hidden shadow-xl transform hover:scale-105 transition-all hover:shadow-2xl">
-                <div className="relative h-80">
-                  <Image 
-                    src={service.image} 
-                    alt={service.title}
-                    fill
-                    className="object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-red-900/70 via-transparent to-transparent"></div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl mx-auto">
+              {services.map((service, index) => (
+                <div key={index} className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src={service.image} alt={service.title} className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
+                  </div>
+                  <span className="text-2xl mb-2">{service.icon}</span>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">{service.title}</h3>
+                  <p className="text-gray-600 mb-4 text-base flex-grow">{service.description}</p>
+                  <a href={service.link} className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">
+                    Book in Bhawar Kuan
+                  </a>
                 </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-2">{service.title}</h3>
-                  <p className="text-gray-600 text-sm mb-4">{service.description}</p>
-                  <Link href="/contact" className="bg-gradient-to-r from-red-500 to-pink-500 text-white px-4 py-2 rounded-full text-sm font-medium hover:from-red-600 hover:to-pink-600 transition-all inline-block">
-                    Book Now
-                  </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Bhawar Kuan Information Section */}
+        <section className="py-20 bg-gradient-to-br from-orange-100/50 via-pink-50/50 to-orange-200/60">
+          <div className="w-full px-4">
+            <div className="max-w-7xl mx-auto">
+              <div className="text-center mb-16">
+                <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-orange-600 via-pink-500 to-orange-700 bg-clip-text text-transparent mb-6">
+                  Why Choose Escorts in Bhawar Kuan?
+                </h2>
+                <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                  Bhawar Kuan is Indore's major transport hub, offering excellent connectivity and commercial opportunities
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+                {/* Location Benefits */}
+                <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
+                  <h3 className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text text-transparent mb-6">
+                     Major Transport Hub
+                  </h3>
+                  <div className="space-y-4">
+                    <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Central Bus Terminal & Transport Hub</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Multiple Hotels for Travelers</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Busy Commercial & Shopping Areas</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Excellent Road & Rail Connectivity</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Service Features */}
+                <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-pink-100/50">
+                  <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-6">
+                     Premium Service Features
+                  </h3>
+                  <div className="space-y-4">
+                    <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Perfect for Travelers & Commuters</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Professional Service in Commercial Zone</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">24/7 Availability in Bhawar Kuan</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Discretion in Busy Location</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
-      {/* FAQ Section */}
-      <section className="py-16 bg-white/50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-pink-600">
-            Frequently Asked Questions - Bhawar Kuan
-          </h2>
-          <div className="max-w-3xl mx-auto">
-            {faqs.map((faq, index) => (
-              <div key={index} className="mb-4">
-                <button
-                  onClick={() => toggleFaq(index)}
-                  className="w-full bg-white/80 rounded-2xl p-6 text-left shadow-lg hover:shadow-xl transition-all"
+              {/* Booking Information */}
+              <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
+                <h3 className="text-4xl font-bold bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text text-transparent mb-8 text-center">
+                   Book Escorts in Bhawar Kuan - Simple Process
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  <div className="text-center">
+                    <div className="w-20 h-20 bg-gradient-to-r from-pink-500 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span className="text-3xl font-bold text-white">1</span>
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-800 mb-3">Call or WhatsApp</h4>
+                    <p className="text-gray-600 text-lg">Contact us with your preferences for Bhawar Kuan location</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-20 h-20 bg-gradient-to-r from-orange-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span className="text-3xl font-bold text-white">2</span>
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-800 mb-3">Select Companion</h4>
+                    <p className="text-gray-600 text-lg">Choose from our verified escorts available in Bhawar Kuan</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-20 h-20 bg-gradient-to-r from-pink-500 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span className="text-3xl font-bold text-white">3</span>
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-800 mb-3">Meet in Bhawar Kuan</h4>
+                    <p className="text-gray-600 text-lg">Enjoy premium companionship at your Bhawar Kuan location</p>
+                  </div>
+                </div>
+                <div className="text-center mt-8">
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-orange-500 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:scale-105 transition-transform shadow-xl">
+                       Call for Bhawar Kuan: +91 9372662471
+                    </a>
+                    <a href="https://wa.me/919372662471" className="inline-block bg-gradient-to-r from-green-500 to-emerald-500 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:scale-105 transition-transform shadow-xl">
+                       WhatsApp Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-20 bg-gradient-to-br from-pink-100/60 via-orange-50/50 to-pink-200/60">
+          <div className="w-full px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+                Frequently Asked Questions - Escorts in Bhawar Kuan
+              </h2>
+              <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                Get answers to common questions about escort services in Bhawar Kuan, Indore
+              </p>
+            </div>
+
+            <div className="max-w-7xl mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {faqs.map((faq, index) => (
+                  <div key={index} className="bg-gradient-to-br from-pink-100 to-orange-100 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-pink-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
+                    <button
+                      onClick={() => toggleFaq(index)}
+                      className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-pink-200/80 hover:to-orange-100/80 transition-all duration-200 flex justify-between items-center group"
+                    >
+                      <h3 className="text-xl font-bold text-pink-900 pr-4 group-hover:text-orange-700">{faq.question}</h3>
+                      <span className={`text-3xl transition-all duration-300 text-pink-700 ${openFaq === index ? 'rotate-180 scale-110' : ''}`}>
+                        
+                      </span>
+                    </button>
+                    {openFaq === index && (
+                      <div className="px-8 pb-8 bg-gradient-to-r from-pink-50/90 to-orange-50/90">
+                        <p className="text-gray-700 leading-relaxed text-lg font-medium">
+                          {faq.answer}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="text-center mt-16">
+              <p className="text-xl text-gray-600 mb-8">
+                Have more questions about our escort services in Bhawar Kuan? Contact us directly!
+              </p>
+              <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                   Call +91 9372662471
+                </a>
+                <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                   WhatsApp Chat
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Call to Action Section */}
+        <section className="py-20 relative">
+          <div className="absolute inset-0 bg-gradient-to-r from-pink-600/20 to-orange-600/20"></div>
+          <div className="w-full px-4 relative z-10">
+            <div className="max-w-6xl mx-auto text-center">
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-8">
+                Ready to Book Premium Escorts in Bhawar Kuan?
+              </h2>
+              <p className="text-2xl text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed">
+                Experience the finest escort services in Bhawar Kuan's transport hub with complete discretion and satisfaction guarantee
+              </p>
+              <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                <a 
+                  href="tel:+919372662471" 
+                  className="inline-block bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-16 py-6 rounded-full font-bold text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
                 >
-                  <div className="flex justify-between items-center">
-                    <h3 className="text-lg font-semibold text-gray-800">{faq.question}</h3>
-                    <span className="text-red-600 text-2xl">{openFaq === index ? '−' : '+'}</span>
-                  </div>
-                </button>
-                {openFaq === index && (
-                  <div className="mt-2 bg-white/60 rounded-2xl p-6 shadow-inner">
-                    <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
-                  </div>
-                )}
+                   Call Now: +91 9372662471
+                </a>
+                <a 
+                  href="https://wa.me/919372662471" 
+                  className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-16 py-6 rounded-full font-bold text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
+                >
+                   WhatsApp Now
+                </a>
               </div>
-            ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Footer */}
-      <footer className="bg-gradient-to-r from-red-900 via-rose-900 to-pink-900 text-white py-12">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div>
-              <h3 className="text-2xl font-bold mb-4">Bhawar Kuan Escorts</h3>
-              <p className="text-red-200 mb-4">Premium escort services in Bhawar Kuan intersection with professional companions for all occasions.</p>
+        {/* Footer - Same as Homepage */}
+        <footer className="bg-gradient-to-br from-pink-600/95 via-purple-700/90 to-orange-600/95 text-white py-20 relative">
+          <div className="w-full px-4 relative z-10">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+              
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-yellow-300 to-pink-300 bg-clip-text text-transparent">
+                   Escorts in Bhawar Kuan, Indore
+                </h3>
+                <p className="text-pink-100 mb-6 leading-relaxed font-semibold text-lg">
+                  Premium escort services in Bhawar Kuan transport hub with verified professional companions. Available 24/7.
+                </p>
+                <div className="flex flex-col gap-4">
+                  <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
+                     Call Now
+                  </a>
+                  <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-green-600 to-lime-600 hover:from-green-700 hover:to-lime-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
+                     WhatsApp
+                  </a>
+                </div>
+              </div>
+              
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent"> Services in Bhawar Kuan</h3>
+                <div className="space-y-3">
+                  <a href="/services/celebrity-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Celebrity Escorts</a>
+                  <a href="/services/vip-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> VIP Escorts</a>
+                  <a href="/services/premium-models" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Premium Models</a>
+                  <a href="/services/college-girls" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> College Girls</a>
+                  <a href="/services/housewife-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Housewife Escorts</a>
+                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> All Services</a>
+                </div>
+              </div>
+              
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-orange-300 to-red-300 bg-clip-text text-transparent"> Quick Links</h3>
+                <div className="space-y-3">
+                  <a href="/" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Home</a>
+                  <a href="/services" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> All Services</a>
+                  <a href="/locations" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Other Locations</a>
+                  <a href="/about" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> About Us</a>
+                  <a href="/contact" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Contact</a>
+                </div>
+              </div>
+              
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent"> Contact for Bhawar Kuan</h3>
+                <div className="space-y-4">
+                  <div className="flex items-center space-x-3 p-3">
+                    <span className="text-2xl"></span>
+                    <a href="tel:+919372662471" className="text-yellow-200 hover:text-yellow-100 font-bold text-lg">+91 9372 662 471</a>
+                  </div>
+                  <div className="flex items-center space-x-3 p-3">
+                    <span className="text-2xl"></span>
+                    <a href="https://wa.me/919372662471" className="text-green-200 hover:text-green-100 font-bold text-lg">WhatsApp Available</a>
+                  </div>
+                  <div className="flex items-center space-x-3 p-3">
+                    <span className="text-2xl"></span>
+                    <span className="text-pink-200 font-bold text-lg">Bhawar Kuan Area</span>
+                  </div>
+                  <div className="flex items-center space-x-3 p-3">
+                    <span className="text-2xl"></span>
+                    <span className="text-orange-200 font-bold text-lg">24/7 Available</span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4 text-red-300">Quick Links</h4>
-              <ul className="space-y-2">
-                <li><Link href="/" className="text-red-200 hover:text-white transition-colors">Home</Link></li>
-                <li><Link href="/about" className="text-red-200 hover:text-white transition-colors">About</Link></li>
-                <li><Link href="/services" className="text-red-200 hover:text-white transition-colors">Services</Link></li>
-                <li><Link href="/contact" className="text-red-200 hover:text-white transition-colors">Contact</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4 text-red-300">Services</h4>
-              <ul className="space-y-2">
-                <li><span className="text-red-200">VIP Escorts</span></li>
-                <li><span className="text-red-200">Hotel Services</span></li>
-                <li><span className="text-red-200">Party Companions</span></li>
-                <li><span className="text-red-200">24/7 Availability</span></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4 text-red-300">Bhawar Kuan Area</h4>
-              <ul className="space-y-2">
-                <li><span className="text-red-200">Major Intersection</span></li>
-                <li><span className="text-red-200">Business Centers</span></li>
-                <li><span className="text-red-200">Hotels</span></li>
-                <li><span className="text-red-200">Commercial District</span></li>
-              </ul>
+            
+            {/* Footer Bottom */}
+            <div className="border-t-2 border-pink-400/40 mt-16 pt-10 text-center">
+              <p className="text-yellow-200 mb-6 font-bold text-xl leading-relaxed">
+                 2024 Premium Escorts in Bhawar Kuan, Indore. All rights reserved. 
+              </p>
+              <div className="flex flex-wrap justify-center gap-6 mb-6">
+                <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full font-bold"> 24/7 Bhawar Kuan</span>
+                <span className="bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-6 py-3 rounded-full font-bold"> 100% Verified</span>
+                <span className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-3 rounded-full font-bold"> Complete Discretion</span>
+                <span className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-6 py-3 rounded-full font-bold"> Premium Quality</span>
+              </div>
+              <p className="text-pink-200 font-semibold text-lg">
+                 Professional escort services in Bhawar Kuan for adults only. Must be 18+ to use our services. 
+              </p>
             </div>
           </div>
-          <div className="border-t border-red-700 mt-8 pt-8 text-center">
-            <p className="text-red-200">&copy; 2024 Indore Escorts - Bhawar Kuan. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
-    </div>
-  );
+        </footer>
+      </div>
+    </>
+  )
 }
