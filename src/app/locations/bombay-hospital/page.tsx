@@ -1,9 +1,9 @@
-﻿'use client'
+'use client'
 
 import { useState } from 'react'
 import Header from '@/components/Header'
 
-export default function BombayHospitalPage() {
+export default function Bombay HospitalPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
 
   const toggleFaq = (index: number) => {
@@ -14,7 +14,7 @@ export default function BombayHospitalPage() {
     {
       title: "Celebrity Escorts",
       subtitle: "Star Quality Service",
-      description: "Experience celebrity-level companions near Bombay Hospital with exceptional elegance",
+      description: "Experience celebrity-level companions in Bombay Hospital with exceptional elegance",
       image: "/images/services/Celebrity Escorts.webp",
       icon: "⭐",
       category: "CELEBRITY",
@@ -23,7 +23,7 @@ export default function BombayHospitalPage() {
     {
       title: "VIP Escorts", 
       subtitle: "Ultimate Luxury",
-      description: "Our most exclusive VIP escorts near Bombay Hospital offering ultimate luxury",
+      description: "Our most exclusive VIP escorts in Bombay Hospital offering ultimate luxury",
       image: "/images/services/VIP Escorts.jpg",
       icon: "💫",
       category: "VIP",
@@ -31,8 +31,8 @@ export default function BombayHospitalPage() {
     },
     {
       title: "Premium Models",
-      subtitle: "High-End Sophistication",
-      description: "Premium models near Bombay Hospital with unmatched sophistication",
+      subtitle: "High-End Sophistication", 
+      description: "Premium models in Bombay Hospital with unmatched sophistication",
       image: "/images/services/Premium Models.jpg",
       icon: "💎",
       category: "PREMIUM",
@@ -41,7 +41,7 @@ export default function BombayHospitalPage() {
     {
       title: "College Girls",
       subtitle: "Fresh & Young",
-      description: "Beautiful young companions near Bombay Hospital with vibrant energy",
+      description: "Beautiful young companions in Bombay Hospital with vibrant energy",
       image: "/images/services/College Girls.webp",
       icon: "🌟",
       category: "YOUNG",
@@ -50,7 +50,7 @@ export default function BombayHospitalPage() {
     {
       title: "Housewife Escorts",
       subtitle: "Mature Experience",
-      description: "Experienced mature companions near Bombay Hospital with caring nature",
+      description: "Experienced mature companions in Bombay Hospital with caring nature",
       image: "/images/services/Housewife Escorts.jpg",
       icon: "👑",
       category: "MATURE",
@@ -59,7 +59,7 @@ export default function BombayHospitalPage() {
     {
       title: "Punjabi Women",
       subtitle: "Traditional Beauty",
-      description: "Authentic Punjabi companions near Bombay Hospital with traditional charm",
+      description: "Authentic Punjabi companions in Bombay Hospital with traditional charm",
       image: "/images/services/Punjabi women.webp",
       icon: "🌺",
       category: "TRADITIONAL",
@@ -68,7 +68,7 @@ export default function BombayHospitalPage() {
     {
       title: "Slim Escorts",
       subtitle: "Perfect Figure",
-      description: "Elegant slim companions near Bombay Hospital with perfect figures",
+      description: "Elegant slim companions in Bombay Hospital with perfect figures",
       image: "/images/services/Slim Escorts.webp",
       icon: "💃",
       category: "SLIM",
@@ -77,7 +77,7 @@ export default function BombayHospitalPage() {
     {
       title: "Unsatisfied Bhabhi",
       subtitle: "Seeking Excitement",
-      description: "Experienced companions near Bombay Hospital seeking excitement and connection",
+      description: "Experienced companions in Bombay Hospital seeking excitement and connection",
       image: "/images/services/Unsatisfied Bhabhi.webp",
       icon: "🔥",
       category: "BHABHI",
@@ -86,7 +86,7 @@ export default function BombayHospitalPage() {
     {
       title: "Local Beauties",
       subtitle: "Know Indore Best",
-      description: "Beautiful local companions near Bombay Hospital who know the city inside out",
+      description: "Beautiful local companions in Bombay Hospital who know the city inside out",
       image: "/images/services/Local Beauties.webp",
       icon: "🏙️",
       category: "LOCAL",
@@ -95,7 +95,7 @@ export default function BombayHospitalPage() {
     {
       title: "Event Companion",
       subtitle: "Perfect Plus One",
-      description: "Professional companions near Bombay Hospital for medical events and parties",
+      description: "Professional companions in Bombay Hospital for business events and parties",
       image: "/images/services/Event Companion.webp",
       icon: "🎭",
       category: "PROFESSIONAL",
@@ -104,7 +104,7 @@ export default function BombayHospitalPage() {
     {
       title: "Pink Special",
       subtitle: "Exclusive Experience",
-      description: "Special premium companions near Bombay Hospital for exclusive experiences",
+      description: "Special premium companions in Bombay Hospital for exclusive experiences",
       image: "/images/services/Pink Special.webp",
       icon: "💖",
       category: "SPECIAL",
@@ -113,7 +113,7 @@ export default function BombayHospitalPage() {
     {
       title: "Unsatisfied Females",
       subtitle: "Meaningful Connections",
-      description: "Mature women near Bombay Hospital seeking meaningful connections",
+      description: "Mature women in Bombay Hospital seeking meaningful connections",
       image: "/images/services/Unsatisfied Females.webp",
       icon: "💕",
       category: "FEMALE",
@@ -122,7 +122,7 @@ export default function BombayHospitalPage() {
     {
       title: "Incall Escorts",
       subtitle: "Luxury Locations",
-      description: "Premium incall services near Bombay Hospital at luxury locations",
+      description: "Premium incall services in Bombay Hospital at luxury locations",
       image: "/images/services/Incall Escorts.webp",
       icon: "🏨",
       category: "INCALL",
@@ -131,7 +131,7 @@ export default function BombayHospitalPage() {
     {
       title: "Mature Escorts",
       subtitle: "Experienced Sophistication",
-      description: "Experienced mature companions near Bombay Hospital with sophistication",
+      description: "Experienced mature companions in Bombay Hospital with sophistication",
       image: "/images/services/Mature Escorts.webp",
       icon: "🍷",
       category: "MATURE",
@@ -140,7 +140,7 @@ export default function BombayHospitalPage() {
     {
       title: "Young Girls",
       subtitle: "Unforgettable Experiences",
-      description: "Young beautiful companions near Bombay Hospital for unforgettable experiences",
+      description: "Young beautiful companions in Bombay Hospital for unforgettable experiences",
       image: "/images/services/Young Girls.webp",
       icon: "✨",
       category: "YOUNG",
@@ -149,7 +149,7 @@ export default function BombayHospitalPage() {
     {
       title: "Indore Escorts",
       subtitle: "Local Expertise",
-      description: "Premium local escorts near Bombay Hospital with deep knowledge of Indore",
+      description: "Premium local escorts in Bombay Hospital with deep knowledge of Indore",
       image: "/images/services/indore escorts.webp",
       icon: "🏛️",
       category: "LOCAL",
@@ -158,7 +158,7 @@ export default function BombayHospitalPage() {
     {
       title: "Expert Services",
       subtitle: "Professional Expertise",
-      description: "Expert companions near Bombay Hospital with specialized skills",
+      description: "Expert companions in Bombay Hospital with specialized skills",
       image: "/images/services/Expert Services.webp",
       icon: "🎯",
       category: "EXPERT",
@@ -167,7 +167,7 @@ export default function BombayHospitalPage() {
     {
       title: "High Class Models",
       subtitle: "Elite Fashion Models",
-      description: "Stunning high-class models near Bombay Hospital with runway experience",
+      description: "Stunning high-class models in Bombay Hospital with runway experience",
       image: "/images/services/High Class Models.webp",
       icon: "👗",
       category: "MODEL",
@@ -176,7 +176,7 @@ export default function BombayHospitalPage() {
     {
       title: "Bold Girls",
       subtitle: "Confident & Adventurous",
-      description: "Bold and confident companions near Bombay Hospital ready for adventures",
+      description: "Bold and confident companions in Bombay Hospital ready for adventures",
       image: "/images/services/bold girls.webp",
       icon: "🔥",
       category: "BOLD",
@@ -185,7 +185,7 @@ export default function BombayHospitalPage() {
     {
       title: "Sexy Girls",
       subtitle: "Mesmerizing Charm",
-      description: "Incredibly attractive companions near Bombay Hospital with mesmerizing charm",
+      description: "Incredibly attractive companions in Bombay Hospital with mesmerizing charm",
       image: "/images/services/sexy girls.webp",
       icon: "💋",
       category: "SEXY",
@@ -195,36 +195,36 @@ export default function BombayHospitalPage() {
 
   const faqs = [
     {
-      question: "How can I book premium escorts near Bombay Hospital, Indore?",
-      answer: "Booking escorts near Bombay Hospital is simple and discreet. Call us directly at +91 9372662471 or WhatsApp. Our team is available 24/7 to help you select the perfect companion in the Bombay Hospital area based on your preferences."
+      question: "How can I book premium escorts in Bombay Hospital, Indore?",
+      answer: "Booking escorts in Bombay Hospital is simple and discreet. Call us directly at +91 9372662471 or WhatsApp. Our team is available 24/7 to help you select the perfect companion in the Bombay Hospital area based on your preferences."
     },
     {
-      question: "Are your Bombay Hospital area escorts verified and professional?",
-      answer: "Yes, absolutely! All our escorts near Bombay Hospital are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards of elegance and sophistication while serving clients in this medical district."
+      question: "Are your Bombay Hospital escorts verified and professional?",
+      answer: "Yes, absolutely! All our escorts in Bombay Hospital are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards of elegance and sophistication while serving clients in the Bombay Hospital residential hub."
     },
     {
-      question: "What makes Bombay Hospital area ideal for escort services in Indore?",
-      answer: "Bombay Hospital area is a prominent medical district with premium healthcare facilities, good hotels, and professional atmosphere. It offers excellent accessibility and discretion, perfect for medical professionals and visitors."
+      question: "What makes Bombay Hospital the best location for escort services in Indore?",
+      answer: "Bombay Hospital is Indore's upscale residential hub with premium homes, peaceful environment, and private locations. It offers the perfect setting for high-end escort services with excellent privacy and sophisticated residential venues for meetings."
     },
     {
-      question: "Do you provide both incall and outcall services near Bombay Hospital?",
-      answer: "Yes, we provide both incall and outcall services throughout Bombay Hospital area. Our escorts can visit you at your hotel, residence, or office near Bombay Hospital, or you can visit our luxury incall locations in the area."
+      question: "Do you provide both incall and outcall services in Bombay Hospital?",
+      answer: "Yes, we provide both incall and outcall services throughout Bombay Hospital. Our escorts can visit you at your home, residence, or private location in Bombay Hospital, or you can visit our luxury incall locations in the area."
     },
     {
-      question: "What are the rates for escort services near Bombay Hospital?",
-      answer: "Our rates for escorts near Bombay Hospital vary based on the service type, duration, and companion category. We offer competitive pricing for all categories from college girls to VIP escorts. Contact us directly for detailed pricing specific to Bombay Hospital area."
+      question: "What are the rates for escort services in Bombay Hospital?",
+      answer: "Our rates for escorts in Bombay Hospital vary based on the service type, duration, and companion category. We offer competitive pricing for all categories from college girls to VIP escorts. Contact us directly for detailed pricing specific to Bombay Hospital."
     },
     {
-      question: "Is privacy and discretion guaranteed for Bombay Hospital area bookings?",
-      answer: "Privacy and discretion are our top priorities for all Bombay Hospital area bookings. All client information is kept strictly confidential. Our escorts are trained to maintain complete discretion in this professional medical district."
+      question: "Is privacy and discretion guaranteed for Bombay Hospital bookings?",
+      answer: "Privacy and discretion are our top priorities for all Bombay Hospital bookings. All client information is kept strictly confidential. Our escorts are trained to maintain complete discretion, especially important in the residential environment of Bombay Hospital."
     },
     {
-      question: "Which hotels near Bombay Hospital do you recommend for escort meetings?",
-      answer: "The Bombay Hospital area has several quality hotels perfect for escort meetings. We can recommend the best locations based on your preferences, especially convenient for medical professionals and visitors to the area."
+      question: "Which locations in Bombay Hospital do you recommend for escort meetings?",
+      answer: "Bombay Hospital has several premium residential locations perfect for escort meetings including upscale homes, private apartments, and boutique accommodations. We can recommend the best locations based on your preferences and provide guidance for seamless meetings."
     },
     {
-      question: "Are same-day bookings available for escorts near Bombay Hospital?",
-      answer: "Yes, we offer same-day bookings for escorts near Bombay Hospital subject to availability. Given the area's professional nature, we recommend booking 2-3 hours in advance to ensure your preferred companion is available."
+      question: "Are same-day bookings available for escorts in Bombay Hospital?",
+      answer: "Yes, we offer same-day bookings for escorts in Bombay Hospital subject to availability. Given Bombay Hospital's popularity and high demand, we recommend booking 2-3 hours in advance to ensure your preferred companion is available in the area."
     }
   ]
 
@@ -246,25 +246,25 @@ export default function BombayHospitalPage() {
           <div className="w-full mx-auto text-center relative z-10 px-4">
             {/* Premium Badge */}
             <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
-              <span className="text-3xl"></span>
-              <span className="text-pink-800 font-bold text-lg">Premium Escorts near Bombay Hospital</span>
-              <span className="text-3xl"></span>
+              <span className="text-3xl">🛣️</span>
+              <span className="text-pink-800 font-bold text-lg">Premium Escorts in Bombay Hospital</span>
+              <span className="text-3xl">✨</span>
             </div>
 
             <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
-              Escorts near Bombay Hospital
+              Escorts in Bombay Hospital
               <br />
               <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
-                Medical District
+                Medical Center
               </span>
             </h1>
 
             <div className="max-w-5xl mx-auto mb-12">
               <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
-                Premium Escort Services near Bombay Hospital Medical District
+                Premium Escort Services in Bombay Hospital Commercial District
               </p>
               <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
-                Verified professional escorts near Bombay Hospital  24/7 availability  Medical professionals welcome  Complete discretion guaranteed
+                Verified professional escorts in Bombay Hospital • 24/7 availability • Hotels & commercial venues • Complete discretion guaranteed
               </p>
             </div>
 
@@ -274,14 +274,14 @@ export default function BombayHospitalPage() {
                 href="tel:+919372662471" 
                 className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-pink-600 via-pink-700 to-pink-800 hover:from-pink-700 hover:via-pink-800 hover:to-pink-900 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-pink-500/50 border-2 border-pink-400/30"
               >
-                <span className="text-3xl group-hover:animate-bounce"></span>
+                <span className="text-3xl group-hover:animate-bounce">📞</span>
                 <span>Call Now: +91 9372 662 471</span>
               </a>
               <a 
                 href="https://wa.me/919372662471" 
                 className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:from-green-600 hover:via-green-700 hover:to-green-800 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 border-2 border-green-400/30"
               >
-                <span className="text-3xl group-hover:animate-bounce"></span>
+                <span className="text-3xl group-hover:animate-bounce">💬</span>
                 <span>WhatsApp Now</span>
               </a>
             </div>
@@ -289,19 +289,19 @@ export default function BombayHospitalPage() {
             {/* Premium Features */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3"></div>
-                <h3 className="text-lg font-bold text-gray-800 mb-2">Medical District</h3>
-                <p className="text-gray-700 font-medium">Premier medical hub with excellent healthcare facilities</p>
+                <div className="text-4xl mb-3">�</div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Residential Hub Location</h3>
+                <p className="text-gray-700 font-medium">Upscale Bombay Hospital with premium homes and residential privacy</p>
               </div>
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3"></div>
+                <div className="text-4xl mb-3">⭐</div>
                 <h3 className="text-lg font-bold text-gray-800 mb-2">Premium Companions</h3>
-                <p className="text-gray-700 font-medium">Verified high-class escorts for medical professionals</p>
+                <p className="text-gray-700 font-medium">Verified high-class escorts perfect for residential meetings</p>
               </div>
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3"></div>
+                <div className="text-4xl mb-3">🔒</div>
                 <h3 className="text-lg font-bold text-gray-800 mb-2">Complete Discretion</h3>
-                <p className="text-gray-700 font-medium">100% privacy guaranteed in professional environment</p>
+                <p className="text-gray-700 font-medium">100% privacy guaranteed for residential clients in Bombay Hospital</p>
               </div>
             </div>
           </div>
@@ -312,10 +312,10 @@ export default function BombayHospitalPage() {
           <div className="w-full px-4">
             <div className="text-center mb-16">
               <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Premium Escort Services near Bombay Hospital, Indore
+                Premium Escort Services in Bombay Hospital, Indore
               </h2>
               <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-                Experience luxury companionship near Bombay Hospital's medical district with our verified professional escorts
+                Experience luxury companionship in Indore's upscale residential hub with our verified professional escorts
               </p>
             </div>
 
@@ -329,7 +329,7 @@ export default function BombayHospitalPage() {
                   <h3 className="text-xl font-bold text-gray-800 mb-3">{service.title}</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">{service.description}</p>
                   <a href={service.link} className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">
-                    Book near Bombay Hospital
+                    Book in Bombay Hospital
                   </a>
                 </div>
               ))}
@@ -343,10 +343,10 @@ export default function BombayHospitalPage() {
             <div className="max-w-7xl mx-auto">
               <div className="text-center mb-16">
                 <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-orange-600 via-pink-500 to-orange-700 bg-clip-text text-transparent mb-6">
-                  Why Choose Escorts near Bombay Hospital?
+                  Why Choose Escorts in Bombay Hospital?
                 </h2>
                 <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                  Bombay Hospital area is a premium medical district offering professional environment and excellent connectivity
+                  Bombay Hospital is Indore's upscale residential hub, offering the perfect setting for premium escort services
                 </p>
               </div>
 
@@ -354,24 +354,24 @@ export default function BombayHospitalPage() {
                 {/* Location Benefits */}
                 <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
                   <h3 className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text text-transparent mb-6">
-                     Premier Medical District
+                    �️ Prime Residential Location
                   </h3>
                   <div className="space-y-4">
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Premier Healthcare & Medical Facilities</p>
+                      <span className="text-2xl mr-4">�</span>
+                      <p className="font-semibold text-gray-700">Upscale Residential Hub of Indore</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Quality Hotels for Medical Visitors</p>
+                      <span className="text-2xl mr-4">�</span>
+                      <p className="font-semibold text-gray-700">Premium Homes & Private Locations</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Professional Medical Environment</p>
+                      <span className="text-2xl mr-4">🌳</span>
+                      <p className="font-semibold text-gray-700">Peaceful Residential Environment</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Excellent Connectivity & Access</p>
+                      <span className="text-2xl mr-4">🚗</span>
+                      <p className="font-semibold text-gray-700">Excellent Connectivity & Accessibility</p>
                     </div>
                   </div>
                 </div>
@@ -379,24 +379,24 @@ export default function BombayHospitalPage() {
                 {/* Service Features */}
                 <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-pink-100/50">
                   <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-6">
-                     Premium Service Features
+                    ⭐ Premium Service Features
                   </h3>
                   <div className="space-y-4">
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Perfect for Medical Professionals</p>
+                      <span className="text-2xl mr-4">👔</span>
+                      <p className="font-semibold text-gray-700">Perfect for Business Meetings & Events</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Professional & Sophisticated Service</p>
+                      <span className="text-2xl mr-4">🌟</span>
+                      <p className="font-semibold text-gray-700">High-Class Professional Companions</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">24/7 Availability near Bombay Hospital</p>
+                      <span className="text-2xl mr-4">⏰</span>
+                      <p className="font-semibold text-gray-700">24/7 Availability in Bombay Hospital</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Ultimate Discretion in Medical District</p>
+                      <span className="text-2xl mr-4">🔐</span>
+                      <p className="font-semibold text-gray-700">Discretion for Corporate Clients</p>
                     </div>
                   </div>
                 </div>
@@ -405,7 +405,7 @@ export default function BombayHospitalPage() {
               {/* Booking Information */}
               <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
                 <h3 className="text-4xl font-bold bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text text-transparent mb-8 text-center">
-                   Book Escorts near Bombay Hospital - Simple Process
+                  📱 Book Escorts in Bombay Hospital - Simple Process
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <div className="text-center">
@@ -413,30 +413,30 @@ export default function BombayHospitalPage() {
                       <span className="text-3xl font-bold text-white">1</span>
                     </div>
                     <h4 className="text-2xl font-bold text-gray-800 mb-3">Call or WhatsApp</h4>
-                    <p className="text-gray-600 text-lg">Contact us with your preferences for Bombay Hospital area</p>
+                    <p className="text-gray-600 text-lg">Contact us with your preferences for Bombay Hospital location</p>
                   </div>
                   <div className="text-center">
                     <div className="w-20 h-20 bg-gradient-to-r from-orange-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
                       <span className="text-3xl font-bold text-white">2</span>
                     </div>
                     <h4 className="text-2xl font-bold text-gray-800 mb-3">Select Companion</h4>
-                    <p className="text-gray-600 text-lg">Choose from our verified escorts available near Bombay Hospital</p>
+                    <p className="text-gray-600 text-lg">Choose from our verified escorts available in Bombay Hospital</p>
                   </div>
                   <div className="text-center">
                     <div className="w-20 h-20 bg-gradient-to-r from-pink-500 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
                       <span className="text-3xl font-bold text-white">3</span>
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-800 mb-3">Meet near Bombay Hospital</h4>
-                    <p className="text-gray-600 text-lg">Enjoy premium companionship in the medical district</p>
+                    <h4 className="text-2xl font-bold text-gray-800 mb-3">Meet in Bombay Hospital</h4>
+                    <p className="text-gray-600 text-lg">Enjoy premium companionship at your Bombay Hospital location</p>
                   </div>
                 </div>
                 <div className="text-center mt-8">
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-orange-500 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:scale-105 transition-transform shadow-xl">
-                       Call for Bombay Hospital: +91 9372662471
+                      📞 Call for Bombay Hospital: +91 9372662471
                     </a>
                     <a href="https://wa.me/919372662471" className="inline-block bg-gradient-to-r from-green-500 to-emerald-500 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:scale-105 transition-transform shadow-xl">
-                       WhatsApp Now
+                      💬 WhatsApp Now
                     </a>
                   </div>
                 </div>
@@ -450,10 +450,10 @@ export default function BombayHospitalPage() {
           <div className="w-full px-4">
             <div className="text-center mb-16">
               <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Frequently Asked Questions - Escorts near Bombay Hospital
+                Frequently Asked Questions - Escorts in Bombay Hospital
               </h2>
               <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Get answers to common questions about escort services near Bombay Hospital, Indore
+                Get answers to common questions about escort services in Bombay Hospital, Indore
               </p>
             </div>
 
@@ -467,7 +467,7 @@ export default function BombayHospitalPage() {
                     >
                       <h3 className="text-xl font-bold text-pink-900 pr-4 group-hover:text-orange-700">{faq.question}</h3>
                       <span className={`text-3xl transition-all duration-300 text-pink-700 ${openFaq === index ? 'rotate-180 scale-110' : ''}`}>
-                        
+                        ▼
                       </span>
                     </button>
                     {openFaq === index && (
@@ -484,14 +484,14 @@ export default function BombayHospitalPage() {
 
             <div className="text-center mt-16">
               <p className="text-xl text-gray-600 mb-8">
-                Have more questions about our escort services near Bombay Hospital? Contact us directly!
+                Have more questions about our escort services in Bombay Hospital? Contact us directly!
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
-                   Call +91 9372662471
+                  📞 Call +91 9372662471
                 </a>
                 <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
-                   WhatsApp Chat
+                  💬 WhatsApp Chat
                 </a>
               </div>
             </div>
@@ -504,10 +504,10 @@ export default function BombayHospitalPage() {
           <div className="w-full px-4 relative z-10">
             <div className="max-w-6xl mx-auto text-center">
               <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-8">
-                Ready to Book Premium Escorts near Bombay Hospital?
+                Ready to Book Premium Escorts in Bombay Hospital?
               </h2>
               <p className="text-2xl text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed">
-                Experience the finest escort services near Bombay Hospital's medical district with complete discretion and satisfaction guarantee
+                Experience the finest escort services in Indore's upscale residential hub with complete discretion and satisfaction guarantee
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a 
@@ -534,10 +534,10 @@ export default function BombayHospitalPage() {
               
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-yellow-300 to-pink-300 bg-clip-text text-transparent">
-                   Escorts near Bombay Hospital, Indore
+                   Escorts in Bombay Hospital, Indore
                 </h3>
                 <p className="text-pink-100 mb-6 leading-relaxed font-semibold text-lg">
-                  Premium escort services near Bombay Hospital medical district with verified professional companions. Available 24/7.
+                  Premium escort services in Bombay Hospital residential hub with verified professional companions. Available 24/7.
                 </p>
                 <div className="flex flex-col gap-4">
                   <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
@@ -550,7 +550,7 @@ export default function BombayHospitalPage() {
               </div>
               
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent"> Services near Bombay Hospital</h3>
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent"> Services in Bombay Hospital</h3>
                 <div className="space-y-3">
                   <a href="/services/celebrity-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Celebrity Escorts</a>
                   <a href="/services/vip-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> VIP Escorts</a>
@@ -598,16 +598,16 @@ export default function BombayHospitalPage() {
             {/* Footer Bottom */}
             <div className="border-t-2 border-pink-400/40 mt-16 pt-10 text-center">
               <p className="text-yellow-200 mb-6 font-bold text-xl leading-relaxed">
-                 2024 Premium Escorts near Bombay Hospital, Indore. All rights reserved. 
+                 2024 Premium Escorts in Bombay Hospital, Indore. All rights reserved. 
               </p>
               <div className="flex flex-wrap justify-center gap-6 mb-6">
-                <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full font-bold"> 24/7 Medical District</span>
+                <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full font-bold"> 24/7 Bombay Hospital</span>
                 <span className="bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-6 py-3 rounded-full font-bold"> 100% Verified</span>
                 <span className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-3 rounded-full font-bold"> Complete Discretion</span>
                 <span className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-6 py-3 rounded-full font-bold"> Premium Quality</span>
               </div>
               <p className="text-pink-200 font-semibold text-lg">
-                 Professional escort services near Bombay Hospital for adults only. Must be 18+ to use our services. 
+                 Professional escort services in Bombay Hospital for adults only. Must be 18+ to use our services. 
               </p>
             </div>
           </div>

@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Header from '@/components/Header'
 
-export default function AirportRoadPage() {
+export default function Airport RoadPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
 
   const toggleFaq = (index: number) => {
@@ -31,7 +31,7 @@ export default function AirportRoadPage() {
     },
     {
       title: "Premium Models",
-      subtitle: "High-End Sophistication",
+      subtitle: "High-End Sophistication", 
       description: "Premium models in Airport Road with unmatched sophistication",
       image: "/images/services/Premium Models.jpg",
       icon: "💎",
@@ -246,7 +246,7 @@ export default function AirportRoadPage() {
           <div className="w-full mx-auto text-center relative z-10 px-4">
             {/* Premium Badge */}
             <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
-              <span className="text-3xl">💎</span>
+              <span className="text-3xl">🛣️</span>
               <span className="text-pink-800 font-bold text-lg">Premium Escorts in Airport Road</span>
               <span className="text-3xl">✨</span>
             </div>
@@ -261,10 +261,10 @@ export default function AirportRoadPage() {
 
             <div className="max-w-5xl mx-auto mb-12">
               <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
-                Premium Escort Services in Airport Road's Aviation & Business Hub
+                Premium Escort Services in Airport Road Commercial District
               </p>
               <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
-                Verified professional escorts in Airport Road • 24/7 availability • Hotels & business centers • Complete discretion guaranteed
+                Verified professional escorts in Airport Road • 24/7 availability • Hotels & commercial venues • Complete discretion guaranteed
               </p>
             </div>
 

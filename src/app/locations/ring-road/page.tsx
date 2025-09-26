@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Header from '@/components/Header'
 
-export default function RingRoadPage() {
+export default function Ring RoadPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
 
   const toggleFaq = (index: number) => {
@@ -31,7 +31,7 @@ export default function RingRoadPage() {
     },
     {
       title: "Premium Models",
-      subtitle: "High-End Sophistication",
+      subtitle: "High-End Sophistication", 
       description: "Premium models in Ring Road with unmatched sophistication",
       image: "/images/services/Premium Models.jpg",
       icon: "💎",
@@ -200,15 +200,15 @@ export default function RingRoadPage() {
     },
     {
       question: "Are your Ring Road escorts verified and professional?",
-      answer: "Yes, absolutely! All our escorts in Ring Road are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards of elegance and sophistication while serving clients in the bustling Ring Road commercial area."
+      answer: "Yes, absolutely! All our escorts in Ring Road are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards of elegance and sophistication while serving clients in the Ring Road residential hub."
     },
     {
       question: "What makes Ring Road the best location for escort services in Indore?",
-      answer: "Ring Road is Indore's major commercial and connectivity hub with excellent hotels, restaurants, and business centers. It offers the perfect setting for upscale escort services with luxury accommodations and premier meeting venues throughout the area."
+      answer: "Ring Road is Indore's upscale residential hub with premium homes, peaceful environment, and private locations. It offers the perfect setting for high-end escort services with excellent privacy and sophisticated residential venues for meetings."
     },
     {
       question: "Do you provide both incall and outcall services in Ring Road?",
-      answer: "Yes, we provide both incall and outcall services throughout Ring Road. Our escorts can visit you at your hotel, business location, or residence in Ring Road, or you can visit our premium incall locations along the Ring Road corridor."
+      answer: "Yes, we provide both incall and outcall services throughout Ring Road. Our escorts can visit you at your home, residence, or private location in Ring Road, or you can visit our luxury incall locations in the area."
     },
     {
       question: "What are the rates for escort services in Ring Road?",
@@ -216,15 +216,15 @@ export default function RingRoadPage() {
     },
     {
       question: "Is privacy and discretion guaranteed for Ring Road bookings?",
-      answer: "Privacy and discretion are our top priorities for all Ring Road bookings. All client information is kept strictly confidential. Our escorts are trained to maintain complete discretion, which is especially important in the busy commercial environment of Ring Road."
+      answer: "Privacy and discretion are our top priorities for all Ring Road bookings. All client information is kept strictly confidential. Our escorts are trained to maintain complete discretion, especially important in the residential environment of Ring Road."
     },
     {
-      question: "Which hotels and locations in Ring Road do you recommend?",
-      answer: "Ring Road has numerous luxury hotels and business centers perfect for escort meetings including premium hotels, corporate guest houses, and upscale restaurants. We can recommend the best locations based on your preferences and requirements."
+      question: "Which locations in Ring Road do you recommend for escort meetings?",
+      answer: "Ring Road has several premium residential locations perfect for escort meetings including upscale homes, private apartments, and boutique accommodations. We can recommend the best locations based on your preferences and provide guidance for seamless meetings."
     },
     {
       question: "Are same-day bookings available for escorts in Ring Road?",
-      answer: "Yes, we offer same-day bookings for escorts in Ring Road subject to availability. Given the high demand in this commercial area, we recommend booking 2-3 hours in advance to ensure your preferred companion is available."
+      answer: "Yes, we offer same-day bookings for escorts in Ring Road subject to availability. Given Ring Road's popularity and high demand, we recommend booking 2-3 hours in advance to ensure your preferred companion is available in the area."
     }
   ]
 
@@ -246,7 +246,7 @@ export default function RingRoadPage() {
           <div className="w-full mx-auto text-center relative z-10 px-4">
             {/* Premium Badge */}
             <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
-              <span className="text-3xl">💎</span>
+              <span className="text-3xl">🛣️</span>
               <span className="text-pink-800 font-bold text-lg">Premium Escorts in Ring Road</span>
               <span className="text-3xl">✨</span>
             </div>
@@ -261,10 +261,10 @@ export default function RingRoadPage() {
 
             <div className="max-w-5xl mx-auto mb-12">
               <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
-                Premium Escort Services in Ring Road's Commercial Center
+                Premium Escort Services in Ring Road Commercial District
               </p>
               <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
-                Verified professional escorts in Ring Road • 24/7 availability • Luxury hotels & business venues • Complete discretion guaranteed
+                Verified professional escorts in Ring Road • 24/7 availability • Hotels & commercial venues • Complete discretion guaranteed
               </p>
             </div>
 
@@ -289,19 +289,19 @@ export default function RingRoadPage() {
             {/* Premium Features */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3">🏢</div>
-                <h3 className="text-lg font-bold text-gray-800 mb-2">Commercial Hub</h3>
-                <p className="text-gray-700 font-medium">Major commercial center with luxury hotels and business venues</p>
+                <div className="text-4xl mb-3">�</div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Residential Hub Location</h3>
+                <p className="text-gray-700 font-medium">Upscale Ring Road with premium homes and residential privacy</p>
               </div>
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
                 <div className="text-4xl mb-3">⭐</div>
                 <h3 className="text-lg font-bold text-gray-800 mb-2">Premium Companions</h3>
-                <p className="text-gray-700 font-medium">Verified high-class escorts perfect for business meetings</p>
+                <p className="text-gray-700 font-medium">Verified high-class escorts perfect for residential meetings</p>
               </div>
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
                 <div className="text-4xl mb-3">🔒</div>
                 <h3 className="text-lg font-bold text-gray-800 mb-2">Complete Discretion</h3>
-                <p className="text-gray-700 font-medium">100% privacy guaranteed for business clients in Ring Road</p>
+                <p className="text-gray-700 font-medium">100% privacy guaranteed for residential clients in Ring Road</p>
               </div>
             </div>
           </div>
@@ -315,7 +315,7 @@ export default function RingRoadPage() {
                 Premium Escort Services in Ring Road, Indore
               </h2>
               <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-                Experience luxury companionship in Indore's premier commercial hub with our verified professional escorts
+                Experience luxury companionship in Indore's upscale residential hub with our verified professional escorts
               </p>
             </div>
 
@@ -346,7 +346,7 @@ export default function RingRoadPage() {
                   Why Choose Escorts in Ring Road?
                 </h2>
                 <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                  Ring Road is Indore's premier commercial hub, offering the perfect setting for upscale escort services
+                  Ring Road is Indore's upscale residential hub, offering the perfect setting for premium escort services
                 </p>
               </div>
 
@@ -354,24 +354,24 @@ export default function RingRoadPage() {
                 {/* Location Benefits */}
                 <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
                   <h3 className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text text-transparent mb-6">
-                    🏢 Prime Commercial Location
+                    �️ Prime Residential Location
                   </h3>
                   <div className="space-y-4">
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4">🏨</span>
-                      <p className="font-semibold text-gray-700">Luxury Hotels & Business Centers</p>
+                      <span className="text-2xl mr-4">�</span>
+                      <p className="font-semibold text-gray-700">Upscale Residential Hub of Indore</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4">🍽️</span>
-                      <p className="font-semibold text-gray-700">Premium Restaurants & Cafes</p>
+                      <span className="text-2xl mr-4">�</span>
+                      <p className="font-semibold text-gray-700">Premium Homes & Private Locations</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4">🚗</span>
-                      <p className="font-semibold text-gray-700">Excellent Connectivity & Transport</p>
+                      <span className="text-2xl mr-4">🌳</span>
+                      <p className="font-semibold text-gray-700">Peaceful Residential Environment</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4">🏢</span>
-                      <p className="font-semibold text-gray-700">Corporate & Business Environment</p>
+                      <span className="text-2xl mr-4">🚗</span>
+                      <p className="font-semibold text-gray-700">Excellent Connectivity & Accessibility</p>
                     </div>
                   </div>
                 </div>
@@ -384,7 +384,7 @@ export default function RingRoadPage() {
                   <div className="space-y-4">
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
                       <span className="text-2xl mr-4">👔</span>
-                      <p className="font-semibold text-gray-700">Perfect for Business Meetings</p>
+                      <p className="font-semibold text-gray-700">Perfect for Business Meetings & Events</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
                       <span className="text-2xl mr-4">🌟</span>
@@ -507,20 +507,20 @@ export default function RingRoadPage() {
                 Ready to Book Premium Escorts in Ring Road?
               </h2>
               <p className="text-2xl text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed">
-                Experience the finest escort services in Indore's premier commercial hub with complete discretion and satisfaction guarantee
+                Experience the finest escort services in Indore's upscale residential hub with complete discretion and satisfaction guarantee
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a 
                   href="tel:+919372662471" 
                   className="inline-block bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-16 py-6 rounded-full font-bold text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
                 >
-                  📞 Call Now: +91 9372662471
+                   Call Now: +91 9372662471
                 </a>
                 <a 
                   href="https://wa.me/919372662471" 
                   className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-16 py-6 rounded-full font-bold text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
                 >
-                  💬 WhatsApp Now
+                   WhatsApp Now
                 </a>
               </div>
             </div>
@@ -534,61 +534,61 @@ export default function RingRoadPage() {
               
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-yellow-300 to-pink-300 bg-clip-text text-transparent">
-                  🏢 Escorts in Ring Road, Indore
+                   Escorts in Ring Road, Indore
                 </h3>
                 <p className="text-pink-100 mb-6 leading-relaxed font-semibold text-lg">
-                  Premium escort services in Ring Road commercial hub with verified professional companions. Available 24/7.
+                  Premium escort services in Ring Road residential hub with verified professional companions. Available 24/7.
                 </p>
                 <div className="flex flex-col gap-4">
                   <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
-                    📞 Call Now
+                     Call Now
                   </a>
                   <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-green-600 to-lime-600 hover:from-green-700 hover:to-lime-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
-                    💬 WhatsApp
+                     WhatsApp
                   </a>
                 </div>
               </div>
               
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent">⭐ Services in Ring Road</h3>
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent"> Services in Ring Road</h3>
                 <div className="space-y-3">
-                  <a href="/services/celebrity-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">⭐ Celebrity Escorts</a>
-                  <a href="/services/vip-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">💫 VIP Escorts</a>
-                  <a href="/services/premium-models" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">💎 Premium Models</a>
-                  <a href="/services/college-girls" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🌟 College Girls</a>
-                  <a href="/services/housewife-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">👑 Housewife Escorts</a>
-                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">✨ All Services</a>
+                  <a href="/services/celebrity-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Celebrity Escorts</a>
+                  <a href="/services/vip-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> VIP Escorts</a>
+                  <a href="/services/premium-models" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Premium Models</a>
+                  <a href="/services/college-girls" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> College Girls</a>
+                  <a href="/services/housewife-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Housewife Escorts</a>
+                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> All Services</a>
                 </div>
               </div>
               
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-orange-300 to-red-300 bg-clip-text text-transparent">🔗 Quick Links</h3>
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-orange-300 to-red-300 bg-clip-text text-transparent"> Quick Links</h3>
                 <div className="space-y-3">
-                  <a href="/" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🏠 Home</a>
-                  <a href="/services" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">⚡ All Services</a>
-                  <a href="/locations" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">📍 Other Locations</a>
-                  <a href="/about" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">ℹ️ About Us</a>
-                  <a href="/contact" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">📧 Contact</a>
+                  <a href="/" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Home</a>
+                  <a href="/services" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> All Services</a>
+                  <a href="/locations" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Other Locations</a>
+                  <a href="/about" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> About Us</a>
+                  <a href="/contact" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Contact</a>
                 </div>
               </div>
               
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">📱 Contact for Ring Road</h3>
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent"> Contact for Ring Road</h3>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3 p-3">
-                    <span className="text-2xl">📞</span>
+                    <span className="text-2xl"></span>
                     <a href="tel:+919372662471" className="text-yellow-200 hover:text-yellow-100 font-bold text-lg">+91 9372 662 471</a>
                   </div>
                   <div className="flex items-center space-x-3 p-3">
-                    <span className="text-2xl">💬</span>
+                    <span className="text-2xl"></span>
                     <a href="https://wa.me/919372662471" className="text-green-200 hover:text-green-100 font-bold text-lg">WhatsApp Available</a>
                   </div>
                   <div className="flex items-center space-x-3 p-3">
-                    <span className="text-2xl">🏢</span>
+                    <span className="text-2xl"></span>
                     <span className="text-pink-200 font-bold text-lg">Ring Road Area</span>
                   </div>
                   <div className="flex items-center space-x-3 p-3">
-                    <span className="text-2xl">⏰</span>
+                    <span className="text-2xl"></span>
                     <span className="text-orange-200 font-bold text-lg">24/7 Available</span>
                   </div>
                 </div>
@@ -598,16 +598,16 @@ export default function RingRoadPage() {
             {/* Footer Bottom */}
             <div className="border-t-2 border-pink-400/40 mt-16 pt-10 text-center">
               <p className="text-yellow-200 mb-6 font-bold text-xl leading-relaxed">
-                © 2024 Premium Escorts in Ring Road, Indore. All rights reserved. 
+                 2024 Premium Escorts in Ring Road, Indore. All rights reserved. 
               </p>
               <div className="flex flex-wrap justify-center gap-6 mb-6">
-                <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full font-bold">🏢 24/7 Ring Road</span>
-                <span className="bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-6 py-3 rounded-full font-bold">✅ 100% Verified</span>
-                <span className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-3 rounded-full font-bold">🔒 Complete Discretion</span>
-                <span className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-6 py-3 rounded-full font-bold">⭐ Premium Quality</span>
+                <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full font-bold"> 24/7 Ring Road</span>
+                <span className="bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-6 py-3 rounded-full font-bold"> 100% Verified</span>
+                <span className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-3 rounded-full font-bold"> Complete Discretion</span>
+                <span className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-6 py-3 rounded-full font-bold"> Premium Quality</span>
               </div>
               <p className="text-pink-200 font-semibold text-lg">
-                🔞 Professional escort services in Ring Road for adults only. Must be 18+ to use our services. 
+                 Professional escort services in Ring Road for adults only. Must be 18+ to use our services. 
               </p>
             </div>
           </div>
