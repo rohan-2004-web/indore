@@ -825,6 +825,169 @@ export default function ServicesPage() {
           </div>
         </section>
 
+        {/* Service Locations Section */}
+        <section className="py-20 bg-gradient-to-br from-pink-200/80 via-orange-200/60 to-pink-300/70">
+          <div className="w-full px-4">
+            <div className="max-w-7xl mx-auto">
+              <div className="text-center mb-16">
+                <div className="bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-lg rounded-3xl shadow-2xl p-10 border-2 border-pink-300/60">
+                  <h2 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-pink-700 via-orange-600 to-pink-800 bg-clip-text text-transparent mb-6 drop-shadow-lg">
+                    🌟 Available in All Major Locations 🌟
+                  </h2>
+                  <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 mx-auto max-w-4xl border-2 border-orange-300/50">
+                    <p className="text-xl text-gray-800 font-bold">
+                      Our premium escort services are available across all major areas of Indore with verified professional companions
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                
+                {/* Saket */}
+                <a href="/locations/saket" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30 cursor-pointer">
+                  <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🏘️</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">Saket</h3>
+                  <p className="text-gray-600 mb-4">Premium residential area</p>
+                  <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                    View Services
+                  </div>
+                </a>
+
+                {/* Scheme 78 */}
+                <a href="/locations/scheme-78" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30 cursor-pointer">
+                  <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🏢</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">Scheme 78</h3>
+                  <p className="text-gray-600 mb-4">IT Corporate sector</p>
+                  <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                    View Services
+                  </div>
+                </a>
+
+                {/* AB Road */}
+                <a href="/locations/ab-road" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30 cursor-pointer">
+                  <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🛣️</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">AB Road</h3>
+                  <p className="text-gray-600 mb-4">Commercial hub</p>
+                  <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                    View Services
+                  </div>
+                </a>
+
+                {/* Palasia */}
+                <a href="/locations/palasia" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30 cursor-pointer">
+                  <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🏪</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">Palasia</h3>
+                  <p className="text-gray-600 mb-4">Business district</p>
+                  <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                    View Services
+                  </div>
+                </a>
+
+                {/* Bhawar Kuan */}
+                <a href="/locations/bhawar-kuan" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30 cursor-pointer">
+                  <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🎭</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">Bhawar Kuan</h3>
+                  <p className="text-gray-600 mb-4">Cultural center</p>
+                  <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                    View Services
+                  </div>
+                </a>
+
+                {/* Rau */}
+                <a href="/locations/rau" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30 cursor-pointer">
+                  <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🌳</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">Rau</h3>
+                  <p className="text-gray-600 mb-4">Residential area</p>
+                  <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                    View Services
+                  </div>
+                </a>
+
+                {/* Ring Road */}
+                <a href="/locations/ring-road" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30 cursor-pointer">
+                  <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🔗</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">Ring Road</h3>
+                  <p className="text-gray-600 mb-4">Commercial hub</p>
+                  <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                    View Services
+                  </div>
+                </a>
+
+                {/* Bombay Hospital */}
+                <a href="/locations/bombay-hospital" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30 cursor-pointer">
+                  <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🏥</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">Bombay Hospital</h3>
+                  <p className="text-gray-600 mb-4">Medical district</p>
+                  <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                    View Services
+                  </div>
+                </a>
+
+                {/* MG Road */}
+                <a href="/locations/mg-road" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30 cursor-pointer">
+                  <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🛍️</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">MG Road</h3>
+                  <p className="text-gray-600 mb-4">Shopping street</p>
+                  <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                    View Services
+                  </div>
+                </a>
+
+                {/* Airport Road */}
+                <a href="/locations/airport-road" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30 cursor-pointer">
+                  <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">✈️</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">Airport Road</h3>
+                  <p className="text-gray-600 mb-4">Aviation hub</p>
+                  <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                    View Services
+                  </div>
+                </a>
+
+                {/* Treasure Island */}
+                <a href="/locations/treasure-island" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30 cursor-pointer">
+                  <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🏬</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">Treasure Island</h3>
+                  <p className="text-gray-600 mb-4">Shopping mall</p>
+                  <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                    View Services
+                  </div>
+                </a>
+
+                {/* Vijay Nagar */}
+                <a href="/locations/vijay-nagar" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30 cursor-pointer">
+                  <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🏛️</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">Vijay Nagar</h3>
+                  <p className="text-gray-600 mb-4">Commercial area</p>
+                  <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                    View Services
+                  </div>
+                </a>
+
+              </div>
+
+              <div className="text-center mt-16">
+                <div className="bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-lg rounded-3xl shadow-2xl p-8 border-2 border-pink-300/50">
+                  <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-6">
+                    🚀 Ready to Book Our Services? 🚀
+                  </h3>
+                  <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
+                    Click on any location above for detailed services and instant booking
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                    <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-12 py-4 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl">
+                      📞 Call +91 9372662471
+                    </a>
+                    <a href="https://wa.me/919372662471" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-12 py-4 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl">
+                      💬 WhatsApp Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Footer - Same as Homepage */}
         <footer className="bg-gradient-to-br from-pink-600/95 via-purple-700/90 to-orange-600/95 text-white py-20 relative">
           <div className="w-full px-4 relative z-10">
