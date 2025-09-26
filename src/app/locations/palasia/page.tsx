@@ -1,329 +1,618 @@
-'use client'
+﻿'use client'
 
-import React, { useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import { useState } from 'react'
+import Header from '@/components/Header'
 
 export default function PalasiaPage() {
-  const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [openFaq, setOpenFaq] = useState<number | null>(null)
 
   const toggleFaq = (index: number) => {
-    setOpenFaq(openFaq === index ? null : index);
-  };
+    setOpenFaq(openFaq === index ? null : index)
+  }
 
   const services = [
     {
+      title: "Celebrity Escorts",
+      subtitle: "Star Quality Service",
+      description: "Experience celebrity-level companions in Palasia with exceptional elegance",
+      image: "/images/services/Celebrity Escorts.webp",
+      icon: "",
+      category: "CELEBRITY",
+      link: "/services/celebrity-escorts"
+    },
+    {
+      title: "VIP Escorts", 
+      subtitle: "Ultimate Luxury",
+      description: "Our most exclusive VIP escorts in Palasia offering ultimate luxury",
+      image: "/images/services/VIP Escorts.jpg",
+      icon: "",
+      category: "VIP",
+      link: "/services/vip-escorts"
+    },
+    {
+      title: "Premium Models",
+      subtitle: "High-End Sophistication",
+      description: "Premium models in Palasia with unmatched sophistication",
+      image: "/images/services/Premium Models.jpg",
+      icon: "",
+      category: "PREMIUM",
+      link: "/services/premium-models"
+    },
+    {
       title: "College Girls",
-      image: "/images/service1.jpg",
-      description: "Professional college companion services in Palasia area"
+      subtitle: "Fresh & Young",
+      description: "Beautiful young companions in Palasia with vibrant energy",
+      image: "/images/services/College Girls.webp",
+      icon: "",
+      category: "YOUNG",
+      link: "/services/college-girls"
     },
     {
-      title: "Housewives",
-      image: "/images/service2.jpg",
-      description: "Discreet mature companion services near Palasia shopping district"
+      title: "Housewife Escorts",
+      subtitle: "Mature Experience",
+      description: "Experienced mature companions in Palasia with caring nature",
+      image: "/images/services/Housewife Escorts.jpg",
+      icon: "",
+      category: "MATURE",
+      link: "/services/housewife-escorts"
     },
     {
-      title: "Call Girls",
-      image: "/images/service3.jpg",
-      description: "Premium call girl services in Palasia commercial area"
+      title: "Punjabi Women",
+      subtitle: "Traditional Beauty",
+      description: "Authentic Punjabi companions in Palasia with traditional charm",
+      image: "/images/services/Punjabi women.webp",
+      icon: "",
+      category: "TRADITIONAL",
+      link: "/services"
     },
     {
-      title: "Celebrity",
-      image: "/images/service4.jpg",
-      description: "Exclusive celebrity companion services in Palasia"
+      title: "Slim Escorts",
+      subtitle: "Perfect Figure",
+      description: "Elegant slim companions in Palasia with perfect figures",
+      image: "/images/services/Slim Escorts.webp",
+      icon: "",
+      category: "SLIM",
+      link: "/services"
     },
     {
-      title: "Air Hostess",
-      image: "/images/service5.jpg",
-      description: "Sophisticated air hostess companion services near Palasia"
+      title: "Unsatisfied Bhabhi",
+      subtitle: "Seeking Excitement",
+      description: "Experienced companions in Palasia seeking excitement and connection",
+      image: "/images/services/Unsatisfied Bhabhi.webp",
+      icon: "",
+      category: "BHABHI",
+      link: "/services"
     },
     {
-      title: "Models",
-      image: "/images/service6.jpg",
-      description: "Professional model companion services in Palasia area"
+      title: "Local Beauties",
+      subtitle: "Know Indore Best",
+      description: "Beautiful local companions in Palasia who know the city inside out",
+      image: "/images/services/Local Beauties.webp",
+      icon: "",
+      category: "LOCAL",
+      link: "/services"
     },
     {
-      title: "Independent Girls",
-      image: "/images/service7.jpg",
-      description: "Independent companion services in Palasia shopping district"
+      title: "Event Companion",
+      subtitle: "Perfect Plus One",
+      description: "Professional companions in Palasia for business events and parties",
+      image: "/images/services/Event Companion.webp",
+      icon: "",
+      category: "PROFESSIONAL",
+      link: "/services"
     },
     {
-      title: "Russian Girls",
-      image: "/images/service8.jpg",
-      description: "Exotic Russian companion services near Palasia"
+      title: "Pink Special",
+      subtitle: "Exclusive Experience",
+      description: "Special premium companions in Palasia for exclusive experiences",
+      image: "/images/services/Pink Special.webp",
+      icon: "",
+      category: "SPECIAL",
+      link: "/services"
     },
     {
-      title: "VIP Girls",
-      image: "/images/service9.jpg",
-      description: "VIP companion services in exclusive Palasia areas"
+      title: "Unsatisfied Females",
+      subtitle: "Meaningful Connections",
+      description: "Mature women in Palasia seeking meaningful connections",
+      image: "/images/services/Unsatisfied Females.webp",
+      icon: "",
+      category: "FEMALE",
+      link: "/services"
     },
     {
-      title: "Hotel Service",
-      image: "/images/service10.jpg",
-      description: "Hotel companion services near Palasia business hotels"
+      title: "Incall Escorts",
+      subtitle: "Luxury Locations",
+      description: "Premium incall services in Palasia at luxury locations",
+      image: "/images/services/Incall Escorts.webp",
+      icon: "",
+      category: "INCALL",
+      link: "/services"
     },
     {
-      title: "Home Service",
-      image: "/images/service11.jpg",
-      description: "Private home companion services in Palasia residential areas"
+      title: "Mature Escorts",
+      subtitle: "Experienced Sophistication",
+      description: "Experienced mature companions in Palasia with sophistication",
+      image: "/images/services/Mature Escorts.webp",
+      icon: "",
+      category: "MATURE",
+      link: "/services"
     },
     {
-      title: "Party Girls",
-      image: "/images/service12.jpg",
-      description: "Party companion services for Palasia social events"
+      title: "Young Girls",
+      subtitle: "Unforgettable Experiences",
+      description: "Young beautiful companions in Palasia for unforgettable experiences",
+      image: "/images/services/Young Girls.webp",
+      icon: "",
+      category: "YOUNG",
+      link: "/services"
     },
     {
-      title: "Massage Service",
-      image: "/images/service13.jpg",
-      description: "Relaxing massage services in Palasia commercial zone"
+      title: "Indore Escorts",
+      subtitle: "Local Expertise",
+      description: "Premium local escorts in Palasia with deep knowledge of Indore",
+      image: "/images/services/indore escorts.webp",
+      icon: "",
+      category: "LOCAL",
+      link: "/services"
     },
     {
-      title: "Overnight Service",
-      image: "/images/service14.jpg",
-      description: "Overnight companion services in Palasia area"
+      title: "Expert Services",
+      subtitle: "Professional Expertise",
+      description: "Expert companions in Palasia with specialized skills",
+      image: "/images/services/Expert Services.webp",
+      icon: "",
+      category: "EXPERT",
+      link: "/services"
     },
     {
-      title: "Dance Service",
-      image: "/images/service15.jpg",
-      description: "Professional dance companion services in Palasia"
+      title: "High Class Models",
+      subtitle: "Elite Fashion Models",
+      description: "Stunning high-class models in Palasia with runway experience",
+      image: "/images/services/High Class Models.webp",
+      icon: "",
+      category: "MODEL",
+      link: "/services"
     },
     {
-      title: "Girlfriend Experience",
-      image: "/images/service16.jpg",
-      description: "Intimate girlfriend experience services near Palasia"
+      title: "Bold Girls",
+      subtitle: "Confident & Adventurous",
+      description: "Bold and confident companions in Palasia ready for adventures",
+      image: "/images/services/bold girls.webp",
+      icon: "",
+      category: "BOLD",
+      link: "/services"
     },
     {
-      title: "Travel Companion",
-      image: "/images/service17.jpg",
-      description: "Travel companion services from Palasia location"
-    },
-    {
-      title: "High Profile",
-      image: "/images/service18.jpg",
-      description: "High profile companion services in upscale Palasia areas"
-    },
-    {
-      title: "Corporate Service",
-      image: "/images/service19.jpg",
-      description: "Corporate event companion services in Palasia business district"
-    },
-    {
-      title: "24/7 Service",
-      image: "/images/service20.jpg",
-      description: "Round-the-clock companion services in Palasia area"
+      title: "Sexy Girls",
+      subtitle: "Mesmerizing Charm",
+      description: "Incredibly attractive companions in Palasia with mesmerizing charm",
+      image: "/images/services/sexy girls.webp",
+      icon: "",
+      category: "SEXY",
+      link: "/services"
     }
-  ];
+  ]
 
   const faqs = [
     {
-      question: "Are escort services available 24/7 in Palasia?",
-      answer: "Yes, we provide round-the-clock escort services in Palasia. Our premium companions are available for bookings throughout the day and night in the Palasia shopping district."
+      question: "How can I book premium escorts in Palasia, Indore?",
+      answer: "Booking escorts in Palasia is simple and discreet. Call us directly at +91 9372662471 or WhatsApp. Our team is available 24/7 to help you select the perfect companion in the Palasia area based on your preferences."
     },
     {
-      question: "What types of escort services are offered in Palasia?",
-      answer: "We offer comprehensive escort services in Palasia including college girls, housewives, models, air hostess companions, and VIP services tailored to the shopping and commercial environment."
+      question: "Are your Palasia escorts verified and professional?",
+      answer: "Yes, absolutely! All our escorts in Palasia are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards of elegance and sophistication while serving clients in the central Palasia area."
     },
     {
-      question: "Is discretion maintained for escorts in Palasia?",
-      answer: "Absolutely. We maintain complete discretion and privacy for all our escort services in Palasia. Client confidentiality is our top priority in this busy commercial area."
+      question: "What makes Palasia ideal for escort services in Indore?",
+      answer: "Palasia is a well-connected central area of Indore with excellent transportation links, shopping areas, restaurants, and hotels. It offers convenient access and privacy making it perfect for professional escort services."
     },
     {
-      question: "How to book escort services in Palasia area?",
-      answer: "Booking escort services in Palasia is simple through our website or direct contact. We ensure quick response times for bookings in the Palasia shopping district."
+      question: "Do you provide both incall and outcall services in Palasia?",
+      answer: "Yes, we provide both incall and outcall services throughout Palasia. Our escorts can visit you at your hotel, residence, or office in Palasia, or you can visit our luxury incall locations in the area."
     },
     {
-      question: "What makes Palasia escort services special?",
-      answer: "Our Palasia escort services are designed for the shopping and commercial environment, offering companions who understand the area's business and retail culture."
+      question: "What are the rates for escort services in Palasia?",
+      answer: "Our rates for escorts in Palasia vary based on the service type, duration, and companion category. We offer competitive pricing for all categories from college girls to VIP escorts. Contact us directly for detailed pricing specific to Palasia."
     },
     {
-      question: "Are outcall services available to Palasia hotels?",
-      answer: "Yes, we provide outcall escort services to all major hotels and accommodations in the Palasia area, ensuring convenient and discreet meetings."
+      question: "Is privacy and discretion guaranteed for Palasia bookings?",
+      answer: "Privacy and discretion are our top priorities for all Palasia bookings. All client information is kept strictly confidential. Our escorts are trained to maintain complete discretion throughout the Palasia area."
     },
     {
-      question: "What is the booking process for escorts in Palasia?",
-      answer: "Our Palasia escort booking process is straightforward - select your preferred companion, choose the service duration, and we handle the rest with complete professionalism."
+      question: "Which venues in Palasia do you recommend for escort meetings?",
+      answer: "Palasia has numerous suitable venues including hotels, restaurants, cafes, and private locations. We can recommend the best venues based on your preferences and provide guidance for seamless meetings in this central location."
     },
     {
-      question: "Do you provide escort services for Palasia shopping events?",
-      answer: "Yes, we offer specialized escort services for shopping events, business meetings, and social gatherings in the Palasia commercial district."
+      question: "Are same-day bookings available for escorts in Palasia?",
+      answer: "Yes, we offer same-day bookings for escorts in Palasia subject to availability. Given Palasia's central location and popularity, we recommend booking 2-3 hours in advance to ensure your preferred companion is available."
     }
-  ];
+  ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 via-emerald-50 to-teal-50">
-      {/* Header */}
-      <header className="bg-white/80 backdrop-blur-md shadow-lg sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex justify-between items-center">
-            <Link href="/" className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-teal-600">
-              Indore Escorts
-            </Link>
-            <nav className="hidden md:flex space-x-8">
-              <Link href="/" className="text-gray-700 hover:text-green-600 transition-colors font-medium">Home</Link>
-              <Link href="/about" className="text-gray-700 hover:text-green-600 transition-colors font-medium">About</Link>
-              <Link href="/services" className="text-gray-700 hover:text-green-600 transition-colors font-medium">Services</Link>
-              <Link href="/contact" className="text-gray-700 hover:text-green-600 transition-colors font-medium">Contact</Link>
-            </nav>
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-br from-pink-200/60 via-orange-100/50 to-pink-300/60">
+        
+        {/* Hero Section - Premium Enhanced Style */}
+        <section className="pt-20 pb-16 relative min-h-screen flex items-center overflow-hidden">
+          {/* Animated Background Elements */}
+          <div className="absolute inset-0">
+            <div className="absolute inset-0 bg-gradient-to-br from-pink-300/95 via-orange-200/90 to-pink-300/95"></div>
+            <div className="absolute top-10 left-10 w-72 h-72 bg-gradient-to-br from-pink-400/30 to-orange-300/30 rounded-full blur-3xl animate-pulse"></div>
+            <div className="absolute bottom-20 right-16 w-96 h-96 bg-gradient-to-br from-orange-400/25 to-pink-400/25 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-br from-pink-300/20 to-orange-300/20 rounded-full blur-2xl animate-pulse" style={{animationDelay: '2s'}}></div>
           </div>
-        </div>
-      </header>
+          
+          <div className="w-full mx-auto text-center relative z-10 px-4">
+            {/* Premium Badge */}
+            <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
+              <span className="text-3xl"></span>
+              <span className="text-pink-800 font-bold text-lg">Premium Escorts in Palasia</span>
+              <span className="text-3xl"></span>
+            </div>
 
-      {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-green-600/10 via-emerald-500/10 to-teal-600/10"></div>
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-600 via-emerald-500 to-teal-600 mb-6">
-              Premium Escorts in Palasia
+            <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
+              Escorts in Palasia
+              <br />
+              <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
+                Central Location
+              </span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              Experience luxury companion services in Palasia's premier shopping district. Professional escorts available for shopping tours, business meetings, and social events.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/contact" className="bg-gradient-to-r from-green-600 to-teal-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-green-700 hover:to-teal-700 transform hover:scale-105 transition-all shadow-xl">
-                Book Now
-              </Link>
-              <Link href="/services" className="bg-white/80 text-green-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-white border-2 border-green-600 transform hover:scale-105 transition-all shadow-xl">
-                View Services
-              </Link>
+
+            <div className="max-w-5xl mx-auto mb-12">
+              <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
+                Premium Escort Services in Central Palasia Area
+              </p>
+              <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
+                Verified professional escorts in Palasia  24/7 availability  Central location & easy access  Complete discretion guaranteed
+              </p>
+            </div>
+
+            {/* Enhanced CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-8 justify-center mb-16">
+              <a 
+                href="tel:+919372662471" 
+                className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-pink-600 via-pink-700 to-pink-800 hover:from-pink-700 hover:via-pink-800 hover:to-pink-900 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-pink-500/50 border-2 border-pink-400/30"
+              >
+                <span className="text-3xl group-hover:animate-bounce"></span>
+                <span>Call Now: +91 9372 662 471</span>
+              </a>
+              <a 
+                href="https://wa.me/919372662471" 
+                className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:from-green-600 hover:via-green-700 hover:to-green-800 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 border-2 border-green-400/30"
+              >
+                <span className="text-3xl group-hover:animate-bounce"></span>
+                <span>WhatsApp Now</span>
+              </a>
+            </div>
+
+            {/* Premium Features */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
+                <div className="text-4xl mb-3"></div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Central Location</h3>
+                <p className="text-gray-700 font-medium">Prime Palasia area with excellent connectivity and access</p>
+              </div>
+              <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
+                <div className="text-4xl mb-3"></div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Premium Companions</h3>
+                <p className="text-gray-700 font-medium">Verified high-class escorts perfect for discerning clients</p>
+              </div>
+              <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
+                <div className="text-4xl mb-3"></div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Complete Discretion</h3>
+                <p className="text-gray-700 font-medium">100% privacy guaranteed for clients in Palasia</p>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Palasia Features */}
-      <section className="py-16 bg-white/50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-teal-600">
-            Why Choose Palasia Location
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white/80 rounded-2xl p-8 shadow-xl text-center transform hover:scale-105 transition-all">
-              <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl text-white">🛍️</span>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Shopping District</h3>
-              <p className="text-gray-600">Premier shopping destination with luxury malls, boutiques, and commercial centers perfect for companion services.</p>
+        {/* Services Section */}
+        <section className="py-20 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70">
+          <div className="w-full px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+                Premium Escort Services in Palasia, Indore
+              </h2>
+              <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+                Experience luxury companionship in central Palasia with our verified professional escorts
+              </p>
             </div>
-            <div className="bg-white/80 rounded-2xl p-8 shadow-xl text-center transform hover:scale-105 transition-all">
-              <div className="w-16 h-16 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl text-white">🏢</span>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Commercial Hub</h3>
-              <p className="text-gray-600">Bustling commercial area with business centers, making it ideal for professional companion services.</p>
-            </div>
-            <div className="bg-white/80 rounded-2xl p-8 shadow-xl text-center transform hover:scale-105 transition-all">
-              <div className="w-16 h-16 bg-gradient-to-r from-teal-500 to-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl text-white">🎯</span>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Central Location</h3>
-              <p className="text-gray-600">Strategically located in the heart of Indore with easy access to hotels, restaurants, and entertainment venues.</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Services Grid */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-teal-600">
-            Our Premium Services in Palasia
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {services.map((service, index) => (
-              <div key={index} className="bg-white/80 rounded-2xl overflow-hidden shadow-xl transform hover:scale-105 transition-all hover:shadow-2xl">
-                <div className="relative h-80">
-                  <Image 
-                    src={service.image} 
-                    alt={service.title}
-                    fill
-                    className="object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-green-900/70 via-transparent to-transparent"></div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl mx-auto">
+              {services.map((service, index) => (
+                <div key={index} className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src={service.image} alt={service.title} className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
+                  </div>
+                  <span className="text-2xl mb-2">{service.icon}</span>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">{service.title}</h3>
+                  <p className="text-gray-600 mb-4 text-base flex-grow">{service.description}</p>
+                  <a href={service.link} className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">
+                    Book in Palasia
+                  </a>
                 </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-2">{service.title}</h3>
-                  <p className="text-gray-600 text-sm mb-4">{service.description}</p>
-                  <Link href="/contact" className="bg-gradient-to-r from-green-500 to-teal-500 text-white px-4 py-2 rounded-full text-sm font-medium hover:from-green-600 hover:to-teal-600 transition-all inline-block">
-                    Book Now
-                  </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Palasia Information Section */}
+        <section className="py-20 bg-gradient-to-br from-orange-100/50 via-pink-50/50 to-orange-200/60">
+          <div className="w-full px-4">
+            <div className="max-w-7xl mx-auto">
+              <div className="text-center mb-16">
+                <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-orange-600 via-pink-500 to-orange-700 bg-clip-text text-transparent mb-6">
+                  Why Choose Escorts in Palasia?
+                </h2>
+                <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                  Palasia is a central and well-connected area of Indore, offering the perfect setting for premium escort services
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+                {/* Location Benefits */}
+                <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
+                  <h3 className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text text-transparent mb-6">
+                     Prime Central Location
+                  </h3>
+                  <div className="space-y-4">
+                    <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Central Indore Location</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Excellent Transportation Links</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Hotels & Meeting Venues</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Shopping Areas & Restaurants</p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Service Features */}
+                <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-pink-100/50">
+                  <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-6">
+                     Premium Service Features
+                  </h3>
+                  <div className="space-y-4">
+                    <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Perfect for Personal & Business Meetings</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">High-Class Professional Companions</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">24/7 Availability in Palasia</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Complete Privacy & Discretion</p>
+                    </div>
+                  </div>
                 </div>
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
-      {/* FAQ Section */}
-      <section className="py-16 bg-white/50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-teal-600">
-            Frequently Asked Questions - Palasia
-          </h2>
-          <div className="max-w-3xl mx-auto">
-            {faqs.map((faq, index) => (
-              <div key={index} className="mb-4">
-                <button
-                  onClick={() => toggleFaq(index)}
-                  className="w-full bg-white/80 rounded-2xl p-6 text-left shadow-lg hover:shadow-xl transition-all"
+              {/* Booking Information */}
+              <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
+                <h3 className="text-4xl font-bold bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text text-transparent mb-8 text-center">
+                   Book Escorts in Palasia - Simple Process
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  <div className="text-center">
+                    <div className="w-20 h-20 bg-gradient-to-r from-pink-500 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span className="text-3xl font-bold text-white">1</span>
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-800 mb-3">Call or WhatsApp</h4>
+                    <p className="text-gray-600 text-lg">Contact us with your preferences for Palasia location</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-20 h-20 bg-gradient-to-r from-orange-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span className="text-3xl font-bold text-white">2</span>
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-800 mb-3">Select Companion</h4>
+                    <p className="text-gray-600 text-lg">Choose from our verified escorts available in Palasia</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-20 h-20 bg-gradient-to-r from-pink-500 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span className="text-3xl font-bold text-white">3</span>
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-800 mb-3">Meet in Palasia</h4>
+                    <p className="text-gray-600 text-lg">Enjoy premium companionship at your Palasia location</p>
+                  </div>
+                </div>
+                <div className="text-center mt-8">
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-orange-500 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:scale-105 transition-transform shadow-xl">
+                       Call for Palasia: +91 9372662471
+                    </a>
+                    <a href="https://wa.me/919372662471" className="inline-block bg-gradient-to-r from-green-500 to-emerald-500 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:scale-105 transition-transform shadow-xl">
+                       WhatsApp Now
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-20 bg-gradient-to-br from-pink-100/60 via-orange-50/50 to-pink-200/60">
+          <div className="w-full px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+                Frequently Asked Questions - Escorts in Palasia
+              </h2>
+              <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                Get answers to common questions about escort services in Palasia, Indore
+              </p>
+            </div>
+
+            <div className="max-w-7xl mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {faqs.map((faq, index) => (
+                  <div key={index} className="bg-gradient-to-br from-pink-100 to-orange-100 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-pink-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
+                    <button
+                      onClick={() => toggleFaq(index)}
+                      className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-pink-200/80 hover:to-orange-100/80 transition-all duration-200 flex justify-between items-center group"
+                    >
+                      <h3 className="text-xl font-bold text-pink-900 pr-4 group-hover:text-orange-700">{faq.question}</h3>
+                      <span className={`text-3xl transition-all duration-300 text-pink-700 ${openFaq === index ? 'rotate-180 scale-110' : ''}`}>
+                        
+                      </span>
+                    </button>
+                    {openFaq === index && (
+                      <div className="px-8 pb-8 bg-gradient-to-r from-pink-50/90 to-orange-50/90">
+                        <p className="text-gray-700 leading-relaxed text-lg font-medium">
+                          {faq.answer}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="text-center mt-16">
+              <p className="text-xl text-gray-600 mb-8">
+                Have more questions about our escort services in Palasia? Contact us directly!
+              </p>
+              <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                   Call +91 9372662471
+                </a>
+                <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                   WhatsApp Chat
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Call to Action Section */}
+        <section className="py-20 relative">
+          <div className="absolute inset-0 bg-gradient-to-r from-pink-600/20 to-orange-600/20"></div>
+          <div className="w-full px-4 relative z-10">
+            <div className="max-w-6xl mx-auto text-center">
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-8">
+                Ready to Book Premium Escorts in Palasia?
+              </h2>
+              <p className="text-2xl text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed">
+                Experience the finest escort services in central Palasia with complete discretion and satisfaction guarantee
+              </p>
+              <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                <a 
+                  href="tel:+919372662471" 
+                  className="inline-block bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-16 py-6 rounded-full font-bold text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
                 >
-                  <div className="flex justify-between items-center">
-                    <h3 className="text-lg font-semibold text-gray-800">{faq.question}</h3>
-                    <span className="text-green-600 text-2xl">{openFaq === index ? '−' : '+'}</span>
-                  </div>
-                </button>
-                {openFaq === index && (
-                  <div className="mt-2 bg-white/60 rounded-2xl p-6 shadow-inner">
-                    <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
-                  </div>
-                )}
+                   Call Now: +91 9372662471
+                </a>
+                <a 
+                  href="https://wa.me/919372662471" 
+                  className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-16 py-6 rounded-full font-bold text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
+                >
+                   WhatsApp Now
+                </a>
               </div>
-            ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Footer */}
-      <footer className="bg-gradient-to-r from-green-900 via-emerald-900 to-teal-900 text-white py-12">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div>
-              <h3 className="text-2xl font-bold mb-4">Palasia Escorts</h3>
-              <p className="text-green-200 mb-4">Premium escort services in Palasia shopping district with professional companions for all occasions.</p>
+        {/* Footer - Same as Homepage */}
+        <footer className="bg-gradient-to-br from-pink-600/95 via-purple-700/90 to-orange-600/95 text-white py-20 relative">
+          <div className="w-full px-4 relative z-10">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+              
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-yellow-300 to-pink-300 bg-clip-text text-transparent">
+                   Escorts in Palasia, Indore
+                </h3>
+                <p className="text-pink-100 mb-6 leading-relaxed font-semibold text-lg">
+                  Premium escort services in central Palasia with verified professional companions. Available 24/7.
+                </p>
+                <div className="flex flex-col gap-4">
+                  <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
+                     Call Now
+                  </a>
+                  <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-green-600 to-lime-600 hover:from-green-700 hover:to-lime-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
+                     WhatsApp
+                  </a>
+                </div>
+              </div>
+              
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent"> Services in Palasia</h3>
+                <div className="space-y-3">
+                  <a href="/services/celebrity-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Celebrity Escorts</a>
+                  <a href="/services/vip-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> VIP Escorts</a>
+                  <a href="/services/premium-models" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Premium Models</a>
+                  <a href="/services/college-girls" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> College Girls</a>
+                  <a href="/services/housewife-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Housewife Escorts</a>
+                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> All Services</a>
+                </div>
+              </div>
+              
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-orange-300 to-red-300 bg-clip-text text-transparent"> Quick Links</h3>
+                <div className="space-y-3">
+                  <a href="/" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Home</a>
+                  <a href="/services" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> All Services</a>
+                  <a href="/locations" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Other Locations</a>
+                  <a href="/about" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> About Us</a>
+                  <a href="/contact" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Contact</a>
+                </div>
+              </div>
+              
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent"> Contact for Palasia</h3>
+                <div className="space-y-4">
+                  <div className="flex items-center space-x-3 p-3">
+                    <span className="text-2xl"></span>
+                    <a href="tel:+919372662471" className="text-yellow-200 hover:text-yellow-100 font-bold text-lg">+91 9372 662 471</a>
+                  </div>
+                  <div className="flex items-center space-x-3 p-3">
+                    <span className="text-2xl"></span>
+                    <a href="https://wa.me/919372662471" className="text-green-200 hover:text-green-100 font-bold text-lg">WhatsApp Available</a>
+                  </div>
+                  <div className="flex items-center space-x-3 p-3">
+                    <span className="text-2xl"></span>
+                    <span className="text-pink-200 font-bold text-lg">Palasia Area</span>
+                  </div>
+                  <div className="flex items-center space-x-3 p-3">
+                    <span className="text-2xl"></span>
+                    <span className="text-orange-200 font-bold text-lg">24/7 Available</span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4 text-green-300">Quick Links</h4>
-              <ul className="space-y-2">
-                <li><Link href="/" className="text-green-200 hover:text-white transition-colors">Home</Link></li>
-                <li><Link href="/about" className="text-green-200 hover:text-white transition-colors">About</Link></li>
-                <li><Link href="/services" className="text-green-200 hover:text-white transition-colors">Services</Link></li>
-                <li><Link href="/contact" className="text-green-200 hover:text-white transition-colors">Contact</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4 text-green-300">Services</h4>
-              <ul className="space-y-2">
-                <li><span className="text-green-200">VIP Escorts</span></li>
-                <li><span className="text-green-200">Hotel Services</span></li>
-                <li><span className="text-green-200">Party Companions</span></li>
-                <li><span className="text-green-200">24/7 Availability</span></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4 text-green-300">Palasia Area</h4>
-              <ul className="space-y-2">
-                <li><span className="text-green-200">Shopping Malls</span></li>
-                <li><span className="text-green-200">Business Centers</span></li>
-                <li><span className="text-green-200">Hotels</span></li>
-                <li><span className="text-green-200">Commercial District</span></li>
-              </ul>
+            
+            {/* Footer Bottom */}
+            <div className="border-t-2 border-pink-400/40 mt-16 pt-10 text-center">
+              <p className="text-yellow-200 mb-6 font-bold text-xl leading-relaxed">
+                 2024 Premium Escorts in Palasia, Indore. All rights reserved. 
+              </p>
+              <div className="flex flex-wrap justify-center gap-6 mb-6">
+                <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full font-bold"> 24/7 Palasia</span>
+                <span className="bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-6 py-3 rounded-full font-bold"> 100% Verified</span>
+                <span className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-3 rounded-full font-bold"> Complete Discretion</span>
+                <span className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-6 py-3 rounded-full font-bold"> Premium Quality</span>
+              </div>
+              <p className="text-pink-200 font-semibold text-lg">
+                 Professional escort services in Palasia for adults only. Must be 18+ to use our services. 
+              </p>
             </div>
           </div>
-          <div className="border-t border-green-700 mt-8 pt-8 text-center">
-            <p className="text-green-200">&copy; 2024 Indore Escorts - Palasia. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
-    </div>
-  );
+        </footer>
+      </div>
+    </>
+  )
 }

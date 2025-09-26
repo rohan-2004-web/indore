@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useState } from 'react'
 import Header from '@/components/Header'
@@ -16,7 +16,7 @@ export default function ABRoadPage() {
       subtitle: "Star Quality Service",
       description: "Experience celebrity-level companions in AB Road with exceptional elegance",
       image: "/images/services/Celebrity Escorts.webp",
-      icon: "⭐",
+      icon: "",
       category: "CELEBRITY",
       link: "/services/celebrity-escorts"
     },
@@ -25,7 +25,7 @@ export default function ABRoadPage() {
       subtitle: "Ultimate Luxury",
       description: "Our most exclusive VIP escorts in AB Road offering ultimate luxury",
       image: "/images/services/VIP Escorts.jpg",
-      icon: "💫",
+      icon: "",
       category: "VIP",
       link: "/services/vip-escorts"
     },
@@ -34,7 +34,7 @@ export default function ABRoadPage() {
       subtitle: "High-End Sophistication",
       description: "Premium models in AB Road with unmatched sophistication",
       image: "/images/services/Premium Models.jpg",
-      icon: "💎",
+      icon: "",
       category: "PREMIUM",
       link: "/services/premium-models"
     },
@@ -43,153 +43,188 @@ export default function ABRoadPage() {
       subtitle: "Fresh & Young",
       description: "Beautiful young companions in AB Road with vibrant energy",
       image: "/images/services/College Girls.webp",
-      icon: "🌟",
+      icon: "",
       category: "YOUNG",
       link: "/services/college-girls"
     },
     {
       title: "Housewife Escorts",
-      subtitle: "Mature & Caring",
-      description: "Experienced housewife escorts in AB Road with nurturing companionship",
+      subtitle: "Mature Experience",
+      description: "Experienced mature companions in AB Road with caring nature",
       image: "/images/services/Housewife Escorts.jpg",
-      icon: "🏠",
+      icon: "",
       category: "MATURE",
       link: "/services/housewife-escorts"
     },
     {
       title: "Punjabi Women",
-      subtitle: "Traditional Charm",
-      description: "Beautiful Punjabi women in AB Road with cultural elegance",
+      subtitle: "Traditional Beauty",
+      description: "Authentic Punjabi companions in AB Road with traditional charm",
       image: "/images/services/Punjabi women.webp",
-      icon: "🎭",
-      category: "REGIONAL",
+      icon: "",
+      category: "TRADITIONAL",
       link: "/services"
     },
     {
       title: "Slim Escorts",
       subtitle: "Perfect Figure",
-      description: "Elegant slim escorts in AB Road with perfect physique",
+      description: "Elegant slim companions in AB Road with perfect figures",
       image: "/images/services/Slim Escorts.webp",
-      icon: "✨",
-      category: "ELEGANT",
+      icon: "",
+      category: "SLIM",
       link: "/services"
     },
     {
       title: "Unsatisfied Bhabhi",
       subtitle: "Seeking Excitement",
-      description: "Experienced companions in AB Road seeking new adventures",
+      description: "Experienced companions in AB Road seeking excitement and connection",
       image: "/images/services/Unsatisfied Bhabhi.webp",
-      icon: "💋",
-      category: "MATURE",
+      icon: "",
+      category: "BHABHI",
       link: "/services"
     },
     {
       title: "Local Beauties",
-      subtitle: "Authentic Experience",
-      description: "Local beauties in AB Road who know the area intimately",
+      subtitle: "Know Indore Best",
+      description: "Beautiful local companions in AB Road who know the city inside out",
       image: "/images/services/Local Beauties.webp",
-      icon: "🌸",
+      icon: "",
       category: "LOCAL",
       link: "/services"
     },
     {
       title: "Event Companion",
-      subtitle: "Social Events",
-      description: "Perfect companions in AB Road for business and social events",
+      subtitle: "Perfect Plus One",
+      description: "Professional companions in AB Road for business events and parties",
       image: "/images/services/Event Companion.webp",
-      icon: "🎪",
-      category: "EVENT",
+      icon: "",
+      category: "PROFESSIONAL",
       link: "/services"
     },
     {
       title: "Pink Special",
       subtitle: "Exclusive Experience",
-      description: "Special exclusive companions in AB Road for unique experiences",
+      description: "Special premium companions in AB Road for exclusive experiences",
       image: "/images/services/Pink Special.webp",
-      icon: "💖",
+      icon: "",
       category: "SPECIAL",
       link: "/services"
     },
     {
       title: "Unsatisfied Females",
-      subtitle: "Seeking Connection",
+      subtitle: "Meaningful Connections",
       description: "Mature women in AB Road seeking meaningful connections",
       image: "/images/services/Unsatisfied Females.webp",
-      icon: "💕",
-      category: "MATURE",
+      icon: "",
+      category: "FEMALE",
       link: "/services"
     },
     {
       title: "Incall Escorts",
-      subtitle: "Private Venues",
+      subtitle: "Luxury Locations",
       description: "Premium incall services in AB Road at luxury locations",
       image: "/images/services/Incall Escorts.webp",
-      icon: "🏨",
+      icon: "",
       category: "INCALL",
       link: "/services"
     },
     {
       title: "Mature Escorts",
-      subtitle: "Experience & Wisdom",
-      description: "Sophisticated mature escorts in AB Road with life experience",
+      subtitle: "Experienced Sophistication",
+      description: "Experienced mature companions in AB Road with sophistication",
       image: "/images/services/Mature Escorts.webp",
-      icon: "🍷",
+      icon: "",
       category: "MATURE",
       link: "/services"
     },
     {
       title: "Young Girls",
-      subtitle: "Youthful Energy",
-      description: "Young beautiful companions in AB Road with infectious enthusiasm",
+      subtitle: "Unforgettable Experiences",
+      description: "Young beautiful companions in AB Road for unforgettable experiences",
       image: "/images/services/Young Girls.webp",
-      icon: "🌺",
+      icon: "",
       category: "YOUNG",
       link: "/services"
     },
     {
       title: "Indore Escorts",
       subtitle: "Local Expertise",
-      description: "Premium local escorts in AB Road with deep city knowledge",
+      description: "Premium local escorts in AB Road with deep knowledge of Indore",
       image: "/images/services/indore escorts.webp",
-      icon: "🏙️",
+      icon: "",
       category: "LOCAL",
       link: "/services"
     },
     {
       title: "Expert Services",
-      subtitle: "Professional Skills",
-      description: "Expert companions in AB Road with specialized professional experience",
+      subtitle: "Professional Expertise",
+      description: "Expert companions in AB Road with specialized skills",
       image: "/images/services/Expert Services.webp",
-      icon: "🎯",
+      icon: "",
       category: "EXPERT",
       link: "/services"
     },
     {
       title: "High Class Models",
-      subtitle: "Runway Experience",
-      description: "Stunning high-class models in AB Road with runway and fashion experience",
+      subtitle: "Elite Fashion Models",
+      description: "Stunning high-class models in AB Road with runway experience",
       image: "/images/services/High Class Models.webp",
-      icon: "👑",
+      icon: "",
       category: "MODEL",
       link: "/services"
     },
     {
       title: "Bold Girls",
       subtitle: "Confident & Adventurous",
-      description: "Bold and confident companions in AB Road ready for exciting adventures",
+      description: "Bold and confident companions in AB Road ready for adventures",
       image: "/images/services/bold girls.webp",
-      icon: "🔥",
+      icon: "",
       category: "BOLD",
       link: "/services"
     },
     {
       title: "Sexy Girls",
       subtitle: "Mesmerizing Charm",
-      description: "Incredibly attractive companions in AB Road with mesmerizing charm and appeal",
+      description: "Incredibly attractive companions in AB Road with mesmerizing charm",
       image: "/images/services/sexy girls.webp",
-      icon: "💫",
+      icon: "",
       category: "SEXY",
       link: "/services"
+    }
+  ]
+
+  const faqs = [
+    {
+      question: "How can I book premium escorts in AB Road, Indore?",
+      answer: "Booking escorts in AB Road is simple and discreet. Call us directly at +91 9372662471 or WhatsApp. Our team is available 24/7 to help you select the perfect companion in the AB Road area based on your preferences."
+    },
+    {
+      question: "Are your AB Road escorts verified and professional?",
+      answer: "Yes, absolutely! All our escorts in AB Road are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards of elegance and sophistication while serving clients in the commercial AB Road area."
+    },
+    {
+      question: "What makes AB Road ideal for escort services in Indore?",
+      answer: "AB Road is Indore's main commercial and business hub with numerous hotels, restaurants, shopping centers, and corporate offices. It offers excellent connectivity and premium venues making it perfect for professional escort services."
+    },
+    {
+      question: "Do you provide both incall and outcall services in AB Road?",
+      answer: "Yes, we provide both incall and outcall services throughout AB Road. Our escorts can visit you at your hotel, office, or residence in AB Road, or you can visit our luxury incall locations in the area."
+    },
+    {
+      question: "What are the rates for escort services in AB Road?",
+      answer: "Our rates for escorts in AB Road vary based on the service type, duration, and companion category. We offer competitive pricing for all categories from college girls to VIP escorts. Contact us directly for detailed pricing specific to AB Road."
+    },
+    {
+      question: "Is privacy and discretion guaranteed for AB Road bookings?",
+      answer: "Privacy and discretion are our top priorities for all AB Road bookings. All client information is kept strictly confidential. Our escorts are trained to maintain complete discretion, especially important in the busy commercial environment of AB Road."
+    },
+    {
+      question: "Which hotels and venues in AB Road do you recommend for escort meetings?",
+      answer: "AB Road has numerous premium hotels, restaurants, and commercial venues perfect for escort meetings. We can recommend the best locations based on your preferences and provide guidance for seamless meetings in this bustling area."
+    },
+    {
+      question: "Are same-day bookings available for escorts in AB Road?",
+      answer: "Yes, we offer same-day bookings for escorts in AB Road subject to availability. Given AB Road's popularity and high demand, we recommend booking 2-3 hours in advance to ensure your preferred companion is available in the area."
     }
   ]
 
@@ -198,53 +233,103 @@ export default function ABRoadPage() {
       <Header />
       <div className="min-h-screen bg-gradient-to-br from-pink-200/60 via-orange-100/50 to-pink-300/60">
         
-        {/* Hero Section */}
-        <section className="pt-32 pb-16 relative">
-          <div className="absolute inset-0 bg-gradient-to-br from-purple-300/90 via-pink-200/80 to-orange-300/90"></div>
+        {/* Hero Section - Premium Enhanced Style */}
+        <section className="pt-20 pb-16 relative min-h-screen flex items-center overflow-hidden">
+          {/* Animated Background Elements */}
+          <div className="absolute inset-0">
+            <div className="absolute inset-0 bg-gradient-to-br from-pink-300/95 via-orange-200/90 to-pink-300/95"></div>
+            <div className="absolute top-10 left-10 w-72 h-72 bg-gradient-to-br from-pink-400/30 to-orange-300/30 rounded-full blur-3xl animate-pulse"></div>
+            <div className="absolute bottom-20 right-16 w-96 h-96 bg-gradient-to-br from-orange-400/25 to-pink-400/25 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-br from-pink-300/20 to-orange-300/20 rounded-full blur-2xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          </div>
+          
           <div className="w-full mx-auto text-center relative z-10 px-4">
-            <h1 className="text-6xl md:text-8xl font-extrabold bg-gradient-to-r from-purple-600 via-pink-500 to-orange-600 bg-clip-text text-transparent mb-8 leading-tight">
-              Premium Escorts in AB Road Indore
+            {/* Premium Badge */}
+            <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
+              <span className="text-3xl"></span>
+              <span className="text-pink-800 font-bold text-lg">Premium Escorts in AB Road</span>
+              <span className="text-3xl"></span>
+            </div>
+
+            <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
+              Escorts in AB Road
+              <br />
+              <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
+                Commercial Hub
+              </span>
             </h1>
-            <p className="text-2xl md:text-3xl text-gray-700 max-w-6xl mx-auto mb-10 font-medium leading-relaxed">
-              Experience the finest escort services in AB Road - Indore's premier commercial zone with luxury shopping and premium hotels.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white px-12 py-6 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl">
-                📞 Call Now: +91 9372662471
+
+            <div className="max-w-5xl mx-auto mb-12">
+              <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
+                Premium Escort Services in AB Road Commercial District
+              </p>
+              <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
+                Verified professional escorts in AB Road  24/7 availability  Hotels & commercial venues  Complete discretion guaranteed
+              </p>
+            </div>
+
+            {/* Enhanced CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-8 justify-center mb-16">
+              <a 
+                href="tel:+919372662471" 
+                className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-pink-600 via-pink-700 to-pink-800 hover:from-pink-700 hover:via-pink-800 hover:to-pink-900 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-pink-500/50 border-2 border-pink-400/30"
+              >
+                <span className="text-3xl group-hover:animate-bounce"></span>
+                <span>Call Now: +91 9372 662 471</span>
               </a>
-              <a href="https://wa.me/919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-12 py-6 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl">
-                💬 WhatsApp Now
+              <a 
+                href="https://wa.me/919372662471" 
+                className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:from-green-600 hover:via-green-700 hover:to-green-800 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 border-2 border-green-400/30"
+              >
+                <span className="text-3xl group-hover:animate-bounce"></span>
+                <span>WhatsApp Now</span>
               </a>
+            </div>
+
+            {/* Premium Features */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
+                <div className="text-4xl mb-3"></div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Commercial Hub Location</h3>
+                <p className="text-gray-700 font-medium">Main AB Road with hotels, restaurants and business centers</p>
+              </div>
+              <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
+                <div className="text-4xl mb-3"></div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Premium Companions</h3>
+                <p className="text-gray-700 font-medium">Verified high-class escorts perfect for business meetings</p>
+              </div>
+              <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
+                <div className="text-4xl mb-3"></div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Complete Discretion</h3>
+                <p className="text-gray-700 font-medium">100% privacy guaranteed for clients in AB Road</p>
+              </div>
             </div>
           </div>
         </section>
 
-        {/* Services Grid Section */}
-        <section className="py-20 bg-gradient-to-br from-purple-200/70 via-pink-100/60 to-orange-200/70">
+        {/* Services Section */}
+        <section className="py-20 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70">
           <div className="w-full px-4">
             <div className="text-center mb-16">
-              <h2 className="text-5xl font-bold bg-gradient-to-r from-purple-600 via-pink-500 to-orange-600 bg-clip-text text-transparent mb-6">
-                Premium Escort Services in AB Road
+              <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+                Premium Escort Services in AB Road, Indore
               </h2>
-              <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Discover our comprehensive range of verified professional companions in AB Road's bustling commercial district
+              <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+                Experience luxury companionship in Indore's main commercial district with our verified professional escorts
               </p>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl mx-auto">
               {services.map((service, index) => (
-                <div key={index} className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-purple-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                <div key={index} className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
                   <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
                     <img src={service.image} alt={service.title} className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
-                  <div className="flex items-center justify-center mb-3">
-                    <span className="text-2xl mr-2">{service.icon}</span>
-                    <h3 className="text-xl font-bold text-gray-800">{service.title}</h3>
-                  </div>
-                  <p className="text-sm font-semibold text-purple-600 mb-2">{service.subtitle}</p>
-                  <p className="text-gray-600 mb-4 text-base flex-grow leading-relaxed">{service.description}</p>
-                  <a href={service.link} className="inline-block bg-gradient-to-r from-purple-500 to-pink-500 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">
-                    Book Now
+                  <span className="text-2xl mb-2">{service.icon}</span>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">{service.title}</h3>
+                  <p className="text-gray-600 mb-4 text-base flex-grow">{service.description}</p>
+                  <a href={service.link} className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">
+                    Book in AB Road
                   </a>
                 </div>
               ))}
@@ -252,57 +337,106 @@ export default function ABRoadPage() {
           </div>
         </section>
 
-        {/* Location Features Section */}
-        <section className="py-20 relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-purple-300/80 via-pink-200/70 to-orange-300/80"></div>
-          <div className="absolute inset-0 bg-gradient-to-t from-purple-200/50 to-pink-100/40"></div>
-          
-          <div className="w-full px-4 relative z-10">
-            <div className="max-w-6xl mx-auto">
-              <div className="text-center mb-12">
-                <h2 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-purple-700 via-pink-600 to-orange-700 bg-clip-text text-transparent mb-6 leading-tight">
-                  Why Choose Escorts in AB Road
+        {/* AB Road Information Section */}
+        <section className="py-20 bg-gradient-to-br from-orange-100/50 via-pink-50/50 to-orange-200/60">
+          <div className="w-full px-4">
+            <div className="max-w-7xl mx-auto">
+              <div className="text-center mb-16">
+                <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-orange-600 via-pink-500 to-orange-700 bg-clip-text text-transparent mb-6">
+                  Why Choose Escorts in AB Road?
                 </h2>
-                <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto rounded-full mb-8"></div>
+                <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                  AB Road is Indore's main commercial artery, offering the perfect setting for premium escort services
+                </p>
               </div>
-              
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-                <div className="bg-gradient-to-br from-purple-50/95 to-pink-50/95 backdrop-blur-md rounded-3xl p-8 shadow-2xl border-2 border-purple-200/50 hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
-                  <div className="flex items-center mb-6">
-                    <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mr-4 shadow-lg">
-                      🛍️
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+                {/* Location Benefits */}
+                <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
+                  <h3 className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text text-transparent mb-6">
+                     Prime Commercial Location
+                  </h3>
+                  <div className="space-y-4">
+                    <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Main Commercial Artery of Indore</p>
                     </div>
-                    <h3 className="text-2xl font-bold text-purple-800">Prime Commercial Location</h3>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Numerous Hotels & Business Centers</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Shopping Centers & Restaurants</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Excellent Connectivity & Transport</p>
+                    </div>
                   </div>
-                  <p className="text-lg text-gray-700 leading-relaxed font-medium">
-                    AB Road is Indore's main commercial hub with luxury shopping centers, fine dining restaurants, and premium hotels. Our <span className="text-purple-600 font-bold">escorts in AB Road</span> are perfectly positioned to accompany you to business meetings, shopping experiences, and upscale venues in this prestigious area.
-                  </p>
                 </div>
 
-                <div className="bg-gradient-to-br from-pink-50/95 to-orange-50/95 backdrop-blur-md rounded-3xl p-8 shadow-2xl border-2 border-pink-200/50 hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
-                  <div className="flex items-center mb-6">
-                    <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-pink-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mr-4 shadow-lg">
-                      ⭐
+                {/* Service Features */}
+                <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-pink-100/50">
+                  <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-6">
+                     Premium Service Features
+                  </h3>
+                  <div className="space-y-4">
+                    <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Perfect for Business & Commercial Meetings</p>
                     </div>
-                    <h3 className="text-2xl font-bold text-pink-800">Premium Quality Service</h3>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">High-Class Professional Companions</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">24/7 Availability in AB Road</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
+                      <span className="text-2xl mr-4"></span>
+                      <p className="font-semibold text-gray-700">Discretion for Corporate Clients</p>
+                    </div>
                   </div>
-                  <p className="text-lg text-gray-700 leading-relaxed font-medium">
-                    Our <span className="text-pink-600 font-bold">AB Road escorts</span> understand the sophisticated clientele of this commercial district. They are professionally trained, well-educated, and experienced in providing companionship for business dinners, corporate events, and social gatherings in AB Road's upscale environment.
-                  </p>
                 </div>
               </div>
-              
-              <div className="text-center mt-12">
-                <div className="bg-gradient-to-r from-purple-600/20 to-pink-600/20 backdrop-blur-sm rounded-2xl p-6 inline-block shadow-xl border border-purple-300/50">
-                  <p className="text-xl font-bold text-gray-800 mb-4">
-                    🌟 Experience Premium Companionship in AB Road 🌟
-                  </p>
+
+              {/* Booking Information */}
+              <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
+                <h3 className="text-4xl font-bold bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text text-transparent mb-8 text-center">
+                   Book Escorts in AB Road - Simple Process
+                </h3>
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  <div className="text-center">
+                    <div className="w-20 h-20 bg-gradient-to-r from-pink-500 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span className="text-3xl font-bold text-white">1</span>
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-800 mb-3">Call or WhatsApp</h4>
+                    <p className="text-gray-600 text-lg">Contact us with your preferences for AB Road location</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-20 h-20 bg-gradient-to-r from-orange-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span className="text-3xl font-bold text-white">2</span>
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-800 mb-3">Select Companion</h4>
+                    <p className="text-gray-600 text-lg">Choose from our verified escorts available in AB Road</p>
+                  </div>
+                  <div className="text-center">
+                    <div className="w-20 h-20 bg-gradient-to-r from-pink-500 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                      <span className="text-3xl font-bold text-white">3</span>
+                    </div>
+                    <h4 className="text-2xl font-bold text-gray-800 mb-3">Meet in AB Road</h4>
+                    <p className="text-gray-600 text-lg">Enjoy premium companionship at your AB Road location</p>
+                  </div>
+                </div>
+                <div className="text-center mt-8">
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="/services" className="bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
-                      📞 Book Now
+                    <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-orange-500 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:scale-105 transition-transform shadow-xl">
+                       Call for AB Road: +91 9372662471
                     </a>
-                    <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
-                      💬 WhatsApp
+                    <a href="https://wa.me/919372662471" className="inline-block bg-gradient-to-r from-green-500 to-emerald-500 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:scale-105 transition-transform shadow-xl">
+                       WhatsApp Now
                     </a>
                   </div>
                 </div>
@@ -312,183 +446,52 @@ export default function ABRoadPage() {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-20 bg-gradient-to-br from-purple-100/60 via-pink-50/50 to-orange-100/60">
+        <section className="py-20 bg-gradient-to-br from-pink-100/60 via-orange-50/50 to-pink-200/60">
           <div className="w-full px-4">
             <div className="text-center mb-16">
-              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-600 via-pink-500 to-orange-600 bg-clip-text text-transparent mb-6">
-                Frequently Asked Questions - AB Road Escorts
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+                Frequently Asked Questions - Escorts in AB Road
               </h2>
               <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Get answers to common questions about our escort services in AB Road
+                Get answers to common questions about escort services in AB Road, Indore
               </p>
             </div>
 
             <div className="max-w-7xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="bg-gradient-to-br from-purple-100 to-purple-200 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-purple-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
-                  <button
-                    onClick={() => toggleFaq(1)}
-                    className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-purple-200/80 hover:to-pink-100/80 transition-all duration-200 flex justify-between items-center group"
-                  >
-                    <h3 className="text-xl font-bold text-purple-900 pr-4 group-hover:text-pink-700">How can I book escorts in AB Road?</h3>
-                    <span className={`text-3xl transition-all duration-300 text-purple-700 ${openFaq === 1 ? 'rotate-180 scale-110' : ''}`}>
-                      ▼
-                    </span>
-                  </button>
-                  {openFaq === 1 && (
-                    <div className="px-8 pb-8 bg-gradient-to-r from-purple-50/90 to-pink-50/90">
-                      <p className="text-gray-700 leading-relaxed text-lg font-medium">
-                        Booking escorts in AB Road is simple and discreet. You can call us directly at +91 9372662471, send a WhatsApp message, or email us. Our booking team is available 24/7 to assist you with selecting the perfect companion in AB Road based on your preferences and requirements.
-                      </p>
-                    </div>
-                  )}
-                </div>
-
-                <div className="bg-gradient-to-br from-pink-100 to-pink-200 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-pink-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
-                  <button
-                    onClick={() => toggleFaq(2)}
-                    className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-pink-200/80 hover:to-orange-100/80 transition-all duration-200 flex justify-between items-center group"
-                  >
-                    <h3 className="text-xl font-bold text-pink-900 pr-4 group-hover:text-orange-700">Are all AB Road escorts verified?</h3>
-                    <span className={`text-3xl transition-all duration-300 text-pink-700 ${openFaq === 2 ? 'rotate-180 scale-110' : ''}`}>
-                      ▼
-                    </span>
-                  </button>
-                  {openFaq === 2 && (
-                    <div className="px-8 pb-8 bg-gradient-to-r from-pink-50/90 to-orange-50/90">
-                      <p className="text-gray-700 leading-relaxed text-lg font-medium">
-                        Yes, absolutely! All our escorts in AB Road are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards of elegance, sophistication, and discretion suitable for AB Road's commercial environment.
-                      </p>
-                    </div>
-                  )}
-                </div>
-
-                <div className="bg-gradient-to-br from-orange-100 to-orange-200 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-orange-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
-                  <button
-                    onClick={() => toggleFaq(3)}
-                    className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-orange-200/80 hover:to-purple-100/80 transition-all duration-200 flex justify-between items-center group"
-                  >
-                    <h3 className="text-xl font-bold text-orange-900 pr-4 group-hover:text-purple-700">What makes AB Road escorts special?</h3>
-                    <span className={`text-3xl transition-all duration-300 text-orange-700 ${openFaq === 3 ? 'rotate-180 scale-110' : ''}`}>
-                      ▼
-                    </span>
-                  </button>
-                  {openFaq === 3 && (
-                    <div className="px-8 pb-8 bg-gradient-to-r from-orange-50/90 to-purple-50/90">
-                      <p className="text-gray-700 leading-relaxed text-lg font-medium">
-                        Escorts in AB Road are specially selected for their understanding of the commercial district's sophisticated environment. They are well-versed in business etiquette, comfortable in upscale venues, and experienced in providing companionship for shopping trips, business dinners, and corporate events.
-                      </p>
-                    </div>
-                  )}
-                </div>
-
-                <div className="bg-gradient-to-br from-green-100 to-green-200 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-green-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
-                  <button
-                    onClick={() => toggleFaq(4)}
-                    className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-green-200/80 hover:to-blue-100/80 transition-all duration-200 flex justify-between items-center group"
-                  >
-                    <h3 className="text-xl font-bold text-green-900 pr-4 group-hover:text-blue-700">Is privacy guaranteed in AB Road?</h3>
-                    <span className={`text-3xl transition-all duration-300 text-green-700 ${openFaq === 4 ? 'rotate-180 scale-110' : ''}`}>
-                      ▼
-                    </span>
-                  </button>
-                  {openFaq === 4 && (
-                    <div className="px-8 pb-8 bg-gradient-to-r from-green-50/90 to-blue-50/90">
-                      <p className="text-gray-700 leading-relaxed text-lg font-medium">
-                        Privacy and discretion are our top priorities in AB Road. All client information is kept strictly confidential. Our escorts are trained to maintain complete discretion in this commercial area, and we use secure communication channels. Your personal details and meeting arrangements are never shared.
-                      </p>
-                    </div>
-                  )}
-                </div>
-
-                <div className="bg-gradient-to-br from-blue-100 to-blue-200 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-blue-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
-                  <button
-                    onClick={() => toggleFaq(5)}
-                    className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-blue-200/80 hover:to-purple-100/80 transition-all duration-200 flex justify-between items-center group"
-                  >
-                    <h3 className="text-xl font-bold text-blue-900 pr-4 group-hover:text-purple-700">What are the rates for AB Road escorts?</h3>
-                    <span className={`text-3xl transition-all duration-300 text-blue-700 ${openFaq === 5 ? 'rotate-180 scale-110' : ''}`}>
-                      ▼
-                    </span>
-                  </button>
-                  {openFaq === 5 && (
-                    <div className="px-8 pb-8 bg-gradient-to-r from-blue-50/90 to-purple-50/90">
-                      <p className="text-gray-700 leading-relaxed text-lg font-medium">
-                        Our rates for escorts in AB Road vary based on the companion category, duration, and services required. We offer competitive pricing for all categories from college girls to VIP escorts. Payment can be made via cash or digital transfers. Contact us for detailed pricing information.
-                      </p>
-                    </div>
-                  )}
-                </div>
-
-                <div className="bg-gradient-to-br from-teal-100 to-teal-200 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-teal-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
-                  <button
-                    onClick={() => toggleFaq(6)}
-                    className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-teal-200/80 hover:to-pink-100/80 transition-all duration-200 flex justify-between items-center group"
-                  >
-                    <h3 className="text-xl font-bold text-teal-900 pr-4 group-hover:text-pink-700">Do you provide 24/7 services in AB Road?</h3>
-                    <span className={`text-3xl transition-all duration-300 text-teal-700 ${openFaq === 6 ? 'rotate-180 scale-110' : ''}`}>
-                      ▼
-                    </span>
-                  </button>
-                  {openFaq === 6 && (
-                    <div className="px-8 pb-8 bg-gradient-to-r from-teal-50/90 to-pink-50/90">
-                      <p className="text-gray-700 leading-relaxed text-lg font-medium">
-                        Yes, our escort services in AB Road are available 24/7. Whether you need companionship for daytime shopping, evening business dinners, or late-night events in AB Road's vibrant commercial district, our professional escorts are ready to provide exceptional service at any time.
-                      </p>
-                    </div>
-                  )}
-                </div>
-
-                <div className="bg-gradient-to-br from-indigo-100 to-indigo-200 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-indigo-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
-                  <button
-                    onClick={() => toggleFaq(7)}
-                    className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-indigo-200/80 hover:to-pink-100/80 transition-all duration-200 flex justify-between items-center group"
-                  >
-                    <h3 className="text-xl font-bold text-indigo-900 pr-4 group-hover:text-pink-700">Which hotels in AB Road do you serve?</h3>
-                    <span className={`text-3xl transition-all duration-300 text-indigo-700 ${openFaq === 7 ? 'rotate-180 scale-110' : ''}`}>
-                      ▼
-                    </span>
-                  </button>
-                  {openFaq === 7 && (
-                    <div className="px-8 pb-8 bg-gradient-to-r from-indigo-50/90 to-pink-50/90">
-                      <p className="text-gray-700 leading-relaxed text-lg font-medium">
-                        We provide escort services to all major hotels and establishments in AB Road including luxury business hotels, premium resorts, and upscale accommodations. Our escorts in AB Road are familiar with the area's hospitality venues and can accompany you to any location in the commercial district.
-                      </p>
-                    </div>
-                  )}
-                </div>
-
-                <div className="bg-gradient-to-br from-red-100 to-red-200 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-red-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
-                  <button
-                    onClick={() => toggleFaq(8)}
-                    className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-red-200/80 hover:to-orange-100/80 transition-all duration-200 flex justify-between items-center group"
-                  >
-                    <h3 className="text-xl font-bold text-red-900 pr-4 group-hover:text-orange-700">Can I book same-day escorts in AB Road?</h3>
-                    <span className={`text-3xl transition-all duration-300 text-red-700 ${openFaq === 8 ? 'rotate-180 scale-110' : ''}`}>
-                      ▼
-                    </span>
-                  </button>
-                  {openFaq === 8 && (
-                    <div className="px-8 pb-8 bg-gradient-to-r from-red-50/90 to-orange-50/90">
-                      <p className="text-gray-700 leading-relaxed text-lg font-medium">
-                        Yes, we offer same-day bookings for escorts in AB Road subject to availability. Our team works efficiently to accommodate last-minute requests in the AB Road area. For guaranteed availability, we recommend booking at least 2-3 hours in advance. Emergency bookings are also possible with additional charges.
-                      </p>
-                    </div>
-                  )}
-                </div>
+                {faqs.map((faq, index) => (
+                  <div key={index} className="bg-gradient-to-br from-pink-100 to-orange-100 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-pink-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
+                    <button
+                      onClick={() => toggleFaq(index)}
+                      className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-pink-200/80 hover:to-orange-100/80 transition-all duration-200 flex justify-between items-center group"
+                    >
+                      <h3 className="text-xl font-bold text-pink-900 pr-4 group-hover:text-orange-700">{faq.question}</h3>
+                      <span className={`text-3xl transition-all duration-300 text-pink-700 ${openFaq === index ? 'rotate-180 scale-110' : ''}`}>
+                        
+                      </span>
+                    </button>
+                    {openFaq === index && (
+                      <div className="px-8 pb-8 bg-gradient-to-r from-pink-50/90 to-orange-50/90">
+                        <p className="text-gray-700 leading-relaxed text-lg font-medium">
+                          {faq.answer}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                ))}
               </div>
             </div>
 
             <div className="text-center mt-16">
               <p className="text-xl text-gray-600 mb-8">
-                Still have questions about our AB Road escort services? Contact us directly for personalized assistance
+                Have more questions about our escort services in AB Road? Contact us directly!
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
-                  📞 Call +91 9372662471
+                <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                   Call +91 9372662471
                 </a>
-                <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
-                  💬 WhatsApp Chat
+                <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                   WhatsApp Chat
                 </a>
               </div>
             </div>
@@ -497,117 +500,114 @@ export default function ABRoadPage() {
 
         {/* Call to Action Section */}
         <section className="py-20 relative">
-          <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-pink-600/20"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-pink-600/20 to-orange-600/20"></div>
           <div className="w-full px-4 relative z-10">
             <div className="max-w-6xl mx-auto text-center">
-              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-8">
-                Ready to Book Your Perfect Companion in AB Road?
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-8">
+                Ready to Book Premium Escorts in AB Road?
               </h2>
               <p className="text-2xl text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed">
-                Contact us now for instant booking and let us connect you with the perfect companion for your needs in AB Road
+                Experience the finest escort services in Indore's main commercial district with complete discretion and satisfaction guarantee
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a 
                   href="tel:+919372662471" 
-                  className="inline-block bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white px-16 py-6 rounded-full font-bold text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
+                  className="inline-block bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-16 py-6 rounded-full font-bold text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
                 >
-                  📞 Call Now: +91 9372662471
+                   Call Now: +91 9372662471
                 </a>
                 <a 
                   href="https://wa.me/919372662471" 
-                  className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-16 py-6 rounded-full font-bold text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
+                  className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-16 py-6 rounded-full font-bold text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
                 >
-                  💬 WhatsApp Now
+                   WhatsApp Now
                 </a>
               </div>
             </div>
           </div>
         </section>
 
-        {/* Footer */}
-        <footer className="bg-gradient-to-br from-purple-600/95 via-pink-700/90 to-orange-600/95 text-white py-20 relative">
+        {/* Footer - Same as Homepage */}
+        <footer className="bg-gradient-to-br from-pink-600/95 via-purple-700/90 to-orange-600/95 text-white py-20 relative">
           <div className="w-full px-4 relative z-10">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-yellow-300 to-pink-300 bg-clip-text text-transparent">
-                  ⭐ AB Road Premium Escort Service
+                   Escorts in AB Road, Indore
                 </h3>
                 <p className="text-pink-100 mb-6 leading-relaxed font-semibold text-lg">
-                  Premium escort services in AB Road with verified professional companions. Available 24/7 in Indore's premier commercial district.
+                  Premium escort services in AB Road commercial district with verified professional companions. Available 24/7.
                 </p>
                 <div className="flex flex-col gap-4">
                   <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
-                    📞 Call Now
+                     Call Now
                   </a>
                   <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-green-600 to-lime-600 hover:from-green-700 hover:to-lime-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
-                    💬 WhatsApp
+                     WhatsApp
                   </a>
                 </div>
               </div>
               
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent">🌟 Our Services</h3>
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent"> Services in AB Road</h3>
                 <div className="space-y-3">
-                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">⭐ Celebrity Escorts</a>
-                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">💫 VIP Escorts</a>
-                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">💎 Premium Models</a>
-                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🌟 College Girls</a>
-                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🏠 Housewife Escorts</a>
-                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🎭 Punjabi Women</a>
+                  <a href="/services/celebrity-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Celebrity Escorts</a>
+                  <a href="/services/vip-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> VIP Escorts</a>
+                  <a href="/services/premium-models" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Premium Models</a>
+                  <a href="/services/college-girls" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> College Girls</a>
+                  <a href="/services/housewife-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Housewife Escorts</a>
+                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> All Services</a>
                 </div>
               </div>
               
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-orange-300 to-red-300 bg-clip-text text-transparent">🔗 Quick Links</h3>
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-orange-300 to-red-300 bg-clip-text text-transparent"> Quick Links</h3>
                 <div className="space-y-3">
-                  <a href="/services" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🌟 All Services</a>
-                  <a href="/locations" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">📍 Service Areas</a>
-                  <a href="/" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🏠 Home</a>
-                  <a href="tel:+919372662471" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">📞 Contact Us</a>
-                  <a href="#about" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">ℹ About Us</a>
+                  <a href="/" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Home</a>
+                  <a href="/services" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> All Services</a>
+                  <a href="/locations" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Other Locations</a>
+                  <a href="/about" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> About Us</a>
+                  <a href="/contact" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Contact</a>
                 </div>
               </div>
               
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">📞 Contact Information</h3>
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent"> Contact for AB Road</h3>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3 p-3">
-                    <span className="text-2xl">📞</span>
+                    <span className="text-2xl"></span>
                     <a href="tel:+919372662471" className="text-yellow-200 hover:text-yellow-100 font-bold text-lg">+91 9372 662 471</a>
                   </div>
                   <div className="flex items-center space-x-3 p-3">
-                    <span className="text-2xl">💬</span>
+                    <span className="text-2xl"></span>
                     <a href="https://wa.me/919372662471" className="text-green-200 hover:text-green-100 font-bold text-lg">WhatsApp Available</a>
                   </div>
                   <div className="flex items-center space-x-3 p-3">
-                    <span className="text-2xl">✉️</span>
-                    <a href="mailto:contact@indoreescortservice.com" className="text-purple-200 hover:text-purple-100 font-bold text-lg">Email Us</a>
-                  </div>
-                  <div className="flex items-center space-x-3 p-3">
-                    <span className="text-2xl">🛍️</span>
+                    <span className="text-2xl"></span>
                     <span className="text-pink-200 font-bold text-lg">AB Road Area</span>
                   </div>
                   <div className="flex items-center space-x-3 p-3">
-                    <span className="text-2xl">⏰</span>
+                    <span className="text-2xl"></span>
                     <span className="text-orange-200 font-bold text-lg">24/7 Available</span>
                   </div>
                 </div>
               </div>
             </div>
             
-            <div className="border-t-2 border-purple-400/40 mt-16 pt-10 text-center">
+            {/* Footer Bottom */}
+            <div className="border-t-2 border-pink-400/40 mt-16 pt-10 text-center">
               <p className="text-yellow-200 mb-6 font-bold text-xl leading-relaxed">
-                © 2024 AB Road Premium Escort Service. All rights reserved. 
+                 2024 Premium Escorts in AB Road, Indore. All rights reserved. 
               </p>
               <div className="flex flex-wrap justify-center gap-6 mb-6">
-                <span className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-3 rounded-full font-bold">🕒 24/7 Available</span>
-                <span className="bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-6 py-3 rounded-full font-bold">✅ 100% Verified</span>
-                <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full font-bold">🔒 Complete Discretion</span>
-                <span className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-6 py-3 rounded-full font-bold">⭐ Premium Quality</span>
+                <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full font-bold"> 24/7 AB Road</span>
+                <span className="bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-6 py-3 rounded-full font-bold"> 100% Verified</span>
+                <span className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-3 rounded-full font-bold"> Complete Discretion</span>
+                <span className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-6 py-3 rounded-full font-bold"> Premium Quality</span>
               </div>
               <p className="text-pink-200 font-semibold text-lg">
-                🔞 Professional escort services for adults only. Must be 18+ to use our services. 
+                 Professional escort services in AB Road for adults only. Must be 18+ to use our services. 
               </p>
             </div>
           </div>

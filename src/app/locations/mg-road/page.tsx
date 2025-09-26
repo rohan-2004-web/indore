@@ -1,329 +1,288 @@
-'use client'
+﻿'use client'
 
-import React, { useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import { useState } from 'react'
+import Header from '@/components/Header'
 
 export default function MGRoadPage() {
-  const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [openFaq, setOpenFaq] = useState<number | null>(null)
 
   const toggleFaq = (index: number) => {
-    setOpenFaq(openFaq === index ? null : index);
-  };
+    setOpenFaq(openFaq === index ? null : index)
+  }
 
   const services = [
     {
+      title: "Celebrity Escorts",
+      subtitle: "Star Quality Service", 
+      description: "Experience celebrity-level companions in MG Road with exceptional elegance",
+      image: "/images/services/Celebrity Escorts.webp",
+      icon: "",
+      category: "CELEBRITY",
+      link: "/services/celebrity-escorts"
+    },
+    {
+      title: "VIP Escorts",
+      subtitle: "Ultimate Luxury",
+      description: "Our most exclusive VIP escorts in MG Road offering ultimate luxury", 
+      image: "/images/services/VIP Escorts.jpg",
+      icon: "",
+      category: "VIP",
+      link: "/services/vip-escorts"
+    },
+    {
+      title: "Premium Models",
+      subtitle: "High-End Sophistication",
+      description: "Premium models in MG Road with unmatched sophistication",
+      image: "/images/services/Premium Models.jpg", 
+      icon: "",
+      category: "PREMIUM",
+      link: "/services/premium-models"
+    },
+    {
       title: "College Girls",
-      image: "/images/service1.jpg",
-      description: "Professional college companion services on MG Road commercial street"
+      subtitle: "Fresh & Young",
+      description: "Beautiful young companions in MG Road with vibrant energy",
+      image: "/images/services/College Girls.webp",
+      icon: "", 
+      category: "YOUNG",
+      link: "/services/college-girls"
     },
     {
-      title: "Housewives",
-      image: "/images/service2.jpg",
-      description: "Discreet mature companion services near MG Road shopping area"
+      title: "Housewife Escorts",
+      subtitle: "Mature Experience",
+      description: "Experienced mature companions in MG Road with caring nature",
+      image: "/images/services/Housewife Escorts.jpg",
+      icon: "",
+      category: "MATURE",
+      link: "/services/housewife-escorts"
     },
     {
-      title: "Call Girls",
-      image: "/images/service3.jpg",
-      description: "Premium call girl services on MG Road business district"
-    },
-    {
-      title: "Celebrity",
-      image: "/images/service4.jpg",
-      description: "Exclusive celebrity companion services on MG Road"
-    },
-    {
-      title: "Air Hostess",
-      image: "/images/service5.jpg",
-      description: "Sophisticated air hostess companion services near MG Road"
-    },
-    {
-      title: "Models",
-      image: "/images/service6.jpg",
-      description: "Professional model companion services on MG Road area"
-    },
-    {
-      title: "Independent Girls",
-      image: "/images/service7.jpg",
-      description: "Independent companion services on MG Road commercial street"
-    },
-    {
-      title: "Russian Girls",
-      image: "/images/service8.jpg",
-      description: "Exotic Russian companion services near MG Road"
-    },
-    {
-      title: "VIP Girls",
-      image: "/images/service9.jpg",
-      description: "VIP companion services in upscale MG Road areas"
-    },
-    {
-      title: "Hotel Service",
-      image: "/images/service10.jpg",
-      description: "Hotel companion services near MG Road business hotels"
-    },
-    {
-      title: "Home Service",
-      image: "/images/service11.jpg",
-      description: "Private home companion services in MG Road residential areas"
-    },
-    {
-      title: "Party Girls",
-      image: "/images/service12.jpg",
-      description: "Party companion services for MG Road nightlife and events"
-    },
-    {
-      title: "Massage Service",
-      image: "/images/service13.jpg",
-      description: "Relaxing massage services on busy MG Road area"
-    },
-    {
-      title: "Overnight Service",
-      image: "/images/service14.jpg",
-      description: "Overnight companion services on MG Road area"
-    },
-    {
-      title: "Dance Service",
-      image: "/images/service15.jpg",
-      description: "Professional dance companion services on MG Road"
-    },
-    {
-      title: "Girlfriend Experience",
-      image: "/images/service16.jpg",
-      description: "Intimate girlfriend experience services near MG Road"
-    },
-    {
-      title: "Travel Companion",
-      image: "/images/service17.jpg",
-      description: "Travel companion services from MG Road location"
-    },
-    {
-      title: "High Profile",
-      image: "/images/service18.jpg",
-      description: "High profile companion services on premium MG Road areas"
-    },
-    {
-      title: "Corporate Service",
-      image: "/images/service19.jpg",
-      description: "Corporate event companion services on MG Road business district"
-    },
-    {
-      title: "24/7 Service",
-      image: "/images/service20.jpg",
-      description: "Round-the-clock companion services on MG Road area"
+      title: "Local Beauties",
+      subtitle: "Know Indore Best",
+      description: "Beautiful local companions in MG Road who know the historic area",
+      image: "/images/services/Local Beauties.webp",
+      icon: "",
+      category: "LOCAL",
+      link: "/services"
     }
-  ];
+  ]
 
   const faqs = [
     {
-      question: "Are escort services available 24/7 on MG Road?",
-      answer: "Yes, we provide round-the-clock escort services on MG Road. Our premium companions are available for bookings throughout the day and night on this major commercial street."
+      question: "How can I book premium escorts in MG Road, Indore?",
+      answer: "Booking escorts in MG Road is simple and discreet. Call us directly at +91 9372662471 or WhatsApp. Our team is available 24/7 to help you select the perfect companion in the historic MG Road area based on your preferences."
     },
     {
-      question: "What types of escort services are offered on MG Road?",
-      answer: "We offer comprehensive escort services on MG Road including college girls, housewives, models, air hostess companions, and VIP services tailored to the commercial and entertainment environment."
+      question: "Are your MG Road escorts verified and professional?", 
+      answer: "Yes, absolutely! All our escorts in MG Road are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards while serving clients in the iconic MG Road area."
     },
     {
-      question: "Is discretion maintained for escorts on MG Road?",
-      answer: "Absolutely. We maintain complete discretion and privacy for all our escort services on MG Road. Client confidentiality is our top priority on this busy commercial street."
+      question: "What makes MG Road special for escort services in Indore?",
+      answer: "MG Road is the historic heart of Indore with heritage buildings, traditional markets, and cultural significance. It offers a unique backdrop for escort services with easy accessibility and numerous meeting venues."
     },
     {
-      question: "How to book escort services on MG Road area?",
-      answer: "Booking escort services on MG Road is simple through our website or direct contact. We ensure quick response times for bookings on the MG Road commercial district."
-    },
-    {
-      question: "What makes MG Road escort services special?",
-      answer: "Our MG Road escort services are designed for the commercial and entertainment environment, offering companions who understand the vibrant nightlife and business culture of this area."
-    },
-    {
-      question: "Are outcall services available to MG Road hotels?",
-      answer: "Yes, we provide outcall escort services to all major hotels and accommodations on MG Road, ensuring convenient and discreet meetings."
-    },
-    {
-      question: "What is the booking process for escorts on MG Road?",
-      answer: "Our MG Road escort booking process is straightforward - select your preferred companion, choose the service duration, and we handle the rest with complete professionalism."
-    },
-    {
-      question: "Do you provide escort services for MG Road nightlife events?",
-      answer: "Yes, we offer specialized escort services for nightlife, entertainment events, and business gatherings on the vibrant MG Road commercial street."
+      question: "Do you provide both incall and outcall services in MG Road?",
+      answer: "Yes, we provide both incall and outcall services throughout MG Road. Our escorts can visit you at hotels, offices, or residences in the MG Road area, or you can visit our locations nearby."
     }
-  ];
+  ]
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-emerald-50 via-green-50 to-teal-50">
-      {/* Header */}
-      <header className="bg-white/80 backdrop-blur-md shadow-lg sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4">
-          <div className="flex justify-between items-center">
-            <Link href="/" className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">
-              Indore Escorts
-            </Link>
-            <nav className="hidden md:flex space-x-8">
-              <Link href="/" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">Home</Link>
-              <Link href="/about" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">About</Link>
-              <Link href="/services" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">Services</Link>
-              <Link href="/contact" className="text-gray-700 hover:text-emerald-600 transition-colors font-medium">Contact</Link>
-            </nav>
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-br from-pink-200/60 via-orange-100/50 to-pink-300/60">
+        
+        {/* Hero Section */}
+        <section className="pt-20 pb-16 relative min-h-screen flex items-center overflow-hidden">
+          <div className="absolute inset-0">
+            <div className="absolute inset-0 bg-gradient-to-br from-pink-300/95 via-orange-200/90 to-pink-300/95"></div>
+            <div className="absolute top-10 left-10 w-72 h-72 bg-gradient-to-br from-pink-400/30 to-orange-300/30 rounded-full blur-3xl animate-pulse"></div>
+            <div className="absolute bottom-20 right-16 w-96 h-96 bg-gradient-to-br from-orange-400/25 to-pink-400/25 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
           </div>
-        </div>
-      </header>
+          
+          <div className="w-full mx-auto text-center relative z-10 px-4">
+            <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
+              <span className="text-3xl"></span>
+              <span className="text-pink-800 font-bold text-lg">Premium Escorts in MG Road</span>
+              <span className="text-3xl"></span>
+            </div>
 
-      {/* Hero Section */}
-      <section className="relative py-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-emerald-600/10 via-green-500/10 to-teal-600/10"></div>
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 via-green-500 to-teal-600 mb-6">
-              Premium Escorts on MG Road
+            <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
+              Escorts in MG Road
+              <br />
+              <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
+                Historic Heart of Indore
+              </span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-600 mb-8 leading-relaxed">
-              Experience luxury companion services on MG Road's premier commercial street. Professional escorts available for shopping tours, business meetings, and nightlife entertainment.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/contact" className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-8 py-4 rounded-full text-lg font-semibold hover:from-emerald-700 hover:to-teal-700 transform hover:scale-105 transition-all shadow-xl">
-                Book Now
-              </Link>
-              <Link href="/services" className="bg-white/80 text-emerald-600 px-8 py-4 rounded-full text-lg font-semibold hover:bg-white border-2 border-emerald-600 transform hover:scale-105 transition-all shadow-xl">
-                View Services
-              </Link>
+
+            <div className="max-w-5xl mx-auto mb-12">
+              <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
+                Premium Escort Services in Historic MG Road
+              </p>
+              <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
+                Verified professional escorts in MG Road  24/7 availability  Historic heritage location  Complete discretion guaranteed
+              </p>
+            </div>
+
+            {/* Enhanced CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-8 justify-center mb-16">
+              <a 
+                href="tel:+919372662471" 
+                className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-pink-600 via-pink-700 to-pink-800 hover:from-pink-700 hover:via-pink-800 hover:to-pink-900 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-pink-500/50 border-2 border-pink-400/30"
+              >
+                <span className="text-3xl group-hover:animate-bounce"></span>
+                <span>Call Now: +91 9372 662 471</span>
+              </a>
+              <a 
+                href="https://wa.me/919372662471" 
+                className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:from-green-600 hover:via-green-700 hover:to-green-800 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 border-2 border-green-400/30"
+              >
+                <span className="text-3xl group-hover:animate-bounce"></span>
+                <span>WhatsApp Now</span>
+              </a>
+            </div>
+
+            {/* Premium Features */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
+                <div className="text-4xl mb-3"></div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Historic Heritage Area</h3>
+                <p className="text-gray-700 font-medium">Iconic MG Road with heritage buildings and culture</p>
+              </div>
+              <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
+                <div className="text-4xl mb-3"></div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Premium Companions</h3>
+                <p className="text-gray-700 font-medium">Verified high-class escorts perfect for cultural experiences</p>
+              </div>
+              <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
+                <div className="text-4xl mb-3"></div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Complete Discretion</h3>
+                <p className="text-gray-700 font-medium">100% privacy guaranteed for clients in MG Road</p>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* MG Road Features */}
-      <section className="py-16 bg-white/50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">
-            Why Choose MG Road Location
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-white/80 rounded-2xl p-8 shadow-xl text-center transform hover:scale-105 transition-all">
-              <div className="w-16 h-16 bg-gradient-to-r from-emerald-500 to-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl text-white">🛍️</span>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Commercial Heart</h3>
-              <p className="text-gray-600">Located on the main commercial street of Indore with premium shopping, dining, and entertainment venues.</p>
+        {/* Services Section */}
+        <section className="py-20 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70">
+          <div className="w-full px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+                Premium Escort Services in MG Road, Indore
+              </h2>
+              <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+                Experience luxury companionship in Indore's historic heart with our verified professional escorts
+              </p>
             </div>
-            <div className="bg-white/80 rounded-2xl p-8 shadow-xl text-center transform hover:scale-105 transition-all">
-              <div className="w-16 h-16 bg-gradient-to-r from-green-500 to-teal-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl text-white">🌃</span>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Vibrant Nightlife</h3>
-              <p className="text-gray-600">Active nightlife scene with restaurants, bars, and entertainment venues, perfect for evening companion services.</p>
-            </div>
-            <div className="bg-white/80 rounded-2xl p-8 shadow-xl text-center transform hover:scale-105 transition-all">
-              <div className="w-16 h-16 bg-gradient-to-r from-teal-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl text-white">🏢</span>
-              </div>
-              <h3 className="text-2xl font-bold text-gray-800 mb-4">Business Center</h3>
-              <p className="text-gray-600">Major business district with corporate offices, banks, and commercial establishments ideal for professional services.</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Services Grid */}
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">
-            Our Premium Services on MG Road
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {services.map((service, index) => (
-              <div key={index} className="bg-white/80 rounded-2xl overflow-hidden shadow-xl transform hover:scale-105 transition-all hover:shadow-2xl">
-                <div className="relative h-80">
-                  <Image 
-                    src={service.image} 
-                    alt={service.title}
-                    fill
-                    className="object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-emerald-900/70 via-transparent to-transparent"></div>
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-2">{service.title}</h3>
-                  <p className="text-gray-600 text-sm mb-4">{service.description}</p>
-                  <Link href="/contact" className="bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-4 py-2 rounded-full text-sm font-medium hover:from-emerald-600 hover:to-teal-600 transition-all inline-block">
-                    Book Now
-                  </Link>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="py-16 bg-white/50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-12 text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">
-            Frequently Asked Questions - MG Road
-          </h2>
-          <div className="max-w-3xl mx-auto">
-            {faqs.map((faq, index) => (
-              <div key={index} className="mb-4">
-                <button
-                  onClick={() => toggleFaq(index)}
-                  className="w-full bg-white/80 rounded-2xl p-6 text-left shadow-lg hover:shadow-xl transition-all"
-                >
-                  <div className="flex justify-between items-center">
-                    <h3 className="text-lg font-semibold text-gray-800">{faq.question}</h3>
-                    <span className="text-emerald-600 text-2xl">{openFaq === index ? '−' : '+'}</span>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+              {services.map((service, index) => (
+                <div key={index} className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src={service.image} alt={service.title} className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
                   </div>
-                </button>
-                {openFaq === index && (
-                  <div className="mt-2 bg-white/60 rounded-2xl p-6 shadow-inner">
-                    <p className="text-gray-700 leading-relaxed">{faq.answer}</p>
-                  </div>
-                )}
-              </div>
-            ))}
+                  <span className="text-2xl mb-2">{service.icon}</span>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">{service.title}</h3>
+                  <p className="text-gray-600 mb-4 text-base flex-grow">{service.description}</p>
+                  <a href={service.link} className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">
+                    Book in MG Road
+                  </a>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Footer */}
-      <footer className="bg-gradient-to-r from-emerald-900 via-green-900 to-teal-900 text-white py-12">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div>
-              <h3 className="text-2xl font-bold mb-4">MG Road Escorts</h3>
-              <p className="text-emerald-200 mb-4">Premium escort services on MG Road commercial street with professional companions for all occasions.</p>
+        {/* FAQ Section */}
+        <section className="py-20 bg-gradient-to-br from-pink-100/60 via-orange-50/50 to-pink-200/60">
+          <div className="w-full px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+                Frequently Asked Questions - Escorts in MG Road
+              </h2>
+              <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                Get answers to common questions about escort services in MG Road, Indore
+              </p>
             </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4 text-emerald-300">Quick Links</h4>
-              <ul className="space-y-2">
-                <li><Link href="/" className="text-emerald-200 hover:text-white transition-colors">Home</Link></li>
-                <li><Link href="/about" className="text-emerald-200 hover:text-white transition-colors">About</Link></li>
-                <li><Link href="/services" className="text-emerald-200 hover:text-white transition-colors">Services</Link></li>
-                <li><Link href="/contact" className="text-emerald-200 hover:text-white transition-colors">Contact</Link></li>
-              </ul>
+
+            <div className="max-w-6xl mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {faqs.map((faq, index) => (
+                  <div key={index} className="bg-gradient-to-br from-pink-100 to-orange-100 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-pink-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
+                    <button
+                      onClick={() => toggleFaq(index)}
+                      className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-pink-200/80 hover:to-orange-100/80 transition-all duration-200 flex justify-between items-center group"
+                    >
+                      <h3 className="text-xl font-bold text-pink-900 pr-4 group-hover:text-orange-700">{faq.question}</h3>
+                      <span className={`text-3xl transition-all duration-300 text-pink-700 ${openFaq === index ? 'rotate-180 scale-110' : ''}`}>
+                        
+                      </span>
+                    </button>
+                    {openFaq === index && (
+                      <div className="px-8 pb-8 bg-gradient-to-r from-pink-50/90 to-orange-50/90">
+                        <p className="text-gray-700 leading-relaxed text-lg font-medium">
+                          {faq.answer}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
             </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4 text-emerald-300">Services</h4>
-              <ul className="space-y-2">
-                <li><span className="text-emerald-200">VIP Escorts</span></li>
-                <li><span className="text-emerald-200">Nightlife Companions</span></li>
-                <li><span className="text-emerald-200">Shopping Tours</span></li>
-                <li><span className="text-emerald-200">24/7 Availability</span></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="text-lg font-semibold mb-4 text-emerald-300">MG Road Area</h4>
-              <ul className="space-y-2">
-                <li><span className="text-emerald-200">Commercial Street</span></li>
-                <li><span className="text-emerald-200">Shopping District</span></li>
-                <li><span className="text-emerald-200">Nightlife Hub</span></li>
-                <li><span className="text-emerald-200">Business Center</span></li>
-              </ul>
+
+            <div className="text-center mt-16">
+              <p className="text-xl text-gray-600 mb-8">
+                Have more questions about our escort services in MG Road? Contact us directly!
+              </p>
+              <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                   Call +91 9372662471
+                </a>
+                <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                   WhatsApp Chat
+                </a>
+              </div>
             </div>
           </div>
-          <div className="border-t border-emerald-700 mt-8 pt-8 text-center">
-            <p className="text-emerald-200">&copy; 2024 Indore Escorts - MG Road. All rights reserved.</p>
+        </section>
+
+        {/* Footer */}
+        <footer className="bg-gradient-to-br from-pink-600/95 via-purple-700/90 to-orange-600/95 text-white py-20 relative">
+          <div className="w-full px-4 relative z-10">
+            <div className="text-center">
+              <h3 className="text-3xl font-bold mb-6 bg-gradient-to-r from-yellow-300 to-pink-300 bg-clip-text text-transparent">
+                 Escorts in MG Road, Indore
+              </h3>
+              <p className="text-pink-100 mb-8 leading-relaxed font-semibold text-xl max-w-2xl mx-auto">
+                Premium escort services in historic MG Road with verified professional companions. Available 24/7 in the heart of Indore.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
+                <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-12 py-5 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-xl">
+                   Call Now: +91 9372662471
+                </a>
+                <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-green-600 to-lime-600 hover:from-green-700 hover:to-lime-700 text-white px-12 py-5 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-xl">
+                   WhatsApp Available
+                </a>
+              </div>
+              
+              {/* Footer Bottom */}
+              <div className="border-t-2 border-pink-400/40 pt-8">
+                <p className="text-yellow-200 mb-6 font-bold text-xl leading-relaxed">
+                   2024 Premium Escorts in MG Road, Indore. All rights reserved.
+                </p>
+                <div className="flex flex-wrap justify-center gap-6 mb-6">
+                  <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full font-bold"> 24/7 MG Road</span>
+                  <span className="bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-6 py-3 rounded-full font-bold"> 100% Verified</span>
+                  <span className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-3 rounded-full font-bold"> Complete Discretion</span>
+                  <span className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-6 py-3 rounded-full font-bold"> Premium Quality</span>
+                </div>
+                <p className="text-pink-200 font-semibold text-lg">
+                   Professional escort services in MG Road for adults only. Must be 18+ to use our services.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </footer>
-    </div>
-  );
+        </footer>
+      </div>
+    </>
+  )
 }
