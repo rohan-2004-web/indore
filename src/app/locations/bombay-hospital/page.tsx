@@ -16,7 +16,7 @@ export default function BombayHospitalPage() {
       subtitle: "Star Quality Service",
       description: "Experience celebrity-level companions near Bombay Hospital with exceptional elegance",
       image: "/images/services/Celebrity Escorts.webp",
-      icon: "",
+      icon: "⭐",
       category: "CELEBRITY",
       link: "/services/celebrity-escorts"
     },
@@ -25,7 +25,7 @@ export default function BombayHospitalPage() {
       subtitle: "Ultimate Luxury",
       description: "Our most exclusive VIP escorts near Bombay Hospital offering ultimate luxury",
       image: "/images/services/VIP Escorts.jpg",
-      icon: "",
+      icon: "💫",
       category: "VIP",
       link: "/services/vip-escorts"
     },
@@ -34,7 +34,7 @@ export default function BombayHospitalPage() {
       subtitle: "High-End Sophistication",
       description: "Premium models near Bombay Hospital with unmatched sophistication",
       image: "/images/services/Premium Models.jpg",
-      icon: "",
+      icon: "💎",
       category: "PREMIUM",
       link: "/services/premium-models"
     },
@@ -43,7 +43,7 @@ export default function BombayHospitalPage() {
       subtitle: "Fresh & Young",
       description: "Beautiful young companions near Bombay Hospital with vibrant energy",
       image: "/images/services/College Girls.webp",
-      icon: "",
+      icon: "🌟",
       category: "YOUNG",
       link: "/services/college-girls"
     },
@@ -52,7 +52,7 @@ export default function BombayHospitalPage() {
       subtitle: "Mature Experience",
       description: "Experienced mature companions near Bombay Hospital with caring nature",
       image: "/images/services/Housewife Escorts.jpg",
-      icon: "",
+      icon: "👑",
       category: "MATURE",
       link: "/services/housewife-escorts"
     },
@@ -61,7 +61,7 @@ export default function BombayHospitalPage() {
       subtitle: "Traditional Beauty",
       description: "Authentic Punjabi companions near Bombay Hospital with traditional charm",
       image: "/images/services/Punjabi women.webp",
-      icon: "",
+      icon: "🌺",
       category: "TRADITIONAL",
       link: "/services"
     },
@@ -70,7 +70,7 @@ export default function BombayHospitalPage() {
       subtitle: "Perfect Figure",
       description: "Elegant slim companions near Bombay Hospital with perfect figures",
       image: "/images/services/Slim Escorts.webp",
-      icon: "",
+      icon: "💃",
       category: "SLIM",
       link: "/services"
     },
@@ -79,7 +79,7 @@ export default function BombayHospitalPage() {
       subtitle: "Seeking Excitement",
       description: "Experienced companions near Bombay Hospital seeking excitement and connection",
       image: "/images/services/Unsatisfied Bhabhi.webp",
-      icon: "",
+      icon: "🔥",
       category: "BHABHI",
       link: "/services"
     },
@@ -88,7 +88,7 @@ export default function BombayHospitalPage() {
       subtitle: "Know Indore Best",
       description: "Beautiful local companions near Bombay Hospital who know the city inside out",
       image: "/images/services/Local Beauties.webp",
-      icon: "",
+      icon: "🏙️",
       category: "LOCAL",
       link: "/services"
     },
@@ -97,7 +97,7 @@ export default function BombayHospitalPage() {
       subtitle: "Perfect Plus One",
       description: "Professional companions near Bombay Hospital for medical events and parties",
       image: "/images/services/Event Companion.webp",
-      icon: "",
+      icon: "🎭",
       category: "PROFESSIONAL",
       link: "/services"
     },
@@ -106,7 +106,7 @@ export default function BombayHospitalPage() {
       subtitle: "Exclusive Experience",
       description: "Special premium companions near Bombay Hospital for exclusive experiences",
       image: "/images/services/Pink Special.webp",
-      icon: "",
+      icon: "💖",
       category: "SPECIAL",
       link: "/services"
     },
@@ -115,7 +115,7 @@ export default function BombayHospitalPage() {
       subtitle: "Meaningful Connections",
       description: "Mature women near Bombay Hospital seeking meaningful connections",
       image: "/images/services/Unsatisfied Females.webp",
-      icon: "",
+      icon: "💕",
       category: "FEMALE",
       link: "/services"
     },
@@ -124,7 +124,7 @@ export default function BombayHospitalPage() {
       subtitle: "Luxury Locations",
       description: "Premium incall services near Bombay Hospital at luxury locations",
       image: "/images/services/Incall Escorts.webp",
-      icon: "",
+      icon: "🏨",
       category: "INCALL",
       link: "/services"
     },
@@ -133,7 +133,7 @@ export default function BombayHospitalPage() {
       subtitle: "Experienced Sophistication",
       description: "Experienced mature companions near Bombay Hospital with sophistication",
       image: "/images/services/Mature Escorts.webp",
-      icon: "",
+      icon: "🍷",
       category: "MATURE",
       link: "/services"
     },
@@ -142,7 +142,7 @@ export default function BombayHospitalPage() {
       subtitle: "Unforgettable Experiences",
       description: "Young beautiful companions near Bombay Hospital for unforgettable experiences",
       image: "/images/services/Young Girls.webp",
-      icon: "",
+      icon: "✨",
       category: "YOUNG",
       link: "/services"
     },
@@ -151,7 +151,7 @@ export default function BombayHospitalPage() {
       subtitle: "Local Expertise",
       description: "Premium local escorts near Bombay Hospital with deep knowledge of Indore",
       image: "/images/services/indore escorts.webp",
-      icon: "",
+      icon: "🏛️",
       category: "LOCAL",
       link: "/services"
     },
@@ -160,7 +160,7 @@ export default function BombayHospitalPage() {
       subtitle: "Professional Expertise",
       description: "Expert companions near Bombay Hospital with specialized skills",
       image: "/images/services/Expert Services.webp",
-      icon: "",
+      icon: "🎯",
       category: "EXPERT",
       link: "/services"
     },
@@ -169,7 +169,7 @@ export default function BombayHospitalPage() {
       subtitle: "Elite Fashion Models",
       description: "Stunning high-class models near Bombay Hospital with runway experience",
       image: "/images/services/High Class Models.webp",
-      icon: "",
+      icon: "👗",
       category: "MODEL",
       link: "/services"
     },
@@ -178,7 +178,7 @@ export default function BombayHospitalPage() {
       subtitle: "Confident & Adventurous",
       description: "Bold and confident companions near Bombay Hospital ready for adventures",
       image: "/images/services/bold girls.webp",
-      icon: "",
+      icon: "🔥",
       category: "BOLD",
       link: "/services"
     },
@@ -187,7 +187,7 @@ export default function BombayHospitalPage() {
       subtitle: "Mesmerizing Charm",
       description: "Incredibly attractive companions near Bombay Hospital with mesmerizing charm",
       image: "/images/services/sexy girls.webp",
-      icon: "",
+      icon: "💋",
       category: "SEXY",
       link: "/services"
     }

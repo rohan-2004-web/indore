@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { useState } from 'react'
 import Header from '@/components/Header'
@@ -16,7 +16,7 @@ export default function AirportRoadPage() {
       subtitle: "Star Quality Service",
       description: "Experience celebrity-level companions in Airport Road with exceptional elegance",
       image: "/images/services/Celebrity Escorts.webp",
-      icon: "",
+      icon: "⭐",
       category: "CELEBRITY",
       link: "/services/celebrity-escorts"
     },
@@ -25,7 +25,7 @@ export default function AirportRoadPage() {
       subtitle: "Ultimate Luxury",
       description: "Our most exclusive VIP escorts in Airport Road offering ultimate luxury",
       image: "/images/services/VIP Escorts.jpg",
-      icon: "",
+      icon: "💫",
       category: "VIP",
       link: "/services/vip-escorts"
     },
@@ -34,7 +34,7 @@ export default function AirportRoadPage() {
       subtitle: "High-End Sophistication",
       description: "Premium models in Airport Road with unmatched sophistication",
       image: "/images/services/Premium Models.jpg",
-      icon: "",
+      icon: "💎",
       category: "PREMIUM",
       link: "/services/premium-models"
     },
@@ -43,7 +43,7 @@ export default function AirportRoadPage() {
       subtitle: "Fresh & Young",
       description: "Beautiful young companions in Airport Road with vibrant energy",
       image: "/images/services/College Girls.webp",
-      icon: "",
+      icon: "🌟",
       category: "YOUNG",
       link: "/services/college-girls"
     },
@@ -52,7 +52,7 @@ export default function AirportRoadPage() {
       subtitle: "Mature Experience",
       description: "Experienced mature companions in Airport Road with caring nature",
       image: "/images/services/Housewife Escorts.jpg",
-      icon: "",
+      icon: "👑",
       category: "MATURE",
       link: "/services/housewife-escorts"
     },
@@ -61,7 +61,7 @@ export default function AirportRoadPage() {
       subtitle: "Traditional Beauty",
       description: "Authentic Punjabi companions in Airport Road with traditional charm",
       image: "/images/services/Punjabi women.webp",
-      icon: "",
+      icon: "🌺",
       category: "TRADITIONAL",
       link: "/services"
     },
@@ -70,7 +70,7 @@ export default function AirportRoadPage() {
       subtitle: "Perfect Figure",
       description: "Elegant slim companions in Airport Road with perfect figures",
       image: "/images/services/Slim Escorts.webp",
-      icon: "",
+      icon: "💃",
       category: "SLIM",
       link: "/services"
     },
@@ -79,7 +79,7 @@ export default function AirportRoadPage() {
       subtitle: "Seeking Excitement",
       description: "Experienced companions in Airport Road seeking excitement and connection",
       image: "/images/services/Unsatisfied Bhabhi.webp",
-      icon: "",
+      icon: "🔥",
       category: "BHABHI",
       link: "/services"
     },
@@ -88,7 +88,7 @@ export default function AirportRoadPage() {
       subtitle: "Know Indore Best",
       description: "Beautiful local companions in Airport Road who know the city inside out",
       image: "/images/services/Local Beauties.webp",
-      icon: "",
+      icon: "🏙️",
       category: "LOCAL",
       link: "/services"
     },
@@ -97,7 +97,7 @@ export default function AirportRoadPage() {
       subtitle: "Perfect Plus One",
       description: "Professional companions in Airport Road for business events and parties",
       image: "/images/services/Event Companion.webp",
-      icon: "",
+      icon: "🎭",
       category: "PROFESSIONAL",
       link: "/services"
     },
@@ -106,7 +106,7 @@ export default function AirportRoadPage() {
       subtitle: "Exclusive Experience",
       description: "Special premium companions in Airport Road for exclusive experiences",
       image: "/images/services/Pink Special.webp",
-      icon: "",
+      icon: "💖",
       category: "SPECIAL",
       link: "/services"
     },
@@ -115,7 +115,7 @@ export default function AirportRoadPage() {
       subtitle: "Meaningful Connections",
       description: "Mature women in Airport Road seeking meaningful connections",
       image: "/images/services/Unsatisfied Females.webp",
-      icon: "",
+      icon: "💕",
       category: "FEMALE",
       link: "/services"
     },
@@ -124,7 +124,7 @@ export default function AirportRoadPage() {
       subtitle: "Luxury Locations",
       description: "Premium incall services in Airport Road at luxury locations",
       image: "/images/services/Incall Escorts.webp",
-      icon: "",
+      icon: "🏨",
       category: "INCALL",
       link: "/services"
     },
@@ -133,7 +133,7 @@ export default function AirportRoadPage() {
       subtitle: "Experienced Sophistication",
       description: "Experienced mature companions in Airport Road with sophistication",
       image: "/images/services/Mature Escorts.webp",
-      icon: "",
+      icon: "🍷",
       category: "MATURE",
       link: "/services"
     },
@@ -142,7 +142,7 @@ export default function AirportRoadPage() {
       subtitle: "Unforgettable Experiences",
       description: "Young beautiful companions in Airport Road for unforgettable experiences",
       image: "/images/services/Young Girls.webp",
-      icon: "",
+      icon: "✨",
       category: "YOUNG",
       link: "/services"
     },
@@ -151,7 +151,7 @@ export default function AirportRoadPage() {
       subtitle: "Local Expertise",
       description: "Premium local escorts in Airport Road with deep knowledge of Indore",
       image: "/images/services/indore escorts.webp",
-      icon: "",
+      icon: "🏛️",
       category: "LOCAL",
       link: "/services"
     },
@@ -160,7 +160,7 @@ export default function AirportRoadPage() {
       subtitle: "Professional Expertise",
       description: "Expert companions in Airport Road with specialized skills",
       image: "/images/services/Expert Services.webp",
-      icon: "",
+      icon: "🎯",
       category: "EXPERT",
       link: "/services"
     },
@@ -169,7 +169,7 @@ export default function AirportRoadPage() {
       subtitle: "Elite Fashion Models",
       description: "Stunning high-class models in Airport Road with runway experience",
       image: "/images/services/High Class Models.webp",
-      icon: "",
+      icon: "👗",
       category: "MODEL",
       link: "/services"
     },
@@ -178,7 +178,7 @@ export default function AirportRoadPage() {
       subtitle: "Confident & Adventurous",
       description: "Bold and confident companions in Airport Road ready for adventures",
       image: "/images/services/bold girls.webp",
-      icon: "",
+      icon: "🔥",
       category: "BOLD",
       link: "/services"
     },
@@ -187,7 +187,7 @@ export default function AirportRoadPage() {
       subtitle: "Mesmerizing Charm",
       description: "Incredibly attractive companions in Airport Road with mesmerizing charm",
       image: "/images/services/sexy girls.webp",
-      icon: "",
+      icon: "💋",
       category: "SEXY",
       link: "/services"
     }
@@ -200,15 +200,15 @@ export default function AirportRoadPage() {
     },
     {
       question: "Are your Airport Road escorts verified and professional?",
-      answer: "Yes, absolutely! All our escorts in Airport Road are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards of elegance and sophistication while serving clients in the strategic Airport Road corridor."
+      answer: "Yes, absolutely! All our escorts in Airport Road are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards of elegance and sophistication while serving clients in the Airport Road residential hub."
     },
     {
-      question: "What makes Airport Road ideal for escort services in Indore?",
-      answer: "Airport Road is a prime connectivity corridor with excellent transport links, hotels for travelers, and business establishments. It offers perfect accessibility for both local and visiting clients with premium venues and strategic location."
+      question: "What makes Airport Road the best location for escort services in Indore?",
+      answer: "Airport Road is Indore's upscale residential hub with premium homes, peaceful environment, and private locations. It offers the perfect setting for high-end escort services with excellent privacy and sophisticated residential venues for meetings."
     },
     {
       question: "Do you provide both incall and outcall services in Airport Road?",
-      answer: "Yes, we provide both incall and outcall services throughout Airport Road. Our escorts can visit you at your hotel, residence, or office in Airport Road, or you can visit our luxury incall locations in the area."
+      answer: "Yes, we provide both incall and outcall services throughout Airport Road. Our escorts can visit you at your home, residence, or private location in Airport Road, or you can visit our luxury incall locations in the area."
     },
     {
       question: "What are the rates for escort services in Airport Road?",
@@ -216,15 +216,15 @@ export default function AirportRoadPage() {
     },
     {
       question: "Is privacy and discretion guaranteed for Airport Road bookings?",
-      answer: "Privacy and discretion are our top priorities for all Airport Road bookings. All client information is kept strictly confidential. Our escorts are trained to maintain complete discretion, especially important for traveling clients in Airport Road."
+      answer: "Privacy and discretion are our top priorities for all Airport Road bookings. All client information is kept strictly confidential. Our escorts are trained to maintain complete discretion, especially important in the residential environment of Airport Road."
     },
     {
-      question: "Which hotels and venues in Airport Road do you recommend for escort meetings?",
-      answer: "Airport Road has numerous premium hotels and business venues perfect for escort meetings. We can recommend the best locations based on your preferences, especially convenient for travelers and business clients."
+      question: "Which locations in Airport Road do you recommend for escort meetings?",
+      answer: "Airport Road has several premium residential locations perfect for escort meetings including upscale homes, private apartments, and boutique accommodations. We can recommend the best locations based on your preferences and provide guidance for seamless meetings."
     },
     {
       question: "Are same-day bookings available for escorts in Airport Road?",
-      answer: "Yes, we offer same-day bookings for escorts in Airport Road subject to availability. Given Airport Road's strategic importance for travelers, we recommend booking 2-3 hours in advance to ensure your preferred companion is available."
+      answer: "Yes, we offer same-day bookings for escorts in Airport Road subject to availability. Given Airport Road's popularity and high demand, we recommend booking 2-3 hours in advance to ensure your preferred companion is available in the area."
     }
   ]
 
@@ -246,25 +246,25 @@ export default function AirportRoadPage() {
           <div className="w-full mx-auto text-center relative z-10 px-4">
             {/* Premium Badge */}
             <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
-              <span className="text-3xl"></span>
+              <span className="text-3xl">💎</span>
               <span className="text-pink-800 font-bold text-lg">Premium Escorts in Airport Road</span>
-              <span className="text-3xl"></span>
+              <span className="text-3xl">✨</span>
             </div>
 
             <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
               Escorts in Airport Road
               <br />
               <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
-                Gateway Corridor
+                Aviation Hub
               </span>
             </h1>
 
             <div className="max-w-5xl mx-auto mb-12">
               <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
-                Premium Escort Services in Airport Road Connectivity Hub
+                Premium Escort Services in Airport Road's Aviation & Business Hub
               </p>
               <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
-                Verified professional escorts in Airport Road  24/7 availability  Perfect for travelers  Complete discretion guaranteed
+                Verified professional escorts in Airport Road • 24/7 availability • Hotels & business centers • Complete discretion guaranteed
               </p>
             </div>
 
@@ -274,14 +274,14 @@ export default function AirportRoadPage() {
                 href="tel:+919372662471" 
                 className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-pink-600 via-pink-700 to-pink-800 hover:from-pink-700 hover:via-pink-800 hover:to-pink-900 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-pink-500/50 border-2 border-pink-400/30"
               >
-                <span className="text-3xl group-hover:animate-bounce"></span>
+                <span className="text-3xl group-hover:animate-bounce">📞</span>
                 <span>Call Now: +91 9372 662 471</span>
               </a>
               <a 
                 href="https://wa.me/919372662471" 
                 className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:from-green-600 hover:via-green-700 hover:to-green-800 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 border-2 border-green-400/30"
               >
-                <span className="text-3xl group-hover:animate-bounce"></span>
+                <span className="text-3xl group-hover:animate-bounce">💬</span>
                 <span>WhatsApp Now</span>
               </a>
             </div>
@@ -289,19 +289,19 @@ export default function AirportRoadPage() {
             {/* Premium Features */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3"></div>
-                <h3 className="text-lg font-bold text-gray-800 mb-2">Airport Connectivity</h3>
-                <p className="text-gray-700 font-medium">Strategic Airport Road location with excellent transport links</p>
+                <div className="text-4xl mb-3">�</div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Residential Hub Location</h3>
+                <p className="text-gray-700 font-medium">Upscale Airport Road with premium homes and residential privacy</p>
               </div>
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3"></div>
+                <div className="text-4xl mb-3">⭐</div>
                 <h3 className="text-lg font-bold text-gray-800 mb-2">Premium Companions</h3>
-                <p className="text-gray-700 font-medium">Verified high-class escorts perfect for business travelers</p>
+                <p className="text-gray-700 font-medium">Verified high-class escorts perfect for residential meetings</p>
               </div>
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3"></div>
+                <div className="text-4xl mb-3">🔒</div>
                 <h3 className="text-lg font-bold text-gray-800 mb-2">Complete Discretion</h3>
-                <p className="text-gray-700 font-medium">100% privacy guaranteed for traveling clients</p>
+                <p className="text-gray-700 font-medium">100% privacy guaranteed for residential clients in Airport Road</p>
               </div>
             </div>
           </div>
@@ -315,7 +315,7 @@ export default function AirportRoadPage() {
                 Premium Escort Services in Airport Road, Indore
               </h2>
               <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-                Experience luxury companionship in Airport Road's strategic location with our verified professional escorts
+                Experience luxury companionship in Indore's upscale residential hub with our verified professional escorts
               </p>
             </div>
 
@@ -346,7 +346,7 @@ export default function AirportRoadPage() {
                   Why Choose Escorts in Airport Road?
                 </h2>
                 <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                  Airport Road is Indore's key connectivity corridor, offering perfect access for travelers and business clients
+                  Airport Road is Indore's upscale residential hub, offering the perfect setting for premium escort services
                 </p>
               </div>
 
@@ -354,24 +354,24 @@ export default function AirportRoadPage() {
                 {/* Location Benefits */}
                 <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
                   <h3 className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text text-transparent mb-6">
-                     Strategic Gateway Location
+                    �️ Prime Residential Location
                   </h3>
                   <div className="space-y-4">
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Key Connectivity Corridor to Airport</p>
+                      <span className="text-2xl mr-4">�</span>
+                      <p className="font-semibold text-gray-700">Upscale Residential Hub of Indore</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Premium Hotels for Travelers</p>
+                      <span className="text-2xl mr-4">�</span>
+                      <p className="font-semibold text-gray-700">Premium Homes & Private Locations</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Business Centers & Corporate Offices</p>
+                      <span className="text-2xl mr-4">🌳</span>
+                      <p className="font-semibold text-gray-700">Peaceful Residential Environment</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Excellent Transport & Accessibility</p>
+                      <span className="text-2xl mr-4">🚗</span>
+                      <p className="font-semibold text-gray-700">Excellent Connectivity & Accessibility</p>
                     </div>
                   </div>
                 </div>
@@ -379,24 +379,24 @@ export default function AirportRoadPage() {
                 {/* Service Features */}
                 <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-pink-100/50">
                   <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-6">
-                     Premium Service Features
+                    ⭐ Premium Service Features
                   </h3>
                   <div className="space-y-4">
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Perfect for Traveling Clients & Business</p>
+                      <span className="text-2xl mr-4">👔</span>
+                      <p className="font-semibold text-gray-700">Perfect for Business Meetings & Events</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Professional Companions for Business</p>
+                      <span className="text-2xl mr-4">🌟</span>
+                      <p className="font-semibold text-gray-700">High-Class Professional Companions</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
+                      <span className="text-2xl mr-4">⏰</span>
                       <p className="font-semibold text-gray-700">24/7 Availability in Airport Road</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Discretion for Corporate Travelers</p>
+                      <span className="text-2xl mr-4">🔐</span>
+                      <p className="font-semibold text-gray-700">Discretion for Corporate Clients</p>
                     </div>
                   </div>
                 </div>
@@ -405,7 +405,7 @@ export default function AirportRoadPage() {
               {/* Booking Information */}
               <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
                 <h3 className="text-4xl font-bold bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text text-transparent mb-8 text-center">
-                   Book Escorts in Airport Road - Simple Process
+                  📱 Book Escorts in Airport Road - Simple Process
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <div className="text-center">
@@ -433,10 +433,10 @@ export default function AirportRoadPage() {
                 <div className="text-center mt-8">
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-orange-500 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:scale-105 transition-transform shadow-xl">
-                       Call for Airport Road: +91 9372662471
+                      📞 Call for Airport Road: +91 9372662471
                     </a>
                     <a href="https://wa.me/919372662471" className="inline-block bg-gradient-to-r from-green-500 to-emerald-500 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:scale-105 transition-transform shadow-xl">
-                       WhatsApp Now
+                      💬 WhatsApp Now
                     </a>
                   </div>
                 </div>
@@ -467,7 +467,7 @@ export default function AirportRoadPage() {
                     >
                       <h3 className="text-xl font-bold text-pink-900 pr-4 group-hover:text-orange-700">{faq.question}</h3>
                       <span className={`text-3xl transition-all duration-300 text-pink-700 ${openFaq === index ? 'rotate-180 scale-110' : ''}`}>
-                        
+                        ▼
                       </span>
                     </button>
                     {openFaq === index && (
@@ -488,10 +488,10 @@ export default function AirportRoadPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
-                   Call +91 9372662471
+                  📞 Call +91 9372662471
                 </a>
                 <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
-                   WhatsApp Chat
+                  💬 WhatsApp Chat
                 </a>
               </div>
             </div>
@@ -507,7 +507,7 @@ export default function AirportRoadPage() {
                 Ready to Book Premium Escorts in Airport Road?
               </h2>
               <p className="text-2xl text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed">
-                Experience the finest escort services in Airport Road's strategic location with complete discretion and satisfaction guarantee
+                Experience the finest escort services in Indore's upscale residential hub with complete discretion and satisfaction guarantee
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a 
@@ -537,7 +537,7 @@ export default function AirportRoadPage() {
                    Escorts in Airport Road, Indore
                 </h3>
                 <p className="text-pink-100 mb-6 leading-relaxed font-semibold text-lg">
-                  Premium escort services in Airport Road gateway corridor with verified professional companions. Available 24/7.
+                  Premium escort services in Airport Road residential hub with verified professional companions. Available 24/7.
                 </p>
                 <div className="flex flex-col gap-4">
                   <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
