@@ -1,9 +1,9 @@
-﻿'use client'
+'use client'
 
 import { useState } from 'react'
 import Header from '@/components/Header'
 
-export default function SaketPage() {
+export default function VijayNagarPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
 
   const toggleFaq = (index: number) => {
@@ -14,180 +14,180 @@ export default function SaketPage() {
     {
       title: "Celebrity Escorts",
       subtitle: "Star Quality Service",
-      description: "Experience celebrity-level companions in Saket with exceptional elegance",
+      description: "Experience celebrity-level companions in Vijay Nagar with exceptional elegance",
       image: "/images/services/Celebrity Escorts.webp",
-      icon: "",
+      icon: "⭐",
       category: "CELEBRITY",
       link: "/services/celebrity-escorts"
     },
     {
       title: "VIP Escorts", 
       subtitle: "Ultimate Luxury",
-      description: "Our most exclusive VIP escorts in Saket offering ultimate luxury",
+      description: "Our most exclusive VIP escorts in Vijay Nagar offering ultimate luxury",
       image: "/images/services/VIP Escorts.jpg",
-      icon: "",
+      icon: "💫",
       category: "VIP",
       link: "/services/vip-escorts"
     },
     {
       title: "Premium Models",
       subtitle: "High-End Sophistication",
-      description: "Premium models in Saket with unmatched sophistication",
+      description: "Premium models in Vijay Nagar with unmatched sophistication",
       image: "/images/services/Premium Models.jpg",
-      icon: "",
+      icon: "💎",
       category: "PREMIUM",
       link: "/services/premium-models"
     },
     {
       title: "College Girls",
       subtitle: "Fresh & Young",
-      description: "Beautiful young companions in Saket with vibrant energy",
+      description: "Beautiful young companions in Vijay Nagar with vibrant energy",
       image: "/images/services/College Girls.webp",
-      icon: "",
+      icon: "🌟",
       category: "YOUNG",
       link: "/services/college-girls"
     },
     {
       title: "Housewife Escorts",
       subtitle: "Mature Experience",
-      description: "Experienced mature companions in Saket with caring nature",
+      description: "Experienced mature companions in Vijay Nagar with caring nature",
       image: "/images/services/Housewife Escorts.jpg",
-      icon: "",
+      icon: "👑",
       category: "MATURE",
       link: "/services/housewife-escorts"
     },
     {
       title: "Punjabi Women",
       subtitle: "Traditional Beauty",
-      description: "Authentic Punjabi companions in Saket with traditional charm",
+      description: "Authentic Punjabi companions in Vijay Nagar with traditional charm",
       image: "/images/services/Punjabi women.webp",
-      icon: "",
+      icon: "🌺",
       category: "TRADITIONAL",
       link: "/services"
     },
     {
       title: "Slim Escorts",
       subtitle: "Perfect Figure",
-      description: "Elegant slim companions in Saket with perfect figures",
+      description: "Elegant slim companions in Vijay Nagar with perfect figures",
       image: "/images/services/Slim Escorts.webp",
-      icon: "",
+      icon: "💃",
       category: "SLIM",
       link: "/services"
     },
     {
       title: "Unsatisfied Bhabhi",
       subtitle: "Seeking Excitement",
-      description: "Experienced companions in Saket seeking excitement and connection",
+      description: "Experienced companions in Vijay Nagar seeking excitement and connection",
       image: "/images/services/Unsatisfied Bhabhi.webp",
-      icon: "",
+      icon: "🔥",
       category: "BHABHI",
       link: "/services"
     },
     {
       title: "Local Beauties",
       subtitle: "Know Indore Best",
-      description: "Beautiful local companions in Saket who know the city inside out",
+      description: "Beautiful local companions in Vijay Nagar who know the city inside out",
       image: "/images/services/Local Beauties.webp",
-      icon: "",
+      icon: "🏙️",
       category: "LOCAL",
       link: "/services"
     },
     {
       title: "Event Companion",
       subtitle: "Perfect Plus One",
-      description: "Professional companions in Saket for business events and parties",
+      description: "Professional companions in Vijay Nagar for business events and parties",
       image: "/images/services/Event Companion.webp",
-      icon: "",
+      icon: "🎭",
       category: "PROFESSIONAL",
       link: "/services"
     },
     {
       title: "Pink Special",
       subtitle: "Exclusive Experience",
-      description: "Special premium companions in Saket for exclusive experiences",
+      description: "Special premium companions in Vijay Nagar for exclusive experiences",
       image: "/images/services/Pink Special.webp",
-      icon: "",
+      icon: "💖",
       category: "SPECIAL",
       link: "/services"
     },
     {
       title: "Unsatisfied Females",
       subtitle: "Meaningful Connections",
-      description: "Mature women in Saket seeking meaningful connections",
+      description: "Mature women in Vijay Nagar seeking meaningful connections",
       image: "/images/services/Unsatisfied Females.webp",
-      icon: "",
+      icon: "💕",
       category: "FEMALE",
       link: "/services"
     },
     {
       title: "Incall Escorts",
       subtitle: "Luxury Locations",
-      description: "Premium incall services in Saket at luxury locations",
+      description: "Premium incall services in Vijay Nagar at luxury locations",
       image: "/images/services/Incall Escorts.webp",
-      icon: "",
+      icon: "🏨",
       category: "INCALL",
       link: "/services"
     },
     {
       title: "Mature Escorts",
       subtitle: "Experienced Sophistication",
-      description: "Experienced mature companions in Saket with sophistication",
+      description: "Experienced mature companions in Vijay Nagar with sophistication",
       image: "/images/services/Mature Escorts.webp",
-      icon: "",
+      icon: "🍷",
       category: "MATURE",
       link: "/services"
     },
     {
       title: "Young Girls",
       subtitle: "Unforgettable Experiences",
-      description: "Young beautiful companions in Saket for unforgettable experiences",
+      description: "Young beautiful companions in Vijay Nagar for unforgettable experiences",
       image: "/images/services/Young Girls.webp",
-      icon: "",
+      icon: "✨",
       category: "YOUNG",
       link: "/services"
     },
     {
       title: "Indore Escorts",
       subtitle: "Local Expertise",
-      description: "Premium local escorts in Saket with deep knowledge of Indore",
+      description: "Premium local escorts in Vijay Nagar with deep knowledge of Indore",
       image: "/images/services/indore escorts.webp",
-      icon: "",
+      icon: "🏛️",
       category: "LOCAL",
       link: "/services"
     },
     {
       title: "Expert Services",
       subtitle: "Professional Expertise",
-      description: "Expert companions in Saket with specialized skills",
+      description: "Expert companions in Vijay Nagar with specialized skills",
       image: "/images/services/Expert Services.webp",
-      icon: "",
+      icon: "🎯",
       category: "EXPERT",
       link: "/services"
     },
     {
       title: "High Class Models",
       subtitle: "Elite Fashion Models",
-      description: "Stunning high-class models in Saket with runway experience",
+      description: "Stunning high-class models in Vijay Nagar with runway experience",
       image: "/images/services/High Class Models.webp",
-      icon: "",
+      icon: "👗",
       category: "MODEL",
       link: "/services"
     },
     {
       title: "Bold Girls",
       subtitle: "Confident & Adventurous",
-      description: "Bold and confident companions in Saket ready for adventures",
+      description: "Bold and confident companions in Vijay Nagar ready for adventures",
       image: "/images/services/bold girls.webp",
-      icon: "",
+      icon: "🔥",
       category: "BOLD",
       link: "/services"
     },
     {
       title: "Sexy Girls",
       subtitle: "Mesmerizing Charm",
-      description: "Incredibly attractive companions in Saket with mesmerizing charm",
+      description: "Incredibly attractive companions in Vijay Nagar with mesmerizing charm",
       image: "/images/services/sexy girls.webp",
-      icon: "",
+      icon: "💋",
       category: "SEXY",
       link: "/services"
     }
@@ -195,36 +195,36 @@ export default function SaketPage() {
 
   const faqs = [
     {
-      question: "How can I book premium escorts in Saket, Indore?",
-      answer: "Booking escorts in Saket is simple and discreet. Call us directly at +91 9372662471 or WhatsApp. Our team is available 24/7 to help you select the perfect companion in the Saket area based on your preferences."
+      question: "How can I book premium escorts in Vijay Nagar, Indore?",
+      answer: "Booking escorts in Vijay Nagar is simple and discreet. Call us directly at +91 9372662471 or WhatsApp. Our team is available 24/7 to help you select the perfect companion in the Vijay Nagar area based on your preferences."
     },
     {
-      question: "Are your Saket escorts verified and professional?",
-      answer: "Yes, absolutely! All our escorts in Saket are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards of elegance and sophistication while serving clients in the upscale Saket neighborhood."
+      question: "Are your Vijay Nagar escorts verified and professional?",
+      answer: "Yes, absolutely! All our escorts in Vijay Nagar are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards of elegance and sophistication while serving clients in the Vijay Nagar business district."
     },
     {
-      question: "What makes Saket the ideal location for escort services in Indore?",
-      answer: "Saket is one of Indore's most prestigious residential areas known for luxury homes, upscale shopping, and premium venues. It offers the perfect setting for high-end escort services with privacy, excellent connectivity and sophisticated atmosphere."
+      question: "What makes Vijay Nagar the best location for escort services in Indore?",
+      answer: "Vijay Nagar is Indore's central business district with luxury hotels, premium shopping centers, and corporate offices. It offers the perfect setting for high-end escort services with excellent connectivity and upscale venues for meetings."
     },
     {
-      question: "Do you provide both incall and outcall services in Saket?",
-      answer: "Yes, we provide both incall and outcall services throughout Saket. Our escorts can visit you at your residence, hotel, or office in Saket, or you can visit our luxury incall locations in the area."
+      question: "Do you provide both incall and outcall services in Vijay Nagar?",
+      answer: "Yes, we provide both incall and outcall services throughout Vijay Nagar. Our escorts can visit you at your hotel, residence, or office in Vijay Nagar, or you can visit our luxury incall locations in the area."
     },
     {
-      question: "What are the rates for escort services in Saket?",
-      answer: "Our rates for escorts in Saket vary based on the service type, duration, and companion category. We offer competitive pricing for all categories from college girls to VIP escorts. Contact us directly for detailed pricing specific to Saket."
+      question: "What are the rates for escort services in Vijay Nagar?",
+      answer: "Our rates for escorts in Vijay Nagar vary based on the service type, duration, and companion category. We offer competitive pricing for all categories from college girls to VIP escorts. Contact us directly for detailed pricing specific to Vijay Nagar."
     },
     {
-      question: "Is privacy and discretion guaranteed for Saket bookings?",
-      answer: "Privacy and discretion are our top priorities for all Saket bookings. All client information is kept strictly confidential. Our escorts are trained to maintain complete discretion, especially important in the upscale residential environment of Saket."
+      question: "Is privacy and discretion guaranteed for Vijay Nagar bookings?",
+      answer: "Privacy and discretion are our top priorities for all Vijay Nagar bookings. All client information is kept strictly confidential. Our escorts are trained to maintain complete discretion, especially important in the business environment of Vijay Nagar."
     },
     {
-      question: "Which luxury venues in Saket do you recommend for escort meetings?",
-      answer: "Saket has several premium venues perfect for escort meetings including luxury hotels, upscale restaurants, private clubs, and exclusive residential locations. We can recommend the best venues based on your preferences for seamless meetings."
+      question: "Which hotels in Vijay Nagar do you recommend for escort meetings?",
+      answer: "Vijay Nagar has several premium hotels perfect for escort meetings including luxury business hotels, 5-star properties, and boutique accommodations. We can recommend the best locations based on your preferences and provide guidance for seamless meetings."
     },
     {
-      question: "Are same-day bookings available for escorts in Saket?",
-      answer: "Yes, we offer same-day bookings for escorts in Saket subject to availability. Given Saket's popularity and high demand, we recommend booking 2-3 hours in advance to ensure your preferred companion is available in the area."
+      question: "Are same-day bookings available for escorts in Vijay Nagar?",
+      answer: "Yes, we offer same-day bookings for escorts in Vijay Nagar subject to availability. Given Vijay Nagar's popularity and high demand, we recommend booking 2-3 hours in advance to ensure your preferred companion is available in the area."
     }
   ]
 
@@ -246,25 +246,25 @@ export default function SaketPage() {
           <div className="w-full mx-auto text-center relative z-10 px-4">
             {/* Premium Badge */}
             <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
-              <span className="text-3xl"></span>
-              <span className="text-pink-800 font-bold text-lg">Premium Escorts in Saket</span>
-              <span className="text-3xl"></span>
+              <span className="text-3xl">💎</span>
+              <span className="text-pink-800 font-bold text-lg">Premium Escorts in Vijay Nagar</span>
+              <span className="text-3xl">✨</span>
             </div>
 
             <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
-              Escorts in Saket
+              Escorts in Vijay Nagar
               <br />
               <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
-                Luxury Residential Area
+                Indore's Business Hub
               </span>
             </h1>
 
             <div className="max-w-5xl mx-auto mb-12">
               <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
-                Premium Escort Services in Saket's Upscale Neighborhood
+                Premium Escort Services in Vijay Nagar's Central Business District
               </p>
               <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
-                Verified professional escorts in Saket  24/7 availability  Luxury venues & private locations  Complete discretion guaranteed
+                Verified professional escorts in Vijay Nagar • 24/7 availability • Luxury hotels & corporate venues • Complete discretion guaranteed
               </p>
             </div>
 
@@ -274,14 +274,14 @@ export default function SaketPage() {
                 href="tel:+919372662471" 
                 className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-pink-600 via-pink-700 to-pink-800 hover:from-pink-700 hover:via-pink-800 hover:to-pink-900 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-pink-500/50 border-2 border-pink-400/30"
               >
-                <span className="text-3xl group-hover:animate-bounce"></span>
+                <span className="text-3xl group-hover:animate-bounce">📞</span>
                 <span>Call Now: +91 9372 662 471</span>
               </a>
               <a 
                 href="https://wa.me/919372662471" 
                 className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:from-green-600 hover:via-green-700 hover:to-green-800 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 border-2 border-green-400/30"
               >
-                <span className="text-3xl group-hover:animate-bounce"></span>
+                <span className="text-3xl group-hover:animate-bounce">💬</span>
                 <span>WhatsApp Now</span>
               </a>
             </div>
@@ -289,19 +289,19 @@ export default function SaketPage() {
             {/* Premium Features */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3"></div>
-                <h3 className="text-lg font-bold text-gray-800 mb-2">Upscale Residential Area</h3>
-                <p className="text-gray-700 font-medium">Premium Saket neighborhood with luxury homes and privacy</p>
+                <div className="text-4xl mb-3">🏢</div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Business District Location</h3>
+                <p className="text-gray-700 font-medium">Central Vijay Nagar with premium hotels and corporate offices</p>
               </div>
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3"></div>
+                <div className="text-4xl mb-3">⭐</div>
                 <h3 className="text-lg font-bold text-gray-800 mb-2">Premium Companions</h3>
-                <p className="text-gray-700 font-medium">Verified high-class escorts perfect for sophisticated clients</p>
+                <p className="text-gray-700 font-medium">Verified high-class escorts perfect for business meetings</p>
               </div>
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3"></div>
+                <div className="text-4xl mb-3">🔒</div>
                 <h3 className="text-lg font-bold text-gray-800 mb-2">Complete Discretion</h3>
-                <p className="text-gray-700 font-medium">100% privacy guaranteed for upscale clients in Saket</p>
+                <p className="text-gray-700 font-medium">100% privacy guaranteed for corporate clients in Vijay Nagar</p>
               </div>
             </div>
           </div>
@@ -312,10 +312,10 @@ export default function SaketPage() {
           <div className="w-full px-4">
             <div className="text-center mb-16">
               <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Premium Escort Services in Saket, Indore
+                Premium Escort Services in Vijay Nagar, Indore
               </h2>
               <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-                Experience luxury companionship in Indore's prestigious Saket neighborhood with our verified professional escorts
+                Experience luxury companionship in Indore's premier business district with our verified professional escorts
               </p>
             </div>
 
@@ -329,7 +329,7 @@ export default function SaketPage() {
                   <h3 className="text-xl font-bold text-gray-800 mb-3">{service.title}</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">{service.description}</p>
                   <a href={service.link} className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">
-                    Book in Saket
+                    Book in Vijay Nagar
                   </a>
                 </div>
               ))}
@@ -337,16 +337,16 @@ export default function SaketPage() {
           </div>
         </section>
 
-        {/* Saket Information Section */}
+        {/* Vijay Nagar Information Section */}
         <section className="py-20 bg-gradient-to-br from-orange-100/50 via-pink-50/50 to-orange-200/60">
           <div className="w-full px-4">
             <div className="max-w-7xl mx-auto">
               <div className="text-center mb-16">
                 <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-orange-600 via-pink-500 to-orange-700 bg-clip-text text-transparent mb-6">
-                  Why Choose Escorts in Saket?
+                  Why Choose Escorts in Vijay Nagar?
                 </h2>
                 <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                  Saket is one of Indore's most prestigious residential areas, offering the perfect setting for premium escort services
+                  Vijay Nagar is Indore's central business district, offering the perfect setting for premium escort services
                 </p>
               </div>
 
@@ -354,24 +354,24 @@ export default function SaketPage() {
                 {/* Location Benefits */}
                 <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
                   <h3 className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text text-transparent mb-6">
-                     Premium Residential Location
+                    🏙️ Prime Business Location
                   </h3>
                   <div className="space-y-4">
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Upscale Residential Neighborhood</p>
+                      <span className="text-2xl mr-4">🏢</span>
+                      <p className="font-semibold text-gray-700">Central Business District of Indore</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Luxury Shopping & Fine Dining</p>
+                      <span className="text-2xl mr-4">🏨</span>
+                      <p className="font-semibold text-gray-700">Premium Hotels & Corporate Venues</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Peaceful & Private Environment</p>
+                      <span className="text-2xl mr-4">🛍️</span>
+                      <p className="font-semibold text-gray-700">Luxury Shopping Centers & Malls</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Easy Access & Prime Connectivity</p>
+                      <span className="text-2xl mr-4">🚗</span>
+                      <p className="font-semibold text-gray-700">Excellent Connectivity & Accessibility</p>
                     </div>
                   </div>
                 </div>
@@ -379,24 +379,24 @@ export default function SaketPage() {
                 {/* Service Features */}
                 <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-pink-100/50">
                   <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-6">
-                     Premium Service Features
+                    ⭐ Premium Service Features
                   </h3>
                   <div className="space-y-4">
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Perfect for Private Events & Gatherings</p>
+                      <span className="text-2xl mr-4">👔</span>
+                      <p className="font-semibold text-gray-700">Perfect for Business Meetings & Events</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Sophisticated High-Class Companions</p>
+                      <span className="text-2xl mr-4">🌟</span>
+                      <p className="font-semibold text-gray-700">High-Class Professional Companions</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">24/7 Availability in Saket Area</p>
+                      <span className="text-2xl mr-4">⏰</span>
+                      <p className="font-semibold text-gray-700">24/7 Availability in Vijay Nagar</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4"></span>
-                      <p className="font-semibold text-gray-700">Complete Privacy for Upscale Clients</p>
+                      <span className="text-2xl mr-4">🔐</span>
+                      <p className="font-semibold text-gray-700">Discretion for Corporate Clients</p>
                     </div>
                   </div>
                 </div>
@@ -405,7 +405,7 @@ export default function SaketPage() {
               {/* Booking Information */}
               <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
                 <h3 className="text-4xl font-bold bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text text-transparent mb-8 text-center">
-                   Book Escorts in Saket - Simple Process
+                  📱 Book Escorts in Vijay Nagar - Simple Process
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <div className="text-center">
@@ -413,30 +413,30 @@ export default function SaketPage() {
                       <span className="text-3xl font-bold text-white">1</span>
                     </div>
                     <h4 className="text-2xl font-bold text-gray-800 mb-3">Call or WhatsApp</h4>
-                    <p className="text-gray-600 text-lg">Contact us with your preferences for Saket location</p>
+                    <p className="text-gray-600 text-lg">Contact us with your preferences for Vijay Nagar location</p>
                   </div>
                   <div className="text-center">
                     <div className="w-20 h-20 bg-gradient-to-r from-orange-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
                       <span className="text-3xl font-bold text-white">2</span>
                     </div>
                     <h4 className="text-2xl font-bold text-gray-800 mb-3">Select Companion</h4>
-                    <p className="text-gray-600 text-lg">Choose from our verified escorts available in Saket</p>
+                    <p className="text-gray-600 text-lg">Choose from our verified escorts available in Vijay Nagar</p>
                   </div>
                   <div className="text-center">
                     <div className="w-20 h-20 bg-gradient-to-r from-pink-500 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
                       <span className="text-3xl font-bold text-white">3</span>
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-800 mb-3">Meet in Saket</h4>
-                    <p className="text-gray-600 text-lg">Enjoy premium companionship at your Saket location</p>
+                    <h4 className="text-2xl font-bold text-gray-800 mb-3">Meet in Vijay Nagar</h4>
+                    <p className="text-gray-600 text-lg">Enjoy premium companionship at your Vijay Nagar location</p>
                   </div>
                 </div>
                 <div className="text-center mt-8">
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-orange-500 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:scale-105 transition-transform shadow-xl">
-                       Call for Saket: +91 9372662471
+                      📞 Call for Vijay Nagar: +91 9372662471
                     </a>
                     <a href="https://wa.me/919372662471" className="inline-block bg-gradient-to-r from-green-500 to-emerald-500 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:scale-105 transition-transform shadow-xl">
-                       WhatsApp Now
+                      💬 WhatsApp Now
                     </a>
                   </div>
                 </div>
@@ -450,10 +450,10 @@ export default function SaketPage() {
           <div className="w-full px-4">
             <div className="text-center mb-16">
               <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Frequently Asked Questions - Escorts in Saket
+                Frequently Asked Questions - Escorts in Vijay Nagar
               </h2>
               <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Get answers to common questions about escort services in Saket, Indore
+                Get answers to common questions about escort services in Vijay Nagar, Indore
               </p>
             </div>
 
@@ -467,7 +467,7 @@ export default function SaketPage() {
                     >
                       <h3 className="text-xl font-bold text-pink-900 pr-4 group-hover:text-orange-700">{faq.question}</h3>
                       <span className={`text-3xl transition-all duration-300 text-pink-700 ${openFaq === index ? 'rotate-180 scale-110' : ''}`}>
-                        
+                        ▼
                       </span>
                     </button>
                     {openFaq === index && (
@@ -484,14 +484,14 @@ export default function SaketPage() {
 
             <div className="text-center mt-16">
               <p className="text-xl text-gray-600 mb-8">
-                Have more questions about our escort services in Saket? Contact us directly!
+                Have more questions about our escort services in Vijay Nagar? Contact us directly!
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
-                   Call +91 9372662471
+                  📞 Call +91 9372662471
                 </a>
                 <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
-                   WhatsApp Chat
+                  💬 WhatsApp Chat
                 </a>
               </div>
             </div>
@@ -504,10 +504,10 @@ export default function SaketPage() {
           <div className="w-full px-4 relative z-10">
             <div className="max-w-6xl mx-auto text-center">
               <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-8">
-                Ready to Book Premium Escorts in Saket?
+                Ready to Book Premium Escorts in Vijay Nagar?
               </h2>
               <p className="text-2xl text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed">
-                Experience the finest escort services in Indore's prestigious Saket neighborhood with complete discretion and satisfaction guarantee
+                Experience the finest escort services in Indore's premier business district with complete discretion and satisfaction guarantee
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a 
@@ -534,10 +534,10 @@ export default function SaketPage() {
               
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-yellow-300 to-pink-300 bg-clip-text text-transparent">
-                   Escorts in Saket, Indore
+                   Escorts in Vijay Nagar, Indore
                 </h3>
                 <p className="text-pink-100 mb-6 leading-relaxed font-semibold text-lg">
-                  Premium escort services in Saket residential area with verified professional companions. Available 24/7.
+                  Premium escort services in Vijay Nagar business district with verified professional companions. Available 24/7.
                 </p>
                 <div className="flex flex-col gap-4">
                   <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
@@ -550,7 +550,7 @@ export default function SaketPage() {
               </div>
               
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent"> Services in Saket</h3>
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent"> Services in Vijay Nagar</h3>
                 <div className="space-y-3">
                   <a href="/services/celebrity-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Celebrity Escorts</a>
                   <a href="/services/vip-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> VIP Escorts</a>
@@ -573,7 +573,7 @@ export default function SaketPage() {
               </div>
               
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent"> Contact for Saket</h3>
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent"> Contact for Vijay Nagar</h3>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3 p-3">
                     <span className="text-2xl"></span>
@@ -585,7 +585,7 @@ export default function SaketPage() {
                   </div>
                   <div className="flex items-center space-x-3 p-3">
                     <span className="text-2xl"></span>
-                    <span className="text-pink-200 font-bold text-lg">Saket Area</span>
+                    <span className="text-pink-200 font-bold text-lg">Vijay Nagar Area</span>
                   </div>
                   <div className="flex items-center space-x-3 p-3">
                     <span className="text-2xl"></span>
@@ -598,16 +598,16 @@ export default function SaketPage() {
             {/* Footer Bottom */}
             <div className="border-t-2 border-pink-400/40 mt-16 pt-10 text-center">
               <p className="text-yellow-200 mb-6 font-bold text-xl leading-relaxed">
-                 2024 Premium Escorts in Saket, Indore. All rights reserved. 
+                 2024 Premium Escorts in Vijay Nagar, Indore. All rights reserved. 
               </p>
               <div className="flex flex-wrap justify-center gap-6 mb-6">
-                <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full font-bold"> 24/7 Saket</span>
+                <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full font-bold"> 24/7 Vijay Nagar</span>
                 <span className="bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-6 py-3 rounded-full font-bold"> 100% Verified</span>
                 <span className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-3 rounded-full font-bold"> Complete Discretion</span>
                 <span className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-6 py-3 rounded-full font-bold"> Premium Quality</span>
               </div>
               <p className="text-pink-200 font-semibold text-lg">
-                 Professional escort services in Saket for adults only. Must be 18+ to use our services. 
+                 Professional escort services in Vijay Nagar for adults only. Must be 18+ to use our services. 
               </p>
             </div>
           </div>
