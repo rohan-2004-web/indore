@@ -3,9 +3,6 @@
 import { useState } from 'react'
 import Header from '@/components/Header'
 import Image from 'next/image'
-import { SEOOptimizedContent } from '@/components/SEOContent'
-import InternalLinks from '@/components/InternalLinks'
-import Breadcrumb from '@/components/Breadcrumb'
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -179,7 +176,7 @@ export default function Home() {
             </div>
 
             <h1 className="text-7xl md:text-9xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
-              Premium Escort Service
+              Luxury Companions
               <br />
               <span className="text-6xl md:text-8xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
                 In Indore
@@ -187,11 +184,11 @@ export default function Home() {
             </h1>
 
             <div className="max-w-5xl mx-auto mb-12">
-              <h2 className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
-                Professional Call Girls & VIP Companions in Indore
-              </h2>
+              <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
+                Experience Ultimate Luxury & Sophistication
+              </p>
               <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
-                Verified premium escorts • Available 24/7 • Complete discretion • Serving AB Road, Palasia, Bhawar Kuan & all Indore locations
+                Verified professional escorts • Available 24/7 • Complete discretion • Premium locations across Indore
               </p>
             </div>
 
@@ -237,24 +234,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* SEO Content Section */}
-        <section className="py-16 bg-gradient-to-br from-pink-50 to-blue-50">
-          <div className="max-w-7xl mx-auto px-4">
-            <SEOOptimizedContent 
-              h1="Premium Escort Service in Indore"
-              h2="Professional Call Girls & VIP Companions Available 24/7"
-              services={[
-                'Celebrity Escorts',
-                'VIP Companions', 
-                'College Girl Escorts',
-                'Event Companions',
-                'Premium Call Girls',
-                'Professional Escorts'
-              ]}
-            />
-          </div>
-        </section>
-
         {/* Quick Access Section - Simplified */}
         <section className="py-12 bg-gradient-to-r from-purple-200/60 via-pink-200/60 to-orange-200/60">
           <div className="max-w-7xl mx-auto px-4">
@@ -294,11 +273,8 @@ export default function Home() {
           <div className="w-full">
             <div className="text-center mb-16">
               <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Premium Escort Services in Indore | VIP Call Girls
+                Premium Escorts In Indore - Our Services
               </h2>
-              <p className="text-xl text-gray-700 max-w-4xl mx-auto">
-                Professional escort agency offering verified companions, celebrity escorts, and premium call girls across all major locations in Indore including AB Road, Palasia, Bhawar Kuan, and Vijay Nagar.
-              </p>
             </div>
 
             <div className="w-full px-4">
@@ -492,13 +468,6 @@ export default function Home() {
 
               </div>
             </div>
-          </div>
-        </section>
-
-        {/* Internal Links for SEO */}
-        <section className="py-16 bg-white">
-          <div className="max-w-7xl mx-auto px-4">
-            <InternalLinks currentPage="/" />
           </div>
         </section>
 

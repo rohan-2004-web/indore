@@ -19,7 +19,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/admin/', '/private/'],
       }
     ],
-    sitemap: 'https://indoreescortservice.com/sitemap.xml',
-    host: 'https://indoreescortservice.com'
+    sitemap: 'https://indore-gules.vercel.app/sitemap.xml',
+    host: 'https://indore-gules.vercel.app'
   }
 }
