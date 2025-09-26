@@ -1,11 +1,20 @@
 'use client'
 
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
+import Header from '@/components/Header'
 
 export default function CollegeGirlsPage() {
+  const [openFaq, setOpenFaq] = useState<number | null>(null)
+
+  const toggleFaq = (index: number) => {
+    setOpenFaq(openFaq === index ? null : index)
+  }
+
   return (
-    <main className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50">
+    <>
+      <Header />
+      <main className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50">
       {/* Header */}
       <div className="bg-gradient-to-r from-purple-600 via-pink-500 to-purple-700 text-white py-20">
         <div className="container mx-auto px-4">
@@ -149,5 +158,6 @@ export default function CollegeGirlsPage() {
         </div>
       </section>
     </main>
+    </>
   )
 }
