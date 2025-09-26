@@ -134,6 +134,135 @@ export default function CollegeGirlsPage() {
               </div>
             </div>
 
+            {/* FAQ Section */}
+            <div className="bg-white rounded-3xl shadow-2xl p-12 mb-16 border border-purple-100">
+              <h2 className="text-4xl font-bold text-gray-800 mb-12 text-center">
+                Frequently Asked Questions - College Girls
+              </h2>
+              
+              <div className="space-y-4">
+                <div className="border border-purple-200 rounded-2xl overflow-hidden">
+                  <button 
+                    onClick={() => toggleFaq(0)}
+                    className="w-full p-6 text-left bg-gradient-to-r from-purple-50 to-pink-50 hover:from-purple-100 hover:to-pink-100 transition-all duration-300 flex justify-between items-center"
+                  >
+                    <span className="font-semibold text-lg text-gray-800">How can I book college girls in Indore?</span>
+                    <span className={`text-2xl transition-transform duration-300 ${openFaq === 0 ? 'rotate-180' : ''}`}>⌄</span>
+                  </button>
+                  {openFaq === 0 && (
+                    <div className="p-6 bg-white border-t border-purple-100">
+                      <p className="text-gray-600 leading-relaxed">Booking college girls is easy and discrete. Call us at +91 9372662471, send a WhatsApp message, or email us. Our team will help you connect with vibrant college companions based on your preferences for fun dates, casual hangouts, or special occasions in Indore.</p>
+                    </div>
+                  )}
+                </div>
+
+                <div className="border border-purple-200 rounded-2xl overflow-hidden">
+                  <button 
+                    onClick={() => toggleFaq(1)}
+                    className="w-full p-6 text-left bg-gradient-to-r from-purple-50 to-pink-50 hover:from-purple-100 hover:to-pink-100 transition-all duration-300 flex justify-between items-center"
+                  >
+                    <span className="font-semibold text-lg text-gray-800">What makes college girl companions special?</span>
+                    <span className={`text-2xl transition-transform duration-300 ${openFaq === 1 ? 'rotate-180' : ''}`}>⌄</span>
+                  </button>
+                  {openFaq === 1 && (
+                    <div className="p-6 bg-white border-t border-purple-100">
+                      <p className="text-gray-600 leading-relaxed">Our college girls bring youthful energy, fresh perspectives, and genuine enthusiasm to every encounter. They are fun-loving, spontaneous, and perfect for casual dates, movie nights, shopping trips, and adventures. Each college girl is carefully selected for her charm, beauty, and vibrant personality.</p>
+                    </div>
+                  )}
+                </div>
+
+                <div className="border border-purple-200 rounded-2xl overflow-hidden">
+                  <button 
+                    onClick={() => toggleFaq(2)}
+                    className="w-full p-6 text-left bg-gradient-to-r from-purple-50 to-pink-50 hover:from-purple-100 hover:to-pink-100 transition-all duration-300 flex justify-between items-center"
+                  >
+                    <span className="font-semibold text-lg text-gray-800">What activities are college girls perfect for?</span>
+                    <span className={`text-2xl transition-transform duration-300 ${openFaq === 2 ? 'rotate-180' : ''}`}>⌄</span>
+                  </button>
+                  {openFaq === 2 && (
+                    <div className="p-6 bg-white border-t border-purple-100">
+                      <p className="text-gray-600 leading-relaxed">College girls are ideal for movie dates, casual cafe hangouts, shopping trips, party companionship, adventure dates, birthday celebrations, and fun social activities. They bring energy and excitement to nightlife, concerts, festivals, and any activity requiring youthful enthusiasm and fresh company.</p>
+                    </div>
+                  )}
+                </div>
+
+                <div className="border border-purple-200 rounded-2xl overflow-hidden">
+                  <button 
+                    onClick={() => toggleFaq(3)}
+                    className="w-full p-6 text-left bg-gradient-to-r from-purple-50 to-pink-50 hover:from-purple-100 hover:to-pink-100 transition-all duration-300 flex justify-between items-center"
+                  >
+                    <span className="font-semibold text-lg text-gray-800">Are college girl services available throughout Indore?</span>
+                    <span className={`text-2xl transition-transform duration-300 ${openFaq === 3 ? 'rotate-180' : ''}`}>⌄</span>
+                  </button>
+                  {openFaq === 3 && (
+                    <div className="p-6 bg-white border-t border-purple-100">
+                      <p className="text-gray-600 leading-relaxed">Yes, our college girl companions are available across all areas of Indore including Vijay Nagar, Sapna Sangeeta, Rau, Dewas Road, AB Road, MG Road, and other major locations. We provide service 24/7 with advance booking recommended for the best companion selection.</p>
+                    </div>
+                  )}
+                </div>
+
+                <div className="border border-purple-200 rounded-2xl overflow-hidden">
+                  <button 
+                    onClick={() => toggleFaq(4)}
+                    className="w-full p-6 text-left bg-gradient-to-r from-purple-50 to-pink-50 hover:from-purple-100 hover:to-pink-100 transition-all duration-300 flex justify-between items-center"
+                  >
+                    <span className="font-semibold text-lg text-gray-800">How much do college girl companion services cost?</span>
+                    <span className={`text-2xl transition-transform duration-300 ${openFaq === 4 ? 'rotate-180' : ''}`}>⌄</span>
+                  </button>
+                  {openFaq === 4 && (
+                    <div className="p-6 bg-white border-t border-purple-100">
+                      <p className="text-gray-600 leading-relaxed">College girl companion rates vary based on duration, activity type, and specific requirements. Our rates are competitive and reasonable for the youthful energy and fun experience provided. Contact us directly for detailed pricing information tailored to your college girl companion booking needs.</p>
+                    </div>
+                  )}
+                </div>
+
+                <div className="border border-purple-200 rounded-2xl overflow-hidden">
+                  <button 
+                    onClick={() => toggleFaq(5)}
+                    className="w-full p-6 text-left bg-gradient-to-r from-purple-50 to-pink-50 hover:from-purple-100 hover:to-pink-100 transition-all duration-300 flex justify-between items-center"
+                  >
+                    <span className="font-semibold text-lg text-gray-800">Can I request specific types of college girls?</span>
+                    <span className={`text-2xl transition-transform duration-300 ${openFaq === 5 ? 'rotate-180' : ''}`}>⌄</span>
+                  </button>
+                  {openFaq === 5 && (
+                    <div className="p-6 bg-white border-t border-purple-100">
+                      <p className="text-gray-600 leading-relaxed">Absolutely! You can specify preferences for personality types, interests, appearance, age range (within legal limits), and activity preferences. We have college girls with various backgrounds, interests, and personalities to match your ideal companion for any occasion or activity type.</p>
+                    </div>
+                  )}
+                </div>
+
+                <div className="border border-purple-200 rounded-2xl overflow-hidden">
+                  <button 
+                    onClick={() => toggleFaq(6)}
+                    className="w-full p-6 text-left bg-gradient-to-r from-purple-50 to-pink-50 hover:from-purple-100 hover:to-pink-100 transition-all duration-300 flex justify-between items-center"
+                  >
+                    <span className="font-semibold text-lg text-gray-800">Is privacy maintained with college girl bookings?</span>
+                    <span className={`text-2xl transition-transform duration-300 ${openFaq === 6 ? 'rotate-180' : ''}`}>⌄</span>
+                  </button>
+                  {openFaq === 6 && (
+                    <div className="p-6 bg-white border-t border-purple-100">
+                      <p className="text-gray-600 leading-relaxed">Yes, complete privacy and discretion are guaranteed. All college girl bookings are handled confidentially, and both client and companion privacy is strictly maintained. We use secure communication channels and ensure all interactions remain private and professional.</p>
+                    </div>
+                  )}
+                </div>
+
+                <div className="border border-purple-200 rounded-2xl overflow-hidden">
+                  <button 
+                    onClick={() => toggleFaq(7)}
+                    className="w-full p-6 text-left bg-gradient-to-r from-purple-50 to-pink-50 hover:from-purple-100 hover:to-pink-100 transition-all duration-300 flex justify-between items-center"
+                  >
+                    <span className="font-semibold text-lg text-gray-800">Are same-day college girl bookings available?</span>
+                    <span className={`text-2xl transition-transform duration-300 ${openFaq === 7 ? 'rotate-180' : ''}`}>⌄</span>
+                  </button>
+                  {openFaq === 7 && (
+                    <div className="p-6 bg-white border-t border-purple-100">
+                      <p className="text-gray-600 leading-relaxed">While we recommend advance booking for the best college girl companion selection, same-day bookings are often possible depending on availability. Contact us as early as possible to check availability for your preferred college girl companion in Indore.</p>
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+
             {/* Contact Section */}
             <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl p-12 text-white text-center">
               <h2 className="text-4xl font-bold mb-6">Ready to Meet College Girls?</h2>
@@ -157,6 +286,101 @@ export default function CollegeGirlsPage() {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="bg-gradient-to-br from-pink-600/95 via-purple-700/90 to-orange-600/95 text-white py-20 relative">
+        {/* Decorative Background Elements */}
+        <div className="absolute inset-0 overflow-hidden">
+          <div className="absolute -top-16 -right-16 w-64 h-64 bg-gradient-to-br from-pink-400/20 to-orange-400/20 rounded-full blur-2xl"></div>
+          <div className="absolute -bottom-16 -left-16 w-64 h-64 bg-gradient-to-br from-orange-400/20 to-purple-400/20 rounded-full blur-2xl"></div>
+        </div>
+        <div className="w-full px-4 relative z-10">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            
+            <div className="p-6">
+              <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-yellow-300 to-pink-300 bg-clip-text text-transparent">
+                ✨ Indore Premium Escort Service
+              </h3>
+              <p className="text-pink-100 mb-6 leading-relaxed font-semibold text-lg">
+                Premium escort services in Indore with verified professional companions. Available 24/7 across all major locations.
+              </p>
+              <div className="flex flex-col gap-4">
+                <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
+                  📞 Call Now
+                </a>
+                <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-green-600 to-lime-600 hover:from-green-700 hover:to-lime-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
+                  💬 WhatsApp
+                </a>
+              </div>
+            </div>
+            
+            <div className="p-6">
+              <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent">🌟 Our Services</h3>
+              <div className="space-y-3">
+                <a href="/services/celebrity-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">💎 Celebrity Escorts</a>
+                <a href="/services/college-girls" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🎓 College Girls</a>
+                <a href="/services/high-class-models" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">✨ Premium Models</a>
+                <a href="/services/local-beauties" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🏠 Local Beauties</a>
+                <a href="/services/unsatisfied-bhabhi" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">👸 Unsatisfied Bhabhi</a>
+                <a href="/services/mature-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🌹 Mature Escorts</a>
+              </div>
+            </div>
+            
+            <div className="p-6">
+              <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-orange-300 to-red-300 bg-clip-text text-transparent">🔗 Quick Links</h3>
+              <div className="space-y-3">
+                <a href="/services" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">📋 All Services</a>
+                <a href="/services" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">📍 Service Areas</a>
+                <a href="#faq" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">❓ FAQ</a>
+                <a href="tel:+919372662471" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">📞 Contact Us</a>
+                <a href="/" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">ℹ️ About Us</a>
+              </div>
+            </div>
+            
+            <div className="p-6">
+              <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">📞 Contact Information</h3>
+              <div className="space-y-4">
+                <div className="flex items-center space-x-3 p-3">
+                  <span className="text-2xl">📞</span>
+                  <a href="tel:+919372662471" className="text-yellow-200 hover:text-yellow-100 font-bold text-lg">+91 9372 662 471</a>
+                </div>
+                <div className="flex items-center space-x-3 p-3">
+                  <span className="text-2xl">💬</span>
+                  <a href="https://wa.me/919372662471" className="text-green-200 hover:text-green-100 font-bold text-lg">WhatsApp Available</a>
+                </div>
+                <div className="flex items-center space-x-3 p-3">
+                  <span className="text-2xl">✉️</span>
+                  <a href="mailto:contact@indoreescortservice.com" className="text-purple-200 hover:text-purple-100 font-bold text-lg">Email Us</a>
+                </div>
+                <div className="flex items-center space-x-3 p-3">
+                  <span className="text-2xl">📍</span>
+                  <span className="text-pink-200 font-bold text-lg">All Indore Areas</span>
+                </div>
+                <div className="flex items-center space-x-3 p-3">
+                  <span className="text-2xl">🕒</span>
+                  <span className="text-orange-200 font-bold text-lg">24/7 Available</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          {/* Footer Bottom */}
+          <div className="border-t-2 border-pink-400/40 mt-16 pt-10 text-center">
+            <p className="text-yellow-200 mb-6 font-bold text-xl leading-relaxed">
+              © 2024 Indore Premium Escort Service. All rights reserved. 🏆
+            </p>
+            <div className="flex flex-wrap justify-center gap-6 mb-6">
+              <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full font-bold">✅ 24/7 Available</span>
+              <span className="bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-6 py-3 rounded-full font-bold">✅ 100% Verified</span>
+              <span className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-3 rounded-full font-bold">✅ Complete Discretion</span>
+              <span className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-6 py-3 rounded-full font-bold">✅ Premium Quality</span>
+            </div>
+            <p className="text-pink-200 font-semibold text-lg">
+              🔞 Professional escort services for adults only. Must be 18+ to use our services. 🔞
+            </p>
+          </div>
+        </div>
+      </footer>
     </main>
     </>
   )
