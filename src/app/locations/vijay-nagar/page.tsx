@@ -31,7 +31,7 @@ export default function VijayNagarPage() {
     },
     {
       title: "Premium Models",
-      subtitle: "High-End Sophistication",
+      subtitle: "High-End Sophistication", 
       description: "Premium models in Vijay Nagar with unmatched sophistication",
       image: "/images/services/Premium Models.jpg",
       icon: "💎",
@@ -200,15 +200,15 @@ export default function VijayNagarPage() {
     },
     {
       question: "Are your Vijay Nagar escorts verified and professional?",
-      answer: "Yes, absolutely! All our escorts in Vijay Nagar are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards of elegance and sophistication while serving clients in the Vijay Nagar business district."
+      answer: "Yes, absolutely! All our escorts in Vijay Nagar are 100% verified, professionally trained, and thoroughly background-checked. We ensure they meet our high standards of elegance and sophistication while serving clients in the Vijay Nagar residential hub."
     },
     {
       question: "What makes Vijay Nagar the best location for escort services in Indore?",
-      answer: "Vijay Nagar is Indore's central business district with luxury hotels, premium shopping centers, and corporate offices. It offers the perfect setting for high-end escort services with excellent connectivity and upscale venues for meetings."
+      answer: "Vijay Nagar is Indore's upscale residential hub with premium homes, peaceful environment, and private locations. It offers the perfect setting for high-end escort services with excellent privacy and sophisticated residential venues for meetings."
     },
     {
       question: "Do you provide both incall and outcall services in Vijay Nagar?",
-      answer: "Yes, we provide both incall and outcall services throughout Vijay Nagar. Our escorts can visit you at your hotel, residence, or office in Vijay Nagar, or you can visit our luxury incall locations in the area."
+      answer: "Yes, we provide both incall and outcall services throughout Vijay Nagar. Our escorts can visit you at your home, residence, or private location in Vijay Nagar, or you can visit our luxury incall locations in the area."
     },
     {
       question: "What are the rates for escort services in Vijay Nagar?",
@@ -216,11 +216,11 @@ export default function VijayNagarPage() {
     },
     {
       question: "Is privacy and discretion guaranteed for Vijay Nagar bookings?",
-      answer: "Privacy and discretion are our top priorities for all Vijay Nagar bookings. All client information is kept strictly confidential. Our escorts are trained to maintain complete discretion, especially important in the business environment of Vijay Nagar."
+      answer: "Privacy and discretion are our top priorities for all Vijay Nagar bookings. All client information is kept strictly confidential. Our escorts are trained to maintain complete discretion, especially important in the residential environment of Vijay Nagar."
     },
     {
-      question: "Which hotels in Vijay Nagar do you recommend for escort meetings?",
-      answer: "Vijay Nagar has several premium hotels perfect for escort meetings including luxury business hotels, 5-star properties, and boutique accommodations. We can recommend the best locations based on your preferences and provide guidance for seamless meetings."
+      question: "Which locations in Vijay Nagar do you recommend for escort meetings?",
+      answer: "Vijay Nagar has several premium residential locations perfect for escort meetings including upscale homes, private apartments, and boutique accommodations. We can recommend the best locations based on your preferences and provide guidance for seamless meetings."
     },
     {
       question: "Are same-day bookings available for escorts in Vijay Nagar?",
@@ -246,7 +246,7 @@ export default function VijayNagarPage() {
           <div className="w-full mx-auto text-center relative z-10 px-4">
             {/* Premium Badge */}
             <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
-              <span className="text-3xl">💎</span>
+              <span className="text-3xl">🛣️</span>
               <span className="text-pink-800 font-bold text-lg">Premium Escorts in Vijay Nagar</span>
               <span className="text-3xl">✨</span>
             </div>
@@ -255,16 +255,16 @@ export default function VijayNagarPage() {
               Escorts in Vijay Nagar
               <br />
               <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
-                Indore's Business Hub
+                Commercial Center
               </span>
             </h1>
 
             <div className="max-w-5xl mx-auto mb-12">
               <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
-                Premium Escort Services in Vijay Nagar's Central Business District
+                Premium Escort Services in Vijay Nagar Commercial District
               </p>
               <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
-                Verified professional escorts in Vijay Nagar • 24/7 availability • Luxury hotels & corporate venues • Complete discretion guaranteed
+                Verified professional escorts in Vijay Nagar • 24/7 availability • Hotels & commercial venues • Complete discretion guaranteed
               </p>
             </div>
 
@@ -289,19 +289,19 @@ export default function VijayNagarPage() {
             {/* Premium Features */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3">🏢</div>
-                <h3 className="text-lg font-bold text-gray-800 mb-2">Business District Location</h3>
-                <p className="text-gray-700 font-medium">Central Vijay Nagar with premium hotels and corporate offices</p>
+                <div className="text-4xl mb-3">�</div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Residential Hub Location</h3>
+                <p className="text-gray-700 font-medium">Upscale Vijay Nagar with premium homes and residential privacy</p>
               </div>
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
                 <div className="text-4xl mb-3">⭐</div>
                 <h3 className="text-lg font-bold text-gray-800 mb-2">Premium Companions</h3>
-                <p className="text-gray-700 font-medium">Verified high-class escorts perfect for business meetings</p>
+                <p className="text-gray-700 font-medium">Verified high-class escorts perfect for residential meetings</p>
               </div>
               <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
                 <div className="text-4xl mb-3">🔒</div>
                 <h3 className="text-lg font-bold text-gray-800 mb-2">Complete Discretion</h3>
-                <p className="text-gray-700 font-medium">100% privacy guaranteed for corporate clients in Vijay Nagar</p>
+                <p className="text-gray-700 font-medium">100% privacy guaranteed for residential clients in Vijay Nagar</p>
               </div>
             </div>
           </div>
@@ -315,7 +315,7 @@ export default function VijayNagarPage() {
                 Premium Escort Services in Vijay Nagar, Indore
               </h2>
               <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-                Experience luxury companionship in Indore's premier business district with our verified professional escorts
+                Experience luxury companionship in Indore's upscale residential hub with our verified professional escorts
               </p>
             </div>
 
@@ -346,7 +346,7 @@ export default function VijayNagarPage() {
                   Why Choose Escorts in Vijay Nagar?
                 </h2>
                 <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                  Vijay Nagar is Indore's central business district, offering the perfect setting for premium escort services
+                  Vijay Nagar is Indore's upscale residential hub, offering the perfect setting for premium escort services
                 </p>
               </div>
 
@@ -354,20 +354,20 @@ export default function VijayNagarPage() {
                 {/* Location Benefits */}
                 <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
                   <h3 className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text text-transparent mb-6">
-                    🏙️ Prime Business Location
+                    �️ Prime Residential Location
                   </h3>
                   <div className="space-y-4">
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4">🏢</span>
-                      <p className="font-semibold text-gray-700">Central Business District of Indore</p>
+                      <span className="text-2xl mr-4">�</span>
+                      <p className="font-semibold text-gray-700">Upscale Residential Hub of Indore</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4">🏨</span>
-                      <p className="font-semibold text-gray-700">Premium Hotels & Corporate Venues</p>
+                      <span className="text-2xl mr-4">�</span>
+                      <p className="font-semibold text-gray-700">Premium Homes & Private Locations</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
-                      <span className="text-2xl mr-4">🛍️</span>
-                      <p className="font-semibold text-gray-700">Luxury Shopping Centers & Malls</p>
+                      <span className="text-2xl mr-4">🌳</span>
+                      <p className="font-semibold text-gray-700">Peaceful Residential Environment</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
                       <span className="text-2xl mr-4">🚗</span>
@@ -507,7 +507,7 @@ export default function VijayNagarPage() {
                 Ready to Book Premium Escorts in Vijay Nagar?
               </h2>
               <p className="text-2xl text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed">
-                Experience the finest escort services in Indore's premier business district with complete discretion and satisfaction guarantee
+                Experience the finest escort services in Indore's upscale residential hub with complete discretion and satisfaction guarantee
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a 
@@ -537,7 +537,7 @@ export default function VijayNagarPage() {
                    Escorts in Vijay Nagar, Indore
                 </h3>
                 <p className="text-pink-100 mb-6 leading-relaxed font-semibold text-lg">
-                  Premium escort services in Vijay Nagar business district with verified professional companions. Available 24/7.
+                  Premium escort services in Vijay Nagar residential hub with verified professional companions. Available 24/7.
                 </p>
                 <div className="flex flex-col gap-4">
                   <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">

@@ -31,7 +31,7 @@ export default function SaketPage() {
     },
     {
       title: "Premium Models",
-      subtitle: "High-End Sophistication",
+      subtitle: "High-End Sophistication", 
       description: "Premium models in Saket with unmatched sophistication",
       image: "/images/services/Premium Models.jpg",
       icon: "💎",
@@ -246,7 +246,7 @@ export default function SaketPage() {
           <div className="w-full mx-auto text-center relative z-10 px-4">
             {/* Premium Badge */}
             <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
-              <span className="text-3xl">💎</span>
+              <span className="text-3xl">🛣️</span>
               <span className="text-pink-800 font-bold text-lg">Premium Escorts in Saket</span>
               <span className="text-3xl">✨</span>
             </div>
@@ -255,16 +255,16 @@ export default function SaketPage() {
               Escorts in Saket
               <br />
               <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
-                Upscale Residential Hub
+                Residential Area
               </span>
             </h1>
 
             <div className="max-w-5xl mx-auto mb-12">
               <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
-                Premium Escort Services in Saket's Upscale Residential Area
+                Premium Escort Services in Saket Residential Area
               </p>
               <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
-                Verified professional escorts in Saket • 24/7 availability • Luxury homes & residential privacy • Complete discretion guaranteed
+                Verified professional escorts in Saket • 24/7 availability • Hotels & commercial venues • Complete discretion guaranteed
               </p>
             </div>
 
