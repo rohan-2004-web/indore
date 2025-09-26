@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import Header from '@/components/Header'
 
 const faqData = [
@@ -32,6 +32,7 @@ const faqData = [
 ]
 
 export default function LocationsPage() {
+  const router = useRouter()
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
@@ -51,6 +52,10 @@ export default function LocationsPage() {
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value })
+  }
+
+  const navigateToLocation = (locationPath: string) => {
+    router.push(locationPath)
   }
 
   return (
@@ -92,124 +97,124 @@ export default function LocationsPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               
               {/* Saket */}
-              <Link href="/locations/saket" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30 block">
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30 cursor-pointer" onClick={() => navigateToLocation('/locations/saket')}>
                 <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🏘️</div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">Saket</h3>
                 <p className="text-gray-600 mb-4">Premium residential area with luxury homes and privacy</p>
                 <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
                   Book in Saket
                 </div>
-              </Link>
+              </div>
 
               {/* Scheme 78 */}
-              <Link href="/locations/scheme-78" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30 block">
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30 cursor-pointer" onClick={() => navigateToLocation('/locations/scheme-78')}>
                 <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🏢</div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">Scheme 78</h3>
                 <p className="text-gray-600 mb-4">IT Corporate sector with modern offices and hotels</p>
                 <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
                   Book in Scheme 78
                 </div>
-              </Link>
+              </div>
 
               {/* AB Road */}
-              <Link href="/locations/ab-road" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30 block">
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30 cursor-pointer" onClick={() => navigateToLocation('/locations/ab-road')}>
                 <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🛣️</div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">AB Road</h3>
                 <p className="text-gray-600 mb-4">Major commercial hub with shopping and business centers</p>
                 <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
                   Book in AB Road
                 </div>
-              </Link>
+              </div>
 
               {/* Palasia */}
-              <Link href="/locations/palasia" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30 block">
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30 cursor-pointer" onClick={() => navigateToLocation('/locations/palasia')}>
                 <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🏪</div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">Palasia</h3>
                 <p className="text-gray-600 mb-4">Business district with premium hotels and restaurants</p>
                 <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
                   Book in Palasia
                 </div>
-              </Link>
+              </div>
 
               {/* Bhawar Kuan */}
-              <Link href="/locations/bhawar-kuan" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30 block">
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30 cursor-pointer" onClick={() => navigateToLocation('/locations/bhawar-kuan')}>
                 <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🎭</div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">Bhawar Kuan</h3>
                 <p className="text-gray-600 mb-4">Cultural center with entertainment and dining options</p>
                 <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
                   Book in Bhawar Kuan
                 </div>
-              </Link>
+              </div>
 
               {/* Rau */}
-              <Link href="/locations/rau" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30 block">
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30 cursor-pointer" onClick={() => navigateToLocation('/locations/rau')}>
                 <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🌳</div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">Rau</h3>
                 <p className="text-gray-600 mb-4">Peaceful residential area with quiet neighborhoods</p>
                 <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
                   Book in Rau
                 </div>
-              </Link>
+              </div>
 
               {/* Ring Road */}
-              <Link href="/locations/ring-road" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30 block">
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30 cursor-pointer" onClick={() => navigateToLocation('/locations/ring-road')}>
                 <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🔗</div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">Ring Road</h3>
                 <p className="text-gray-600 mb-4">Commercial hub with luxury hotels and business centers</p>
                 <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
                   Book in Ring Road
                 </div>
-              </Link>
+              </div>
 
               {/* Bombay Hospital */}
-              <Link href="/locations/bombay-hospital" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30 block">
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30 cursor-pointer" onClick={() => navigateToLocation('/locations/bombay-hospital')}>
                 <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🏥</div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">Bombay Hospital</h3>
                 <p className="text-gray-600 mb-4">Medical district with hotels and professional services</p>
                 <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
                   Book in Bombay Hospital
                 </div>
-              </Link>
+              </div>
 
               {/* MG Road */}
-              <Link href="/locations/mg-road" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30 block">
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30 cursor-pointer" onClick={() => navigateToLocation('/locations/mg-road')}>
                 <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🛍️</div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">MG Road</h3>
                 <p className="text-gray-600 mb-4">Main commercial street with shopping and entertainment</p>
                 <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
                   Book in MG Road
                 </div>
-              </Link>
+              </div>
 
               {/* Airport Road */}
-              <Link href="/locations/airport-road" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30 block">
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30 cursor-pointer" onClick={() => navigateToLocation('/locations/airport-road')}>
                 <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">✈️</div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">Airport Road</h3>
                 <p className="text-gray-600 mb-4">Aviation hub with hotels and business facilities</p>
                 <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
                   Book in Airport Road
                 </div>
-              </Link>
+              </div>
 
               {/* Treasure Island */}
-              <Link href="/locations/treasure-island" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30 block">
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30 cursor-pointer" onClick={() => navigateToLocation('/locations/treasure-island')}>
                 <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🏬</div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">Treasure Island</h3>
                 <p className="text-gray-600 mb-4">Premier shopping mall with entertainment and dining</p>
                 <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
                   Book in Treasure Island
                 </div>
-              </Link>
+              </div>
 
               {/* Vijay Nagar */}
-              <Link href="/locations/vijay-nagar" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30 block">
+              <div className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30 cursor-pointer" onClick={() => navigateToLocation('/locations/vijay-nagar')}>
                 <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🏛️</div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">Vijay Nagar</h3>
                 <p className="text-gray-600 mb-4">Premium commercial area with luxury amenities and hotels</p>
                 <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
                   Book in Vijay Nagar
                 </div>
-              </Link>
+              </div>
 
             </div>
 
