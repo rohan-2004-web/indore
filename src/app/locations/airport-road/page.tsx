@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import Header from '@/components/Header'
 
-export default function Airport RoadPage() {
+export default function AirportRoadPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
 
   const toggleFaq = (index: number) => {
