@@ -352,7 +352,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Unsatisfied Bhabhi</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Experienced companions seeking excitement</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Bhabhi</a>
+                  <a href="/services/unsatisfied-bhabhi" className="inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Bhabhi</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -389,7 +389,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Unsatisfied Females</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Mature women seeking meaningful connections</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-violet-500 to-violet-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Female Escorts</a>
+                  <a href="/services/unsatisfied-females" className="inline-block bg-gradient-to-r from-violet-500 to-violet-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Female Escorts</a>
                 </div>
 
                 {/* Row 5 - New Additional Services */}
@@ -399,7 +399,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Incall Escorts</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Premium incall services at luxury locations</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Incall Girls</a>
+                  <a href="/services/incall-escorts" className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Incall Girls</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-amber-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -408,7 +408,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Mature Escorts</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Experienced mature companions with sophistication</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-amber-500 to-amber-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Mature Girls</a>
+                  <a href="/services/mature-escorts" className="inline-block bg-gradient-to-r from-amber-500 to-amber-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Mature Girls</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-emerald-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -417,7 +417,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Young Girls</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Young beautiful companions for unforgettable experiences</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-emerald-500 to-emerald-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Young Girls</a>
+                  <a href="/services/young-girls" className="inline-block bg-gradient-to-r from-emerald-500 to-emerald-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Young Girls</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-indigo-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -426,7 +426,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Indore Escorts</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Premium local escorts with deep knowledge of Indore city</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Indore Girls</a>
+                  <a href="/services/indore-escorts" className="inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Indore Girls</a>
                 </div>
 
                 {/* Row 6 - Additional Services to make total 20 */}
@@ -436,7 +436,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Expert Services</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Expert companions with specialized skills and professional experience</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-cyan-500 to-cyan-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Expert Girls</a>
+                  <a href="/services/expert-services" className="inline-block bg-gradient-to-r from-cyan-500 to-cyan-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Expert Girls</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-purple-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -445,7 +445,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">High Class Models</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Stunning high-class models with runway experience</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-purple-500 to-purple-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Model Girls</a>
+                  <a href="/services/high-class-models" className="inline-block bg-gradient-to-r from-purple-500 to-purple-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Model Girls</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-red-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -454,7 +454,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Bold Girls</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Bold and confident companions ready for exciting adventures</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-red-500 to-red-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Bold Girls</a>
+                  <a href="/services/bold-girls" className="inline-block bg-gradient-to-r from-red-500 to-red-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Bold Girls</a>
                 </div>
 
                 <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -463,7 +463,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold text-gray-800 mb-3">Sexy Girls</h3>
                   <p className="text-gray-600 mb-4 text-base flex-grow">Incredibly attractive companions with mesmerizing charm</p>
-                  <a href="/services" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Sexy Girls</a>
+                  <a href="/services/sexy-girls" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Sexy Girls</a>
                 </div>
 
               </div>
