@@ -337,7 +337,7 @@ export default function SaketPage() {
           </div>
         </section>
 
-        {/* Vijay Nagar Information Section */}
+        {/* Saket Information Section */}
         <section className="py-20 bg-gradient-to-br from-orange-100/50 via-pink-50/50 to-orange-200/60">
           <div className="w-full px-4">
             <div className="max-w-7xl mx-auto">
@@ -392,7 +392,7 @@ export default function SaketPage() {
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-pink-50 to-orange-50 rounded-xl">
                       <span className="text-2xl mr-4">⏰</span>
-                      <p className="font-semibold text-gray-700">24/7 Availability in Vijay Nagar</p>
+                      <p className="font-semibold text-gray-700">24/7 Availability in Saket</p>
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
                       <span className="text-2xl mr-4">🔐</span>
@@ -405,7 +405,7 @@ export default function SaketPage() {
               {/* Booking Information */}
               <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
                 <h3 className="text-4xl font-bold bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text text-transparent mb-8 text-center">
-                  📱 Book Escorts in Vijay Nagar - Simple Process
+                  📱 Book Escorts in Saket - Simple Process
                 </h3>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <div className="text-center">
@@ -413,27 +413,27 @@ export default function SaketPage() {
                       <span className="text-3xl font-bold text-white">1</span>
                     </div>
                     <h4 className="text-2xl font-bold text-gray-800 mb-3">Call or WhatsApp</h4>
-                    <p className="text-gray-600 text-lg">Contact us with your preferences for Vijay Nagar location</p>
+                    <p className="text-gray-600 text-lg">Contact us with your preferences for Saket location</p>
                   </div>
                   <div className="text-center">
                     <div className="w-20 h-20 bg-gradient-to-r from-orange-500 to-pink-500 rounded-full flex items-center justify-center mx-auto mb-4">
                       <span className="text-3xl font-bold text-white">2</span>
                     </div>
                     <h4 className="text-2xl font-bold text-gray-800 mb-3">Select Companion</h4>
-                    <p className="text-gray-600 text-lg">Choose from our verified escorts available in Vijay Nagar</p>
+                    <p className="text-gray-600 text-lg">Choose from our verified escorts available in Saket</p>
                   </div>
                   <div className="text-center">
                     <div className="w-20 h-20 bg-gradient-to-r from-pink-500 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
                       <span className="text-3xl font-bold text-white">3</span>
                     </div>
-                    <h4 className="text-2xl font-bold text-gray-800 mb-3">Meet in Vijay Nagar</h4>
-                    <p className="text-gray-600 text-lg">Enjoy premium companionship at your Vijay Nagar location</p>
+                    <h4 className="text-2xl font-bold text-gray-800 mb-3">Meet in Saket</h4>
+                    <p className="text-gray-600 text-lg">Enjoy premium companionship at your Saket location</p>
                   </div>
                 </div>
                 <div className="text-center mt-8">
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-orange-500 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:scale-105 transition-transform shadow-xl">
-                      📞 Call for Vijay Nagar: +91 9372662471
+                      📞 Call for Saket: +91 9372662471
                     </a>
                     <a href="https://wa.me/919372662471" className="inline-block bg-gradient-to-r from-green-500 to-emerald-500 text-white px-12 py-5 rounded-2xl font-bold text-xl hover:scale-105 transition-transform shadow-xl">
                       💬 WhatsApp Now
@@ -450,10 +450,10 @@ export default function SaketPage() {
           <div className="w-full px-4">
             <div className="text-center mb-16">
               <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Frequently Asked Questions - Escorts in Vijay Nagar
+                Frequently Asked Questions - Escorts in Saket
               </h2>
               <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Get answers to common questions about escort services in Vijay Nagar, Indore
+                Get answers to common questions about escort services in Saket, Indore
               </p>
             </div>
 
@@ -484,7 +484,7 @@ export default function SaketPage() {
 
             <div className="text-center mt-16">
               <p className="text-xl text-gray-600 mb-8">
-                Have more questions about our escort services in Vijay Nagar? Contact us directly!
+                Have more questions about our escort services in Saket? Contact us directly!
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
@@ -504,7 +504,7 @@ export default function SaketPage() {
           <div className="w-full px-4 relative z-10">
             <div className="max-w-6xl mx-auto text-center">
               <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-8">
-                Ready to Book Premium Escorts in Vijay Nagar?
+                Ready to Book Premium Escorts in Saket?
               </h2>
               <p className="text-2xl text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed">
                 Experience the finest escort services in Indore's upscale residential hub with complete discretion and satisfaction guarantee
@@ -534,7 +534,7 @@ export default function SaketPage() {
               
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-yellow-300 to-pink-300 bg-clip-text text-transparent">
-                   Escorts in Vijay Nagar, Indore
+                   Escorts in Saket, Indore
                 </h3>
                 <p className="text-pink-100 mb-6 leading-relaxed font-semibold text-lg">
                   Premium escort services in Saket residential hub with verified professional companions. Available 24/7.
@@ -550,7 +550,7 @@ export default function SaketPage() {
               </div>
               
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent"> Services in Vijay Nagar</h3>
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent"> Services in Saket</h3>
                 <div className="space-y-3">
                   <a href="/services/celebrity-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> Celebrity Escorts</a>
                   <a href="/services/vip-escorts" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200"> VIP Escorts</a>
@@ -573,7 +573,7 @@ export default function SaketPage() {
               </div>
               
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent"> Contact for Vijay Nagar</h3>
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent"> Contact for Saket</h3>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3 p-3">
                     <span className="text-2xl"></span>
@@ -598,16 +598,16 @@ export default function SaketPage() {
             {/* Footer Bottom */}
             <div className="border-t-2 border-pink-400/40 mt-16 pt-10 text-center">
               <p className="text-yellow-200 mb-6 font-bold text-xl leading-relaxed">
-                 2024 Premium Escorts in Vijay Nagar, Indore. All rights reserved. 
+                 2024 Premium Escorts in Saket, Indore. All rights reserved. 
               </p>
               <div className="flex flex-wrap justify-center gap-6 mb-6">
-                <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full font-bold"> 24/7 Vijay Nagar</span>
+                <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full font-bold"> 24/7 Saket</span>
                 <span className="bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-6 py-3 rounded-full font-bold"> 100% Verified</span>
                 <span className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-3 rounded-full font-bold"> Complete Discretion</span>
                 <span className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-6 py-3 rounded-full font-bold"> Premium Quality</span>
               </div>
               <p className="text-pink-200 font-semibold text-lg">
-                 Professional escort services in Vijay Nagar for adults only. Must be 18+ to use our services. 
+                 Professional escort services in Saket for adults only. Must be 18+ to use our services. 
               </p>
             </div>
           </div>
