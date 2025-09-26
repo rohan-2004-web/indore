@@ -13,36 +13,36 @@ export default function UnsatisfiedBhabhiPage() {
 
   const faqs = [
     {
-      question: "How can I book celebrity escorts in Indore?",
-      answer: "Booking our celebrity escorts is simple and discreet. Call us directly at +91 9372662471, send a WhatsApp message, or email us. Our booking team is available 24/7 to help you select the perfect celebrity companion based on your preferences for high-profile events, parties, or private meetings in Indore."
+      question: "How can I book unsatisfied bhabhi services in Indore?",
+      answer: "Booking is simple and completely discreet. Call us directly at +91 9372662471, send a WhatsApp message, or email us. Our booking team understands the sensitive nature of these services and ensures absolute privacy when connecting you with experienced, unsatisfied bhabhis seeking excitement."
     },
     {
-      question: "What makes your celebrity escorts different from regular escort services?",
-      answer: "Our celebrity escorts are premium companions with model-like appearance, sophisticated personalities, and star-quality service. They are professionally trained for high-society events, corporate functions, and exclusive gatherings. Each celebrity escort is carefully selected for their beauty, intelligence, and discretion."
+      question: "What makes unsatisfied bhabhi services special?",
+      answer: "Our unsatisfied bhabhi companions are mature, experienced women who understand the needs of discerning gentlemen. They bring real-life experience, emotional maturity, and genuine desire for meaningful connections. Each bhabhi is carefully selected for their discretion, experience, and authentic companionship."
     },
     {
-      question: "Are celebrity escort services available in all areas of Indore?",
-      answer: "Yes, our celebrity escort services are available across all premium areas of Indore including Vijay Nagar, AB Road, Palasia, Scheme 78, New Palasia, Bhawar Kuan, Airport Road, and other upscale locations. We provide both incall and outcall services for celebrity companions."
+      question: "Are all your bhabhi companions verified and genuine?",
+      answer: "Yes, absolutely! All our unsatisfied bhabhi companions are 100% genuine, verified, and carefully screened. We ensure they are authentic housewives seeking excitement and companionship. Every interaction is real and meaningful, not scripted or artificial."
     },
     {
-      question: "What events are celebrity escorts perfect for?",
-      answer: "Celebrity escorts are ideal for high-profile events, corporate parties, business dinners, award ceremonies, private celebrations, luxury travel, VIP gatherings, and exclusive social functions. They provide sophisticated companionship that enhances your image at prestigious events."
+      question: "What areas in Indore do you provide bhabhi services?",
+      answer: "Our unsatisfied bhabhi services are available across all major areas of Indore including Vijay Nagar, AB Road, Saket, Scheme 78, Palasia, Bhawar Kuan, Rau, and surrounding areas. We offer both incall and outcall services with complete discretion."
     },
     {
-      question: "How do you ensure privacy for celebrity escort bookings?",
-      answer: "Privacy and discretion are paramount for celebrity escort services. All client information is kept strictly confidential, our escorts are trained in complete discretion, and we use secure communication channels. Your identity and meeting details are never shared or disclosed to maintain your reputation."
+      question: "How do you ensure privacy and discretion?",
+      answer: "Privacy is our absolute priority for bhabhi services. All client information is kept strictly confidential, our companions are trained in complete discretion, and we use secure communication channels. Given the sensitive nature, we take extra precautions to protect everyone's identity and reputation."
     },
     {
-      question: "What are the rates for celebrity escort services in Indore?",
-      answer: "Celebrity escort rates vary based on the duration, event type, and specific requirements. As premium companions, our celebrity escorts command higher rates than regular services. Contact us directly for detailed pricing information tailored to your celebrity escort booking needs."
+      question: "What are the rates for unsatisfied bhabhi services?",
+      answer: "Our rates vary based on the companion, duration, and service requirements. We offer competitive pricing for authentic experiences with mature companions. Contact us directly for detailed pricing information tailored to your specific preferences and requirements."
     },
     {
-      question: "Can celebrity escorts accompany me to business events?",
-      answer: "Absolutely! Our celebrity escorts are perfect for business events, corporate meetings, conferences, and professional gatherings. They are intelligent, well-spoken, and understand business etiquette, making them ideal companions for networking events and business functions."
+      question: "Are these services available 24/7?",
+      answer: "Yes, our unsatisfied bhabhi services are available 24/7 across Indore. Whether you need companionship during the day, evening, or late night, our experienced bhabhis are available to provide authentic, mature companionship whenever you need it."
     },
     {
-      question: "Are same-day bookings available for celebrity escorts?",
-      answer: "While we recommend advance booking for celebrity escorts due to their exclusive nature and high demand, we do accommodate same-day bookings when possible. Contact us as early as possible to check availability for your preferred celebrity companion in Indore."
+      question: "What can I expect from the experience?",
+      answer: "Expect genuine, mature companionship from experienced women who understand life and relationships. Our unsatisfied bhabhis offer authentic connections, meaningful conversations, and intimate experiences that only come with real maturity and life experience."
     }
   ]
 
@@ -180,51 +180,51 @@ export default function UnsatisfiedBhabhiPage() {
                     </div>
                     <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-pink-50 rounded-xl">
                       <span className="text-2xl mr-4">⚡</span>
-                      <p className="font-semibold text-gray-700">24/7 Celebrity Escort Availability</p>
+                      <p className="font-semibold text-gray-700">24/7 Bhabhi Escort Availability</p>
                     </div>
                   </div>
                 </div>
               </div>
 
-              {/* Celebrity Services Offered */}
+              {/* Bhabhi Services Offered */}
               <div className="bg-gradient-to-r from-pink-100/80 to-orange-100/80 rounded-3xl p-12">
-                <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Celebrity Escort Services in Indore</h2>
+                <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Unsatisfied Bhabhi Services in Indore</h2>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                    <div className="text-4xl mb-4">🎪</div>
-                    <h3 className="text-xl font-bold text-gray-800 mb-3">High-Profile Events</h3>
-                    <p className="text-gray-600">Perfect celebrity companions for exclusive parties, award ceremonies, and VIP gatherings with star-quality presence.</p>
+                    <div className="text-4xl mb-4">�</div>
+                    <h3 className="text-xl font-bold text-gray-800 mb-3">Home Visits</h3>
+                    <p className="text-gray-600">Discreet home visit services with mature, experienced bhabhis seeking excitement and intimate companionship in private settings.</p>
                   </div>
                   
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                    <div className="text-4xl mb-4">🏢</div>
-                    <h3 className="text-xl font-bold text-gray-800 mb-3">Corporate Functions</h3>
-                    <p className="text-gray-600">Sophisticated celebrity escorts for business meetings, corporate events, and professional networking functions.</p>
+                    <div className="text-4xl mb-4">💋</div>
+                    <h3 className="text-xl font-bold text-gray-800 mb-3">Intimate Encounters</h3>
+                    <p className="text-gray-600">Genuine intimate experiences with unsatisfied bhabhis who bring real emotion, maturity, and authentic connections to every encounter.</p>
                   </div>
                   
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                    <div className="text-4xl mb-4">🍽️</div>
-                    <h3 className="text-xl font-bold text-gray-800 mb-3">Luxury Dining</h3>
-                    <p className="text-gray-600">Elegant celebrity companions for fine dining experiences at Indore's most exclusive restaurants and venues.</p>
+                    <div className="text-4xl mb-4">�</div>
+                    <h3 className="text-xl font-bold text-gray-800 mb-3">Mature Companionship</h3>
+                    <p className="text-gray-600">Experience companionship with mature women who understand life, relationships, and the art of meaningful conversation and connection.</p>
                   </div>
                   
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                    <div className="text-4xl mb-4">✈️</div>
-                    <h3 className="text-xl font-bold text-gray-800 mb-3">Travel Companions</h3>
-                    <p className="text-gray-600">Premium celebrity escorts for business trips, vacations, and luxury travel experiences with complete sophistication.</p>
+                    <div className="text-4xl mb-4">🔒</div>
+                    <h3 className="text-xl font-bold text-gray-800 mb-3">Complete Discretion</h3>
+                    <p className="text-gray-600">Absolute privacy guaranteed with experienced bhabhis who understand the importance of discretion and maintaining confidentiality.</p>
                   </div>
                   
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                    <div className="text-4xl mb-4">🎭</div>
-                    <h3 className="text-xl font-bold text-gray-800 mb-3">Private Celebrations</h3>
-                    <p className="text-gray-600">Exclusive celebrity escorts for private parties, intimate gatherings, and special milestone celebrations.</p>
+                    <div className="text-4xl mb-4">💕</div>
+                    <h3 className="text-xl font-bold text-gray-800 mb-3">Emotional Connection</h3>
+                    <p className="text-gray-600">Form genuine emotional connections with unsatisfied bhabhis seeking meaningful relationships and authentic intimate experiences.</p>
                   </div>
                   
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                    <div className="text-4xl mb-4">🌟</div>
-                    <h3 className="text-xl font-bold text-gray-800 mb-3">VIP Treatment</h3>
-                    <p className="text-gray-600">Ultimate celebrity-level service with premium companionship and luxury experience throughout Indore.</p>
+                    <div className="text-4xl mb-4">⏰</div>
+                    <h3 className="text-xl font-bold text-gray-800 mb-3">Flexible Timing</h3>
+                    <p className="text-gray-600">24/7 availability with mature bhabhi companions who understand your schedule and provide companionship at convenient times.</p>
                   </div>
                 </div>
               </div>
@@ -237,10 +237,10 @@ export default function UnsatisfiedBhabhiPage() {
           <div className="w-full px-4">
             <div className="text-center mb-16">
               <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Frequently Asked Questions - Celebrity Escorts
+                Frequently Asked Questions - Unsatisfied Bhabhi
               </h2>
               <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Get answers to common questions about celebrity escort services in Indore
+                Get answers to common questions about unsatisfied bhabhi services in Indore
               </p>
             </div>
 
@@ -271,7 +271,7 @@ export default function UnsatisfiedBhabhiPage() {
 
             <div className="text-center mt-16">
               <p className="text-xl text-gray-600 mb-8">
-                Have more questions about our celebrity escort services? Contact us directly!
+                Have more questions about our unsatisfied bhabhi services? Contact us directly!
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
@@ -287,6 +287,101 @@ export default function UnsatisfiedBhabhiPage() {
             </div>
           </div>
         </section>
+
+        {/* Footer */}
+        <footer className="bg-gradient-to-br from-pink-600/95 via-purple-700/90 to-orange-600/95 text-white py-20 relative">
+          {/* Decorative Background Elements */}
+          <div className="absolute inset-0 overflow-hidden">
+            <div className="absolute -top-16 -right-16 w-64 h-64 bg-gradient-to-br from-pink-400/20 to-orange-400/20 rounded-full blur-2xl"></div>
+            <div className="absolute -bottom-16 -left-16 w-64 h-64 bg-gradient-to-br from-orange-400/20 to-purple-400/20 rounded-full blur-2xl"></div>
+          </div>
+          <div className="w-full px-4 relative z-10">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+              
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-yellow-300 to-pink-300 bg-clip-text text-transparent">
+                  ✨ Indore Premium Escort Service
+                </h3>
+                <p className="text-pink-100 mb-6 leading-relaxed font-semibold text-lg">
+                  Premium escort services in Indore with verified professional companions. Available 24/7 across all major locations.
+                </p>
+                <div className="flex flex-col gap-4">
+                  <a href="/services" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
+                    📞 Call Now
+                  </a>
+                  <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-green-600 to-lime-600 hover:from-green-700 hover:to-lime-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
+                    💬 WhatsApp
+                  </a>
+                </div>
+              </div>
+              
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent">🌟 Our Services</h3>
+                <div className="space-y-3">
+                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">💎 Celebrity Escorts</a>
+                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">👑 VIP Escorts</a>
+                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">✨ Premium Models</a>
+                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🎓 College Girls</a>
+                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">🏠 Housewife Escorts</a>
+                  <a href="/services" className="block text-pink-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">👸 Punjabi Women</a>
+                </div>
+              </div>
+              
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-orange-300 to-red-300 bg-clip-text text-transparent">🔗 Quick Links</h3>
+                <div className="space-y-3">
+                  <a href="/services" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">📋 All Services</a>
+                  <a href="/locations" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">📍 Service Areas</a>
+                  <a href="#faq" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">❓ FAQ</a>
+                  <a href="/services" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">📞 Contact Us</a>
+                  <a href="#about" className="block text-orange-200 hover:text-yellow-300 transition-colors font-bold text-lg hover:translate-x-2 transform duration-200">ℹ️ About Us</a>
+                </div>
+              </div>
+              
+              <div className="p-6">
+                <h3 className="text-2xl font-bold mb-6 bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">📞 Contact Information</h3>
+                <div className="space-y-4">
+                  <div className="flex items-center space-x-3 p-3">
+                    <span className="text-2xl">📞</span>
+                    <a href="/services" className="text-yellow-200 hover:text-yellow-100 font-bold text-lg">+91 9372 662 471</a>
+                  </div>
+                  <div className="flex items-center space-x-3 p-3">
+                    <span className="text-2xl">💬</span>
+                    <a href="https://wa.me/919372662471" className="text-green-200 hover:text-green-100 font-bold text-lg">WhatsApp Available</a>
+                  </div>
+                  <div className="flex items-center space-x-3 p-3">
+                    <span className="text-2xl">✉️</span>
+                    <a href="mailto:contact@indoreescortservice.com" className="text-purple-200 hover:text-purple-100 font-bold text-lg">Email Us</a>
+                  </div>
+                  <div className="flex items-center space-x-3 p-3">
+                    <span className="text-2xl">📍</span>
+                    <span className="text-pink-200 font-bold text-lg">All Indore Areas</span>
+                  </div>
+                  <div className="flex items-center space-x-3 p-3">
+                    <span className="text-2xl">🕒</span>
+                    <span className="text-orange-200 font-bold text-lg">24/7 Available</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Footer Bottom */}
+            <div className="border-t-2 border-pink-400/40 mt-16 pt-10 text-center">
+              <p className="text-yellow-200 mb-6 font-bold text-xl leading-relaxed">
+                © 2024 Indore Premium Escort Service. All rights reserved. 🏆
+              </p>
+              <div className="flex flex-wrap justify-center gap-6 mb-6">
+                <span className="bg-gradient-to-r from-pink-500 to-purple-600 text-white px-6 py-3 rounded-full font-bold">✅ 24/7 Available</span>
+                <span className="bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-6 py-3 rounded-full font-bold">✅ 100% Verified</span>
+                <span className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-6 py-3 rounded-full font-bold">✅ Complete Discretion</span>
+                <span className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-6 py-3 rounded-full font-bold">✅ Premium Quality</span>
+              </div>
+              <p className="text-pink-200 font-semibold text-lg">
+                🔞 Professional escort services for adults only. Must be 18+ to use our services. 🔞
+              </p>
+            </div>
+          </div>
+        </footer>
       </div>
     </>
   )
