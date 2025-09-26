@@ -75,6 +75,155 @@ export default function LocationsPage() {
         </div>
       </section>
 
+      {/* Locations Listing Section */}
+      <section className="py-16 bg-gradient-to-br from-pink-100/60 via-orange-50/50 to-pink-200/60">
+        <div className="w-full px-4">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+                🌟 Our Service Locations in Indore 🌟
+              </h2>
+              <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+                Premium escort services available across all major areas of Indore with verified professional companions
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              
+              {/* Saket */}
+              <a href="/locations/saket" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30">
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🏘️</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">Saket</h3>
+                <p className="text-gray-600 mb-4">Premium residential area with luxury homes and privacy</p>
+                <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                  Book in Saket
+                </div>
+              </a>
+
+              {/* Scheme 78 */}
+              <a href="/locations/scheme-78" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30">
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🏢</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">Scheme 78</h3>
+                <p className="text-gray-600 mb-4">IT Corporate sector with modern offices and hotels</p>
+                <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                  Book in Scheme 78
+                </div>
+              </a>
+
+              {/* AB Road */}
+              <a href="/locations/ab-road" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30">
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🛣️</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">AB Road</h3>
+                <p className="text-gray-600 mb-4">Major commercial hub with shopping and business centers</p>
+                <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                  Book in AB Road
+                </div>
+              </a>
+
+              {/* Palasia */}
+              <a href="/locations/palasia" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30">
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🏪</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">Palasia</h3>
+                <p className="text-gray-600 mb-4">Business district with premium hotels and restaurants</p>
+                <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                  Book in Palasia
+                </div>
+              </a>
+
+              {/* Bhawar Kuan */}
+              <a href="/locations/bhawar-kuan" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30">
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🎭</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">Bhawar Kuan</h3>
+                <p className="text-gray-600 mb-4">Cultural center with entertainment and dining options</p>
+                <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                  Book in Bhawar Kuan
+                </div>
+              </a>
+
+              {/* Rau */}
+              <a href="/locations/rau" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30">
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🌳</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">Rau</h3>
+                <p className="text-gray-600 mb-4">Peaceful residential area with quiet neighborhoods</p>
+                <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                  Book in Rau
+                </div>
+              </a>
+
+              {/* Ring Road */}
+              <a href="/locations/ring-road" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30">
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🔗</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">Ring Road</h3>
+                <p className="text-gray-600 mb-4">Commercial hub with luxury hotels and business centers</p>
+                <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                  Book in Ring Road
+                </div>
+              </a>
+
+              {/* Bombay Hospital */}
+              <a href="/locations/bombay-hospital" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30">
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🏥</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">Bombay Hospital</h3>
+                <p className="text-gray-600 mb-4">Medical district with hotels and professional services</p>
+                <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                  Book in Bombay Hospital
+                </div>
+              </a>
+
+              {/* MG Road */}
+              <a href="/locations/mg-road" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30">
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🛍️</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">MG Road</h3>
+                <p className="text-gray-600 mb-4">Main commercial street with shopping and entertainment</p>
+                <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                  Book in MG Road
+                </div>
+              </a>
+
+              {/* Airport Road */}
+              <a href="/locations/airport-road" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-orange-300/30">
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">✈️</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-orange-600 transition-colors">Airport Road</h3>
+                <p className="text-gray-600 mb-4">Aviation hub with hotels and business facilities</p>
+                <div className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                  Book in Airport Road
+                </div>
+              </a>
+
+              {/* Treasure Island */}
+              <a href="/locations/treasure-island" className="group bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-300/30">
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">🏬</div>
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-pink-600 transition-colors">Treasure Island</h3>
+                <p className="text-gray-600 mb-4">Premier shopping mall with entertainment and dining</p>
+                <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-6 py-3 rounded-2xl font-bold group-hover:scale-105 transition-transform shadow-xl">
+                  Book in Treasure Island
+                </div>
+              </a>
+
+            </div>
+
+            <div className="text-center mt-16">
+              <div className="bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-lg rounded-3xl shadow-2xl p-8 border-2 border-pink-300/50">
+                <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-6">
+                  🚀 Ready to Book? 🚀
+                </h3>
+                <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
+                  Click on any location above or contact us directly for immediate booking
+                </p>
+                <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-12 py-4 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl">
+                    📞 Call +91 9372662471
+                  </a>
+                  <a href="https://wa.me/919372662471" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-12 py-4 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl">
+                    💬 WhatsApp Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Main Content - Contact Form & Map */}
       <section className="py-16">
         <div className="w-full px-4">
