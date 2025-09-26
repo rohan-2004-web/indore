@@ -198,46 +198,37 @@ export default function PunjabiWomenPage() {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-20 bg-gradient-to-r from-pink-50/80 to-orange-50/80">
+        <section className="py-20 bg-gradient-to-br from-pink-100/60 via-orange-50/50 to-pink-200/60">
           <div className="w-full px-4">
             <div className="text-center mb-16">
-              <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-6">
-                Frequently Asked Questions
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+                Frequently Asked Questions - Punjabi Women
               </h2>
-              <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-                Everything you need to know about our Punjabi women services in Indore
+              <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                Get answers to common questions about Punjabi women escort services in Indore
               </p>
             </div>
 
-            <div className="max-w-4xl mx-auto">
-              <div className="space-y-6">
+            <div className="max-w-7xl mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {faqs.map((faq, index) => (
-                  <div key={index} className="bg-white/90 backdrop-blur-md rounded-2xl shadow-xl border border-pink-100/50 overflow-hidden">
+                  <div key={index} className="bg-gradient-to-br from-pink-100 to-orange-100 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-pink-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
                     <button
                       onClick={() => toggleFaq(index)}
-                      className="w-full px-8 py-6 text-left focus:outline-none hover:bg-pink-50/50 transition-all duration-300"
+                      className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-pink-200/80 hover:to-orange-100/80 transition-all duration-200 flex justify-between items-center group"
                     >
-                      <div className="flex items-center justify-between">
-                        <h3 className="text-xl font-bold text-gray-800 pr-4">
-                          {faq.question}
-                        </h3>
-                        <span className={`text-2xl text-pink-600 transform transition-transform duration-300 ${
-                          openFaq === index ? 'rotate-180' : ''
-                        }`}>
-                          ▼
-                        </span>
-                      </div>
+                      <h3 className="text-xl font-bold text-pink-900 pr-4 group-hover:text-orange-700">{faq.question}</h3>
+                      <span className={`text-3xl transition-all duration-300 text-pink-700 ${openFaq === index ? 'rotate-180 scale-110' : ''}`}>
+                        ▼
+                      </span>
                     </button>
-                    
-                    <div className={`overflow-hidden transition-all duration-500 ease-in-out ${
-                      openFaq === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
-                    }`}>
-                      <div className="px-8 pb-6">
-                        <p className="text-gray-700 text-lg leading-relaxed">
+                    {openFaq === index && (
+                      <div className="px-8 pb-8 bg-gradient-to-r from-pink-50/90 to-orange-50/90">
+                        <p className="text-gray-700 leading-relaxed text-lg font-medium">
                           {faq.answer}
                         </p>
                       </div>
-                    </div>
+                    )}
                   </div>
                 ))}
               </div>

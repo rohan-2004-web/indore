@@ -13,36 +13,36 @@ export default function EventCompanionPage() {
 
   const faqs = [
     {
-      question: "How can I book celebrity escorts in Indore?",
-      answer: "Booking our celebrity escorts is simple and discreet. Call us directly at +91 9372662471, send a WhatsApp message, or email us. Our booking team is available 24/7 to help you select the perfect celebrity companion based on your preferences for high-profile events, parties, or private meetings in Indore."
+      question: "How can I book event companions in Indore?",
+      answer: "Booking our event companions is simple and professional. Call us directly at +91 9372662471, send a WhatsApp message, or email us. Our booking team is available 24/7 to help you select the perfect event companion based on your event type, preferences, and requirements for weddings, parties, or corporate functions in Indore."
     },
     {
-      question: "What makes your celebrity escorts different from regular escort services?",
-      answer: "Our celebrity escorts are premium companions with model-like appearance, sophisticated personalities, and star-quality service. They are professionally trained for high-society events, corporate functions, and exclusive gatherings. Each celebrity escort is carefully selected for their beauty, intelligence, and discretion."
+      question: "What makes your event companions different from regular escort services?",
+      answer: "Our event companions are professional partners with elegant appearance, sophisticated personalities, and event-specific training. They are experienced in various social settings, understand event etiquette, and are perfect for public appearances. Each event companion is carefully selected for their grace, intelligence, and professionalism."
     },
     {
-      question: "Are celebrity escort services available in all areas of Indore?",
-      answer: "Yes, our celebrity escort services are available across all premium areas of Indore including Vijay Nagar, AB Road, Palasia, Scheme 78, New Palasia, Bhawar Kuan, Airport Road, and other upscale locations. We provide both incall and outcall services for celebrity companions."
+      question: "Are event companion services available in all areas of Indore?",
+      answer: "Yes, our event companion services are available across all areas of Indore including Vijay Nagar, AB Road, Palasia, Scheme 78, New Palasia, Bhawar Kuan, Airport Road, and other locations. We provide companions for events at hotels, venues, and public spaces throughout the city."
     },
     {
-      question: "What events are celebrity escorts perfect for?",
-      answer: "Celebrity escorts are ideal for high-profile events, corporate parties, business dinners, award ceremonies, private celebrations, luxury travel, VIP gatherings, and exclusive social functions. They provide sophisticated companionship that enhances your image at prestigious events."
+      question: "What types of events are perfect for companions?",
+      answer: "Event companions are ideal for weddings, corporate events, business dinners, award ceremonies, social gatherings, conferences, parties, cultural events, and public functions. They provide elegant companionship that enhances your presence at any social or professional occasion."
     },
     {
-      question: "How do you ensure privacy for celebrity escort bookings?",
-      answer: "Privacy and discretion are paramount for celebrity escort services. All client information is kept strictly confidential, our escorts are trained in complete discretion, and we use secure communication channels. Your identity and meeting details are never shared or disclosed to maintain your reputation."
+      question: "How do you ensure professionalism for event companion bookings?",
+      answer: "Professionalism and discretion are paramount for event companion services. All companions are trained in proper etiquette, client information is kept confidential, and we maintain professional standards throughout. Your reputation and event experience are our top priorities."
     },
     {
-      question: "What are the rates for celebrity escort services in Indore?",
-      answer: "Celebrity escort rates vary based on the duration, event type, and specific requirements. As premium companions, our celebrity escorts command higher rates than regular services. Contact us directly for detailed pricing information tailored to your celebrity escort booking needs."
+      question: "What are the rates for event companion services in Indore?",
+      answer: "Event companion rates vary based on the event duration, type, location, and specific requirements. As professional companions, our rates reflect the quality of service and experience provided. Contact us directly for detailed pricing information tailored to your event companion needs."
     },
     {
-      question: "Can celebrity escorts accompany me to business events?",
-      answer: "Absolutely! Our celebrity escorts are perfect for business events, corporate meetings, conferences, and professional gatherings. They are intelligent, well-spoken, and understand business etiquette, making them ideal companions for networking events and business functions."
+      question: "Can event companions attend formal business functions?",
+      answer: "Absolutely! Our event companions are perfect for formal business functions, corporate events, conferences, and professional gatherings. They are well-presented, intelligent, and understand business etiquette, making them ideal partners for networking events and formal occasions."
     },
     {
-      question: "Are same-day bookings available for celebrity escorts?",
-      answer: "While we recommend advance booking for celebrity escorts due to their exclusive nature and high demand, we do accommodate same-day bookings when possible. Contact us as early as possible to check availability for your preferred celebrity companion in Indore."
+      question: "Are same-day bookings available for event companions?",
+      answer: "While we recommend advance booking for event companions to ensure the best match for your event, we do accommodate same-day bookings when possible. Contact us as early as possible to check availability for your preferred event companion in Indore."
     }
   ]
 
@@ -65,24 +65,24 @@ export default function EventCompanionPage() {
             {/* Premium Badge */}
             <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
               <span className="text-3xl">🌟</span>
-              <span className="text-pink-800 font-bold text-lg">Premium Celebrity Escorts in Indore</span>
+              <span className="text-pink-800 font-bold text-lg">Premium Event Companions in Indore</span>
               <span className="text-3xl">💎</span>
             </div>
 
             <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
-              Celebrity Escorts
+              Event Companions
               <br />
               <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
-                Star Quality Service
+                Perfect Event Partners
               </span>
             </h1>
 
             <div className="max-w-5xl mx-auto mb-12">
               <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
-                Premium Celebrity Companions with Model-Like Beauty & Sophistication
+                Elegant Event Companions for All Your Special Occasions
               </p>
               <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
-                High-profile events • Business functions • Private parties • VIP treatment • 24/7 luxury companionship across Indore
+                Weddings • Corporate events • Parties • Social gatherings • Business functions • 24/7 professional companionship across Indore
               </p>
             </div>
 
@@ -237,10 +237,10 @@ export default function EventCompanionPage() {
           <div className="w-full px-4">
             <div className="text-center mb-16">
               <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Frequently Asked Questions - Celebrity Escorts
+                Frequently Asked Questions - Event Companions
               </h2>
               <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Get answers to common questions about celebrity escort services in Indore
+                Get answers to common questions about event companion services in Indore
               </p>
             </div>
 

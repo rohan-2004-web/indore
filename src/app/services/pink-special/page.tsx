@@ -13,36 +13,36 @@ export default function PinkSpecialPage() {
 
   const faqs = [
     {
-      question: "How can I book celebrity escorts in Indore?",
-      answer: "Booking our celebrity escorts is simple and discreet. Call us directly at +91 9372662471, send a WhatsApp message, or email us. Our booking team is available 24/7 to help you select the perfect celebrity companion based on your preferences for high-profile events, parties, or private meetings in Indore."
+      question: "How can I book pink escorts in Indore?",
+      answer: "Booking our pink escorts is simple and discreet. Call us directly at +91 9372662471, send a WhatsApp message, or email us. Our booking team is available 24/7 to help you select the perfect pink companion based on your preferences for special occasions, private meetings, or luxury dates in Indore."
     },
     {
-      question: "What makes your celebrity escorts different from regular escort services?",
-      answer: "Our celebrity escorts are premium companions with model-like appearance, sophisticated personalities, and star-quality service. They are professionally trained for high-society events, corporate functions, and exclusive gatherings. Each celebrity escort is carefully selected for their beauty, intelligence, and discretion."
+      question: "What makes your pink escorts different from regular escort services?",
+      answer: "Our pink escorts are premium companions with exceptional beauty, sophisticated personalities, and exclusive pink-themed service. They are professionally trained for special occasions, private events, and luxury companionship. Each pink escort is carefully selected for their elegance, charm, and discretion."
     },
     {
-      question: "Are celebrity escort services available in all areas of Indore?",
-      answer: "Yes, our celebrity escort services are available across all premium areas of Indore including Vijay Nagar, AB Road, Palasia, Scheme 78, New Palasia, Bhawar Kuan, Airport Road, and other upscale locations. We provide both incall and outcall services for celebrity companions."
+      question: "Are pink escort services available in all areas of Indore?",
+      answer: "Yes, our pink escort services are available across all areas of Indore including Vijay Nagar, AB Road, Palasia, Scheme 78, New Palasia, Bhawar Kuan, Airport Road, and other locations. We provide both incall and outcall services for pink companions."
     },
     {
-      question: "What events are celebrity escorts perfect for?",
-      answer: "Celebrity escorts are ideal for high-profile events, corporate parties, business dinners, award ceremonies, private celebrations, luxury travel, VIP gatherings, and exclusive social functions. They provide sophisticated companionship that enhances your image at prestigious events."
+      question: "What occasions are pink escorts perfect for?",
+      answer: "Pink escorts are ideal for special occasions, romantic dates, private parties, luxury dinners, weekend getaways, exclusive gatherings, and intimate celebrations. They provide elegant companionship that adds charm and sophistication to your special moments."
     },
     {
-      question: "How do you ensure privacy for celebrity escort bookings?",
-      answer: "Privacy and discretion are paramount for celebrity escort services. All client information is kept strictly confidential, our escorts are trained in complete discretion, and we use secure communication channels. Your identity and meeting details are never shared or disclosed to maintain your reputation."
+      question: "How do you ensure privacy for pink escort bookings?",
+      answer: "Privacy and discretion are paramount for pink escort services. All client information is kept strictly confidential, our escorts are trained in complete discretion, and we use secure communication channels. Your identity and meeting details are never shared or disclosed."
     },
     {
-      question: "What are the rates for celebrity escort services in Indore?",
-      answer: "Celebrity escort rates vary based on the duration, event type, and specific requirements. As premium companions, our celebrity escorts command higher rates than regular services. Contact us directly for detailed pricing information tailored to your celebrity escort booking needs."
+      question: "What are the rates for pink escort services in Indore?",
+      answer: "Pink escort rates vary based on the duration, occasion type, and specific requirements. As premium companions, our pink escorts offer excellent value for luxury service. Contact us directly for detailed pricing information tailored to your pink escort booking needs."
     },
     {
-      question: "Can celebrity escorts accompany me to business events?",
-      answer: "Absolutely! Our celebrity escorts are perfect for business events, corporate meetings, conferences, and professional gatherings. They are intelligent, well-spoken, and understand business etiquette, making them ideal companions for networking events and business functions."
+      question: "Can pink escorts accompany me to special events?",
+      answer: "Absolutely! Our pink escorts are perfect for special events, parties, dinners, and social gatherings. They are charming, well-presented, and understand social etiquette, making them ideal companions for various occasions and celebrations."
     },
     {
-      question: "Are same-day bookings available for celebrity escorts?",
-      answer: "While we recommend advance booking for celebrity escorts due to their exclusive nature and high demand, we do accommodate same-day bookings when possible. Contact us as early as possible to check availability for your preferred celebrity companion in Indore."
+      question: "Are same-day bookings available for pink escorts?",
+      answer: "While we recommend advance booking for pink escorts to ensure availability of your preferred companion, we do accommodate same-day bookings when possible. Contact us as early as possible to check availability for your desired pink escort in Indore."
     }
   ]
 
@@ -65,24 +65,24 @@ export default function PinkSpecialPage() {
             {/* Premium Badge */}
             <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
               <span className="text-3xl">🌟</span>
-              <span className="text-pink-800 font-bold text-lg">Premium Celebrity Escorts in Indore</span>
+              <span className="text-pink-800 font-bold text-lg">Premium Pink Escorts in Indore</span>
               <span className="text-3xl">💎</span>
             </div>
 
             <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
-              Celebrity Escorts
+              Pink Escorts
               <br />
               <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
-                Star Quality Service
+                Premium Pink Service
               </span>
             </h1>
 
             <div className="max-w-5xl mx-auto mb-12">
               <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
-                Premium Celebrity Companions with Model-Like Beauty & Sophistication
+                Exclusive Pink Escorts with Premium Beauty & Elegance
               </p>
               <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
-                High-profile events • Business functions • Private parties • VIP treatment • 24/7 luxury companionship across Indore
+                Special occasions • Private meetings • Luxury dates • Premium companionship • 24/7 elegant service across Indore
               </p>
             </div>
 
@@ -237,10 +237,10 @@ export default function PinkSpecialPage() {
           <div className="w-full px-4">
             <div className="text-center mb-16">
               <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Frequently Asked Questions - Celebrity Escorts
+                Frequently Asked Questions - Pink Escorts
               </h2>
               <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Get answers to common questions about celebrity escort services in Indore
+                Get answers to common questions about pink escort services in Indore
               </p>
             </div>
 
