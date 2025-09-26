@@ -1,6 +1,8 @@
-/** @type {import('eslint').Linter.Config} */
-const config = {
-  extends: ["next/core-web-vitals"],
-};
+/** @type {import('eslint').Linter.FlatConfig[]} */
+const config = [
+  {
+    ignores: ['node_modules/**', '.next/**'],
+  },
+];
 
-module.exports = config;
+export default config;
