@@ -261,7 +261,7 @@ export default function PalasiaPage() {
 
             <div className="max-w-5xl mx-auto mb-12">
               <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
-                Premium Escort Services in Palasia Business District
+                Premium Escort Services in Palasia Commercial District
               </p>
               <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
                 Verified professional escorts in Palasia • 24/7 availability • Hotels & commercial venues • Complete discretion guaranteed
