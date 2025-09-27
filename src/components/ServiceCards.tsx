@@ -13,33 +13,30 @@ const ServiceCard = ({ service, index }: { service: any, index: number }) => {
   const serviceSlug = titleToSlug(service.title)
   
   return (
-    <div className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden mb-8">
-      <div className="flex flex-col md:flex-row">
-        <div className="md:w-1/3">
-          <Image 
-            src={service.image}
-            alt={service.title}
-            width={400}
-            height={300}
-            className="w-full h-64 md:h-full object-cover"
-            style={{ objectPosition: 'center top' }}
-            loading="eager"
-            priority={index < 6}
-          />
-        </div>
-        
-        <div className="md:w-2/3 p-6 flex flex-col justify-center">
-          <h3 className="text-2xl font-bold text-gray-800 mb-3">{service.title}</h3>
-          <p className="text-gray-600 text-base leading-relaxed mb-4">
-            {service.description}
-          </p>
-          <Link 
-            href={`/services/${serviceSlug}`}
-            className="inline-block bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-6 py-3 rounded-full font-bold text-sm transition-all duration-300 transform hover:scale-105 w-fit"
-          >
-            {service.buttonText}
-          </Link>
-        </div>
+    <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col h-full">
+      <div className="relative">
+        <Image 
+          src={service.image}
+          alt={service.title}
+          width={300}
+          height={200}
+          className="w-full h-40 object-cover"
+          loading="eager"
+          priority={index < 10}
+        />
+      </div>
+      
+      <div className="p-4 flex flex-col flex-grow">
+        <h3 className="text-sm font-bold text-gray-800 mb-2 line-clamp-2">{service.title}</h3>
+        <p className="text-xs text-gray-600 leading-relaxed mb-3 flex-grow line-clamp-2">
+          {service.description}
+        </p>
+        <Link 
+          href={`/services/${serviceSlug}`}
+          className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-3 py-2 rounded-lg font-bold text-xs transition-all duration-300 transform hover:scale-105 text-center"
+        >
+          Book Now
+        </Link>
       </div>
     </div>
   )
@@ -171,14 +168,14 @@ export default function ServiceCards() {
 
   return (
     <section className="py-16 bg-gradient-to-br from-gray-50 to-white">
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
             Premium Escorts In Indore - Our Services
           </h2>
         </div>
         
-        <div className="space-y-0">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
           {services.map((service, index) => (
             <ServiceCard key={service.title} service={service} index={index} />
           ))}
