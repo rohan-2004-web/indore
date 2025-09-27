@@ -32,20 +32,20 @@ const ServiceCard = ({ service, index }: { service: any, index: number }) => {
   const borderColor = borderColors[index % borderColors.length]
 
   return (
-    <div className={`bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 border ${borderColor} text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[600px] flex flex-col`}>
-      <div className="w-full h-80 mb-6 rounded-2xl overflow-hidden shadow-lg">
+    <div className={`bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-10 border ${borderColor} text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[650px] flex flex-col`}>
+      <div className="w-full h-96 mb-8 rounded-3xl overflow-hidden shadow-xl bg-gradient-to-br from-pink-50 via-white to-blue-50 p-4">
         <Image 
           src={service.image}
           alt={service.title}
-          width={400}
-          height={320}
-          className="w-full h-80 object-contain hover:scale-105 transition-transform duration-300 bg-gradient-to-b from-pink-50 to-blue-50"
+          width={500}
+          height={400}
+          className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 rounded-2xl"
           style={{ objectPosition: 'center center' }}
         />
       </div>
       
-      <div className="flex items-center justify-center gap-3 mb-4">
-        <span className="text-3xl">{service.icon}</span>
+      <div className="flex items-center justify-center gap-4 mb-6">
+        <span className="text-4xl">{service.icon}</span>
         <h3 className="text-2xl font-bold text-gray-800">{service.title}</h3>
       </div>
       
