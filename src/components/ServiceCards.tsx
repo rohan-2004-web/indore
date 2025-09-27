@@ -20,7 +20,7 @@ const ServiceCard = ({ service, index }: { service: any, index: number }) => {
           alt={service.title}
           width={400}
           height={300}
-          className="w-full h-60 object-cover object-top"
+          className="w-full h-60 object-cover object-center"
           loading="eager"
           priority={index < 10}
         />

@@ -70,17 +70,17 @@ export default function Home() {
             <div className="max-w-8xl mx-auto px-6 relative z-10">
               <div className="text-center">
                 {/* Main Heading */}
-                <h1 className="text-5xl md:text-6xl lg:text-8xl font-extrabold mb-8 bg-gradient-to-r from-white via-orange-100 to-white bg-clip-text text-transparent leading-tight drop-shadow-lg">
+                <h1 className="text-5xl md:text-6xl lg:text-8xl font-extrabold mb-8 bg-gradient-to-r from-red-600 via-orange-600 to-red-700 bg-clip-text text-transparent leading-tight drop-shadow-lg">
                   Escorts in Indore - Premium VIP Services
                 </h1>
                 
                 {/* Subheading with badges */}
                 <div className="mb-10">
-                  <h2 className="text-2xl md:text-3xl text-white font-bold mb-8 drop-shadow-md">
+                  <h2 className="text-2xl md:text-3xl bg-gradient-to-r from-orange-700 to-red-600 bg-clip-text text-transparent font-bold mb-8 drop-shadow-md">
                     🌟 #1 Verified Escorts in Indore | 24/7 Professional Services | Safe & Discreet
                   </h2>
                   
-                  <p className="text-xl md:text-2xl text-white leading-relaxed max-w-6xl mx-auto mb-10 drop-shadow-sm">
+                  <p className="text-xl md:text-2xl bg-gradient-to-r from-red-700 to-orange-600 bg-clip-text text-transparent leading-relaxed max-w-6xl mx-auto mb-10 drop-shadow-sm">
                     Book premium escorts in Indore with verified profiles, professional service, and complete privacy. 
                     Our elite escorts in Indore are available 24/7 for outcall services across all major Indore locations 
                     including Vijay Nagar, AB Road, Palasia, Bhawar Kuan, and surrounding areas.
@@ -422,6 +422,57 @@ export default function Home() {
             </div>
           </section>
 
+          {/* Client Testimonials Content Section */}
+          <section className="py-16 bg-gradient-to-r from-pink-600 via-purple-600 to-orange-600 relative overflow-hidden">
+            <div className="absolute inset-0 bg-black/20"></div>
+            <div className="absolute top-0 left-0 w-full h-full">
+              <div className="absolute top-10 left-10 w-32 h-32 bg-pink-400/30 rounded-full blur-xl animate-pulse"></div>
+              <div className="absolute bottom-10 right-10 w-40 h-40 bg-orange-400/30 rounded-full blur-xl animate-pulse delay-300"></div>
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-purple-400/30 rounded-full blur-xl animate-pulse delay-700"></div>
+            </div>
+            
+            <div className="max-w-8xl mx-auto px-6 relative z-10">
+              <div className="text-center">
+                <h2 className="text-5xl md:text-7xl font-extrabold text-white mb-8 drop-shadow-2xl">
+                  🌟 What Our Premium Clients Say About Us 🌟
+                </h2>
+                <div className="max-w-6xl mx-auto">
+                  <p className="text-2xl md:text-3xl text-white/95 mb-8 leading-relaxed font-semibold drop-shadow-lg">
+                    💎 Thousands of satisfied clients across Indore trust us for premium escort services
+                  </p>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                    <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 border border-white/30 shadow-2xl transform hover:scale-105 transition-all duration-300">
+                      <div className="text-4xl mb-4">🏆</div>
+                      <h3 className="text-2xl font-bold text-white mb-3">Premium Quality</h3>
+                      <p className="text-white/90 text-lg">Handpicked professional escorts with guaranteed satisfaction</p>
+                    </div>
+                    <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 border border-white/30 shadow-2xl transform hover:scale-105 transition-all duration-300">
+                      <div className="text-4xl mb-4">🔒</div>
+                      <h3 className="text-2xl font-bold text-white mb-3">100% Discrete</h3>
+                      <p className="text-white/90 text-lg">Complete privacy and confidentiality for all our VIP clients</p>
+                    </div>
+                    <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 border border-white/30 shadow-2xl transform hover:scale-105 transition-all duration-300">
+                      <div className="text-4xl mb-4">⚡</div>
+                      <h3 className="text-2xl font-bold text-white mb-3">24/7 Available</h3>
+                      <p className="text-white/90 text-lg">Round the clock service with instant booking confirmation</p>
+                    </div>
+                  </div>
+                  <div className="flex flex-wrap justify-center gap-4">
+                    <span className="bg-white/30 backdrop-blur-md text-white px-8 py-4 rounded-full text-xl font-bold border border-white/40 shadow-lg">
+                      ⭐ 5000+ Happy Clients
+                    </span>
+                    <span className="bg-white/30 backdrop-blur-md text-white px-8 py-4 rounded-full text-xl font-bold border border-white/40 shadow-lg">
+                      💯 100% Satisfaction
+                    </span>
+                    <span className="bg-white/30 backdrop-blur-md text-white px-8 py-4 rounded-full text-xl font-bold border border-white/40 shadow-lg">
+                      🔥 Premium Service
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {/* Testimonials Section */}
           <section className="py-20 bg-gradient-to-br from-pink-50 via-orange-50 to-purple-50">
             <div className="max-w-7xl mx-auto px-4">
@@ -460,6 +511,160 @@ export default function Home() {
                     <p className="text-gray-600 italic mb-4">"Top-notch service with beautiful and intelligent companions. The 24/7 availability and quick response time is impressive."</p>
                     <p className="font-bold text-orange-600">- Business Client, Palasia</p>
                   </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {/* Google Map & Contact Form Section */}
+          <section className="py-20 bg-gradient-to-br from-purple-100 via-pink-50 to-orange-100">
+            <div className="max-w-8xl mx-auto px-6">
+              <div className="text-center mb-16">
+                <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-orange-600 bg-clip-text text-transparent mb-6">
+                  📍 Visit Us & Get In Touch
+                </h2>
+                <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-semibold">
+                  Find us easily with our location map or contact us directly through our premium booking form
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                {/* Google Map - Left Side */}
+                <div className="bg-gradient-to-br from-white/90 to-purple-50/90 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-purple-200/50 p-8 h-[600px] flex flex-col">
+                  <div className="text-center mb-6">
+                    <h3 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-4">
+                      🗺️ Our Location
+                    </h3>
+                    <p className="text-lg text-gray-700 font-semibold">Premium Escort Services - Central Indore</p>
+                  </div>
+                  
+                  <div className="flex-1 rounded-2xl overflow-hidden shadow-xl border-4 border-purple-200/60">
+                    <iframe 
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58911.334850493574!2d75.8152649!3d22.7195687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1635000000000!5m2!1sen!2sin"
+                      width="100%" 
+                      height="100%" 
+                      style={{border: 0}} 
+                      allowFullScreen={true}
+                      loading="lazy" 
+                      referrerPolicy="no-referrer-when-downgrade"
+                      className="rounded-xl"
+                    ></iframe>
+                  </div>
+                  
+                  <div className="mt-6 text-center">
+                    <div className="flex flex-wrap justify-center gap-4">
+                      <span className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-full text-sm font-bold shadow-lg">
+                        📍 Central Indore
+                      </span>
+                      <span className="bg-gradient-to-r from-pink-500 to-orange-500 text-white px-6 py-3 rounded-full text-sm font-bold shadow-lg">
+                        🚗 Easy Access
+                      </span>
+                      <span className="bg-gradient-to-r from-orange-500 to-purple-500 text-white px-6 py-3 rounded-full text-sm font-bold shadow-lg">
+                        🔒 Discreet Location
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Contact Form - Right Side */}
+                <div className="bg-gradient-to-br from-white/90 to-pink-50/90 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-pink-200/50 p-8">
+                  <div className="text-center mb-8">
+                    <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-4">
+                      💌 Premium Booking Form
+                    </h3>
+                    <p className="text-lg text-gray-700 font-semibold">Book your premium escort service instantly</p>
+                  </div>
+
+                  <form className="space-y-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                      <div>
+                        <label className="block text-lg font-bold text-gray-800 mb-3">👤 Your Name *</label>
+                        <input 
+                          type="text" 
+                          placeholder="Enter your full name"
+                          className="w-full px-6 py-4 rounded-2xl border-2 border-pink-200 focus:border-pink-500 focus:outline-none bg-white/80 backdrop-blur-sm text-lg font-semibold shadow-lg transition-all duration-300 hover:shadow-xl"
+                          required
+                        />
+                      </div>
+                      <div>
+                        <label className="block text-lg font-bold text-gray-800 mb-3">📱 Phone Number *</label>
+                        <input 
+                          type="tel" 
+                          placeholder="Enter your mobile number"
+                          className="w-full px-6 py-4 rounded-2xl border-2 border-pink-200 focus:border-pink-500 focus:outline-none bg-white/80 backdrop-blur-sm text-lg font-semibold shadow-lg transition-all duration-300 hover:shadow-xl"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <label className="block text-lg font-bold text-gray-800 mb-3">📧 Email Address *</label>
+                      <input 
+                        type="email" 
+                        placeholder="Enter your email address"
+                        className="w-full px-6 py-4 rounded-2xl border-2 border-pink-200 focus:border-pink-500 focus:outline-none bg-white/80 backdrop-blur-sm text-lg font-semibold shadow-lg transition-all duration-300 hover:shadow-xl"
+                        required
+                      />
+                    </div>
+
+                    <div>
+                      <label className="block text-lg font-bold text-gray-800 mb-3">💎 Service Type *</label>
+                      <select className="w-full px-6 py-4 rounded-2xl border-2 border-pink-200 focus:border-pink-500 focus:outline-none bg-white/80 backdrop-blur-sm text-lg font-semibold shadow-lg transition-all duration-300 hover:shadow-xl" required>
+                        <option value="">Select your preferred service</option>
+                        <option value="vip-companion">VIP Companion</option>
+                        <option value="celebrity-escort">Celebrity Escort</option>
+                        <option value="college-girl">College Girl Escort</option>
+                        <option value="event-companion">Event Companion</option>
+                        <option value="premium-call-girl">Premium Call Girl</option>
+                        <option value="professional-escort">Professional Escort</option>
+                      </select>
+                    </div>
+
+                    <div>
+                      <label className="block text-lg font-bold text-gray-800 mb-3">💬 Special Requirements</label>
+                      <textarea 
+                        placeholder="Any special preferences or requirements..."
+                        rows={4}
+                        className="w-full px-6 py-4 rounded-2xl border-2 border-pink-200 focus:border-pink-500 focus:outline-none bg-white/80 backdrop-blur-sm text-lg font-semibold shadow-lg transition-all duration-300 hover:shadow-xl resize-none"
+                      ></textarea>
+                    </div>
+
+                    <div className="text-center pt-6">
+                      <button 
+                        type="submit"
+                        className="bg-gradient-to-r from-pink-600 via-purple-600 to-orange-600 hover:from-pink-700 hover:via-purple-700 hover:to-orange-700 text-white px-12 py-5 rounded-2xl text-xl font-bold shadow-2xl transition-all duration-300 transform hover:scale-105 hover:shadow-3xl w-full md:w-auto min-w-[300px]"
+                      >
+                        🚀 Book Premium Service Now
+                      </button>
+                      <p className="text-sm text-gray-600 mt-4 font-semibold">
+                        🔒 100% Confidential & Secure Booking Process
+                      </p>
+                    </div>
+                  </form>
+                </div>
+              </div>
+
+              {/* Contact Info Cards */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+                <div className="bg-gradient-to-br from-white/90 to-purple-50/90 backdrop-blur-md rounded-2xl shadow-xl border-2 border-purple-200/50 p-6 text-center transform hover:scale-105 transition-all duration-300">
+                  <div className="text-4xl mb-4">📞</div>
+                  <h4 className="text-xl font-bold text-purple-800 mb-3">Call Us Now</h4>
+                  <p className="text-lg font-semibold text-gray-700">+91 98765-43210</p>
+                  <p className="text-sm text-gray-600 mt-2">24/7 Available</p>
+                </div>
+                
+                <div className="bg-gradient-to-br from-white/90 to-pink-50/90 backdrop-blur-md rounded-2xl shadow-xl border-2 border-pink-200/50 p-6 text-center transform hover:scale-105 transition-all duration-300">
+                  <div className="text-4xl mb-4">💬</div>
+                  <h4 className="text-xl font-bold text-pink-800 mb-3">WhatsApp</h4>
+                  <p className="text-lg font-semibold text-gray-700">+91 98765-43210</p>
+                  <p className="text-sm text-gray-600 mt-2">Instant Response</p>
+                </div>
+                
+                <div className="bg-gradient-to-br from-white/90 to-orange-50/90 backdrop-blur-md rounded-2xl shadow-xl border-2 border-orange-200/50 p-6 text-center transform hover:scale-105 transition-all duration-300">
+                  <div className="text-4xl mb-4">📧</div>
+                  <h4 className="text-xl font-bold text-orange-800 mb-3">Email Us</h4>
+                  <p className="text-lg font-semibold text-gray-700">info@indoreescorts.com</p>
+                  <p className="text-sm text-gray-600 mt-2">Quick Response</p>
                 </div>
               </div>
             </div>
