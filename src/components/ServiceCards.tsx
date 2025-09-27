@@ -32,34 +32,34 @@ const ServiceCard = ({ service, index }: { service: any, index: number }) => {
   const borderColor = borderColors[index % borderColors.length]
 
   return (
-    <div className={`bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border ${borderColor} text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[520px] flex flex-col`}>
-      <div className="w-full h-64 mb-4 rounded-2xl overflow-hidden shadow-lg">
+    <div className={`bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 border ${borderColor} text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[600px] flex flex-col`}>
+      <div className="w-full h-80 mb-6 rounded-2xl overflow-hidden shadow-lg">
         <Image 
           src={service.image}
           alt={service.title}
-          width={300}
-          height={256}
-          className="w-full h-64 object-contain hover:scale-105 transition-transform duration-300 bg-gradient-to-b from-pink-50 to-blue-50"
+          width={400}
+          height={320}
+          className="w-full h-80 object-contain hover:scale-105 transition-transform duration-300 bg-gradient-to-b from-pink-50 to-blue-50"
           style={{ objectPosition: 'center center' }}
         />
       </div>
       
-      <div className="flex items-center justify-center gap-2 mb-3">
-        <span className="text-2xl">{service.icon}</span>
-        <h3 className="text-xl font-bold text-gray-800">{service.title}</h3>
+      <div className="flex items-center justify-center gap-3 mb-4">
+        <span className="text-3xl">{service.icon}</span>
+        <h3 className="text-2xl font-bold text-gray-800">{service.title}</h3>
       </div>
       
-      <p className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">
+      <p className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
         {service.category}
       </p>
       
-      <p className="text-gray-600 mb-4 text-base flex-grow leading-relaxed">
+      <p className="text-gray-600 mb-6 text-lg flex-grow leading-relaxed">
         {service.description}
       </p>
       
       <Link 
         href={service.link || `/services/${service.title.toLowerCase().replace(/\s+/g, '-')}`}
-        className={`inline-block bg-gradient-to-r ${gradient} text-white px-6 py-3 rounded-2xl font-bold text-base hover:scale-105 transition-transform shadow-xl`}
+        className={`inline-block bg-gradient-to-r ${gradient} text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl`}
       >
         Book Now • {service.subtitle}
       </Link>
@@ -263,7 +263,7 @@ export default function ServiceCards() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <ServiceCard key={index} service={service} index={index} />
           ))}
@@ -279,13 +279,13 @@ export default function ServiceCards() {
                 href="tel:+919372662471"
                 className="bg-white text-pink-600 px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform shadow-lg"
               >
-                📞 Call +91 9372662471
+                ☎️ Call +91 9372662471
               </a>
               <a 
                 href="https://wa.me/919372662471"
                 className="bg-green-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform shadow-lg"
               >
-                💬 WhatsApp Now
+                � WhatsApp Now
               </a>
             </div>
           </div>
