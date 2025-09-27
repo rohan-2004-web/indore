@@ -6,6 +6,7 @@ import Image from 'next/image'
 import { SEOOptimizedContent } from '@/components/SEOContent'
 import InternalLinks from '@/components/InternalLinks'
 import Breadcrumb from '@/components/Breadcrumb'
+import ServiceCards from '@/components/ServiceCards'
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -236,6 +237,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Service Cards Section - 20 Premium Services */}
+        <ServiceCards />
 
         {/* SEO Content Section */}
         <section className="py-16 bg-gradient-to-br from-pink-50 to-blue-50">
