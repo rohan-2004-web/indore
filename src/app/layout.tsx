@@ -208,8 +208,8 @@ export default function RootLayout({
     ],
     knowsAbout: [
       'AB Road', 'Palasia', 'Bhawar Kuan', 'Vijay Nagar', 'New Palasia', 
-      'Indore GPO', 'Rajwada', 'Sarafa Bazaar', 'Khajrana', 'Kanadiya',
-      'Scheme No 78', 'Sudama Nagar', 'Premium Escorts', 'VIP Companions',
+      'Rajwada',
+      'Scheme No 78', 'Premium Escorts', 'VIP Companions',
       'Professional Escort Service', 'Celebrity Escorts'
     ]
   };

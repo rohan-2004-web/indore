@@ -26,7 +26,7 @@ export default function CollegeGirlsPage() {
     },
     {
       question: "Are college girl services available throughout Indore?",
-      answer: "Yes, our college girl companions are available across all areas of Indore including Vijay Nagar, Sapna Sangeeta, Rau, Dewas Road, AB Road, MG Road, and other major locations. We provide service 24/7 with advance booking recommended for the best companion selection."
+      answer: "Yes, our college girl companions are available across all areas of Indore including Vijay Nagar, Sapna Sangeeta, Dewas Road, AB Road, MG Road, and other major locations. We provide service 24/7 with advance booking recommended for the best companion selection."
     },
     {
       question: "How much do college girl companion services cost?",

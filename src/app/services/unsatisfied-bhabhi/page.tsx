@@ -26,7 +26,7 @@ export default function UnsatisfiedBhabhiPage() {
     },
     {
       question: "What areas in Indore do you provide bhabhi services?",
-      answer: "Our unsatisfied bhabhi services are available across all major areas of Indore including Vijay Nagar, AB Road, Saket, Scheme 78, Palasia, Bhawar Kuan, Rau, and surrounding areas. We offer both incall and outcall services with complete discretion."
+      answer: "Our unsatisfied bhabhi services are available across all major areas of Indore including Vijay Nagar, AB Road, Saket, Scheme 78, Palasia, Bhawar Kuan, and surrounding areas. We offer both incall and outcall services with complete discretion."
     },
     {
       question: "How do you ensure privacy and discretion?",

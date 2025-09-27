@@ -662,19 +662,8 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Third Row - Additional 3 Large Cards */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div className="group bg-gradient-to-br from-yellow-100 to-yellow-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-yellow-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
-                  <div className="text-center">
-                    <div className="text-6xl mb-6">🌳</div>
-                    <h3 className="text-3xl font-bold text-yellow-800 mb-3">Rau</h3>
-                    <p className="text-yellow-600 font-bold text-xl mb-4">Suburban Area</p>
-                    <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Peaceful suburban location with modern infrastructure and premium residential complexes.</p>
-                  </div>
-                  <a href="/locations/rau" className="w-full inline-block bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
-                    📞 Book Premium Escorts in Rau
-                  </a>
-                </div>
+              {/* Third Row - Additional 2 Large Cards */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="group bg-gradient-to-br from-indigo-100 to-indigo-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-indigo-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
                   <div className="text-center">
                     <div className="text-6xl mb-6">🛣️</div>
