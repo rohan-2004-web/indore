@@ -330,7 +330,7 @@ export default function ServicesPage() {
                     <p className="text-green-600 font-bold text-xl mb-4">City Center</p>
                     <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Heart of Indore with premium facilities, accessibility and upscale venues. Professional escort services 24/7.</p>
                   </div>
-                  <a href="/services" className="w-full inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                  <a href="/locations/palasia" className="w-full inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
                     📞 Book VIP Escorts in Palasia
                   </a>
                 </div>
@@ -341,7 +341,7 @@ export default function ServicesPage() {
                     <p className="text-teal-600 font-bold text-xl mb-4">Premium District</p>
                     <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Prestigious business and residential area with luxury amenities and high-end establishments.</p>
                   </div>
-                  <a href="/services" className="w-full inline-block bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                  <a href="/locations/bhawar-kuan" className="w-full inline-block bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
                     📞 Book Elite Escorts in Bhawar Kuan
                   </a>
                 </div>
@@ -356,7 +356,7 @@ export default function ServicesPage() {
                     <p className="text-indigo-600 font-bold text-xl mb-4">Connectivity Hub</p>
                     <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Well-connected area with easy access to all parts of the city and premium establishments.</p>
                   </div>
-                  <a href="/services" className="w-full inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                  <a href="/locations/ring-road" className="w-full inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
                     📞 Book VIP Escorts in Ring Road
                   </a>
                 </div>
@@ -367,14 +367,14 @@ export default function ServicesPage() {
                     <p className="text-red-600 font-bold text-xl mb-4">Medical District</p>
                     <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Healthcare hub with premium medical facilities and upscale accommodations nearby.</p>
                   </div>
-                  <a href="/services" className="w-full inline-block bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                  <a href="/locations/bombay-hospital" className="w-full inline-block bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
                     📞 Book Elite Escorts in Bombay Hospital
                   </a>
                 </div>
               </div>
 
-              {/* Fourth Row - Final 3 Large Cards */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {/* Fourth Row - Final 4 Large Cards */}
+              <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div className="group bg-gradient-to-br from-emerald-100 to-emerald-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-emerald-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
                   <div className="text-center">
                     <div className="text-6xl mb-6">🏛️</div>
@@ -382,7 +382,7 @@ export default function ServicesPage() {
                     <p className="text-emerald-600 font-bold text-xl mb-4">Heritage Area</p>
                     <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Historic area with cultural significance, premium hotels and upscale amenities.</p>
                   </div>
-                  <a href="/services" className="w-full inline-block bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                  <a href="/locations/mg-road" className="w-full inline-block bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
                     📞 Book Premium Escorts in MG Road
                   </a>
                 </div>
@@ -393,7 +393,7 @@ export default function ServicesPage() {
                     <p className="text-rose-600 font-bold text-xl mb-4">Aviation Zone</p>
                     <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Airport vicinity with luxury hotels, business centers and premium travel services.</p>
                   </div>
-                  <a href="/services" className="w-full inline-block bg-gradient-to-r from-rose-500 to-rose-600 hover:from-rose-600 hover:to-rose-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                  <a href="/locations/airport-road" className="w-full inline-block bg-gradient-to-r from-rose-500 to-rose-600 hover:from-rose-600 hover:to-rose-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
                     📞 Book Elite Escorts in Airport Road
                   </a>
                 </div>
@@ -404,8 +404,19 @@ export default function ServicesPage() {
                     <p className="text-violet-600 font-bold text-xl mb-4">Entertainment Hub</p>
                     <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Entertainment and recreation center with modern facilities and premium venues.</p>
                   </div>
-                  <a href="/services" className="w-full inline-block bg-gradient-to-r from-violet-500 to-violet-600 hover:from-violet-600 hover:to-violet-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                  <a href="/locations/treasure-island" className="w-full inline-block bg-gradient-to-r from-violet-500 to-violet-600 hover:from-violet-600 hover:to-violet-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
                     📞 Book VIP Escorts in Treasure Island
+                  </a>
+                </div>
+                <div className="group bg-gradient-to-br from-amber-100 to-amber-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-amber-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+                  <div className="text-center">
+                    <div className="text-6xl mb-6">🏰</div>
+                    <h3 className="text-3xl font-bold text-amber-800 mb-3">Rajwada</h3>
+                    <p className="text-amber-600 font-bold text-xl mb-4">Heritage Palace</p>
+                    <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Historic royal palace area with cultural heritage and premium hospitality services.</p>
+                  </div>
+                  <a href="/locations/rajwada" className="w-full inline-block bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                    📞 Book Royal Escorts in Rajwada
                   </a>
                 </div>
               </div>
