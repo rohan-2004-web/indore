@@ -32,21 +32,21 @@ const ServiceCard = ({ service, index }: { service: any, index: number }) => {
   const borderColor = borderColors[index % borderColors.length]
 
   return (
-    <div className={`bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 border ${borderColor} transform hover:-translate-y-3 transition-all duration-500 min-h-[400px] flex flex-row items-center gap-6`}>
-      <div className="w-48 h-32 flex-shrink-0 rounded-2xl overflow-hidden shadow-lg bg-gradient-to-br from-pink-50 via-white to-blue-50 p-2">
+    <div className={`bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 border ${borderColor} transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col text-center`}>
+      <div className="w-full h-80 mb-6 rounded-2xl overflow-hidden shadow-lg bg-gradient-to-br from-pink-50 via-white to-blue-50 p-2">
         <Image 
           src={service.image}
           alt={service.title}
           width={400}
-          height={300}
-          className="w-full h-full object-contain hover:scale-105 transition-transform duration-300 rounded-xl"
-          style={{ objectPosition: 'center center' }}
+          height={320}
+          className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 rounded-xl"
+          style={{ objectPosition: 'center top' }}
           loading="eager"
           priority={index < 4}
         />
       </div>
       
-      <div className="flex-1 text-left">
+      <div className="flex-1 flex flex-col justify-between">
         <div className="flex items-center gap-3 mb-4">
           <span className="text-3xl">{service.icon}</span>
           <h3 className="text-xl font-bold text-gray-800">{service.title}</h3>
@@ -267,7 +267,7 @@ export default function ServiceCards() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <ServiceCard key={index} service={service} index={index} />
           ))}
