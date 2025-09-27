@@ -8,7 +8,7 @@ import { PerformanceMonitor } from "@/hooks/usePerformanceMonitor";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://indore-gules.vercel.app'),
+  metadataBase: new URL('https://saumyakapoor.in'),
   title: 'Indore Escort Service | Premium Call Girls Service in Indore 24/7 | Top Rated Agency',
   description: 'Best Indore escort service with premium call girls available 24/7. Trusted agency offering VIP companions in Vijay Nagar, Palasia, AB Road, Saket & all Indore locations. Call +919372662471',
   keywords: 'Indore escort service, Indore call girls, escort service Indore, call girls Indore, Indore escorts, VIP escorts Indore, premium escort service, Vijay Nagar escorts, Palasia escorts, AB Road call girls, Saket escorts, Indore companion service, best escort agency Indore, 24/7 escort service',
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: 'Best Indore escort service with premium call girls available 24/7. Trusted agency offering VIP companions in all Indore locations. Professional & discreet service.',
     type: 'website',
     locale: 'en_US',
-    url: 'https://indore-gules.vercel.app',
+    url: 'https://saumyakapoor.in',
     siteName: 'Indore Premium Escort Service',
     images: [
       {
@@ -58,10 +58,10 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://indore-gules.vercel.app',
+    canonical: 'https://saumyakapoor.in',
     languages: {
-      'en-US': 'https://indore-gules.vercel.app',
-      'hi-IN': 'https://indore-gules.vercel.app/hi',
+      'en-US': 'https://saumyakapoor.in',
+      'hi-IN': 'https://saumyakapoor.in/hi',
     },
   },
   category: 'Adult Services',
@@ -82,14 +82,14 @@ export default function RootLayout({
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': ['LocalBusiness', 'Organization', 'ProfessionalService'],
-    '@id': 'https://indore-gules.vercel.app/#organization',
+    '@id': 'https://saumyakapoor.in/#organization',
     name: 'Indore Premium Escort Service',
     alternateName: 'Indore Escort Agency',
     legalName: 'Indore Premium Escort Service',
     description: 'Leading professional escort service agency in Indore providing premium companions and VIP escort services across all major locations with 24/7 availability.',
-    url: 'https://indore-gules.vercel.app',
-    logo: 'https://indore-gules.vercel.app/logo.png',
-    image: 'https://indore-gules.vercel.app/og-image.jpg',
+    url: 'https://saumyakapoor.in',
+    logo: 'https://saumyakapoor.in/logo.png',
+    image: 'https://saumyakapoor.in/og-image.jpg',
     telephone: '+919372662471',
     email: 'contact@indoreescortservice.com',
     address: {

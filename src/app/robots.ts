@@ -19,7 +19,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/admin/', '/private/'],
       }
     ],
-    sitemap: 'https://indore-gules.vercel.app/sitemap.xml',
-    host: 'https://indore-gules.vercel.app'
+    sitemap: 'https://saumyakapoor.in/sitemap.xml',
+    host: 'https://saumyakapoor.in'
   }
 }

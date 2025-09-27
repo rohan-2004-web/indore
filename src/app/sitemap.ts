@@ -1,12 +1,12 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://indore-gules.vercel.app'
+  const baseUrl = 'https://saumyakapoor.in'
   
   const locations = [
-    'vijay-nagar', 'saket', 'scheme-78', 'ab-road', 'palasia', 
-    'bhawar-kuan', 'rau', 'ring-road', 'bombay-hospital', 
-    'airport-road', 'mg-road', 'treasure-island'
+    'ab-road', 'palasia', 'bhawar-kuan', 'vijay-nagar', 
+    'new-palasia', 'indore-gpo', 'rajwada', 'sarafa-bazaar', 
+    'khajrana', 'kanadiya', 'scheme-no-78', 'sudama-nagar'
   ]
 
   return [
