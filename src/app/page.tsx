@@ -60,27 +60,29 @@ export default function Home() {
             ]}
           />
           
-          <section className="relative py-20 bg-gradient-to-br from-pink-400/95 via-orange-300/90 to-pink-500/95 overflow-hidden">
+          <section className="relative py-20 bg-gradient-to-br from-pink-300/95 via-orange-200/90 to-pink-300/95 overflow-hidden">
             <div className="absolute inset-0">
-              <div className="absolute -top-16 -right-16 w-80 h-80 bg-gradient-to-br from-pink-500/40 to-orange-400/40 rounded-full blur-3xl animate-pulse"></div>
-              <div className="absolute -bottom-16 -left-16 w-80 h-80 bg-gradient-to-br from-orange-300/40 to-pink-400/40 rounded-full blur-3xl animate-pulse"></div>
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-pink-400/30 to-orange-400/30 rounded-full blur-2xl animate-pulse" style={{animationDelay: '1s'}}></div>
+              <div className="absolute top-10 left-10 w-72 h-72 bg-gradient-to-br from-pink-400/30 to-orange-300/30 rounded-full blur-3xl animate-pulse"></div>
+              <div className="absolute bottom-20 right-16 w-96 h-96 bg-gradient-to-br from-orange-400/25 to-pink-400/25 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-br from-pink-300/20 to-orange-300/20 rounded-full blur-2xl animate-pulse" style={{animationDelay: '2s'}}></div>
+              <div className="absolute top-32 right-1/4 w-60 h-60 bg-gradient-to-br from-emerald-400/25 to-teal-500/25 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2500ms'}}></div>
+              <div className="absolute bottom-40 left-1/4 w-72 h-72 bg-gradient-to-tr from-yellow-400/20 to-orange-400/25 rounded-full blur-3xl animate-pulse" style={{animationDelay: '3000ms'}}></div>
             </div>
             
             <div className="max-w-8xl mx-auto px-6 relative z-10">
               <div className="text-center">
                 {/* Main Heading */}
-                <h1 className="text-5xl md:text-6xl lg:text-8xl font-extrabold mb-8 bg-gradient-to-r from-red-600 via-orange-600 to-red-700 bg-clip-text text-transparent leading-tight drop-shadow-lg">
+                <h1 className="text-7xl md:text-9xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
                   Escorts in Indore - Premium VIP Services
                 </h1>
                 
                 {/* Subheading with badges */}
                 <div className="mb-10">
-                  <h2 className="text-2xl md:text-3xl bg-gradient-to-r from-orange-700 to-red-600 bg-clip-text text-transparent font-bold mb-8 drop-shadow-md">
+                  <h2 className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
                     🌟 #1 Verified Escorts in Indore | 24/7 Professional Services | Safe & Discreet
                   </h2>
                   
-                  <p className="text-xl md:text-2xl bg-gradient-to-r from-red-700 to-orange-600 bg-clip-text text-transparent leading-relaxed max-w-6xl mx-auto mb-10 drop-shadow-sm">
+                  <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed max-w-6xl mx-auto mb-10">
                     Book premium escorts in Indore with verified profiles, professional service, and complete privacy. 
                     Our elite escorts in Indore are available 24/7 for outcall services across all major Indore locations 
                     including Vijay Nagar, AB Road, Palasia, Bhawar Kuan, and surrounding areas.

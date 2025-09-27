@@ -20,7 +20,7 @@ const ServiceCard = ({ service, index }: { service: any, index: number }) => {
           alt={service.title}
           width={400}
           height={300}
-          className="w-full h-60 object-cover object-center"
+          className="w-full h-60 object-cover object-[center_20%]"
           loading="eager"
           priority={index < 10}
         />
@@ -35,7 +35,7 @@ const ServiceCard = ({ service, index }: { service: any, index: number }) => {
           href={`/services/${serviceSlug}`}
           className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-4 py-3 rounded-lg font-bold text-sm transition-all duration-300 transform hover:scale-105 text-center"
         >
-          Book Now
+          Book {service.title.split(' ').slice(0, 2).join(' ')} Escorts
         </Link>
       </div>
     </div>

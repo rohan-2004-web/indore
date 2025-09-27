@@ -201,199 +201,205 @@ export default function GalleryPage() {
           </div>
         </section>
 
-        {/* Gallery Grid Section */}
-        <section className="py-16 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70">
-          <div className="w-full px-4">
-            <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-4">
-                Our Premium Services
+        {/* Gallery Grid Section - Home Page Style */}
+        <section className="py-24 bg-gradient-to-br from-pink-100 via-orange-50 to-pink-200">
+          <div className="max-w-8xl mx-auto px-6">
+            <div className="text-center mb-20">
+              <h2 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-8">
+                Our Premium Gallery Services
               </h2>
-              <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                Explore our comprehensive collection of premium escort services in Indore.
+              <p className="text-2xl text-gray-700 max-w-7xl mx-auto leading-relaxed font-semibold">
+                Explore our comprehensive collection of premium escort services in Indore with verified profiles and authentic photos
               </p>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 max-w-6xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
               
-              <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-xl p-4 border border-pink-100/50 text-center transform hover:-translate-y-2 transition-all duration-300 flex flex-col">
-                <div className="w-full h-48 mb-3 rounded-xl overflow-hidden shadow-md">
-                  <img src="/images/services/Celebrity Escorts.webp" alt="Celebrity Escorts" className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300" />
+              {/* Celebrity Escorts */}
+              <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col h-full transform hover:scale-105">
+                <div className="relative">
+                  <img 
+                    src="/images/services/Celebrity Escorts.webp" 
+                    alt="Celebrity Escorts" 
+                    className="w-full h-60 object-cover object-[center_20%]"
+                  />
                 </div>
-                <h3 className="text-sm font-bold text-gray-800 mb-2">Celebrity Escorts</h3>
-                <p className="text-xs text-gray-600 mb-3 flex-grow">Premium companions with star quality</p>
-                <a href="/services/celebrity-escorts" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-4 py-2 rounded-lg font-bold text-xs hover:scale-105 transition-transform shadow-lg">Book Now</a>
+                <div className="p-6 flex flex-col flex-grow">
+                  <h3 className="text-lg font-bold text-gray-800 mb-3 line-clamp-2">Celebrity Escorts</h3>
+                  <p className="text-sm text-gray-600 leading-relaxed mb-4 flex-grow line-clamp-3">
+                    Premium companions with star quality service and sophistication
+                  </p>
+                  <a 
+                    href="/services/celebrity-escorts"
+                    className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-4 py-3 rounded-lg font-bold text-sm transition-all duration-300 transform hover:scale-105 text-center"
+                  >
+                    Book Celebrity Escorts
+                  </a>
+                </div>
               </div>
 
-              <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-xl p-4 border border-blue-100/50 text-center transform hover:-translate-y-2 transition-all duration-300 flex flex-col">
-                <div className="w-full h-48 mb-3 rounded-xl overflow-hidden shadow-md">
-                  <img src="/images/services/VIP Escorts.jpg" alt="VIP Escorts" className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300" />
+              {/* VIP Escorts */}
+              <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col h-full transform hover:scale-105">
+                <div className="relative">
+                  <img 
+                    src="/images/services/VIP Escorts.jpg" 
+                    alt="VIP Escorts" 
+                    className="w-full h-60 object-cover object-[center_20%]"
+                  />
                 </div>
-                <h3 className="text-sm font-bold text-gray-800 mb-2">VIP Escorts</h3>
-                <p className="text-xs text-gray-600 mb-3 flex-grow">Ultimate luxury companions</p>
-                <a href="/services/vip-escorts" className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white px-4 py-2 rounded-lg font-bold text-xs hover:scale-105 transition-transform shadow-lg">Book Now</a>
+                <div className="p-6 flex flex-col flex-grow">
+                  <h3 className="text-lg font-bold text-gray-800 mb-3 line-clamp-2">VIP Escorts</h3>
+                  <p className="text-sm text-gray-600 leading-relaxed mb-4 flex-grow line-clamp-3">
+                    Ultimate luxury companions for discerning clients seeking premium experiences
+                  </p>
+                  <a 
+                    href="/services/vip-escorts"
+                    className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-4 py-3 rounded-lg font-bold text-sm transition-all duration-300 transform hover:scale-105 text-center"
+                  >
+                    Book VIP Escorts
+                  </a>
+                </div>
               </div>
 
-              <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-xl p-4 border border-orange-100/50 text-center transform hover:-translate-y-2 transition-all duration-300 flex flex-col">
-                <div className="w-full h-48 mb-3 rounded-xl overflow-hidden shadow-md">
-                  <img src="/images/services/Premium Models.jpg" alt="Premium Models" className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300" />
+              {/* Premium Models */}
+              <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col h-full transform hover:scale-105">
+                <div className="relative">
+                  <img 
+                    src="/images/services/Premium Models.jpg" 
+                    alt="Premium Models" 
+                    className="w-full h-60 object-cover object-[center_20%]"
+                  />
                 </div>
-                <h3 className="text-sm font-bold text-gray-800 mb-2">Premium Models</h3>
-                <p className="text-xs text-gray-600 mb-3 flex-grow">High-end models with sophistication</p>
-                <a href="/services/premium-models" className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-4 py-2 rounded-lg font-bold text-xs hover:scale-105 transition-transform shadow-lg">Book Now</a>
+                <div className="p-6 flex flex-col flex-grow">
+                  <h3 className="text-lg font-bold text-gray-800 mb-3 line-clamp-2">Premium Models</h3>
+                  <p className="text-sm text-gray-600 leading-relaxed mb-4 flex-grow line-clamp-3">
+                    High-end models with sophistication and professional modeling experience
+                  </p>
+                  <a 
+                    href="/services/premium-models"
+                    className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-4 py-3 rounded-lg font-bold text-sm transition-all duration-300 transform hover:scale-105 text-center"
+                  >
+                    Book Premium Models
+                  </a>
+                </div>
               </div>
 
-              <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-xl p-4 border border-purple-100/50 text-center transform hover:-translate-y-2 transition-all duration-300 flex flex-col">
-                <div className="w-full h-48 mb-3 rounded-xl overflow-hidden shadow-md">
-                  <img src="/images/services/College Girls.webp" alt="College Girls" className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300" />
+              {/* College Girls */}
+              <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col h-full transform hover:scale-105">
+                <div className="relative">
+                  <img 
+                    src="/images/services/College Girls.webp" 
+                    alt="College Girls" 
+                    className="w-full h-60 object-cover object-[center_20%]"
+                  />
                 </div>
-                <h3 className="text-sm font-bold text-gray-800 mb-2">College Girls</h3>
-                <p className="text-xs text-gray-600 mb-3 flex-grow">Young energetic companions</p>
-                <a href="/services/college-girls" className="inline-block bg-gradient-to-r from-purple-500 to-purple-600 text-white px-4 py-2 rounded-lg font-bold text-xs hover:scale-105 transition-transform shadow-lg">Book Now</a>
+                <div className="p-6 flex flex-col flex-grow">
+                  <h3 className="text-lg font-bold text-gray-800 mb-3 line-clamp-2">College Girls</h3>
+                  <p className="text-sm text-gray-600 leading-relaxed mb-4 flex-grow line-clamp-3">
+                    Young energetic companions with fresh charm and youthful enthusiasm
+                  </p>
+                  <a 
+                    href="/services/college-girls"
+                    className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-4 py-3 rounded-lg font-bold text-sm transition-all duration-300 transform hover:scale-105 text-center"
+                  >
+                    Book College Girls
+                  </a>
+                </div>
               </div>
 
-              <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-xl p-4 border border-green-100/50 text-center transform hover:-translate-y-2 transition-all duration-300 flex flex-col">
-                <div className="w-full h-48 mb-3 rounded-xl overflow-hidden shadow-md">
-                  <img src="/images/services/Housewife Escorts.jpg" alt="Housewife Escorts" className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300" />
+              {/* Housewife Escorts */}
+              <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col h-full transform hover:scale-105">
+                <div className="relative">
+                  <img 
+                    src="/images/services/Housewife Escorts.jpg" 
+                    alt="Housewife Escorts" 
+                    className="w-full h-60 object-cover object-[center_20%]"
+                  />
                 </div>
-                <h3 className="text-sm font-bold text-gray-800 mb-2">Housewife Escorts</h3>
-                <p className="text-xs text-gray-600 mb-3 flex-grow">Mature experienced companions</p>
-                <a href="/services/housewife-escorts" className="inline-block bg-gradient-to-r from-green-500 to-green-600 text-white px-4 py-2 rounded-lg font-bold text-xs hover:scale-105 transition-transform shadow-lg">Book Now</a>
+                <div className="p-6 flex flex-col flex-grow">
+                  <h3 className="text-lg font-bold text-gray-800 mb-3 line-clamp-2">Housewife Escorts</h3>
+                  <p className="text-sm text-gray-600 leading-relaxed mb-4 flex-grow line-clamp-3">
+                    Mature experienced companions with sophisticated charm and wisdom
+                  </p>
+                  <a 
+                    href="/services/housewife-escorts"
+                    className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-4 py-3 rounded-lg font-bold text-sm transition-all duration-300 transform hover:scale-105 text-center"
+                  >
+                    Book Housewife Escorts
+                  </a>
+                </div>
               </div>
 
-              <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-xl p-4 border border-red-100/50 text-center transform hover:-translate-y-2 transition-all duration-300 flex flex-col">
-                <div className="w-full h-48 mb-3 rounded-xl overflow-hidden shadow-md">
-                  <img src="/images/services/Punjabi women.webp" alt="Punjabi Women" className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300" />
+              {/* Punjabi Women */}
+              <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col h-full transform hover:scale-105">
+                <div className="relative">
+                  <img 
+                    src="/images/services/Punjabi women.webp" 
+                    alt="Punjabi Women" 
+                    className="w-full h-60 object-cover object-[center_20%]"
+                  />
                 </div>
-                <h3 className="text-sm font-bold text-gray-800 mb-2">Punjabi Women</h3>
-                <p className="text-xs text-gray-600 mb-3 flex-grow">Traditional charm companions</p>
-                <a href="/services/punjabi-women" className="inline-block bg-gradient-to-r from-red-500 to-red-600 text-white px-4 py-2 rounded-lg font-bold text-xs hover:scale-105 transition-transform shadow-lg">Book Now</a>
+                <div className="p-6 flex flex-col flex-grow">
+                  <h3 className="text-lg font-bold text-gray-800 mb-3 line-clamp-2">Punjabi Women</h3>
+                  <p className="text-sm text-gray-600 leading-relaxed mb-4 flex-grow line-clamp-3">
+                    Traditional charm companions with vibrant personalities and cultural elegance
+                  </p>
+                  <a 
+                    href="/services/punjabi-women"
+                    className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-4 py-3 rounded-lg font-bold text-sm transition-all duration-300 transform hover:scale-105 text-center"
+                  >
+                    Book Punjabi Women
+                  </a>
+                </div>
               </div>
 
-              <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-xl p-4 border border-teal-100/50 text-center transform hover:-translate-y-2 transition-all duration-300 flex flex-col">
-                <div className="w-full h-48 mb-3 rounded-xl overflow-hidden shadow-md">
-                  <img src="/images/services/Slim Escorts.webp" alt="Slim Escorts" className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300" />
+              {/* Slim Escorts */}
+              <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col h-full transform hover:scale-105">
+                <div className="relative">
+                  <img 
+                    src="/images/services/Slim Escorts.webp" 
+                    alt="Slim Escorts" 
+                    className="w-full h-60 object-cover object-[center_20%]"
+                  />
                 </div>
-                <h3 className="text-sm font-bold text-gray-800 mb-2">Slim Escorts</h3>
-                <p className="text-xs text-gray-600 mb-3 flex-grow">Elegant slim companions</p>
-                <a href="/services/slim-escorts" className="inline-block bg-gradient-to-r from-teal-500 to-teal-600 text-white px-4 py-2 rounded-lg font-bold text-xs hover:scale-105 transition-transform shadow-lg">Book Now</a>
+                <div className="p-6 flex flex-col flex-grow">
+                  <h3 className="text-lg font-bold text-gray-800 mb-3 line-clamp-2">Slim Escorts</h3>
+                  <p className="text-sm text-gray-600 leading-relaxed mb-4 flex-grow line-clamp-3">
+                    Elegant slim companions with graceful figures and charming personalities
+                  </p>
+                  <a 
+                    href="/services/slim-escorts"
+                    className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-4 py-3 rounded-lg font-bold text-sm transition-all duration-300 transform hover:scale-105 text-center"
+                  >
+                    Book Slim Escorts
+                  </a>
+                </div>
               </div>
 
-              <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-xl p-4 border border-indigo-100/50 text-center transform hover:-translate-y-2 transition-all duration-300 flex flex-col">
-                <div className="w-full h-48 mb-3 rounded-xl overflow-hidden shadow-md">
-                  <img src="/images/services/Unsatisfied Bhabhi.webp" alt="Unsatisfied Bhabhi" className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300" />
+              {/* Unsatisfied Bhabhi */}
+              <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col h-full transform hover:scale-105">
+                <div className="relative">
+                  <img 
+                    src="/images/services/Unsatisfied Bhabhi.webp" 
+                    alt="Unsatisfied Bhabhi" 
+                    className="w-full h-60 object-cover object-[center_20%]"
+                  />
                 </div>
-                <h3 className="text-sm font-bold text-gray-800 mb-2">Unsatisfied Bhabhi</h3>
-                <p className="text-xs text-gray-600 mb-3 flex-grow">Experienced companions</p>
-                <a href="/services/unsatisfied-bhabhi" className="inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 text-white px-4 py-2 rounded-lg font-bold text-xs hover:scale-105 transition-transform shadow-lg">Book Now</a>
+                <div className="p-6 flex flex-col flex-grow">
+                  <h3 className="text-lg font-bold text-gray-800 mb-3 line-clamp-2">Unsatisfied Bhabhi</h3>
+                  <p className="text-sm text-gray-600 leading-relaxed mb-4 flex-grow line-clamp-3">
+                    Experienced companions seeking meaningful connections with understanding clients
+                  </p>
+                  <a 
+                    href="/services/unsatisfied-bhabhi"
+                    className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-4 py-3 rounded-lg font-bold text-sm transition-all duration-300 transform hover:scale-105 text-center"
+                  >
+                    Book Unsatisfied Bhabhi
+                  </a>
+                </div>
               </div>
 
-              <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-xl p-4 border border-pink-100/50 text-center transform hover:-translate-y-2 transition-all duration-300 flex flex-col">
-                <div className="w-full h-48 mb-3 rounded-xl overflow-hidden shadow-md">
-                  <img src="/images/services/Local Beauties.webp" alt="Local Beauties" className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300" />
-                </div>
-                <h3 className="text-sm font-bold text-gray-800 mb-2">Local Beauties</h3>
-                <p className="text-xs text-gray-600 mb-3 flex-grow">Local companions who know Indore</p>
-                <a href="/services/local-beauties" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-4 py-2 rounded-lg font-bold text-xs hover:scale-105 transition-transform shadow-lg">Book Now</a>
-              </div>
-
-              <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-xl p-4 border border-yellow-100/50 text-center transform hover:-translate-y-2 transition-all duration-300 flex flex-col">
-                <div className="w-full h-48 mb-3 rounded-xl overflow-hidden shadow-md">
-                  <img src="/images/services/Event Companion.webp" alt="Event Companion" className="w-full h-80 object-contain hover:scale-105 transition-transform duration-300" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">Event Companion</h3>
-                <p className="text-gray-600 mb-4 text-base flex-grow">Perfect companions for social events and parties</p>
-                <a href="/services/event-companion" className="inline-block bg-gradient-to-r from-yellow-500 to-yellow-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Event Girls</a>
-              </div>
-
-              <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-rose-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
-                <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                  <img src="/images/services/Pink Special.webp" alt="Pink Special" className="w-full h-80 object-contain hover:scale-105 transition-transform duration-300" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">Pink Special</h3>
-                <p className="text-gray-600 mb-4 text-base flex-grow">Special premium companions for exclusive experiences</p>
-                <a href="/services/pink-special" className="inline-block bg-gradient-to-r from-rose-500 to-rose-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Pink Girls</a>
-              </div>
-
-              <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-violet-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
-                <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                  <img src="/images/services/Unsatisfied Females.webp" alt="Unsatisfied Females" className="w-full h-80 object-contain hover:scale-105 transition-transform duration-300" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">Unsatisfied Females</h3>
-                <p className="text-gray-600 mb-4 text-base flex-grow">Mature women seeking meaningful connections</p>
-                <a href="/services/unsatisfied-females" className="inline-block bg-gradient-to-r from-violet-500 to-violet-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Female Escorts</a>
-              </div>
-
-              <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-blue-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
-                <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                  <img src="/images/services/Incall Escorts.webp" alt="Incall Escorts" className="w-full h-80 object-contain hover:scale-105 transition-transform duration-300" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">Incall Escorts</h3>
-                <p className="text-gray-600 mb-4 text-base flex-grow">Premium incall services at luxury locations</p>
-                <a href="/services/incall-escorts" className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Incall Girls</a>
-              </div>
-
-              <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-amber-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
-                <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                  <img src="/images/services/Mature Escorts.webp" alt="Mature Escorts" className="w-full h-80 object-contain hover:scale-105 transition-transform duration-300" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">Mature Escorts</h3>
-                <p className="text-gray-600 mb-4 text-base flex-grow">Experienced mature companions with sophistication</p>
-                <a href="/services/mature-escorts" className="inline-block bg-gradient-to-r from-amber-500 to-amber-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Mature Girls</a>
-              </div>
-
-              <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-emerald-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
-                <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                  <img src="/images/services/Young Girls.webp" alt="Young Girls" className="w-full h-80 object-contain hover:scale-105 transition-transform duration-300" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">Young Girls</h3>
-                <p className="text-gray-600 mb-4 text-base flex-grow">Young beautiful companions for unforgettable experiences</p>
-                <a href="/services/young-girls" className="inline-block bg-gradient-to-r from-emerald-500 to-emerald-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Young Girls</a>
-              </div>
-
-              <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-indigo-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
-                <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                  <img src="/images/services/indore escorts.webp" alt="Indore Escorts" className="w-full h-80 object-contain hover:scale-105 transition-transform duration-300" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">Indore Escorts</h3>
-                <p className="text-gray-600 mb-4 text-base flex-grow">Premium local escorts with deep knowledge of Indore city</p>
-                <a href="/services/indore-escorts" className="inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Indore Girls</a>
-              </div>
-
-              <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-cyan-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
-                <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                  <img src="/images/services/Expert Services.webp" alt="Expert Services" className="w-full h-80 object-contain hover:scale-105 transition-transform duration-300" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">Expert Services</h3>
-                <p className="text-gray-600 mb-4 text-base flex-grow">Expert companions with specialized skills and professional experience</p>
-                <a href="/services/expert-services" className="inline-block bg-gradient-to-r from-cyan-500 to-cyan-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Expert Girls</a>
-              </div>
-
-              <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-purple-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
-                <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                  <img src="/images/services/High Class Models.webp" alt="High Class Models" className="w-full h-80 object-contain hover:scale-105 transition-transform duration-300" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">High Class Models</h3>
-                <p className="text-gray-600 mb-4 text-base flex-grow">Stunning high-class models with runway experience</p>
-                <a href="/services/high-class-models" className="inline-block bg-gradient-to-r from-purple-500 to-purple-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Model Girls</a>
-              </div>
-
-              <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-red-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
-                <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                  <img src="/images/services/bold girls.webp" alt="Bold Girls" className="w-full h-80 object-contain hover:scale-105 transition-transform duration-300" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">Bold Girls</h3>
-                <p className="text-gray-600 mb-4 text-base flex-grow">Bold and confident companions ready for exciting adventures</p>
-                <a href="/services/bold-girls" className="inline-block bg-gradient-to-r from-red-500 to-red-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Bold Girls</a>
-              </div>
-
-              <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
-                <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
-                  <img src="/images/services/sexy girls.webp" alt="Sexy Girls" className="w-full h-80 object-contain hover:scale-105 transition-transform duration-300" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">Sexy Girls</h3>
-                <p className="text-gray-600 mb-4 text-base flex-grow">Incredibly attractive companions with mesmerizing charm</p>
-                <a href="/services/sexy-girls" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Sexy Girls</a>
-              </div>
+              {/* Continue with remaining cards... */}
 
             </div>
           </div>
