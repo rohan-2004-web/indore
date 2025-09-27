@@ -32,37 +32,41 @@ const ServiceCard = ({ service, index }: { service: any, index: number }) => {
   const borderColor = borderColors[index % borderColors.length]
 
   return (
-    <div className={`bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-10 border ${borderColor} text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[650px] flex flex-col`}>
-      <div className="w-full h-96 mb-8 rounded-3xl overflow-hidden shadow-xl bg-gradient-to-br from-pink-50 via-white to-blue-50 p-4">
+    <div className={`bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 border ${borderColor} transform hover:-translate-y-3 transition-all duration-500 min-h-[400px] flex flex-row items-center gap-6`}>
+      <div className="w-48 h-32 flex-shrink-0 rounded-2xl overflow-hidden shadow-lg bg-gradient-to-br from-pink-50 via-white to-blue-50 p-2">
         <Image 
           src={service.image}
           alt={service.title}
-          width={500}
-          height={400}
-          className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 rounded-2xl"
+          width={400}
+          height={300}
+          className="w-full h-full object-contain hover:scale-105 transition-transform duration-300 rounded-xl"
           style={{ objectPosition: 'center center' }}
+          loading="eager"
+          priority={index < 4}
         />
       </div>
       
-      <div className="flex items-center justify-center gap-4 mb-6">
-        <span className="text-4xl">{service.icon}</span>
-        <h3 className="text-2xl font-bold text-gray-800">{service.title}</h3>
+      <div className="flex-1 text-left">
+        <div className="flex items-center gap-3 mb-4">
+          <span className="text-3xl">{service.icon}</span>
+          <h3 className="text-xl font-bold text-gray-800">{service.title}</h3>
+        </div>
+        
+        <p className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
+          {service.category}
+        </p>
+        
+        <p className="text-gray-600 mb-6 text-base leading-relaxed">
+          {service.description}
+        </p>
+        
+        <Link 
+          href={service.link || `/services/${service.title.toLowerCase().replace(/\s+/g, '-')}`}
+          className={`inline-block bg-gradient-to-r ${gradient} text-white px-6 py-3 rounded-2xl font-bold text-sm hover:scale-105 transition-transform shadow-xl`}
+        >
+          Book Now • {service.subtitle}
+        </Link>
       </div>
-      
-      <p className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
-        {service.category}
-      </p>
-      
-      <p className="text-gray-600 mb-6 text-lg flex-grow leading-relaxed">
-        {service.description}
-      </p>
-      
-      <Link 
-        href={service.link || `/services/${service.title.toLowerCase().replace(/\s+/g, '-')}`}
-        className={`inline-block bg-gradient-to-r ${gradient} text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl`}
-      >
-        Book Now • {service.subtitle}
-      </Link>
     </div>
   )
 }
@@ -253,7 +257,7 @@ export default function ServiceCards() {
 
   return (
     <section className="py-20 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70">
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-full mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
             Premium Escort Services in Indore
@@ -263,7 +267,7 @@ export default function ServiceCards() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
           {services.map((service, index) => (
             <ServiceCard key={index} service={service} index={index} />
           ))}
