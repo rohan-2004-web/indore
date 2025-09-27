@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { useState } from 'react'
 import Header from '@/components/Header'
@@ -38,12 +38,20 @@ export default function Home() {
     {
       question: "Are your companions verified?",
       answer: "Yes, all our companions are thoroughly verified and professionally trained to provide premium quality service with complete safety and satisfaction."
+    },
+    {
+      question: "What are your service charges?",
+      answer: "Our charges vary depending on the type of service, duration, and companion selection. Please call +91 9372662471 for detailed pricing information and special packages."
+    },
+    {
+      question: "Do you provide hotel bookings assistance?",
+      answer: "Yes, we can assist with hotel bookings at premium locations across Indore. Our team can recommend and arrange suitable accommodations for your requirements."
     }
   ]
 
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-blue-50">
+      <div className="min-h-screen bg-gradient-to-br from-pink-100 via-orange-50 to-pink-200">
         <Header />
         <main className="pt-20">
           <Breadcrumb 
@@ -52,44 +60,44 @@ export default function Home() {
             ]}
           />
           
-          <section className="relative py-16 bg-gradient-to-br from-pink-300/95 via-orange-200/90 to-pink-300/95 overflow-hidden">
+          <section className="relative py-20 bg-gradient-to-br from-pink-400/95 via-orange-300/90 to-pink-500/95 overflow-hidden">
             <div className="absolute inset-0">
-              <div className="absolute -top-16 -right-16 w-64 h-64 bg-gradient-to-br from-pink-400/30 to-orange-300/30 rounded-full blur-3xl animate-pulse"></div>
-              <div className="absolute -bottom-16 -left-16 w-64 h-64 bg-gradient-to-br from-orange-200/30 to-pink-300/30 rounded-full blur-3xl animate-pulse"></div>
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-br from-pink-300/20 to-orange-300/20 rounded-full blur-2xl animate-pulse" style={{animationDelay: '1s'}}></div>
+              <div className="absolute -top-16 -right-16 w-80 h-80 bg-gradient-to-br from-pink-500/40 to-orange-400/40 rounded-full blur-3xl animate-pulse"></div>
+              <div className="absolute -bottom-16 -left-16 w-80 h-80 bg-gradient-to-br from-orange-300/40 to-pink-400/40 rounded-full blur-3xl animate-pulse"></div>
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-pink-400/30 to-orange-400/30 rounded-full blur-2xl animate-pulse" style={{animationDelay: '1s'}}></div>
             </div>
             
-            <div className="max-w-7xl mx-auto px-4 relative z-10">
+            <div className="max-w-8xl mx-auto px-6 relative z-10">
               <div className="text-center">
                 {/* Main Heading */}
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 text-gray-800 leading-tight">
+                <h1 className="text-5xl md:text-6xl lg:text-8xl font-extrabold mb-8 bg-gradient-to-r from-white via-orange-100 to-white bg-clip-text text-transparent leading-tight drop-shadow-lg">
                   Escorts in Indore - Premium VIP Services
                 </h1>
                 
                 {/* Subheading with badges */}
-                <div className="mb-8">
-                  <h2 className="text-xl md:text-2xl text-pink-600 font-bold mb-6">
+                <div className="mb-10">
+                  <h2 className="text-2xl md:text-3xl text-white font-bold mb-8 drop-shadow-md">
                     🌟 #1 Verified Escorts in Indore | 24/7 Professional Services | Safe & Discreet
                   </h2>
                   
-                  <p className="text-lg md:text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto mb-8">
+                  <p className="text-xl md:text-2xl text-white leading-relaxed max-w-6xl mx-auto mb-10 drop-shadow-sm">
                     Book premium escorts in Indore with verified profiles, professional service, and complete privacy. 
                     Our elite escorts in Indore are available 24/7 for outcall services across all major Indore locations 
                     including Vijay Nagar, AB Road, Palasia, Bhawar Kuan, and surrounding areas.
                   </p>
                   
                   {/* Feature badges */}
-                  <div className="flex flex-wrap justify-center gap-4 mb-8">
-                    <div className="bg-pink-100 border-2 border-pink-300 text-pink-700 px-4 py-2 rounded-full text-sm font-semibold">
+                  <div className="flex flex-wrap justify-center gap-6 mb-10">
+                    <div className="bg-white/95 border-2 border-pink-300 text-pink-700 px-6 py-3 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all">
                       ✨ 100% Verified Escorts
                     </div>
-                    <div className="bg-purple-100 border-2 border-purple-300 text-purple-700 px-4 py-2 rounded-full text-sm font-semibold">
+                    <div className="bg-white/95 border-2 border-orange-300 text-orange-700 px-6 py-3 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all">
                       🔒 Safe & Discreet Services
                     </div>
-                    <div className="bg-blue-100 border-2 border-blue-300 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold">
+                    <div className="bg-white/95 border-2 border-pink-300 text-pink-700 px-6 py-3 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all">
                       ⚡ Instant Booking in Indore
                     </div>
-                    <div className="bg-green-100 border-2 border-green-300 text-green-700 px-4 py-2 rounded-full text-sm font-semibold">
+                    <div className="bg-white/95 border-2 border-orange-300 text-orange-700 px-6 py-3 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all">
                       🎯 Premium Quality Guaranteed
                     </div>
                   </div>
@@ -207,151 +215,151 @@ export default function Home() {
           </section>
 
           {/* Locations Section */}
-          <section id="locations" className="py-20 relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70"></div>
-            <div className="w-full px-4 relative z-10">
-              <div className="text-center mb-16">
-                <h2 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+          <section id="locations" className="py-24 relative">
+            <div className="absolute inset-0 bg-gradient-to-br from-pink-200/80 via-orange-100/70 to-pink-300/80"></div>
+            <div className="w-full px-6 relative z-10">
+              <div className="text-center mb-20">
+                <h2 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-8">
                   Premium Escort Services Available In All Major Indore Areas
                 </h2>
-                <p className="text-2xl text-gray-700 max-w-6xl mx-auto leading-relaxed font-semibold">
+                <p className="text-2xl text-gray-700 max-w-7xl mx-auto leading-relaxed font-semibold">
                   Professional escort services available across 15+ prime locations in Indore with guaranteed satisfaction and instant response
                 </p>
               </div>
 
               <div className="w-full">
-                {/* Consistent 4x3 Grid - All 12 Locations Same Size - Compact Design */}
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
+                {/* Enhanced Location Cards - Bigger and More Stylish */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-8xl mx-auto">
                   
-                  <div className="group bg-gradient-to-br from-pink-100 to-pink-200 backdrop-blur-md rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-4 border border-pink-300/60 transform hover:-translate-y-1 h-48 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-pink-100 to-pink-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-pink-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
                     <div className="text-center">
-                      <div className="text-3xl mb-2">🏢</div>
-                      <h3 className="text-lg font-bold text-pink-800 mb-1">Vijay Nagar</h3>
-                      <p className="text-xs text-gray-700 leading-tight">Central Business District</p>
+                      <div className="text-6xl mb-4">🏢</div>
+                      <h3 className="text-2xl font-bold text-pink-800 mb-3">Vijay Nagar</h3>
+                      <p className="text-sm text-gray-700 leading-relaxed">Central Business District with premium facilities</p>
                     </div>
-                    <a href="/locations/vijay-nagar" className="w-full inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-3 py-2 rounded-lg font-bold text-xs transition-all duration-300 transform hover:scale-105 shadow-md text-center">
-                      📞 Book Now
+                    <a href="/locations/vijay-nagar" className="w-full inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+                      📞 Book Premium Service
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-blue-100 to-blue-200 backdrop-blur-md rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-4 border border-blue-300/60 transform hover:-translate-y-1 h-48 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-blue-100 to-blue-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-blue-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
                     <div className="text-center">
-                      <div className="text-3xl mb-2">🏘️</div>
-                      <h3 className="text-lg font-bold text-blue-800 mb-1">Saket</h3>
-                      <p className="text-xs text-gray-700 leading-tight">Upscale Residential Hub</p>
+                      <div className="text-6xl mb-4">🏘️</div>
+                      <h3 className="text-2xl font-bold text-blue-800 mb-3">Saket</h3>
+                      <p className="text-sm text-gray-700 leading-relaxed">Upscale Residential Hub with elite services</p>
                     </div>
-                    <a href="/locations/saket" className="w-full inline-block bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-3 py-2 rounded-lg font-bold text-xs transition-all duration-300 transform hover:scale-105 shadow-md text-center">
-                      📞 Book Now
+                    <a href="/locations/saket" className="w-full inline-block bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+                      📞 Book Premium Service
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-orange-100 to-orange-200 backdrop-blur-md rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-4 border border-orange-300/60 transform hover:-translate-y-1 h-48 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-orange-100 to-orange-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-orange-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
                     <div className="text-center">
-                      <div className="text-3xl mb-2">💻</div>
-                      <h3 className="text-lg font-bold text-orange-800 mb-1">Scheme 78</h3>
-                      <p className="text-xs text-gray-700 leading-tight">IT Corporate Sector</p>
+                      <div className="text-6xl mb-4">💻</div>
+                      <h3 className="text-2xl font-bold text-orange-800 mb-3">Scheme 78</h3>
+                      <p className="text-sm text-gray-700 leading-relaxed">IT Corporate Sector with modern amenities</p>
                     </div>
-                    <a href="/locations/scheme-78" className="w-full inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-3 py-2 rounded-lg font-bold text-xs transition-all duration-300 transform hover:scale-105 shadow-md text-center">
-                      📞 Book Now
+                    <a href="/locations/scheme-78" className="w-full inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+                      📞 Book Premium Service
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-purple-100 to-purple-200 backdrop-blur-md rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-4 border border-purple-300/60 transform hover:-translate-y-1 h-48 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-purple-100 to-purple-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-purple-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
                     <div className="text-center">
-                      <div className="text-3xl mb-2">🛍️</div>
-                      <h3 className="text-lg font-bold text-purple-800 mb-1">AB Road</h3>
-                      <p className="text-xs text-gray-700 leading-tight">Commercial Zone</p>
+                      <div className="text-6xl mb-4">🛍️</div>
+                      <h3 className="text-2xl font-bold text-purple-800 mb-3">AB Road</h3>
+                      <p className="text-sm text-gray-700 leading-relaxed">Commercial Zone with shopping centers</p>
                     </div>
-                    <a href="/locations/ab-road" className="w-full inline-block bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-3 py-2 rounded-lg font-bold text-xs transition-all duration-300 transform hover:scale-105 shadow-md text-center">
-                      📞 Book Now
+                    <a href="/locations/ab-road" className="w-full inline-block bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+                      📞 Book Premium Service
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-green-100 to-green-200 backdrop-blur-md rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-4 border border-green-300/60 transform hover:-translate-y-1 h-48 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-green-100 to-green-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-green-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
                     <div className="text-center">
-                      <div className="text-3xl mb-2">🌆</div>
-                      <h3 className="text-lg font-bold text-green-800 mb-1">Palasia</h3>
-                      <p className="text-xs text-gray-700 leading-tight">City Center</p>
+                      <div className="text-6xl mb-4">🌆</div>
+                      <h3 className="text-2xl font-bold text-green-800 mb-3">Palasia</h3>
+                      <p className="text-sm text-gray-700 leading-relaxed">City Center with premium facilities</p>
                     </div>
-                    <a href="/locations/palasia" className="w-full inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-3 py-2 rounded-lg font-bold text-xs transition-all duration-300 transform hover:scale-105 shadow-md text-center">
-                      📞 Book Now
+                    <a href="/locations/palasia" className="w-full inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+                      📞 Book Premium Service
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-teal-100 to-teal-200 backdrop-blur-md rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-4 border border-teal-300/60 transform hover:-translate-y-1 h-48 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-teal-100 to-teal-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-teal-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
                     <div className="text-center">
-                      <div className="text-3xl mb-2">🏛️</div>
-                      <h3 className="text-lg font-bold text-teal-800 mb-1">Bhawar Kuan</h3>
-                      <p className="text-xs text-gray-700 leading-tight">Premium District</p>
+                      <div className="text-6xl mb-4">🏛️</div>
+                      <h3 className="text-2xl font-bold text-teal-800 mb-3">Bhawar Kuan</h3>
+                      <p className="text-sm text-gray-700 leading-relaxed">Premium District with luxury amenities</p>
                     </div>
-                    <a href="/locations/bhawar-kuan" className="w-full inline-block bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white px-3 py-2 rounded-lg font-bold text-xs transition-all duration-300 transform hover:scale-105 shadow-md text-center">
-                      📞 Book Now
+                    <a href="/locations/bhawar-kuan" className="w-full inline-block bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+                      📞 Book Premium Service
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-indigo-100 to-indigo-200 backdrop-blur-md rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-4 border border-indigo-300/60 transform hover:-translate-y-1 h-48 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-indigo-100 to-indigo-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-indigo-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
                     <div className="text-center">
-                      <div className="text-3xl mb-2">✈️</div>
-                      <h3 className="text-lg font-bold text-indigo-800 mb-1">Airport Road</h3>
-                      <p className="text-xs text-gray-700 leading-tight">Airport vicinity</p>
+                      <div className="text-6xl mb-4">✈️</div>
+                      <h3 className="text-2xl font-bold text-indigo-800 mb-3">Airport Road</h3>
+                      <p className="text-sm text-gray-700 leading-relaxed">Airport vicinity with luxury hotels</p>
                     </div>
-                    <a href="/locations/airport-road" className="w-full inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white px-3 py-2 rounded-lg font-bold text-xs transition-all duration-300 transform hover:scale-105 shadow-md text-center">
-                      📞 Book Now
+                    <a href="/locations/airport-road" className="w-full inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+                      📞 Book Premium Service
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-rose-100 to-rose-200 backdrop-blur-md rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-4 border border-rose-300/60 transform hover:-translate-y-1 h-48 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-rose-100 to-rose-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-rose-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
                     <div className="text-center">
-                      <div className="text-3xl mb-2">🎯</div>
-                      <h3 className="text-lg font-bold text-rose-800 mb-1">Treasure Island</h3>
-                      <p className="text-xs text-gray-700 leading-tight">Entertainment hub</p>
+                      <div className="text-6xl mb-4">🎯</div>
+                      <h3 className="text-2xl font-bold text-rose-800 mb-3">Treasure Island</h3>
+                      <p className="text-sm text-gray-700 leading-relaxed">Entertainment hub with modern facilities</p>
                     </div>
-                    <a href="/locations/treasure-island" className="w-full inline-block bg-gradient-to-r from-rose-500 to-rose-600 hover:from-rose-600 hover:to-rose-700 text-white px-3 py-2 rounded-lg font-bold text-xs transition-all duration-300 transform hover:scale-105 shadow-md text-center">
-                      📞 Book Now
+                    <a href="/locations/treasure-island" className="w-full inline-block bg-gradient-to-r from-rose-500 to-rose-600 hover:from-rose-600 hover:to-rose-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+                      📞 Book Premium Service
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-violet-100 to-violet-200 backdrop-blur-md rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-4 border border-violet-300/60 transform hover:-translate-y-1 h-48 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-violet-100 to-violet-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-violet-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
                     <div className="text-center">
-                      <div className="text-3xl mb-2">🏬</div>
-                      <h3 className="text-lg font-bold text-violet-800 mb-1">Rajwada</h3>
-                      <p className="text-xs text-gray-700 leading-tight">Historic area</p>
+                      <div className="text-6xl mb-4">🏬</div>
+                      <h3 className="text-2xl font-bold text-violet-800 mb-3">Rajwada</h3>
+                      <p className="text-sm text-gray-700 leading-relaxed">Historic area with cultural significance</p>
                     </div>
-                    <a href="/locations/rajwada" className="w-full inline-block bg-gradient-to-r from-violet-500 to-violet-600 hover:from-violet-600 hover:to-violet-700 text-white px-3 py-2 rounded-lg font-bold text-xs transition-all duration-300 transform hover:scale-105 shadow-md text-center">
-                      📞 Book Now
+                    <a href="/locations/rajwada" className="w-full inline-block bg-gradient-to-r from-violet-500 to-violet-600 hover:from-violet-600 hover:to-violet-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+                      📞 Book Premium Service
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-cyan-100 to-cyan-200 backdrop-blur-md rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-4 border border-cyan-300/60 transform hover:-translate-y-1 h-48 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-cyan-100 to-cyan-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-cyan-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
                     <div className="text-center">
-                      <div className="text-3xl mb-2">🏭</div>
-                      <h3 className="text-lg font-bold text-cyan-800 mb-1">MG Road</h3>
-                      <p className="text-xs text-gray-700 leading-tight">Business center</p>
+                      <div className="text-6xl mb-4">🏭</div>
+                      <h3 className="text-2xl font-bold text-cyan-800 mb-3">MG Road</h3>
+                      <p className="text-sm text-gray-700 leading-relaxed">Business center with premium services</p>
                     </div>
-                    <a href="/locations/mg-road" className="w-full inline-block bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white px-3 py-2 rounded-lg font-bold text-xs transition-all duration-300 transform hover:scale-105 shadow-md text-center">
-                      📞 Book Now
+                    <a href="/locations/mg-road" className="w-full inline-block bg-gradient-to-r from-cyan-500 to-cyan-600 hover:from-cyan-600 hover:to-cyan-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+                      📞 Book Premium Service
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-emerald-100 to-emerald-200 backdrop-blur-md rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-4 border border-emerald-300/60 transform hover:-translate-y-1 h-48 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-emerald-100 to-emerald-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-emerald-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
                     <div className="text-center">
-                      <div className="text-3xl mb-2">🏥</div>
-                      <h3 className="text-lg font-bold text-emerald-800 mb-1">Bombay Hospital</h3>
-                      <p className="text-xs text-gray-700 leading-tight">Medical district</p>
+                      <div className="text-6xl mb-4">🏥</div>
+                      <h3 className="text-2xl font-bold text-emerald-800 mb-3">Bombay Hospital</h3>
+                      <p className="text-sm text-gray-700 leading-relaxed">Medical district with healthcare facilities</p>
                     </div>
-                    <a href="/locations/bombay-hospital" className="w-full inline-block bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-3 py-2 rounded-lg font-bold text-xs transition-all duration-300 transform hover:scale-105 shadow-md text-center">
-                      📞 Book Now
+                    <a href="/locations/bombay-hospital" className="w-full inline-block bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+                      📞 Book Premium Service
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-amber-100 to-amber-200 backdrop-blur-md rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-4 border border-amber-300/60 transform hover:-translate-y-1 h-48 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-amber-100 to-amber-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-amber-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
                     <div className="text-center">
-                      <div className="text-3xl mb-2">🌳</div>
-                      <h3 className="text-lg font-bold text-amber-800 mb-1">Ring Road</h3>
-                      <p className="text-xs text-gray-700 leading-tight">Well-connected area</p>
+                      <div className="text-6xl mb-4">🌳</div>
+                      <h3 className="text-2xl font-bold text-amber-800 mb-3">Ring Road</h3>
+                      <p className="text-sm text-gray-700 leading-relaxed">Well-connected area with easy access</p>
                     </div>
-                    <a href="/locations/ring-road" className="w-full inline-block bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-3 py-2 rounded-lg font-bold text-xs transition-all duration-300 transform hover:scale-105 shadow-md text-center">
-                      📞 Book Now
+                    <a href="/locations/ring-road" className="w-full inline-block bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+                      📞 Book Premium Service
                     </a>
                   </div>
                   
@@ -497,127 +505,6 @@ export default function Home() {
             </div>
           </section>
         </main>
-
-        <footer className="bg-gray-900 text-white py-16">
-          <div className="max-w-7xl mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-              {/* Company Info */}
-              <div>
-                <h3 className="text-2xl font-bold text-pink-400 mb-4">✨ Indore Premium Escort Service</h3>
-                <p className="text-gray-300 mb-4 leading-relaxed">
-                  India's most trusted premium escort service provider offering verified companions, VIP call girls, and professional escort services across all major locations in Indore with complete discretion and satisfaction guarantee.
-                </p>
-                <div className="flex flex-col gap-3">
-                  <a href="tel:+919372662471" className="bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center">
-                    📞 Call Now
-                  </a>
-                  <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-6 py-3 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center">
-                    💬 WhatsApp
-                  </a>
-                </div>
-              </div>
-              
-              {/* Services */}
-              <div>
-                <h3 className="text-xl font-bold text-pink-400 mb-4">🌟 Our Services</h3>
-                <div className="space-y-2">
-                  <a href="#services" className="block text-gray-300 hover:text-pink-400 transition-colors">💎 Celebrity Escorts</a>
-                  <a href="#services" className="block text-gray-300 hover:text-pink-400 transition-colors">👑 VIP Companions</a>
-                  <a href="#services" className="block text-gray-300 hover:text-pink-400 transition-colors">✨ Premium Models</a>
-                  <a href="#services" className="block text-gray-300 hover:text-pink-400 transition-colors">🎓 College Girls</a>
-                  <a href="#services" className="block text-gray-300 hover:text-pink-400 transition-colors">🏠 Housewife Escorts</a>
-                  <a href="#services" className="block text-gray-300 hover:text-pink-400 transition-colors">👸 Punjabi Women</a>
-                </div>
-              </div>
-              
-              {/* Popular Locations */}
-              <div>
-                <h3 className="text-xl font-bold text-pink-400 mb-4">📍 Popular Locations</h3>
-                <div className="space-y-2">
-                  <a href="#locations" className="block text-gray-300 hover:text-pink-400 transition-colors">🏢 Vijay Nagar</a>
-                  <a href="#locations" className="block text-gray-300 hover:text-pink-400 transition-colors">🛍️ AB Road</a>
-                  <a href="#locations" className="block text-gray-300 hover:text-pink-400 transition-colors">🌆 Palasia</a>
-                  <a href="#locations" className="block text-gray-300 hover:text-pink-400 transition-colors">🏛️ Bhawar Kuan</a>
-                  <a href="#locations" className="block text-gray-300 hover:text-pink-400 transition-colors">🏘️ Saket</a>
-                  <a href="#locations" className="block text-gray-300 hover:text-pink-400 transition-colors">💻 Scheme 78</a>
-                </div>
-              </div>
-              
-              {/* Contact Info */}
-              <div>
-                <h3 className="text-xl font-bold text-pink-400 mb-4">📞 Contact Information</h3>
-                <div className="space-y-3">
-                  <div className="flex items-center space-x-2">
-                    <span className="text-pink-400">📞</span>
-                    <a href="tel:+919372662471" className="text-gray-300 hover:text-pink-400 font-medium">+91 9372 662 471</a>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <span className="text-green-400">💬</span>
-                    <a href="https://wa.me/919372662471" className="text-gray-300 hover:text-green-400 font-medium">WhatsApp Available</a>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <span className="text-blue-400">✉️</span>
-                    <a href="mailto:contact@indoreescortservice.com" className="text-gray-300 hover:text-blue-400 font-medium">Email Us</a>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <span className="text-purple-400">📍</span>
-                    <span className="text-gray-300">All Indore Areas</span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <span className="text-yellow-400">🕒</span>
-                    <span className="text-gray-300">24/7 Available</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            {/* Bottom Section */}
-            <div className="border-t border-gray-700 mt-12 pt-8">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                {/* Service Areas */}
-                <div>
-                  <h4 className="text-lg font-bold text-pink-400 mb-4">🗺️ More Areas</h4>
-                  <p className="text-gray-300 text-sm leading-relaxed">
-                    <span className="font-semibold">Escort Services in Indore:</span> Premium companions available in Airport Road, Treasure Island, Rajwada, MG Road, Bombay Hospital, Ring Road, New Palasia, Indore GPO, Sarafa Bazaar, Khajrana, Kanadiya, and Sudama Nagar areas.
-                  </p>
-                </div>
-                
-                {/* Service Categories */}
-                <div>
-                  <h4 className="text-lg font-bold text-pink-400 mb-4">🎯 Service Categories</h4>
-                  <p className="text-gray-300 text-sm leading-relaxed">
-                    <span className="font-semibold">Professional Services:</span> VIP Escort Service, Premium Escorts, Luxury Companions, Call Girl Service, Independent Escorts, Russian Escorts, Event Companions, Travel Companions with 24/7 availability and verified profiles.
-                  </p>
-                </div>
-              </div>
-              
-              {/* Copyright */}
-              <div className="text-center mt-8 pt-6 border-t border-gray-700">
-                <div className="flex flex-wrap justify-center gap-6 mb-4 text-sm">
-                  <div className="bg-green-900/50 text-green-300 px-3 py-1 rounded-full">
-                    ✅ 24/7 Available
-                  </div>
-                  <div className="bg-blue-900/50 text-blue-300 px-3 py-1 rounded-full">
-                    ✅ 100% Verified
-                  </div>
-                  <div className="bg-purple-900/50 text-purple-300 px-3 py-1 rounded-full">
-                    ✅ Complete Discretion
-                  </div>
-                  <div className="bg-pink-900/50 text-pink-300 px-3 py-1 rounded-full">
-                    ✅ Premium Quality
-                  </div>
-                </div>
-                
-                <p className="text-gray-400 mb-2">
-                  © 2024 Indore Premium Escort Service. All rights reserved. 🏆
-                </p>
-                <p className="text-gray-500 text-sm">
-                  🔞 Professional escort services for adults only. Must be 18+ to use our services. 🔞
-                </p>
-              </div>
-            </div>
-          </div>
-        </footer>
       </div>
     </>
   )

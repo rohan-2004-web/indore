@@ -13,27 +13,27 @@ const ServiceCard = ({ service, index }: { service: any, index: number }) => {
   const serviceSlug = titleToSlug(service.title)
   
   return (
-    <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col h-full">
+    <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col h-full transform hover:scale-105">
       <div className="relative">
         <Image 
           src={service.image}
           alt={service.title}
-          width={300}
-          height={200}
-          className="w-full h-40 object-cover"
+          width={400}
+          height={300}
+          className="w-full h-60 object-cover object-top"
           loading="eager"
           priority={index < 10}
         />
       </div>
       
-      <div className="p-4 flex flex-col flex-grow">
-        <h3 className="text-sm font-bold text-gray-800 mb-2 line-clamp-2">{service.title}</h3>
-        <p className="text-xs text-gray-600 leading-relaxed mb-3 flex-grow line-clamp-2">
+      <div className="p-6 flex flex-col flex-grow">
+        <h3 className="text-lg font-bold text-gray-800 mb-3 line-clamp-2">{service.title}</h3>
+        <p className="text-sm text-gray-600 leading-relaxed mb-4 flex-grow line-clamp-3">
           {service.description}
         </p>
         <Link 
           href={`/services/${serviceSlug}`}
-          className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-3 py-2 rounded-lg font-bold text-xs transition-all duration-300 transform hover:scale-105 text-center"
+          className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-4 py-3 rounded-lg font-bold text-sm transition-all duration-300 transform hover:scale-105 text-center"
         >
           Book Now
         </Link>
@@ -167,15 +167,18 @@ export default function ServiceCards() {
   ]
 
   return (
-    <section className="py-16 bg-gradient-to-br from-gray-50 to-white">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+    <section className="py-20 bg-gradient-to-br from-pink-50 via-white to-orange-50">
+      <div className="max-w-8xl mx-auto px-6">
+        <div className="text-center mb-16">
+          <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
             Premium Escorts In Indore - Our Services
           </h2>
+          <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+            Discover our exclusive collection of premium escort services with professional companions
+          </p>
         </div>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {services.map((service, index) => (
             <ServiceCard key={service.title} service={service} index={index} />
           ))}
