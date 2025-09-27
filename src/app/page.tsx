@@ -52,41 +52,41 @@ export default function Home() {
             ]}
           />
           
-          <section className="relative py-20 bg-gradient-to-br from-pink-300/60 via-purple-200/50 to-orange-300/60 overflow-hidden">
+          <section className="relative py-20 bg-gradient-to-br from-pink-200/50 via-purple-100/30 to-orange-200/40 overflow-hidden">
             <div className="absolute inset-0 overflow-hidden">
-              <div className="absolute -top-16 -right-16 w-96 h-96 bg-gradient-to-br from-pink-400/40 to-orange-400/40 rounded-full blur-3xl animate-pulse"></div>
-              <div className="absolute -bottom-16 -left-16 w-96 h-96 bg-gradient-to-br from-purple-400/40 to-pink-400/40 rounded-full blur-3xl animate-pulse"></div>
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-gradient-to-br from-orange-300/30 to-purple-300/30 rounded-full blur-2xl"></div>
+              <div className="absolute -top-16 -right-16 w-64 h-64 bg-gradient-to-br from-pink-300/30 to-orange-300/30 rounded-full blur-3xl"></div>
+              <div className="absolute -bottom-16 -left-16 w-64 h-64 bg-gradient-to-br from-orange-300/30 to-pink-300/30 rounded-full blur-3xl"></div>
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-gradient-to-br from-pink-200/20 to-orange-200/20 rounded-full blur-2xl"></div>
             </div>
 
             <div className="max-w-7xl mx-auto px-4 relative z-10">
               <div className="text-center">
-                <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold mb-8 leading-tight">
-                  <span className="block bg-gradient-to-r from-pink-600 via-purple-600 to-orange-600 bg-clip-text text-transparent mb-2 drop-shadow-lg">
+                <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight">
+                  <span className="block bg-gradient-to-r from-pink-600 via-purple-600 to-orange-600 bg-clip-text text-transparent mb-2">
                     Premium Escort Service
                   </span>
-                  <span className="block bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 bg-clip-text text-transparent drop-shadow-lg">
+                  <span className="block bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">
                     in Indore
                   </span>
                 </h1>
-                
-                <div className="bg-gradient-to-br from-white/95 to-pink-50/90 backdrop-blur-sm rounded-3xl p-10 max-w-6xl mx-auto shadow-2xl border-4 border-pink-300/60 relative">
+
+                <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 max-w-5xl mx-auto shadow-2xl border-2 border-pink-200/50">
                   <p className="text-xl md:text-2xl text-gray-800 font-semibold leading-relaxed mb-8">
-                    Experience premium companionship with verified escorts across Indore. Professional VIP call girls available 24/7 in all major locations.
+                    Experience premium companionship with verified escorts across Indore. Professional VIP call girls, celebrity companions, and elite services available 24/7 in Vijay Nagar, AB Road, Palasia, Bhawar Kuan, and all major locations with guaranteed satisfaction and complete discretion.
                   </p>
-                  
+
                   <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-                    <a 
-                      href="tel:+919372662471" 
-                      className="bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-12 py-6 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
+                    <a
+                      href="tel:+919372662471"
+                      className="bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-10 py-5 rounded-2xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl border-2 border-pink-300/50 flex items-center gap-3"
                     >
-                       Call: +91 9372 662 471
+                      ☎️ Call: +91 9372 662 471
                     </a>
-                    <a 
-                      href="https://wa.me/919372662471" 
-                      className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-12 py-6 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
+                    <a
+                      href="https://wa.me/919372662471"
+                      className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-10 py-5 rounded-2xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl border-2 border-green-300/50 flex items-center gap-3"
                     >
-                       WhatsApp Chat
+                      📱 WhatsApp Chat
                     </a>
                   </div>
                 </div>
