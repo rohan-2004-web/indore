@@ -2,67 +2,42 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const ServiceCard = ({ service, index }: { service: any, index: number }) => {
-  const gradientColors = [
-    'from-pink-500 to-pink-600',
-    'from-blue-500 to-blue-600', 
-    'from-purple-500 to-purple-600',
-    'from-orange-500 to-orange-600',
-    'from-green-500 to-green-600',
-    'from-red-500 to-red-600',
-    'from-indigo-500 to-indigo-600',
-    'from-yellow-500 to-yellow-600',
-    'from-cyan-500 to-cyan-600',
-    'from-rose-500 to-rose-600'
-  ]
-
-  const borderColors = [
-    'border-pink-100/50',
-    'border-blue-100/50',
-    'border-purple-100/50', 
-    'border-orange-100/50',
-    'border-green-100/50',
-    'border-red-100/50',
-    'border-indigo-100/50',
-    'border-yellow-100/50',
-    'border-cyan-100/50',
-    'border-rose-100/50'
-  ]
-
-  const gradient = gradientColors[index % gradientColors.length]
-  const borderColor = borderColors[index % borderColors.length]
-
   return (
-    <div className={`bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-8 border ${borderColor} transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col text-center`}>
-      <div className="w-full h-80 mb-6 rounded-2xl overflow-hidden shadow-lg bg-gradient-to-br from-pink-50 via-white to-blue-50 p-2">
+    <div className="bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 overflow-hidden">
+      <div className="relative">
         <Image 
           src={service.image}
           alt={service.title}
           width={400}
-          height={320}
-          className="w-full h-full object-cover hover:scale-105 transition-transform duration-300 rounded-xl"
+          height={300}
+          className="w-full h-64 object-cover"
           style={{ objectPosition: 'center top' }}
           loading="eager"
-          priority={index < 4}
+          priority={index < 6}
         />
+        <div className="absolute top-4 left-4">
+          <span className="bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-bold text-gray-800">
+            {service.icon}
+          </span>
+        </div>
+        <div className="absolute top-4 right-4">
+          <span className="bg-pink-600/90 backdrop-blur-sm text-white px-3 py-1 rounded-full text-xs font-bold uppercase">
+            {service.category}
+          </span>
+        </div>
       </div>
       
-      <div className="flex-1 flex flex-col justify-between">
-        <div className="flex items-center gap-3 mb-4">
-          <span className="text-3xl">{service.icon}</span>
-          <h3 className="text-xl font-bold text-gray-800">{service.title}</h3>
-        </div>
-        
-        <p className="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
+      <div className="p-6">
+        <h3 className="text-xl font-bold text-gray-800 mb-2">{service.title}</h3>
+        <div className="text-pink-600 font-semibold text-sm mb-3 uppercase tracking-wide">
           {service.category}
-        </p>
-        
-        <p className="text-gray-600 mb-6 text-base leading-relaxed">
+        </div>
+        <p className="text-gray-600 text-sm leading-relaxed mb-4">
           {service.description}
         </p>
-        
         <Link 
-          href={service.link || `/services/${service.title.toLowerCase().replace(/\s+/g, '-')}`}
-          className={`inline-block bg-gradient-to-r ${gradient} text-white px-6 py-3 rounded-2xl font-bold text-sm hover:scale-105 transition-transform shadow-xl`}
+          href={`tel:+919372662471`}
+          className="inline-block bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-6 py-3 rounded-full font-bold text-sm transition-all duration-300 transform hover:scale-105"
         >
           Book Now • {service.subtitle}
         </Link>
@@ -79,8 +54,7 @@ export default function ServiceCards() {
       description: "Experience celebrity-level companions with exceptional elegance and sophistication. Premium service guaranteed.",
       image: "/images/services/Celebrity Escorts.webp",
       icon: "⭐",
-      category: "CELEBRITY",
-      link: "/services/celebrity-escorts"
+      category: "CELEBRITY"
     },
     {
       title: "VIP Escorts", 
@@ -88,8 +62,7 @@ export default function ServiceCards() {
       description: "Our most exclusive VIP escorts offer the ultimate in luxury and sophistication for discerning clients.",
       image: "/images/services/VIP Escorts.jpg",
       icon: "💫",
-      category: "VIP",
-      link: "/services/vip-escorts"
+      category: "VIP"
     },
     {
       title: "College Girls",
@@ -97,8 +70,7 @@ export default function ServiceCards() {
       description: "Beautiful young companions with vibrant energy and charming personalities for memorable experiences.",
       image: "/images/services/College Girls.webp",
       icon: "💎",
-      category: "YOUNG",
-      link: "/services/college-girls"
+      category: "YOUNG"
     },
     {
       title: "Premium Models",
@@ -106,8 +78,7 @@ export default function ServiceCards() {
       description: "Stunning high-class models with runway experience and sophisticated charm for premium service.",
       image: "/images/services/Premium Models.jpg",
       icon: "👑",
-      category: "MODEL",
-      link: "/services/premium-models"
+      category: "MODEL"
     },
     {
       title: "Russian Escorts",
@@ -115,8 +86,7 @@ export default function ServiceCards() {
       description: "Exotic Russian companions with international appeal and sophisticated European elegance.",
       image: "/images/services/Russian Escorts.jpg",
       icon: "🌍",
-      category: "INTERNATIONAL",
-      link: "/services/russian-escort"
+      category: "INTERNATIONAL"
     },
     {
       title: "Housewife Escorts",
@@ -124,8 +94,7 @@ export default function ServiceCards() {
       description: "Experienced mature companions with caring nature and understanding approach to companionship.",
       image: "/images/services/Housewife Escorts.jpg",
       icon: "💖",
-      category: "MATURE",
-      link: "/services/housewife-escorts"
+      category: "MATURE"
     },
     {
       title: "High Class Models",
@@ -133,8 +102,7 @@ export default function ServiceCards() {
       description: "Professional models with runway experience and high-fashion sophistication for elite clientele.",
       image: "/images/services/High Class Models.webp",
       icon: "💃",
-      category: "ELITE",
-      link: "/services/high-class-models"
+      category: "ELITE"
     },
     {
       title: "Event Companions",
@@ -142,80 +110,7 @@ export default function ServiceCards() {
       description: "Professional companions for business events, parties, and social gatherings with perfect etiquette.",
       image: "/images/services/Event Companion.webp",
       icon: "🎭",
-      category: "PROFESSIONAL",
-      link: "/services/event-companion"
-    },
-    {
-      title: "Dinner Dates",
-      subtitle: "Romantic Evening",
-      description: "Elegant companions for romantic dinner dates and fine dining experiences with sophistication.",
-      image: "/images/services/Dinner Dates.webp",
-      icon: "🍷",
-      category: "ROMANTIC",
-      link: "/services/dinner-dates"
-    },
-    {
-      title: "Travel Companions", 
-      subtitle: "Adventure Partners",
-      description: "Perfect travel partners for business trips, vacations, or weekend getaways with engaging conversation.",
-      image: "/images/services/Travel Companions.webp",
-      icon: "✈️",
-      category: "TRAVEL",
-      link: "/services/travel-companions"
-    },
-    {
-      title: "Punjabi Women",
-      subtitle: "Traditional Beauty",
-      description: "Authentic Punjabi companions with traditional charm and modern sophistication combined perfectly.",
-      image: "/images/services/Punjabi women.webp",
-      icon: "🌟",
-      category: "TRADITIONAL",
-      link: "/services/punjabi-women"
-    },
-    {
-      title: "Call Girl Service",
-      subtitle: "Professional",
-      description: "Professional call girl services with verified companions available 24/7 across all Indore locations.",
-      image: "/images/services/Call Girls.jpg",
-      icon: "📞",
-      category: "PROFESSIONAL",
-      link: "/services/call-girl"
-    },
-    {
-      title: "Independent Escorts",
-      subtitle: "Self-Employed",
-      description: "Independent escorts offering personalized service with direct booking and complete privacy assured.",
-      image: "/images/services/Independent Escorts.jpg",
-      icon: "🔮",
-      category: "INDEPENDENT",
-      link: "/services/independent-escort"
-    },
-    {
-      title: "Luxury Escorts",
-      subtitle: "Elite Experience",
-      description: "Luxury escort services with sophisticated companions for an elite experience beyond expectations.",
-      image: "/images/services/Luxury Escorts.jpg",
-      icon: "💍",
-      category: "LUXURY",
-      link: "/services/luxury-escort"
-    },
-    {
-      title: "Outcall Service",
-      subtitle: "Your Location",
-      description: "Professional outcall service to your hotel, home, or preferred location with complete discretion.",
-      image: "/images/services/Outcall Service.webp",
-      icon: "🏨",
-      category: "OUTCALL",
-      link: "/services/outcall-service"
-    },
-    {
-      title: "Bold Girls",
-      subtitle: "Confident",
-      description: "Bold and confident companions ready for exciting adventures and unforgettable experiences.",
-      image: "/images/services/bold girls.webp",
-      icon: "🔥",
-      category: "BOLD",
-      link: "/services/bold-girls"
+      category: "PROFESSIONAL"
     },
     {
       title: "Sexy Girls",
@@ -223,8 +118,31 @@ export default function ServiceCards() {
       description: "Incredibly attractive companions with mesmerizing charm and irresistible appeal for perfect companionship.",
       image: "/images/services/sexy girls.webp",
       icon: "💋",
-      category: "GLAMOUR",
-      link: "/services/sexy-girls"
+      category: "GLAMOUR"
+    },
+    {
+      title: "Punjabi Women",
+      subtitle: "Traditional Beauty",
+      description: "Authentic Punjabi companions with traditional charm and modern sophistication combined perfectly.",
+      image: "/images/services/Punjabi women.webp",
+      icon: "🌟",
+      category: "TRADITIONAL"
+    },
+    {
+      title: "Bold Girls",
+      subtitle: "Confident",
+      description: "Bold and confident companions ready for exciting adventures and unforgettable experiences.",
+      image: "/images/services/bold girls.webp",
+      icon: "🔥",
+      category: "BOLD"
+    },
+    {
+      title: "Young Girls",
+      subtitle: "Energetic",
+      description: "Young and energetic companions with fresh perspectives and vibrant personalities for fun experiences.",
+      image: "/images/services/Young Girls.webp",
+      icon: "🌸",
+      category: "YOUTHFUL"
     },
     {
       title: "Expert Services",
@@ -232,67 +150,91 @@ export default function ServiceCards() {
       description: "Expert companions with specialized skills and professional experience for sophisticated clientele.",
       image: "/images/services/Expert Services.webp",
       icon: "🎯",
-      category: "EXPERT",
-      link: "/services/expert-services"
+      category: "EXPERT"
     },
     {
-      title: "Young Girls",
-      subtitle: "Energetic",
-      description: "Young and energetic companions with fresh perspectives and vibrant personalities for fun experiences.",
-      image: "/images/services/Young Girls.jpg",
-      icon: "🌸",
-      category: "YOUTHFUL",
-      link: "/services/young-girls"
+      title: "Mature Escorts",
+      subtitle: "Experienced",
+      description: "Mature and experienced companions who understand the art of sophisticated companionship and conversation.",
+      image: "/images/services/Mature Escorts.webp",
+      icon: "🍷",
+      category: "MATURE"
     },
     {
-      title: "Premium Companions",
-      subtitle: "Elite Service",
-      description: "Exclusive premium companions for discerning clients who demand the finest in escort services.",
-      image: "/images/services/Premium Companions.webp",
-      icon: "👑",
-      category: "PREMIUM",
-      link: "/services/premium-companions"
+      title: "Local Beauties",
+      subtitle: "Regional Charm",
+      description: "Beautiful local companions with regional charm and cultural understanding of Indore traditions.",
+      image: "/images/services/Local Beauties.webp",
+      icon: "🌺",
+      category: "LOCAL"
+    },
+    {
+      title: "Slim Escorts",
+      subtitle: "Elegant Figure",
+      description: "Elegantly slim companions with perfect figures and graceful personalities for refined experiences.",
+      image: "/images/services/Slim Escorts.webp",
+      icon: "👗",
+      category: "ELEGANT"
+    },
+    {
+      title: "Incall Escorts",
+      subtitle: "Private Location",
+      description: "Professional incall services at premium locations with complete privacy and luxury amenities.",
+      image: "/images/services/Incall Escorts.webp",
+      icon: "🏨",
+      category: "INCALL"
+    },
+    {
+      title: "Pink Special",
+      subtitle: "Premium Experience",
+      description: "Our signature pink special service offering the ultimate premium experience with luxury amenities.",
+      image: "/images/services/Pink Special.webp",
+      icon: "💕",
+      category: "PREMIUM"
+    },
+    {
+      title: "Unsatisfied Females",
+      subtitle: "Discreet Service",
+      description: "Discreet and understanding companions for mature clients seeking meaningful connections and satisfaction.",
+      image: "/images/services/Unsatisfied Females.webp",
+      icon: "💝",
+      category: "DISCREET"
+    },
+    {
+      title: "Indore Escorts",
+      subtitle: "Local Premium",
+      description: "Premium escort services by local Indore companions who know the city and provide authentic experiences.",
+      image: "/images/services/indore escorts.webp",
+      icon: "🏙️",
+      category: "LOCAL PREMIUM"
     }
   ]
 
   return (
-    <section className="py-20 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70">
-      <div className="max-w-full mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-            Premium Escort Services in Indore
+    <section className="py-16 bg-gradient-to-br from-gray-50 to-white">
+      <div className="max-w-7xl mx-auto px-4">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+            Premium Escort Services in Indore - All Categories Available
           </h2>
-          <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-            Professional escort agency offering verified companions, celebrity escorts, and premium call girls across all major locations in Indore including AB Road, Palasia, Bhawar Kuan, and Vijay Nagar.
+          <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            Explore our comprehensive range of professional escort services in Indore with verified profiles, 24/7 availability, and complete privacy protection across all major Indore locations.
           </p>
         </div>
-
+        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {services.map((service, index) => (
-            <ServiceCard key={index} service={service} index={index} />
+            <ServiceCard key={service.title} service={service} index={index} />
           ))}
         </div>
-
-        {/* Call to Action */}
-        <div className="text-center mt-16">
-          <div className="bg-gradient-to-r from-pink-600 to-orange-600 rounded-3xl p-8 text-white shadow-2xl">
-            <h3 className="text-3xl font-bold mb-4">Book Your Perfect Companion Today!</h3>
-            <p className="text-xl mb-6 opacity-90">Available 24/7 • Complete Discretion • Verified Profiles</p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <a 
-                href="tel:+919372662471"
-                className="bg-white text-pink-600 px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform shadow-lg"
-              >
-                ☎️ Call +91 9372662471
-              </a>
-              <a 
-                href="https://wa.me/919372662471"
-                className="bg-green-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-transform shadow-lg"
-              >
-                � WhatsApp Now
-              </a>
-            </div>
-          </div>
+        
+        <div className="text-center mt-12">
+          <Link 
+            href="tel:+919372662471"
+            className="inline-block bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl"
+          >
+            View All Services
+          </Link>
         </div>
       </div>
     </section>

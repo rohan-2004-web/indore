@@ -52,42 +52,96 @@ export default function Home() {
             ]}
           />
           
-          <section className="relative py-20 bg-gradient-to-br from-pink-200/50 via-purple-100/30 to-orange-200/40 overflow-hidden">
-            <div className="absolute inset-0 overflow-hidden">
-              <div className="absolute -top-16 -right-16 w-64 h-64 bg-gradient-to-br from-pink-300/30 to-orange-300/30 rounded-full blur-3xl"></div>
-              <div className="absolute -bottom-16 -left-16 w-64 h-64 bg-gradient-to-br from-orange-300/30 to-pink-300/30 rounded-full blur-3xl"></div>
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-gradient-to-br from-pink-200/20 to-orange-200/20 rounded-full blur-2xl"></div>
-            </div>
-
+          <section className="relative py-16 bg-gradient-to-br from-gray-900 via-purple-900 to-pink-900 overflow-hidden">
+            <div className="absolute inset-0 bg-black/20"></div>
+            
             <div className="max-w-7xl mx-auto px-4 relative z-10">
               <div className="text-center">
-                <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight">
-                  <span className="block bg-gradient-to-r from-pink-600 via-purple-600 to-orange-600 bg-clip-text text-transparent mb-2">
-                    Premium Escort Service
-                  </span>
-                  <span className="block bg-gradient-to-r from-orange-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">
-                    in Indore
-                  </span>
+                {/* Main Heading */}
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 text-white leading-tight">
+                  Escorts in Indore - Premium VIP Services
                 </h1>
-
-                <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 max-w-5xl mx-auto shadow-2xl border-2 border-pink-200/50">
-                  <p className="text-xl md:text-2xl text-gray-800 font-semibold leading-relaxed mb-8">
-                    Experience premium companionship with verified escorts across Indore. Professional VIP call girls, celebrity companions, and elite services available 24/7 in Vijay Nagar, AB Road, Palasia, Bhawar Kuan, and all major locations with guaranteed satisfaction and complete discretion.
+                
+                {/* Subheading with badges */}
+                <div className="mb-8">
+                  <h2 className="text-xl md:text-2xl text-pink-300 font-bold mb-6">
+                    🌟 #1 Verified Escorts in Indore | 24/7 Professional Services | Safe & Discreet
+                  </h2>
+                  
+                  <p className="text-lg md:text-xl text-white/90 leading-relaxed max-w-4xl mx-auto mb-8">
+                    Book premium escorts in Indore with verified profiles, professional service, and complete privacy. 
+                    Our elite escorts in Indore are available 24/7 for outcall services across all major Indore locations 
+                    including Vijay Nagar, AB Road, Palasia, Bhawar Kuan, and surrounding areas.
                   </p>
+                  
+                  {/* Feature badges */}
+                  <div className="flex flex-wrap justify-center gap-4 mb-8">
+                    <div className="bg-pink-600/80 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-semibold">
+                      ✨ 100% Verified Escorts
+                    </div>
+                    <div className="bg-purple-600/80 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-semibold">
+                      🔒 Safe & Discreet Services
+                    </div>
+                    <div className="bg-blue-600/80 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-semibold">
+                      ⚡ Instant Booking in Indore
+                    </div>
+                    <div className="bg-green-600/80 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-semibold">
+                      🎯 Premium Quality Guaranteed
+                    </div>
+                  </div>
+                </div>
 
-                  <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-                    <a
-                      href="tel:+919372662471"
-                      className="bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-10 py-5 rounded-2xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl border-2 border-pink-300/50 flex items-center gap-3"
-                    >
-                      ☎️ Call: +91 9372 662 471
-                    </a>
-                    <a
-                      href="https://wa.me/919372662471"
-                      className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-10 py-5 rounded-2xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl border-2 border-green-300/50 flex items-center gap-3"
-                    >
-                      📱 WhatsApp Chat
-                    </a>
+                {/* CTA Buttons */}
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
+                  <a
+                    href="tel:+919372662471"
+                    className="bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl flex items-center gap-3"
+                  >
+                    Call Now 24/7
+                  </a>
+                  <a
+                    href="https://wa.me/919372662471"
+                    className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl flex items-center gap-3"
+                  >
+                    WhatsApp Fast
+                  </a>
+                </div>
+                
+                {/* Stats */}
+                <div className="grid grid-cols-2 md:grid-cols-5 gap-4 max-w-4xl mx-auto text-center">
+                  <div className="text-white">
+                    <div className="text-2xl font-bold text-pink-300">5000+</div>
+                    <div className="text-sm">Verified Escorts in Indore</div>
+                  </div>
+                  <div className="text-white">
+                    <div className="text-2xl font-bold text-purple-300">100%</div>
+                    <div className="text-sm">Safe & Private Services</div>
+                  </div>
+                  <div className="text-white">
+                    <div className="text-2xl font-bold text-yellow-300">⭐ 4.9/5</div>
+                    <div className="text-sm">Client Rating (3500+ Reviews)</div>
+                  </div>
+                  <div className="text-white">
+                    <div className="text-2xl font-bold text-green-300">24/7</div>
+                    <div className="text-sm">Available Across Indore</div>
+                  </div>
+                  <div className="text-white">
+                    <div className="text-2xl font-bold text-blue-300">🏙️</div>
+                    <div className="text-sm">All Indore Areas Covered</div>
+                  </div>
+                </div>
+                
+                {/* Additional info */}
+                <div className="mt-8 text-center">
+                  <div className="flex flex-wrap justify-center gap-6 text-white/80 text-sm">
+                    <div className="flex items-center gap-2">
+                      <span>⏱️</span>
+                      <span>30-Min Quick Arrival</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span>🎯</span>
+                      <span>Premium Escorts in Indore</span>
+                    </div>
                   </div>
                 </div>
               </div>
