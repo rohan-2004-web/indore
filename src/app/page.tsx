@@ -225,7 +225,7 @@ export default function Home() {
                   Premium Escort Services Available In All Major Indore Areas
                 </h2>
                 <p className="text-2xl text-gray-700 max-w-7xl mx-auto leading-relaxed font-semibold">
-                  Professional escort services available across 15+ prime locations in Indore with guaranteed satisfaction and instant response
+                  Professional escort services available across 18+ prime locations in Indore with guaranteed satisfaction and instant response
                 </p>
               </div>
 
@@ -361,6 +361,72 @@ export default function Home() {
                       <p className="text-sm text-gray-700 leading-relaxed">Well-connected area with easy access</p>
                     </div>
                     <a href="/locations/ring-road" className="w-full inline-block bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+                      📞 Book Premium Service
+                    </a>
+                  </div>
+                  
+                  <div className="group bg-gradient-to-br from-lime-100 to-lime-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-lime-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
+                    <div className="text-center">
+                      <div className="text-6xl mb-4">📮</div>
+                      <h3 className="text-2xl font-bold text-lime-800 mb-3">Indore GPO</h3>
+                      <p className="text-sm text-gray-700 leading-relaxed">Central post office area with good connectivity</p>
+                    </div>
+                    <a href="/locations/indore-gpo" className="w-full inline-block bg-gradient-to-r from-lime-500 to-lime-600 hover:from-lime-600 hover:to-lime-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+                      📞 Book Premium Service
+                    </a>
+                  </div>
+                  
+                  <div className="group bg-gradient-to-br from-sky-100 to-sky-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-sky-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
+                    <div className="text-center">
+                      <div className="text-6xl mb-4">🏞️</div>
+                      <h3 className="text-2xl font-bold text-sky-800 mb-3">Kanadiya</h3>
+                      <p className="text-sm text-gray-700 leading-relaxed">Suburban area with peaceful environment</p>
+                    </div>
+                    <a href="/locations/kanadiya" className="w-full inline-block bg-gradient-to-r from-sky-500 to-sky-600 hover:from-sky-600 hover:to-sky-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+                      📞 Book Premium Service
+                    </a>
+                  </div>
+                  
+                  <div className="group bg-gradient-to-br from-yellow-100 to-yellow-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-yellow-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
+                    <div className="text-center">
+                      <div className="text-6xl mb-4">🕌</div>
+                      <h3 className="text-2xl font-bold text-yellow-800 mb-3">Khajrana</h3>
+                      <p className="text-sm text-gray-700 leading-relaxed">Religious area with cultural heritage</p>
+                    </div>
+                    <a href="/locations/khajrana" className="w-full inline-block bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+                      📞 Book Premium Service
+                    </a>
+                  </div>
+                  
+                  <div className="group bg-gradient-to-br from-red-100 to-red-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-red-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
+                    <div className="text-center">
+                      <div className="text-6xl mb-4">🌾</div>
+                      <h3 className="text-2xl font-bold text-red-800 mb-3">Rau</h3>
+                      <p className="text-sm text-gray-700 leading-relaxed">Outskirts area with developing infrastructure</p>
+                    </div>
+                    <a href="/locations/rau" className="w-full inline-block bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+                      📞 Book Premium Service
+                    </a>
+                  </div>
+                  
+                  <div className="group bg-gradient-to-br from-fuchsia-100 to-fuchsia-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-fuchsia-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
+                    <div className="text-center">
+                      <div className="text-6xl mb-4">🛒</div>
+                      <h3 className="text-2xl font-bold text-fuchsia-800 mb-3">Sarafa Bazaar</h3>
+                      <p className="text-sm text-gray-700 leading-relaxed">Famous market area with food street</p>
+                    </div>
+                    <a href="/locations/sarafa-bazaar" className="w-full inline-block bg-gradient-to-r from-fuchsia-500 to-fuchsia-600 hover:from-fuchsia-600 hover:to-fuchsia-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
+                      📞 Book Premium Service
+                    </a>
+                  </div>
+                  
+                  <div className="group bg-gradient-to-br from-slate-100 to-slate-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-slate-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
+                    <div className="text-center">
+                      <div className="text-6xl mb-4">🏘️</div>
+                      <h3 className="text-2xl font-bold text-slate-800 mb-3">Sudama Nagar</h3>
+                      <p className="text-sm text-gray-700 leading-relaxed">Residential colony with good amenities</p>
+                    </div>
+                    <a href="/locations/sudama-nagar" className="w-full inline-block bg-gradient-to-r from-slate-500 to-slate-600 hover:from-slate-600 hover:to-slate-700 text-white px-6 py-4 rounded-xl font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
                       📞 Book Premium Service
                     </a>
                   </div>
