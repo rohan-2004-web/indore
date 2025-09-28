@@ -1,3 +1,62 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Performance optimizations */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Reduce paint complexity */
+* {
+  box-sizing: border-box;
+}
+
+/* Optimize font rendering */
+body {
+  font-display: swap;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeSpeed;
+}
+
+/* Optimize animations */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Optimize images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Optimize transforms for GPU acceleration */
+.transform {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* Critical CSS for above-the-fold content */
+.hero-section {
+  contain: layout style paint;
+}
+
+/* Reduce layout thrashing */
+.grid {
+  contain: layout;
+}
+
+/* Optimize hover states */
+@media (hover: hover) and (pointer: fine) {
+  .hover\:scale-105:hover {
+    transform: scale(1.05) translateZ(0);
+  }
+}

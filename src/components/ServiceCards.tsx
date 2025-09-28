@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { memo } from 'react'
 
 // Function to convert service title to URL slug
 const titleToSlug = (title: string): string => {
@@ -9,7 +10,8 @@ const titleToSlug = (title: string): string => {
     .replace(/[^a-z0-9-]/g, '')
 }
 
-const ServiceCard = ({ service, index }: { service: any, index: number }) => {
+// Memoized ServiceCard for better performance
+const ServiceCard = memo(({ service, index }: { service: any, index: number }) => {
   const serviceSlug = titleToSlug(service.title)
   
   return (
@@ -21,8 +23,11 @@ const ServiceCard = ({ service, index }: { service: any, index: number }) => {
           width={400}
           height={300}
           className="w-full h-60 object-cover object-[center_20%]"
-          loading="eager"
-          priority={index < 10}
+          loading={index < 8 ? "eager" : "lazy"}
+          priority={index < 4}
+          placeholder="blur"
+          blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknydWzlLInTvYqr/2Q=="
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
         />
       </div>
       
@@ -42,7 +47,11 @@ const ServiceCard = ({ service, index }: { service: any, index: number }) => {
   )
 }
 
-export default function ServiceCards() {
+// Add display name for better debugging
+ServiceCard.displayName = 'ServiceCard'
+
+// Memoized main component
+const ServiceCards = memo(() => {
   const services = [
     {
       title: "Celebrity Escorts",
@@ -186,4 +195,9 @@ export default function ServiceCards() {
       </div>
     </section>
   )
-}
+})
+
+// Add display name for better debugging
+ServiceCards.displayName = 'ServiceCards'
+
+export default ServiceCards

@@ -1,11 +1,21 @@
 'use client'
 
 import { useState } from 'react'
+import dynamic from 'next/dynamic'
 import Header from '@/components/Header'
 import { SEOOptimizedContent } from '@/components/SEOContent'
 import InternalLinks from '@/components/InternalLinks'
 import Breadcrumb from '@/components/Breadcrumb'
-import ServiceCards from '@/components/ServiceCards'
+
+// Lazy load heavy components for better performance
+const ServiceCards = dynamic(() => import('@/components/ServiceCards'), {
+  loading: () => (
+    <div className="animate-pulse">
+      <div className="h-96 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70 rounded-3xl"></div>
+    </div>
+  ),
+  ssr: false // Load on client side for faster initial render
+})
 
 export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -548,6 +558,8 @@ export default function Home() {
                       style={{border: 0}} 
                       allowFullScreen={true}
                       loading="lazy" 
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="Indore Location Map" 
                       referrerPolicy="no-referrer-when-downgrade"
                       className="rounded-xl"
                     ></iframe>

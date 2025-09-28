@@ -6,8 +6,14 @@ import CriticalCSS from "@/components/CriticalCSS";
 import { PerformanceMonitor } from "@/hooks/usePerformanceMonitor";
 import { FastIndexingSchemas } from "@/components/FastIndexingSchemas";
 import InternalLinkingFooter from "@/components/InternalLinkingFooter";
+import { Suspense } from "react";
 
-const inter = Inter({ subsets: ["latin"] });
+// Optimize font loading with display swap for better performance
+const inter = Inter({ 
+  subsets: ["latin"],
+  display: 'swap',
+  preload: true
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://saumyakapoor.in'),
@@ -226,7 +232,9 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="dns-prefetch" href="//fonts.gstatic.com" />
         <link rel="dns-prefetch" href="//wa.me" />
+        <link rel="dns-prefetch" href="//maps.googleapis.com" />
         <link rel="preload" href="/images/services" as="fetch" crossOrigin="anonymous" />
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="theme-color" content="#ec4899" />
