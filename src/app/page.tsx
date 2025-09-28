@@ -560,7 +560,6 @@ export default function Home() {
                       loading="lazy" 
                       referrerPolicy="no-referrer-when-downgrade"
                       title="Indore Location Map" 
-                      referrerPolicy="no-referrer-when-downgrade"
                       className="rounded-xl"
                     ></iframe>
                   </div>

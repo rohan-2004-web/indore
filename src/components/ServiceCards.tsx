@@ -45,7 +45,7 @@ const ServiceCard = memo(({ service, index }: { service: any, index: number }) =
       </div>
     </div>
   )
-}
+})
 
 // Add display name for better debugging
 ServiceCard.displayName = 'ServiceCard'
