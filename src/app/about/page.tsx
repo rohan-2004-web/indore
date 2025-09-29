@@ -180,12 +180,9 @@ export default function AboutPage() {
             <span className="text-3xl">✨</span>
           </div>
 
-          <h1 className="text-3xl md:text-5xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
-            About Our
-            <br />
-            <span className="text-6xl md:text-8xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
-              Premium Service
-            </span>
+          <h1 className="text-3xl md:text-5xl font-black bg-gradient-to-r from-pink-600 via-blue-400 to-pink-400 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
+            Welcome to <span className="text-pink-700">Indore's</span> Most Trusted<br />
+            <span className="text-4xl md:text-6xl bg-gradient-to-r from-pink-500 via-blue-400 to-pink-400 bg-clip-text text-transparent font-extrabold">Premium Escort Service</span>
           </h1>
 
           <div className="max-w-5xl mx-auto mb-12">
