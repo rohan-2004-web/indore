@@ -403,12 +403,12 @@ export default function ContactPage() {
                   Fill out this colorful form and we'll contact you instantly via WhatsApp for immediate booking confirmation! 🌈
                 </p>
 
-              <div className="bg-gradient-to-br from-white/95 via-purple-50/90 to-pink-50/95 backdrop-blur-lg rounded-3xl shadow-2xl border-4 border-gradient-to-r from-pink-300 to-purple-300 p-6 md:p-8">
-                <form onSubmit={handleSubmit} className="space-y-6">
+              <div className="bg-gradient-to-br from-white/95 via-purple-50/90 to-pink-50/95 backdrop-blur-lg rounded-2xl shadow-xl border-2 border-gradient-to-r from-pink-300 to-purple-300 p-3 md:p-4">
+                <form onSubmit={handleSubmit} className="space-y-4">
                   {/* Name and Phone */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     <div className="relative">
-                      <label className="block text-lg font-black text-transparent bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text mb-2">
+                      <label className="block text-base font-bold text-transparent bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text mb-1">
                         🧑 Full Name *
                       </label>
                       <input
@@ -417,7 +417,7 @@ export default function ContactPage() {
                         value={formData.name}
                         onChange={handleChange}
                         required
-                        className="w-full px-6 py-4 border-2 border-blue-300 rounded-xl focus:border-blue-500 focus:outline-none text-base font-bold text-gray-700 bg-gradient-to-r from-blue-50 to-cyan-50 shadow-md transform focus:scale-105 transition-all duration-300"
+                        className="w-full px-3 py-2 border-2 border-blue-300 rounded-lg focus:border-blue-500 focus:outline-none text-sm font-bold text-gray-700 bg-gradient-to-r from-blue-50 to-cyan-50 shadow-md transform focus:scale-105 transition-all duration-300"
                         placeholder="Enter your full name"
                       />
                       <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center">
@@ -425,7 +425,7 @@ export default function ContactPage() {
                       </div>
                     </div>
                     <div className="relative">
-                      <label className="block text-lg font-black text-transparent bg-gradient-to-r from-green-600 to-teal-600 bg-clip-text mb-2">
+                      <label className="block text-base font-bold text-transparent bg-gradient-to-r from-green-600 to-teal-600 bg-clip-text mb-1">
                         📱 Phone Number *
                       </label>
                       <input
@@ -434,7 +434,7 @@ export default function ContactPage() {
                         value={formData.phone}
                         onChange={handleChange}
                         required
-                        className="w-full px-6 py-4 border-2 border-green-300 rounded-xl focus:border-green-500 focus:outline-none text-base font-bold text-gray-700 bg-gradient-to-r from-green-50 to-teal-50 shadow-md transform focus:scale-105 transition-all duration-300"
+                        className="w-full px-3 py-2 border-2 border-green-300 rounded-lg focus:border-green-500 focus:outline-none text-sm font-bold text-gray-700 bg-gradient-to-r from-green-50 to-teal-50 shadow-md transform focus:scale-105 transition-all duration-300"
                         placeholder="+91 XXXXX XXXXX"
                       />
                       <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-br from-green-500 to-teal-500 rounded-full flex items-center justify-center">
@@ -445,7 +445,7 @@ export default function ContactPage() {
 
                   {/* Email */}
                   <div className="relative">
-                    <label className="block text-lg font-black text-transparent bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text mb-2">
+                    <label className="block text-base font-bold text-transparent bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text mb-1">
                       ✉️ Email Address
                     </label>
                     <input
@@ -453,7 +453,7 @@ export default function ContactPage() {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full px-6 py-4 border-2 border-purple-300 rounded-xl focus:border-purple-500 focus:outline-none text-base font-bold text-gray-700 bg-gradient-to-r from-purple-50 to-pink-50 shadow-md transform focus:scale-105 transition-all duration-300"
+                      className="w-full px-3 py-2 border-2 border-purple-300 rounded-lg focus:border-purple-500 focus:outline-none text-sm font-bold text-gray-700 bg-gradient-to-r from-purple-50 to-pink-50 shadow-md transform focus:scale-105 transition-all duration-300"
                       placeholder="your.email@example.com"
                     />
                     <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center">
@@ -462,9 +462,9 @@ export default function ContactPage() {
                   </div>
 
                   {/* Service and Location */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     <div className="relative">
-                      <label className="block text-lg font-black text-transparent bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text mb-2">
+                      <label className="block text-base font-bold text-transparent bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text mb-1">
                         🌟 Preferred Service *
                       </label>
                       <select
@@ -472,7 +472,7 @@ export default function ContactPage() {
                         value={formData.service}
                         onChange={handleChange}
                         required
-                        className="w-full px-6 py-4 border-2 border-orange-300 rounded-xl focus:border-orange-500 focus:outline-none text-base font-bold text-gray-700 bg-gradient-to-r from-orange-50 to-red-50 shadow-md transform focus:scale-105 transition-all duration-300"
+                        className="w-full px-3 py-2 border-2 border-orange-300 rounded-lg focus:border-orange-500 focus:outline-none text-sm font-bold text-gray-700 bg-gradient-to-r from-orange-50 to-red-50 shadow-md transform focus:scale-105 transition-all duration-300"
                       >
                         <option value="">🎭 Select a service</option>
                         {services.map((service) => (
@@ -484,7 +484,7 @@ export default function ContactPage() {
                       </div>
                     </div>
                     <div className="relative">
-                      <label className="block text-lg font-black text-transparent bg-gradient-to-r from-pink-600 to-rose-600 bg-clip-text mb-2">
+                      <label className="block text-base font-bold text-transparent bg-gradient-to-r from-pink-600 to-rose-600 bg-clip-text mb-1">
                         📍 Location *
                       </label>
                       <select
@@ -492,7 +492,7 @@ export default function ContactPage() {
                         value={formData.location}
                         onChange={handleChange}
                         required
-                        className="w-full px-6 py-4 border-2 border-pink-300 rounded-xl focus:border-pink-500 focus:outline-none text-base font-bold text-gray-700 bg-gradient-to-r from-pink-50 to-rose-50 shadow-md transform focus:scale-105 transition-all duration-300"
+                        className="w-full px-3 py-2 border-2 border-pink-300 rounded-lg focus:border-pink-500 focus:outline-none text-sm font-bold text-gray-700 bg-gradient-to-r from-pink-50 to-rose-50 shadow-md transform focus:scale-105 transition-all duration-300"
                       >
                         <option value="">🏙️ Select location</option>
                         {locations.map((location) => (
@@ -507,15 +507,15 @@ export default function ContactPage() {
 
                   {/* Message */}
                   <div className="relative">
-                    <label className="block text-lg font-black text-transparent bg-gradient-to-r from-cyan-600 to-blue-600 bg-clip-text mb-2">
+                    <label className="block text-base font-bold text-transparent bg-gradient-to-r from-cyan-600 to-blue-600 bg-clip-text mb-1">
                       💭 Additional Message
                     </label>
                     <textarea
                       name="message"
                       value={formData.message}
                       onChange={handleChange}
-                      rows={4}
-                      className="w-full px-6 py-4 border-2 border-cyan-300 rounded-xl focus:border-cyan-500 focus:outline-none text-base font-bold text-gray-700 bg-gradient-to-r from-cyan-50 to-blue-50 shadow-md transform focus:scale-105 transition-all duration-300 resize-vertical"
+                      rows={3}
+                      className="w-full px-3 py-2 border-2 border-cyan-300 rounded-lg focus:border-cyan-500 focus:outline-none text-sm font-bold text-gray-700 bg-gradient-to-r from-cyan-50 to-blue-50 shadow-md transform focus:scale-105 transition-all duration-300 resize-vertical"
                       placeholder="Any specific requirements or questions..."
                     />
                     <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-full flex items-center justify-center">
@@ -524,19 +524,19 @@ export default function ContactPage() {
                   </div>
 
                   {/* Submit Button */}
-                  <div className="text-center pt-8">
+                  <div className="text-center pt-4">
                     <button
                       type="submit"
-                      className="group bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 hover:from-purple-700 hover:via-pink-700 hover:to-red-700 text-white px-20 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 hover:rotate-2 shadow-2xl hover:shadow-purple-500/50 relative overflow-hidden"
+                      className="group bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 hover:from-purple-700 hover:via-pink-700 hover:to-red-700 text-white px-8 py-3 rounded-full font-black text-base transition-all duration-500 transform hover:scale-105 hover:rotate-2 shadow-xl hover:shadow-purple-500/50 relative overflow-hidden"
                     >
                       <span className="relative z-10 flex items-center justify-center">
-                        <span className="mr-4 text-3xl animate-bounce">📱</span>
+                        <span className="mr-2 text-xl animate-bounce">📱</span>
                         Send via WhatsApp
-                        <span className="ml-4 text-3xl group-hover:animate-ping">🚀</span>
+                        <span className="ml-2 text-xl group-hover:animate-ping">🚀</span>
                       </span>
                       <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 opacity-0 group-hover:opacity-30 transition-opacity duration-500"></div>
                     </button>
-                    <p className="text-gray-600 mt-6 text-lg font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                    <p className="text-gray-600 mt-3 text-base font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
                       ✨ This form will open WhatsApp with your message pre-filled ✨
                     </p>
                   </div>
