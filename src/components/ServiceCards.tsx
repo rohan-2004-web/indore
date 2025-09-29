@@ -16,13 +16,13 @@ const ServiceCard = memo(({ service, index }: { service: any, index: number }) =
   
   return (
     <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col h-full transform hover:scale-105">
-      <div className="relative">
+      <div className="relative flex items-center justify-center h-80 bg-gradient-to-br from-pink-50 to-pink-100">
         <Image 
           src={service.image}
           alt={service.title}
           width={400}
-          height={300}
-          className="w-full h-60 object-cover object-[center_20%]"
+          height={320}
+          className="w-auto h-full object-contain mx-auto"
           loading={index < 8 ? "eager" : "lazy"}
           priority={index < 4}
           placeholder="blur"

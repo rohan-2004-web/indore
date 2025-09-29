@@ -68,7 +68,7 @@ export default function LocationsPage() {
         <div className="relative w-full px-4">
           <div className="max-w-6xl mx-auto text-center">
             <div className="bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-lg rounded-3xl shadow-2xl border-2 border-pink-300/50 p-12 mb-8">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent drop-shadow-lg">
+              <h1 className="text-2xl md:text-4xl font-bold mb-6 bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent drop-shadow-lg">
                 🌟 Contact & Locations 🌟
               </h1>
               <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border-2 border-orange-300/50 shadow-lg">

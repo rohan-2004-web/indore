@@ -1,0 +1,27 @@
+User-Agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+Crawl-delay: 1
+
+User-Agent: Googlebot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+User-Agent: Bingbot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Crawl-delay: 1
+
+User-Agent: *
+Allow: /locations/
+
+User-Agent: *
+Allow: /services/
+
+Host: https://saumyakapoor.in
+Sitemap: https://saumyakapoor.in/sitemap.xml
