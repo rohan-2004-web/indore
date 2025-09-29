@@ -59,13 +59,12 @@ export default function ContactPage() {
   return (
     <>
       <Header />
-      <div className="min-h-screen bg-gradient-to-br from-pink-200/60 via-orange-100/50 to-pink-300/60">
+  <div className="min-h-screen bg-gradient-to-br from-pink-100 via-pink-200 to-pink-50">
         
         {/* Hero Section */}
-        <section className="pt-32 pb-20 relative overflow-hidden">
+  <section className="pt-24 pb-14 relative overflow-hidden">
           <div className="absolute inset-0">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 opacity-90"></div>
-            <div className="absolute inset-0 bg-gradient-to-br from-yellow-400/20 via-orange-400/30 to-red-500/20"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-pink-200 via-pink-100 to-pink-50 opacity-95"></div>
           </div>
           
           {/* Animated Background Elements */}
@@ -88,14 +87,14 @@ export default function ContactPage() {
               </div>
             </div>
             
-            <h1 className="text-7xl md:text-9xl font-black bg-gradient-to-r from-yellow-300 via-pink-300 to-cyan-300 bg-clip-text text-transparent mb-8 leading-tight">
+            <h1 className="text-3xl md:text-5xl font-black bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 bg-clip-text text-transparent mb-6 leading-tight">
               Contact Us
             </h1>
             <div className="relative mb-8">
-              <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              <h2 className="text-xl md:text-2xl font-bold text-pink-700 mb-3">
                 🌟 Premium Escort Services Available 24/7 🌟
               </h2>
-              <p className="text-xl md:text-2xl text-pink-100 max-w-5xl mx-auto leading-relaxed font-medium">
+              <p className="text-base md:text-lg text-pink-700 max-w-5xl mx-auto leading-relaxed font-medium">
                 Connect with Indore's finest companions instantly! Quick response, complete discretion, and unforgettable experiences await you.
               </p>
             </div>
