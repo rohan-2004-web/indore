@@ -75,21 +75,21 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden mt-3 pb-3 border-t border-pink-100 bg-white/95 backdrop-blur-lg rounded-lg">
+          <div className="md:hidden mt-3 pb-3 border-t border-pink-100 bg-black/95 backdrop-blur-lg rounded-lg">
             <div className="flex flex-col space-y-1 mt-3">
-              <Link href="/" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-base py-2 px-3 hover:bg-pink-50 rounded-lg">
+              <Link href="/" className="text-white hover:text-pink-400 transition-colors font-bold text-base py-2 px-3 hover:bg-pink-900 rounded-lg">
                 Home
               </Link>
-              <Link href="/about" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-base py-2 px-3 hover:bg-pink-50 rounded-lg">
+              <Link href="/about" className="text-white hover:text-pink-400 transition-colors font-bold text-base py-2 px-3 hover:bg-pink-900 rounded-lg">
                 About
               </Link>
-              <Link href="/services" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-base py-2 px-3 hover:bg-pink-50 rounded-lg">
+              <Link href="/services" className="text-white hover:text-pink-400 transition-colors font-bold text-base py-2 px-3 hover:bg-pink-900 rounded-lg">
                 Services
               </Link>
-              <Link href="/gallery" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-base py-2 px-3 hover:bg-pink-50 rounded-lg">
+              <Link href="/gallery" className="text-white hover:text-pink-400 transition-colors font-bold text-base py-2 px-3 hover:bg-pink-900 rounded-lg">
                 Gallery
               </Link>
-              <Link href="/contact" className="text-gray-700 hover:text-pink-500 transition-colors font-bold text-base py-2 px-3 hover:bg-pink-50 rounded-lg">
+              <Link href="/contact" className="text-white hover:text-pink-400 transition-colors font-bold text-base py-2 px-3 hover:bg-pink-900 rounded-lg">
                 Contact
               </Link>
               <Link href="/contact" className="bg-gradient-to-r from-pink-500 to-blue-600 text-white px-4 py-2 rounded-full font-bold text-center mx-3 mt-2 text-sm">

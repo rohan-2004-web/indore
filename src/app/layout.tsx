@@ -251,6 +251,15 @@ export default function RootLayout({
         <CriticalCSS />
         <PerformanceMonitor />
         <Header />
+        {/* Floating Call & WhatsApp Buttons */}
+        <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-4 items-end">
+          <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-teal-500 text-white rounded-full shadow-xl p-4 flex items-center gap-2 hover:scale-110 transition-all text-base font-bold">
+            <span className="text-2xl">📞</span> Call
+          </a>
+          <a href="https://wa.me/919372662471" target="_blank" className="bg-gradient-to-r from-pink-500 to-blue-500 text-white rounded-full shadow-xl p-4 flex items-center gap-2 hover:scale-110 transition-all text-base font-bold">
+            <span className="text-2xl">💬</span> WhatsApp
+          </a>
+        </div>
         {children}
         <InternalLinkingFooter />
       </body>
