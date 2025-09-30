@@ -403,6 +403,7 @@ export default function ContactPage() {
                   Fill out this colorful form and we'll contact you instantly via WhatsApp for immediate booking confirmation! 🌈
                 </p>
 
+              </div>
               <div className="bg-gradient-to-br from-white/95 via-purple-50/90 to-pink-50/95 backdrop-blur-lg rounded-2xl shadow-xl border-2 border-gradient-to-r from-pink-300 to-purple-300 p-3 md:p-4">
                 <form onSubmit={handleSubmit} className="space-y-4">
                   {/* Name and Phone */}
@@ -707,10 +708,8 @@ export default function ContactPage() {
                       Call Now: +91 9372662471
                       <span className="ml-4 text-2xl group-hover:animate-ping">🚀</span>
                     </a>
-                    <a 
-                      href="https://wa.me/919372662471?text=I need escort service at specific location in Indore" 
-                      className="group inline-flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white px-12 py-6 rounded-full font-black text-xl transition-all duration-500 transform hover:scale-110 hover:-rotate-2 shadow-2xl hover:shadow-blue-500/50"
-                    >
+                    <a
+                      href="https://wa.me/919372662471?text=I need escort service at specific location in Indore"
                       className="group inline-flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white px-12 py-6 rounded-full font-black text-xl transition-all duration-500 transform hover:scale-110 hover:-rotate-2 shadow-2xl hover:shadow-blue-500/50"
                     >
                       <span className="mr-4 text-3xl animate-pulse">💬</span>
