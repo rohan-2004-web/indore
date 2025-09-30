@@ -194,24 +194,9 @@ export default function AboutPage() {
             </p>
           </div>
 
-          {/* Enhanced CTA Buttons - Home Page Style */}
-          <div className="flex flex-col sm:flex-row gap-8 justify-center mb-16">
-            <a 
-              href="tel:+919372662471" 
-              className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-pink-600 via-pink-700 to-pink-800 hover:from-pink-700 hover:via-pink-800 hover:to-pink-900 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-pink-500/50 border-2 border-pink-400/30"
-            >
-              <span className="text-3xl group-hover:animate-bounce">📞</span>
-              <span>Call Now: +91 9372662471</span>
-              <span className="text-2xl group-hover:translate-x-2 transition-transform duration-300">→</span>
-            </a>
-            <a 
-              href="https://wa.me/919372662471" 
-              className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 hover:from-orange-600 hover:via-orange-700 hover:to-orange-800 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-orange-500/50 border-2 border-orange-400/30"
-            >
-              <span className="text-3xl group-hover:animate-bounce">💬</span>
-              <span>WhatsApp Now</span>
-              <span className="text-2xl group-hover:translate-x-2 transition-transform duration-300">→</span>
-            </a>
+          {/* Hero CTAs removed - header and floating icons handle quick contact */}
+          <div className="flex justify-center mb-16">
+            <p className="text-sm text-gray-800">For quick booking, use the header icons or the floating Call/WhatsApp buttons.</p>
           </div>
 
           {/* Trust Indicators - Home Page Style */}

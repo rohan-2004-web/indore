@@ -115,20 +115,9 @@ export default function Home() {
                   </div>
                 </div>
 
-                {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
-                  <a
-                    href="tel:+919372662471"
-                    className="bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl flex items-center gap-3"
-                  >
-                    Call Now 24/7
-                  </a>
-                  <a
-                    href="https://wa.me/919372662471"
-                    className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl flex items-center gap-3"
-                  >
-                    WhatsApp Fast
-                  </a>
+                {/* CTA Buttons removed from hero - use header quick icons and floating CTAs instead */}
+                <div className="flex justify-center items-center mb-8">
+                  <p className="text-sm text-gray-700">Use the quick contact icons in the header or the floating buttons to call or WhatsApp us.</p>
                 </div>
                 
                 {/* Stats */}

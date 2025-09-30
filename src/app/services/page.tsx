@@ -52,13 +52,8 @@ export default function ServicesPage() {
             <p className="text-2xl md:text-3xl text-gray-700 max-w-6xl mx-auto mb-10 font-medium leading-relaxed">
               Discover our comprehensive range of premium escort services with verified professional companions available 24/7.
             </p>
-            <div className="flex flex-col sm:flex-row gap-6 justify-center">
-              <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-12 py-6 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl">
-                Call Now: +91 9372662471
-              </a>
-              <a href="https://wa.me/919372662471" className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-12 py-6 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl">
-                WhatsApp Now
-              </a>
+            <div className="flex justify-center mb-10">
+              <p className="text-sm text-gray-800">Quick contact has been moved to the header and floating buttons for consistent access across pages.</p>
             </div>
           </div>
         </section>
