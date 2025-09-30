@@ -1,5 +1,7 @@
 User-Agent: *
 Allow: /
+Allow: /locations/
+Allow: /services/
 Disallow: /admin/
 Disallow: /api/
 Disallow: /_next/
