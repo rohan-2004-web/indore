@@ -59,9 +59,9 @@ export default function Header() {
               <span className="text-sm font-medium">Call Now</span>
             </a>
 
-            <a href="https://wa.me/919372662471" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-full shadow-lg transition-transform transform hover:scale-105">
-              <img src="/path-to-provided-logo.png" alt="WhatsApp Logo" className="w-5 h-5" />
-              <span className="text-sm font-medium">WhatsApp</span>
+            <a href="https://wa.me/919372662471" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full shadow-lg transition-transform transform hover:scale-105">
+              <img src="/whatsapp-logo.png" alt="WhatsApp Logo" className="w-7 h-7" />
+              <span className="text-base font-semibold">WhatsApp</span>
             </a>
 
             <Link href="/contact" className="bg-gradient-to-r from-pink-500 to-blue-600 text-white px-5 py-2 rounded-full font-semibold text-sm hover:from-pink-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
