@@ -229,7 +229,7 @@ export default function AboutPage() {
       <section className="py-16 px-4 relative">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+            <h2 className="text-base md:text-2xl lg:text-3xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-4">
               Premium Escort Services Available In All Major Indore Areas
             </h2>
             <p className="text-2xl text-gray-700 max-w-6xl mx-auto leading-relaxed font-semibold">

@@ -186,7 +186,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-br from-pink-200/80 via-orange-100/70 to-pink-300/80"></div>
             <div className="w-full px-6 relative z-10">
               <div className="text-center mb-20">
-                <h2 className="text-2xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-8">
+                <h2 className="text-base md:text-2xl lg:text-3xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-4">
                   Premium Escort Services Available In All Major Indore Areas
                 </h2>
                 <p className="text-2xl text-gray-700 max-w-7xl mx-auto leading-relaxed font-semibold">
