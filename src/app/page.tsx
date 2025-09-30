@@ -186,7 +186,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-br from-pink-200/80 via-orange-100/70 to-pink-300/80"></div>
             <div className="w-full px-6 relative z-10">
               <div className="text-center mb-20">
-                <h2 className="text-3xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-8">
+                <h2 className="text-2xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-8">
                   Premium Escort Services Available In All Major Indore Areas
                 </h2>
                 <p className="text-2xl text-gray-700 max-w-7xl mx-auto leading-relaxed font-semibold">
@@ -198,7 +198,7 @@ export default function Home() {
                 {/* Enhanced Location Cards - Bigger and More Stylish */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-8xl mx-auto">
                   
-                  <div className="group bg-gradient-to-br from-pink-100 to-pink-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-pink-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-pink-100 to-pink-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-6 md:p-8 border-2 border-pink-300/60 transform hover:-translate-y-3 h-auto md:h-72 flex flex-col justify-between">
                     <div className="text-center">
                       <div className="text-6xl mb-4">🏢</div>
                       <h3 className="text-2xl font-bold text-pink-800 mb-3">Vijay Nagar</h3>
@@ -209,7 +209,7 @@ export default function Home() {
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-blue-100 to-blue-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-blue-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-blue-100 to-blue-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-6 md:p-8 border-2 border-blue-300/60 transform hover:-translate-y-3 h-auto md:h-72 flex flex-col justify-between">
                     <div className="text-center">
                       <div className="text-6xl mb-4">🏘️</div>
                       <h3 className="text-2xl font-bold text-blue-800 mb-3">Saket</h3>
@@ -220,7 +220,7 @@ export default function Home() {
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-orange-100 to-orange-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-orange-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-orange-100 to-orange-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-6 md:p-8 border-2 border-orange-300/60 transform hover:-translate-y-3 h-auto md:h-72 flex flex-col justify-between">
                     <div className="text-center">
                       <div className="text-6xl mb-4">💻</div>
                       <h3 className="text-2xl font-bold text-orange-800 mb-3">Scheme 78</h3>
@@ -231,7 +231,7 @@ export default function Home() {
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-purple-100 to-purple-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-purple-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-purple-100 to-purple-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-6 md:p-8 border-2 border-purple-300/60 transform hover:-translate-y-3 h-auto md:h-72 flex flex-col justify-between">
                     <div className="text-center">
                       <div className="text-6xl mb-4">🛍️</div>
                       <h3 className="text-2xl font-bold text-purple-800 mb-3">AB Road</h3>
@@ -242,7 +242,7 @@ export default function Home() {
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-green-100 to-green-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-green-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-green-100 to-green-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-6 md:p-8 border-2 border-green-300/60 transform hover:-translate-y-3 h-auto md:h-72 flex flex-col justify-between">
                     <div className="text-center">
                       <div className="text-6xl mb-4">🌆</div>
                       <h3 className="text-2xl font-bold text-green-800 mb-3">Palasia</h3>
@@ -253,7 +253,7 @@ export default function Home() {
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-teal-100 to-teal-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-teal-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-teal-100 to-teal-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-6 md:p-8 border-2 border-teal-300/60 transform hover:-translate-y-3 h-auto md:h-72 flex flex-col justify-between">
                     <div className="text-center">
                       <div className="text-6xl mb-4">🏛️</div>
                       <h3 className="text-2xl font-bold text-teal-800 mb-3">Bhawar Kuan</h3>
@@ -264,7 +264,7 @@ export default function Home() {
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-indigo-100 to-indigo-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-indigo-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-indigo-100 to-indigo-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-6 md:p-8 border-2 border-indigo-300/60 transform hover:-translate-y-3 h-auto md:h-72 flex flex-col justify-between">
                     <div className="text-center">
                       <div className="text-6xl mb-4">✈️</div>
                       <h3 className="text-2xl font-bold text-indigo-800 mb-3">Airport Road</h3>
@@ -275,7 +275,7 @@ export default function Home() {
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-rose-100 to-rose-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-rose-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-rose-100 to-rose-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-6 md:p-8 border-2 border-rose-300/60 transform hover:-translate-y-3 h-auto md:h-72 flex flex-col justify-between">
                     <div className="text-center">
                       <div className="text-6xl mb-4">🎯</div>
                       <h3 className="text-2xl font-bold text-rose-800 mb-3">Treasure Island</h3>
@@ -286,7 +286,7 @@ export default function Home() {
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-violet-100 to-violet-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-violet-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-violet-100 to-violet-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-6 md:p-8 border-2 border-violet-300/60 transform hover:-translate-y-3 h-auto md:h-72 flex flex-col justify-between">
                     <div className="text-center">
                       <div className="text-6xl mb-4">🏬</div>
                       <h3 className="text-2xl font-bold text-violet-800 mb-3">Rajwada</h3>
@@ -297,7 +297,7 @@ export default function Home() {
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-cyan-100 to-cyan-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-cyan-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-cyan-100 to-cyan-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-6 md:p-8 border-2 border-cyan-300/60 transform hover:-translate-y-3 h-auto md:h-72 flex flex-col justify-between">
                     <div className="text-center">
                       <div className="text-6xl mb-4">🏭</div>
                       <h3 className="text-2xl font-bold text-cyan-800 mb-3">MG Road</h3>
@@ -308,7 +308,7 @@ export default function Home() {
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-emerald-100 to-emerald-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-emerald-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-emerald-100 to-emerald-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-6 md:p-8 border-2 border-emerald-300/60 transform hover:-translate-y-3 h-auto md:h-72 flex flex-col justify-between">
                     <div className="text-center">
                       <div className="text-6xl mb-4">🏥</div>
                       <h3 className="text-2xl font-bold text-emerald-800 mb-3">Bombay Hospital</h3>
@@ -319,7 +319,7 @@ export default function Home() {
                     </a>
                   </div>
                   
-                  <div className="group bg-gradient-to-br from-amber-100 to-amber-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-8 border-2 border-amber-300/60 transform hover:-translate-y-3 h-72 flex flex-col justify-between">
+                  <div className="group bg-gradient-to-br from-amber-100 to-amber-200 backdrop-blur-md rounded-2xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-6 md:p-8 border-2 border-amber-300/60 transform hover:-translate-y-3 h-auto md:h-72 flex flex-col justify-between">
                     <div className="text-center">
                       <div className="text-6xl mb-4">🌳</div>
                       <h3 className="text-2xl font-bold text-amber-800 mb-3">Ring Road</h3>
