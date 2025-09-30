@@ -51,13 +51,13 @@ export default function Header() {
 
           {/* CTA Button + quick icons */}
           <div className="hidden md:flex items-center gap-4">
-            <a href="tel:+919372662471" aria-label="Call us" className="inline-flex items-center gap-3 bg-white/12 hover:bg-white/20 text-white px-4 py-2.5 rounded-full font-semibold text-base transition-all duration-300 ring-1 ring-white/20 shadow-sm">
-              <span className="text-2xl">📞</span>
-              <span className="hidden lg:inline text-sm font-medium">Call</span>
+            <a href="tel:+919372662471" aria-label="Call us" className="inline-flex items-center gap-3 bg-red-600 hover:bg-red-700 text-white px-4 py-2.5 rounded-full font-semibold text-base transition-all duration-300 ring-1 ring-red-700 shadow-sm">
+              <span className="text-2xl text-green-500">📞</span>
+              <span className="hidden lg:inline text-sm font-medium text-white">Call</span>
             </a>
-            <a href="https://wa.me/919372662471" target="_blank" aria-label="WhatsApp" className="inline-flex items-center gap-3 bg-white/12 hover:bg-white/20 text-white px-4 py-2.5 rounded-full font-semibold text-base transition-all duration-300 ring-1 ring-white/20 shadow-sm">
-              <span className="text-2xl">💬</span>
-              <span className="hidden lg:inline text-sm font-medium">WhatsApp</span>
+            <a href="https://wa.me/919372662471" target="_blank" aria-label="WhatsApp" className="inline-flex items-center gap-3 bg-red-600 hover:bg-red-700 text-white px-4 py-2.5 rounded-full font-semibold text-base transition-all duration-300 ring-1 ring-red-700 shadow-sm">
+              <span className="text-2xl text-green-500">💬</span>
+              <span className="hidden lg:inline text-sm font-medium text-white">WhatsApp</span>
             </a>
             <Link href="/contact" className="bg-gradient-to-r from-pink-500 to-blue-600 text-white px-5 py-2 rounded-full font-semibold text-sm hover:from-pink-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
               Get Started
