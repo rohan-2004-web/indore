@@ -411,7 +411,7 @@ export default function Home() {
             
             <div className="max-w-8xl mx-auto px-6 relative z-10">
               <div className="text-center">
-                <h2 className="text-5xl md:text-7xl font-extrabold text-white mb-8 drop-shadow-2xl">
+                <h2 className="text-2xl md:text-5xl lg:text-6xl font-extrabold text-white mb-8 drop-shadow-2xl">
                   🌟 What Our Premium Clients Say About Us 🌟
                 </h2>
                 <div className="max-w-6xl mx-auto">
