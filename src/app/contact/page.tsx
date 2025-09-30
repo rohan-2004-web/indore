@@ -59,13 +59,11 @@ export default function ContactPage() {
   return (
     <>
       <Header />
-  <div className="min-h-screen bg-gradient-to-br from-pink-100 via-pink-200 to-pink-50">
+  <div className="min-h-screen bg-gradient-to-br from-pink-200/60 via-orange-100/50 to-pink-300/60">
         
         {/* Hero Section */}
-  <section className="pt-24 pb-14 relative overflow-hidden">
-          <div className="absolute inset-0">
-            <div className="absolute inset-0 bg-gradient-to-r from-pink-200 via-pink-100 to-pink-50 opacity-95"></div>
-          </div>
+  <section className="pt-32 pb-16 relative">
+          <div className="absolute inset-0 bg-gradient-to-br from-pink-300/90 via-orange-200/80 to-pink-300/90"></div>
           
           {/* Animated Background Elements */}
           <div className="absolute top-10 left-20 w-40 h-40 bg-gradient-to-br from-cyan-400/40 to-blue-500/30 rounded-full blur-2xl animate-pulse"></div>
@@ -87,7 +85,7 @@ export default function ContactPage() {
               </div>
             </div>
             
-            <h1 className="text-3xl md:text-5xl font-black bg-gradient-to-r from-pink-400 via-pink-500 to-pink-600 bg-clip-text text-transparent mb-6 leading-tight">
+            <h1 className="text-3xl md:text-5xl font-extrabold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-8 leading-tight">
               Contact Us
             </h1>
             <div className="relative mb-8">
@@ -124,22 +122,18 @@ export default function ContactPage() {
             </div>
 
             {/* Enhanced Action Buttons */}
-            <div className="flex flex-col sm:flex-row gap-8 justify-center">
-              <a 
-                href="tel:+919372662471" 
-                className="group inline-flex items-center justify-center bg-gradient-to-r from-green-500 via-emerald-500 to-teal-500 hover:from-green-600 hover:via-emerald-600 hover:to-teal-600 text-white px-12 py-6 rounded-full font-bold text-2xl transition-all duration-500 transform hover:scale-110 hover:rotate-1 shadow-2xl hover:shadow-green-500/30"
+            <div className="flex flex-col sm:flex-row gap-6 justify-center">
+              <a
+                href="tel:+919372662471"
+                className="inline-block bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-10 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-2xl"
               >
-                <span className="mr-4 text-3xl animate-bounce">📞</span>
-                Call Now: +91 9372662471
-                <span className="ml-4 text-2xl group-hover:animate-ping">🔥</span>
+                📞 Call Now: +91 9372662471
               </a>
-              <a 
-                href="https://wa.me/919372662471" 
-                className="group inline-flex items-center justify-center bg-gradient-to-r from-pink-500 via-rose-500 to-red-500 hover:from-pink-600 hover:via-rose-600 hover:to-red-600 text-white px-12 py-6 rounded-full font-bold text-2xl transition-all duration-500 transform hover:scale-110 hover:-rotate-1 shadow-2xl hover:shadow-pink-500/30"
+              <a
+                href="https://wa.me/919372662471"
+                className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-10 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-2xl"
               >
-                <span className="mr-4 text-3xl animate-pulse">💬</span>
-                WhatsApp Now
-                <span className="ml-4 text-2xl group-hover:animate-bounce">⚡</span>
+                💬 WhatsApp Now
               </a>
             </div>
           </div>
@@ -270,17 +264,18 @@ export default function ContactPage() {
                     <p className="text-blue-100">Explore Indore and our service areas</p>
                   </div>
                   <div className="h-96 relative">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58921.21775219772!2d75.82137767217883!3d22.719568374762386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396302b0e21b4bd3%3A0x1a77abc5e7b08a8a!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1704203040123!5m2!1sen!2sin"
-                      width="100%"
-                      height="100%"
-                      style={{ border: 0 }}
-                      allowFullScreen
-                      loading="lazy"
-                      referrerPolicy="no-referrer-when-downgrade"
-                      className="w-full h-full"
-                    ></iframe>
-                  </div>
+                      <iframe
+                        src="https://www.google.com/maps?q=Indore,+Madhya+Pradesh&output=embed"
+                        width="100%"
+                        height="100%"
+                        style={{ border: 0 }}
+                        allowFullScreen
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                        className="w-full h-full"
+                        title="Indore Map"
+                      />
+                    </div>
                 </div>
 
                 {/* Service Areas List */}
@@ -383,7 +378,7 @@ export default function ContactPage() {
           <div className="absolute bottom-20 right-20 w-56 h-56 bg-gradient-to-br from-pink-400/30 to-purple-500/20 rounded-full blur-2xl animate-pulse delay-1000"></div>
           
           <div className="container mx-auto px-4 relative z-10">
-            <div className="max-w-5xl mx-auto">
+            <div className="max-w-3xl mx-auto">
               <div className="text-center mb-16">
                 <div className="flex justify-center items-center gap-4 mb-8">
                   <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center shadow-2xl animate-spin-slow">
@@ -404,7 +399,7 @@ export default function ContactPage() {
                 </p>
 
               </div>
-              <div className="bg-gradient-to-br from-white/95 via-purple-50/90 to-pink-50/95 backdrop-blur-lg rounded-2xl shadow-xl border-2 border-gradient-to-r from-pink-300 to-purple-300 p-3 md:p-4">
+              <div className="bg-gradient-to-br from-white/95 via-orange-50/90 to-pink-50/95 backdrop-blur-lg rounded-xl shadow-lg border border-pink-200 p-4 md:p-6">
                 <form onSubmit={handleSubmit} className="space-y-4">
                   {/* Name and Phone */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -418,7 +413,7 @@ export default function ContactPage() {
                         value={formData.name}
                         onChange={handleChange}
                         required
-                        className="w-full px-3 py-2 border-2 border-blue-300 rounded-lg focus:border-blue-500 focus:outline-none text-sm font-bold text-gray-700 bg-gradient-to-r from-blue-50 to-cyan-50 shadow-md transform focus:scale-105 transition-all duration-300"
+                        className="w-full px-3 py-2 border border-pink-200 rounded-md focus:border-pink-400 focus:outline-none text-sm font-semibold text-gray-700 bg-white shadow-sm transition-all duration-200"
                         placeholder="Enter your full name"
                       />
                       <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center">
@@ -435,7 +430,7 @@ export default function ContactPage() {
                         value={formData.phone}
                         onChange={handleChange}
                         required
-                        className="w-full px-3 py-2 border-2 border-green-300 rounded-lg focus:border-green-500 focus:outline-none text-sm font-bold text-gray-700 bg-gradient-to-r from-green-50 to-teal-50 shadow-md transform focus:scale-105 transition-all duration-300"
+                        className="w-full px-3 py-2 border border-pink-200 rounded-md focus:border-orange-400 focus:outline-none text-sm font-semibold text-gray-700 bg-white shadow-sm transition-all duration-200"
                         placeholder="+91 XXXXX XXXXX"
                       />
                       <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-br from-green-500 to-teal-500 rounded-full flex items-center justify-center">
@@ -454,7 +449,7 @@ export default function ContactPage() {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      className="w-full px-3 py-2 border-2 border-purple-300 rounded-lg focus:border-purple-500 focus:outline-none text-sm font-bold text-gray-700 bg-gradient-to-r from-purple-50 to-pink-50 shadow-md transform focus:scale-105 transition-all duration-300"
+                      className="w-full px-3 py-2 border border-pink-200 rounded-md focus:border-pink-400 focus:outline-none text-sm font-semibold text-gray-700 bg-white shadow-sm transition-all duration-200"
                       placeholder="your.email@example.com"
                     />
                     <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center">
@@ -473,7 +468,7 @@ export default function ContactPage() {
                         value={formData.service}
                         onChange={handleChange}
                         required
-                        className="w-full px-3 py-2 border-2 border-orange-300 rounded-lg focus:border-orange-500 focus:outline-none text-sm font-bold text-gray-700 bg-gradient-to-r from-orange-50 to-red-50 shadow-md transform focus:scale-105 transition-all duration-300"
+                        className="w-full px-3 py-2 border border-pink-200 rounded-md focus:border-pink-400 focus:outline-none text-sm font-semibold text-gray-700 bg-white shadow-sm transition-all duration-200"
                       >
                         <option value="">🎭 Select a service</option>
                         {services.map((service) => (
@@ -493,7 +488,7 @@ export default function ContactPage() {
                         value={formData.location}
                         onChange={handleChange}
                         required
-                        className="w-full px-3 py-2 border-2 border-pink-300 rounded-lg focus:border-pink-500 focus:outline-none text-sm font-bold text-gray-700 bg-gradient-to-r from-pink-50 to-rose-50 shadow-md transform focus:scale-105 transition-all duration-300"
+                        className="w-full px-3 py-2 border border-pink-200 rounded-md focus:border-pink-400 focus:outline-none text-sm font-semibold text-gray-700 bg-white shadow-sm transition-all duration-200"
                       >
                         <option value="">🏙️ Select location</option>
                         {locations.map((location) => (
@@ -516,7 +511,7 @@ export default function ContactPage() {
                       value={formData.message}
                       onChange={handleChange}
                       rows={3}
-                      className="w-full px-3 py-2 border-2 border-cyan-300 rounded-lg focus:border-cyan-500 focus:outline-none text-sm font-bold text-gray-700 bg-gradient-to-r from-cyan-50 to-blue-50 shadow-md transform focus:scale-105 transition-all duration-300 resize-vertical"
+                      className="w-full px-3 py-2 border border-pink-200 rounded-md focus:border-pink-400 focus:outline-none text-sm font-semibold text-gray-700 bg-white shadow-sm transition-all duration-200 resize-vertical"
                       placeholder="Any specific requirements or questions..."
                     />
                     <div className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-br from-cyan-500 to-blue-500 rounded-full flex items-center justify-center">
@@ -528,7 +523,7 @@ export default function ContactPage() {
                   <div className="text-center pt-4">
                     <button
                       type="submit"
-                      className="group bg-gradient-to-r from-purple-600 via-pink-600 to-red-600 hover:from-purple-700 hover:via-pink-700 hover:to-red-700 text-white px-8 py-3 rounded-full font-black text-base transition-all duration-500 transform hover:scale-105 hover:rotate-2 shadow-xl hover:shadow-purple-500/50 relative overflow-hidden"
+                      className="group bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 hover:from-pink-700 hover:via-orange-600 text-white px-6 py-2 rounded-full font-bold text-sm transition-all duration-300 transform hover:scale-105 shadow-md relative overflow-hidden"
                     >
                       <span className="relative z-10 flex items-center justify-center">
                         <span className="mr-2 text-xl animate-bounce">📱</span>
@@ -537,8 +532,8 @@ export default function ContactPage() {
                       </span>
                       <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 opacity-0 group-hover:opacity-30 transition-opacity duration-500"></div>
                     </button>
-                    <p className="text-gray-600 mt-3 text-base font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                      ✨ This form will open WhatsApp with your message pre-filled ✨
+                    <p className="text-gray-600 mt-3 text-sm font-medium">
+                      ✨ This will open WhatsApp with your message pre-filled ✨
                     </p>
                   </div>
 
