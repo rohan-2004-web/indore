@@ -6,6 +6,7 @@ import Header from '@/components/Header'
 import { SEOOptimizedContent } from '@/components/SEOContent'
 import InternalLinks from '@/components/InternalLinks'
 import Breadcrumb from '@/components/Breadcrumb'
+import IndoreEscortsContent from "@/app/components/IndoreEscortsContent"
 
 // Lazy load heavy components for better performance
 const ServiceCards = dynamic(() => import('@/components/ServiceCards'), {
@@ -923,6 +924,7 @@ export default function Home() {
               <InternalLinks currentPage="/" />
             </div>
           </section>
+          <IndoreEscortsContent />
         </main>
       </div>
     </>
