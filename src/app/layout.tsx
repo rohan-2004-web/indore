@@ -264,12 +264,12 @@ export default function RootLayout({
           </div>
 
           {/* Medium+ screens: Call on left, WhatsApp on right */}
-          <a href="tel:+919372662471" className="hidden md:flex fixed bottom-8 left-8 z-50 items-center bg-gradient-to-r from-green-500 to-teal-500 text-white rounded-full shadow-xl px-4 py-3 gap-3 hover:scale-105 transition-all font-bold">
+          <a href="tel:+919372662471" aria-label="Call us" className="hidden md:flex fixed bottom-8 left-12 z-50 items-center bg-gradient-to-r from-green-500 to-teal-500 text-white rounded-full shadow-xl px-4 py-3 gap-3 hover:scale-105 transition-all font-bold ring-2 ring-green-300/30">
             <span className="text-2xl">📞</span>
             <span className="text-base">Call</span>
           </a>
 
-          <a href="https://wa.me/919372662471" target="_blank" className="hidden md:flex fixed bottom-8 right-8 z-50 items-center bg-gradient-to-r from-pink-500 to-blue-500 text-white rounded-full shadow-xl px-4 py-3 gap-3 hover:scale-105 transition-all font-bold">
+          <a href="https://wa.me/919372662471" target="_blank" aria-label="WhatsApp" className="hidden md:flex fixed bottom-8 right-12 z-50 items-center bg-gradient-to-r from-pink-500 to-blue-500 text-white rounded-full shadow-xl px-4 py-3 gap-3 hover:scale-105 transition-all font-bold ring-2 ring-pink-300/30">
             <span className="text-2xl">💬</span>
             <span className="text-base">WhatsApp</span>
           </a>

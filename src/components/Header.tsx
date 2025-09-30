@@ -49,8 +49,14 @@ export default function Header() {
             </Link>
           </div>
 
-          {/* CTA Button */}
-          <div className="hidden md:block">
+          {/* CTA Button + quick icons */}
+          <div className="hidden md:flex items-center gap-4">
+            <a href="tel:+919372662471" aria-label="Call us" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-3 py-2 rounded-full font-semibold text-sm transition-all duration-300">
+              <span className="text-lg">📞</span>
+            </a>
+            <a href="https://wa.me/919372662471" target="_blank" aria-label="WhatsApp" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-3 py-2 rounded-full font-semibold text-sm transition-all duration-300">
+              <span className="text-lg">💬</span>
+            </a>
             <Link href="/contact" className="bg-gradient-to-r from-pink-500 to-blue-600 text-white px-5 py-2 rounded-full font-semibold text-sm hover:from-pink-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
               Get Started
             </Link>
