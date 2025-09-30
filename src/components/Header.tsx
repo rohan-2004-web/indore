@@ -52,16 +52,14 @@ export default function Header() {
           {/* CTA Button + quick icons */}
           <div className="hidden md:flex items-center gap-4">
             {/* Circular icon buttons (consistent size) */}
-            <a href="tel:+919372662471" aria-label="Call us" className="inline-flex items-center gap-2 bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full shadow-lg transition-transform transform hover:scale-105">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="w-5 h-5">
-                <path d="M21 16.5a16.92 16.92 0 0 1-7.5-2.5 1 1 0 0 0-1.02.12l-2 1.5a17.06 17.06 0 0 1-6.2-6.2l1.5-2a1 1 0 0 0 .12-1.02A16.92 16.92 0 0 1 7.5 3 1 1 0 0 0 6.5 2H4a1 1 0 0 0-1 1C3 14.2 9.8 21 21 21a1 1 0 0 0 1-1v-2.5a1 1 0 0 0-1-1z" />
-              </svg>
-              <span className="text-sm font-medium">Call Now</span>
+            <a href="tel:+919372662471" aria-label="Call us" className="inline-flex items-center gap-4 bg-[#EC4899] hover:bg-pink-600 text-white px-8 py-3 rounded-full shadow-lg transition-transform transform hover:scale-105">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" className="w-7 h-7"><circle cx="16" cy="16" r="16" fill="#EC4899"/><path d="M22.7 19.2c-1.2-.5-2.4-1.1-3.5-1.8-.3-.2-.7-.2-1 .1l-1.2 1c-2.2-1.2-4-3-5.2-5.2l1-1.2c.3-.3.3-.7.1-1-0.7-1.1-1.3-2.3-1.8-3.5-.2-.4-.6-.6-1-.6H7.1c-.6 0-1.1.5-1.1 1.1 0 7.2 5.8 13 13 13 .6 0 1.1-.5 1.1-1.1v-2.1c0-.4-.2-.8-.6-1z" fill="#fff"/></svg>
+              <span className="text-lg font-bold">Call Now</span>
             </a>
 
-            <a href="https://wa.me/919372662471" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full shadow-lg transition-transform transform hover:scale-105">
-              <img src="/whatsapp-logo.png" alt="WhatsApp Logo" className="w-7 h-7" />
-              <span className="text-base font-semibold">WhatsApp</span>
+            <a href="https://wa.me/919372662471" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="inline-flex items-center gap-4 bg-[#25D366] hover:bg-green-600 text-white px-8 py-3 rounded-full shadow-lg transition-transform transform hover:scale-105">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" className="w-7 h-7"><circle cx="16" cy="16" r="16" fill="#25D366"/><path d="M22.1 19.6c-.3-.2-1.7-.8-2-.9-.3-.1-.5-.1-.7.2-.2.3-.7.9-.9 1.1-.2.2-.4.2-.7.1-.3-.1-1.2-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.2-.2.2-.3.3-.5.1-.2.1-.4-.1-.5-.1-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5-.2 0-.4 0-.6 0-.2 0-.5.1-.7.4-.2.3-.9.9-.9 2.3 0 1.4 1 2.7 1.1 2.9.1.2 1.9 2.9 4.7 4 3.2 1.2 3.2.8 3.8.8.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4z" fill="#fff"/></svg>
+              <span className="text-lg font-bold">WhatsApp</span>
             </a>
 
             <Link href="/contact" className="bg-gradient-to-r from-pink-500 to-blue-600 text-white px-5 py-2 rounded-full font-semibold text-sm hover:from-pink-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
