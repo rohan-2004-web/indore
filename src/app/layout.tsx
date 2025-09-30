@@ -255,31 +255,31 @@ export default function RootLayout({
         <div>
           {/* Small screens: stacked bottom-right */}
           <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-4 items-end md:hidden">
-            <a href="tel:+919372662471" className="bg-pink-500 hover:bg-pink-600 text-white rounded-full shadow-xl px-4 py-3 flex items-center gap-3 hover:scale-110 transition-all text-sm font-bold">
-              <span className="text-xl text-white">📞</span>
-              <span className="hidden sm:inline text-sm text-white font-semibold">Call Now</span>
+            <a href="tel:+919372662471" className="w-14 h-14 flex items-center justify-center bg-pink-500 hover:bg-pink-600 text-white rounded-full shadow-xl hover:scale-110 transition-all text-sm font-bold ring-2 ring-pink-300/30">
+              <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white">
+                <path d="M21 16.5a16.92 16.92 0 0 1-7.5-2.5 1 1 0 0 0-1.02.12l-2 1.5a17.06 17.06 0 0 1-6.2-6.2l1.5-2a1 1 0 0 0 .12-1.02A16.92 16.92 0 0 1 7.5 3 1 1 0 0 0 6.5 2H4a1 1 0 0 0-1 1C3 14.2 9.8 21 21 21a1 1 0 0 0 1-1v-2.5a1 1 0 0 0-1-1z" fill="currentColor" />
+              </svg>
             </a>
-            <a href="https://wa.me/919372662471" target="_blank" className="bg-green-600 hover:bg-green-700 text-white rounded-full shadow-xl px-4 py-3 flex items-center gap-3 hover:scale-110 transition-all text-sm font-bold">
-              <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white">
+            <a href="https://wa.me/919372662471" target="_blank" className="w-14 h-14 flex items-center justify-center bg-green-600 hover:bg-green-700 text-white rounded-full shadow-xl hover:scale-110 transition-all text-sm font-bold ring-2 ring-green-300/30">
+              <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white">
                 <path fillRule="evenodd" clipRule="evenodd" d="M20.52 3.48a11.91 11.91 0 10-16.84 16.84l-1.12 4.1 4.23-1.11A11.91 11.91 0 0020.52 3.48zm-9.02 17.35c4.8 0 8.71-3.9 8.71-8.71 0-4.81-3.91-8.71-8.71-8.71-4.81 0-8.71 3.9-8.71 8.71 0 1.54.39 3.01 1.13 4.31L3 21l3.76-1.03a8.66 8.66 0 004.74 1.87z" fill="currentColor" />
                 <path d="M17.6 14.2c-.3-.15-1.77-.87-2.05-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.95 1.17-.18.2-.36.22-.66.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.68-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.36.45-.54.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.68-1.64-.93-2.24-.24-.58-.49-.5-.68-.51-.17-.01-.37-.01-.56-.01-.18 0-.47.07-.72.37-.25.3-.96.94-.96 2.3 0 1.36.98 2.68 1.12 2.87.14.2 1.92 2.94 4.65 4.01 3.22 1.25 3.22.83 3.8.78.58-.05 1.88-.77 2.14-1.51.26-.74.26-1.37.18-1.51-.08-.15-.28-.23-.58-.38z" fill="currentColor" />
               </svg>
-              <span className="hidden sm:inline text-sm text-white font-semibold">WhatsApp</span>
             </a>
           </div>
 
           {/* Medium+ screens: Call on left, WhatsApp on right */}
-          <a href="tel:+919372662471" aria-label="Call us" className="hidden md:flex fixed bottom-8 left-12 z-50 items-center bg-pink-500 hover:bg-pink-600 text-white rounded-full shadow-xl px-4 py-3 gap-3 hover:scale-105 transition-all font-bold ring-2 ring-pink-300/30">
-            <span className="text-2xl text-white">📞</span>
-            <span className="text-base text-white">Call Now</span>
+          <a href="tel:+919372662471" aria-label="Call us" className="hidden md:flex fixed bottom-8 left-12 z-50 items-center justify-center w-14 h-14 bg-pink-500 hover:bg-pink-600 text-white rounded-full shadow-xl hover:scale-105 transition-all font-bold ring-2 ring-pink-300/30">
+            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white">
+              <path d="M21 16.5a16.92 16.92 0 0 1-7.5-2.5 1 1 0 0 0-1.02.12l-2 1.5a17.06 17.06 0 0 1-6.2-6.2l1.5-2a1 1 0 0 0 .12-1.02A16.92 16.92 0 0 1 7.5 3 1 1 0 0 0 6.5 2H4a1 1 0 0 0-1 1C3 14.2 9.8 21 21 21a1 1 0 0 0 1-1v-2.5a1 1 0 0 0-1-1z" fill="currentColor" />
+            </svg>
           </a>
 
-          <a href="https://wa.me/919372662471" target="_blank" aria-label="WhatsApp" className="hidden md:flex fixed bottom-8 right-12 z-50 items-center bg-green-600 hover:bg-green-700 text-white rounded-full shadow-xl px-4 py-3 gap-3 hover:scale-105 transition-all font-bold ring-2 ring-green-300/30">
-            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white">
+          <a href="https://wa.me/919372662471" target="_blank" aria-label="WhatsApp" className="hidden md:flex fixed bottom-8 right-12 z-50 items-center justify-center w-14 h-14 bg-green-600 hover:bg-green-700 text-white rounded-full shadow-xl hover:scale-105 transition-all font-bold ring-2 ring-green-300/30">
+            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-white">
               <path fillRule="evenodd" clipRule="evenodd" d="M20.52 3.48a11.91 11.91 0 10-16.84 16.84l-1.12 4.1 4.23-1.11A11.91 11.91 0 0020.52 3.48zm-9.02 17.35c4.8 0 8.71-3.9 8.71-8.71 0-4.81-3.91-8.71-8.71-8.71-4.81 0-8.71 3.9-8.71 8.71 0 1.54.39 3.01 1.13 4.31L3 21l3.76-1.03a8.66 8.66 0 004.74 1.87z" fill="currentColor" />
               <path d="M17.6 14.2c-.3-.15-1.77-.87-2.05-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.95 1.17-.18.2-.36.22-.66.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.68-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.36.45-.54.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.68-1.64-.93-2.24-.24-.58-.49-.5-.68-.51-.17-.01-.37-.01-.56-.01-.18 0-.47.07-.72.37-.25.3-.96.94-.96 2.3 0 1.36.98 2.68 1.12 2.87.14.2 1.92 2.94 4.65 4.01 3.22 1.25 3.22.83 3.8.78.58-.05 1.88-.77 2.14-1.51.26-.74.26-1.37.18-1.51-.08-.15-.28-.23-.58-.38z" fill="currentColor" />
             </svg>
-            <span className="text-base text-white">WhatsApp</span>
           </a>
         </div>
         {children}
