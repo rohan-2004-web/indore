@@ -51,12 +51,16 @@ export default function Header() {
 
           {/* CTA Button + quick icons */}
           <div className="hidden md:flex items-center gap-4">
-            <a href="tel:+919372662471" aria-label="Call us" className="inline-flex items-center gap-3 bg-red-600 hover:bg-red-700 text-white px-4 py-2.5 rounded-full font-semibold text-base transition-all duration-300 ring-1 ring-red-700 shadow-sm">
-              <span className="text-2xl text-green-500">📞</span>
-              <span className="hidden lg:inline text-sm font-medium text-white">Call</span>
+            <a href="tel:+919372662471" aria-label="Call us" className="inline-flex items-center gap-3 bg-pink-500 hover:bg-pink-600 text-white px-4 py-2.5 rounded-full font-semibold text-base transition-all duration-300 ring-1 ring-pink-600 shadow-sm">
+              <span className="text-2xl text-white">📞</span>
+              <span className="hidden lg:inline text-sm font-medium text-white">Call Now</span>
             </a>
-            <a href="https://wa.me/919372662471" target="_blank" aria-label="WhatsApp" className="inline-flex items-center gap-3 bg-red-600 hover:bg-red-700 text-white px-4 py-2.5 rounded-full font-semibold text-base transition-all duration-300 ring-1 ring-red-700 shadow-sm">
-              <span className="text-2xl text-green-500">💬</span>
+            <a href="https://wa.me/919372662471" target="_blank" aria-label="WhatsApp" className="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white px-4 py-2.5 rounded-full font-semibold text-base transition-all duration-300 ring-1 ring-green-700 shadow-sm">
+              <span className="sr-only">WhatsApp</span>
+              <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white">
+                <path fillRule="evenodd" clipRule="evenodd" d="M20.52 3.48a11.91 11.91 0 10-16.84 16.84l-1.12 4.1 4.23-1.11A11.91 11.91 0 0020.52 3.48zm-9.02 17.35c4.8 0 8.71-3.9 8.71-8.71 0-4.81-3.91-8.71-8.71-8.71-4.81 0-8.71 3.9-8.71 8.71 0 1.54.39 3.01 1.13 4.31L3 21l3.76-1.03a8.66 8.66 0 004.74 1.87z" fill="currentColor" />
+                <path d="M17.6 14.2c-.3-.15-1.77-.87-2.05-.97-.28-.1-.48-.15-.68.15-.2.3-.77.97-.95 1.17-.18.2-.36.22-.66.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.78-1.68-2.08-.17-.3-.02-.46.13-.61.13-.13.3-.36.45-.54.15-.18.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.68-1.64-.93-2.24-.24-.58-.49-.5-.68-.51-.17-.01-.37-.01-.56-.01-.18 0-.47.07-.72.37-.25.3-.96.94-.96 2.3 0 1.36.98 2.68 1.12 2.87.14.2 1.92 2.94 4.65 4.01 3.22 1.25 3.22.83 3.8.78.58-.05 1.88-.77 2.14-1.51.26-.74.26-1.37.18-1.51-.08-.15-.28-.23-.58-.38z" fill="currentColor" />
+              </svg>
               <span className="hidden lg:inline text-sm font-medium text-white">WhatsApp</span>
             </a>
             <Link href="/contact" className="bg-gradient-to-r from-pink-500 to-blue-600 text-white px-5 py-2 rounded-full font-semibold text-sm hover:from-pink-600 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
