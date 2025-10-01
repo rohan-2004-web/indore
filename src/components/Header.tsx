@@ -22,16 +22,16 @@ export default function Header() {
         : 'bg-transparent'
     }`}>
       <nav className="container mx-auto px-4 py-2">
-        <div className="flex items-center justify-between relative">
-          {/* Logo */}
-          <div className="text-2xl font-bold flex-shrink-0">
+        <div className="hidden md:grid md:grid-cols-3 md:items-center md:gap-4">
+          {/* Logo - Left */}
+          <div className="text-2xl font-bold">
             <span className="bg-gradient-to-r from-blue-600 via-orange-500 to-blue-700 bg-clip-text text-transparent drop-shadow-2xl filter brightness-110">
               Saumya Kapoor
             </span>
           </div>
 
-          {/* Centered Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8 absolute left-1/2 transform -translate-x-1/2">
+          {/* Centered Navigation Menu */}
+          <div className="flex items-center justify-center space-x-8">
             <Link href="/" className="font-black text-lg text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
               Home
             </Link>
@@ -50,7 +50,7 @@ export default function Header() {
           </div>
 
           {/* Right Side - Call and WhatsApp Buttons */}
-          <div className="hidden md:flex items-center gap-3 flex-shrink-0">
+          <div className="flex items-center justify-end gap-3">
             {/* Call Now Button */}
             <a 
               href="tel:+919372662471" 
@@ -81,6 +81,32 @@ export default function Header() {
           {/* Mobile Menu Button */}
           <button
             className={`md:hidden transition-colors ${
+              isScrolled ? 'text-gray-700' : 'text-white'
+            }`}
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              {isMenuOpen ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+              )}
+            </svg>
+          </button>
+        </div>
+
+        {/* Mobile Layout */}
+        <div className="md:hidden flex items-center justify-between">
+          {/* Logo */}
+          <div className="text-2xl font-bold">
+            <span className="bg-gradient-to-r from-blue-600 via-orange-500 to-blue-700 bg-clip-text text-transparent drop-shadow-2xl filter brightness-110">
+              Saumya Kapoor
+            </span>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            className={`transition-colors ${
               isScrolled ? 'text-gray-700' : 'text-white'
             }`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
