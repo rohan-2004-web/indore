@@ -860,65 +860,6 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Service Areas in Indore Section */}
-          <section className="py-20 bg-gradient-to-br from-pink-50 via-rose-50 to-pink-100">
-            <div className="max-w-7xl mx-auto px-6">
-              <div className="text-center mb-16">
-                <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-rose-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                  Service Areas in Indore
-                </h2>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-12">
-                {/* AB Road Escorts */}
-                <div className="bg-gradient-to-br from-blue-200/70 to-blue-300/50 backdrop-blur-sm rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-blue-300/40 text-center">
-                  <h3 className="text-xl font-bold text-blue-800 mb-2">AB Road Escorts</h3>
-                </div>
-
-                {/* Palasia Escorts */}
-                <div className="bg-gradient-to-br from-purple-200/70 to-purple-300/50 backdrop-blur-sm rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-purple-300/40 text-center">
-                  <h3 className="text-xl font-bold text-purple-800 mb-2">Palasia Escorts</h3>
-                </div>
-
-                {/* Bhawar Kuan Escorts */}
-                <div className="bg-gradient-to-br from-pink-200/70 to-pink-300/50 backdrop-blur-sm rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-pink-300/40 text-center">
-                  <h3 className="text-xl font-bold text-pink-800 mb-2">Bhawar Kuan Escorts</h3>
-                </div>
-
-                {/* Vijay Nagar Escorts */}
-                <div className="bg-gradient-to-br from-green-200/70 to-green-300/50 backdrop-blur-sm rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-green-300/40 text-center">
-                  <h3 className="text-xl font-bold text-green-800 mb-2">Vijay Nagar Escorts</h3>
-                </div>
-
-                {/* New Palasia Escorts */}
-                <div className="bg-gradient-to-br from-orange-200/70 to-orange-300/50 backdrop-blur-sm rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-orange-300/40 text-center">
-                  <h3 className="text-xl font-bold text-orange-800 mb-2">New Palasia Escorts</h3>
-                </div>
-
-                {/* Indore GPO Escorts */}
-                <div className="bg-gradient-to-br from-teal-200/70 to-teal-300/50 backdrop-blur-sm rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-teal-300/40 text-center">
-                  <h3 className="text-xl font-bold text-teal-800 mb-2">Indore GPO Escorts</h3>
-                </div>
-
-                {/* Rajwada Escorts */}
-                <div className="bg-gradient-to-br from-red-200/70 to-red-300/50 backdrop-blur-sm rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-red-300/40 text-center">
-                  <h3 className="text-xl font-bold text-red-800 mb-2">Rajwada Escorts</h3>
-                </div>
-
-                {/* Sarafa Bazaar Escorts */}
-                <div className="bg-gradient-to-br from-yellow-200/70 to-yellow-300/50 backdrop-blur-sm rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-yellow-300/40 text-center">
-                  <h3 className="text-xl font-bold text-yellow-800 mb-2">Sarafa Bazaar Escorts</h3>
-                </div>
-              </div>
-
-              <div className="text-center">
-                <a href="/locations" className="inline-block bg-gradient-to-r from-pink-500 to-rose-600 hover:from-pink-600 hover:to-rose-700 text-white px-10 py-4 rounded-2xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-xl">
-                  View All Locations
-                </a>
-              </div>
-            </div>
-          </section>
-
           <section className="py-16 bg-white">
             <div className="max-w-7xl mx-auto px-4">
               <InternalLinks currentPage="/" />
