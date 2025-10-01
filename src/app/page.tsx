@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import dynamic from 'next/dynamic'
 import Header from '@/components/Header'
+import FloatingButtons from '@/components/FloatingButtons'
 import { SEOOptimizedContent } from '@/components/SEOContent'
 import InternalLinks from '@/components/InternalLinks'
 import Breadcrumb from '@/components/Breadcrumb'
@@ -926,6 +927,9 @@ export default function Home() {
           </section>
           <IndoreEscortsContent />
         </main>
+        
+        {/* Floating Contact Buttons - Only on Home Page */}
+        <FloatingButtons />
       </div>
     </>
   )
