@@ -526,9 +526,10 @@ export default function TreasureIslandPage() {
             </div>
           </div>
         </section>
-
-        {/* Footer - Same as Homepage */}
-        <footer className="bg-gradient-to-br from-pink-600/95 via-purple-700/90 to-orange-600/95 text-white py-20 relative">
+      </div>
+    </>
+  )
+}
           <div className="w-full px-4 relative z-10">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               
