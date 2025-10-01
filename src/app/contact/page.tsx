@@ -121,9 +121,9 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Action buttons removed from hero - header and floating CTAs provide quick contact */}
+            {/* Contact information */}
             <div className="flex justify-center mb-8">
-              <p className="text-sm text-pink-700">Quick contact is available via the header icons or the floating Call/WhatsApp buttons at the bottom of the screen.</p>
+              <p className="text-sm text-pink-700">Get in touch with us using the contact information and form below.</p>
             </div>
           </div>
         </section>

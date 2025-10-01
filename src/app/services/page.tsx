@@ -53,7 +53,7 @@ export default function ServicesPage() {
               Discover our comprehensive range of premium escort services with verified professional companions available 24/7.
             </p>
             <div className="flex justify-center mb-10">
-              <p className="text-sm text-gray-800">Quick contact has been moved to the header and floating buttons for consistent access across pages.</p>
+              <p className="text-sm text-gray-800">Browse our services below or visit our contact page to get in touch with us.</p>
             </div>
           </div>
         </section>

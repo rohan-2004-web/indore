@@ -251,29 +251,6 @@ export default function RootLayout({
         <CriticalCSS />
         <PerformanceMonitor />
         <Header />
-        {/* Floating Call & WhatsApp Buttons - responsive: stacked on small, split on md+ */}
-        <div>
-          {/* Small screens: stacked bottom-right */}
-          <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-4 items-end md:hidden">
-            <a href="tel:+919372662471" className="inline-flex items-center gap-4 bg-[#EC4899] hover:bg-pink-600 text-white px-8 py-3 rounded-full shadow-lg transition-transform transform hover:scale-105">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" className="w-7 h-7"><circle cx="16" cy="16" r="16" fill="#EC4899"/><path d="M22.7 19.2c-1.2-.5-2.4-1.1-3.5-1.8-.3-.2-.7-.2-1 .1l-1.2 1c-2.2-1.2-4-3-5.2-5.2l1-1.2c.3-.3.3-.7.1-1-0.7-1.1-1.3-2.3-1.8-3.5-.2-.4-.6-.6-1-.6H7.1c-.6 0-1.1.5-1.1 1.1 0 7.2 5.8 13 13 13 .6 0 1.1-.5 1.1-1.1v-2.1c0-.4-.2-.8-.6-1z" fill="#fff"/></svg>
-              <span className="text-lg font-bold">Call Now</span>
-            </a>
-            <a href="https://wa.me/919372662471" target="_blank" className="inline-flex items-center gap-4 bg-[#25D366] hover:bg-green-600 text-white px-8 py-3 rounded-full shadow-lg transition-transform transform hover:scale-105">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" className="w-7 h-7"><circle cx="16" cy="16" r="16" fill="#25D366"/><path d="M22.1 19.6c-.3-.2-1.7-.8-2-.9-.3-.1-.5-.1-.7.2-.2.3-.7.9-.9 1.1-.2.2-.4.2-.7.1-.3-.1-1.2-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.2-.2.2-.3.3-.5.1-.2.1-.4-.1-.5-.1-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5-.2 0-.4 0-.6 0-.2 0-.5.1-.7.4-.2.3-.9.9-.9 2.3 0 1.4 1 2.7 1.1 2.9.1.2 1.9 2.9 4.7 4 3.2 1.2 3.2.8 3.8.8.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4z" fill="#fff"/></svg>
-              <span className="text-lg font-bold">WhatsApp</span>
-            </a>
-          </div>
-
-          {/* Medium+ screens: Call on left, WhatsApp on right */}
-          <a href="tel:+919372662471" aria-label="Call us" className="hidden md:flex fixed bottom-8 left-12 z-50 items-center justify-center w-24 h-24 bg-[#EC4899] hover:bg-pink-600 text-white rounded-full shadow-xl hover:scale-105 transition-all font-bold ring-2 ring-pink-300/30">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" className="w-12 h-12"><circle cx="16" cy="16" r="16" fill="#EC4899"/><path d="M22.7 19.2c-1.2-.5-2.4-1.1-3.5-1.8-.3-.2-.7-.2-1 .1l-1.2 1c-2.2-1.2-4-3-5.2-5.2l1-1.2c.3-.3.3-.7.1-1-0.7-1.1-1.3-2.3-1.8-3.5-.2-.4-.6-.6-1-.6H7.1c-.6 0-1.1.5-1.1 1.1 0 7.2 5.8 13 13 13 .6 0 1.1-.5 1.1-1.1v-2.1c0-.4-.2-.8-.6-1z" fill="#fff"/></svg>
-          </a>
-
-          <a href="https://wa.me/919372662471" target="_blank" aria-label="WhatsApp" className="hidden md:flex fixed bottom-8 right-12 z-50 items-center justify-center w-24 h-24 bg-[#25D366] hover:bg-green-600 text-white rounded-full shadow-xl hover:scale-105 transition-all font-bold ring-2 ring-green-300/30">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" className="w-12 h-12"><circle cx="16" cy="16" r="16" fill="#25D366"/><path d="M22.1 19.6c-.3-.2-1.7-.8-2-.9-.3-.1-.5-.1-.7.2-.2.3-.7.9-.9 1.1-.2.2-.4.2-.7.1-.3-.1-1.2-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.2-.2.2-.3.3-.5.1-.2.1-.4-.1-.5-.1-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5-.2 0-.4 0-.6 0-.2 0-.5.1-.7.4-.2.3-.9.9-.9 2.3 0 1.4 1 2.7 1.1 2.9.1.2 1.9 2.9 4.7 4 3.2 1.2 3.2.8 3.8.8.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4z" fill="#fff"/></svg>
-          </a>
-        </div>
         {children}
         <InternalLinkingFooter />
       </body>

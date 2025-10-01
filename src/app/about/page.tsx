@@ -194,9 +194,9 @@ export default function AboutPage() {
             </p>
           </div>
 
-          {/* Hero CTAs removed - header and floating icons handle quick contact */}
+          {/* Contact information */}
           <div className="flex justify-center mb-16">
-            <p className="text-sm text-gray-800">For quick booking, use the header icons or the floating Call/WhatsApp buttons.</p>
+            <p className="text-sm text-gray-800">Learn more about our services or contact us through our contact page.</p>
           </div>
 
           {/* Trust Indicators - Home Page Style */}

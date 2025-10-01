@@ -116,9 +116,9 @@ export default function Home() {
                   </div>
                 </div>
 
-                {/* CTA Buttons removed from hero - use header quick icons and floating CTAs instead */}
+                {/* Contact information */}
                 <div className="flex justify-center items-center mb-8">
-                  <p className="text-sm text-gray-700">Use the quick contact icons in the header or the floating buttons to call or WhatsApp us.</p>
+                  <p className="text-sm text-gray-700">Contact us using the navigation menu or visit our contact page for more information.</p>
                 </div>
                 
                 {/* Stats */}

@@ -185,7 +185,7 @@ export default function GalleryPage() {
               Explore our gallery of beautiful and professional companions available in Indore
             </p>
             <div className="flex justify-center mb-10">
-              <p className="text-sm text-gray-800">For quick contact, use the header icons or the floating Call/WhatsApp buttons available site-wide.</p>
+              <p className="text-sm text-gray-800">For more information or to make an inquiry, please visit our contact page.</p>
             </div>
           </div>
         </section>
