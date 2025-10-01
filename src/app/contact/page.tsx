@@ -552,7 +552,7 @@ export default function ContactPage() {
                 </div>
               </div>
               <h2 className="text-6xl md:text-7xl font-black bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent mb-8">
-                Service Areas in Indore
+                Contact Us - Get In Touch
               </h2>
               <p className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent max-w-4xl mx-auto leading-relaxed">
                 🌈 We provide premium escort services across all major areas in Indore with colorful excellence! 🌈

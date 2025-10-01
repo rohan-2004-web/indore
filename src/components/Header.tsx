@@ -22,9 +22,9 @@ export default function Header() {
         : 'bg-transparent'
     }`}>
       <nav className="container mx-auto px-4 py-2">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between relative">
           {/* Logo */}
-          <div className="text-2xl font-bold">
+          <div className="text-2xl font-bold flex-shrink-0">
             <span className="bg-gradient-to-r from-blue-600 via-orange-500 to-blue-700 bg-clip-text text-transparent drop-shadow-2xl filter brightness-110">
               Saumya Kapoor
             </span>
@@ -32,25 +32,25 @@ export default function Header() {
 
           {/* Centered Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8 absolute left-1/2 transform -translate-x-1/2">
-            <Link href="/" className="font-black text-xl text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
+            <Link href="/" className="font-black text-lg text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
               Home
             </Link>
-            <Link href="/about" className="font-black text-xl text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
+            <Link href="/about" className="font-black text-lg text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
               About
             </Link>
-            <Link href="/services" className="font-black text-xl text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
+            <Link href="/services" className="font-black text-lg text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
               Services
             </Link>
-            <Link href="/gallery" className="font-black text-xl text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
+            <Link href="/gallery" className="font-black text-lg text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
               Gallery
             </Link>
-            <Link href="/contact" className="font-black text-xl text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
+            <Link href="/contact" className="font-black text-lg text-black hover:text-pink-500 transition-all duration-300 hover:scale-105">
               Contact
             </Link>
           </div>
 
           {/* Right Side - Call and WhatsApp Buttons */}
-          <div className="hidden md:flex items-center gap-3">
+          <div className="hidden md:flex items-center gap-3 flex-shrink-0">
             {/* Call Now Button */}
             <a 
               href="tel:+919372662471" 
