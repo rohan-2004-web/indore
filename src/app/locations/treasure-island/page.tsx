@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Header from '@/components/Header'
+import TreasureIslandEscortsContent from './components/TreasureIslandEscortsContent'
 
 export default function TreasureIslandPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -497,6 +498,9 @@ export default function TreasureIslandPage() {
             </div>
           </div>
         </section>
+
+        {/* Treasure Island Escorts Content Section */}
+        <TreasureIslandEscortsContent />
 
         {/* Call to Action Section */}
         <section className="py-20 relative">
