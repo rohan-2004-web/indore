@@ -19,7 +19,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/admin/', '/api/', '/_next/', '/private/'],
       }
     ],
-    sitemap: 'https://saumyakapoor.in/sitemap.xml',
-    host: 'https://saumyakapoor.in'
+    sitemap: 'https://saumyakapoor.in/sitemap.xml'
   }
 }
