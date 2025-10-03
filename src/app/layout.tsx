@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import "./accessibility.css";
 import Header from "@/components/Header";
 import CriticalCSS from "@/components/CriticalCSS";
 import { PerformanceMonitor } from "@/hooks/usePerformanceMonitor";
@@ -17,17 +18,46 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://saumyakapoor.in'),
-  title: 'Indore Escort Service | Premium Call Girls Service in Indore 24/7 | Top Rated Agency',
+  title: {
+    default: 'Indore Escort Service | Premium Call Girls Service in Indore 24/7 | Top Rated Agency',
+    template: '%s | Saumya Kapoor - Premium Escort Service in Indore'
+  },
   description: 'Best Indore escort service with premium call girls available 24/7. Trusted agency offering VIP companions in Vijay Nagar, Palasia, AB Road, Saket & all Indore locations. Call +919372662471',
   keywords: 'Indore escort service, Indore call girls, escort service Indore, call girls Indore, Indore escorts, VIP escorts Indore, premium escort service, Vijay Nagar escorts, Palasia escorts, AB Road call girls, Saket escorts, Indore companion service, best escort agency Indore, 24/7 escort service',
-  authors: [{ name: 'Indore Premium Escort Service' }],
+  authors: [{ name: 'Indore Premium Escort Service', url: 'https://saumyakapoor.in' }],
   creator: 'Indore Premium Escort Service',
   publisher: 'Indore Premium Escort Service',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: 'https://saumyakapoor.in',
+    languages: {
+      'en-US': 'https://saumyakapoor.in',
+      'en': 'https://saumyakapoor.in',
+    },
+  },
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
+  verification: {
+    google: 'your-google-verification-code',
+    other: {
+      'msvalidate.01': 'your-bing-verification-code',
+    },
+  },
+  category: 'Adult Services',
+  classification: 'Adult Content',
   openGraph: {
     title: 'Indore Escort Service | Premium Call Girls Service in Indore 24/7',
     description: 'Best Indore escort service with premium call girls available 24/7. Trusted agency offering VIP companions in all Indore locations. Professional & discreet service.',
@@ -40,7 +70,15 @@ export const metadata: Metadata = {
         url: '/images/services/indore escorts.webp',
         width: 1200,
         height: 630,
-        alt: 'Indore Premium Escort Service',
+        alt: 'Indore Premium Escort Service - Professional VIP Companions',
+        type: 'image/webp',
+      },
+      {
+        url: '/images/services/Premium Models.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Premium Models and VIP Escorts in Indore',
+        type: 'image/jpeg',
       },
     ],
   },
@@ -48,33 +86,16 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Indore Escort Service | Premium Call Girls Service in Indore 24/7',
     description: 'Best Indore escort service with premium call girls available 24/7. Trusted agency offering VIP companions in all Indore locations.',
+    images: ['/images/services/indore escorts.webp'],
     creator: '@indoreescorts',
     site: '@indoreescorts',
-    images: ['/images/services/indore escorts.webp'],
   },
-  robots: {
-    index: true,
-    follow: true,
-    nocache: false,
-    googleBot: {
-      index: true,
-      follow: true,
-      noimageindex: false,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
+  appleWebApp: {
+    capable: true,
+    title: 'Indore Escort Service',
+    statusBarStyle: 'default',
   },
-  alternates: {
-    canonical: 'https://saumyakapoor.in',
-  },
-  category: 'Adult Services',
-  other: {
-    'revisit-after': '7 days',
-    'distribution': 'global',
-    'rating': 'adult',
-    'copyright': 'Indore Premium Escort Service',
-  },
+  applicationName: 'Indore Premium Escort Service',
 };
 
 export default function RootLayout({
@@ -216,7 +237,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en">
+    <html lang="en" dir="ltr">
       <head>
         <script
           type="application/ld+json"
@@ -236,17 +257,55 @@ export default function RootLayout({
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        
+        {/* Additional SEO Meta Tags */}
+        <meta name="format-detection" content="telephone=yes" />
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="MobileOptimized" content="width" />
+        <meta name="referrer" content="origin-when-cross-origin" />
+        <meta httpEquiv="Content-Language" content="en-US" />
+        <meta name="rating" content="mature" />
+        <meta name="distribution" content="global" />
+        <meta name="revisit-after" content="1 days" />
+        
+        <link rel="icon" href="/favicon.ico" />
         <link rel="manifest" href="/site.webmanifest" />
+        
+        {/* Service Worker Registration */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              if ('serviceWorker' in navigator) {
+                window.addEventListener('load', function() {
+                  navigator.serviceWorker.register('/sw.js')
+                    .then(function(registration) {
+                      console.log('SW registered: ', registration);
+                    })
+                    .catch(function(registrationError) {
+                      console.log('SW registration failed: ', registrationError);
+                    });
+                });
+              }
+            `,
+          }}
+        />
         <FastIndexingSchemas />
       </head>
       <body className={inter.className}>
+        {/* Skip to main content link for keyboard navigation */}
+        <a href="#main-content" className="skip-link">
+          Skip to main content
+        </a>
+        
         <CriticalCSS />
         <PerformanceMonitor />
+        
         <Header />
-        {children}
+        
+        <main id="main-content" role="main" aria-label="Main content">
+          {children}
+        </main>
+        
         <InternalLinkingFooter />
       </body>
     </html>

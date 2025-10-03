@@ -64,15 +64,19 @@ export default function Home() {
     <>
       <div className="min-h-screen bg-gradient-to-br from-pink-100 via-orange-50 to-pink-200">
         <Header />
-        <main className="pt-20">
+        <main className="pt-20" id="main-content">
           <Breadcrumb 
             items={[
               { name: 'Home', href: '/' }
             ]}
           />
           
-          <section className="relative py-20 bg-gradient-to-br from-pink-300/95 via-orange-200/90 to-pink-300/95 overflow-hidden">
-            <div className="absolute inset-0">
+          <section 
+            className="relative py-20 bg-gradient-to-br from-pink-300/95 via-orange-200/90 to-pink-300/95 overflow-hidden"
+            aria-labelledby="hero-heading"
+            role="banner"
+          >
+            <div className="absolute inset-0" aria-hidden="true">
               <div className="absolute top-10 left-10 w-72 h-72 bg-gradient-to-br from-pink-400/30 to-orange-300/30 rounded-full blur-3xl animate-pulse"></div>
               <div className="absolute bottom-20 right-16 w-96 h-96 bg-gradient-to-br from-orange-400/25 to-pink-400/25 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-br from-pink-300/20 to-orange-300/20 rounded-full blur-2xl animate-pulse" style={{animationDelay: '2s'}}></div>
@@ -83,7 +87,10 @@ export default function Home() {
             <div className="max-w-8xl mx-auto px-6 relative z-10">
               <div className="text-center">
                 {/* Main Heading */}
-                <h1 className="text-3xl md:text-5xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
+                <h1 
+                  id="hero-heading"
+                  className="text-3xl md:text-5xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl"
+                >
                   Escorts in Indore - Premium VIP Services
                 </h1>
                 
@@ -100,18 +107,34 @@ export default function Home() {
                   </p>
                   
                   {/* Feature badges */}
-                  <div className="flex flex-wrap justify-center gap-6 mb-10">
-                    <div className="bg-white/95 border-2 border-pink-300 text-pink-700 px-6 py-3 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all">
-                      ✨ 100% Verified Escorts
+                  <div 
+                    className="flex flex-wrap justify-center gap-6 mb-10"
+                    role="list"
+                    aria-label="Service features"
+                  >
+                    <div 
+                      className="bg-white/95 border-2 border-pink-300 text-pink-700 px-6 py-3 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all"
+                      role="listitem"
+                    >
+                      <span aria-hidden="true">✨</span> 100% Verified Escorts
                     </div>
-                    <div className="bg-white/95 border-2 border-orange-300 text-orange-700 px-6 py-3 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all">
-                      🔒 Safe & Discreet Services
+                    <div 
+                      className="bg-white/95 border-2 border-orange-300 text-orange-700 px-6 py-3 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all"
+                      role="listitem"
+                    >
+                      <span aria-hidden="true">🔒</span> Safe & Discreet Services
                     </div>
-                    <div className="bg-white/95 border-2 border-pink-300 text-pink-700 px-6 py-3 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all">
-                      ⚡ Instant Booking in Indore
+                    <div 
+                      className="bg-white/95 border-2 border-pink-300 text-pink-700 px-6 py-3 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all"
+                      role="listitem"
+                    >
+                      <span aria-hidden="true">⚡</span> Instant Booking in Indore
                     </div>
-                    <div className="bg-white/95 border-2 border-orange-300 text-orange-700 px-6 py-3 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all">
-                      🎯 Premium Quality Guaranteed
+                    <div 
+                      className="bg-white/95 border-2 border-orange-300 text-orange-700 px-6 py-3 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all"
+                      role="listitem"
+                    >
+                      <span aria-hidden="true">🎯</span> Premium Quality Guaranteed
                     </div>
                   </div>
                 </div>
@@ -122,38 +145,46 @@ export default function Home() {
                 </div>
                 
                 {/* Stats */}
-                <div className="grid grid-cols-2 md:grid-cols-5 gap-4 max-w-4xl mx-auto text-center">
+                <div 
+                  className="grid grid-cols-2 md:grid-cols-5 gap-4 max-w-4xl mx-auto text-center"
+                  role="region"
+                  aria-label="Service statistics"
+                >
                   <div className="text-gray-800">
-                    <div className="text-2xl font-bold text-pink-600">5000+</div>
+                    <div className="text-2xl font-bold text-pink-600" aria-label="5000 plus">5000+</div>
                     <div className="text-sm text-gray-600">Verified Escorts in Indore</div>
                   </div>
                   <div className="text-gray-800">
-                    <div className="text-2xl font-bold text-purple-600">100%</div>
+                    <div className="text-2xl font-bold text-purple-600" aria-label="100 percent">100%</div>
                     <div className="text-sm text-gray-600">Safe & Private Services</div>
                   </div>
                   <div className="text-gray-800">
-                    <div className="text-2xl font-bold text-yellow-600">⭐ 4.9/5</div>
+                    <div className="text-2xl font-bold text-yellow-600" aria-label="4.9 out of 5 stars">⭐ 4.9/5</div>
                     <div className="text-sm text-gray-600">Client Rating (3500+ Reviews)</div>
                   </div>
                   <div className="text-gray-800">
-                    <div className="text-2xl font-bold text-green-600">24/7</div>
+                    <div className="text-2xl font-bold text-green-600" aria-label="24 hours 7 days">24/7</div>
                     <div className="text-sm text-gray-600">Available Across Indore</div>
                   </div>
                   <div className="text-gray-800">
-                    <div className="text-2xl font-bold text-blue-600">🏙️</div>
+                    <div className="text-2xl font-bold text-blue-600" aria-hidden="true">🏙️</div>
                     <div className="text-sm text-gray-600">All Indore Areas Covered</div>
                   </div>
                 </div>
                 
                 {/* Additional info */}
                 <div className="mt-8 text-center">
-                  <div className="flex flex-wrap justify-center gap-6 text-gray-600 text-sm">
-                    <div className="flex items-center gap-2">
-                      <span>⏱️</span>
+                  <div 
+                    className="flex flex-wrap justify-center gap-6 text-gray-600 text-sm"
+                    role="list"
+                    aria-label="Additional service information"
+                  >
+                    <div className="flex items-center gap-2" role="listitem">
+                      <span aria-hidden="true">⏱️</span>
                       <span>30-Min Quick Arrival</span>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <span>🎯</span>
+                    <div className="flex items-center gap-2" role="listitem">
+                      <span aria-hidden="true">🎯</span>
                       <span>Premium Escorts in Indore</span>
                     </div>
                   </div>
