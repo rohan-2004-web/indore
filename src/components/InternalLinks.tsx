@@ -69,16 +69,16 @@ export default function InternalLinks({ currentPage, location, className = '' }:
       keyword: 'Vijay Nagar escorts'
     },
     {
-      href: '/locations/new-palasia',
-      title: 'New Palasia Escorts',
-      description: 'Premium companions in New Palasia',
-      keyword: 'New Palasia escorts'
+      href: '/locations/airport-road',
+      title: 'Airport Road Escorts',
+      description: 'Premium companions near Airport Road',
+      keyword: 'Airport Road escorts'
     },
     {
-      href: '/locations/indore-gpo',
-      title: 'Indore GPO Escorts',
-      description: 'Professional service near Indore GPO',
-      keyword: 'Indore GPO escorts'
+      href: '/locations/bombay-hospital',
+      title: 'Bombay Hospital Escorts',
+      description: 'Professional service near Bombay Hospital',
+      keyword: 'Bombay Hospital escorts'
     },
     {
       href: '/locations/rajwada',
@@ -87,34 +87,28 @@ export default function InternalLinks({ currentPage, location, className = '' }:
       keyword: 'Rajwada escorts'
     },
     {
-      href: '/locations/sarafa-bazaar',
-      title: 'Sarafa Bazaar Escorts',
-      description: 'Escorts near famous Sarafa Bazaar',
-      keyword: 'Sarafa Bazaar escorts'
+      href: '/locations/mg-road',
+      title: 'MG Road Escorts',
+      description: 'Business center escort companions',
+      keyword: 'MG Road escorts'
     },
     {
-      href: '/locations/khajrana',
-      title: 'Khajrana Escorts',
-      description: 'Temple area professional escort service',
-      keyword: 'Khajrana escorts'
+      href: '/locations/ring-road',
+      title: 'Ring Road Escorts',
+      description: 'Well-connected area escort service',
+      keyword: 'Ring Road escorts'
     },
     {
-      href: '/locations/kanadiya',
-      title: 'Kanadiya Escorts',
-      description: 'Industrial area escort companions',
-      keyword: 'Kanadiya escorts'
-    },
-    {
-      href: '/locations/scheme-no-78',
-      title: 'Scheme No 78 Escorts',
+      href: '/locations/scheme-78',
+      title: 'Scheme 78 Escorts',
       description: 'Residential area premium service',
       keyword: 'Scheme 78 escorts'
     },
     {
-      href: '/locations/sudama-nagar',
-      title: 'Sudama Nagar Escorts',
-      description: 'Quality escorts in Sudama Nagar',
-      keyword: 'Sudama Nagar escorts'
+      href: '/locations/treasure-island',
+      title: 'Treasure Island Escorts',
+      description: 'Premium mall area escort service',
+      keyword: 'Treasure Island escorts'
     }
   ]
 

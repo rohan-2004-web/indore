@@ -67,10 +67,6 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://saumyakapoor.in',
-    languages: {
-      'en-US': 'https://saumyakapoor.in',
-      'hi-IN': 'https://saumyakapoor.in/hi',
-    },
   },
   category: 'Adult Services',
   other: {

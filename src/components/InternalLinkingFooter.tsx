@@ -7,14 +7,14 @@ export default function InternalLinkingFooter() {
     { name: 'Palasia', slug: 'palasia' },
     { name: 'Bhawar Kuan', slug: 'bhawar-kuan' },
     { name: 'Vijay Nagar', slug: 'vijay-nagar' },
-    { name: 'New Palasia', slug: 'new-palasia' },
-    { name: 'Indore GPO', slug: 'indore-gpo' },
+    { name: 'Airport Road', slug: 'airport-road' },
+    { name: 'Bombay Hospital', slug: 'bombay-hospital' },
     { name: 'Rajwada', slug: 'rajwada' },
-    { name: 'Sarafa Bazaar', slug: 'sarafa-bazaar' },
-    { name: 'Khajrana', slug: 'khajrana' },
-    { name: 'Kanadiya', slug: 'kanadiya' },
-    { name: 'Scheme No 78', slug: 'scheme-no-78' },
-    { name: 'Sudama Nagar', slug: 'sudama-nagar' }
+    { name: 'MG Road', slug: 'mg-road' },
+    { name: 'Ring Road', slug: 'ring-road' },
+    { name: 'Saket', slug: 'saket' },
+    { name: 'Scheme 78', slug: 'scheme-78' },
+    { name: 'Treasure Island', slug: 'treasure-island' }
   ]
 
   const services = [
