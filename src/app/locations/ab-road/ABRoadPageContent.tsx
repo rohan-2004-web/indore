@@ -5,6 +5,7 @@ import Header from '@/components/Header'
 import Breadcrumb, { generateBreadcrumbs } from '@/components/Breadcrumb'
 import InternalLinks from '@/components/InternalLinks'
 import { SEOOptimizedContent } from '@/components/SEOContent'
+import ABRoadEscortsContent from './components/ABRoadEscortsContent'
 
 export default function ABRoadPageContent() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -541,6 +542,9 @@ export default function ABRoadPageContent() {
             </div>
           </div>
         </section>
+
+        {/* Comprehensive AB Road Escorts Content */}
+        <ABRoadEscortsContent />
 
         {/* Call to Action Section */}
         <section className="py-20 relative">
