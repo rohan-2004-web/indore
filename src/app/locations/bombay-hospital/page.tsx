@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Header from '@/components/Header'
+import BombayHospitalEscortsContent from './components/BombayHospitalEscortsContent'
 
 export default function BombayHospitalPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -497,6 +498,9 @@ export default function BombayHospitalPage() {
             </div>
           </div>
         </section>
+
+        {/* Comprehensive Bombay Hospital Escorts Content */}
+        <BombayHospitalEscortsContent />
 
         {/* Call to Action Section */}
         <section className="py-20 relative">
