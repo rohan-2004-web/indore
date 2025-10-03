@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Header from '@/components/Header'
+import PalasiaEscortsContent from './components/PalasiaEscortsContent'
 
 export default function PalasiaPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -497,6 +498,9 @@ export default function PalasiaPage() {
             </div>
           </div>
         </section>
+
+        {/* Comprehensive Palasia Escorts Content */}
+        <PalasiaEscortsContent />
 
         {/* Call to Action Section */}
         <section className="py-20 relative">
