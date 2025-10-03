@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Header from '@/components/Header'
+import MGRoadEscortsContent from './components/MGRoadEscortsContent'
 
 export default function MGRoadPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -497,6 +498,9 @@ export default function MGRoadPage() {
             </div>
           </div>
         </section>
+
+        {/* MG Road Escorts Content Section */}
+        <MGRoadEscortsContent />
 
         {/* Call to Action Section */}
         <section className="py-20 relative">
