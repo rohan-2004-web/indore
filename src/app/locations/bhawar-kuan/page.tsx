@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Header from '@/components/Header'
+import BhawarKuanEscortsContent from './components/BhawarKuanEscortsContent'
 
 export default function BhawarKuanPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -497,6 +498,9 @@ export default function BhawarKuanPage() {
             </div>
           </div>
         </section>
+
+        {/* Comprehensive Bhawar Kuan Escorts Content */}
+        <BhawarKuanEscortsContent />
 
         {/* Call to Action Section */}
         <section className="py-20 relative">
