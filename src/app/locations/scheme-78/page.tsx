@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Header from '@/components/Header'
+import Scheme78EscortsContent from './components/Scheme78EscortsContent'
 
 export default function Scheme78Page() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -497,6 +498,9 @@ export default function Scheme78Page() {
             </div>
           </div>
         </section>
+
+        {/* Comprehensive Scheme 78 Escorts Content */}
+        <Scheme78EscortsContent />
 
         {/* Call to Action Section */}
         <section className="py-20 relative">
