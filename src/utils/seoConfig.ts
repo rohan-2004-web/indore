@@ -73,7 +73,7 @@ export function generateMetadata(config: SEOConfig): Metadata {
       siteName: siteName,
       images: [
         {
-          url: config.ogImage || '/og-image.jpg',
+          url: config.ogImage || '/images/services/indore escorts.webp',
           width: 1200,
           height: 630,
           alt: enhancedTitle,
@@ -86,7 +86,7 @@ export function generateMetadata(config: SEOConfig): Metadata {
       description: enhancedDescription,
       creator: '@indoreescorts',
       site: '@indoreescorts',
-      images: [config.ogImage || '/og-image.jpg'],
+      images: [config.ogImage || '/images/services/indore escorts.webp'],
     },
     robots: {
       index: true,

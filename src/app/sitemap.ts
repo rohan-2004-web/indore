@@ -3,17 +3,22 @@ import { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://saumyakapoor.in'
   
-  // All Indore locations for escort services
+  // All Indore locations for escort services (matching actual existing pages)
   const locations = [
-    'ab-road', 'palasia', 'bhawar-kuan', 'vijay-nagar', 
-    'new-palasia', 'indore-gpo', 'rajwada', 'sarafa-bazaar', 
-    'khajrana', 'kanadiya', 'scheme-no-78', 'sudama-nagar'
+    'ab-road', 'airport-road', 'bhawar-kuan', 'bombay-hospital',
+    'mg-road', 'palasia', 'rajwada', 'ring-road', 'saket',
+    'scheme-78', 'treasure-island', 'vijay-nagar'
   ]
   
-  // Service pages for better SEO coverage
+  // Service pages for better SEO coverage (matching actual existing pages)
   const services = [
-    'vip-escort', 'premium-escort', 'luxury-escort', 'call-girl',
-    'independent-escort', 'russian-escort', 'college-girl-escort'
+    'bold-girls', 'call-girl', 'celebrity-escorts', 'college-girl-escort',
+    'college-girls', 'event-companion', 'expert-services', 'high-class-models',
+    'housewife-escorts', 'incall-escorts', 'independent-escort', 'indore-escorts',
+    'local-beauties', 'luxury-escort', 'mature-escorts', 'pink-special',
+    'premium-escort', 'premium-models', 'punjabi-women', 'russian-escort',
+    'sexy-girls', 'slim-escorts', 'unsatisfied-bhabhi', 'unsatisfied-females',
+    'vip-escort', 'vip-escorts', 'young-girls'
   ]
 
   return [

@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: 'Indore Premium Escort Service',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/images/services/indore escorts.webp',
         width: 1200,
         height: 630,
         alt: 'Indore Premium Escort Service',
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     description: 'Best Indore escort service with premium call girls available 24/7. Trusted agency offering VIP companions in all Indore locations.',
     creator: '@indoreescorts',
     site: '@indoreescorts',
-    images: ['/og-image.jpg'],
+    images: ['/images/services/indore escorts.webp'],
   },
   robots: {
     index: true,
@@ -96,8 +96,7 @@ export default function RootLayout({
     legalName: 'Indore Premium Escort Service',
     description: 'Leading professional escort service agency in Indore providing premium companions and VIP escort services across all major locations with 24/7 availability.',
     url: 'https://saumyakapoor.in',
-    logo: 'https://saumyakapoor.in/logo.png',
-    image: 'https://saumyakapoor.in/og-image.jpg',
+    image: 'https://saumyakapoor.in/images/services/indore escorts.webp',
     telephone: '+919372662471',
     email: 'contact@indoreescortservice.com',
     address: {

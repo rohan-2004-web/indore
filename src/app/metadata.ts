@@ -13,19 +13,18 @@ export const metadata: Metadata = {
     telephone: false,
   },
   verification: {
-    google: 'your-google-verification-code',
-    yandex: 'your-yandex-verification-code',
+    google: 'google8ca85fc03eb3c8d6',
   },
   openGraph: {
     title: 'Indore Escort Service | Premium Call Girls Service in Indore 24/7',
     description: 'Best Indore escort service with premium call girls available 24/7. Trusted agency offering VIP companions in all Indore locations. Professional & discreet service.',
     type: 'website',
     locale: 'en_US',
-    url: 'https://indoreescortservice.com',
+    url: 'https://saumyakapoor.in',
     siteName: 'Indore Premium Escort Service',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/images/services/indore escorts.webp',
         width: 1200,
         height: 630,
         alt: 'Indore Premium Escort Service',
@@ -38,7 +37,7 @@ export const metadata: Metadata = {
     description: 'Best Indore escort service with premium call girls available 24/7. Trusted agency offering VIP companions in all Indore locations.',
     creator: '@indoreescorts',
     site: '@indoreescorts',
-    images: ['/og-image.jpg'],
+    images: ['/images/services/indore escorts.webp'],
   },
   robots: {
     index: true,
@@ -54,11 +53,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://indoreescortservice.com',
-    languages: {
-      'en-US': 'https://indoreescortservice.com',
-      'hi-IN': 'https://indoreescortservice.com/hi',
-    },
+    canonical: 'https://saumyakapoor.in',
   },
   category: 'Adult Services',
   other: {

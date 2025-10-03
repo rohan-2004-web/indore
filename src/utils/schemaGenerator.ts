@@ -146,7 +146,7 @@ export function generateOrganizationSchema() {
     "legalName": "Indore Premium Escort Service",
     "url": baseUrl,
     "logo": `${baseUrl}/logo.png`,
-    "image": `${baseUrl}/og-image.jpg`,
+    "image": `${baseUrl}/images/services/indore escorts.webp`,
     "description": "Leading escort service agency in Indore providing premium companions and professional escort services across all major locations.",
     "founder": {
       "@type": "Person",
