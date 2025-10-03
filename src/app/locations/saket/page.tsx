@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Header from '@/components/Header'
+import SaketEscortsContent from './components/SaketEscortsContent'
 
 export default function SaketPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -497,6 +498,9 @@ export default function SaketPage() {
             </div>
           </div>
         </section>
+
+        {/* Comprehensive Saket Escorts Content */}
+        <SaketEscortsContent />
 
         {/* Call to Action Section */}
         <section className="py-20 relative">
