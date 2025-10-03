@@ -4,21 +4,19 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: [
       {
-        userAgent: '*',
-        allow: ['/', '/locations/', '/services/'],
-        disallow: ['/admin/', '/api/', '/_next/', '/private/'],
-        crawlDelay: 1,
-      },
-      {
         userAgent: 'Googlebot',
         allow: '/',
-        disallow: ['/admin/', '/private/'],
+        disallow: ['/admin/', '/private/', '/api/', '/_next/'],
       },
       {
         userAgent: 'Bingbot',
         allow: '/',
-        disallow: ['/admin/', '/private/'],
-        crawlDelay: 1,
+        disallow: ['/admin/', '/private/', '/api/', '/_next/'],
+      },
+      {
+        userAgent: '*',
+        allow: ['/', '/locations/', '/services/'],
+        disallow: ['/admin/', '/api/', '/_next/', '/private/'],
       }
     ],
     sitemap: 'https://saumyakapoor.in/sitemap.xml',
