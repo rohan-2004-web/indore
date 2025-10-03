@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Header from '@/components/Header'
+import RingRoadEscortsContent from './components/RingRoadEscortsContent'
 
 export default function RingRoadPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -497,6 +498,9 @@ export default function RingRoadPage() {
             </div>
           </div>
         </section>
+
+        {/* Comprehensive Ring Road Escorts Content */}
+        <RingRoadEscortsContent />
 
         {/* Call to Action Section */}
         <section className="py-20 relative">
