@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Header from '@/components/Header';
+import EscortServicesContent from './components/EscortServicesContent';
 
 export default function ServicesPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -909,6 +910,9 @@ export default function ServicesPage() {
                   <div className="text-lg font-semibold">Availability</div>
                 </div>
               </div>
+              
+              {/* Comprehensive Escort Services Content */}
+              <EscortServicesContent />
               
               {/* Call to Action */}
               <div className="bg-gradient-to-r from-pink-500 via-purple-600 to-blue-500 rounded-3xl p-8 text-white">
