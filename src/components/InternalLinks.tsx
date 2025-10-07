@@ -244,7 +244,7 @@ export function ContextualLinks({
           <Link
             key={index}
             href={link.href}
-            className="text-pink-600 hover:text-pink-700 underline"
+            className="text-pink-600 hover:text-pink-700"
             title={link.keyword}
           >
             {link.title}

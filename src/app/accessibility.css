@@ -134,13 +134,11 @@ input[type="submit"] {
 
 /* Enhanced link visibility */
 a {
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 3px;
+  text-decoration: none;
 }
 
 a:hover {
-  text-decoration-thickness: 3px;
+  text-decoration: none;
 }
 
 /* Landmark regions styling */

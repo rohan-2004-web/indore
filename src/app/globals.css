@@ -60,3 +60,17 @@ img {
     transform: scale(1.05) translateZ(0);
   }
 }
+
+/* Remove all text underlines globally */
+a, 
+a:hover, 
+a:focus, 
+a:active,
+a:visited {
+  text-decoration: none !important;
+}
+
+/* Remove underline from all elements */
+* {
+  text-decoration: none !important;
+}
