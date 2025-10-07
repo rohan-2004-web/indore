@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     telephone: false,
   },
   verification: {
-    google: 'your-google-verification-code',
+    google: 'google8ca85fc03eb3c8d6',
     other: {
       'msvalidate.01': 'your-bing-verification-code',
     },
