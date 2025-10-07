@@ -539,14 +539,14 @@ export default function Home() {
                   
                   <div className="flex-1 rounded-2xl overflow-hidden shadow-xl border-4 border-purple-200/60">
                     <iframe 
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58911.334850493574!2d75.8152649!3d22.7195687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1635000000000!5m2!1sen!2sin"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58911.33485049357!2d75.81526489999999!3d22.7195687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1696777200000!5m2!1sen!2sin"
                       width="100%" 
                       height="100%" 
                       style={{border: 0}} 
                       allowFullScreen={true}
                       loading="lazy" 
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="Indore Location Map" 
+                      title="Indore Location Map - Premium Escort Services" 
                       className="rounded-xl"
                     ></iframe>
                   </div>

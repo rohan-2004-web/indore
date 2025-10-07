@@ -862,14 +862,14 @@ export default function Home() {
                 <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">🗺️ Service Coverage Area</h3>
                 <div className="w-full h-60 rounded-2xl overflow-hidden shadow-xl mb-6 border-3 border-blue-200/60">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117060.47677400194!2d75.7674914!3d22.7195687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1234567890"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58911.33485049357!2d75.81526489999999!3d22.7195687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1696777200000!5m2!1sen!2sin"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
-                    title="Indore Map - Escort Service Coverage Area"
+                    title="Indore Service Areas Coverage Map"
                   ></iframe>
                 </div>
                 <div className="bg-gradient-to-r from-blue-100 to-cyan-100 rounded-2xl p-4 shadow-lg border border-blue-200/50 mb-4">
