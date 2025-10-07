@@ -96,6 +96,16 @@ export const metadata: Metadata = {
     statusBarStyle: 'default',
   },
   applicationName: 'Indore Premium Escort Service',
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: 'any' },
+      { url: '/favicon.png', type: 'image/png', sizes: '32x32' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180' },
+    ],
+    shortcut: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
@@ -268,7 +278,10 @@ export default function RootLayout({
         <meta name="distribution" content="global" />
         <meta name="revisit-after" content="1 days" />
         
-        <link rel="icon" href="/favicon.ico" />
+        {/* Favicon and App Icons */}
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
+        <link rel="apple-touch-icon" href="/favicon.png" sizes="180x180" />
         <link rel="manifest" href="/site.webmanifest" />
         
         {/* Service Worker Registration */}

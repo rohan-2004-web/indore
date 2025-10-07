@@ -16,6 +16,12 @@
       "sizes": "16x16 32x32 48x48",
       "type": "image/x-icon",
       "purpose": "any"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "32x32 64x64 128x128 180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
   "shortcuts": [
