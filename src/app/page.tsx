@@ -25,6 +25,30 @@ export default function Home() {
     setOpenFaq(openFaq === index ? null : index)
   }
 
+  // Structured data for better indexing
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "ProfessionalService"],
+    "name": "Saumya Kapoor - Indore Escort Service",
+    "description": "Premium call girls in Indore 24/7. Top-rated escort service with VIP companions and discreet professional service.",
+    "url": "https://saumyakapoor.in",
+    "telephone": "+919372662471",
+    "areaServed": {
+      "@type": "City",
+      "name": "Indore",
+      "containedInPlace": {
+        "@type": "State", 
+        "name": "Madhya Pradesh"
+      }
+    },
+    "serviceArea": [
+      "Vijay Nagar", "AB Road", "Palasia", "Bhawar Kuan", "Saket", "Scheme 78", "Airport Road", "MG Road", "Rajwada"
+    ],
+    "availableLanguage": ["Hindi", "English"],
+    "priceRange": "₹₹₹",
+    "openingHours": "Mo-Su 00:00-23:59"
+  }
+
   const faqs = [
     {
       question: "Are your services available 24/7?",

@@ -19,11 +19,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://saumyakapoor.in'),
   title: {
-    default: 'Indore Escort Service | Premium Call Girls Service in Indore 24/7 | Top Rated Agency',
-    template: '%s | Saumya Kapoor - Premium Escort Service in Indore'
+    default: 'Indore Escort Service | Call Girls in Indore 24/7 | Saumya Kapoor Premium Agency',
+    template: '%s | Saumya Kapoor - Call Girls in Indore | Escort Service'
   },
-  description: 'Best Indore escort service with premium call girls available 24/7. Trusted agency offering VIP companions in Vijay Nagar, Palasia, AB Road, Saket & all Indore locations. Call +919372662471',
-  keywords: 'Indore escort service, Indore call girls, escort service Indore, call girls Indore, Indore escorts, VIP escorts Indore, premium escort service, Vijay Nagar escorts, Palasia escorts, AB Road call girls, Saket escorts, Indore companion service, best escort agency Indore, 24/7 escort service',
+  description: 'Top Indore escort service by Saumya Kapoor. Premium call girls in Indore 24/7. VIP escorts Indore, verified profiles, discreet service in Vijay Nagar, AB Road, Palasia. Call +919372662471 for booking.',
+  keywords: 'Indore escort service, call girls in Indore, Indore call girls, Saumya Kapoor Indore, escort service Indore, VIP escorts Indore, call girls Indore 24/7, premium escort service Indore, Indore escorts agency, best escort service Indore, Vijay Nagar call girls, AB Road escorts, Palasia escort service, independent escort Indore',
   authors: [{ name: 'Indore Premium Escort Service', url: 'https://saumyakapoor.in' }],
   creator: 'Indore Premium Escort Service',
   publisher: 'Indore Premium Escort Service',

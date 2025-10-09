@@ -22,25 +22,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ]
 
   return [
-    // Main homepage - highest priority
+    // Main homepage - highest priority for "Indore escort service"
     {
       url: baseUrl,
       lastModified: new Date(),
       changeFrequency: 'daily',
-      priority: 1,
+      priority: 1.0,
     },
-    // Core service pages
+    // Core service pages - main keyword landing pages
     {
       url: `${baseUrl}/services`,
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.9,
+      changeFrequency: 'daily',
+      priority: 0.95,
     },
     {
-      url: `${baseUrl}/locations`,
+      url: `${baseUrl}/locations`, 
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.9,
+      changeFrequency: 'daily',
+      priority: 0.95,
     },
     // Information pages
     {
@@ -82,11 +82,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     })),
     // Service-specific pages for broader keyword coverage
-    ...services.map((service) => ({
-      url: `${baseUrl}/services/${service}`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly' as const,
-      priority: 0.7,
-    }))
+    ...services.map((service) => {
+      // Higher priority for main keyword pages
+      const isMainKeywordPage = ['indore-escorts', 'call-girl', 'vip-escorts', 'college-girls', 'celebrity-escorts'].includes(service)
+      return {
+        url: `${baseUrl}/services/${service}`,
+        lastModified: new Date(),
+        changeFrequency: isMainKeywordPage ? 'daily' as const : 'weekly' as const,
+        priority: isMainKeywordPage ? 0.9 : 0.7,
+      }
+    })
   ]
 }
