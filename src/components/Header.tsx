@@ -114,8 +114,10 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className={`md:hidden transition-colors focus:outline-none focus:ring-2 focus:ring-pink-500 rounded p-2 ${
-              isScrolled ? 'text-gray-700' : 'text-white'
+            className={`md:hidden transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-pink-500 rounded-lg p-3 border-2 shadow-lg ${
+              isScrolled 
+                ? 'text-gray-800 bg-white/90 border-pink-200 hover:bg-pink-50 hover:text-pink-600' 
+                : 'text-white bg-pink-600/90 border-pink-400 hover:bg-pink-700 hover:border-pink-300 backdrop-blur-sm'
             }`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label={isMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
@@ -149,8 +151,10 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className={`transition-colors focus:outline-none focus:ring-2 focus:ring-pink-500 rounded p-2 ${
-              isScrolled ? 'text-gray-700' : 'text-white'
+            className={`transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-pink-500 rounded-lg p-3 border-2 shadow-lg ${
+              isScrolled 
+                ? 'text-gray-800 bg-white/90 border-pink-200 hover:bg-pink-50 hover:text-pink-600' 
+                : 'text-white bg-pink-600/90 border-pink-400 hover:bg-pink-700 hover:border-pink-300 backdrop-blur-sm'
             }`}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label={isMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
@@ -171,7 +175,7 @@ export default function Header() {
         {isMenuOpen && (
           <div 
             id="mobile-menu"
-            className="md:hidden mt-3 pb-3 border-t border-pink-100 bg-black/95 backdrop-blur-lg rounded-lg"
+            className="md:hidden mt-3 pb-3 border-t border-pink-200 bg-gradient-to-b from-pink-900/95 to-purple-900/95 backdrop-blur-lg rounded-lg shadow-2xl border-2 border-pink-400/50"
             role="navigation"
             aria-label="Mobile navigation menu"
           >
