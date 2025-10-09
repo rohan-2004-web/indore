@@ -1,7 +1,7 @@
 {
-  "name": "Indore Escort Service",
-  "short_name": "IndoreEscort",
-  "description": "Premium escort service in Indore with 24/7 availability and top-rated call girls",
+  "name": "Saumya Kapoor - Premium Escort Service in Indore",
+  "short_name": "Saumya Kapoor",
+  "description": "Premium escort service in Indore with 24/7 availability and top-rated call girls - Saumya Kapoor",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#fdf2f8",
@@ -10,6 +10,8 @@
   "scope": "/",
   "lang": "en-US",
   "categories": ["lifestyle", "entertainment"],
+  "dir": "ltr",
+  "prefer_related_applications": false,
   "icons": [
     {
       "src": "/favicon.ico",
@@ -19,9 +21,21 @@
     },
     {
       "src": "/favicon.png",
-      "sizes": "32x32 64x64 128x128 180x180",
+      "sizes": "32x32 64x64 128x128 192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
   "shortcuts": [
