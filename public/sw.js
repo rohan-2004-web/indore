@@ -1,22 +1,40 @@
-// Advanced service worker for performance optimization
-const CACHE_NAME = 'indore-escort-v2'
-const STATIC_CACHE = 'static-v2'
-const DYNAMIC_CACHE = 'dynamic-v2'
+// Ultra Performance Service Worker v3 - Target 100% Score
+const CACHE_NAME = 'indore-escort-v3'
+const STATIC_CACHE = 'static-v3'
+const DYNAMIC_CACHE = 'dynamic-v3'
+const IMAGE_CACHE = 'images-v3'
+const FONT_CACHE = 'fonts-v3'
 
-const staticAssets = [
+const criticalAssets = [
   '/',
-  '/services',
-  '/locations',
-  '/contact',
-  '/about',
-  '/gallery',
+  '/_next/static/css/',
+  '/_next/static/chunks/framework',
+  '/_next/static/chunks/main',
   '/manifest.json'
 ]
 
-const cacheFirst = [
+const staticAssets = [
+  '/services',
+  '/locations', 
+  '/contact',
+  '/about',
+  '/gallery'
+]
+
+const imageAssets = [
   '/images/',
+  '/favicon.ico'
+]
+
+const fontAssets = [
+  'https://fonts.googleapis.com/',
+  'https://fonts.gstatic.com/'
+]
+
+const cacheFirst = [
+  ...imageAssets,
+  ...fontAssets,
   '/_next/static/',
-  '/favicon.ico',
   '/globals.css'
 ]
 

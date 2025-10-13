@@ -5,6 +5,7 @@ import dynamic from 'next/dynamic'
 import Header from '@/components/Header'
 import Breadcrumb from '@/components/Breadcrumb'
 import PerformanceOptimizer from '@/components/PerformanceOptimizer'
+import { HeroImage } from '@/components/UltraOptimizedImage'
 
 // Lazy load all heavy components for better performance
 const ServiceCards = dynamic(() => import('@/components/ServiceCards'), {

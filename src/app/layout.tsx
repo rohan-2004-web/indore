@@ -5,6 +5,7 @@ import "./accessibility.css";
 import "../styles/performance.css";
 import Header from "@/components/Header";
 import CriticalCSS from "@/components/CriticalCSS";
+import { CriticalInlineCSS, CriticalResourceHints } from "@/components/CriticalOptimizations";
 import { PerformanceMonitor } from "@/hooks/usePerformanceMonitor";
 import { FastIndexingSchemas } from "@/components/FastIndexingSchemas";
 import InternalLinkingFooter from "@/components/InternalLinkingFooter";
@@ -293,12 +294,17 @@ export default function RootLayout({
             __html: `
               if ('serviceWorker' in navigator) {
                 window.addEventListener('load', function() {
-                  navigator.serviceWorker.register('/sw.js')
+                  navigator.serviceWorker.register('/sw-v3.js')
                     .then(function(registration) {
-                      console.log('SW registered: ', registration);
+                      console.log('SW v3 registered for ultra performance: ', registration);
+                      
+                      // Trigger background sync for prefetching
+                      if ('sync' in registration) {
+                        registration.sync.register('background-sync');
+                      }
                     })
                     .catch(function(registrationError) {
-                      console.log('SW registration failed: ', registrationError);
+                      console.log('SW v3 registration failed: ', registrationError);
                     });
                 });
               }
@@ -310,6 +316,10 @@ export default function RootLayout({
         <meta name="theme-color" content="#ec4899" />
         <meta name="msapplication-TileColor" content="#ec4899" />
         <meta name="msapplication-config" content="/browserconfig.xml" />
+        
+        {/* Critical performance optimizations for 100% score */}
+        <CriticalInlineCSS />
+        <CriticalResourceHints />
         
         {/* Preconnect to external domains for better performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />

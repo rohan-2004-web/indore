@@ -19,28 +19,67 @@ const nextConfig = {
     domains: ['saumyakapoor.in'],
   },
 
-  // Webpack optimizations
+  // Advanced Webpack optimizations for 100% Performance
   webpack: (config, { dev, isServer }) => {
     if (!dev && !isServer) {
-      // Optimize bundle splitting
+      // Ultra-aggressive bundle splitting
       config.optimization.splitChunks = {
         chunks: 'all',
+        minSize: 10000,
+        maxSize: 50000,
         cacheGroups: {
+          // React framework bundle
           framework: {
             name: 'framework',
             test: /[\\/]node_modules[\\/](react|react-dom)[\\/]/,
-            priority: 40,
+            priority: 50,
             enforce: true,
+            chunks: 'all',
           },
+          // Vendor libraries
+          vendor: {
+            name: 'vendor',
+            test: /[\\/]node_modules[\\/](?!(react|react-dom)[\\/])/,
+            priority: 40,
+            chunks: 'all',
+            minChunks: 1,
+          },
+          // Common components
           commons: {
             name: 'commons',
-            priority: 20,
+            priority: 30,
             minChunks: 2,
+            chunks: 'all',
             reuseExistingChunk: true,
+          },
+          // Page-specific chunks
+          pages: {
+            name: 'pages',
+            test: /[\\/]src[\\/]app[\\/]/,
+            priority: 20,
+            chunks: 'all',
+            minChunks: 1,
           },
         },
       }
+
+      // Tree shaking optimizations
+      config.optimization.usedExports = true
+      config.optimization.sideEffects = false
+      
+      // Module concatenation for smaller bundles
+      config.optimization.concatenateModules = true
+      
+      // Minimize unused code
+      config.optimization.innerGraph = true
     }
+    
+    // Always apply these optimizations
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@': require('path').join(__dirname, 'src'),
+    }
+    
     return config
   },
 
