@@ -19,11 +19,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://saumyakapoor.in'),
   title: {
-    default: 'Indore Escort Service | Call Girls in Indore 24/7 | Saumya Kapoor Premium Agency',
-    template: '%s | Saumya Kapoor - Call Girls in Indore | Escort Service'
+    default: '🔥 Indore Escort Service | #1 Call Girls in Indore 24/7 | Saumya Kapoor VIP Agency ⭐',
+    template: '%s | Saumya Kapoor - Premium Call Girls Indore | Top Escort Service'
   },
-  description: 'Top Indore escort service by Saumya Kapoor. Premium call girls in Indore 24/7. VIP escorts Indore, verified profiles, discreet service in Vijay Nagar, AB Road, Palasia. Call +919372662471 for booking.',
-  keywords: 'Indore escort service, call girls in Indore, Indore call girls, Saumya Kapoor Indore, escort service Indore, VIP escorts Indore, call girls Indore 24/7, premium escort service Indore, Indore escorts agency, best escort service Indore, Vijay Nagar call girls, AB Road escorts, Palasia escort service, independent escort Indore',
+  description: '🌟 #1 Indore escort service by Saumya Kapoor ⚡ Premium call girls in Indore 24/7 ✅ 5000+ verified profiles 🔒 100% discreet service 📍 Vijay Nagar, AB Road, Palasia 📞 +919372662471 instant booking',
+  keywords: 'Indore escort service, call girls in Indore, Indore call girls, Saumya Kapoor Indore, escort service Indore, VIP escorts Indore, call girls Indore 24/7, premium escort service Indore, Indore escorts agency, best escort service Indore, Vijay Nagar call girls, AB Road escorts, Palasia escort service, independent escort Indore, celebrity escorts Indore, college girl escorts Indore, Russian escorts Indore, housewife escorts Indore, mature escorts Indore, premium models Indore',
   authors: [{ name: 'Indore Premium Escort Service', url: 'https://saumyakapoor.in' }],
   creator: 'Indore Premium Escort Service',
   publisher: 'Indore Premium Escort Service',
@@ -52,19 +52,21 @@ export const metadata: Metadata = {
   },
   verification: {
     google: 'google8ca85fc03eb3c8d6',
+    yandex: 'saumyakapoor-yandex-verification',
     other: {
-      'msvalidate.01': 'your-bing-verification-code',
+      'msvalidate.01': 'saumyakapoor-bing-verification',
+      'p:domain_verify': 'saumyakapoor-pinterest-verification',
     },
   },
   category: 'Adult Services',
   classification: 'Adult Content',
   openGraph: {
-    title: 'Indore Escort Service | Premium Call Girls Service in Indore 24/7',
-    description: 'Best Indore escort service with premium call girls available 24/7. Trusted agency offering VIP companions in all Indore locations. Professional & discreet service.',
+    title: '🔥 #1 Indore Escort Service | Premium Call Girls 24/7 | Saumya Kapoor VIP Agency ⭐',
+    description: '🌟 Best Indore escort service with 5000+ verified premium call girls ⚡ Available 24/7 across all Indore locations ✅ 100% discreet & safe service 🔒 Instant booking: +919372662471',
     type: 'website',
     locale: 'en_US',
     url: 'https://saumyakapoor.in',
-    siteName: 'Indore Premium Escort Service',
+    siteName: 'Saumya Kapoor - Indore Premium Escort Service',
     images: [
       {
         url: '/images/services/indore escorts.webp',
@@ -84,10 +86,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Indore Escort Service | Premium Call Girls Service in Indore 24/7',
-    description: 'Best Indore escort service with premium call girls available 24/7. Trusted agency offering VIP companions in all Indore locations.',
+    title: '🔥 #1 Indore Escort Service | Premium Call Girls 24/7 | Saumya Kapoor VIP ⭐',
+    description: '🌟 5000+ verified premium call girls in Indore ⚡ 24/7 availability ✅ 100% discreet service 📞 Instant booking +919372662471',
     images: ['/images/services/indore escorts.webp'],
-    creator: '@indoreescorts',
+    creator: '@saumyakapoor',
     site: '@indoreescorts',
   },
   appleWebApp: {
@@ -302,6 +304,32 @@ export default function RootLayout({
             `,
           }}
         />
+        
+        {/* Additional Technical SEO Meta Tags */}
+        <meta name="theme-color" content="#ec4899" />
+        <meta name="msapplication-TileColor" content="#ec4899" />
+        <meta name="msapplication-config" content="/browserconfig.xml" />
+        
+        {/* Preconnect to external domains for better performance */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://www.google-analytics.com" />
+        
+        {/* DNS Prefetch for better performance */}
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="//www.google-analytics.com" />
+        <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+        
+        {/* Alternate hreflang for international SEO */}
+        <link rel="alternate" hrefLang="en" href="https://saumyakapoor.in" />
+        <link rel="alternate" hrefLang="en-US" href="https://saumyakapoor.in" />
+        <link rel="alternate" hrefLang="en-IN" href="https://saumyakapoor.in" />
+        <link rel="alternate" hrefLang="hi" href="https://saumyakapoor.in" />
+        <link rel="alternate" hrefLang="x-default" href="https://saumyakapoor.in" />
+        
+        {/* Web App Manifest */}
+        <link rel="manifest" href="/site.webmanifest" />
+        
         <FastIndexingSchemas />
       </head>
       <body className={inter.className}>
