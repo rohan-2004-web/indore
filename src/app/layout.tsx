@@ -19,8 +19,8 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL('https://saumyakapoor.in'),
   title: {
-    default: '🔥 Indore Escort Service | #1 Call Girls in Indore 24/7 | Saumya Kapoor VIP Agency ⭐',
-    template: '%s | Saumya Kapoor - Premium Call Girls Indore | Top Escort Service'
+    template: '%s | Saumya Kapoor - Premium Call Girls Indore | Top Escort Service',
+    absolute: '🔥 #1 Indore Escort Service | Saumya Kapoor Premium Call Girls 24/7 ⭐ Top VIP Agency'
   },
   description: '🌟 #1 Indore escort service by Saumya Kapoor ⚡ Premium call girls in Indore 24/7 ✅ 5000+ verified profiles 🔒 100% discreet service 📍 Vijay Nagar, AB Road, Palasia 📞 +919372662471 instant booking',
   keywords: 'Indore escort service, call girls in Indore, Indore call girls, Saumya Kapoor Indore, escort service Indore, VIP escorts Indore, call girls Indore 24/7, premium escort service Indore, Indore escorts agency, best escort service Indore, Vijay Nagar call girls, AB Road escorts, Palasia escort service, independent escort Indore, celebrity escorts Indore, college girl escorts Indore, Russian escorts Indore, housewife escorts Indore, mature escorts Indore, premium models Indore',
