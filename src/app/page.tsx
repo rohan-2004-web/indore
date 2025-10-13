@@ -86,6 +86,129 @@ export default function Home() {
 
   return (
     <>
+      {/* Comprehensive SEO Structured Data for Homepage */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "@id": "https://saumyakapoor.in/#localbusiness",
+            "name": "Saumya Kapoor - Indore Premium Escort Service",
+            "alternateName": "Indore Call Girls Service",
+            "description": "Top-rated escort service in Indore with premium call girls available 24/7. Professional VIP companions serving all major locations in Indore.",
+            "url": "https://saumyakapoor.in",
+            "telephone": "+919372662471",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Indore",
+              "addressRegion": "Madhya Pradesh",
+              "addressCountry": "IN"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 22.7196,
+              "longitude": 75.8577
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Indore"
+              }
+            ],
+            "serviceArea": {
+              "@type": "GeoCircle",
+              "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": 22.7196,
+                "longitude": 75.8577
+              },
+              "geoRadius": "25000"
+            },
+            "openingHoursSpecification": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+              "opens": "00:00",
+              "closes": "23:59"
+            },
+            "priceRange": "₹₹₹",
+            "paymentAccepted": ["Cash", "UPI", "Bank Transfer"],
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Escort Services",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Celebrity Escort Service",
+                    "description": "Premium celebrity-level companions"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "VIP Companion Service",
+                    "description": "Exclusive VIP escorts for business and social events"
+                  }
+                }
+              ]
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.8",
+              "reviewCount": "127"
+            }
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "@id": "https://saumyakapoor.in/#organization",
+            "name": "Saumya Kapoor Indore Escort Service",
+            "url": "https://saumyakapoor.in",
+            "logo": "https://saumyakapoor.in/logo.png",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+919372662471",
+              "contactType": "customer service",
+              "areaServed": "IN",
+              "availableLanguage": ["Hindi", "English"]
+            },
+            "sameAs": [
+              "https://twitter.com/indoreescorts",
+              "https://instagram.com/indoreescorts"
+            ]
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "@id": "https://saumyakapoor.in/#website",
+            "name": "Indore Escort Service - Call Girls in Indore 24/7",
+            "description": "Premium escort service in Indore with verified call girls available 24/7. Professional VIP companions serving Vijay Nagar, AB Road, Palasia and all major locations.",
+            "url": "https://saumyakapoor.in",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://saumyakapoor.in/search?q={search_term_string}"
+              },
+              "query-input": "required name=search_term_string"
+            },
+            "inLanguage": "en-US"
+          })
+        }}
+      />
       <div className="min-h-screen bg-gradient-to-br from-pink-100 via-orange-50 to-pink-200">
         <Header />
         <main className="pt-20" id="main-content">

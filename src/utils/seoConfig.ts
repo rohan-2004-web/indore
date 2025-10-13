@@ -198,8 +198,185 @@ export const locationSEOConfigs = {
         'Central Plaza'
       ]
     }
+  },
+  'scheme-78': {
+    title: 'Scheme 78 Escort Service | Premium Call Girls in Scheme 78 Indore',
+    description: 'Exclusive escort service in Scheme 78, Indore with premium call girls and VIP companions. Professional service in upscale residential area.',
+    keywords: [
+      'Scheme 78 escorts',
+      'call girls Scheme 78',
+      'escort service Scheme 78',
+      'Scheme 78 Indore escorts',
+      'residential area escorts',
+      'upscale companions Scheme 78'
+    ],
+    location: {
+      name: 'Scheme 78',
+      area: 'Upscale Residential',
+      landmarks: [
+        'Scheme 78 Square',
+        'Residential Complex',
+        'Shopping Center',
+        'Community Hub',
+        'Premium Locality'
+      ]
+    }
+  },
+  'saket': {
+    title: 'Saket Escort Service | Premium Call Girls in Saket Indore',
+    description: 'Top escort service in Saket, Indore with beautiful call girls and VIP companions. Professional agency serving Saket residential area.',
+    keywords: [
+      'Saket escorts',
+      'call girls Saket',
+      'escort service Saket',
+      'Saket Indore escorts',
+      'residential escorts Saket'
+    ],
+    location: {
+      name: 'Saket',
+      area: 'Residential Hub',
+      landmarks: [
+        'Saket Nagar',
+        'Residential Area',
+        'Local Market',
+        'Community Center',
+        'Peaceful Locality'
+      ]
+    }
+  },
+  'ring-road': {
+    title: 'Ring Road Escort Service | Premium Call Girls on Ring Road Indore',
+    description: 'Professional escort service on Ring Road, Indore with verified call girls and VIP companions. Serving Ring Road commercial corridor.',
+    keywords: [
+      'Ring Road escorts',
+      'call girls Ring Road',
+      'escort service Ring Road',
+      'Ring Road Indore escorts',
+      'commercial corridor escorts'
+    ],
+    location: {
+      name: 'Ring Road',
+      area: 'Commercial Corridor',
+      landmarks: [
+        'Ring Road Junction',
+        'Commercial Corridor',
+        'Business Centers',
+        'Shopping Complexes',
+        'Highway Access'
+      ]
+    }
+  },
+  'rajwada': {
+    title: 'Rajwada Escort Service | Premium Call Girls near Rajwada Indore',
+    description: 'Heritage area escort service near Rajwada, Indore with premium call girls and cultural companions. Professional service in historic location.',
+    keywords: [
+      'Rajwada escorts',
+      'call girls Rajwada',
+      'escort service Rajwada',
+      'Rajwada Indore escorts',
+      'heritage area escorts',
+      'cultural companions'
+    ],
+    location: {
+      name: 'Rajwada',
+      area: 'Heritage District',
+      landmarks: [
+        'Rajwada Palace',
+        'Heritage District',
+        'Cultural Center',
+        'Historic Market',
+        'Traditional Area'
+      ]
+    }
+  },
+  'mg-road': {
+    title: 'MG Road Escort Service | Premium Call Girls on MG Road Indore',
+    description: 'Elite escort service on MG Road, Indore with premium call girls and VIP companions. Professional agency serving MG Road commercial hub.',
+    keywords: [
+      'MG Road escorts',
+      'call girls MG Road',
+      'escort service MG Road',
+      'MG Road Indore escorts',
+      'commercial hub escorts'
+    ],
+    location: {
+      name: 'MG Road',
+      area: 'Commercial Hub',
+      landmarks: [
+        'MG Road Junction',
+        'Commercial Hub',
+        'Business District',
+        'Shopping Area',
+        'Central Location'
+      ]
+    }
+  },
+  'treasure-island': {
+    title: 'Treasure Island Escort Service | Premium Call Girls at Treasure Island Indore',
+    description: 'Luxury escort service at Treasure Island, Indore with premium call girls and VIP companions. Professional service at entertainment hub.',
+    keywords: [
+      'Treasure Island escorts',
+      'call girls Treasure Island',
+      'escort service Treasure Island',
+      'Treasure Island Indore escorts',
+      'entertainment hub escorts'
+    ],
+    location: {
+      name: 'Treasure Island',
+      area: 'Entertainment Hub',
+      landmarks: [
+        'Treasure Island Mall',
+        'Entertainment Complex',
+        'Shopping Center',
+        'Food Court',
+        'Recreation Area'
+      ]
+    }
+  },
+  'airport-road': {
+    title: 'Airport Road Escort Service | Premium Call Girls on Airport Road Indore',
+    description: 'Professional escort service on Airport Road, Indore with premium call girls and VIP companions. Serving Airport Road business corridor.',
+    keywords: [
+      'Airport Road escorts',
+      'call girls Airport Road',
+      'escort service Airport Road',
+      'Airport Road Indore escorts',
+      'business corridor escorts'
+    ],
+    location: {
+      name: 'Airport Road',
+      area: 'Business Corridor',
+      landmarks: [
+        'Airport Road',
+        'Business Corridor',
+        'Corporate Offices',
+        'Hotel District',
+        'Airport Access'
+      ]
+    }
+  },
+  'bombay-hospital': {
+    title: 'Bombay Hospital Area Escort Service | Premium Call Girls near Bombay Hospital Indore',
+    description: 'Discreet escort service near Bombay Hospital, Indore with premium call girls and professional companions. Medical district service.',
+    keywords: [
+      'Bombay Hospital escorts',
+      'call girls Bombay Hospital',
+      'escort service Bombay Hospital',
+      'Bombay Hospital Indore escorts',
+      'medical district escorts'
+    ],
+    location: {
+      name: 'Bombay Hospital',
+      area: 'Medical District',
+      landmarks: [
+        'Bombay Hospital',
+        'Medical District',
+        'Healthcare Hub',
+        'Professional Area',
+        'Medical Complex'
+      ]
+    }
   }
-  // Add more location configs as needed
 }
 
 // Service-specific SEO configs
