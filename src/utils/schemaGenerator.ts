@@ -16,7 +16,7 @@ export interface SchemaConfig {
 }
 
 export function generateLocalBusinessSchema(config: SchemaConfig) {
-  const baseUrl = 'https://indore-gules.vercel.app'
+  const baseUrl = 'https://saumyakapoor.in'
   
   const localBusiness = {
     "@context": "https://schema.org",
@@ -136,7 +136,7 @@ export function generateLocalBusinessSchema(config: SchemaConfig) {
 }
 
 export function generateOrganizationSchema() {
-  const baseUrl = 'https://indore-gules.vercel.app'
+  const baseUrl = 'https://saumyakapoor.in'
   
   return {
     "@context": "https://schema.org",
@@ -179,7 +179,7 @@ export function generateOrganizationSchema() {
 }
 
 export function generateServiceSchema(config: SchemaConfig) {
-  const baseUrl = 'https://indore-gules.vercel.app'
+  const baseUrl = 'https://saumyakapoor.in'
   
   return {
     "@context": "https://schema.org",
@@ -225,7 +225,7 @@ export function generateServiceSchema(config: SchemaConfig) {
 }
 
 export function generateLocationPageSchema(config: SchemaConfig) {
-  const baseUrl = 'https://indore-gules.vercel.app'
+  const baseUrl = 'https://saumyakapoor.in'
   
   if (!config.location) return null
   
@@ -256,7 +256,7 @@ export function generateLocationPageSchema(config: SchemaConfig) {
 }
 
 export function generateBreadcrumbSchema(breadcrumbs: Array<{name: string, url: string}>) {
-  const baseUrl = 'https://indore-gules.vercel.app'
+  const baseUrl = 'https://saumyakapoor.in'
   
   return {
     "@context": "https://schema.org",

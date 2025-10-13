@@ -9,7 +9,7 @@ import {
 
 export const metadata: Metadata = generateSEOMetadata({
   ...locationSEOConfigs['ab-road'],
-  canonicalUrl: 'https://indore-gules.vercel.app/locations/ab-road',
+  canonicalUrl: 'https://saumyakapoor.in/locations/ab-road',
 })
 
 const structuredData = {

@@ -19,7 +19,7 @@ export interface SEOConfig {
 }
 
 export function generateMetadata(config: SEOConfig): Metadata {
-  const baseUrl = 'https://indore-gules.vercel.app'
+  const baseUrl = 'https://saumyakapoor.in'
   const siteName = 'Indore Premium Escort Service'
   
   // Enhanced title with location and service context

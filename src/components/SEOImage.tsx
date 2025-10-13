@@ -164,7 +164,7 @@ export function ServiceSEOImage({
       schema={{
         name: `${serviceName} - ${location}`,
         description: `Professional ${serviceName.toLowerCase()} available in ${location}. Premium escort service with verified companions.`,
-        contentUrl: `https://indore-gules.vercel.app${src}`,
+        contentUrl: `https://saumyakapoor.in${src}`,
         keywords: [
           serviceName,
           `${serviceName} ${location}`,
@@ -206,7 +206,7 @@ export function LocationSEOImage({
       schema={{
         name: `${locationName} Escort Service`,
         description: `Premium escort service in ${locationName}, Indore with professional companions and call girls available 24/7.`,
-        contentUrl: `https://indore-gules.vercel.app${src}`,
+        contentUrl: `https://saumyakapoor.in${src}`,
         keywords: [
           `${locationName} escorts`,
           `${locationName} call girls`,
@@ -249,7 +249,7 @@ export function GallerySEOImage({
       schema={{
         name: `${modelName} - ${serviceType}`,
         description: `${modelName} is a professional ${serviceType.toLowerCase()} available in Indore. Book now for premium companionship service.`,
-        contentUrl: `https://indore-gules.vercel.app${src}`,
+        contentUrl: `https://saumyakapoor.in${src}`,
         keywords: [
           modelName,
           serviceType,
