@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import HomePageContent from './HomePageContent'
+import UltraMinimalHome from './UltraMinimalHome'
 
 export const metadata: Metadata = {
   title: '🔥 #1 Indore Escort Service | Saumya Kapoor Premium Call Girls 24/7 ⭐ Top VIP Agency',
@@ -54,5 +54,5 @@ export const metadata: Metadata = {
 }
 
 export default function Home() {
-  return <HomePageContent />
+  return <UltraMinimalHome />
 }

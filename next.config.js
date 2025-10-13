@@ -1,12 +1,26 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Performance optimizations
+  // Ultra performance optimizations for 100% score
   compress: true,
   poweredByHeader: false,
+  generateEtags: false,
   
   // Experimental performance features
   experimental: {
     optimizePackageImports: ['@headlessui/react', '@heroicons/react'],
+    turbo: {
+      rules: {
+        '*.svg': {
+          loaders: ['@svgr/webpack'],
+          as: '*.js',
+        },
+      },
+    },
+  },
+  
+  // Compiler optimizations
+  compiler: {
+    removeConsole: true,
   },
   
   // Image optimization for better page speed
@@ -19,65 +33,32 @@ const nextConfig = {
     domains: ['saumyakapoor.in'],
   },
 
-  // Advanced Webpack optimizations for 100% Performance
+  // Minimal webpack config for maximum performance
   webpack: (config, { dev, isServer }) => {
     if (!dev && !isServer) {
-      // Ultra-aggressive bundle splitting
+      // Minimal bundle splitting
       config.optimization.splitChunks = {
         chunks: 'all',
-        minSize: 10000,
-        maxSize: 50000,
         cacheGroups: {
-          // React framework bundle
+          default: false,
+          vendors: false,
           framework: {
             name: 'framework',
-            test: /[\\/]node_modules[\\/](react|react-dom)[\\/]/,
-            priority: 50,
-            enforce: true,
             chunks: 'all',
-          },
-          // Vendor libraries
-          vendor: {
-            name: 'vendor',
-            test: /[\\/]node_modules[\\/](?!(react|react-dom)[\\/])/,
+            test: /(?<!node_modules.*)[\\/]node_modules[\\/](react|react-dom|scheduler|prop-types|use-subscription)[\\/]/,
             priority: 40,
-            chunks: 'all',
-            minChunks: 1,
-          },
-          // Common components
-          commons: {
-            name: 'commons',
-            priority: 30,
-            minChunks: 2,
-            chunks: 'all',
-            reuseExistingChunk: true,
-          },
-          // Page-specific chunks
-          pages: {
-            name: 'pages',
-            test: /[\\/]src[\\/]app[\\/]/,
-            priority: 20,
-            chunks: 'all',
-            minChunks: 1,
+            enforce: true,
           },
         },
       }
 
-      // Tree shaking optimizations
+      // Aggressive tree shaking
       config.optimization.usedExports = true
       config.optimization.sideEffects = false
+      config.optimization.providedExports = true
       
-      // Module concatenation for smaller bundles
-      config.optimization.concatenateModules = true
-      
-      // Minimize unused code
-      config.optimization.innerGraph = true
-    }
-    
-    // Always apply these optimizations
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      '@': require('path').join(__dirname, 'src'),
+      // Remove comments and console logs
+      config.optimization.minimizer = config.optimization.minimizer || []
     }
     
     return config
