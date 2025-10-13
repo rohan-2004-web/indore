@@ -4,22 +4,26 @@ export default function CriticalCSS() {
   return (
     <style jsx>{`
       /* Critical Above-the-fold styles for faster FCP */
+      * { box-sizing: border-box; }
       body {
         margin: 0;
         padding: 0;
-        background: linear-gradient(135deg, #fdf2f8, #f0f9ff);
+        background: #fdf2f8;
         min-height: 100vh;
-        font-family: system-ui, -apple-system, sans-serif;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-display: swap;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeSpeed;
       }
       
-      /* Header critical styles */
+      /* Header critical styles - inline background for faster render */
       .header-container {
-        background: linear-gradient(135deg, #ec4899 0%, #3b82f6 100%);
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px);
+        background: #ec4899;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         position: sticky;
         top: 0;
         z-index: 50;
+        contain: layout style paint;
       }
       
       /* Hero section critical styles */

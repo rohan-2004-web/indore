@@ -1,21 +1,32 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, Suspense } from 'react'
 import dynamic from 'next/dynamic'
 import Header from '@/components/Header'
-import { SEOOptimizedContent } from '@/components/SEOContent'
-import InternalLinks from '@/components/InternalLinks'
 import Breadcrumb from '@/components/Breadcrumb'
-import IndoreEscortsContent from "@/app/components/IndoreEscortsContent"
+import PerformanceOptimizer from '@/components/PerformanceOptimizer'
 
-// Lazy load heavy components for better performance
+// Lazy load all heavy components for better performance
 const ServiceCards = dynamic(() => import('@/components/ServiceCards'), {
   loading: () => (
-    <div className="animate-pulse">
-      <div className="h-96 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70 rounded-3xl"></div>
-    </div>
+    <div className="animate-pulse h-96 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70 rounded-3xl"></div>
   ),
-  ssr: false // Load on client side for faster initial render
+  ssr: false
+})
+
+const SEOOptimizedContent = dynamic(() => import('@/components/SEOContent').then(mod => ({ default: mod.SEOOptimizedContent })), {
+  loading: () => <div className="h-64 bg-gradient-to-r from-pink-50 to-blue-50 animate-pulse rounded-xl"></div>,
+  ssr: false
+})
+
+const InternalLinks = dynamic(() => import('@/components/InternalLinks'), {
+  loading: () => <div className="h-32 bg-white animate-pulse rounded-xl"></div>,
+  ssr: false
+})
+
+const IndoreEscortsContent = dynamic(() => import("@/app/components/IndoreEscortsContent"), {
+  loading: () => <div className="h-96 bg-gradient-to-br from-pink-50 via-orange-50 to-purple-50 animate-pulse rounded-xl"></div>,
+  ssr: false
 })
 
 export default function HomePageContent() {
@@ -86,6 +97,7 @@ export default function HomePageContent() {
 
   return (
     <>
+      <PerformanceOptimizer />
       {/* Comprehensive SEO Structured Data for Homepage */}
       <script
         type="application/ld+json"
@@ -219,16 +231,13 @@ export default function HomePageContent() {
           />
           
           <section 
-            className="relative py-20 bg-gradient-to-br from-pink-300/95 via-orange-200/90 to-pink-300/95 overflow-hidden"
+            className="relative py-16 bg-pink-200 overflow-hidden"
             aria-labelledby="hero-heading"
             role="banner"
           >
-            <div className="absolute inset-0" aria-hidden="true">
-              <div className="absolute top-10 left-10 w-72 h-72 bg-gradient-to-br from-pink-400/30 to-orange-300/30 rounded-full blur-3xl animate-pulse"></div>
-              <div className="absolute bottom-20 right-16 w-96 h-96 bg-gradient-to-br from-orange-400/25 to-pink-400/25 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-br from-pink-300/20 to-orange-300/20 rounded-full blur-2xl animate-pulse" style={{animationDelay: '2s'}}></div>
-              <div className="absolute top-32 right-1/4 w-60 h-60 bg-gradient-to-br from-emerald-400/25 to-teal-500/25 rounded-full blur-3xl animate-pulse" style={{animationDelay: '2500ms'}}></div>
-              <div className="absolute bottom-40 left-1/4 w-72 h-72 bg-gradient-to-tr from-yellow-400/20 to-orange-400/25 rounded-full blur-3xl animate-pulse" style={{animationDelay: '3000ms'}}></div>
+            <div className="absolute inset-0 opacity-30" aria-hidden="true">
+              <div className="absolute top-10 left-10 w-48 h-48 bg-pink-300 rounded-full"></div>
+              <div className="absolute bottom-10 right-10 w-64 h-64 bg-orange-200 rounded-full"></div>
             </div>
             
             <div className="max-w-8xl mx-auto px-6 relative z-10">

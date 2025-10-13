@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import "./accessibility.css";
+import "../styles/performance.css";
 import Header from "@/components/Header";
 import CriticalCSS from "@/components/CriticalCSS";
 import { PerformanceMonitor } from "@/hooks/usePerformanceMonitor";

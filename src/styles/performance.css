@@ -1,0 +1,85 @@
+/* Performance-optimized CSS for faster rendering */
+.reduce-motion * {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* Critical rendering optimizations */
+.hero-section {
+  contain: layout style paint;
+  will-change: auto;
+}
+
+.service-card {
+  contain: layout style;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* Optimize animations for better performance */
+.animate-pulse-optimized {
+  animation: pulse-optimized 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-optimized {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+/* Optimize gradients for better performance */
+.bg-gradient-optimized {
+  background: linear-gradient(135deg, #fdf2f8 0%, #eff6ff 100%);
+  background-attachment: fixed;
+}
+
+/* Image loading optimization */
+.img-loading {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Prevent layout shifts */
+.aspect-ratio-16-9 {
+  aspect-ratio: 16 / 9;
+}
+
+.aspect-ratio-1-1 {
+  aspect-ratio: 1 / 1;
+}
+
+/* Optimize hover effects */
+.hover-optimized {
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.hover-optimized:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Critical above-the-fold styles */
+.critical-hero {
+  min-height: 60vh;
+  background: #fdf2f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.critical-text {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  line-height: 1.2;
+  font-weight: 800;
+  background: linear-gradient(135deg, #ec4899, #3b82f6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

@@ -4,14 +4,44 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   
+  // Experimental performance features
+  experimental: {
+    optimizePackageImports: ['@headlessui/react', '@heroicons/react'],
+  },
+  
   // Image optimization for better page speed
   images: {
-    formats: ['image/webp', 'image/avif'],
-    minimumCacheTTL: 60 * 60 * 24 * 365, // 1 year cache
-    dangerouslyAllowSVG: true,
-    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
+    formats: ['image/avif', 'image/webp'],
+    minimumCacheTTL: 31536000, // 1 year cache
+    dangerouslyAllowSVG: false,
+    deviceSizes: [640, 768, 1024, 1280, 1920],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    domains: ['saumyakapoor.in'],
+  },
+
+  // Webpack optimizations
+  webpack: (config, { dev, isServer }) => {
+    if (!dev && !isServer) {
+      // Optimize bundle splitting
+      config.optimization.splitChunks = {
+        chunks: 'all',
+        cacheGroups: {
+          framework: {
+            name: 'framework',
+            test: /[\\/]node_modules[\\/](react|react-dom)[\\/]/,
+            priority: 40,
+            enforce: true,
+          },
+          commons: {
+            name: 'commons',
+            priority: 20,
+            minChunks: 2,
+            reuseExistingChunk: true,
+          },
+        },
+      }
+    }
+    return config
   },
 
   // Headers for SEO, performance and security
