@@ -129,7 +129,7 @@ export default function VijayNagarPageContent() {
               {[
                 {
                   title: "Luxury Escorts",
-                  image: "/images/services/Luxury Escort.webp",
+                  image: "/images/services/VIP Escorts.jpg",
                   description: "Ultimate luxury companions for sophisticated gentlemen in Vijay Nagar",
                   link: "/services/luxury-escort",
                   gradient: "from-purple-500 to-pink-500",
@@ -137,7 +137,7 @@ export default function VijayNagarPageContent() {
                 },
                 {
                   title: "Russian Escorts", 
-                  image: "/images/services/Russian Escort.webp",
+                  image: "/images/services/Celebrity Escorts.webp",
                   description: "Exotic Russian beauties available for premium companionship",
                   link: "/services/russian-escort",
                   gradient: "from-red-500 to-orange-500",
@@ -145,7 +145,7 @@ export default function VijayNagarPageContent() {
                 },
                 {
                   title: "Independent Escorts",
-                  image: "/images/services/Independent Escort.webp", 
+                  image: "/images/services/indore escorts.webp", 
                   description: "Self-managed premium companions with personal touch",
                   link: "/services/independent-escort",
                   gradient: "from-blue-500 to-purple-500",
@@ -153,7 +153,7 @@ export default function VijayNagarPageContent() {
                 },
                 {
                   title: "Call Girl Service",
-                  image: "/images/services/Call Girl.webp",
+                  image: "/images/services/College Girls.webp",
                   description: "Professional call girls available 24/7 in Vijay Nagar area",
                   link: "/services/call-girl",
                   gradient: "from-pink-500 to-rose-500",
@@ -161,7 +161,7 @@ export default function VijayNagarPageContent() {
                 },
                 {
                   title: "Housewife Escorts",
-                  image: "/images/services/Housewife Escorts.webp",
+                  image: "/images/services/Housewife Escorts.jpg",
                   description: "Experienced mature women offering warm companionship",
                   link: "/services/housewife-escorts", 
                   gradient: "from-amber-500 to-orange-500",
@@ -169,7 +169,7 @@ export default function VijayNagarPageContent() {
                 },
                 {
                   title: "High Class Models",
-                  image: "/images/services/High-Class Models.webp",
+                  image: "/images/services/High Class Models.webp",
                   description: "Fashion models and beauty queens for elite events",
                   link: "/services/high-class-models",
                   gradient: "from-emerald-500 to-teal-500",
@@ -193,7 +193,7 @@ export default function VijayNagarPageContent() {
                 },
                 {
                   title: "Punjabi Women",
-                  image: "/images/services/Punjabi Women.webp",
+                  image: "/images/services/Punjabi women.webp",
                   description: "Beautiful Punjabi companions with cultural charm",
                   link: "/services/punjabi-women",
                   gradient: "from-yellow-500 to-orange-500", 
@@ -201,7 +201,7 @@ export default function VijayNagarPageContent() {
                 },
                 {
                   title: "Sexy Girls",
-                  image: "/images/services/Sexy Girls.webp",
+                  image: "/images/services/sexy girls.webp",
                   description: "Attractive young companions for fun and entertainment",
                   link: "/services/sexy-girls",
                   gradient: "from-red-500 to-pink-500",
@@ -225,7 +225,7 @@ export default function VijayNagarPageContent() {
                 },
                 {
                   title: "Bold Girls",
-                  image: "/images/services/Bold Girls.webp",
+                  image: "/images/services/bold girls.webp",
                   description: "Confident and adventurous companions for exciting experiences",
                   link: "/services/bold-girls", 
                   gradient: "from-indigo-500 to-purple-500",
@@ -281,7 +281,7 @@ export default function VijayNagarPageContent() {
                 },
                 {
                   title: "Premium Escort",
-                  image: "/images/services/Premium Escort.webp",
+                  image: "/images/services/Premium Models.jpg",
                   description: "Top-tier escort services with luxury amenities",
                   link: "/services/premium-escort", 
                   gradient: "from-gold-500 to-yellow-500",
@@ -290,16 +290,22 @@ export default function VijayNagarPageContent() {
               ].map((service, index) => (
                 <div key={index} className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
                   {/* Service Image */}
-                  <div className="relative h-56 overflow-hidden bg-gray-100">
+                  <div className="relative h-64 overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100 rounded-t-3xl">
                     <img 
                       src={service.image} 
                       alt={service.title}
-                      className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105 p-2"
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                       loading="lazy"
+                      onError={(e) => {
+                        e.currentTarget.src = '/images/services/indore escorts.webp'
+                      }}
                     />
-                    <div className={`absolute inset-0 bg-gradient-to-t ${service.gradient} opacity-20 group-hover:opacity-30 transition-opacity duration-300`}></div>
-                    <div className="absolute top-4 right-4 text-2xl bg-white/90 backdrop-blur-sm rounded-full p-2 shadow-lg">
+                    <div className={`absolute inset-0 bg-gradient-to-t ${service.gradient} opacity-30 group-hover:opacity-40 transition-opacity duration-300`}></div>
+                    <div className="absolute top-4 right-4 text-2xl bg-white/95 backdrop-blur-sm rounded-full p-3 shadow-lg border border-white/20">
                       {service.icon}
+                    </div>
+                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4">
+                      <h4 className="text-white font-bold text-lg">{service.title}</h4>
                     </div>
                   </div>
                   
