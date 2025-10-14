@@ -13,6 +13,33 @@ interface ServicePageTemplateProps {
   serviceData: ServiceData
 }
 
+// Helper function to get the correct service image
+const getServiceImage = (slug: string): string => {
+  const imageMap: { [key: string]: string } = {
+    'celebrity-escorts': '/images/services/Celebrity Escorts.webp',
+    'vip-escorts': '/images/services/VIP Escorts.jpg',
+    'premium-models': '/images/services/Premium Models.jpg',
+    'college-girls': '/images/services/College Girls.webp',
+    'housewife-escorts': '/images/services/Housewife Escorts.jpg',
+    'high-class-models': '/images/services/High Class Models.webp',
+    'incall-escorts': '/images/services/Incall Escorts.webp',
+    'local-beauties': '/images/services/Local Beauties.webp',
+    'mature-escorts': '/images/services/Mature Escorts.webp',
+    'pink-special': '/images/services/Pink Special.webp',
+    'punjabi-women': '/images/services/Punjabi women.webp',
+    'sexy-girls': '/images/services/sexy girls.webp',
+    'slim-escorts': '/images/services/Slim Escorts.webp',
+    'unsatisfied-bhabhi': '/images/services/Unsatisfied Bhabhi.webp',
+    'unsatisfied-females': '/images/services/Unsatisfied Females.webp',
+    'young-girls': '/images/services/Young Girls.webp',
+    'bold-girls': '/images/services/bold girls.webp',
+    'event-companion': '/images/services/Event Companion.webp',
+    'expert-services': '/images/services/Expert Services.webp'
+  }
+  
+  return imageMap[slug] || '/images/services/indore escorts.webp'
+}
+
 export default function ServicePageTemplate({ serviceData }: ServicePageTemplateProps) {
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-200/60 via-orange-100/50 to-pink-300/60">
@@ -78,6 +105,71 @@ export default function ServicePageTemplate({ serviceData }: ServicePageTemplate
               <div className="text-4xl mb-3">🔒</div>
               <h3 className="text-lg font-bold text-gray-800 mb-2">Complete Privacy</h3>
               <p className="text-gray-700 font-medium">100% confidential and discreet service</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Service Card with Image */}
+      <section className="py-20 bg-gradient-to-br from-pink-50/80 via-white to-orange-50/80">
+        <div className="max-w-7xl mx-auto px-4">
+          <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden border border-pink-100/50">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
+              {/* Left Side - Service Image */}
+              <div className="relative h-[500px] lg:h-[600px]">
+                <div className="w-full h-full rounded-l-3xl overflow-hidden">
+                  <img 
+                    src={getServiceImage(serviceData.slug)}
+                    alt={`${serviceData.name} - Premium escort service in Indore`}
+                    className="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent rounded-l-3xl"></div>
+              </div>
+              
+              {/* Right Side - Service Content */}
+              <div className="p-8 lg:p-12 flex flex-col justify-center">
+                <div className="mb-6">
+                  <span className="inline-block bg-gradient-to-r from-pink-100 to-orange-100 text-pink-700 px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                    ✨ Premium Service
+                  </span>
+                  <h2 className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6 leading-tight">
+                    {serviceData.name}
+                  </h2>
+                  <p className="text-xl text-gray-700 leading-relaxed mb-8">
+                    {serviceData.description}
+                  </p>
+                </div>
+
+                {/* Key Features */}
+                <div className="space-y-4 mb-8">
+                  {serviceData.features.slice(0, 3).map((feature, index) => (
+                    <div key={index} className="flex items-start">
+                      <span className="text-pink-500 mr-3 text-lg mt-1">✨</span>
+                      <span className="text-gray-700 font-medium">{feature}</span>
+                    </div>
+                  ))}
+                </div>
+
+                {/* CTA Buttons */}
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <a 
+                    href="tel:+919372662471" 
+                    className="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                  >
+                    <span className="text-xl">📞</span>
+                    Call Now
+                  </a>
+                  <a 
+                    href="https://wa.me/919372662471" 
+                    className="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                  >
+                    <span className="text-xl">💬</span>
+                    WhatsApp
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
