@@ -1,5 +1,6 @@
 // Human-written, SEO/VSO/AEO optimized, long-form content for 'escorts in rajwada'
 import React from "react";
+import LocationServiceCards from "@/components/LocationServiceCards";
 
 export default function RajwadaEscortsContent() {
   return (
@@ -419,6 +420,9 @@ export default function RajwadaEscortsContent() {
           </div>
         </div>
       </div>
+      
+      {/* Service Cards Section */}
+      <LocationServiceCards locationName="Rajwada" />
     </section>
   );
 }

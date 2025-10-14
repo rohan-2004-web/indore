@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Header from '@/components/Header'
 import MGRoadEscortsContent from './components/MGRoadEscortsContent'
+import LocationServiceCards from '@/components/LocationServiceCards'
 
 export default function MGRoadPageContent() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -164,6 +165,9 @@ export default function MGRoadPageContent() {
             </div>
           </div>
         </section>
+
+        {/* Service Cards Section */}
+        <LocationServiceCards locationName="MG Road" />
       </main>
     </div>
   )

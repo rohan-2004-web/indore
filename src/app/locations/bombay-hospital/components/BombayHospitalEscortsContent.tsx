@@ -1,4 +1,5 @@
 import React from 'react';
+import LocationServiceCards from '@/components/LocationServiceCards';
 
 const BombayHospitalEscortsContent: React.FC = () => {
   return (
@@ -342,6 +343,9 @@ const BombayHospitalEscortsContent: React.FC = () => {
           </div>
         </div>
       </div>
+      
+      {/* Service Cards Section */}
+      <LocationServiceCards locationName="Bombay Hospital" />
     </section>
   );
 };

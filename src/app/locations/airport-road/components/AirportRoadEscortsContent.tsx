@@ -1,5 +1,6 @@
 // Human-written, SEO/VSO/AEO optimized, long-form content for 'escorts in airport road'
 import React from "react";
+import LocationServiceCards from "@/components/LocationServiceCards";
 
 export default function AirportRoadEscortsContent() {
   return (
@@ -419,6 +420,9 @@ export default function AirportRoadEscortsContent() {
           </div>
         </div>
       </div>
+      
+      {/* Service Cards Section */}
+      <LocationServiceCards locationName="Airport Road" />
     </section>
   );
 }

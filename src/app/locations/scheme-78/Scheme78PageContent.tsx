@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Header from '@/components/Header'
 import Scheme78EscortsContent from './components/Scheme78EscortsContent'
+import LocationServiceCards from '@/components/LocationServiceCards'
 
 export default function Scheme78PageContent() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -164,6 +165,9 @@ export default function Scheme78PageContent() {
             </div>
           </div>
         </section>
+
+        {/* Service Cards Section */}
+        <LocationServiceCards locationName="Scheme 78" />
       </main>
     </div>
   )

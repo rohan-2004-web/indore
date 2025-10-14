@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Header from '@/components/Header'
 import SaketEscortsContent from './components/SaketEscortsContent'
+import LocationServiceCards from '@/components/LocationServiceCards'
 
 export default function SaketPageContent() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -164,6 +165,9 @@ export default function SaketPageContent() {
             </div>
           </div>
         </section>
+
+        {/* Service Cards Section */}
+        <LocationServiceCards locationName="Saket" />
       </main>
     </div>
   )

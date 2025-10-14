@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Header from '@/components/Header'
 import PalasiaEscortsContent from './components/PalasiaEscortsContent'
+import LocationServiceCards from '@/components/LocationServiceCards'
 
 export default function PalasiaPageContent() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -530,6 +531,9 @@ export default function PalasiaPageContent() {
             </div>
           </div>
         </section>
+
+        {/* Service Cards Section */}
+        <LocationServiceCards locationName="Palasia" />
       </div>
     </>
   )

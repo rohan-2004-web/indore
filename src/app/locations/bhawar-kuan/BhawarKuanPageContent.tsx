@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import Header from '@/components/Header'
 import BhawarKuanEscortsContent from './components/BhawarKuanEscortsContent'
+import LocationServiceCards from '@/components/LocationServiceCards'
 
 export default function BhawarKuanPageContent() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -530,6 +531,9 @@ export default function BhawarKuanPageContent() {
             </div>
           </div>
         </section>
+
+        {/* Service Cards Section */}
+        <LocationServiceCards locationName="Bhawar Kuan" />
       </div>
     </>
   )
