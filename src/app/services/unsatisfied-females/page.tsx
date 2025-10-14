@@ -142,7 +142,7 @@ export default function UnsatisfiedFemalesPage() {
                 {/* Celebrity Photo */}
                 <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-pink-100/50">
                   <div className="w-full h-[500px] rounded-2xl overflow-hidden shadow-xl mb-8">
-                    <img src="/images/services/Unsatisfied Females.webp" alt="Unsatisfied Females in Indore" className="w-full h-full object-cover object-top" />
+                    <img src="/images/services/Unsatisfied Females.webp" alt="Unsatisfied Females in Indore" className="w-full h-full object-contain" />
                   </div>
                   <h3 className="text-3xl font-bold bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent mb-4 text-center">
                     🌟 Premium Celebrity Companions

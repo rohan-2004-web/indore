@@ -142,7 +142,7 @@ export default function PremiumModelsPage() {
                 {/* Premium Model Photo */}
                 <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
                   <div className="w-full h-[500px] rounded-2xl overflow-hidden shadow-xl mb-8">
-                    <img src="/images/services/Premium Models.jpg" alt="Premium Models in Indore" className="w-full h-full object-cover object-top" />
+                    <img src="/images/services/Premium Models.jpg" alt="Premium Models in Indore" className="w-full h-full object-contain" />
                   </div>
                   <h3 className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-amber-600 bg-clip-text text-transparent mb-4 text-center">
                     📸 Professional Fashion Models
