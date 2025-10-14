@@ -49,189 +49,245 @@ export default function CollegeGirlsPage() {
   return (
     <>
       <Header />
-      <main className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50">
-      {/* Header */}
-      <div className="bg-gradient-to-r from-purple-600 via-pink-500 to-purple-700 text-white py-20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              College Girls in Indore
+      <div className="min-h-screen bg-gradient-to-br from-blue-200/60 via-purple-100/50 to-blue-300/60">
+        
+        {/* Hero Section - Premium Enhanced Style */}
+        <section className="pt-20 pb-16 relative min-h-screen flex items-center overflow-hidden">
+          {/* Animated Background Elements */}
+          <div className="absolute inset-0">
+            <div className="absolute inset-0 bg-gradient-to-br from-blue-300/95 via-purple-200/90 to-blue-300/95"></div>
+            <div className="absolute top-10 left-10 w-72 h-72 bg-gradient-to-br from-blue-400/30 to-purple-300/30 rounded-full blur-3xl animate-pulse"></div>
+            <div className="absolute bottom-20 right-16 w-96 h-96 bg-gradient-to-br from-purple-400/25 to-blue-400/25 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-br from-blue-300/20 to-purple-300/20 rounded-full blur-2xl animate-pulse" style={{animationDelay: '2s'}}></div>
+          </div>
+          
+          <div className="w-full mx-auto text-center relative z-10 px-4">
+            {/* Premium Badge */}
+            <div className="inline-flex items-center gap-3 bg-gradient-to-r from-blue-100/90 to-purple-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-blue-200/50">
+              <span className="text-3xl">🎓</span>
+              <span className="text-blue-800 font-bold text-lg">Vibrant College Girls in Indore</span>
+              <span className="text-3xl">💖</span>
+            </div>
+
+            <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-blue-700 via-purple-500 to-blue-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
+              College Girls
+              <br />
+              <span className="text-5xl md:text-7xl bg-gradient-to-r from-purple-600 via-blue-600 to-purple-600 bg-clip-text text-transparent">
+                Youthful Energy
+              </span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 leading-relaxed">
-              Young energetic companions for memorable experiences - Fresh, vibrant and fun-loving
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+919372662471" className="bg-white text-purple-600 px-8 py-4 rounded-full font-bold text-lg hover:shadow-lg transition-all duration-300 transform hover:scale-105">
-                📞 Call Now: +91 9372 662 471
+
+            <div className="max-w-5xl mx-auto mb-12">
+              <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
+                Young Energetic Companions with Fresh Perspectives & Vibrant Personalities
+              </p>
+              <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
+                Fun dates • Movie nights • Shopping trips • Party companionship • Adventure dates • Fresh energy across Indore
+              </p>
+            </div>
+
+            {/* Enhanced CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-8 justify-center mb-16">
+              <a 
+                href="tel:+919372662471" 
+                className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 hover:from-blue-700 hover:via-blue-800 hover:to-blue-900 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-blue-500/50 border-2 border-blue-400/30"
+              >
+                <span className="text-3xl group-hover:animate-bounce">📞</span>
+                <span>Call Now: +91 9372 662 471</span>
               </a>
-              <a href="https://wa.me/919372662471" className="bg-green-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-green-600 transition-all duration-300 transform hover:scale-105">
-                💬 WhatsApp Now
+              <a 
+                href="https://wa.me/919372662471" 
+                className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:from-green-600 hover:via-green-700 hover:to-green-800 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 border-2 border-green-400/30"
+              >
+                <span className="text-3xl group-hover:animate-bounce">💬</span>
+                <span>WhatsApp Now</span>
               </a>
+            </div>
+
+            {/* Premium Features */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+              <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
+                <div className="text-4xl mb-3">🎓</div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Young & Energetic</h3>
+                <p className="text-gray-700 font-medium">Vibrant college companions with youthful enthusiasm</p>
+              </div>
+              <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
+                <div className="text-4xl mb-3">💖</div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Fresh Perspectives</h3>
+                <p className="text-gray-700 font-medium">Fun-loving companions with genuine enthusiasm</p>
+              </div>
+              <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
+                <div className="text-4xl mb-3">🎉</div>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Adventure Ready</h3>
+                <p className="text-gray-700 font-medium">Perfect for fun activities and memorable experiences</p>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+        </section>
 
-      {/* Service Details */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            
-            {/* About Section */}
-            <div className="bg-white rounded-3xl shadow-2xl p-12 mb-16 border border-purple-100">
-              <h2 className="text-4xl font-bold text-gray-800 mb-8 text-center">
-                Why Choose Our College Girls?
+        {/* College Girls Features */}
+        <section className="py-20 bg-gradient-to-br from-blue-200/70 via-purple-100/60 to-blue-300/70">
+          <div className="w-full px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-5xl font-bold bg-gradient-to-r from-blue-600 via-purple-500 to-blue-700 bg-clip-text text-transparent mb-6">
+                Why Choose College Girls in Indore?
               </h2>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <div>
-                  <div className="w-full h-96 rounded-2xl overflow-hidden shadow-xl mb-8">
-                    <img src="/images/services/College Girls.webp" alt="College Girls" className="w-full h-full object-contain" />
-                  </div>
-                </div>
-                
-                <div className="space-y-6">
-                  <div className="flex items-start space-x-4">
-                    <div className="text-3xl">🎓</div>
-                    <div>
-                      <h3 className="text-xl font-bold text-gray-800 mb-2">Young & Energetic</h3>
-                      <p className="text-gray-600">Vibrant college girls who bring enthusiasm and youthful energy to every encounter.</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start space-x-4">
-                    <div className="text-3xl">💫</div>
-                    <div>
-                      <h3 className="text-xl font-bold text-gray-800 mb-2">Fun & Spontaneous</h3>
-                      <p className="text-gray-600">Playful companions perfect for casual dates and adventurous experiences.</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start space-x-4">
-                    <div className="text-3xl">🌸</div>
-                    <div>
-                      <h3 className="text-xl font-bold text-gray-800 mb-2">Fresh & Beautiful</h3>
-                      <p className="text-gray-600">Naturally beautiful young women with charming personalities and innocent appeal.</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start space-x-4">
-                    <div className="text-3xl">📱</div>
-                    <div>
-                      <h3 className="text-xl font-bold text-gray-800 mb-2">Modern & Connected</h3>
-                      <p className="text-gray-600">Tech-savvy companions who understand modern lifestyle and preferences.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+                Experience youthful energy and fresh companionship with our vibrant college girl companions
+              </p>
             </div>
 
-            {/* Services Offered */}
-            <div className="bg-gradient-to-r from-purple-100/80 to-pink-100/80 rounded-3xl p-12 mb-16">
-              <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Our College Girl Services</h2>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                  <div className="text-4xl mb-4">🎬</div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Movie Dates</h3>
-                  <p className="text-gray-600">Fun movie companions for cinema dates and entertainment experiences.</p>
-                </div>
-                
-                <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                  <div className="text-4xl mb-4">🍕</div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Casual Hangouts</h3>
-                  <p className="text-gray-600">Relaxed companionship for cafes, restaurants and casual meetups.</p>
-                </div>
-                
-                <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                  <div className="text-4xl mb-4">🎉</div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Party Companions</h3>
-                  <p className="text-gray-600">Energetic partners for parties, clubs, and nightlife adventures.</p>
-                </div>
-                
-                <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                  <div className="text-4xl mb-4">🛍️</div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Shopping Partners</h3>
-                  <p className="text-gray-600">Stylish companions for shopping trips and fashion consultations.</p>
-                </div>
-                
-                <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                  <div className="text-4xl mb-4">🌅</div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Adventure Dates</h3>
-                  <p className="text-gray-600">Adventurous companions for outdoor activities and exciting experiences.</p>
-                </div>
-                
-                <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                  <div className="text-4xl mb-4">💝</div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Special Occasions</h3>
-                  <p className="text-gray-600">Sweet companions for birthdays, anniversaries and celebrations.</p>
-                </div>
-              </div>
-            </div>
-
-            {/* FAQ Section */}
-            <section className="py-20 bg-gradient-to-br from-purple-100/60 via-pink-50/50 to-purple-200/60">
-              <div className="w-full px-4">
-                <div className="text-center mb-16">
-                  <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-600 via-pink-500 to-purple-700 bg-clip-text text-transparent mb-6">
-                    Frequently Asked Questions - College Girls
-                  </h2>
-                  <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                    Get answers to common questions about college girl companion services in Indore
+            <div className="max-w-7xl mx-auto">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+                {/* College Girls Photo */}
+                <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-blue-100/50">
+                  <div className="w-full h-[500px] rounded-2xl overflow-hidden shadow-xl mb-8">
+                    <img src="/images/services/College Girls.webp" alt="College Girls in Indore" className="w-full h-full object-cover object-center" />
+                  </div>
+                  <h3 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4 text-center">
+                    🎓 Vibrant College Companions
+                  </h3>
+                  <p className="text-gray-700 text-lg text-center font-medium">
+                    Young energetic college girls with fresh perspectives, genuine enthusiasm, and vibrant personalities for memorable experiences in Indore.
                   </p>
                 </div>
 
-                <div className="max-w-7xl mx-auto">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    {faqs.map((faq, index) => (
-                      <div key={index} className="bg-gradient-to-br from-purple-100 to-pink-100 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-purple-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
-                        <button
-                          onClick={() => toggleFaq(index)}
-                          className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-purple-200/80 hover:to-pink-100/80 transition-all duration-200 flex justify-between items-center group"
-                        >
-                          <h3 className="text-xl font-bold text-purple-900 pr-4 group-hover:text-pink-700">{faq.question}</h3>
-                          <span className={`text-3xl transition-all duration-300 text-purple-700 ${openFaq === index ? 'rotate-180 scale-110' : ''}`}>
-                            ▼
-                          </span>
-                        </button>
-                        {openFaq === index && (
-                          <div className="px-8 pb-8 bg-gradient-to-r from-purple-50/90 to-pink-50/90">
-                            <p className="text-gray-700 leading-relaxed text-lg font-medium">
-                              {faq.answer}
-                            </p>
-                          </div>
-                        )}
-                      </div>
-                    ))}
+                {/* Service Features */}
+                <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-purple-100/50">
+                  <h3 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent mb-6">
+                    ⭐ College Girl Features
+                  </h3>
+                  <div className="space-y-4">
+                    <div className="flex items-center p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl">
+                      <span className="text-2xl mr-4">🎓</span>
+                      <p className="font-semibold text-gray-700">Youthful Energy & Enthusiasm</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-xl">
+                      <span className="text-2xl mr-4">💖</span>
+                      <p className="font-semibold text-gray-700">Fresh Perspectives & Fun Personalities</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl">
+                      <span className="text-2xl mr-4">🎉</span>
+                      <p className="font-semibold text-gray-700">Perfect for Fun Activities & Adventures</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-xl">
+                      <span className="text-2xl mr-4">🌟</span>
+                      <p className="font-semibold text-gray-700">Charming & Vibrant Companions</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl">
+                      <span className="text-2xl mr-4">🔐</span>
+                      <p className="font-semibold text-gray-700">Complete Privacy & Discretion</p>
+                    </div>
+                    <div className="flex items-center p-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-xl">
+                      <span className="text-2xl mr-4">⚡</span>
+                      <p className="font-semibold text-gray-700">Available Throughout Indore</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </section>
 
-            {/* Contact Section */}
-            <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl p-12 text-white text-center">
-              <h2 className="text-4xl font-bold mb-6">Ready to Meet College Girls?</h2>
-              <p className="text-xl mb-8 max-w-3xl mx-auto">
-                Connect with vibrant college girls today. Available for fun dates and memorable experiences across Indore.
+              {/* College Girl Services Offered */}
+              <div className="bg-gradient-to-r from-blue-100/80 to-purple-100/80 rounded-3xl p-12">
+                <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">College Girl Services in Indore</h2>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
+                    <div className="text-4xl mb-4">🎬</div>
+                    <h3 className="text-xl font-bold text-gray-800 mb-3">Movie Dates</h3>
+                    <p className="text-gray-600">Fun-loving college companions for movie nights, cinema experiences, and entertainment activities throughout Indore.</p>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
+                    <div className="text-4xl mb-4">🛍️</div>
+                    <h3 className="text-xl font-bold text-gray-800 mb-3">Shopping Trips</h3>
+                    <p className="text-gray-600">Energetic companions for shopping adventures, mall visits, and fashion exploration across Indore.</p>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
+                    <div className="text-4xl mb-4">🎉</div>
+                    <h3 className="text-xl font-bold text-gray-800 mb-3">Party Companionship</h3>
+                    <p className="text-gray-600">Vibrant college girls for parties, social events, celebrations, and nightlife experiences.</p>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
+                    <div className="text-4xl mb-4">☕</div>
+                    <h3 className="text-xl font-bold text-gray-800 mb-3">Casual Hangouts</h3>
+                    <p className="text-gray-600">Relaxed companions for cafe visits, casual dates, and friendly hangout sessions throughout the city.</p>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
+                    <div className="text-4xl mb-4">🎒</div>
+                    <h3 className="text-xl font-bold text-gray-800 mb-3">Adventure Dates</h3>
+                    <p className="text-gray-600">Adventurous college companions for outdoor activities, exploring, and fun adventure experiences.</p>
+                  </div>
+                  
+                  <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
+                    <div className="text-4xl mb-4">✨</div>
+                    <h3 className="text-xl font-bold text-gray-800 mb-3">Youthful Experience</h3>
+                    <p className="text-gray-600">Complete college girl experience with fresh energy, enthusiasm, and vibrant companionship throughout Indore.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <section className="py-20 bg-gradient-to-br from-blue-100/60 via-purple-50/50 to-blue-200/60">
+          <div className="w-full px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-blue-600 via-purple-500 to-blue-700 bg-clip-text text-transparent mb-6">
+                Frequently Asked Questions - College Girls
+              </h2>
+              <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                Get answers to common questions about college girl services in Indore
               </p>
-              
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:+919372662471" className="bg-white text-purple-600 px-8 py-4 rounded-full font-bold text-lg hover:shadow-lg transition-all duration-300 transform hover:scale-105">
-                  📞 Call: +91 9372 662 471
+            </div>
+
+            <div className="max-w-7xl mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                {faqs.map((faq, index) => (
+                  <div key={index} className="bg-gradient-to-br from-blue-100 to-purple-100 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-blue-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
+                    <button
+                      onClick={() => toggleFaq(index)}
+                      className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-blue-200/80 hover:to-purple-100/80 transition-all duration-200 flex justify-between items-center group"
+                    >
+                      <h3 className="text-xl font-bold text-blue-900 pr-4 group-hover:text-purple-700">{faq.question}</h3>
+                      <span className={`text-3xl transition-all duration-300 text-blue-700 ${openFaq === index ? 'rotate-180 scale-110' : ''}`}>
+                        ▼
+                      </span>
+                    </button>
+                    {openFaq === index && (
+                      <div className="px-8 pb-8 bg-gradient-to-r from-blue-50/90 to-purple-50/90">
+                        <p className="text-gray-700 leading-relaxed text-lg font-medium">
+                          {faq.answer}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="text-center mt-16">
+              <p className="text-xl text-gray-600 mb-8">
+                Have more questions about our college girl services? Contact us directly!
+              </p>
+              <div className="flex flex-col sm:flex-row gap-6 justify-center">
+                <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                  📞 Call +91 9372662471
                 </a>
-                <a href="https://wa.me/919372662471" className="bg-green-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-green-600 transition-all duration-300 transform hover:scale-105">
+                <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
                   💬 WhatsApp Chat
                 </a>
-                <Link href="/services" className="bg-pink-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-pink-600 transition-all duration-300 transform hover:scale-105">
+                <Link href="/services" className="inline-block bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
                   🔙 All Services
                 </Link>
               </div>
             </div>
-            
           </div>
-        </div>
-      </section>
-    </main>
+        </section>
+      </div>
     </>
   )
 }
