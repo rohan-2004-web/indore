@@ -117,11 +117,11 @@ export default function ServicePageTemplate({ serviceData }: ServicePageTemplate
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
               {/* Left Side - Service Image */}
               <div className="relative h-[500px] lg:h-[600px]">
-                <div className="w-full h-full rounded-l-3xl overflow-hidden">
+                <div className="w-full h-full rounded-l-3xl overflow-hidden bg-gradient-to-br from-pink-50 to-orange-50 flex items-center justify-center">
                   <img 
                     src={getServiceImage(serviceData.slug)}
                     alt={`${serviceData.name} - Premium escort service in Indore`}
-                    className="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105"
+                    className="w-full h-full object-contain transition-transform duration-500 hover:scale-105"
                     loading="lazy"
                   />
                 </div>
