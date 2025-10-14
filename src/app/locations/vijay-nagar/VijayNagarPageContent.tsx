@@ -290,22 +290,22 @@ export default function VijayNagarPageContent() {
               ].map((service, index) => (
                 <div key={index} className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
                   {/* Service Image */}
-                  <div className="relative h-64 overflow-hidden bg-gradient-to-br from-gray-50 to-gray-100 rounded-t-3xl">
+                  <div className="relative h-72 bg-gradient-to-br from-gray-50 to-gray-100 rounded-t-3xl p-2">
                     <img 
                       src={service.image} 
                       alt={service.title}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      className="w-full h-full object-contain rounded-2xl transition-transform duration-500 group-hover:scale-105"
                       loading="lazy"
                       onError={(e) => {
                         e.currentTarget.src = '/images/services/indore escorts.webp'
                       }}
                     />
-                    <div className={`absolute inset-0 bg-gradient-to-t ${service.gradient} opacity-30 group-hover:opacity-40 transition-opacity duration-300`}></div>
-                    <div className="absolute top-4 right-4 text-2xl bg-white/95 backdrop-blur-sm rounded-full p-3 shadow-lg border border-white/20">
+                    <div className={`absolute inset-2 bg-gradient-to-t ${service.gradient} opacity-10 group-hover:opacity-20 transition-opacity duration-300 rounded-2xl`}></div>
+                    <div className="absolute top-4 right-4 text-xl bg-white/95 backdrop-blur-sm rounded-full p-2 shadow-lg border border-white/20">
                       {service.icon}
                     </div>
-                    <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-4">
-                      <h4 className="text-white font-bold text-lg">{service.title}</h4>
+                    <div className="absolute bottom-2 left-2 right-2 bg-black/70 backdrop-blur-sm rounded-xl p-3">
+                      <h4 className="text-white font-bold text-sm text-center">{service.title}</h4>
                     </div>
                   </div>
                   
