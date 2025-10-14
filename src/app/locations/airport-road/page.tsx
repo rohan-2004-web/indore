@@ -308,6 +308,36 @@ export default function AirportRoadPage() {
           </div>
         </section>
 
+        {/* Services Section */}
+        <section className="py-20 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70">
+          <div className="w-full px-4">
+            <div className="text-center mb-16">
+              <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+                Premium Escort Services in Airport Road, Indore
+              </h2>
+              <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+                Experience luxury companionship in Indore's premier business district with our verified professional escorts
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl mx-auto">
+              {services.map((service, index) => (
+                <div key={index} className="bg-white/95 backdrop-blur-md rounded-3xl shadow-2xl p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                  <div className="w-full h-80 mb-4 rounded-2xl overflow-hidden shadow-lg">
+                    <img src={service.image} alt={service.title} className="w-full h-80 object-cover object-top hover:scale-105 transition-transform duration-300" />
+                  </div>
+                  <span className="text-2xl mb-2">{service.icon}</span>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">{service.title}</h3>
+                  <p className="text-gray-600 mb-4 text-base flex-grow">{service.description}</p>
+                  <a href={service.link} className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">
+                    Book in Airport Road
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Airport Road Service Features */}
         <section className="py-20 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70">
           <div className="w-full px-4">
