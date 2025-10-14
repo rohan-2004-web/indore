@@ -86,7 +86,7 @@ export default function CollegeGirlsPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
                   <div className="w-full h-96 rounded-2xl overflow-hidden shadow-xl mb-8">
-                    <img src="/images/services/College Girls.webp" alt="College Girls" className="w-full h-full object-cover object-top" />
+                    <img src="/images/services/College Girls.webp" alt="College Girls" className="w-full h-full object-contain" />
                   </div>
                 </div>
                 
