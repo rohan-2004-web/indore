@@ -49,245 +49,189 @@ export default function PremiumModelsPage() {
   return (
     <>
       <Header />
-      <div className="min-h-screen bg-gradient-to-br from-orange-200/60 via-amber-100/50 to-orange-300/60">
-        
-        {/* Hero Section - Premium Enhanced Style */}
-        <section className="pt-20 pb-16 relative min-h-screen flex items-center overflow-hidden">
-          {/* Animated Background Elements */}
-          <div className="absolute inset-0">
-            <div className="absolute inset-0 bg-gradient-to-br from-orange-300/95 via-amber-200/90 to-orange-300/95"></div>
-            <div className="absolute top-10 left-10 w-72 h-72 bg-gradient-to-br from-orange-400/30 to-amber-300/30 rounded-full blur-3xl animate-pulse"></div>
-            <div className="absolute bottom-20 right-16 w-96 h-96 bg-gradient-to-br from-amber-400/25 to-orange-400/25 rounded-full blur-3xl animate-pulse" style={{animationDelay: '1s'}}></div>
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-gradient-to-br from-orange-300/20 to-amber-300/20 rounded-full blur-2xl animate-pulse" style={{animationDelay: '2s'}}></div>
-          </div>
-          
-          <div className="w-full mx-auto text-center relative z-10 px-4">
-            {/* Premium Badge */}
-            <div className="inline-flex items-center gap-3 bg-gradient-to-r from-orange-100/90 to-amber-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-orange-200/50">
-              <span className="text-3xl">📸</span>
-              <span className="text-orange-800 font-bold text-lg">Professional Premium Models in Indore</span>
-              <span className="text-3xl">✨</span>
-            </div>
-
-            <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-orange-700 via-amber-500 to-orange-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
-              Premium Models
-              <br />
-              <span className="text-5xl md:text-7xl bg-gradient-to-r from-amber-600 via-orange-600 to-amber-600 bg-clip-text text-transparent">
-                Fashion & Elegance
-              </span>
+      <main className="min-h-screen bg-gradient-to-br from-purple-50 via-white to-pink-50">
+      {/* Header */}
+      <div className="bg-gradient-to-r from-purple-600 via-pink-500 to-purple-700 text-white py-20">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6">
+              Premium Models in Indore
             </h1>
-
-            <div className="max-w-5xl mx-auto mb-12">
-              <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
-                Professional Runway & Fashion Models with Sophisticated Style
-              </p>
-              <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
-                Fashion shows • Photography shoots • Corporate events • Product launches • High-end companionship across Indore
-              </p>
-            </div>
-
-            {/* Enhanced CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-8 justify-center mb-16">
-              <a 
-                href="tel:+919372662471" 
-                className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-orange-600 via-orange-700 to-orange-800 hover:from-orange-700 hover:via-orange-800 hover:to-orange-900 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-orange-500/50 border-2 border-orange-400/30"
-              >
-                <span className="text-3xl group-hover:animate-bounce">📞</span>
-                <span>Call Now: +91 9372 662 471</span>
+            <p className="text-xl md:text-2xl mb-8 leading-relaxed">
+              Professional fashion models for sophisticated experiences - Elegant, refined and stunning
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="tel:+919372662471" className="bg-white text-purple-600 px-8 py-4 rounded-full font-bold text-lg hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+                📞 Call Now: +91 9372 662 471
               </a>
-              <a 
-                href="https://wa.me/919372662471" 
-                className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:from-green-600 hover:via-green-700 hover:to-green-800 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 border-2 border-green-400/30"
-              >
-                <span className="text-3xl group-hover:animate-bounce">💬</span>
-                <span>WhatsApp Now</span>
+              <a href="https://wa.me/919372662471" className="bg-green-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-green-600 transition-all duration-300 transform hover:scale-105">
+                💬 WhatsApp Now
               </a>
-            </div>
-
-            {/* Premium Features */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3">📸</div>
-                <h3 className="text-lg font-bold text-gray-800 mb-2">Professional Models</h3>
-                <p className="text-gray-700 font-medium">Experienced runway and fashion models with industry credentials</p>
-              </div>
-              <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3">✨</div>
-                <h3 className="text-lg font-bold text-gray-800 mb-2">Sophisticated Style</h3>
-                <p className="text-gray-700 font-medium">Elegant companions with impeccable fashion sense</p>
-              </div>
-              <div className="bg-gradient-to-br from-white/20 to-white/10 backdrop-blur-lg rounded-2xl p-6 border border-white/30 shadow-xl">
-                <div className="text-4xl mb-3">🎯</div>
-                <h3 className="text-lg font-bold text-gray-800 mb-2">Perfect Presentation</h3>
-                <p className="text-gray-700 font-medium">Always perfectly groomed for any occasion</p>
-              </div>
             </div>
           </div>
-        </section>
+        </div>
+      </div>
 
-        {/* Premium Model Features */}
-        <section className="py-20 bg-gradient-to-br from-orange-200/70 via-amber-100/60 to-orange-300/70">
-          <div className="w-full px-4">
-            <div className="text-center mb-16">
-              <h2 className="text-5xl font-bold bg-gradient-to-r from-orange-600 via-amber-500 to-orange-700 bg-clip-text text-transparent mb-6">
-                Why Choose Premium Models in Indore?
+      {/* Service Details */}
+      <section className="py-20">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            
+            {/* About Section */}
+            <div className="bg-white rounded-3xl shadow-2xl p-12 mb-16 border border-purple-100">
+              <h2 className="text-4xl font-bold text-gray-800 mb-8 text-center">
+                Why Choose Our Premium Models?
               </h2>
-              <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-                Experience professional modeling standards with our premium fashion models offering sophisticated companionship
-              </p>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div>
+                  <div className="w-full h-96 rounded-2xl overflow-hidden shadow-xl mb-8">
+                    <img src="/images/services/Premium Models.jpg" alt="Premium Models" className="w-full h-full object-contain" />
+                  </div>
+                </div>
+                
+                <div className="space-y-6">
+                  <div className="flex items-start space-x-4">
+                    <div className="text-3xl">📸</div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-800 mb-2">Professional Models</h3>
+                      <p className="text-gray-600">Experienced runway and fashion models with industry credentials and professional training.</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start space-x-4">
+                    <div className="text-3xl">✨</div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-800 mb-2">Sophisticated Style</h3>
+                      <p className="text-gray-600">Elegant companions with impeccable fashion sense and refined presentation.</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start space-x-4">
+                    <div className="text-3xl">👗</div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-800 mb-2">Fashion Expertise</h3>
+                      <p className="text-gray-600">Professional models with extensive fashion industry experience and runway expertise.</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start space-x-4">
+                    <div className="text-3xl">🎯</div>
+                    <div>
+                      <h3 className="text-xl font-bold text-gray-800 mb-2">Perfect Presentation</h3>
+                      <p className="text-gray-600">Always perfectly groomed and professionally presented for any high-end occasion.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <div className="max-w-7xl mx-auto">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
-                {/* Premium Model Photo */}
-                <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-orange-100/50">
-                  <div className="w-full h-[500px] rounded-2xl overflow-hidden shadow-xl mb-8">
-                    <img src="/images/services/Premium Models.jpg" alt="Premium Models in Indore" className="w-full h-full object-contain" />
-                  </div>
-                  <h3 className="text-3xl font-bold bg-gradient-to-r from-orange-600 to-amber-600 bg-clip-text text-transparent mb-4 text-center">
-                    📸 Professional Fashion Models
-                  </h3>
-                  <p className="text-gray-700 text-lg text-center font-medium">
-                    Experienced runway and fashion models with sophisticated style, professional presentation, and impeccable fashion sense for discerning clients in Indore.
+            {/* Services Offered */}
+            <div className="bg-gradient-to-r from-purple-100/80 to-pink-100/80 rounded-3xl p-12 mb-16">
+              <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Our Premium Model Services</h2>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
+                  <div className="text-4xl mb-4">👗</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">Fashion Events</h3>
+                  <p className="text-gray-600">Professional model companions for fashion shows and style events.</p>
+                </div>
+                
+                <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
+                  <div className="text-4xl mb-4">📷</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">Photography Shoots</h3>
+                  <p className="text-gray-600">Experienced models for professional photography and portfolio work.</p>
+                </div>
+                
+                <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
+                  <div className="text-4xl mb-4">🏢</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">Corporate Events</h3>
+                  <p className="text-gray-600">Sophisticated companions for business functions and corporate presentations.</p>
+                </div>
+                
+                <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
+                  <div className="text-4xl mb-4">🎪</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">Brand Promotions</h3>
+                  <p className="text-gray-600">Professional models for brand launches and promotional events.</p>
+                </div>
+                
+                <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
+                  <div className="text-4xl mb-4">🌟</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">Luxury Parties</h3>
+                  <p className="text-gray-600">Elegant model companions for high-end parties and exclusive gatherings.</p>
+                </div>
+                
+                <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
+                  <div className="text-4xl mb-4">✨</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">Premium Experience</h3>
+                  <p className="text-gray-600">Professional modeling standards with sophisticated companionship throughout Indore.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* FAQ Section */}
+            <section className="py-20 bg-gradient-to-br from-purple-100/60 via-pink-50/50 to-purple-200/60">
+              <div className="w-full px-4">
+                <div className="text-center mb-16">
+                  <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-600 via-pink-500 to-purple-700 bg-clip-text text-transparent mb-6">
+                    Frequently Asked Questions - Premium Models
+                  </h2>
+                  <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                    Get answers to common questions about premium model services in Indore
                   </p>
                 </div>
 
-                {/* Service Features */}
-                <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-amber-100/50">
-                  <h3 className="text-3xl font-bold bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent mb-6">
-                    ⭐ Premium Model Features
-                  </h3>
-                  <div className="space-y-4">
-                    <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-amber-50 rounded-xl">
-                      <span className="text-2xl mr-4">📸</span>
-                      <p className="font-semibold text-gray-700">Professional Modeling Experience</p>
-                    </div>
-                    <div className="flex items-center p-4 bg-gradient-to-r from-amber-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4">👗</span>
-                      <p className="font-semibold text-gray-700">Fashion Industry Standards</p>
-                    </div>
-                    <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-amber-50 rounded-xl">
-                      <span className="text-2xl mr-4">✨</span>
-                      <p className="font-semibold text-gray-700">Sophisticated Presentation</p>
-                    </div>
-                    <div className="flex items-center p-4 bg-gradient-to-r from-amber-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4">🎯</span>
-                      <p className="font-semibold text-gray-700">Perfect for Corporate Events</p>
-                    </div>
-                    <div className="flex items-center p-4 bg-gradient-to-r from-orange-50 to-amber-50 rounded-xl">
-                      <span className="text-2xl mr-4">🌟</span>
-                      <p className="font-semibold text-gray-700">High-End Event Companionship</p>
-                    </div>
-                    <div className="flex items-center p-4 bg-gradient-to-r from-amber-50 to-orange-50 rounded-xl">
-                      <span className="text-2xl mr-4">⚡</span>
-                      <p className="font-semibold text-gray-700">24/7 Professional Availability</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* Premium Model Services Offered */}
-              <div className="bg-gradient-to-r from-orange-100/80 to-amber-100/80 rounded-3xl p-12">
-                <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Premium Model Services in Indore</h2>
-                
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                  <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                    <div className="text-4xl mb-4">👗</div>
-                    <h3 className="text-xl font-bold text-gray-800 mb-3">Fashion Events</h3>
-                    <p className="text-gray-600">Professional model companions for fashion shows, style events, and luxury brand promotions with runway experience.</p>
-                  </div>
-                  
-                  <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                    <div className="text-4xl mb-4">📷</div>
-                    <h3 className="text-xl font-bold text-gray-800 mb-3">Photography Shoots</h3>
-                    <p className="text-gray-600">Experienced premium models for professional photography, portfolio work, and commercial photo shoots.</p>
-                  </div>
-                  
-                  <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                    <div className="text-4xl mb-4">🏢</div>
-                    <h3 className="text-xl font-bold text-gray-800 mb-3">Corporate Events</h3>
-                    <p className="text-gray-600">Sophisticated model companions for business functions, product launches, and corporate presentations.</p>
-                  </div>
-                  
-                  <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                    <div className="text-4xl mb-4">🎪</div>
-                    <h3 className="text-xl font-bold text-gray-800 mb-3">Brand Promotions</h3>
-                    <p className="text-gray-600">Professional models for brand launches, promotional events, and marketing campaigns with fashion expertise.</p>
-                  </div>
-                  
-                  <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                    <div className="text-4xl mb-4">🌟</div>
-                    <h3 className="text-xl font-bold text-gray-800 mb-3">Luxury Parties</h3>
-                    <p className="text-gray-600">Elegant premium model companions for high-end parties, exclusive social gatherings, and luxury events.</p>
-                  </div>
-                  
-                  <div className="bg-white rounded-2xl p-6 shadow-lg text-center">
-                    <div className="text-4xl mb-4">✨</div>
-                    <h3 className="text-xl font-bold text-gray-800 mb-3">Premium Experience</h3>
-                    <p className="text-gray-600">Professional modeling standards with sophisticated companionship and impeccable presentation throughout Indore.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* FAQ Section */}
-        <section className="py-20 bg-gradient-to-br from-orange-100/60 via-amber-50/50 to-orange-200/60">
-          <div className="w-full px-4">
-            <div className="text-center mb-16">
-              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-orange-600 via-amber-500 to-orange-700 bg-clip-text text-transparent mb-6">
-                Frequently Asked Questions - Premium Models
-              </h2>
-              <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                Get answers to common questions about premium model services in Indore
-              </p>
-            </div>
-
-            <div className="max-w-7xl mx-auto">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                {faqs.map((faq, index) => (
-                  <div key={index} className="bg-gradient-to-br from-orange-100 to-amber-100 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-orange-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
-                    <button
-                      onClick={() => toggleFaq(index)}
-                      className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-orange-200/80 hover:to-amber-100/80 transition-all duration-200 flex justify-between items-center group"
-                    >
-                      <h3 className="text-xl font-bold text-orange-900 pr-4 group-hover:text-amber-700">{faq.question}</h3>
-                      <span className={`text-3xl transition-all duration-300 text-orange-700 ${openFaq === index ? 'rotate-180 scale-110' : ''}`}>
-                        ▼
-                      </span>
-                    </button>
-                    {openFaq === index && (
-                      <div className="px-8 pb-8 bg-gradient-to-r from-orange-50/90 to-amber-50/90">
-                        <p className="text-gray-700 leading-relaxed text-lg font-medium">
-                          {faq.answer}
-                        </p>
+                <div className="max-w-7xl mx-auto">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    {faqs.map((faq, index) => (
+                      <div key={index} className="bg-gradient-to-br from-purple-100 to-pink-100 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-purple-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
+                        <button
+                          onClick={() => toggleFaq(index)}
+                          className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-purple-200/80 hover:to-pink-100/80 transition-all duration-200 flex justify-between items-center group"
+                        >
+                          <h3 className="text-xl font-bold text-purple-900 pr-4 group-hover:text-pink-700">{faq.question}</h3>
+                          <span className={`text-3xl transition-all duration-300 text-purple-700 ${openFaq === index ? 'rotate-180 scale-110' : ''}`}>
+                            ▼
+                          </span>
+                        </button>
+                        {openFaq === index && (
+                          <div className="px-8 pb-8 bg-gradient-to-r from-purple-50/90 to-pink-50/90">
+                            <p className="text-gray-700 leading-relaxed text-lg font-medium">
+                              {faq.answer}
+                            </p>
+                          </div>
+                        )}
                       </div>
-                    )}
+                    ))}
                   </div>
-                ))}
+                </div>
               </div>
-            </div>
+            </section>
 
-            <div className="text-center mt-16">
-              <p className="text-xl text-gray-600 mb-8">
-                Have more questions about our premium model services? Contact us directly!
+            {/* Contact Section */}
+            <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl p-12 text-white text-center">
+              <h2 className="text-4xl font-bold mb-6">Ready to Meet Premium Models?</h2>
+              <p className="text-xl mb-8 max-w-3xl mx-auto">
+                Connect with professional fashion models today. Available for high-end events and sophisticated experiences across Indore.
               </p>
-              <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
-                  📞 Call +91 9372662471
+              
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="tel:+919372662471" className="bg-white text-purple-600 px-8 py-4 rounded-full font-bold text-lg hover:shadow-lg transition-all duration-300 transform hover:scale-105">
+                  📞 Call: +91 9372 662 471
                 </a>
-                <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                <a href="https://wa.me/919372662471" className="bg-green-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-green-600 transition-all duration-300 transform hover:scale-105">
                   💬 WhatsApp Chat
                 </a>
-                <Link href="/services" className="inline-block bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                <Link href="/services" className="bg-pink-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-pink-600 transition-all duration-300 transform hover:scale-105">
                   🔙 All Services
                 </Link>
               </div>
             </div>
+            
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+    </main>
     </>
   )
 }
