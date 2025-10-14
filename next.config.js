@@ -1,26 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Ultra performance optimizations for 100% score
+  // Performance optimizations
   compress: true,
   poweredByHeader: false,
-  generateEtags: false,
   
   // Experimental performance features
   experimental: {
     optimizePackageImports: ['@headlessui/react', '@heroicons/react'],
-    turbo: {
-      rules: {
-        '*.svg': {
-          loaders: ['@svgr/webpack'],
-          as: '*.js',
-        },
-      },
-    },
-  },
-  
-  // Compiler optimizations
-  compiler: {
-    removeConsole: true,
   },
   
   // Image optimization for better page speed
@@ -33,34 +19,28 @@ const nextConfig = {
     domains: ['saumyakapoor.in'],
   },
 
-  // Minimal webpack config for maximum performance
+  // Webpack optimizations
   webpack: (config, { dev, isServer }) => {
     if (!dev && !isServer) {
-      // Minimal bundle splitting
+      // Optimize bundle splitting
       config.optimization.splitChunks = {
         chunks: 'all',
         cacheGroups: {
-          default: false,
-          vendors: false,
           framework: {
             name: 'framework',
-            chunks: 'all',
-            test: /(?<!node_modules.*)[\\/]node_modules[\\/](react|react-dom|scheduler|prop-types|use-subscription)[\\/]/,
+            test: /[\\/]node_modules[\\/](react|react-dom)[\\/]/,
             priority: 40,
             enforce: true,
           },
+          commons: {
+            name: 'commons',
+            priority: 20,
+            minChunks: 2,
+            reuseExistingChunk: true,
+          },
         },
       }
-
-      // Aggressive tree shaking
-      config.optimization.usedExports = true
-      config.optimization.sideEffects = false
-      config.optimization.providedExports = true
-      
-      // Remove comments and console logs
-      config.optimization.minimizer = config.optimization.minimizer || []
     }
-    
     return config
   },
 
