@@ -339,8 +339,8 @@ export default function AboutPage() {
               </div>
             </div>
 
-            {/* Fourth Row - Final 4 Large Cards */}
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+            {/* Fourth Row - Final 3 Large Cards */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="group bg-gradient-to-br from-emerald-100 to-emerald-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-emerald-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
                 <div className="text-center">
                   <div className="text-6xl mb-6">🏛️</div>
@@ -374,6 +374,10 @@ export default function AboutPage() {
                   📞 Book VIP Escorts in Treasure Island
                 </a>
               </div>
+            </div>
+
+            {/* Fifth Row - Additional Location */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="group bg-gradient-to-br from-amber-100 to-amber-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-amber-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
                 <div className="text-center">
                   <div className="text-6xl mb-6">🏰</div>
