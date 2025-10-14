@@ -47,150 +47,6 @@ export default function RajwadaPage() {
       icon: "🌟",
       category: "YOUNG",
       link: "/services/college-girls"
-    },
-    {
-      title: "Housewife Escorts",
-      subtitle: "Mature Experience",
-      description: "Experienced mature companions in Rajwada with caring nature",
-      image: "/images/services/Housewife Escorts.jpg",
-      icon: "👑",
-      category: "MATURE",
-      link: "/services/housewife-escorts"
-    },
-    {
-      title: "Punjabi Women",
-      subtitle: "Traditional Beauty",
-      description: "Authentic Punjabi companions in Rajwada with traditional charm",
-      image: "/images/services/Punjabi women.webp",
-      icon: "🌺",
-      category: "TRADITIONAL",
-      link: "/services"
-    },
-    {
-      title: "Slim Escorts",
-      subtitle: "Perfect Figure",
-      description: "Elegant slim companions in Rajwada with perfect figures",
-      image: "/images/services/Slim Escorts.webp",
-      icon: "💃",
-      category: "SLIM",
-      link: "/services"
-    },
-    {
-      title: "Unsatisfied Bhabhi",
-      subtitle: "Seeking Excitement",
-      description: "Experienced companions in Rajwada seeking excitement and connection",
-      image: "/images/services/Unsatisfied Bhabhi.webp",
-      icon: "🔥",
-      category: "BHABHI",
-      link: "/services"
-    },
-    {
-      title: "Local Beauties",
-      subtitle: "Know Indore Best",
-      description: "Beautiful local companions in Rajwada who know the city inside out",
-      image: "/images/services/Local Beauties.webp",
-      icon: "🏙️",
-      category: "LOCAL",
-      link: "/services"
-    },
-    {
-      title: "Event Companion",
-      subtitle: "Perfect Plus One",
-      description: "Professional companions in Rajwada for business events and parties",
-      image: "/images/services/Event Companion.webp",
-      icon: "🎭",
-      category: "PROFESSIONAL",
-      link: "/services"
-    },
-    {
-      title: "Pink Special",
-      subtitle: "Exclusive Experience",
-      description: "Special premium companions in Rajwada for exclusive experiences",
-      image: "/images/services/Pink Special.webp",
-      icon: "💖",
-      category: "SPECIAL",
-      link: "/services"
-    },
-    {
-      title: "Unsatisfied Females",
-      subtitle: "Meaningful Connections",
-      description: "Mature women in Rajwada seeking meaningful connections",
-      image: "/images/services/Unsatisfied Females.webp",
-      icon: "💕",
-      category: "FEMALE",
-      link: "/services"
-    },
-    {
-      title: "Incall Escorts",
-      subtitle: "Luxury Locations",
-      description: "Premium incall services in Rajwada at luxury locations",
-      image: "/images/services/Incall Escorts.webp",
-      icon: "🏨",
-      category: "INCALL",
-      link: "/services"
-    },
-    {
-      title: "Mature Escorts",
-      subtitle: "Experienced Sophistication",
-      description: "Experienced mature companions in Rajwada with sophistication",
-      image: "/images/services/Mature Escorts.webp",
-      icon: "🍷",
-      category: "MATURE",
-      link: "/services"
-    },
-    {
-      title: "Young Girls",
-      subtitle: "Unforgettable Experiences",
-      description: "Young beautiful companions in Rajwada for unforgettable experiences",
-      image: "/images/services/Young Girls.webp",
-      icon: "✨",
-      category: "YOUNG",
-      link: "/services"
-    },
-    {
-      title: "Indore Escorts",
-      subtitle: "Local Expertise",
-      description: "Premium local escorts in Rajwada with deep knowledge of Indore",
-      image: "/images/services/indore escorts.webp",
-      icon: "🏛️",
-      category: "LOCAL",
-      link: "/services"
-    },
-    {
-      title: "Expert Services",
-      subtitle: "Professional Expertise",
-      description: "Expert companions in Rajwada with specialized skills",
-      image: "/images/services/Expert Services.webp",
-      icon: "🎯",
-      category: "EXPERT",
-      link: "/services"
-    },
-    {
-      title: "High Class Models",
-      subtitle: "Elite Fashion Models",
-      description: "Stunning high-class models in Rajwada with runway experience",
-      image: "/images/services/High Class Models.webp",
-      icon: "👗",
-      category: "MODEL",
-      link: "/services"
-    },
-    {
-      title: "Bold Girls",
-      subtitle: "Confident & Adventurous",
-      description: "Bold and confident companions in Rajwada ready for adventures",
-      image: "/images/services/bold girls.webp",
-      icon: "🔥",
-      category: "BOLD",
-      link: "/services"
-    },
-    {
-      title: "Sexy Girls",
-      subtitle: "Mesmerizing Charm",
-      description: "Incredibly attractive companions in Rajwada with mesmerizing charm",
-      image: "/images/services/sexy girls.webp",
-      icon: "💋",
-      category: "SEXY",
-      link: "/services"
     }
   ]
 
@@ -308,6 +164,28 @@ export default function RajwadaPage() {
           </div>
         </section>
 
+        {/* Services Grid */}
+        <section className="py-16 bg-white">
+          <div className="max-w-6xl mx-auto px-4">
+            <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-pink-600 to-orange-500 bg-clip-text text-transparent">
+              Premium Services in Rajwada
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {services.map((service, index) => (
+                <div key={index} className="bg-gradient-to-br from-pink-50 to-orange-50 rounded-3xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+                  <div className="text-4xl mb-4 text-center">{service.icon}</div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-2">{service.title}</h3>
+                  <p className="text-sm text-pink-600 font-semibold mb-3">{service.subtitle}</p>
+                  <p className="text-gray-700 mb-4">{service.description}</p>
+                  <a href={service.link} className="inline-block bg-gradient-to-r from-pink-500 to-orange-500 text-white px-6 py-2 rounded-full font-semibold hover:from-pink-600 hover:to-orange-600 transition-all">
+                    Book Now Rajwada
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Rajwada Service Features */}
         <section className="py-20 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70">
           <div className="w-full px-4">
@@ -321,44 +199,6 @@ export default function RajwadaPage() {
             </div>
 
             <div className="max-w-7xl mx-auto">
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-                {services.map((service, index) => (
-                  <div key={index} className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden border border-pink-100/50 hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
-                    <div className="relative h-64 overflow-hidden">
-                      <img 
-                        src={service.image} 
-                        alt={service.title}
-                        className="w-full h-full object-cover object-top transition-transform duration-500 hover:scale-110"
-                        loading="lazy"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                      <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full p-3 shadow-lg">
-                        <span className="text-2xl">{service.icon}</span>
-                      </div>
-                      <div className="absolute bottom-4 left-4 right-4">
-                        <span className="inline-block bg-pink-500 text-white px-3 py-1 rounded-full text-sm font-semibold mb-2">
-                          {service.category}
-                        </span>
-                        <h3 className="text-2xl font-bold text-white">{service.title}</h3>
-                        <p className="text-pink-200 font-medium">{service.subtitle}</p>
-                      </div>
-                    </div>
-                    <div className="p-6">
-                      <p className="text-gray-700 mb-4 leading-relaxed">{service.description}</p>
-                      <div className="flex items-center justify-between">
-                        <a 
-                          href={service.link}
-                          className="bg-gradient-to-r from-pink-600 to-orange-600 text-white px-6 py-3 rounded-full font-semibold hover:from-pink-700 hover:to-orange-700 transition-all duration-300 transform hover:scale-105"
-                        >
-                          Book Now →
-                        </a>
-                        <span className="text-pink-600 font-semibold text-sm">Available 24/7</span>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
               {/* Why Choose Section */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
                 {/* Features */}

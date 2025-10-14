@@ -3,7 +3,6 @@
 import { useState } from 'react'
 import Header from '@/components/Header'
 import RingRoadEscortsContent from './components/RingRoadEscortsContent'
-import LocationServiceCards from '@/components/LocationServiceCards'
 
 export default function RingRoadPageContent() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -11,45 +10,6 @@ export default function RingRoadPageContent() {
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index)
   }
-
-  const services = [
-    {
-      title: "Celebrity Escorts",
-      subtitle: "Star Quality Service",
-      description: "Experience celebrity-level companions on Ring Road with exceptional elegance",
-      image: "/images/services/Celebrity Escorts.webp",
-      icon: "⭐",
-      category: "CELEBRITY",
-      link: "/services/celebrity-escorts"
-    },
-    {
-      title: "VIP Escorts", 
-      subtitle: "Ultimate Luxury",
-      description: "Our most exclusive VIP escorts on Ring Road offering ultimate luxury",
-      image: "/images/services/VIP Escorts.jpg",
-      icon: "💫",
-      category: "VIP",
-      link: "/services/vip-escorts"
-    },
-    {
-      title: "Premium Models",
-      subtitle: "High-End Sophistication", 
-      description: "Premium models on Ring Road with unmatched sophistication",
-      image: "/images/services/Premium Models.jpg",
-      icon: "💎",
-      category: "PREMIUM",
-      link: "/services/premium-models"
-    },
-    {
-      title: "College Girls",
-      subtitle: "Fresh & Young",
-      description: "Beautiful young companions on Ring Road with vibrant energy",
-      image: "/images/services/College Girls.webp",
-      icon: "🌟",
-      category: "YOUNG",
-      link: "/services/college-girls"
-    }
-  ]
 
   const faqs = [
     {
@@ -88,28 +48,6 @@ export default function RingRoadPageContent() {
               <a href="https://wa.me/919372662471" className="bg-green-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-600 transition-colors">
                 💬 WhatsApp
               </a>
-            </div>
-          </div>
-        </section>
-
-        {/* Services Grid */}
-        <section className="py-16 bg-white">
-          <div className="max-w-6xl mx-auto px-4">
-            <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-pink-600 to-orange-500 bg-clip-text text-transparent">
-              Premium Services on Ring Road
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {services.map((service, index) => (
-                <div key={index} className="bg-gradient-to-br from-pink-50 to-orange-50 rounded-3xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
-                  <div className="text-4xl mb-4 text-center">{service.icon}</div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">{service.title}</h3>
-                  <p className="text-sm text-pink-600 font-semibold mb-3">{service.subtitle}</p>
-                  <p className="text-gray-700 mb-4">{service.description}</p>
-                  <a href={service.link} className="inline-block bg-gradient-to-r from-pink-500 to-orange-500 text-white px-6 py-2 rounded-full font-semibold hover:from-pink-600 hover:to-orange-600 transition-all">
-                    Learn More
-                  </a>
-                </div>
-              ))}
             </div>
           </div>
         </section>
@@ -166,8 +104,6 @@ export default function RingRoadPageContent() {
           </div>
         </section>
 
-        {/* Service Cards Section */}
-        <LocationServiceCards locationName="Ring Road" />
       </main>
     </div>
   )
