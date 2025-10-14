@@ -142,7 +142,7 @@ export default function CollegeGirlsPage() {
                 {/* College Girls Photo */}
                 <div className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl p-8 border border-blue-100/50">
                   <div className="w-full h-[500px] rounded-2xl overflow-hidden shadow-xl mb-8">
-                    <img src="/images/services/College Girls.webp" alt="College Girls in Indore" className="w-full h-full object-cover object-center" />
+                    <img src="/images/services/College Girls.webp" alt="College Girls in Indore" className="w-full h-full object-contain" />
                   </div>
                   <h3 className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent mb-4 text-center">
                     🎓 Vibrant College Companions
