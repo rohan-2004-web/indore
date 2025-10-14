@@ -16,7 +16,7 @@ export default function ABRoadPageContent() {
 
   const services = [
     {
-      title: "Celebrity Escorts",
+      title: "Celebrity Escorts in Indore",
       subtitle: "Star Quality Service",
       description: "Experience celebrity-level companions in AB Road with exceptional elegance",
       image: "/images/services/Celebrity Escorts.webp",
@@ -25,7 +25,7 @@ export default function ABRoadPageContent() {
       link: "/services/celebrity-escorts"
     },
     {
-      title: "VIP Escorts", 
+      title: "VIP Escorts in Indore", 
       subtitle: "Ultimate Luxury",
       description: "Our most exclusive VIP escorts in AB Road offering ultimate luxury",
       image: "/images/services/VIP Escorts.jpg",
@@ -34,7 +34,7 @@ export default function ABRoadPageContent() {
       link: "/services/vip-escorts"
     },
     {
-      title: "Premium Models",
+      title: "Premium Models in Indore",
       subtitle: "High-End Sophistication", 
       description: "Premium models in AB Road with unmatched sophistication",
       image: "/images/services/Premium Models.jpg",
@@ -43,7 +43,7 @@ export default function ABRoadPageContent() {
       link: "/services/premium-models"
     },
     {
-      title: "College Girls",
+      title: "College Girls in Indore",
       subtitle: "Fresh & Young",
       description: "Beautiful young companions in AB Road with vibrant energy",
       image: "/images/services/College Girls.webp",
@@ -256,12 +256,11 @@ export default function ABRoadPageContent() {
             {/* Premium Badge */}
             <div className="inline-flex items-center gap-3 bg-gradient-to-r from-pink-100/90 to-orange-100/90 backdrop-blur-sm rounded-full px-8 py-4 mb-8 shadow-xl border border-pink-200/50">
               <span className="text-3xl">🛣️</span>
-              <span className="text-pink-800 font-bold text-lg">Premium Escorts in AB Road</span>
-              <span className="text-3xl">✨</span>
+              <span className="text-pink-800 font-bold text-lg">Premium Escorts in Indore - AB Road</span>
             </div>
 
             <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
-              Escorts in AB Road
+              Escorts in Indore AB Road
               <br />
               <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
                 Commercial Hub
@@ -370,7 +369,7 @@ export default function ABRoadPageContent() {
             <div className="max-w-7xl mx-auto">
               <div className="text-center mb-16">
                 <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-orange-600 via-pink-500 to-orange-700 bg-clip-text text-transparent mb-6">
-                  Why Choose Escorts in AB Road?
+                  Why Choose Escorts in Indore AB Road?
                 </h2>
                 <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
                   AB Road is Indore's upscale residential hub, offering the perfect setting for premium escort services
