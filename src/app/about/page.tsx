@@ -180,7 +180,7 @@ export default function AboutPage() {
             <span className="text-3xl">✨</span>
           </div>
 
-          <h1 className="text-3xl md:text-5xl font-black bg-gradient-to-r from-pink-600 via-blue-400 to-pink-400 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
+          <h1 className="text-3xl md:text-5xl font-black bg-gradient-to-r from-pink-600 via-blue-400 to-pink-400 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-lg">
             Welcome to <span className="text-pink-700">Indore's</span> Most Trusted<br />
             <span className="text-4xl md:text-6xl bg-gradient-to-r from-pink-500 via-blue-400 to-pink-400 bg-clip-text text-transparent font-extrabold">Premium Escort Service</span>
           </h1>
@@ -241,47 +241,47 @@ export default function AboutPage() {
             
             {/* First Row - 4 Large Cards */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-              <div className="group bg-gradient-to-br from-pink-100 to-pink-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-pink-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+              <div className="group bg-gradient-to-br from-pink-100 to-pink-200 backdrop-blur-md rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500 p-4 border border-pink-300/60 transform hover:-translate-y-2 min-h-[280px] flex flex-col justify-between">
                 <div className="text-center">
-                  <div className="text-6xl mb-6">🏢</div>
-                  <h3 className="text-3xl font-bold text-pink-800 mb-3">Vijay Nagar</h3>
-                  <p className="text-pink-600 font-bold text-xl mb-4">Central Business District</p>
-                  <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Premium business district with luxury hotels, shopping centers and corporate offices. Elite escort services available 24/7.</p>
+                  <div className="text-4xl mb-3">🏢</div>
+                  <h3 className="text-xl font-bold text-pink-800 mb-3">Vijay Nagar</h3>
+                  <p className="text-pink-600 font-semibold text-sm mb-2">Central Business District</p>
+                  <p className="text-gray-700 text-xs mb-3 leading-relaxed">Premium business district with luxury hotels, shopping centers and corporate offices. Elite escort services available 24/7.</p>
                 </div>
-                <a href="/locations/vijay-nagar" className="w-full inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                <a href="/locations/vijay-nagar" className="w-full inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-4 py-3 rounded-2xl font-semibold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
                   📞 Book Premium Escorts in Vijay Nagar
                 </a>
               </div>
-              <div className="group bg-gradient-to-br from-blue-100 to-blue-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-blue-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+              <div className="group bg-gradient-to-br from-blue-100 to-blue-200 backdrop-blur-md rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500 p-4 border border-blue-300/60 transform hover:-translate-y-2 min-h-[280px] flex flex-col justify-between">
                 <div className="text-center">
-                  <div className="text-6xl mb-6">🏘️</div>
-                  <h3 className="text-3xl font-bold text-blue-800 mb-3">Saket</h3>
-                  <p className="text-blue-600 font-bold text-xl mb-4">Upscale Residential Hub</p>
-                  <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Prestigious residential area with modern amenities and gated communities. Discrete home visit services available.</p>
+                  <div className="text-4xl mb-3">🏘️</div>
+                  <h3 className="text-xl font-bold text-blue-800 mb-3">Saket</h3>
+                  <p className="text-blue-600 font-semibold text-sm mb-2">Upscale Residential Hub</p>
+                  <p className="text-gray-700 text-xs mb-3 leading-relaxed">Prestigious residential area with modern amenities and gated communities. Discrete home visit services available.</p>
                 </div>
-                <a href="/locations/saket" className="w-full inline-block bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                <a href="/locations/saket" className="w-full inline-block bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-4 py-3 rounded-2xl font-semibold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
                   📞 Book VIP Escorts in Saket
                 </a>
               </div>
-              <div className="group bg-gradient-to-br from-orange-100 to-orange-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-orange-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+              <div className="group bg-gradient-to-br from-orange-100 to-orange-200 backdrop-blur-md rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500 p-4 border border-orange-300/60 transform hover:-translate-y-2 min-h-[280px] flex flex-col justify-between">
                 <div className="text-center">
-                  <div className="text-6xl mb-6">💻</div>
-                  <h3 className="text-3xl font-bold text-orange-800 mb-3">Scheme 78</h3>
-                  <p className="text-orange-600 font-bold text-xl mb-4">IT Corporate Sector</p>
-                  <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Technology hub with corporate offices, business hotels and modern infrastructure. Professional companions available.</p>
+                  <div className="text-4xl mb-3">💻</div>
+                  <h3 className="text-xl font-bold text-orange-800 mb-3">Scheme 78</h3>
+                  <p className="text-orange-600 font-semibold text-sm mb-2">IT Corporate Sector</p>
+                  <p className="text-gray-700 text-xs mb-3 leading-relaxed">Technology hub with corporate offices, business hotels and modern infrastructure. Professional companions available.</p>
                 </div>
-                <a href="/locations/scheme-78" className="w-full inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                <a href="/locations/scheme-78" className="w-full inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-4 py-3 rounded-2xl font-semibold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
                   📞 Book Elite Escorts in Scheme 78
                 </a>
               </div>
-              <div className="group bg-gradient-to-br from-purple-100 to-purple-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-purple-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+              <div className="group bg-gradient-to-br from-purple-100 to-purple-200 backdrop-blur-md rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500 p-4 border border-purple-300/60 transform hover:-translate-y-2 min-h-[280px] flex flex-col justify-between">
                 <div className="text-center">
-                  <div className="text-6xl mb-6">🛍️</div>
-                  <h3 className="text-3xl font-bold text-purple-800 mb-3">AB Road</h3>
-                  <p className="text-purple-600 font-bold text-xl mb-4">Commercial Zone</p>
-                  <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Main commercial area with luxury shopping, dining and premium hotels. Elite companions for business meetings.</p>
+                  <div className="text-4xl mb-3">🛍️</div>
+                  <h3 className="text-xl font-bold text-purple-800 mb-3">AB Road</h3>
+                  <p className="text-purple-600 font-semibold text-sm mb-2">Commercial Zone</p>
+                  <p className="text-gray-700 text-xs mb-3 leading-relaxed">Main commercial area with luxury shopping, dining and premium hotels. Elite companions for business meetings.</p>
                 </div>
-                <a href="/locations/ab-road" className="w-full inline-block bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                <a href="/locations/ab-road" className="w-full inline-block bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-4 py-3 rounded-2xl font-semibold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
                   📞 Book Premium Escorts in AB Road
                 </a>
               </div>
@@ -289,47 +289,47 @@ export default function AboutPage() {
 
             {/* Second Row - 4 Large Cards */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-              <div className="group bg-gradient-to-br from-green-100 to-green-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-green-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+              <div className="group bg-gradient-to-br from-green-100 to-green-200 backdrop-blur-md rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500 p-4 border border-green-300/60 transform hover:-translate-y-2 min-h-[280px] flex flex-col justify-between">
                 <div className="text-center">
-                  <div className="text-6xl mb-6">🌆</div>
-                  <h3 className="text-3xl font-bold text-green-800 mb-3">Palasia</h3>
-                  <p className="text-green-600 font-bold text-xl mb-4">City Center</p>
-                  <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Heart of Indore with premium facilities, accessibility and upscale venues. Professional escort services 24/7.</p>
+                  <div className="text-4xl mb-3">🌆</div>
+                  <h3 className="text-xl font-bold text-green-800 mb-3">Palasia</h3>
+                  <p className="text-green-600 font-semibold text-sm mb-2">City Center</p>
+                  <p className="text-gray-700 text-xs mb-3 leading-relaxed">Heart of Indore with premium facilities, accessibility and upscale venues. Professional escort services 24/7.</p>
                 </div>
-                <a href="/locations/palasia" className="w-full inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                <a href="/locations/palasia" className="w-full inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-4 py-3 rounded-2xl font-semibold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
                   📞 Book VIP Escorts in Palasia
                 </a>
               </div>
-              <div className="group bg-gradient-to-br from-teal-100 to-teal-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-teal-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+              <div className="group bg-gradient-to-br from-teal-100 to-teal-200 backdrop-blur-md rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500 p-4 border border-teal-300/60 transform hover:-translate-y-2 min-h-[280px] flex flex-col justify-between">
                 <div className="text-center">
-                  <div className="text-6xl mb-6">🏛️</div>
-                  <h3 className="text-3xl font-bold text-teal-800 mb-3">Bhawar Kuan</h3>
-                  <p className="text-teal-600 font-bold text-xl mb-4">Premium District</p>
-                  <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Prestigious business and residential area with luxury amenities and high-end establishments.</p>
+                  <div className="text-4xl mb-3">🏛️</div>
+                  <h3 className="text-xl font-bold text-teal-800 mb-3">Bhawar Kuan</h3>
+                  <p className="text-teal-600 font-semibold text-sm mb-2">Premium District</p>
+                  <p className="text-gray-700 text-xs mb-3 leading-relaxed">Prestigious business and residential area with luxury amenities and high-end establishments.</p>
                 </div>
-                <a href="/locations/bhawar-kuan" className="w-full inline-block bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                <a href="/locations/bhawar-kuan" className="w-full inline-block bg-gradient-to-r from-teal-500 to-teal-600 hover:from-teal-600 hover:to-teal-700 text-white px-4 py-3 rounded-2xl font-semibold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
                   📞 Book Elite Escorts in Bhawar Kuan
                 </a>
               </div>
-              <div className="group bg-gradient-to-br from-indigo-100 to-indigo-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-indigo-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+              <div className="group bg-gradient-to-br from-indigo-100 to-indigo-200 backdrop-blur-md rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500 p-4 border border-indigo-300/60 transform hover:-translate-y-2 min-h-[280px] flex flex-col justify-between">
                 <div className="text-center">
-                  <div className="text-6xl mb-6">🛣️</div>
-                  <h3 className="text-3xl font-bold text-indigo-800 mb-3">Ring Road</h3>
-                  <p className="text-indigo-600 font-bold text-xl mb-4">Connectivity Hub</p>
-                  <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Well-connected area with easy access to all parts of the city and premium establishments.</p>
+                  <div className="text-4xl mb-3">🛣️</div>
+                  <h3 className="text-xl font-bold text-indigo-800 mb-3">Ring Road</h3>
+                  <p className="text-indigo-600 font-semibold text-sm mb-2">Connectivity Hub</p>
+                  <p className="text-gray-700 text-xs mb-3 leading-relaxed">Well-connected area with easy access to all parts of the city and premium establishments.</p>
                 </div>
-                <a href="/locations/ring-road" className="w-full inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                <a href="/locations/ring-road" className="w-full inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 hover:from-indigo-600 hover:to-indigo-700 text-white px-4 py-3 rounded-2xl font-semibold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
                   📞 Book VIP Escorts in Ring Road
                 </a>
               </div>
-              <div className="group bg-gradient-to-br from-red-100 to-red-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-red-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+              <div className="group bg-gradient-to-br from-red-100 to-red-200 backdrop-blur-md rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500 p-4 border border-red-300/60 transform hover:-translate-y-2 min-h-[280px] flex flex-col justify-between">
                 <div className="text-center">
-                  <div className="text-6xl mb-6">🏥</div>
-                  <h3 className="text-3xl font-bold text-red-800 mb-3">Bombay Hospital</h3>
-                  <p className="text-red-600 font-bold text-xl mb-4">Medical District</p>
-                  <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Healthcare hub with premium medical facilities and upscale accommodations nearby.</p>
+                  <div className="text-4xl mb-3">🏥</div>
+                  <h3 className="text-xl font-bold text-red-800 mb-3">Bombay Hospital</h3>
+                  <p className="text-red-600 font-semibold text-sm mb-2">Medical District</p>
+                  <p className="text-gray-700 text-xs mb-3 leading-relaxed">Healthcare hub with premium medical facilities and upscale accommodations nearby.</p>
                 </div>
-                <a href="/locations/bombay-hospital" className="w-full inline-block bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                <a href="/locations/bombay-hospital" className="w-full inline-block bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white px-4 py-3 rounded-2xl font-semibold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
                   📞 Book Elite Escorts in Bombay Hospital
                 </a>
               </div>
@@ -337,47 +337,47 @@ export default function AboutPage() {
 
             {/* Third Row - Final 4 Large Cards */}
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-              <div className="group bg-gradient-to-br from-emerald-100 to-emerald-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-emerald-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+              <div className="group bg-gradient-to-br from-emerald-100 to-emerald-200 backdrop-blur-md rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500 p-4 border border-emerald-300/60 transform hover:-translate-y-2 min-h-[280px] flex flex-col justify-between">
                 <div className="text-center">
-                  <div className="text-6xl mb-6">🏛️</div>
-                  <h3 className="text-3xl font-bold text-emerald-800 mb-3">MG Road</h3>
-                  <p className="text-emerald-600 font-bold text-xl mb-4">Heritage Area</p>
-                  <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Historic area with cultural significance, premium hotels and upscale amenities.</p>
+                  <div className="text-4xl mb-3">🏛️</div>
+                  <h3 className="text-xl font-bold text-emerald-800 mb-3">MG Road</h3>
+                  <p className="text-emerald-600 font-semibold text-sm mb-2">Heritage Area</p>
+                  <p className="text-gray-700 text-xs mb-3 leading-relaxed">Historic area with cultural significance, premium hotels and upscale amenities.</p>
                 </div>
-                <a href="/locations/mg-road" className="w-full inline-block bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                <a href="/locations/mg-road" className="w-full inline-block bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white px-4 py-3 rounded-2xl font-semibold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
                   📞 Book Premium Escorts in MG Road
                 </a>
               </div>
-              <div className="group bg-gradient-to-br from-rose-100 to-rose-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-rose-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+              <div className="group bg-gradient-to-br from-rose-100 to-rose-200 backdrop-blur-md rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500 p-4 border border-rose-300/60 transform hover:-translate-y-2 min-h-[280px] flex flex-col justify-between">
                 <div className="text-center">
-                  <div className="text-6xl mb-6">✈️</div>
-                  <h3 className="text-3xl font-bold text-rose-800 mb-3">Airport Road</h3>
-                  <p className="text-rose-600 font-bold text-xl mb-4">Aviation Zone</p>
-                  <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Airport vicinity with luxury hotels, business centers and premium travel services.</p>
+                  <div className="text-4xl mb-3">✈️</div>
+                  <h3 className="text-xl font-bold text-rose-800 mb-3">Airport Road</h3>
+                  <p className="text-rose-600 font-semibold text-sm mb-2">Aviation Zone</p>
+                  <p className="text-gray-700 text-xs mb-3 leading-relaxed">Airport vicinity with luxury hotels, business centers and premium travel services.</p>
                 </div>
-                <a href="/locations/airport-road" className="w-full inline-block bg-gradient-to-r from-rose-500 to-rose-600 hover:from-rose-600 hover:to-rose-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                <a href="/locations/airport-road" className="w-full inline-block bg-gradient-to-r from-rose-500 to-rose-600 hover:from-rose-600 hover:to-rose-700 text-white px-4 py-3 rounded-2xl font-semibold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
                   📞 Book Elite Escorts in Airport Road
                 </a>
               </div>
-              <div className="group bg-gradient-to-br from-violet-100 to-violet-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-violet-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+              <div className="group bg-gradient-to-br from-violet-100 to-violet-200 backdrop-blur-md rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500 p-4 border border-violet-300/60 transform hover:-translate-y-2 min-h-[280px] flex flex-col justify-between">
                 <div className="text-center">
-                  <div className="text-6xl mb-6">🎯</div>
-                  <h3 className="text-3xl font-bold text-violet-800 mb-3">Treasure Island</h3>
-                  <p className="text-violet-600 font-bold text-xl mb-4">Entertainment Hub</p>
-                  <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Entertainment and recreation center with modern facilities and premium venues.</p>
+                  <div className="text-4xl mb-3">🎯</div>
+                  <h3 className="text-xl font-bold text-violet-800 mb-3">Treasure Island</h3>
+                  <p className="text-violet-600 font-semibold text-sm mb-2">Entertainment Hub</p>
+                  <p className="text-gray-700 text-xs mb-3 leading-relaxed">Entertainment and recreation center with modern facilities and premium venues.</p>
                 </div>
-                <a href="/locations/treasure-island" className="w-full inline-block bg-gradient-to-r from-violet-500 to-violet-600 hover:from-violet-600 hover:to-violet-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                <a href="/locations/treasure-island" className="w-full inline-block bg-gradient-to-r from-violet-500 to-violet-600 hover:from-violet-600 hover:to-violet-700 text-white px-4 py-3 rounded-2xl font-semibold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
                   📞 Book VIP Escorts in Treasure Island
                 </a>
               </div>
-              <div className="group bg-gradient-to-br from-amber-100 to-amber-200 backdrop-blur-md rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 p-10 border-2 border-amber-300/60 transform hover:-translate-y-5 min-h-[380px] flex flex-col justify-between">
+              <div className="group bg-gradient-to-br from-amber-100 to-amber-200 backdrop-blur-md rounded-2xl shadow-lg hover:shadow-xl transition-all duration-500 p-4 border border-amber-300/60 transform hover:-translate-y-2 min-h-[280px] flex flex-col justify-between">
                 <div className="text-center">
-                  <div className="text-6xl mb-6">🏰</div>
-                  <h3 className="text-3xl font-bold text-amber-800 mb-3">Rajwada</h3>
-                  <p className="text-amber-600 font-bold text-xl mb-4">Heritage Palace</p>
-                  <p className="text-gray-700 text-lg mb-6 leading-relaxed font-semibold">Historic royal palace area with cultural heritage and premium hospitality services.</p>
+                  <div className="text-4xl mb-3">🏰</div>
+                  <h3 className="text-xl font-bold text-amber-800 mb-3">Rajwada</h3>
+                  <p className="text-amber-600 font-semibold text-sm mb-2">Heritage Palace</p>
+                  <p className="text-gray-700 text-xs mb-3 leading-relaxed">Historic royal palace area with cultural heritage and premium hospitality services.</p>
                 </div>
-                <a href="/locations/rajwada" className="w-full inline-block bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-8 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl text-center">
+                <a href="/locations/rajwada" className="w-full inline-block bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white px-4 py-3 rounded-2xl font-semibold text-sm transition-all duration-300 transform hover:scale-105 shadow-lg text-center">
                   📞 Book Royal Escorts in Rajwada
                 </a>
               </div>
@@ -393,10 +393,10 @@ export default function AboutPage() {
                   Premium escort services in Vijay Nagar, AB Road, Bhawar Kuan, and all major commercial areas with 5-star hotels.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-12 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl">
+                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-12 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-lg">
                     📞 Call Now: +91 9372662471
                   </a>
-                  <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-12 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl">
+                  <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-12 py-5 rounded-3xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-lg">
                     💬 WhatsApp Chat
                   </a>
                 </div>
@@ -424,7 +424,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Enhanced Left Content - Mission & Vision */}
             <div className="space-y-10">
-              <div className="group bg-gradient-to-br from-violet-200/90 via-purple-100/90 to-fuchsia-200/90 backdrop-blur-lg rounded-4xl p-10 shadow-2xl border-3 border-white/60 hover:border-white/80 transform hover:scale-105 hover:-translate-y-2 transition-all duration-500 cursor-pointer relative overflow-hidden">
+              <div className="group bg-gradient-to-br from-violet-200/90 via-purple-100/90 to-fuchsia-200/90 backdrop-blur-lg rounded-4xl p-10 shadow-lg border-3 border-white/60 hover:border-white/80 transform hover:scale-105 hover:-translate-y-2 transition-all duration-500 cursor-pointer relative overflow-hidden">
                 {/* Mission Background Effects */}
                 <div className="absolute -top-4 -right-4 w-20 h-20 bg-gradient-to-r from-violet-300/30 to-fuchsia-400/30 rounded-full blur-xl group-hover:scale-150 transition-all duration-500"></div>
                 <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-gradient-to-r from-purple-300/20 to-pink-400/30 rounded-full blur-xl group-hover:scale-125 transition-all duration-500"></div>
@@ -441,7 +441,7 @@ export default function AboutPage() {
                 </div>
               </div>
 
-              <div className="group bg-gradient-to-br from-blue-200/90 via-cyan-100/90 to-teal-200/90 backdrop-blur-lg rounded-4xl p-10 shadow-2xl border-3 border-white/60 hover:border-white/80 transform hover:scale-105 hover:-translate-y-2 transition-all duration-500 cursor-pointer relative overflow-hidden">
+              <div className="group bg-gradient-to-br from-blue-200/90 via-cyan-100/90 to-teal-200/90 backdrop-blur-lg rounded-4xl p-10 shadow-lg border-3 border-white/60 hover:border-white/80 transform hover:scale-105 hover:-translate-y-2 transition-all duration-500 cursor-pointer relative overflow-hidden">
                 {/* Vision Background Effects */}
                 <div className="absolute -top-4 -right-4 w-24 h-24 bg-gradient-to-r from-blue-300/30 to-cyan-400/30 rounded-full blur-xl group-hover:scale-150 transition-all duration-500"></div>
                 <div className="absolute -bottom-4 -left-4 w-28 h-28 bg-gradient-to-r from-cyan-300/20 to-teal-400/30 rounded-full blur-xl group-hover:scale-125 transition-all duration-500"></div>
@@ -461,7 +461,7 @@ export default function AboutPage() {
 
             {/* Enhanced Right Content - Why Choose Us */}
             <div className="space-y-10">
-              <div className="group bg-gradient-to-br from-orange-200/90 via-amber-100/90 to-yellow-200/90 backdrop-blur-lg rounded-4xl p-10 shadow-2xl border-3 border-white/60 hover:border-white/80 transform hover:scale-105 hover:-translate-y-2 transition-all duration-500 cursor-pointer relative overflow-hidden">
+              <div className="group bg-gradient-to-br from-orange-200/90 via-amber-100/90 to-yellow-200/90 backdrop-blur-lg rounded-4xl p-10 shadow-lg border-3 border-white/60 hover:border-white/80 transform hover:scale-105 hover:-translate-y-2 transition-all duration-500 cursor-pointer relative overflow-hidden">
                 {/* Why Choose Us Background Effects */}
                 <div className="absolute -top-4 -right-4 w-28 h-28 bg-gradient-to-r from-orange-300/30 to-yellow-400/30 rounded-full blur-xl group-hover:scale-150 transition-all duration-500"></div>
                 <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-gradient-to-r from-amber-300/20 to-orange-400/30 rounded-full blur-xl group-hover:scale-125 transition-all duration-500"></div>
@@ -492,7 +492,7 @@ export default function AboutPage() {
               </div>
 
               {/* Premium CTA Card */}
-              <div className="bg-gradient-to-br from-pink-500/95 via-fuchsia-600/95 to-violet-600/95 rounded-4xl p-10 shadow-2xl border-3 border-white/30 text-center text-white hover:scale-105 hover:-translate-y-2 transition-all duration-500 cursor-pointer relative overflow-hidden">
+              <div className="bg-gradient-to-br from-pink-500/95 via-fuchsia-600/95 to-violet-600/95 rounded-4xl p-10 shadow-lg border-3 border-white/30 text-center text-white hover:scale-105 hover:-translate-y-2 transition-all duration-500 cursor-pointer relative overflow-hidden">
                 <div className="absolute -top-6 -left-6 w-24 h-24 bg-white/20 rounded-full blur-xl"></div>
                 <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-white/10 rounded-full blur-xl"></div>
                 
@@ -533,9 +533,9 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
             {stats.map((stat, index) => (
-              <div key={index} className="group bg-gradient-to-br from-white/95 to-pink-50/90 backdrop-blur-lg rounded-3xl p-8 text-center shadow-2xl border-2 border-pink-200/60 hover:border-orange-300/80 transform hover:scale-110 hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-500/30">
+              <div key={index} className="group bg-gradient-to-br from-white/95 to-pink-50/90 backdrop-blur-lg rounded-3xl p-8 text-center shadow-lg border-2 border-pink-200/60 hover:border-orange-300/80 transform hover:scale-110 hover:-translate-y-3 transition-all duration-500 hover:shadow-pink-500/30">
                 {/* Icon with enhanced styling */}
-                <div className="text-6xl mb-6 transform group-hover:scale-125 group-hover:animate-bounce transition-all duration-300">
+                <div className="text-4xl mb-3 transform group-hover:scale-125 group-hover:animate-bounce transition-all duration-300">
                   {stat.icon}
                 </div>
                 
@@ -592,7 +592,7 @@ export default function AboutPage() {
               onClick={() => setActiveTab('about')}
               className={`px-8 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 ${
                 activeTab === 'about'
-                  ? 'bg-gradient-to-r from-pink-500 to-purple-600 text-white shadow-2xl border-2 border-pink-300/50'
+                  ? 'bg-gradient-to-r from-pink-500 to-purple-600 text-white shadow-lg border-2 border-pink-300/50'
                   : 'bg-white/70 text-gray-700 shadow-lg border border-pink-200/50 hover:bg-pink-50'
               }`}
             >
@@ -602,7 +602,7 @@ export default function AboutPage() {
               onClick={() => setActiveTab('features')}
               className={`px-8 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 ${
                 activeTab === 'features'
-                  ? 'bg-gradient-to-r from-blue-500 to-cyan-600 text-white shadow-2xl border-2 border-blue-300/50'
+                  ? 'bg-gradient-to-r from-blue-500 to-cyan-600 text-white shadow-lg border-2 border-blue-300/50'
                   : 'bg-white/70 text-gray-700 shadow-lg border border-pink-200/50 hover:bg-blue-50'
               }`}
             >
@@ -612,7 +612,7 @@ export default function AboutPage() {
               onClick={() => setActiveTab('testimonials')}
               className={`px-8 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 ${
                 activeTab === 'testimonials'
-                  ? 'bg-gradient-to-r from-orange-500 to-red-600 text-white shadow-2xl border-2 border-orange-300/50'
+                  ? 'bg-gradient-to-r from-orange-500 to-red-600 text-white shadow-lg border-2 border-orange-300/50'
                   : 'bg-white/70 text-gray-700 shadow-lg border border-pink-200/50 hover:bg-orange-50'
               }`}
             >
@@ -623,7 +623,7 @@ export default function AboutPage() {
           {/* About Tab */}
           {activeTab === 'about' && (
             <div className="grid md:grid-cols-2 gap-12">
-              <div className="bg-gradient-to-br from-pink-50 to-purple-100 rounded-3xl p-10 shadow-2xl border-2 border-pink-200/60">
+              <div className="bg-gradient-to-br from-pink-50 to-purple-100 rounded-3xl p-10 shadow-lg border-2 border-pink-200/60">
                 <h2 className="text-4xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent mb-8">
                   🌟 Our Story
                 </h2>
@@ -643,7 +643,7 @@ export default function AboutPage() {
                 </div>
               </div>
               
-              <div className="bg-gradient-to-br from-orange-50 to-pink-100 rounded-3xl p-10 shadow-2xl border-2 border-orange-200/60">
+              <div className="bg-gradient-to-br from-orange-50 to-pink-100 rounded-3xl p-10 shadow-lg border-2 border-orange-200/60">
                 <h2 className="text-4xl font-bold bg-gradient-to-r from-orange-600 to-pink-600 bg-clip-text text-transparent mb-8">
                   🎯 Our Mission
                 </h2>
@@ -669,7 +669,7 @@ export default function AboutPage() {
           {activeTab === 'features' && (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {features.map((feature, index) => (
-                <div key={index} className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-gray-200/50 hover:scale-105 transition-all duration-300">
+                <div key={index} className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-lg border border-gray-200/50 hover:scale-105 transition-all duration-300">
                   <div className={`w-16 h-16 bg-gradient-to-r ${feature.color} rounded-full flex items-center justify-center text-2xl mb-6 shadow-lg`}>
                     {feature.icon}
                   </div>
@@ -697,7 +697,7 @@ export default function AboutPage() {
               <div className="grid md:grid-cols-3 gap-8">
                 {testimonials.map((testimonial, index) => (
                   <div key={index} className="group relative">
-                    <div className="bg-gradient-to-br from-white/90 to-pink-50/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-500 border border-pink-200/50 group-hover:scale-105 group-hover:-translate-y-3">
+                    <div className="bg-gradient-to-br from-white/90 to-pink-50/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl hover:shadow-lg transition-all duration-500 border border-pink-200/50 group-hover:scale-105 group-hover:-translate-y-3">
                       
                       {/* Quote Icon */}
                       <div className="absolute -top-4 -left-4 w-12 h-12 bg-gradient-to-br from-pink-500 to-purple-600 rounded-full flex items-center justify-center shadow-lg">
@@ -756,7 +756,7 @@ export default function AboutPage() {
       {/* Call to Action */}
       <section className="py-20 px-4 bg-gradient-to-br from-pink-200/70 via-purple-100/60 to-orange-200/70">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-12 shadow-2xl border border-pink-200/50">
+          <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-12 shadow-lg border border-pink-200/50">
             <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-purple-600 to-orange-600 bg-clip-text text-transparent mb-8">
               Ready to Experience Premium Service?
             </h2>
@@ -766,13 +766,13 @@ export default function AboutPage() {
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <a 
                 href="tel:+919372662471" 
-                className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-emerald-600 hover:to-green-700 text-white px-10 py-6 rounded-2xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl border-2 border-green-300/50"
+                className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-emerald-600 hover:to-green-700 text-white px-10 py-6 rounded-2xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-green-300/50"
               >
                 📞 Call Now: +91 9372 662 471
               </a>
               <a 
                 href="https://wa.me/919372662471" 
-                className="bg-gradient-to-r from-green-600 to-lime-600 hover:from-lime-600 hover:to-green-700 text-white px-10 py-6 rounded-2xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl border-2 border-lime-300/50"
+                className="bg-gradient-to-r from-green-600 to-lime-600 hover:from-lime-600 hover:to-green-700 text-white px-10 py-6 rounded-2xl font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-lime-300/50"
               >
                 💬 WhatsApp Chat
               </a>
@@ -795,7 +795,7 @@ export default function AboutPage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {faqs.map((faq, index) => (
-              <div key={index} className="bg-gradient-to-br from-pink-100 to-pink-200 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-pink-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
+              <div key={index} className="bg-gradient-to-br from-pink-100 to-pink-200 backdrop-blur-md rounded-3xl shadow-lg border-2 border-pink-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
                 <button
                   onClick={() => toggleFaq(index)}
                   className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-pink-200/80 hover:to-orange-100/80 transition-all duration-200 flex justify-between items-center group"
@@ -827,13 +827,13 @@ export default function AboutPage() {
 
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-4 bg-gradient-to-r from-white/25 to-cyan-200/30 backdrop-blur-lg rounded-full px-12 py-6 mb-10 shadow-2xl border-2 border-white/50">
+            <div className="inline-flex items-center gap-4 bg-gradient-to-r from-white/25 to-cyan-200/30 backdrop-blur-lg rounded-full px-12 py-6 mb-10 shadow-lg border-2 border-white/50">
               <span className="text-4xl">📈</span>
               <span className="text-white font-black text-2xl">Our Journey</span>
               <span className="text-4xl">🎯</span>
             </div>
             
-            <h2 className="text-6xl md:text-8xl font-black text-white mb-10 leading-tight drop-shadow-2xl">
+            <h2 className="text-6xl md:text-8xl font-black text-white mb-10 leading-tight drop-shadow-lg">
               Building Trust
               <br />
               <span className="bg-gradient-to-r from-cyan-300 via-blue-300 to-purple-300 bg-clip-text text-transparent">
@@ -849,7 +849,7 @@ export default function AboutPage() {
           {/* Journey Timeline */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
             <div className="space-y-8">
-              <div className="group bg-gradient-to-br from-white/20 to-cyan-100/20 backdrop-blur-lg rounded-3xl p-10 border-2 border-white/40 hover:border-cyan-300/60 transform hover:scale-105 transition-all duration-500 shadow-2xl">
+              <div className="group bg-gradient-to-br from-white/20 to-cyan-100/20 backdrop-blur-lg rounded-3xl p-4 border border-white/40 hover:border-cyan-300/60 transform hover:scale-105 transition-all duration-500 shadow-lg">
                 <div className="flex items-center gap-6 mb-6">
                   <div className="text-6xl group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">🚀</div>
                   <h3 className="text-4xl font-black bg-gradient-to-r from-cyan-300 to-blue-400 bg-clip-text text-transparent">
@@ -862,7 +862,7 @@ export default function AboutPage() {
                 </p>
               </div>
 
-              <div className="group bg-gradient-to-br from-white/20 to-purple-100/20 backdrop-blur-lg rounded-3xl p-10 border-2 border-white/40 hover:border-purple-300/60 transform hover:scale-105 transition-all duration-500 shadow-2xl">
+              <div className="group bg-gradient-to-br from-white/20 to-purple-100/20 backdrop-blur-lg rounded-3xl p-4 border border-white/40 hover:border-purple-300/60 transform hover:scale-105 transition-all duration-500 shadow-lg">
                 <div className="flex items-center gap-6 mb-6">
                   <div className="text-6xl group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">🏆</div>
                   <h3 className="text-4xl font-black bg-gradient-to-r from-purple-300 to-pink-400 bg-clip-text text-transparent">
@@ -877,7 +877,7 @@ export default function AboutPage() {
             </div>
 
             <div className="space-y-8">
-              <div className="group bg-gradient-to-br from-white/20 to-emerald-100/20 backdrop-blur-lg rounded-3xl p-10 border-2 border-white/40 hover:border-emerald-300/60 transform hover:scale-105 transition-all duration-500 shadow-2xl">
+              <div className="group bg-gradient-to-br from-white/20 to-emerald-100/20 backdrop-blur-lg rounded-3xl p-4 border border-white/40 hover:border-emerald-300/60 transform hover:scale-105 transition-all duration-500 shadow-lg">
                 <div className="flex items-center gap-6 mb-6">
                   <div className="text-6xl group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">💎</div>
                   <h3 className="text-4xl font-black bg-gradient-to-r from-emerald-300 to-teal-400 bg-clip-text text-transparent">
@@ -890,7 +890,7 @@ export default function AboutPage() {
                 </p>
               </div>
 
-              <div className="group bg-gradient-to-br from-white/20 to-orange-100/20 backdrop-blur-lg rounded-3xl p-10 border-2 border-white/40 hover:border-orange-300/60 transform hover:scale-105 transition-all duration-500 shadow-2xl">
+              <div className="group bg-gradient-to-br from-white/20 to-orange-100/20 backdrop-blur-lg rounded-3xl p-4 border border-white/40 hover:border-orange-300/60 transform hover:scale-105 transition-all duration-500 shadow-lg">
                 <div className="flex items-center gap-6 mb-6">
                   <div className="text-6xl group-hover:scale-125 group-hover:rotate-12 transition-all duration-500">🌟</div>
                   <h3 className="text-4xl font-black bg-gradient-to-r from-orange-300 to-red-400 bg-clip-text text-transparent">
@@ -913,7 +913,7 @@ export default function AboutPage() {
               { number: "12+", label: "Prime Locations", icon: "📍", gradient: "from-blue-400 to-cyan-500" },
               { number: "24/7", label: "Availability", icon: "🕐", gradient: "from-purple-400 to-pink-500" }
             ].map((stat, index) => (
-              <div key={index} className="group text-center bg-white/15 backdrop-blur-lg rounded-3xl p-8 border-2 border-white/30 hover:border-white/60 transform hover:scale-110 hover:-translate-y-3 transition-all duration-500 shadow-2xl">
+              <div key={index} className="group text-center bg-white/15 backdrop-blur-lg rounded-3xl p-8 border-2 border-white/30 hover:border-white/60 transform hover:scale-110 hover:-translate-y-3 transition-all duration-500 shadow-lg">
                 <div className="text-5xl mb-4 group-hover:scale-125 group-hover:animate-bounce transition-all duration-300">
                   {stat.icon}
                 </div>
@@ -929,7 +929,7 @@ export default function AboutPage() {
 
           {/* Premium About CTA */}
           <div className="text-center">
-            <div className="bg-gradient-to-r from-white/25 to-purple-200/25 backdrop-blur-lg rounded-4xl p-12 border-2 border-white/50 shadow-2xl max-w-5xl mx-auto">
+            <div className="bg-gradient-to-r from-white/25 to-purple-200/25 backdrop-blur-lg rounded-4xl p-12 border-2 border-white/50 shadow-lg max-w-5xl mx-auto">
               <h3 className="text-4xl md:text-6xl font-black text-white mb-8">
                 🎖️ Join Our Premium Family 🎖️
               </h3>
@@ -939,7 +939,7 @@ export default function AboutPage() {
               <div className="flex flex-col sm:flex-row gap-8 justify-center">
                 <a 
                   href="tel:+919372662471" 
-                  className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-700 hover:from-cyan-600 hover:via-blue-700 hover:to-purple-800 text-white px-14 py-7 rounded-full font-black text-xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-cyan-500/50 border-2 border-cyan-400/40"
+                  className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-cyan-500 via-blue-600 to-purple-700 hover:from-cyan-600 hover:via-blue-700 hover:to-purple-800 text-white px-14 py-7 rounded-full font-black text-xl transition-all duration-500 transform hover:scale-110 shadow-lg hover:shadow-cyan-500/50 border-2 border-cyan-400/40"
                 >
                   <span className="text-3xl group-hover:animate-bounce">📞</span>
                   <span>Call Now: +91 9372662471</span>
@@ -947,7 +947,7 @@ export default function AboutPage() {
                 </a>
                 <a 
                   href="https://wa.me/919372662471" 
-                  className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-purple-500 via-pink-600 to-red-600 hover:from-purple-600 hover:via-pink-700 hover:to-red-700 text-white px-14 py-7 rounded-full font-black text-xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-purple-500/50 border-2 border-purple-400/40"
+                  className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-purple-500 via-pink-600 to-red-600 hover:from-purple-600 hover:via-pink-700 hover:to-red-700 text-white px-14 py-7 rounded-full font-black text-xl transition-all duration-500 transform hover:scale-110 shadow-lg hover:shadow-purple-500/50 border-2 border-purple-400/40"
                 >
                   <span className="text-3xl group-hover:animate-bounce">💬</span>
                   <span>WhatsApp Now</span>
@@ -972,7 +972,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             
             {/* Left Side - Services Content */}
-            <div className="bg-white/20 backdrop-blur-md rounded-3xl p-10 border border-white/30 shadow-2xl">
+            <div className="bg-white/20 backdrop-blur-md rounded-3xl p-10 border border-white/30 shadow-lg">
               <div className="text-center mb-8">
                 <h3 className="text-4xl md:text-5xl font-bold text-white mb-6 drop-shadow-xl">
                   💎 Why Our Premium Services Are Best
@@ -1012,7 +1012,7 @@ export default function AboutPage() {
             </div>
 
             {/* Right Side - Location Content */}
-            <div className="bg-white/20 backdrop-blur-md rounded-3xl p-10 border border-white/30 shadow-2xl">
+            <div className="bg-white/20 backdrop-blur-md rounded-3xl p-10 border border-white/30 shadow-lg">
               <div className="text-center mb-8">
                 <h3 className="text-4xl md:text-5xl font-bold text-white mb-6 drop-shadow-xl">
                   📍 Why Our Indore Locations Are Perfect
