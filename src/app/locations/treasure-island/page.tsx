@@ -321,44 +321,6 @@ export default function TreasureIslandPage() {
             </div>
 
             <div className="max-w-7xl mx-auto">
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-                {services.map((service, index) => (
-                  <div key={index} className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden border border-pink-100/50 hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
-                    <div className="relative h-64 overflow-hidden">
-                      <img 
-                        src={service.image} 
-                        alt={service.title}
-                        className="w-full h-full object-cover object-top transition-transform duration-500 hover:scale-110"
-                        loading="lazy"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                      <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full p-3 shadow-lg">
-                        <span className="text-2xl">{service.icon}</span>
-                      </div>
-                      <div className="absolute bottom-4 left-4 right-4">
-                        <span className="inline-block bg-pink-500 text-white px-3 py-1 rounded-full text-sm font-semibold mb-2">
-                          {service.category}
-                        </span>
-                        <h3 className="text-2xl font-bold text-white">{service.title}</h3>
-                        <p className="text-pink-200 font-medium">{service.subtitle}</p>
-                      </div>
-                    </div>
-                    <div className="p-6">
-                      <p className="text-gray-700 mb-4 leading-relaxed">{service.description}</p>
-                      <div className="flex items-center justify-between">
-                        <a 
-                          href={service.link}
-                          className="bg-gradient-to-r from-pink-600 to-orange-600 text-white px-6 py-3 rounded-full font-semibold hover:from-pink-700 hover:to-orange-700 transition-all duration-300 transform hover:scale-105"
-                        >
-                          Book Now →
-                        </a>
-                        <span className="text-pink-600 font-semibold text-sm">Available 24/7</span>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
               {/* Why Choose Section */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
                 {/* Features */}

@@ -13,7 +13,7 @@ export default function RajwadaPage() {
 
   const services = [
     {
-      title: "Celebrity Escorts",
+      title: "Celebrity Escorts in Indore",
       subtitle: "Star Quality Service",
       description: "Experience celebrity-level companions in Rajwada with exceptional elegance",
       image: "/images/services/Celebrity Escorts.webp",
@@ -22,7 +22,7 @@ export default function RajwadaPage() {
       link: "/services/celebrity-escorts"
     },
     {
-      title: "VIP Escorts", 
+      title: "VIP Escorts in Indore", 
       subtitle: "Ultimate Luxury",
       description: "Our most exclusive VIP escorts in Rajwada offering ultimate luxury",
       image: "/images/services/VIP Escorts.jpg",
@@ -31,7 +31,7 @@ export default function RajwadaPage() {
       link: "/services/vip-escorts"
     },
     {
-      title: "Premium Models",
+      title: "Premium Models in Indore",
       subtitle: "High-End Sophistication", 
       description: "Premium models in Rajwada with unmatched sophistication",
       image: "/images/services/Premium Models.jpg",
@@ -40,7 +40,7 @@ export default function RajwadaPage() {
       link: "/services/premium-models"
     },
     {
-      title: "College Girls",
+      title: "College Girls in Indore",
       subtitle: "Fresh & Young",
       description: "Beautiful young companions in Rajwada with vibrant energy",
       image: "/images/services/College Girls.webp",
@@ -160,28 +160,6 @@ export default function RajwadaPage() {
                 <h3 className="text-lg font-bold text-gray-800 mb-2">Complete Discretion</h3>
                 <p className="text-gray-700 font-medium">Total privacy guaranteed for all business encounters</p>
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Services Grid */}
-        <section className="py-16 bg-white">
-          <div className="max-w-6xl mx-auto px-4">
-            <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-pink-600 to-orange-500 bg-clip-text text-transparent">
-              Premium Services in Rajwada
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {services.map((service, index) => (
-                <div key={index} className="bg-gradient-to-br from-pink-50 to-orange-50 rounded-3xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
-                  <div className="text-4xl mb-4 text-center">{service.icon}</div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">{service.title}</h3>
-                  <p className="text-sm text-pink-600 font-semibold mb-3">{service.subtitle}</p>
-                  <p className="text-gray-700 mb-4">{service.description}</p>
-                  <a href={service.link} className="inline-block bg-gradient-to-r from-pink-500 to-orange-500 text-white px-6 py-2 rounded-full font-semibold hover:from-pink-600 hover:to-orange-600 transition-all">
-                    Book Now Rajwada
-                  </a>
-                </div>
-              ))}
             </div>
           </div>
         </section>
