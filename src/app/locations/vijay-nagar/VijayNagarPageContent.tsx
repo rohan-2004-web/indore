@@ -290,15 +290,15 @@ export default function VijayNagarPageContent() {
               ].map((service, index) => (
                 <div key={index} className="group relative bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
                   {/* Service Image */}
-                  <div className="relative h-48 overflow-hidden">
+                  <div className="relative h-56 overflow-hidden bg-gray-100">
                     <img 
                       src={service.image} 
                       alt={service.title}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105 p-2"
                       loading="lazy"
                     />
-                    <div className={`absolute inset-0 bg-gradient-to-t ${service.gradient} opacity-80 group-hover:opacity-70 transition-opacity duration-300`}></div>
-                    <div className="absolute top-4 right-4 text-3xl bg-white/20 backdrop-blur-sm rounded-full p-2">
+                    <div className={`absolute inset-0 bg-gradient-to-t ${service.gradient} opacity-20 group-hover:opacity-30 transition-opacity duration-300`}></div>
+                    <div className="absolute top-4 right-4 text-2xl bg-white/90 backdrop-blur-sm rounded-full p-2 shadow-lg">
                       {service.icon}
                     </div>
                   </div>
