@@ -463,9 +463,6 @@ export default function RajwadaPage() {
           </div>
         </section>
 
-        {/* Comprehensive Rajwada Escorts Content */}
-        <RajwadaEscortsContent />
-
         {/* Call to Action Section */}
         <section className="py-20 relative">
           <div className="absolute inset-0 bg-gradient-to-r from-pink-600/20 to-orange-600/20"></div>
