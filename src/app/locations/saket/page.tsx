@@ -10,6 +10,188 @@ export default function SaketPage() {
     setOpenFaq(openFaq === index ? null : index)
   }
 
+  const services = [
+    {
+      title: "Celebrity Escorts",
+      subtitle: "Star Quality Service",
+      description: "Experience celebrity-level companions in Saket with exceptional elegance",
+      image: "/images/services/Celebrity Escorts.webp",
+      icon: "⭐",
+      category: "CELEBRITY",
+      link: "/services/celebrity-escorts"
+    },
+    {
+      title: "VIP Escorts", 
+      subtitle: "Ultimate Luxury",
+      description: "Our most exclusive VIP escorts in Saket offering ultimate luxury",
+      image: "/images/services/VIP Escorts.jpg",
+      icon: "💫",
+      category: "VIP",
+      link: "/services/vip-escorts"
+    },
+    {
+      title: "Premium Models",
+      subtitle: "High-End Sophistication", 
+      description: "Premium models in Saket with unmatched sophistication",
+      image: "/images/services/Premium Models.jpg",
+      icon: "💎",
+      category: "PREMIUM",
+      link: "/services/premium-models"
+    },
+    {
+      title: "College Girls",
+      subtitle: "Fresh & Young",
+      description: "Beautiful young companions in Saket with vibrant energy",
+      image: "/images/services/College Girls.webp",
+      icon: "🌟",
+      category: "YOUNG",
+      link: "/services/college-girls"
+    },
+    {
+      title: "Housewife Escorts",
+      subtitle: "Mature Experience",
+      description: "Experienced mature companions in Saket with caring nature",
+      image: "/images/services/Housewife Escorts.jpg",
+      icon: "👑",
+      category: "MATURE",
+      link: "/services/housewife-escorts"
+    },
+    {
+      title: "Punjabi Women",
+      subtitle: "Traditional Beauty",
+      description: "Authentic Punjabi companions in Saket with traditional charm",
+      image: "/images/services/Punjabi women.webp",
+      icon: "🌺",
+      category: "TRADITIONAL",
+      link: "/services"
+    },
+    {
+      title: "Slim Escorts",
+      subtitle: "Perfect Figure",
+      description: "Elegant slim companions in Saket with perfect figures",
+      image: "/images/services/Slim Escorts.webp",
+      icon: "💃",
+      category: "SLIM",
+      link: "/services"
+    },
+    {
+      title: "Unsatisfied Bhabhi",
+      subtitle: "Seeking Excitement",
+      description: "Experienced companions in Saket seeking excitement and connection",
+      image: "/images/services/Unsatisfied Bhabhi.webp",
+      icon: "🔥",
+      category: "BHABHI",
+      link: "/services"
+    },
+    {
+      title: "Local Beauties",
+      subtitle: "Know Indore Best",
+      description: "Beautiful local companions in Saket who know the city inside out",
+      image: "/images/services/Local Beauties.webp",
+      icon: "🏙️",
+      category: "LOCAL",
+      link: "/services"
+    },
+    {
+      title: "Event Companion",
+      subtitle: "Perfect Plus One",
+      description: "Professional companions in Saket for business events and parties",
+      image: "/images/services/Event Companion.webp",
+      icon: "🎭",
+      category: "PROFESSIONAL",
+      link: "/services"
+    },
+    {
+      title: "Pink Special",
+      subtitle: "Exclusive Experience",
+      description: "Special premium companions in Saket for exclusive experiences",
+      image: "/images/services/Pink Special.webp",
+      icon: "💖",
+      category: "SPECIAL",
+      link: "/services"
+    },
+    {
+      title: "Unsatisfied Females",
+      subtitle: "Meaningful Connections",
+      description: "Mature women in Saket seeking meaningful connections",
+      image: "/images/services/Unsatisfied Females.webp",
+      icon: "💕",
+      category: "FEMALE",
+      link: "/services"
+    },
+    {
+      title: "Incall Escorts",
+      subtitle: "Luxury Locations",
+      description: "Premium incall services in Saket at luxury locations",
+      image: "/images/services/Incall Escorts.webp",
+      icon: "🏨",
+      category: "INCALL",
+      link: "/services"
+    },
+    {
+      title: "Mature Escorts",
+      subtitle: "Experienced Sophistication",
+      description: "Experienced mature companions in Saket with sophistication",
+      image: "/images/services/Mature Escorts.webp",
+      icon: "🍷",
+      category: "MATURE",
+      link: "/services"
+    },
+    {
+      title: "Young Girls",
+      subtitle: "Unforgettable Experiences",
+      description: "Young beautiful companions in Saket for unforgettable experiences",
+      image: "/images/services/Young Girls.webp",
+      icon: "✨",
+      category: "YOUNG",
+      link: "/services"
+    },
+    {
+      title: "Indore Escorts",
+      subtitle: "Local Expertise",
+      description: "Premium local escorts in Saket with deep knowledge of Indore",
+      image: "/images/services/indore escorts.webp",
+      icon: "🏛️",
+      category: "LOCAL",
+      link: "/services"
+    },
+    {
+      title: "Expert Services",
+      subtitle: "Professional Expertise",
+      description: "Expert companions in Saket with specialized skills",
+      image: "/images/services/Expert Services.webp",
+      icon: "🎯",
+      category: "EXPERT",
+      link: "/services"
+    },
+    {
+      title: "High Class Models",
+      subtitle: "Elite Fashion Models",
+      description: "Stunning high-class models in Saket with runway experience",
+      image: "/images/services/High Class Models.webp",
+      icon: "👗",
+      category: "MODEL",
+      link: "/services"
+    },
+    {
+      title: "Bold Girls",
+      subtitle: "Confident & Adventurous",
+      description: "Bold and confident companions in Saket ready for adventures",
+      image: "/images/services/bold girls.webp",
+      icon: "🔥",
+      category: "BOLD",
+      link: "/services"
+    },
+    {
+      title: "Sexy Girls",
+      subtitle: "Mesmerizing Charm",
+      description: "Incredibly attractive companions in Saket with mesmerizing charm",
+      image: "/images/services/sexy girls.webp",
+      icon: "💋",
+      category: "SEXY",
+      link: "/services"
+    }
+  ]
 
   const faqs = [
     {
@@ -73,13 +255,13 @@ export default function SaketPage() {
               Saket Escorts
               <br />
               <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
-                Urban Elegance
+                Educational Center
               </span>
             </h1>
 
             <div className="max-w-5xl mx-auto mb-12">
               <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
-                Premium Companions in Saket with Contemporary urban district
+                Premium Companions in Saket with Educational and commercial hub
               </p>
               <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
                 Corporate events • Business meetings • Social gatherings • Professional companionship • Elite services across Saket
@@ -125,22 +307,10 @@ export default function SaketPage() {
           </div>
         </section>
 
-        {/* Saket Service Features */}
+        {/* Saket Features */}
         <section className="py-20 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70">
           <div className="w-full px-4">
-            <div className="text-center mb-16">
-              <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
-                Why Choose Saket Escorts?
-              </h2>
-              <p className="text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-                Experience professional companionship in Indore's premier business district with sophisticated partners
-              </p>
-            </div>
-
             <div className="max-w-7xl mx-auto">
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            <div className="max-w-7xl mx-auto">
-
               {/* Why Choose Section */}
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
                 {/* Features */}
