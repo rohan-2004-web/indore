@@ -10,6 +10,189 @@ export default function RajwadaPage() {
     setOpenFaq(openFaq === index ? null : index)
   }
 
+  const services = [
+    {
+      title: "Celebrity Escorts",
+      subtitle: "Star Quality Service",
+      description: "Experience celebrity-level companions in Rajwada with exceptional elegance",
+      image: "/images/services/Celebrity Escorts.webp",
+      icon: "⭐",
+      category: "CELEBRITY",
+      link: "/services/celebrity-escorts"
+    },
+    {
+      title: "VIP Escorts", 
+      subtitle: "Ultimate Luxury",
+      description: "Our most exclusive VIP escorts in Rajwada offering ultimate luxury",
+      image: "/images/services/VIP Escorts.jpg",
+      icon: "💫",
+      category: "VIP",
+      link: "/services/vip-escorts"
+    },
+    {
+      title: "Premium Models",
+      subtitle: "High-End Sophistication", 
+      description: "Premium models in Rajwada with unmatched sophistication",
+      image: "/images/services/Premium Models.jpg",
+      icon: "💎",
+      category: "PREMIUM",
+      link: "/services/premium-models"
+    },
+    {
+      title: "College Girls",
+      subtitle: "Fresh & Young",
+      description: "Beautiful young companions in Rajwada with vibrant energy",
+      image: "/images/services/College Girls.webp",
+      icon: "🌟",
+      category: "YOUNG",
+      link: "/services/college-girls"
+    },
+    {
+      title: "Housewife Escorts",
+      subtitle: "Mature Experience",
+      description: "Experienced mature companions in Rajwada with caring nature",
+      image: "/images/services/Housewife Escorts.jpg",
+      icon: "👑",
+      category: "MATURE",
+      link: "/services/housewife-escorts"
+    },
+    {
+      title: "Punjabi Women",
+      subtitle: "Traditional Beauty",
+      description: "Authentic Punjabi companions in Rajwada with traditional charm",
+      image: "/images/services/Punjabi women.webp",
+      icon: "🌺",
+      category: "TRADITIONAL",
+      link: "/services/punjabi-women"
+    },
+    {
+      title: "Slim Escorts",
+      subtitle: "Perfect Figure",
+      description: "Elegant slim companions in Rajwada with perfect figures",
+      image: "/images/services/Slim Escorts.webp",
+      icon: "💃",
+      category: "SLIM",
+      link: "/services/slim-escorts"
+    },
+    {
+      title: "Unsatisfied Bhabhi",
+      subtitle: "Seeking Excitement",
+      description: "Experienced companions in Rajwada seeking excitement and connection",
+      image: "/images/services/Unsatisfied Bhabhi.webp",
+      icon: "🔥",
+      category: "BHABHI",
+      link: "/services/unsatisfied-bhabhi"
+    },
+    {
+      title: "Local Beauties",
+      subtitle: "Know Indore Best",
+      description: "Beautiful local companions in Rajwada who know the city inside out",
+      image: "/images/services/Local Beauties.webp",
+      icon: "🏙️",
+      category: "LOCAL",
+      link: "/services/local-beauties"
+    },
+    {
+      title: "Event Companion",
+      subtitle: "Perfect Plus One",
+      description: "Professional companions in Rajwada for business events and parties",
+      image: "/images/services/Event Companion.webp",
+      icon: "🎭",
+      category: "PROFESSIONAL",
+      link: "/services/event-companion"
+    },
+    {
+      title: "Pink Special",
+      subtitle: "Exclusive Experience",
+      description: "Special premium companions in Rajwada for exclusive experiences",
+      image: "/images/services/Pink Special.webp",
+      icon: "💖",
+      category: "SPECIAL",
+      link: "/services/pink-special"
+    },
+    {
+      title: "Unsatisfied Females",
+      subtitle: "Meaningful Connections",
+      description: "Mature women in Rajwada seeking meaningful connections",
+      image: "/images/services/Unsatisfied Females.webp",
+      icon: "💕",
+      category: "FEMALE",
+      link: "/services/unsatisfied-females"
+    },
+    {
+      title: "Incall Escorts",
+      subtitle: "Luxury Locations",
+      description: "Premium incall services in Rajwada at luxury locations",
+      image: "/images/services/Incall Escorts.webp",
+      icon: "🏨",
+      category: "INCALL",
+      link: "/services/incall-escorts"
+    },
+    {
+      title: "Mature Escorts",
+      subtitle: "Experienced Sophistication",
+      description: "Experienced mature companions in Rajwada with sophistication",
+      image: "/images/services/Mature Escorts.webp",
+      icon: "🍷",
+      category: "MATURE",
+      link: "/services/mature-escorts"
+    },
+    {
+      title: "Young Girls",
+      subtitle: "Unforgettable Experiences",
+      description: "Young beautiful companions in Rajwada for unforgettable experiences",
+      image: "/images/services/Young Girls.webp",
+      icon: "✨",
+      category: "YOUNG",
+      link: "/services/young-girls"
+    },
+    {
+      title: "Indore Escorts",
+      subtitle: "Local Expertise",
+      description: "Premium local escorts in Rajwada with deep knowledge of Indore",
+      image: "/images/services/indore escorts.webp",
+      icon: "🏛️",
+      category: "LOCAL",
+      link: "/services"
+    },
+    {
+      title: "Expert Services",
+      subtitle: "Professional Expertise",
+      description: "Expert companions in Rajwada with specialized skills",
+      image: "/images/services/Expert Services.webp",
+      icon: "🎯",
+      category: "EXPERT",
+      link: "/services/expert-services"
+    },
+    {
+      title: "High Class Models",
+      subtitle: "Elite Fashion Models",
+      description: "Stunning high-class models in Rajwada with runway experience",
+      image: "/images/services/High Class Models.webp",
+      icon: "👗",
+      category: "MODEL",
+      link: "/services/high-class-models"
+    },
+    {
+      title: "Bold Girls",
+      subtitle: "Confident & Adventurous",
+      description: "Bold and confident companions in Rajwada ready for adventures",
+      image: "/images/services/bold girls.webp",
+      icon: "🔥",
+      category: "BOLD",
+      link: "/services/bold-girls"
+    },
+    {
+      title: "Sexy Girls",
+      subtitle: "Mesmerizing Charm",
+      description: "Incredibly attractive companions in Rajwada with mesmerizing charm",
+      image: "/images/services/sexy girls.webp",
+      icon: "💋",
+      category: "SEXY",
+      link: "/services/sexy-girls"
+    }
+  ]
+
   const faqs = [
     {
       question: "How can I book premium escorts in Rajwada, Indore?",
@@ -120,6 +303,53 @@ export default function RajwadaPage() {
                 <h3 className="text-lg font-bold text-gray-800 mb-2">Complete Discretion</h3>
                 <p className="text-gray-700 font-medium">Total privacy guaranteed for all business encounters</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Service Cards Section */}
+        <section className="py-16 px-4 bg-gradient-to-br from-pink-50 to-blue-50">
+          <div className="max-w-8xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6 leading-tight">
+                Our Premium Services in Rajwada
+              </h2>
+              <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed font-medium">
+                Experience the finest escort services in Rajwada with our professional companions
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+              {services.map((service, index) => (
+                <div key={index} className="bg-white/90 backdrop-blur-md rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group">
+                  <div className="relative h-80 overflow-hidden flex items-center justify-center">
+                    <img 
+                      src={service.image} 
+                      alt={service.title}
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute top-4 left-4">
+                      <span className="text-2xl">{service.icon}</span>
+                    </div>
+                    <div className="absolute top-4 right-4">
+                      <span className="bg-gradient-to-r from-pink-600 to-blue-600 text-white text-xs px-2 py-1 rounded-full">
+                        {service.category}
+                      </span>
+                    </div>
+                  </div>
+                  <div className="p-6 flex flex-col flex-grow">
+                    <h3 className="text-xl font-bold text-gray-800 mb-2">{service.title}</h3>
+                    <p className="text-sm text-pink-600 font-medium mb-3">{service.subtitle}</p>
+                    <p className="text-gray-600 text-sm mb-4 line-clamp-3 flex-grow">{service.description}</p>
+                    <a 
+                      href={service.link}
+                      className="inline-block w-full text-center bg-gradient-to-r from-pink-600 to-orange-500 hover:from-pink-700 hover:to-orange-600 text-white px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 font-medium"
+                    >
+                      Book {service.title} Escorts
+                    </a>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </section>
