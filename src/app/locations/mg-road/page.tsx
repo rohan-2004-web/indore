@@ -63,7 +63,7 @@ export default function MGRoadPage() {
       image: "/images/services/Punjabi women.webp",
       icon: "🌺",
       category: "TRADITIONAL",
-      link: "/services"
+      link: "/services/punjabi-women"
     },
     {
       title: "Slim Escorts",
@@ -72,7 +72,7 @@ export default function MGRoadPage() {
       image: "/images/services/Slim Escorts.webp",
       icon: "💃",
       category: "SLIM",
-      link: "/services"
+      link: "/services/slim-escorts"
     },
     {
       title: "Unsatisfied Bhabhi",
@@ -81,7 +81,7 @@ export default function MGRoadPage() {
       image: "/images/services/Unsatisfied Bhabhi.webp",
       icon: "🔥",
       category: "BHABHI",
-      link: "/services"
+      link: "/services/unsatisfied-bhabhi"
     },
     {
       title: "Local Beauties",
@@ -90,7 +90,7 @@ export default function MGRoadPage() {
       image: "/images/services/Local Beauties.webp",
       icon: "🏙️",
       category: "LOCAL",
-      link: "/services"
+      link: "/services/local-beauties"
     },
     {
       title: "Event Companion",
@@ -99,7 +99,7 @@ export default function MGRoadPage() {
       image: "/images/services/Event Companion.webp",
       icon: "🎭",
       category: "PROFESSIONAL",
-      link: "/services"
+      link: "/services/event-companion"
     },
     {
       title: "Pink Special",
@@ -108,7 +108,7 @@ export default function MGRoadPage() {
       image: "/images/services/Pink Special.webp",
       icon: "💖",
       category: "SPECIAL",
-      link: "/services"
+      link: "/services/pink-special"
     },
     {
       title: "Unsatisfied Females",
@@ -117,7 +117,7 @@ export default function MGRoadPage() {
       image: "/images/services/Unsatisfied Females.webp",
       icon: "💕",
       category: "FEMALE",
-      link: "/services"
+      link: "/services/unsatisfied-females"
     },
     {
       title: "Incall Escorts",
@@ -126,7 +126,7 @@ export default function MGRoadPage() {
       image: "/images/services/Incall Escorts.webp",
       icon: "🏨",
       category: "INCALL",
-      link: "/services"
+      link: "/services/incall-escorts"
     },
     {
       title: "Mature Escorts",
@@ -135,7 +135,7 @@ export default function MGRoadPage() {
       image: "/images/services/Mature Escorts.webp",
       icon: "🍷",
       category: "MATURE",
-      link: "/services"
+      link: "/services/mature-escorts"
     },
     {
       title: "Young Girls",
@@ -144,7 +144,7 @@ export default function MGRoadPage() {
       image: "/images/services/Young Girls.webp",
       icon: "✨",
       category: "YOUNG",
-      link: "/services"
+      link: "/services/young-girls"
     },
     {
       title: "Indore Escorts",
@@ -162,7 +162,7 @@ export default function MGRoadPage() {
       image: "/images/services/Expert Services.webp",
       icon: "🎯",
       category: "EXPERT",
-      link: "/services"
+      link: "/services/expert-services"
     },
     {
       title: "High Class Models",
@@ -171,7 +171,7 @@ export default function MGRoadPage() {
       image: "/images/services/High Class Models.webp",
       icon: "👗",
       category: "MODEL",
-      link: "/services"
+      link: "/services/high-class-models"
     },
     {
       title: "Bold Girls",
@@ -180,7 +180,7 @@ export default function MGRoadPage() {
       image: "/images/services/bold girls.webp",
       icon: "🔥",
       category: "BOLD",
-      link: "/services"
+      link: "/services/bold-girls"
     },
     {
       title: "Sexy Girls",
@@ -189,7 +189,7 @@ export default function MGRoadPage() {
       image: "/images/services/sexy girls.webp",
       icon: "💋",
       category: "SEXY",
-      link: "/services"
+      link: "/services/sexy-girls"
     }
   ]
 
@@ -233,6 +233,49 @@ export default function MGRoadPage() {
       <Header />
       <div className="min-h-screen bg-gradient-to-br from-pink-200/60 via-orange-100/50 to-pink-300/60">
         
+        {/* Service Cards Section */}
+        <section className="py-16 px-4 bg-gradient-to-br from-pink-50 to-blue-50">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Premium Services in MG Road</h2>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">Experience the finest escort services in MG Road with our professional companions</p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+              {services.map((service, index) => (
+                <div key={index} className="bg-white/90 backdrop-blur-md rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group">
+                  <div className="relative aspect-video overflow-hidden">
+                    <img 
+                      src={service.image} 
+                      alt={service.title}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute top-4 left-4">
+                      <span className="text-2xl">{service.icon}</span>
+                    </div>
+                    <div className="absolute top-4 right-4">
+                      <span className="bg-gradient-to-r from-pink-600 to-blue-600 text-white text-xs px-2 py-1 rounded-full">
+                        {service.category}
+                      </span>
+                    </div>
+                  </div>
+                  <div className="p-6">
+                    <h3 className="text-xl font-bold text-gray-800 mb-2">{service.title}</h3>
+                    <p className="text-sm text-pink-600 font-medium mb-3">{service.subtitle}</p>
+                    <p className="text-gray-600 text-sm mb-4 line-clamp-3">{service.description}</p>
+                    <a 
+                      href={service.link}
+                      className="inline-block w-full text-center bg-gradient-to-r from-pink-600 to-blue-600 text-white px-6 py-3 rounded-lg hover:from-pink-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 font-medium"
+                    >
+                      Learn More
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Hero Section - Premium Enhanced Style */}
         <section className="pt-20 pb-16 relative min-h-screen flex items-center overflow-hidden">
           {/* Animated Background Elements */}
