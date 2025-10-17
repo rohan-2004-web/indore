@@ -1,8 +1,34 @@
-'use client'
-
+import { Metadata } from 'next'
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Header from '@/components/Header'
+
+// SEO Metadata for Locations Page
+export const metadata: Metadata = {
+  title: 'Escort Locations Indore | All Areas Covered | Saumya Kapoor',
+  description: 'Premium escort services available across all locations in Indore - Vijay Nagar, AB Road, Palasia, Saket, Ring Road, MG Road, Airport Road & more. Call +91 9372662471.',
+  keywords: [
+    'escort service locations Indore',
+    'Indore escort service areas',
+    'Vijay Nagar escorts',
+    'AB Road escort service',
+    'Palasia escorts',
+    'escort service all Indore',
+    'Indore escort locations',
+    'premium escort service Indore'
+  ].join(', '),
+  openGraph: {
+    title: 'Escort Service Locations in Indore | All Areas Covered',
+    description: 'Premium escort services available across all major locations in Indore. Professional companions available 24/7 in your preferred area.',
+    type: 'website',
+    url: 'https://saumyakapoor.in/locations',
+  },
+  alternates: {
+    canonical: 'https://saumyakapoor.in/locations',
+  },
+}
+
+'use client'
 
 const faqData = [
   {
