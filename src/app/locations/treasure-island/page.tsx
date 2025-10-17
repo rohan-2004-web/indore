@@ -494,6 +494,175 @@ export default function TreasureIslandPage() {
           </div>
         </section>
 
+        {/* Escorts in Treasure Island Content Section */}
+        <section className="bg-gradient-to-br from-pink-50 via-orange-50 to-purple-50 px-6 py-16">
+          <div className="max-w-6xl mx-auto">
+            <div className="bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl p-8 md:p-12 border-2 border-pink-200/50">
+              
+              {/* Main Title */}
+              <div className="text-center mb-12">
+                <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-purple-600 bg-clip-text text-transparent mb-6">
+                  🌟 Ultimate Guide to Premium Escorts in Treasure Island 🌟
+                </h2>
+                <div className="w-32 h-1 bg-gradient-to-r from-pink-500 to-purple-500 mx-auto rounded-full"></div>
+              </div>
+
+              <div className="space-y-8 text-lg leading-relaxed text-gray-800">
+                
+                {/* Introduction Section */}
+                <div className="bg-gradient-to-r from-pink-100 to-orange-100 rounded-2xl p-6 md:p-8 border-l-4 border-pink-500">
+                  <h3 className="text-2xl md:text-3xl font-bold text-pink-700 mb-4 flex items-center">
+                    💎 Welcome to Treasure Island's Premier Escort Services
+                  </h3>
+                  <p className="mb-4">
+                    Welcome to the most comprehensive guide about professional escort services in Treasure Island, one of Indore's most prestigious shopping and entertainment destinations! 🏖️ As a premier shopping mall and entertainment complex that represents modern luxury, sophisticated lifestyle, and contemporary urban culture, Treasure Island creates an exceptional environment for premium escort services. Our detailed guide provides everything you need to know about the elite escort industry in this glamorous destination.
+                  </p>
+                  <p>
+                    Treasure Island, renowned for its luxury shopping experiences, fine dining establishments, entertainment venues, and sophisticated ambiance, creates the perfect setting for high-end escort services. Whether you're enjoying a shopping spree at luxury boutiques, dining at upscale restaurants, or experiencing the entertainment offerings, understanding the professional escort services landscape at Treasure Island is essential for enhancing your luxury lifestyle experience. ✨
+                  </p>
+                </div>
+
+                {/* Why Treasure Island for Escort Services */}
+                <div>
+                  <h3 className="text-2xl md:text-3xl font-bold text-purple-700 mb-6 flex items-center">
+                    🎭 Why Treasure Island is Indore's Premier Luxury Lifestyle Destination
+                  </h3>
+                  <div className="grid md:grid-cols-2 gap-6 mb-6">
+                    <div className="bg-purple-50 rounded-xl p-6 border border-purple-200">
+                      <h4 className="text-xl font-semibold text-purple-800 mb-3">🛍️ Luxury Shopping</h4>
+                      <p>
+                        Treasure Island's concentration of premium brands, luxury boutiques, and high-end retail stores attracts affluent shoppers who appreciate sophisticated escort companionship during their luxury shopping experiences. The mall's upscale environment creates opportunities for escorts who understand luxury retail and can enhance premium shopping experiences.
+                      </p>
+                    </div>
+                    <div className="bg-orange-50 rounded-xl p-6 border border-orange-200">
+                      <h4 className="text-xl font-semibent text-orange-800 mb-3">🍽️ Fine Dining</h4>
+                      <p>
+                        The mall's collection of upscale restaurants, cafes, and dining establishments provides elegant venues for sophisticated escort companionship. The fine dining environment attracts clients who value refined experiences and appreciate escort companions who can enhance culinary and social experiences in luxury settings.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <p className="mb-4">
+                    Treasure Island's position as Indore's premier luxury destination makes it ideal for escort services that specialize in upscale lifestyle experiences. The mall's sophisticated atmosphere, international brands, and premium services attract clientele who expect and appreciate high-quality escort companionship that matches the luxury environment. 🏆
+                  </p>
+                  
+                  <p>
+                    The shopping complex's role as a social and cultural hub for Indore's affluent community has established it as a natural location for premium escort services. The mall's emphasis on luxury, quality, and sophisticated experiences has fostered escort services that meet the highest standards of elegance and professionalism. 🤝
+                  </p>
+                </div>
+
+                {/* Luxury Shopping Services Available */}
+                <div className="bg-gradient-to-r from-blue-100 to-teal-100 rounded-2xl p-6 md:p-8 border-l-4 border-blue-500">
+                  <h3 className="text-2xl md:text-3xl font-bold text-blue-700 mb-6 flex items-center">
+                    🎨 Luxury Shopping and Entertainment Escort Services
+                  </h3>
+                  
+                  <div className="grid md:grid-cols-3 gap-4 mb-6">
+                    <div className="bg-white rounded-lg p-4 shadow-md">
+                      <div className="text-2xl mb-2">👗</div>
+                      <h4 className="font-semibold text-blue-800 mb-2">Shopping Consultants</h4>
+                      <p className="text-sm">Fashion-savvy escorts for luxury shopping experiences and style guidance</p>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 shadow-md">
+                      <div className="text-2xl mb-2">🥂</div>
+                      <h4 className="font-semibold text-blue-800 mb-2">Dining Companions</h4>
+                      <p className="text-sm">Sophisticated partners for fine dining and culinary experiences</p>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 shadow-md">
+                      <div className="text-2xl mb-2">🎪</div>
+                      <h4 className="font-semibent text-blue-800 mb-2">Entertainment Partners</h4>
+                      <p className="text-sm">Elegant companions for movies, events, and entertainment venues</p>
+                    </div>
+                  </div>
+                  
+                  <p className="mb-4">
+                    Treasure Island's luxury shopping environment creates unique opportunities for escort services that specialize in fashion, style, and luxury retail experiences. Professional escorts with knowledge of fashion trends, luxury brands, and shopping expertise can provide valuable companionship for clients seeking sophisticated shopping experiences. The mall's upscale boutiques and designer stores provide ideal venues for fashion-focused escort services. 🌟
+                  </p>
+                  
+                  <p>
+                    The entertainment complex's diverse offerings, from multiplex cinemas to entertainment zones, create opportunities for escort companionship that enhances leisure and entertainment experiences. Professional escorts can provide engaging companionship for movies, events, and recreational activities while maintaining the sophistication expected in luxury environments. 🎬
+                  </p>
+                </div>
+
+                {/* Dining and Culinary Experiences */}
+                <div>
+                  <h3 className="text-2xl md:text-3xl font-bold text-green-700 mb-6 flex items-center">
+                    🍽️ Culinary Excellence and Fine Dining Experiences
+                  </h3>
+                  
+                  <div className="bg-green-50 rounded-xl p-6 border border-green-200 mb-6">
+                    <h4 className="text-xl font-semibold text-green-800 mb-3">👨‍🍳 Gourmet Experiences</h4>
+                    <p>
+                      Treasure Island's collection of fine dining restaurants and gourmet food courts provides exceptional venues for sophisticated escort companionship focused on culinary experiences. Professional escorts with knowledge of cuisine, wine, and dining etiquette can enhance gastronomic experiences while providing engaging conversation and cultural insights.
+                    </p>
+                  </div>
+                  
+                  <p className="mb-4">
+                    The mall's diverse dining options, from international cuisine to gourmet coffee experiences, create numerous opportunities for escort companionship that focuses on culinary appreciation and social dining. Professional escorts can provide knowledgeable companionship for food enthusiasts while enhancing the social aspects of fine dining experiences. 🍷
+                  </p>
+                  
+                  <p>
+                    The upscale dining environment at Treasure Island attracts food connoisseurs and social diners who appreciate escort companions with cultural awareness and dining sophistication. Professional escorts can contribute to memorable dining experiences while maintaining the elegance and refinement expected in luxury restaurant settings. 🥂
+                  </p>
+                </div>
+
+                {/* Lifestyle and Social Integration */}
+                <div className="bg-gradient-to-r from-rose-100 to-pink-100 rounded-2xl p-6 md:p-8 border-l-4 border-rose-500">
+                  <h3 className="text-2xl md:text-3xl font-bold text-rose-700 mb-6 flex items-center">
+                    💃 Lifestyle Integration and Social Experiences
+                  </h3>
+                  
+                  <div className="grid md:grid-cols-2 gap-6 mb-6">
+                    <div className="bg-white rounded-lg p-4 shadow-md">
+                      <div className="text-2xl mb-2">👥</div>
+                      <h4 className="font-semibold text-rose-800 mb-2">Social Events</h4>
+                      <p className="text-sm">Elegant companions for mall events and social gatherings</p>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 shadow-md">
+                      <div className="text-2xl mb-2">🎨</div>
+                      <h4 className="font-semibold text-rose-800 mb-2">Cultural Activities</h4>
+                      <p className="text-sm">Sophisticated partners for exhibitions and cultural programs</p>
+                    </div>
+                  </div>
+                  
+                  <p className="mb-4">
+                    Treasure Island's role as a social hub for Indore's affluent community creates opportunities for escort services that specialize in social integration and lifestyle enhancement. Professional escorts can provide appropriate companionship for social events, cultural activities, and networking opportunities that take place within the mall's sophisticated environment. 🌟
+                  </p>
+                  
+                  <p>
+                    The mall's position as a meeting place for fashion-conscious and lifestyle-oriented individuals creates demand for escort companions who understand contemporary culture, fashion trends, and social dynamics. Professional escorts can enhance social experiences while helping clients navigate the sophisticated social environment of luxury shopping and entertainment. 💫
+                  </p>
+                </div>
+
+                {/* Call to Action */}
+                <div className="bg-gradient-to-r from-pink-100 to-purple-100 rounded-2xl p-6 md:p-8 border-2 border-pink-300 text-center">
+                  <h3 className="text-2xl md:text-3xl font-bold text-pink-700 mb-4">
+                    📞 Experience Treasure Island's Luxury Escort Services Today
+                  </h3>
+                  <p className="mb-6 text-lg">
+                    Ready to discover the finest escort services at Treasure Island? Our fashion-forward and luxury-focused team is available 24/7 to help you find the perfect companion for any upscale experience at Indore's premier shopping and entertainment destination. Whether you need a style consultant for luxury shopping, an elegant dining partner, or a sophisticated companion for entertainment, we have the ideal escort to enhance your Treasure Island experience.
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a 
+                      href="tel:+919372662471" 
+                      className="inline-block bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    >
+                      📞 Call +91 9372662471
+                    </a>
+                    <a 
+                      href="https://wa.me/919372662471" 
+                      className="inline-block bg-gradient-to-r from-green-500 to-teal-500 hover:from-green-600 hover:to-teal-600 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    >
+                      💬 WhatsApp Now
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Call to Action Section */}
         <section className="py-20 relative">
           <div className="absolute inset-0 bg-gradient-to-r from-pink-600/20 to-orange-600/20"></div>

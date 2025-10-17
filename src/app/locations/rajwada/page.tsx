@@ -499,6 +499,241 @@ export default function RajwadaPage() {
           </div>
         </section>
 
+        {/* Escorts in Rajwada Content Section */}
+        <section className="bg-gradient-to-br from-pink-50 via-orange-50 to-purple-50 px-6 py-16">
+          <div className="max-w-6xl mx-auto">
+            <div className="bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl p-8 md:p-12 border-2 border-pink-200/50">
+              
+              {/* Main Title */}
+              <div className="text-center mb-12">
+                <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-purple-600 bg-clip-text text-transparent mb-6">
+                  🌟 Ultimate Guide to Premium Escorts in Rajwada 🌟
+                </h2>
+                <div className="w-32 h-1 bg-gradient-to-r from-pink-500 to-purple-500 mx-auto rounded-full"></div>
+              </div>
+
+              <div className="space-y-8 text-lg leading-relaxed text-gray-800">
+                
+                {/* Introduction Section */}
+                <div className="bg-gradient-to-r from-pink-100 to-orange-100 rounded-2xl p-6 md:p-8 border-l-4 border-pink-500">
+                  <h3 className="text-2xl md:text-3xl font-bold text-pink-700 mb-4 flex items-center">
+                    💎 Welcome to Rajwada's Royal Escort Services
+                  </h3>
+                  <p className="mb-4">
+                    Welcome to the most comprehensive guide about professional escort services in Rajwada, Indore's crown jewel and the most magnificent symbol of royal heritage! 👑 As the historic palace of the Holkar dynasty and the heart of Indore's cultural identity, Rajwada represents the perfect blend of regal grandeur, historical significance, and cultural richness. Our detailed guide provides everything you need to know about the elite escort industry in this majestic royal district.
+                  </p>
+                  <p>
+                    Rajwada, renowned for its architectural splendor, royal heritage, cultural festivals, and vibrant traditional markets, creates an extraordinarily unique environment for premium escort services. Whether you're exploring the magnificent palace complex, experiencing the cultural richness of the surrounding areas, or immersing yourself in the royal ambiance, understanding the professional escort services landscape in Rajwada is essential for enhancing your royal experience. ✨
+                  </p>
+                </div>
+
+                {/* Why Rajwada for Escort Services */}
+                <div>
+                  <h3 className="text-2xl md:text-3xl font-bold text-purple-700 mb-6 flex items-center">
+                    🎭 Why Rajwada is India's Premier Royal Heritage Escort Destination
+                  </h3>
+                  <div className="grid md:grid-cols-2 gap-6 mb-6">
+                    <div className="bg-purple-50 rounded-xl p-6 border border-purple-200">
+                      <h4 className="text-xl font-semibold text-purple-800 mb-3">👑 Royal Heritage</h4>
+                      <p>
+                        Rajwada's status as a magnificent royal palace and UNESCO heritage site attracts cultured individuals who appreciate grandeur, sophistication, and historical significance. This refined clientele values escort services that can match the regal ambiance and provide companions who understand and appreciate royal heritage and cultural refinement.
+                      </p>
+                    </div>
+                    <div className="bg-orange-50 rounded-xl p-6 border border-orange-200">
+                      <h4 className="text-xl font-semibent text-orange-800 mb-3">🎨 Cultural Hub</h4>
+                      <p>
+                        The area's rich cultural environment, with traditional markets, cultural events, and artistic heritage, creates a sophisticated atmosphere where professional escort services can provide culturally enriching experiences. Clients appreciate escorts who can enhance their understanding and enjoyment of Rajwada's magnificent cultural offerings.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <p className="mb-4">
+                    Rajwada's position as the cultural and spiritual heart of Indore makes it the natural choice for escort services that specialize in heritage tourism and cultural experiences. The palace's magnificent architecture, royal gardens, and cultural significance provide extraordinary settings for sophisticated escort companionship. The area's numerous festivals and cultural events create opportunities for escorts to provide culturally immersive experiences. 🏆
+                  </p>
+                  
+                  <p>
+                    The royal heritage of Rajwada has established it as a destination for discerning individuals who seek experiences that match the grandeur and sophistication of royal culture. Professional escort services in this area have evolved to provide companions who can appreciate and enhance the regal experience, from cultural interpretation to sophisticated social interaction in royal settings. 👑
+                  </p>
+                </div>
+
+                {/* Royal Heritage Services Available */}
+                <div className="bg-gradient-to-r from-blue-100 to-teal-100 rounded-2xl p-6 md:p-8 border-l-4 border-blue-500">
+                  <h3 className="text-2xl md:text-3xl font-bold text-blue-700 mb-6 flex items-center">
+                    🎨 Royal Heritage and Cultural Escort Services at Rajwada
+                  </h3>
+                  
+                  <div className="grid md:grid-cols-3 gap-4 mb-6">
+                    <div className="bg-white rounded-lg p-4 shadow-md">
+                      <div className="text-2xl mb-2">🏰</div>
+                      <h4 className="font-semibold text-blue-800 mb-2">Palace Guides</h4>
+                      <p className="text-sm">Knowledgeable escorts for royal palace tours and heritage experiences</p>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 shadow-md">
+                      <div className="text-2xl mb-2">🎭</div>
+                      <h4 className="font-semibold text-blue-800 mb-2">Cultural Companions</h4>
+                      <p className="text-sm">Sophisticated partners for cultural events and traditional festivals</p>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 shadow-md">
+                      <div className="text-2xl mb-2">👗</div>
+                      <h4 className="font-semibent text-blue-800 mb-2">Royal Escorts</h4>
+                      <p className="text-sm">Elegant companions who embody royal grace and sophistication</p>
+                    </div>
+                  </div>
+                  
+                  <p className="mb-4">
+                    Rajwada's magnificent royal setting requires escort services that can match the grandeur and cultural significance of the palace environment. Professional escorts specializing in heritage tourism provide culturally enriching companionship for palace tours, historical exploration, and cultural immersion experiences. The palace's stunning architecture and royal gardens provide extraordinary venues for sophisticated escort interactions. 🌟
+                  </p>
+                  
+                  <p>
+                    The area's cultural richness, with traditional markets, artisan workshops, and cultural performances, creates opportunities for escort services that can enhance clients' understanding and appreciation of royal heritage. Professional escorts familiar with Holkar history and royal traditions can provide invaluable cultural interpretation that transforms a simple visit into a deeply enriching royal experience. 🎨
+                  </p>
+                </div>
+
+                {/* Cultural Events and Festivals */}
+                <div>
+                  <h3 className="text-2xl md:text-3xl font-bold text-green-700 mb-6 flex items-center">
+                    🎪 Cultural Events and Festival Celebrations at Rajwada
+                  </h3>
+                  
+                  <div className="bg-green-50 rounded-xl p-6 border border-green-200 mb-6">
+                    <h4 className="text-xl font-semibold text-green-800 mb-3">🎉 Festival Celebrations</h4>
+                    <p>
+                      Rajwada hosts numerous cultural festivals and traditional celebrations throughout the year, creating unique opportunities for escort services that specialize in cultural events. Professional escorts can provide appropriate companionship for festival participation, cultural performances, and traditional celebrations that showcase the rich heritage of the Holkar dynasty.
+                    </p>
+                  </div>
+                  
+                  <p className="mb-4">
+                    The palace's role as a venue for cultural events, including classical music performances, traditional dance shows, and heritage festivals, creates demand for escort services that can enhance cultural experiences. Professional escorts familiar with Indian classical arts and cultural traditions can provide enriching companionship that deepens clients' appreciation of the artistic and cultural heritage displayed at Rajwada. 🎭
+                  </p>
+                  
+                  <p>
+                    The seasonal festivals and cultural celebrations at Rajwada attract visitors from across India and international tourists who appreciate escort companions knowledgeable about local traditions and cultural significance. These events provide opportunities for cultural immersion that require escorts who can bridge cultural differences and enhance cross-cultural understanding. 🌺
+                  </p>
+                </div>
+
+                {/* Traditional Markets and Artisan Culture */}
+                <div className="bg-gradient-to-r from-rose-100 to-pink-100 rounded-2xl p-6 md:p-8 border-l-4 border-rose-500">
+                  <h3 className="text-2xl md:text-3xl font-bold text-rose-700 mb-6 flex items-center">
+                    🛍️ Traditional Markets and Artisan Experiences
+                  </h3>
+                  
+                  <div className="grid md:grid-cols-2 gap-6 mb-6">
+                    <div className="bg-white rounded-lg p-4 shadow-md">
+                      <div className="text-2xl mb-2">🧵</div>
+                      <h4 className="font-semibold text-rose-800 mb-2">Artisan Tours</h4>
+                      <p className="text-sm">Expert guides for traditional craft workshops and artisan experiences</p>
+                    </div>
+                    <div className="bg-white rounded-lg p-4 shadow-md">
+                      <div className="text-2xl mb-2">💎</div>
+                      <h4 className="font-semibold text-rose-800 mb-2">Heritage Shopping</h4>
+                      <p className="text-sm">Sophisticated companions for traditional jewelry and textile shopping</p>
+                    </div>
+                  </div>
+                  
+                  <p className="mb-4">
+                    The traditional markets surrounding Rajwada offer authentic experiences in Indian craftsmanship, textiles, and jewelry that require knowledgeable escort companions who can guide clients through the intricacies of traditional Indian arts and crafts. Professional escorts familiar with local artisan traditions can enhance shopping experiences by providing cultural context and quality guidance. 🎨
+                  </p>
+                  
+                  <p>
+                    The area's concentration of traditional craftsmen and artisan workshops creates opportunities for cultural tourism that benefits from escort companionship. From understanding the techniques of traditional Indian textiles to appreciating the artistry of local jewelry makers, professional escorts can provide valuable insights that transform shopping into cultural education. 💎
+                  </p>
+                </div>
+
+                {/* Tourism and International Visitors */}
+                <div>
+                  <h3 className="text-2xl md:text-3xl font-bold text-indigo-700 mb-6 flex items-center">
+                    🌍 International Tourism and Heritage Appreciation
+                  </h3>
+                  
+                  <div className="bg-indigo-50 rounded-xl p-6 border border-indigo-200 mb-6">
+                    <h4 className="text-xl font-semibold text-indigo-800 mb-3">🗺️ Heritage Tourism</h4>
+                    <p>
+                      Rajwada attracts international tourists and heritage enthusiasts who seek authentic Indian royal experiences. Professional escort services can provide culturally sensitive companionship that enhances visitors' understanding of Indian history, architecture, and royal traditions while ensuring appropriate cultural interaction and interpretation.
+                    </p>
+                  </div>
+                  
+                  <p className="mb-4">
+                    International visitors to Rajwada often require escort companions who can bridge cultural differences and provide appropriate guidance for experiencing Indian royal heritage. Professional escorts with cultural awareness and language skills can enhance the visitor experience by facilitating meaningful cultural exchange and ensuring respectful interaction with local traditions. 🌍
+                  </p>
+                  
+                  <p>
+                    The growing international recognition of Rajwada as a heritage destination creates opportunities for escort services that specialize in cross-cultural communication and heritage interpretation. Professional escorts can serve as cultural ambassadors, helping international visitors appreciate the depth and significance of Indian royal heritage while maintaining cultural sensitivity and respect. 🏛️
+                  </p>
+                </div>
+
+                {/* Luxury and Hospitality */}
+                <div className="bg-gradient-to-r from-violet-100 to-purple-100 rounded-2xl p-6 md:p-8 border-l-4 border-violet-500">
+                  <h3 className="text-2xl md:text-3xl font-bold text-violet-700 mb-6 flex items-center">
+                    👑 Royal Luxury and Premium Hospitality Services
+                  </h3>
+                  
+                  <div className="bg-white rounded-lg p-4 shadow-md mb-6">
+                    <h4 className="text-xl font-semibold text-violet-800 mb-3">🏰 Palace Experiences</h4>
+                    <p>
+                      The magnificent setting of Rajwada provides opportunities for luxury escort services that can match the grandeur of royal environments. Professional escorts trained in royal etiquette and cultural protocols can provide sophisticated companionship that enhances the regal experience while maintaining appropriate respect for the historical and cultural significance of the palace.
+                    </p>
+                  </div>
+                  
+                  <p className="mb-4">
+                    The luxury hospitality sector serving Rajwada's visitors includes high-end hotels and cultural venues that cater to affluent tourists and heritage enthusiasts. Professional escort services in this environment must meet the highest standards of sophistication, cultural awareness, and personal presentation to serve clientele who expect luxury experiences that match the royal grandeur of Rajwada. 👑
+                  </p>
+                  
+                  <p>
+                    The intersection of royal heritage and modern luxury tourism at Rajwada creates unique opportunities for escort services that can provide companions who embody both cultural sophistication and contemporary elegance. This specialized positioning has attracted escort agencies that focus on serving discerning clients who appreciate both historical significance and luxury service standards. ✨
+                  </p>
+                </div>
+
+                {/* Legacy and Future */}
+                <div className="bg-gradient-to-r from-amber-100 to-yellow-100 rounded-2xl p-6 md:p-8 border-l-4 border-amber-500">
+                  <h3 className="text-2xl md:text-3xl font-bold text-amber-700 mb-6 flex items-center">
+                    🚀 Preserving Heritage and Future Tourism Growth
+                  </h3>
+                  
+                  <div className="bg-white rounded-lg p-4 shadow-md mb-6">
+                    <h4 className="text-xl font-semibold text-amber-800 mb-3">🏛️ Heritage Conservation</h4>
+                    <p>
+                      Ongoing conservation efforts and heritage preservation projects at Rajwada are enhancing its appeal as a world-class heritage destination. These improvements create better opportunities for premium escort services that can serve the growing number of heritage tourists and cultural enthusiasts visiting this magnificent royal palace.
+                    </p>
+                  </div>
+                  
+                  <p className="mb-4">
+                    The continued development of Rajwada as a premier heritage tourism destination will increase demand for sophisticated escort services that can enhance visitor experiences while respecting the cultural and historical significance of the royal palace. Future growth in cultural tourism will create expanding opportunities for specialized escort services that understand heritage tourism. 🏰
+                  </p>
+                  
+                  <p>
+                    Rajwada's enduring significance as a symbol of Indian royal heritage and its growing recognition as an international tourist destination position it as an ideal location for escort service providers seeking to serve the luxury heritage tourism market. The palace's timeless appeal ensures sustained opportunities for premium escort services that can match its royal grandeur. 👑
+                  </p>
+                </div>
+
+                {/* Call to Action */}
+                <div className="bg-gradient-to-r from-pink-100 to-purple-100 rounded-2xl p-6 md:p-8 border-2 border-pink-300 text-center">
+                  <h3 className="text-2xl md:text-3xl font-bold text-pink-700 mb-4">
+                    📞 Experience Rajwada's Royal Heritage Escort Services Today
+                  </h3>
+                  <p className="mb-6 text-lg">
+                    Ready to discover the finest escort services at Rajwada? Our culturally sophisticated and heritage-aware team is available 24/7 to help you find the perfect companion for any royal experience in Indore's magnificent palace district. Whether you need a knowledgeable guide for palace tours, a cultured partner for heritage festivals, or an elegant companion who can enhance your royal cultural experience, we have the ideal escort to make your Rajwada visit truly memorable.
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a 
+                      href="tel:+919372662471" 
+                      className="inline-block bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    >
+                      📞 Call +91 9372662471
+                    </a>
+                    <a 
+                      href="https://wa.me/919372662471" 
+                      className="inline-block bg-gradient-to-r from-green-500 to-teal-500 hover:from-green-600 hover:to-teal-600 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    >
+                      💬 WhatsApp Now
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Call to Action Section */}
         <section className="py-20 relative">
           <div className="absolute inset-0 bg-gradient-to-r from-pink-600/20 to-orange-600/20"></div>
