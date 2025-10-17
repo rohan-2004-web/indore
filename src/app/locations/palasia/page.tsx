@@ -63,7 +63,7 @@ export default function PalasiaPage() {
       image: "/images/services/Punjabi women.webp",
       icon: "🌺",
       category: "TRADITIONAL",
-      link: "/services"
+      link: "/services/punjabi-women"
     },
     {
       title: "Slim Escorts",
@@ -72,7 +72,7 @@ export default function PalasiaPage() {
       image: "/images/services/Slim Escorts.webp",
       icon: "💃",
       category: "SLIM",
-      link: "/services"
+      link: "/services/slim-escorts"
     },
     {
       title: "Unsatisfied Bhabhi",
@@ -81,7 +81,7 @@ export default function PalasiaPage() {
       image: "/images/services/Unsatisfied Bhabhi.webp",
       icon: "🔥",
       category: "BHABHI",
-      link: "/services"
+      link: "/services/unsatisfied-bhabhi"
     },
     {
       title: "Local Beauties",
@@ -90,7 +90,7 @@ export default function PalasiaPage() {
       image: "/images/services/Local Beauties.webp",
       icon: "🏙️",
       category: "LOCAL",
-      link: "/services"
+      link: "/services/local-beauties"
     },
     {
       title: "Event Companion",
@@ -99,7 +99,7 @@ export default function PalasiaPage() {
       image: "/images/services/Event Companion.webp",
       icon: "🎭",
       category: "PROFESSIONAL",
-      link: "/services"
+      link: "/services/event-companion"
     },
     {
       title: "Pink Special",
@@ -108,7 +108,7 @@ export default function PalasiaPage() {
       image: "/images/services/Pink Special.webp",
       icon: "💖",
       category: "SPECIAL",
-      link: "/services"
+      link: "/services/pink-special"
     },
     {
       title: "Unsatisfied Females",
@@ -117,7 +117,7 @@ export default function PalasiaPage() {
       image: "/images/services/Unsatisfied Females.webp",
       icon: "💕",
       category: "FEMALE",
-      link: "/services"
+      link: "/services/unsatisfied-females"
     },
     {
       title: "Incall Escorts",
@@ -126,7 +126,7 @@ export default function PalasiaPage() {
       image: "/images/services/Incall Escorts.webp",
       icon: "🏨",
       category: "INCALL",
-      link: "/services"
+      link: "/services/incall-escorts"
     },
     {
       title: "Mature Escorts",
@@ -135,7 +135,7 @@ export default function PalasiaPage() {
       image: "/images/services/Mature Escorts.webp",
       icon: "🍷",
       category: "MATURE",
-      link: "/services"
+      link: "/services/mature-escorts"
     },
     {
       title: "Young Girls",
@@ -144,7 +144,7 @@ export default function PalasiaPage() {
       image: "/images/services/Young Girls.webp",
       icon: "✨",
       category: "YOUNG",
-      link: "/services"
+      link: "/services/young-girls"
     },
     {
       title: "Indore Escorts",
@@ -153,7 +153,7 @@ export default function PalasiaPage() {
       image: "/images/services/indore escorts.webp",
       icon: "🏛️",
       category: "LOCAL",
-      link: "/services"
+      link: "/services/indore-escorts"
     },
     {
       title: "Expert Services",
@@ -162,7 +162,7 @@ export default function PalasiaPage() {
       image: "/images/services/Expert Services.webp",
       icon: "🎯",
       category: "EXPERT",
-      link: "/services"
+      link: "/services/expert-services"
     },
     {
       title: "High Class Models",
@@ -171,7 +171,7 @@ export default function PalasiaPage() {
       image: "/images/services/High Class Models.webp",
       icon: "👗",
       category: "MODEL",
-      link: "/services"
+      link: "/services/high-class-models"
     },
     {
       title: "Bold Girls",
@@ -180,7 +180,7 @@ export default function PalasiaPage() {
       image: "/images/services/bold girls.webp",
       icon: "🔥",
       category: "BOLD",
-      link: "/services"
+      link: "/services/bold-girls"
     },
     {
       title: "Sexy Girls",
@@ -189,7 +189,7 @@ export default function PalasiaPage() {
       image: "/images/services/sexy girls.webp",
       icon: "💋",
       category: "SEXY",
-      link: "/services"
+      link: "/services/sexy-girls"
     }
   ]
 
