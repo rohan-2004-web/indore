@@ -323,27 +323,16 @@ export default function RingRoadPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
                 {services.map((service, index) => (
                   <div key={index} className="bg-white/90 backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden border border-pink-100/50 hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
-                    <div className="relative h-64 overflow-hidden">
-                      <img 
-                        src={service.image} 
-                        alt={service.title}
-                        className="w-full h-full object-cover object-top transition-transform duration-500 hover:scale-110"
-                        loading="lazy"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                      <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full p-3 shadow-lg">
-                        <span className="text-2xl">{service.icon}</span>
-                      </div>
-                      <div className="absolute bottom-4 left-4 right-4">
-                        <span className="inline-block bg-pink-500 text-white px-3 py-1 rounded-full text-sm font-semibold mb-2">
+                    <div className="p-8">
+                      <div className="flex items-center justify-between mb-4">
+                        <span className="inline-block bg-pink-500 text-white px-4 py-2 rounded-full text-sm font-semibold">
                           {service.category}
                         </span>
-                        <h3 className="text-2xl font-bold text-white">{service.title}</h3>
-                        <p className="text-pink-200 font-medium">{service.subtitle}</p>
+                        <span className="text-3xl">{service.icon}</span>
                       </div>
-                    </div>
-                    <div className="p-6">
-                      <p className="text-gray-700 mb-4 leading-relaxed">{service.description}</p>
+                      <h3 className="text-2xl font-bold text-gray-800 mb-2">{service.title}</h3>
+                      <p className="text-pink-600 font-semibold mb-4">{service.subtitle}</p>
+                      <p className="text-gray-700 mb-6 leading-relaxed">{service.description}</p>
                       <div className="flex items-center justify-between">
                         <a 
                           href={service.link}
