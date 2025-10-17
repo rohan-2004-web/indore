@@ -307,6 +307,48 @@ export default function PalasiaPage() {
           </div>
         </section>
 
+        {/* Service Cards Section */}
+        <section className="py-20 bg-gradient-to-br from-pink-50 via-white to-orange-50">
+          <div className="max-w-8xl mx-auto px-6">
+            <div className="text-center mb-16">
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+                Premium Escorts In Palasia - Our Services
+              </h2>
+              <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+                Discover our exclusive collection of premium escort services with professional companions in Palasia
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+              {services.map((service, index) => (
+                <div key={index} className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col h-full transform hover:scale-105">
+                  <div className="relative flex items-center justify-center h-80 bg-gradient-to-br from-pink-50 to-pink-100">
+                    <img 
+                      src={service.image}
+                      alt={service.title}
+                      className="w-auto h-full object-contain mx-auto"
+                      loading={index < 8 ? "eager" : "lazy"}
+                    />
+                  </div>
+                  
+                  <div className="p-6 flex flex-col flex-grow">
+                    <h3 className="text-lg font-bold text-gray-800 mb-3">{service.title}</h3>
+                    <p className="text-sm text-gray-600 leading-relaxed mb-4 flex-grow">
+                      {service.description}
+                    </p>
+                    <a 
+                      href={service.link}
+                      className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-4 py-3 rounded-lg font-bold text-sm transition-all duration-300 transform hover:scale-105 text-center"
+                    >
+                      Book {service.title.split(' ').slice(0, 2).join(' ')} Escorts
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Palasia Service Features */}
         <section className="py-20 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70">
           <div className="w-full px-4">
