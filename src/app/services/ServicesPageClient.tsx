@@ -76,7 +76,7 @@ export default function ServicesPageClient() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Celebrity Escorts</h3>
                 <p className="text-gray-600 mb-4 text-base flex-grow">Premium companions with star quality service</p>
-                <a href="/services/celebrity-escorts" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Celebrity Girls</a>
+                <a href="/locations/scheme-78" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Celebrity Girls</a>
               </div>
 
               <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-blue-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -85,7 +85,7 @@ export default function ServicesPageClient() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">VIP Escorts</h3>
                 <p className="text-gray-600 mb-4 text-base flex-grow">Ultimate luxury companions for discerning clients</p>
-                <a href="/services/vip-escorts" className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book VIP Girls</a>
+                <a href="/locations/scheme-78" className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book VIP Girls</a>
               </div>
 
               <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-orange-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -94,7 +94,7 @@ export default function ServicesPageClient() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Premium Models</h3>
                 <p className="text-gray-600 mb-4 text-base flex-grow">High-end models with sophistication</p>
-                <a href="/services/premium-models" className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Premium Girls</a>
+                <a href="/locations/scheme-78" className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Premium Girls</a>
               </div>
 
               <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-purple-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -103,7 +103,7 @@ export default function ServicesPageClient() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">College Girls</h3>
                 <p className="text-gray-600 mb-4 text-base flex-grow">Young energetic companions for memorable experiences</p>
-                <a href="/services/college-girls" className="inline-block bg-gradient-to-r from-purple-500 to-purple-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book College Girls</a>
+                <a href="/locations/scheme-78" className="inline-block bg-gradient-to-r from-purple-500 to-purple-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book College Girls</a>
               </div>
 
               <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-green-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -112,7 +112,7 @@ export default function ServicesPageClient() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Housewife Escorts</h3>
                 <p className="text-gray-600 mb-4 text-base flex-grow">Mature experienced companions with caring nature</p>
-                <a href="/services/housewife-escorts" className="inline-block bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Housewife Girls</a>
+                <a href="/locations/scheme-78" className="inline-block bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Housewife Girls</a>
               </div>
 
               <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-red-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -121,7 +121,7 @@ export default function ServicesPageClient() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Punjabi Women</h3>
                 <p className="text-gray-600 mb-4 text-base flex-grow">Beautiful Punjabi companions with traditional charm</p>
-                <a href="/services/punjabi-women" className="inline-block bg-gradient-to-r from-red-500 to-red-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Punjabi Girls</a>
+                <a href="/locations/scheme-78" className="inline-block bg-gradient-to-r from-red-500 to-red-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Punjabi Girls</a>
               </div>
 
               <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-teal-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -130,7 +130,7 @@ export default function ServicesPageClient() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Slim Escorts</h3>
                 <p className="text-gray-600 mb-4 text-base flex-grow">Elegant slim companions with perfect figure</p>
-                <a href="/services/slim-escorts" className="inline-block bg-gradient-to-r from-teal-500 to-teal-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Slim Girls</a>
+                <a href="/locations/scheme-78" className="inline-block bg-gradient-to-r from-teal-500 to-teal-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Slim Girls</a>
               </div>
 
               <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-indigo-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -139,7 +139,7 @@ export default function ServicesPageClient() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Unsatisfied Bhabhi</h3>
                 <p className="text-gray-600 mb-4 text-base flex-grow">Experienced companions seeking excitement</p>
-                <a href="/services/unsatisfied-bhabhi" className="inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Bhabhi</a>
+                <a href="/locations/scheme-78" className="inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Bhabhi</a>
               </div>
 
               <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -148,7 +148,7 @@ export default function ServicesPageClient() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Local Beauties</h3>
                 <p className="text-gray-600 mb-4 text-base flex-grow">Beautiful local companions who know Indore</p>
-                <a href="/services/local-beauties" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Local Girls</a>
+                <a href="/locations/scheme-78" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Local Girls</a>
               </div>
 
               <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-yellow-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -157,7 +157,7 @@ export default function ServicesPageClient() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Event Companion</h3>
                 <p className="text-gray-600 mb-4 text-base flex-grow">Perfect companions for social events and parties</p>
-                <a href="/services/event-companion" className="inline-block bg-gradient-to-r from-yellow-500 to-yellow-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Event Girls</a>
+                <a href="/locations/scheme-78" className="inline-block bg-gradient-to-r from-yellow-500 to-yellow-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Event Girls</a>
               </div>
 
               <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-rose-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -166,7 +166,7 @@ export default function ServicesPageClient() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Pink Special</h3>
                 <p className="text-gray-600 mb-4 text-base flex-grow">Special premium companions for exclusive experiences</p>
-                <a href="/services/pink-special" className="inline-block bg-gradient-to-r from-rose-500 to-rose-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Pink Girls</a>
+                <a href="/locations/scheme-78" className="inline-block bg-gradient-to-r from-rose-500 to-rose-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Pink Girls</a>
               </div>
 
               <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-violet-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -175,7 +175,7 @@ export default function ServicesPageClient() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Unsatisfied Females</h3>
                 <p className="text-gray-600 mb-4 text-base flex-grow">Mature women seeking meaningful connections</p>
-                <a href="/services/unsatisfied-females" className="inline-block bg-gradient-to-r from-violet-500 to-violet-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Female Escorts</a>
+                <a href="/locations/scheme-78" className="inline-block bg-gradient-to-r from-violet-500 to-violet-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Female Escorts</a>
               </div>
 
               <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-blue-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -184,7 +184,7 @@ export default function ServicesPageClient() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Incall Escorts</h3>
                 <p className="text-gray-600 mb-4 text-base flex-grow">Premium incall services at luxury locations</p>
-                <a href="/services/incall-escorts" className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Incall Girls</a>
+                <a href="/locations/scheme-78" className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Incall Girls</a>
               </div>
 
               <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-amber-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -193,7 +193,7 @@ export default function ServicesPageClient() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Mature Escorts</h3>
                 <p className="text-gray-600 mb-4 text-base flex-grow">Experienced mature companions with sophistication</p>
-                <a href="/services/mature-escorts" className="inline-block bg-gradient-to-r from-amber-500 to-amber-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Mature Girls</a>
+                <a href="/locations/scheme-78" className="inline-block bg-gradient-to-r from-amber-500 to-amber-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Mature Girls</a>
               </div>
 
               <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-emerald-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -202,7 +202,7 @@ export default function ServicesPageClient() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Young Girls</h3>
                 <p className="text-gray-600 mb-4 text-base flex-grow">Young beautiful companions for unforgettable experiences</p>
-                <a href="/services/young-girls" className="inline-block bg-gradient-to-r from-emerald-500 to-emerald-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Young Girls</a>
+                <a href="/locations/scheme-78" className="inline-block bg-gradient-to-r from-emerald-500 to-emerald-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Young Girls</a>
               </div>
 
               <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-indigo-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
@@ -211,7 +211,7 @@ export default function ServicesPageClient() {
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Indore Escorts</h3>
                 <p className="text-gray-600 mb-4 text-base flex-grow">Premium local escorts with deep knowledge of Indore city</p>
-                <a href="/services/indore-escorts" className="inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Indore Girls</a>
+                <a href="/locations/scheme-78" className="inline-block bg-gradient-to-r from-indigo-500 to-indigo-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Indore Girls</a>
               </div>
 
               <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-cyan-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">

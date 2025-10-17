@@ -35,6 +35,7 @@ export function generateMetadata(config: SEOConfig): Metadata {
   // Dynamic keywords based on location and service
   const dynamicKeywords = [
     ...config.keywords,
+    'escorts in Indore',
     'Indore escort service',
     'premium call girls Indore',
     '24/7 escort service',
@@ -45,9 +46,9 @@ export function generateMetadata(config: SEOConfig): Metadata {
 
   if (config.location) {
     dynamicKeywords.push(
-      `${config.location.name} escorts`,
-      `call girls ${config.location.name}`,
-      `escort service ${config.location.name}`,
+      `escorts in ${config.location.name}`,
+      `call girls in ${config.location.name}`,
+      `escort service in ${config.location.name}`,
       ...config.location.landmarks.map(landmark => `escorts near ${landmark}`)
     )
   }
@@ -110,13 +111,14 @@ export function generateMetadata(config: SEOConfig): Metadata {
 // Location-specific SEO configs
 export const locationSEOConfigs = {
   'ab-road': {
-    title: 'AB Road Escort Service | Premium Call Girls in AB Road Indore',
-    description: 'Best escort service in AB Road, Indore with premium call girls and VIP companions. Professional agency serving AB Road commercial area.',
+    title: 'Escorts in AB Road | Premium Call Girls in AB Road Indore',
+    description: 'Best escorts in AB Road, Indore with premium call girls and VIP companions. Professional agency serving AB Road commercial area.',
     keywords: [
+      'escorts in AB Road',
+      'escorts in AB Road Indore',
+      'call girls in AB Road',
+      'escort service in AB Road',
       'AB Road escorts',
-      'call girls AB Road',
-      'escort service AB Road',
-      'AB Road Indore escorts',
       'commercial hub escorts',
       'business district companions'
     ],
@@ -133,13 +135,14 @@ export const locationSEOConfigs = {
     }
   },
   'palasia': {
-    title: 'Palasia Escort Service | Premium Call Girls in Palasia Indore',
-    description: 'Professional escort service in Palasia, Indore with verified call girls and premium companions. Serving Palasia business district.',
+    title: 'Escorts in Palasia | Premium Call Girls in Palasia Indore',
+    description: 'Professional escorts in Palasia, Indore with verified call girls and premium companions. Serving Palasia business district.',
     keywords: [
+      'escorts in Palasia',
+      'escorts in Palasia Indore',
+      'call girls in Palasia',
+      'escort service in Palasia',
       'Palasia escorts',
-      'call girls Palasia',
-      'escort service Palasia',
-      'Palasia Indore escorts',
       'business district escorts',
       'Palasia companions'
     ],
@@ -156,13 +159,14 @@ export const locationSEOConfigs = {
     }
   },
   'bhawar-kuan': {
-    title: 'Bhawar Kuan Escort Service | Premium Call Girls in Bhawar Kuan',
-    description: 'Top-rated escort service in Bhawar Kuan, Indore with beautiful call girls and VIP companions. Professional service in prime location.',
+    title: 'Escorts in Bhawar Kuan | Premium Call Girls in Bhawar Kuan',
+    description: 'Top-rated escorts in Bhawar Kuan, Indore with beautiful call girls and VIP companions. Professional service in prime location.',
     keywords: [
+      'escorts in Bhawar Kuan',
+      'escorts in Bhawar Kuan Indore',
+      'call girls in Bhawar Kuan',
+      'escort service in Bhawar Kuan',
       'Bhawar Kuan escorts',
-      'call girls Bhawar Kuan',
-      'escort service Bhawar Kuan',
-      'Bhawar Kuan Indore',
       'prime location escorts'
     ],
     location: {
@@ -178,13 +182,14 @@ export const locationSEOConfigs = {
     }
   },
   'vijay-nagar': {
-    title: 'Vijay Nagar Escort Service | Premium Call Girls in Vijay Nagar',
-    description: 'Professional escort service in Vijay Nagar, Indore with premium call girls and VIP companions. Serving Vijay Nagar commercial center.',
+    title: 'Escorts in Vijay Nagar | Premium Call Girls in Vijay Nagar',
+    description: 'Professional escorts in Vijay Nagar, Indore with premium call girls and VIP companions. Serving Vijay Nagar commercial center.',
     keywords: [
+      'escorts in Vijay Nagar',
+      'escorts in Vijay Nagar Indore',
+      'call girls in Vijay Nagar',
+      'escort service in Vijay Nagar',
       'Vijay Nagar escorts',
-      'call girls Vijay Nagar',
-      'escort service Vijay Nagar',
-      'Vijay Nagar Indore',
       'commercial center escorts'
     ],
     location: {
@@ -200,13 +205,14 @@ export const locationSEOConfigs = {
     }
   },
   'scheme-78': {
-    title: 'Scheme 78 Escort Service | Premium Call Girls in Scheme 78 Indore',
-    description: 'Exclusive escort service in Scheme 78, Indore with premium call girls and VIP companions. Professional service in upscale residential area.',
+    title: 'Escorts in Scheme 78 | Premium Call Girls in Scheme 78 Indore',
+    description: 'Exclusive escorts in Scheme 78, Indore with premium call girls and VIP companions. Professional service in upscale residential area.',
     keywords: [
+      'escorts in Scheme 78',
+      'escorts in Scheme 78 Indore',
+      'call girls in Scheme 78',
+      'escort service in Scheme 78',
       'Scheme 78 escorts',
-      'call girls Scheme 78',
-      'escort service Scheme 78',
-      'Scheme 78 Indore escorts',
       'residential area escorts',
       'upscale companions Scheme 78'
     ],
@@ -223,13 +229,14 @@ export const locationSEOConfigs = {
     }
   },
   'saket': {
-    title: 'Saket Escort Service | Premium Call Girls in Saket Indore',
-    description: 'Top escort service in Saket, Indore with beautiful call girls and VIP companions. Professional agency serving Saket residential area.',
+    title: 'Escorts in Saket | Premium Call Girls in Saket Indore',
+    description: 'Top escorts in Saket, Indore with beautiful call girls and VIP companions. Professional agency serving Saket residential area.',
     keywords: [
+      'escorts in Saket',
+      'escorts in Saket Indore',
+      'call girls in Saket',
+      'escort service in Saket',
       'Saket escorts',
-      'call girls Saket',
-      'escort service Saket',
-      'Saket Indore escorts',
       'residential escorts Saket'
     ],
     location: {
@@ -245,13 +252,14 @@ export const locationSEOConfigs = {
     }
   },
   'ring-road': {
-    title: 'Ring Road Escort Service | Premium Call Girls on Ring Road Indore',
-    description: 'Professional escort service on Ring Road, Indore with verified call girls and VIP companions. Serving Ring Road commercial corridor.',
+    title: 'Escorts in Ring Road | Premium Call Girls on Ring Road Indore',
+    description: 'Professional escorts in Ring Road, Indore with verified call girls and VIP companions. Serving Ring Road commercial corridor.',
     keywords: [
+      'escorts in Ring Road',
+      'escorts in Ring Road Indore',
+      'call girls in Ring Road',
+      'escort service in Ring Road',
       'Ring Road escorts',
-      'call girls Ring Road',
-      'escort service Ring Road',
-      'Ring Road Indore escorts',
       'commercial corridor escorts'
     ],
     location: {
@@ -267,13 +275,14 @@ export const locationSEOConfigs = {
     }
   },
   'rajwada': {
-    title: 'Rajwada Escort Service | Premium Call Girls near Rajwada Indore',
-    description: 'Heritage area escort service near Rajwada, Indore with premium call girls and cultural companions. Professional service in historic location.',
+    title: 'Escorts in Rajwada | Premium Call Girls near Rajwada Indore',
+    description: 'Heritage area escorts in Rajwada, Indore with premium call girls and cultural companions. Professional service in historic location.',
     keywords: [
+      'escorts in Rajwada',
+      'escorts in Rajwada Indore',
+      'call girls in Rajwada',
+      'escort service in Rajwada',
       'Rajwada escorts',
-      'call girls Rajwada',
-      'escort service Rajwada',
-      'Rajwada Indore escorts',
       'heritage area escorts',
       'cultural companions'
     ],
@@ -290,13 +299,14 @@ export const locationSEOConfigs = {
     }
   },
   'mg-road': {
-    title: 'MG Road Escort Service | Premium Call Girls on MG Road Indore',
-    description: 'Elite escort service on MG Road, Indore with premium call girls and VIP companions. Professional agency serving MG Road commercial hub.',
+    title: 'Escorts in MG Road | Premium Call Girls on MG Road Indore',
+    description: 'Elite escorts in MG Road, Indore with premium call girls and VIP companions. Professional agency serving MG Road commercial hub.',
     keywords: [
+      'escorts in MG Road',
+      'escorts in MG Road Indore',
+      'call girls in MG Road',
+      'escort service in MG Road',
       'MG Road escorts',
-      'call girls MG Road',
-      'escort service MG Road',
-      'MG Road Indore escorts',
       'commercial hub escorts'
     ],
     location: {
@@ -312,13 +322,14 @@ export const locationSEOConfigs = {
     }
   },
   'treasure-island': {
-    title: 'Treasure Island Escort Service | Premium Call Girls at Treasure Island Indore',
-    description: 'Luxury escort service at Treasure Island, Indore with premium call girls and VIP companions. Professional service at entertainment hub.',
+    title: 'Escorts in Treasure Island | Premium Call Girls at Treasure Island Indore',
+    description: 'Luxury escorts in Treasure Island, Indore with premium call girls and VIP companions. Professional service at entertainment hub.',
     keywords: [
+      'escorts in Treasure Island',
+      'escorts in Treasure Island Indore',
+      'call girls in Treasure Island',
+      'escort service in Treasure Island',
       'Treasure Island escorts',
-      'call girls Treasure Island',
-      'escort service Treasure Island',
-      'Treasure Island Indore escorts',
       'entertainment hub escorts'
     ],
     location: {
@@ -334,13 +345,14 @@ export const locationSEOConfigs = {
     }
   },
   'airport-road': {
-    title: 'Airport Road Escort Service | Premium Call Girls on Airport Road Indore',
-    description: 'Professional escort service on Airport Road, Indore with premium call girls and VIP companions. Serving Airport Road business corridor.',
+    title: 'Escorts in Airport Road | Premium Call Girls on Airport Road Indore',
+    description: 'Professional escorts in Airport Road, Indore with premium call girls and VIP companions. Serving Airport Road business corridor.',
     keywords: [
+      'escorts in Airport Road',
+      'escorts in Airport Road Indore',
+      'call girls in Airport Road',
+      'escort service in Airport Road',
       'Airport Road escorts',
-      'call girls Airport Road',
-      'escort service Airport Road',
-      'Airport Road Indore escorts',
       'business corridor escorts'
     ],
     location: {
@@ -356,13 +368,14 @@ export const locationSEOConfigs = {
     }
   },
   'bombay-hospital': {
-    title: 'Bombay Hospital Area Escort Service | Premium Call Girls near Bombay Hospital Indore',
-    description: 'Discreet escort service near Bombay Hospital, Indore with premium call girls and professional companions. Medical district service.',
+    title: 'Escorts in Bombay Hospital | Premium Call Girls near Bombay Hospital Indore',
+    description: 'Discreet escorts in Bombay Hospital area, Indore with premium call girls and professional companions. Medical district service.',
     keywords: [
+      'escorts in Bombay Hospital',
+      'escorts in Bombay Hospital Indore',
+      'call girls in Bombay Hospital',
+      'escort service in Bombay Hospital',
       'Bombay Hospital escorts',
-      'call girls Bombay Hospital',
-      'escort service Bombay Hospital',
-      'Bombay Hospital Indore escorts',
       'medical district escorts'
     ],
     location: {
