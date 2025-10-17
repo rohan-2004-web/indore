@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import Header from '@/components/Header'
-import RajwadaEscortsContent from './components/RajwadaEscortsContent'
 
 export default function RajwadaPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
@@ -10,45 +9,6 @@ export default function RajwadaPage() {
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index)
   }
-
-  const services = [
-    {
-      title: "Celebrity Escorts in Indore",
-      subtitle: "Star Quality Service",
-      description: "Experience celebrity-level companions in Rajwada with exceptional elegance",
-      image: "/images/services/Celebrity Escorts.webp",
-      icon: "⭐",
-      category: "CELEBRITY",
-      link: "/services/celebrity-escorts"
-    },
-    {
-      title: "VIP Escorts in Indore", 
-      subtitle: "Ultimate Luxury",
-      description: "Our most exclusive VIP escorts in Rajwada offering ultimate luxury",
-      image: "/images/services/VIP Escorts.jpg",
-      icon: "💫",
-      category: "VIP",
-      link: "/services/vip-escorts"
-    },
-    {
-      title: "Premium Models in Indore",
-      subtitle: "High-End Sophistication", 
-      description: "Premium models in Rajwada with unmatched sophistication",
-      image: "/images/services/Premium Models.jpg",
-      icon: "💎",
-      category: "PREMIUM",
-      link: "/services/premium-models"
-    },
-    {
-      title: "College Girls in Indore",
-      subtitle: "Fresh & Young",
-      description: "Beautiful young companions in Rajwada with vibrant energy",
-      image: "/images/services/College Girls.webp",
-      icon: "🌟",
-      category: "YOUNG",
-      link: "/services/college-girls"
-    }
-  ]
 
   const faqs = [
     {
@@ -90,49 +50,6 @@ export default function RajwadaPage() {
       <Header />
       <div className="min-h-screen bg-gradient-to-br from-pink-200/60 via-orange-100/50 to-pink-300/60">
         
-        {/* Service Cards Section */}
-        <section className="py-16 px-4 bg-gradient-to-br from-pink-50 to-blue-50">
-          <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Premium Services in Rajwada</h2>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">Experience the finest escort services in Rajwada with our professional companions</p>
-            </div>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-              {services.map((service, index) => (
-                <div key={index} className="bg-white/90 backdrop-blur-md rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group">
-                  <div className="relative aspect-video overflow-hidden">
-                    <img 
-                      src={service.image} 
-                      alt={service.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                    <div className="absolute top-4 left-4">
-                      <span className="text-2xl">{service.icon}</span>
-                    </div>
-                    <div className="absolute top-4 right-4">
-                      <span className="bg-gradient-to-r from-pink-600 to-blue-600 text-white text-xs px-2 py-1 rounded-full">
-                        {service.category}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="p-6">
-                    <h3 className="text-xl font-bold text-gray-800 mb-2">{service.title}</h3>
-                    <p className="text-sm text-pink-600 font-medium mb-3">{service.subtitle}</p>
-                    <p className="text-gray-600 text-sm mb-4 line-clamp-3">{service.description}</p>
-                    <a 
-                      href={service.link}
-                      className="inline-block w-full text-center bg-gradient-to-r from-pink-600 to-blue-600 text-white px-6 py-3 rounded-lg hover:from-pink-700 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 font-medium"
-                    >
-                      Learn More
-                    </a>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
         {/* Hero Section - Premium Enhanced Style */}
         <section className="pt-20 pb-16 relative min-h-screen flex items-center overflow-hidden">
           {/* Animated Background Elements */}
@@ -352,160 +269,6 @@ export default function RajwadaPage() {
           </div>
         </section>
 
-        {/* Complete Rajwada Services Catalogue */}
-        <section className="py-20 bg-gradient-to-br from-pink-100/80 via-white to-orange-100/80">
-          <div className="max-w-7xl mx-auto px-4">
-            {/* Section Header */}
-            <div className="text-center mb-16">
-              <h2 className="text-5xl md:text-6xl font-bold mb-6">
-                <span className="text-pink-600">🌸</span>
-                <span className="bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mx-4">
-                  Complete Rajwada Services Catalogue
-                </span>
-                <span className="text-purple-600">🌸</span>
-              </h2>
-              <p className="text-2xl text-gray-700 max-w-5xl mx-auto leading-relaxed">
-                Discover our extensive range of premium escort services in Rajwada. Each service is carefully curated to meet the highest standards of elegance and sophistication.
-              </p>
-            </div>
-
-            {/* Service Cards Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {/* Luxury Escorts */}
-              <div className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
-                <div className="relative h-80 overflow-hidden">
-                  <img 
-                    src="/images/services/VIP Escorts.jpg" 
-                    alt="Luxury Escorts"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    loading="lazy"
-                  />
-                  <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-sm rounded-full p-3 shadow-lg">
-                    <span className="text-2xl">👑</span>
-                  </div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                  <div className="absolute bottom-4 left-4 right-4 text-center">
-                    <h3 className="text-white font-bold text-xl mb-2">Luxury Escorts</h3>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                    Ultimate luxury companions for sophisticated gentlemen in Rajwada
-                  </p>
-                  <div className="flex items-center justify-between">
-                    <a 
-                      href="/services/luxury-escort"
-                      className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-6 py-3 rounded-full font-bold text-sm hover:scale-105 transition-transform shadow-lg flex items-center gap-2"
-                    >
-                      Book Now →
-                    </a>
-                    <span className="text-pink-500 font-semibold text-sm">Available 24/7</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Russian Escorts */}
-              <div className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
-                <div className="relative h-80 overflow-hidden">
-                  <img 
-                    src="/images/services/Celebrity Escorts.webp" 
-                    alt="Russian Escorts"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    loading="lazy"
-                  />
-                  <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-sm rounded-full p-3 shadow-lg">
-                    <span className="text-xl">🇷🇺</span>
-                  </div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                  <div className="absolute bottom-4 left-4 right-4 text-center">
-                    <h3 className="text-white font-bold text-xl mb-2">Russian Escorts</h3>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                    Exotic Russian beauties available for premium companionship
-                  </p>
-                  <div className="flex items-center justify-between">
-                    <a 
-                      href="/services/russian-escort"
-                      className="bg-gradient-to-r from-red-500 to-orange-500 text-white px-6 py-3 rounded-full font-bold text-sm hover:scale-105 transition-transform shadow-lg flex items-center gap-2"
-                    >
-                      Book Now →
-                    </a>
-                    <span className="text-pink-500 font-semibold text-sm">Available 24/7</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Independent Escorts */}
-              <div className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
-                <div className="relative h-80 overflow-hidden">
-                  <img 
-                    src="/images/services/indore escorts.webp" 
-                    alt="Independent Escorts"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    loading="lazy"
-                  />
-                  <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-sm rounded-full p-3 shadow-lg">
-                    <span className="text-2xl">💫</span>
-                  </div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                  <div className="absolute bottom-4 left-4 right-4 text-center">
-                    <h3 className="text-white font-bold text-xl mb-2">Independent Escorts</h3>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                    Self-managed premium companions with personal touch
-                  </p>
-                  <div className="flex items-center justify-between">
-                    <a 
-                      href="/services/independent-escort"
-                      className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-6 py-3 rounded-full font-bold text-sm hover:scale-105 transition-transform shadow-lg flex items-center gap-2"
-                    >
-                      Book Now →
-                    </a>
-                    <span className="text-pink-500 font-semibold text-sm">Available 24/7</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Call Girl Service */}
-              <div className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:scale-105">
-                <div className="relative h-80 overflow-hidden">
-                  <img 
-                    src="/images/services/College Girls.webp" 
-                    alt="Call Girl Service"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                    loading="lazy"
-                  />
-                  <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-sm rounded-full p-3 shadow-lg">
-                    <span className="text-2xl">📞</span>
-                  </div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
-                  <div className="absolute bottom-4 left-4 right-4 text-center">
-                    <h3 className="text-white font-bold text-xl mb-2">Call Girl Service</h3>
-                  </div>
-                </div>
-                <div className="p-6">
-                  <p className="text-gray-600 mb-4 text-sm leading-relaxed">
-                    Professional call girls available 24/7 in Rajwada area
-                  </p>
-                  <div className="flex items-center justify-between">
-                    <a 
-                      href="/services/call-girl"
-                      className="bg-gradient-to-r from-pink-500 to-rose-500 text-white px-6 py-3 rounded-full font-bold text-sm hover:scale-105 transition-transform shadow-lg flex items-center gap-2"
-                    >
-                      Book Now →
-                    </a>
-                    <span className="text-pink-500 font-semibold text-sm">Available 24/7</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Call to Action Section */}
         <section className="py-20 relative">
           <div className="absolute inset-0 bg-gradient-to-r from-pink-600/20 to-orange-600/20"></div>
@@ -538,9 +301,3 @@ export default function RajwadaPage() {
     </>
   )
 }
-
-
-
-
-
-
