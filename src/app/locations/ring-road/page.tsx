@@ -307,7 +307,52 @@ export default function RingRoadPage() {
           </div>
         </section>
 
-
+        {/* Service Cards Section */}
+        <section className="py-16 px-4 bg-gradient-to-br from-pink-50 to-blue-50">
+          <div className="max-w-8xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6 leading-tight">
+                Our Premium Services in Ring Road
+              </h2>
+              <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed font-medium">
+                Experience the finest escort services in Ring Road with our professional companions
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+              {services.map((service, index) => (
+                <div key={index} className="bg-white/90 backdrop-blur-md rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group">
+                  <div className="relative h-80 overflow-hidden flex items-center justify-center">
+                    <img 
+                      src={service.image} 
+                      alt={service.title}
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    />
+                    <div className="absolute top-4 left-4">
+                      <span className="text-2xl">{service.icon}</span>
+                    </div>
+                    <div className="absolute top-4 right-4">
+                      <span className="bg-gradient-to-r from-pink-600 to-blue-600 text-white text-xs px-2 py-1 rounded-full">
+                        {service.category}
+                      </span>
+                    </div>
+                  </div>
+                  <div className="p-6 flex flex-col flex-grow">
+                    <h3 className="text-xl font-bold text-gray-800 mb-2">{service.title}</h3>
+                    <p className="text-sm text-pink-600 font-medium mb-3">{service.subtitle}</p>
+                    <p className="text-gray-600 text-sm mb-4 line-clamp-3 flex-grow">{service.description}</p>
+                    <a 
+                      href={service.link}
+                      className="inline-block w-full text-center bg-gradient-to-r from-pink-600 to-orange-500 hover:from-pink-700 hover:to-orange-600 text-white px-6 py-3 rounded-lg transition-all duration-300 transform hover:scale-105 font-medium"
+                    >
+                      Book {service.title} Escorts
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
 
         {/* FAQ Section */}
         <section className="py-20 bg-gradient-to-br from-pink-100/60 via-orange-50/50 to-pink-200/60">
