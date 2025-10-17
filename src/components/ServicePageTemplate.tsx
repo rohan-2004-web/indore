@@ -288,16 +288,25 @@ export default function ServicePageTemplate({ serviceData }: ServicePageTemplate
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             {[
-              'AB Road', 'Palasia', 'Vijay Nagar', 'New Palasia',
-              'Rajwada', 'Khajrana', 'Sarafa Bazaar', 'Indore GPO',
-              'Kanadiya', 'Scheme No 78', 'Sudama Nagar', 'Bhawar Kuan'
+              { name: 'AB Road', slug: 'ab-road' },
+              { name: 'Palasia', slug: 'palasia' },
+              { name: 'Vijay Nagar', slug: 'vijay-nagar' },
+              { name: 'Bhawar Kuan', slug: 'bhawar-kuan' },
+              { name: 'Rajwada', slug: 'rajwada' },
+              { name: 'Scheme No 78', slug: 'scheme-78' },
+              { name: 'Ring Road', slug: 'ring-road' },
+              { name: 'Airport Road', slug: 'airport-road' },
+              { name: 'MG Road', slug: 'mg-road' },
+              { name: 'Saket', slug: 'saket' },
+              { name: 'Treasure Island', slug: 'treasure-island' },
+              { name: 'Bombay Hospital', slug: 'bombay-hospital' }
             ].map((area, index) => (
               <Link 
                 key={index}
-                href={`/locations/${area.toLowerCase().replace(/\s+/g, '-').replace(/\./g, '')}`}
+                href={`/locations/${area.slug}`}
                 className="bg-white p-4 rounded-lg shadow hover:shadow-lg transition-shadow text-gray-700 hover:text-pink-600"
               >
-                {area}
+                {area.name}
               </Link>
             ))}
           </div>
