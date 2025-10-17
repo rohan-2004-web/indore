@@ -64,7 +64,7 @@ export default function AirportRoadPage() {
       image: "/images/services/Punjabi women.webp",
       icon: "🌺",
       category: "TRADITIONAL",
-      link: "/services"
+      link: "/services/punjabi-women"
     },
     {
       title: "Slim Escorts",
@@ -73,7 +73,7 @@ export default function AirportRoadPage() {
       image: "/images/services/Slim Escorts.webp",
       icon: "💃",
       category: "SLIM",
-      link: "/services"
+      link: "/services/slim-escorts"
     },
     {
       title: "Unsatisfied Bhabhi",
@@ -82,7 +82,7 @@ export default function AirportRoadPage() {
       image: "/images/services/Unsatisfied Bhabhi.webp",
       icon: "🔥",
       category: "BHABHI",
-      link: "/services"
+      link: "/services/unsatisfied-bhabhi"
     },
     {
       title: "Local Beauties",
@@ -91,7 +91,7 @@ export default function AirportRoadPage() {
       image: "/images/services/Local Beauties.webp",
       icon: "🏙️",
       category: "LOCAL",
-      link: "/services"
+      link: "/services/local-beauties"
     },
     {
       title: "Event Companion",
@@ -100,7 +100,7 @@ export default function AirportRoadPage() {
       image: "/images/services/Event Companion.webp",
       icon: "🎭",
       category: "PROFESSIONAL",
-      link: "/services"
+      link: "/services/event-companion"
     },
     {
       title: "Pink Special",
@@ -109,7 +109,7 @@ export default function AirportRoadPage() {
       image: "/images/services/Pink Special.webp",
       icon: "💖",
       category: "SPECIAL",
-      link: "/services"
+      link: "/services/pink-special"
     },
     {
       title: "Unsatisfied Females",
@@ -118,7 +118,7 @@ export default function AirportRoadPage() {
       image: "/images/services/Unsatisfied Females.webp",
       icon: "💕",
       category: "FEMALE",
-      link: "/services"
+      link: "/services/unsatisfied-females"
     },
     {
       title: "Incall Escorts",
@@ -127,7 +127,7 @@ export default function AirportRoadPage() {
       image: "/images/services/Incall Escorts.webp",
       icon: "🏨",
       category: "INCALL",
-      link: "/services"
+      link: "/services/incall-escorts"
     },
     {
       title: "Mature Escorts",
@@ -136,7 +136,7 @@ export default function AirportRoadPage() {
       image: "/images/services/Mature Escorts.webp",
       icon: "🍷",
       category: "MATURE",
-      link: "/services"
+      link: "/services/mature-escorts"
     },
     {
       title: "Young Girls",
@@ -145,7 +145,7 @@ export default function AirportRoadPage() {
       image: "/images/services/Young Girls.webp",
       icon: "✨",
       category: "YOUNG",
-      link: "/services"
+      link: "/services/young-girls"
     },
     {
       title: "Indore Escorts",
@@ -154,7 +154,7 @@ export default function AirportRoadPage() {
       image: "/images/services/indore escorts.webp",
       icon: "🏛️",
       category: "LOCAL",
-      link: "/services"
+      link: "/services/indore-escorts"
     },
     {
       title: "Expert Services",
@@ -163,7 +163,7 @@ export default function AirportRoadPage() {
       image: "/images/services/Expert Services.webp",
       icon: "🎯",
       category: "EXPERT",
-      link: "/services"
+      link: "/services/expert-services"
     },
     {
       title: "High Class Models",
@@ -172,7 +172,7 @@ export default function AirportRoadPage() {
       image: "/images/services/High Class Models.webp",
       icon: "👗",
       category: "MODEL",
-      link: "/services"
+      link: "/services/high-class-models"
     },
     {
       title: "Bold Girls",
@@ -181,7 +181,7 @@ export default function AirportRoadPage() {
       image: "/images/services/bold girls.webp",
       icon: "🔥",
       category: "BOLD",
-      link: "/services"
+      link: "/services/bold-girls"
     },
     {
       title: "Sexy Girls",
@@ -190,7 +190,7 @@ export default function AirportRoadPage() {
       image: "/images/services/sexy girls.webp",
       icon: "💋",
       category: "SEXY",
-      link: "/services"
+      link: "/services/sexy-girls"
     }
   ]
 
@@ -303,6 +303,48 @@ export default function AirportRoadPage() {
                 <h3 className="text-lg font-bold text-gray-800 mb-2">Complete Discretion</h3>
                 <p className="text-gray-700 font-medium">Total privacy guaranteed for all business encounters</p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Service Cards Section */}
+        <section className="py-20 bg-gradient-to-br from-pink-50 via-white to-orange-50">
+          <div className="max-w-8xl mx-auto px-6">
+            <div className="text-center mb-16">
+              <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+                Premium Escorts In Airport Road - Our Services
+              </h2>
+              <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
+                Discover our exclusive collection of premium escort services with professional companions in Airport Road
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+              {services.map((service, index) => (
+                <div key={index} className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col h-full transform hover:scale-105">
+                  <div className="relative flex items-center justify-center h-80 bg-gradient-to-br from-pink-50 to-pink-100">
+                    <img 
+                      src={service.image}
+                      alt={service.title}
+                      className="w-auto h-full object-contain mx-auto"
+                      loading={index < 8 ? "eager" : "lazy"}
+                    />
+                  </div>
+                  
+                  <div className="p-6 flex flex-col flex-grow">
+                    <h3 className="text-lg font-bold text-gray-800 mb-3">{service.title}</h3>
+                    <p className="text-sm text-gray-600 leading-relaxed mb-4 flex-grow">
+                      {service.description}
+                    </p>
+                    <a 
+                      href={service.link}
+                      className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-4 py-3 rounded-lg font-bold text-sm transition-all duration-300 transform hover:scale-105 text-center"
+                    >
+                      Book {service.title.split(' ').slice(0, 2).join(' ')} Escorts
+                    </a>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </section>
