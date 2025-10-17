@@ -1,32 +1,7 @@
-import { Metadata } from 'next'
+'use client'
+
 import Header from '@/components/Header'
 import { useState } from 'react'
-
-// SEO Metadata for About Page
-export const metadata: Metadata = {
-  title: 'About Saumya Kapoor Escorts | Premium Service Indore',
-  description: 'Learn about Saumya Kapoor Escorts - Indore\'s premier escort service. 3+ years experience, 1000+ happy clients, 100% verified companions. Professional, discreet, available 24/7.',
-  keywords: [
-    'about Saumya Kapoor escorts',
-    'Indore escort service',
-    'premium escort agency',
-    'verified escort service',
-    'professional escorts Indore',
-    'escort agency about us',
-    'trusted escort service'
-  ].join(', '),
-  openGraph: {
-    title: 'About Saumya Kapoor Escorts | Premium Service in Indore',
-    description: 'Indore\'s most trusted escort service with 3+ years experience, verified companions, and complete discretion. Professional escort agency.',
-    type: 'website',
-    url: 'https://saumyakapoor.in/about',
-  },
-  alternates: {
-    canonical: 'https://saumyakapoor.in/about',
-  },
-}
-
-'use client'
 
 export default function AboutPage() {
   const [activeTab, setActiveTab] = useState('about')

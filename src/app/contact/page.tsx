@@ -1,32 +1,7 @@
-import { Metadata } from 'next'
+'use client'
+
 import Header from '@/components/Header'
 import { useState } from 'react'
-
-// SEO Metadata for Contact Page
-export const metadata: Metadata = {
-  title: 'Contact Saumya Kapoor | Book Escorts +91-9372662471 Indore',
-  description: 'Contact Saumya Kapoor Escorts for premium escort service in Indore. Call +91 9372662471, WhatsApp booking available. Quick response, available 24/7 across all locations.',
-  keywords: [
-    'contact Saumya Kapoor escorts',
-    'book escort service Indore',
-    'escort booking contact',
-    '+91 9372662471',
-    'WhatsApp escort booking',
-    'Indore escort contact',
-    'book escorts now'
-  ].join(', '),
-  openGraph: {
-    title: 'Contact Saumya Kapoor Escorts | Book Premium Service',
-    description: 'Book premium escort service in Indore. Call +91 9372662471 for immediate booking. Available 24/7 with quick response times.',
-    type: 'website',
-    url: 'https://saumyakapoor.in/contact',
-  },
-  alternates: {
-    canonical: 'https://saumyakapoor.in/contact',
-  },
-}
-
-'use client'
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
