@@ -10,12 +10,15 @@ import { PerformanceMonitor } from "@/hooks/usePerformanceMonitor";
 import { FastIndexingSchemas } from "@/components/FastIndexingSchemas";
 import InternalLinkingFooter from "@/components/InternalLinkingFooter";
 import { Suspense } from "react";
+import Script from "next/script";
 
-// Optimize font loading with display swap for better performance
+// Optimize font loading with display swap and fallback for better performance
 const inter = Inter({ 
   subsets: ["latin"],
   display: 'swap',
-  preload: true
+  preload: true,
+  fallback: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
+  adjustFontFallback: true,
 });
 
 export const metadata: Metadata = {
@@ -253,19 +256,23 @@ export default function RootLayout({
   return (
     <html lang="en" dir="ltr">
       <head>
+        {/* Critical Resource Hints - Load First */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+        
+        {/* Preload critical resources */}
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+        
+        {/* Structured Data - High Priority for SEO */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="//fonts.gstatic.com" />
-        <link rel="dns-prefetch" href="//wa.me" />
-        <link rel="dns-prefetch" href="//maps.googleapis.com" />
-        <link rel="preload" href="/images/services" as="fetch" crossOrigin="anonymous" />
-        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+        
+        {/* Viewport and Mobile Optimization */}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="theme-color" content="#ec4899" />
         <meta name="mobile-web-app-capable" content="yes" />
@@ -288,24 +295,25 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/favicon.png" sizes="180x180" />
         <link rel="manifest" href="/site.webmanifest" />
         
-        {/* Service Worker Registration */}
-        <script
+        {/* Service Worker Registration - Deferred for better performance */}
+        <Script
+          id="sw-registration"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
               if ('serviceWorker' in navigator) {
                 window.addEventListener('load', function() {
-                  navigator.serviceWorker.register('/sw-v3.js')
-                    .then(function(registration) {
-                      console.log('SW v3 registered for ultra performance: ', registration);
-                      
-                      // Trigger background sync for prefetching
-                      if ('sync' in registration) {
-                        registration.sync.register('background-sync');
-                      }
-                    })
-                    .catch(function(registrationError) {
-                      console.log('SW v3 registration failed: ', registrationError);
-                    });
+                  setTimeout(function() {
+                    navigator.serviceWorker.register('/sw-v3.js')
+                      .then(function(registration) {
+                        if ('sync' in registration) {
+                          registration.sync.register('background-sync');
+                        }
+                      })
+                      .catch(function(err) {
+                        console.error('SW registration failed:', err);
+                      });
+                  }, 2000);
                 });
               }
             `,
@@ -317,19 +325,9 @@ export default function RootLayout({
         <meta name="msapplication-TileColor" content="#ec4899" />
         <meta name="msapplication-config" content="/browserconfig.xml" />
         
-        {/* Critical performance optimizations for 100% score */}
+        {/* Critical performance optimizations */}
         <CriticalInlineCSS />
         <CriticalResourceHints />
-        
-        {/* Preconnect to external domains for better performance */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="preconnect" href="https://www.google-analytics.com" />
-        
-        {/* DNS Prefetch for better performance */}
-        <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-        <link rel="dns-prefetch" href="//www.google-analytics.com" />
-        <link rel="dns-prefetch" href="//www.googletagmanager.com" />
         
         {/* Alternate hreflang for international SEO */}
         <link rel="alternate" hrefLang="en" href="https://saumyakapoor.in" />

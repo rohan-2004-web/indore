@@ -2,37 +2,58 @@
 
 export default function CriticalCSS() {
   return (
-    <style jsx>{`
-      /* Critical Above-the-fold styles for faster FCP */
-      * { box-sizing: border-box; }
+    <style jsx global>{`
+      /* Critical Above-the-fold styles for faster FCP and LCP */
+      * { 
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      
+      html {
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: transparent;
+      }
+      
       body {
         margin: 0;
         padding: 0;
         background: #fdf2f8;
         min-height: 100vh;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         font-display: swap;
         -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
         text-rendering: optimizeSpeed;
+        line-height: 1.5;
       }
       
-      /* Header critical styles - inline background for faster render */
+      /* Prevent layout shift */
+      img, picture, video, canvas, svg {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+      
+      /* Header critical styles */
       .header-container {
         background: #ec4899;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         position: sticky;
         top: 0;
         z-index: 50;
         contain: layout style paint;
+        will-change: transform;
       }
       
-      /* Hero section critical styles */
+      /* Hero section critical styles - optimize for LCP */
       .hero-section {
         background: linear-gradient(135deg, #fdf2f8 0%, #eff6ff 100%);
         min-height: 60vh;
         display: flex;
         align-items: center;
         justify-content: center;
+        contain: layout style paint;
       }
       
       /* Navigation critical styles */
@@ -41,11 +62,16 @@ export default function CriticalCSS() {
         text-decoration: none;
         padding: 0.5rem 1rem;
         border-radius: 0.375rem;
-        transition: background-color 0.2s ease;
+        transition: background-color 0.15s ease;
       }
       
       .nav-link:hover {
         background-color: rgba(255, 255, 255, 0.1);
+      }
+      
+      /* Optimize button rendering */
+      button, a {
+        touch-action: manipulation;
       }
       
       /* Button critical styles */

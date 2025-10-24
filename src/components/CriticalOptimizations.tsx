@@ -1,14 +1,19 @@
 const criticalCSS = `
-/* Ultra-Critical Inline CSS for LCP optimization */
-html{line-height:1.15;-webkit-text-size-adjust:100%}
-body{margin:0;font-family:system-ui,-apple-system,sans-serif}
-.hero-critical{background:linear-gradient(135deg,#ec4899 0%,#3b82f6 100%);transform:translateZ(0);contain:layout style paint}
-.text-critical{font-display:swap;text-rendering:optimizeSpeed;-webkit-font-smoothing:antialiased}
-.layout-critical{aspect-ratio:attr(width)/attr(height);object-fit:cover;contain:layout style paint}
-.btn-critical{transform:translateZ(0);transition:transform .15s ease-out}
-.loading-critical{background:linear-gradient(90deg,#f3f4f6 25%,#e5e7eb 50%,#f3f4f6 75%);background-size:200% 100%;animation:shimmer 1.5s infinite}
-@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
-@media (max-width:640px){.mobile-critical{font-size:clamp(1.5rem,4vw,2.5rem)}}
+/* Ultra-Critical Inline CSS for LCP/FCP optimization */
+*,::before,::after{box-sizing:border-box;border:0 solid}
+html{line-height:1.5;-webkit-text-size-adjust:100%;tab-size:4;font-family:ui-sans-serif,system-ui,-apple-system,sans-serif}
+body{margin:0;line-height:inherit;background:#fdf2f8}
+main{display:block}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}
+a{color:inherit;text-decoration:inherit}
+img,svg,video,canvas,audio,iframe,embed,object{display:block;vertical-align:middle}
+img,video{max-width:100%;height:auto}
+.hero-critical{background:linear-gradient(135deg,#ec4899 0%,#3b82f6 100%);transform:translateZ(0);contain:layout style paint;will-change:transform}
+.text-critical{font-display:swap;text-rendering:optimizeSpeed;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.img-critical{content-visibility:auto;contain:layout style paint}
+.btn-critical{transform:translateZ(0);transition:transform .15s cubic-bezier(0.4,0,0.2,1);touch-action:manipulation}
+.no-fouc{visibility:visible;opacity:1}
+@media (prefers-reduced-motion:reduce){*{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important}}
 `
 
 export function CriticalInlineCSS() {
@@ -25,42 +30,36 @@ export function CriticalInlineCSS() {
 export function CriticalResourceHints() {
   return (
     <>
-      {/* Preload critical fonts */}
+      {/* Preload critical fonts with highest priority */}
       <link
         rel="preload"
         as="font"
         type="font/woff2"
         href="https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiA.woff2"
         crossOrigin="anonymous"
+        // @ts-ignore
+        fetchpriority="high"
       />
       
-      {/* Preload critical images */}
+      {/* Preload hero image for better LCP */}
       <link
         rel="preload"
         as="image"
         href="/images/hero/escort-service-indore.webp"
-        fetchPriority="high"
+        // @ts-ignore
+        fetchpriority="high"
+        imageSrcSet="/images/hero/escort-service-indore.webp"
       />
       
-      {/* DNS prefetch for external domains */}
-      <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+      {/* Early hints for faster DNS resolution */}
       <link rel="dns-prefetch" href="//fonts.gstatic.com" />
       <link rel="dns-prefetch" href="//www.googletagmanager.com" />
-      <link rel="dns-prefetch" href="//www.google-analytics.com" />
       
-      {/* Preconnect to critical origins */}
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-      
-      {/* Module preload for critical scripts */}
-      <link
-        rel="modulepreload"
-        href="/_next/static/chunks/framework-[hash].js"
-      />
-      <link
-        rel="modulepreload" 
-        href="/_next/static/chunks/main-[hash].js"
+      {/* Preconnect to critical origins - reduce connection time */}
+      <link 
+        rel="preconnect" 
+        href="https://fonts.gstatic.com" 
+        crossOrigin="anonymous"
       />
     </>
   )

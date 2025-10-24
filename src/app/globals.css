@@ -2,51 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Performance optimizations */
-html {
-  scroll-behavior: smooth;
-}
+/* Ultra Performance optimizations for 90+ score */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
 
-/* Reduce paint complexity */
-* {
-  box-sizing: border-box;
-}
+  /* Optimize font rendering */
+  body {
+    font-display: swap;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+  }
 
-/* Optimize font rendering */
-body {
-  font-display: swap;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeSpeed;
-}
+  /* Prevent layout shifts */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
 
-/* Optimize animations */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
+  /* Optimize animations */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
   }
 }
 
-/* Optimize images */
-img {
-  max-width: 100%;
-  height: auto;
-}
+@layer utilities {
+  /* GPU acceleration for transforms */
+  .gpu-accelerate {
+    transform: translateZ(0);
+    will-change: transform;
+    backface-visibility: hidden;
+  }
 
-/* Optimize transforms for GPU acceleration */
-.transform {
-  transform: translateZ(0);
-  backface-visibility: hidden;
-  perspective: 1000px;
-}
+  /* Containment for better rendering */
+  .contain-layout {
+    contain: layout style paint;
+  }
 
-/* Critical CSS for above-the-fold content */
-.hero-section {
-  contain: layout style paint;
+  /* Content visibility for off-screen elements */
+  .content-visibility-auto {
+    content-visibility: auto;
+    contain-intrinsic-size: 1px 500px;
+  }
 }
 
 /* Reduce layout thrashing */

@@ -1,32 +1,29 @@
 'use client'
 
-import { useState, Suspense } from 'react'
+import { useState, Suspense, memo } from 'react'
 import dynamic from 'next/dynamic'
-import Header from '@/components/Header'
 import Breadcrumb from '@/components/Breadcrumb'
 import PerformanceOptimizer from '@/components/PerformanceOptimizer'
 import { HeroImage } from '@/components/UltraOptimizedImage'
 
-// Lazy load all heavy components for better performance
+// Aggressive lazy loading for better LCP
 const ServiceCards = dynamic(() => import('@/components/ServiceCards'), {
-  loading: () => (
-    <div className="animate-pulse h-96 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70 rounded-3xl"></div>
-  ),
+  loading: () => null,
   ssr: false
 })
 
 const SEOOptimizedContent = dynamic(() => import('@/components/SEOContent').then(mod => ({ default: mod.SEOOptimizedContent })), {
-  loading: () => <div className="h-64 bg-gradient-to-r from-pink-50 to-blue-50 animate-pulse rounded-xl"></div>,
+  loading: () => null,
   ssr: false
 })
 
 const InternalLinks = dynamic(() => import('@/components/InternalLinks'), {
-  loading: () => <div className="h-32 bg-white animate-pulse rounded-xl"></div>,
+  loading: () => null,
   ssr: false
 })
 
 const IndoreEscortsContent = dynamic(() => import("@/app/components/IndoreEscortsContent"), {
-  loading: () => <div className="h-96 bg-gradient-to-br from-pink-50 via-orange-50 to-purple-50 animate-pulse rounded-xl"></div>,
+  loading: () => null,
   ssr: false
 })
 
@@ -273,8 +270,7 @@ export default function HomePageContent() {
         }}
       />
       <div className="min-h-screen bg-gradient-to-br from-pink-100 via-orange-50 to-pink-200">
-        <Header />
-        <main className="pt-20" id="main-content">
+        <main className="pt-6" id="main-content">
           <Breadcrumb 
             items={[
               { name: 'Home', href: '/' }

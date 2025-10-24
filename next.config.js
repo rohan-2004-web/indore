@@ -9,12 +9,14 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ['@headlessui/react', '@heroicons/react'],
     scrollRestoration: true,
-    webVitalsAttribution: ['CLS', 'LCP', 'FCP', 'FID', 'TTFB', 'INP'],
+    optimizeCss: true,
+    optimizeServerReact: true,
   },
   
   // Compiler optimizations
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
+    reactRemoveProperties: process.env.NODE_ENV === 'production',
   },
   
   // Image optimization for better page speed
@@ -38,26 +40,56 @@ const nextConfig = {
   // Webpack optimizations
   webpack: (config, { dev, isServer }) => {
     if (!dev && !isServer) {
-      // Optimize bundle splitting
+      // Optimize bundle splitting for better caching
       config.optimization.splitChunks = {
         chunks: 'all',
         cacheGroups: {
+          default: false,
+          vendors: false,
           framework: {
             name: 'framework',
-            test: /[\\/]node_modules[\\/](react|react-dom)[\\/]/,
+            test: /[\\/]node_modules[\\/](react|react-dom|scheduler)[\\/]/,
             priority: 40,
             enforce: true,
           },
+          lib: {
+            test: /[\\/]node_modules[\\/]/,
+            name(module) {
+              if (module.context && module.context.includes('node_modules')) {
+                const match = module.context.match(/[\\/]node_modules[\\/](.*?)([\\/]|$)/);
+                const packageName = match ? match[1] : 'vendor';
+                return `npm.${packageName.replace('@', '')}`;
+              }
+              return 'vendor';
+            },
+            priority: 30,
+            minChunks: 1,
+            reuseExistingChunk: true,
+          },
           commons: {
             name: 'commons',
-            priority: 20,
             minChunks: 2,
+            priority: 20,
+            reuseExistingChunk: true,
+          },
+          shared: {
+            name: 'shared',
+            minChunks: 2,
+            priority: 10,
             reuseExistingChunk: true,
           },
         },
-      }
+        maxInitialRequests: 25,
+        minSize: 20000,
+      };
+      
+      // Enable module concatenation
+      config.optimization.concatenateModules = true;
+      
+      // Minimize bundle size
+      config.optimization.minimize = true;
     }
-    return config
+    return config;
   },
 
   // Headers for SEO, performance and security
@@ -107,20 +139,51 @@ const nextConfig = {
         ]
       },
       {
-        source: '/images/(.*)',
+        source: '/images/:path*',
         headers: [
           {
             key: 'Cache-Control',
+            value: 'public, max-age=31536000, s-maxage=31536000, stale-while-revalidate=86400, immutable'
+          },
+          {
+            key: 'CDN-Cache-Control',
             value: 'public, max-age=31536000, immutable'
           }
         ]
       },
       {
-        source: '/_next/static/(.*)',
+        source: '/_next/static/:path*',
         headers: [
           {
             key: 'Cache-Control',
-            value: 'public, max-age=31536000, immutable'
+            value: 'public, max-age=31536000, s-maxage=31536000, immutable'
+          }
+        ]
+      },
+      {
+        source: '/favicon.ico',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=86400, s-maxage=86400'
+          }
+        ]
+      },
+      {
+        source: '/:path*.webp',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, s-maxage=31536000, stale-while-revalidate=86400, immutable'
+          }
+        ]
+      },
+      {
+        source: '/:path*.avif',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, s-maxage=31536000, stale-while-revalidate=86400, immutable'
           }
         ]
       }

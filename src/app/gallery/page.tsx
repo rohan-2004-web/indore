@@ -4,30 +4,6 @@ import Header from '@/components/Header'
 import Image from 'next/image'
 import { useState } from 'react'
 
-// Service card data for better performance (extract from JSX)
-const serviceCardsData = [
-  { src: "/images/services/Celebrity Escorts.webp", alt: "Celebrity Escorts", title: "Celebrity Escorts", desc: "Premium companions with star quality service", href: "/services/celebrity-escorts", color: "pink" },
-  { src: "/images/services/VIP Escorts.jpg", alt: "VIP Escorts", title: "VIP Escorts", desc: "Ultimate luxury companions for discerning clients", href: "/services/vip-escorts", color: "blue" },
-  { src: "/images/services/Premium Models.jpg", alt: "Premium Models", title: "Premium Models", desc: "High-end models with sophistication", href: "/services/premium-models", color: "orange" },
-  { src: "/images/services/College Girls.webp", alt: "College Girls", title: "College Girls", desc: "Young energetic companions for memorable experiences", href: "/services/college-girls", color: "purple" },
-  { src: "/images/services/Housewife Escorts.jpg", alt: "Housewife Escorts", title: "Housewife Escorts", desc: "Mature experienced companions with caring nature", href: "/services/housewife-escorts", color: "green" },
-  { src: "/images/services/Punjabi women.webp", alt: "Punjabi Women", title: "Punjabi Women", desc: "Beautiful Punjabi companions with traditional charm", href: "/services/punjabi-women", color: "red" },
-  { src: "/images/services/Slim Escorts.webp", alt: "Slim Escorts", title: "Slim Escorts", desc: "Elegant slim companions with perfect figure", href: "/services/slim-escorts", color: "teal" },
-  { src: "/images/services/Unsatisfied Bhabhi.webp", alt: "Unsatisfied Bhabhi", title: "Unsatisfied Bhabhi", desc: "Experienced companions seeking excitement", href: "/services/unsatisfied-bhabhi", color: "indigo" },
-  { src: "/images/services/Local Beauties.webp", alt: "Local Beauties", title: "Local Beauties", desc: "Beautiful local companions who know Indore", href: "/services/local-beauties", color: "pink" },
-  { src: "/images/services/Event Companion.webp", alt: "Event Companion", title: "Event Companion", desc: "Perfect companions for social events and parties", href: "/services/event-companion", color: "yellow" },
-  { src: "/images/services/Pink Special.webp", alt: "Pink Special", title: "Pink Special", desc: "Special premium companions for exclusive experiences", href: "/services/pink-special", color: "rose" },
-  { src: "/images/services/Unsatisfied Females.webp", alt: "Unsatisfied Females", title: "Unsatisfied Females", desc: "Mature women seeking meaningful connections", href: "/services/unsatisfied-females", color: "violet" },
-  { src: "/images/services/Incall Escorts.webp", alt: "Incall Escorts", title: "Incall Escorts", desc: "Premium incall services at luxury locations", href: "/services/incall-escorts", color: "blue" },
-  { src: "/images/services/Mature Escorts.webp", alt: "Mature Escorts", title: "Mature Escorts", desc: "Experienced mature companions with sophistication", href: "/services/mature-escorts", color: "amber" },
-  { src: "/images/services/Young Girls.webp", alt: "Young Girls", title: "Young Girls", desc: "Young beautiful companions for unforgettable experiences", href: "/services/young-girls", color: "emerald" },
-  { src: "/images/services/indore escorts.webp", alt: "Indore Escorts", title: "Indore Escorts", desc: "Premium local escorts with deep knowledge of Indore city", href: "/services/indore-escorts", color: "indigo" },
-  { src: "/images/services/Expert Services.webp", alt: "Expert Services", title: "Expert Services", desc: "Expert companions with specialized skills and professional experience", href: "/services/expert-services", color: "cyan" },
-  { src: "/images/services/High Class Models.webp", alt: "High Class Models", title: "High Class Models", desc: "Stunning high-class models with runway experience", href: "/services/high-class-models", color: "purple" },
-  { src: "/images/services/bold girls.webp", alt: "Bold Girls", title: "Bold Girls", desc: "Bold and confident companions ready for exciting adventures", href: "/services/bold-girls", color: "red" },
-  { src: "/images/services/sexy girls.webp", alt: "Sexy Girls", title: "Sexy Girls", desc: "Incredibly attractive companions with mesmerizing charm", href: "/services/sexy-girls", color: "pink" },
-]
-
 export default function GalleryPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
 
@@ -224,49 +200,19 @@ export default function GalleryPage() {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl mx-auto">
-              {serviceCardsData.map((card, index) => (
-                <div key={card.href} className={`bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-${card.color}-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col`}>
-                  <div className="w-full h-[500px] mb-4 rounded-2xl overflow-hidden shadow-lg relative">
-                    <Image
-                      src={card.src}
-                      alt={card.alt}
-                      fill
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
-                      className="object-cover object-top hover:scale-105 transition-transform duration-300"
-                      priority={index < 4}
-                      loading={index < 4 ? "eager" : "lazy"}
-                      quality={85}
-                    />
-                  </div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-2">{card.title}</h3>
-                  <p className="text-gray-600 mb-4 text-base flex-grow">{card.desc}</p>
-                  <a href={card.href} className={`inline-block bg-gradient-to-r from-${card.color}-500 to-${card.color}-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl`}>
-                    Book {card.title}
-                  </a>
+              
+              <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-pink-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
+                <div className="w-full h-[500px] mb-4 rounded-2xl overflow-hidden shadow-lg">
+                  <img src="/images/services/Celebrity Escorts.webp" alt="Celebrity Escorts" className="w-full h-[500px] object-cover object-top hover:scale-105 transition-transform duration-300" />
                 </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* Stylish Gallery Content Section - moved out of services section */}
-        <section className="py-20 bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50">
-          <div className="w-full px-4">
-            <div className="max-w-7xl mx-auto">
-              {/* Section Header */}
-              <div className="text-center mb-16">
-                <h2 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-purple-600 via-pink-600 to-orange-600 bg-clip-text text-transparent mb-6">
-                  ✨ Why Choose Our Gallery ✨
-                </h2>
-                <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
-                  Step into a world of elegance and sophistication with our premium escort gallery featuring the finest companions in Indore
-                </p>
+                <h3 className="text-xl font-bold text-gray-800 mb-2">Celebrity Escorts</h3>
+                <p className="text-gray-600 mb-4 text-base flex-grow">Premium companions with star quality service</p>
+                <a href="/services/celebrity-escorts" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-xl">Book Celebrity Girls</a>
               </div>
 
-              {/* Gallery Features Grid - KEEPING THE REST AS IS */}
               <div className="bg-white/95 backdrop-blur-md rounded-3xl shadow-lg p-6 border border-blue-100/50 text-center transform hover:-translate-y-3 transition-all duration-500 min-h-[500px] flex flex-col">
                 <div className="w-full h-[500px] mb-4 rounded-2xl overflow-hidden shadow-lg">
-                  <div>temp placeholder - this will be removed in next edit</div>
+                  <img src="/images/services/VIP Escorts.jpg" alt="VIP Escorts" className="w-full h-[500px] object-cover object-top hover:scale-105 transition-transform duration-300" />
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">VIP Escorts</h3>
                 <p className="text-gray-600 mb-4 text-base flex-grow">Ultimate luxury companions for discerning clients</p>
