@@ -92,6 +92,39 @@ const nextConfig = {
     return config;
   },
 
+  // Redirects for SEO and fixing broken links
+  async redirects() {
+    return [
+      // Redirect common misspellings and variations
+      {
+        source: '/service',
+        destination: '/services',
+        permanent: true,
+      },
+      {
+        source: '/location',
+        destination: '/locations',
+        permanent: true,
+      },
+      {
+        source: '/gallary',
+        destination: '/gallery',
+        permanent: true,
+      },
+      // Redirect old URLs to new structure
+      {
+        source: '/escorts',
+        destination: '/services',
+        permanent: true,
+      },
+      {
+        source: '/call-girls',
+        destination: '/services/call-girl',
+        permanent: true,
+      },
+    ]
+  },
+
   // Headers for SEO, performance and security
   async headers() {
     return [

@@ -4,22 +4,22 @@ import type { NextRequest } from 'next/server'
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
   
-  // Fix malformed URLs containing "The" or "$" or other invalid characters
-  if (pathname.includes('The') || pathname.includes('$') || pathname.includes('{') || pathname.includes('}')) {
-    // Redirect malformed URLs to homepage
-    return NextResponse.redirect(new URL('/', request.url))
+  // Allow all valid paths - only block truly malformed URLs
+  // Fix URLs with double slashes (except protocol)
+  if (pathname.includes('//')) {
+    const cleanPath = pathname.replace(/\/+/g, '/') || '/'
+    return NextResponse.redirect(new URL(cleanPath, request.url), 301)
   }
   
-  // Fix URLs with double slashes or trailing slashes (except root)
-  if (pathname.includes('//') || (pathname.endsWith('/') && pathname !== '/')) {
-    const cleanPath = pathname.replace(/\/+/g, '/').replace(/\/$/, '') || '/'
-    return NextResponse.redirect(new URL(cleanPath, request.url))
+  // Remove trailing slashes (except root)
+  if (pathname.endsWith('/') && pathname.length > 1) {
+    const cleanPath = pathname.replace(/\/$/, '')
+    return NextResponse.redirect(new URL(cleanPath, request.url), 301)
   }
   
-  // Fix URLs with special characters that shouldn't be there
-  if (pathname.match(/[^a-zA-Z0-9\-\/_.]/)) {
-    // Only allow alphanumeric, hyphens, slashes, underscores, and dots
-    return NextResponse.redirect(new URL('/', request.url))
+  // Block obviously malformed URLs with dangerous characters
+  if (pathname.match(/[<>{}|\\^`\[\]]/)) {
+    return NextResponse.redirect(new URL('/', request.url), 301)
   }
   
   // Continue with normal request
