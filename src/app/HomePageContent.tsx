@@ -37,14 +37,76 @@ export default function HomePageContent() {
     setOpenFaq(openFaq === index ? null : index)
   }
 
-  // Structured data for better indexing
+  // Enhanced structured data for better search visibility
   const structuredData = {
     "@context": "https://schema.org",
     "@type": ["LocalBusiness", "ProfessionalService"],
-    "name": "Saumya Kapoor - Indore Escort Service",
-    "description": "Premium call girls in Indore 24/7. Top-rated escort service with VIP companions and discreet professional service.",
+    "name": "Indore Premium Escort Service - Saumya Kapoor Agency",
+    "alternateName": ["Indore Escort Service", "Call Girls in Indore", "Indore Call Girls"],
+    "description": "⭐ #1 rated Indore escort service with 5000+ verified premium call girls & VIP escorts. Professional, safe & discreet service available 24/7 across all Indore locations. Book premium companions now!",
     "url": "https://saumyakapoor.in",
     "telephone": "+919372662471",
+    "email": "booking@saumyakapoor.in",
+    "priceRange": "₹₹₹",
+    "paymentAccepted": ["Cash", "UPI", "Card"],
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Indore",
+        "containedInPlace": {
+          "@type": "State", 
+          "name": "Madhya Pradesh"
+        }
+      }
+    ],
+    "serviceArea": ["Vijay Nagar", "AB Road", "Palasia", "Scheme 78", "Ring Road", "MG Road", "Saket", "Airport Road"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Premium Escort Services",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "VIP Escort Service",
+            "description": "Premium VIP escorts and high-class companions"
+          }
+        },
+        {
+          "@type": "Offer", 
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Celebrity Escort Service",
+            "description": "Celebrity-level escorts with premium service"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service", 
+            "name": "College Girl Escorts",
+            "description": "Young and beautiful college girl companions"
+          }
+        }
+      ]
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "2847",
+      "bestRating": "5"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "23:59"
+    },
+    "geo": {
+      "@type": "GeoCoordinates", 
+      "latitude": 22.7196,
+      "longitude": 75.8577
+    },
     "areaServed": {
       "@type": "City",
       "name": "Indore",
@@ -248,19 +310,20 @@ export default function HomePageContent() {
                   id="hero-heading"
                   className="text-3xl md:text-5xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl"
                 >
-                  Escorts in Indore - Premium VIP Services
+                  Indore Escort Service | Premium Call Girls 24/7 | #1 Rated Agency
                 </h1>
                 
                 {/* Subheading with badges */}
                 <div className="mb-10">
                   <h2 className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
-                    🌟 #1 Verified Escorts in Indore | 24/7 Professional Services | Safe & Discreet
+                    🌟 5000+ Verified Call Girls in Indore | VIP Escorts Available 24/7 | Safe & Discreet
                   </h2>
                   
                   <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed max-w-6xl mx-auto mb-10">
-                    Book premium escorts in Indore with verified profiles, professional service, and complete privacy. 
-                    Our elite escorts in Indore are available 24/7 for outcall services across all major Indore locations 
-                    including Vijay Nagar, AB Road, Palasia, Bhawar Kuan, and surrounding areas.
+                    ⭐ <strong>Premium Indore escort service</strong> with 5000+ verified call girls & VIP escorts available 24/7. 
+                    Professional <strong>escorts in Indore</strong> serving Vijay Nagar, AB Road, Palasia, Scheme 78, MG Road. 
+                    <strong>Call girls in Indore</strong> with guaranteed satisfaction, complete privacy & instant booking. 
+                    Book premium <strong>Indore call girls</strong> now: <strong>+91-9372662471</strong>
                   </p>
                   
                   {/* Feature badges */}
@@ -273,19 +336,19 @@ export default function HomePageContent() {
                       className="bg-white/95 border-2 border-pink-300 text-pink-700 px-6 py-3 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all"
                       role="listitem"
                     >
-                      <span aria-hidden="true">✨</span> 100% Verified Escorts
+                      <span aria-hidden="true">✨</span> 5000+ Verified Escorts
                     </div>
                     <div 
                       className="bg-white/95 border-2 border-orange-300 text-orange-700 px-6 py-3 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all"
                       role="listitem"
                     >
-                      <span aria-hidden="true">🔒</span> Safe & Discreet Services
+                      <span aria-hidden="true">🔒</span> 100% Safe & Discreet
                     </div>
                     <div 
                       className="bg-white/95 border-2 border-pink-300 text-pink-700 px-6 py-3 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all"
                       role="listitem"
                     >
-                      <span aria-hidden="true">⚡</span> Instant Booking in Indore
+                      <span aria-hidden="true">⚡</span> Instant Booking 24/7
                     </div>
                     <div 
                       className="bg-white/95 border-2 border-orange-300 text-orange-700 px-6 py-3 rounded-full text-lg font-semibold shadow-lg transform hover:scale-105 transition-all"
