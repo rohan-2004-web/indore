@@ -34,35 +34,72 @@ Key Information:
 
 Always be helpful, professional, and encourage users to call for specific inquiries.`;
 
-// Mock LLM Response (for demonstration without API key)
+// Advanced Mock LLM Response with Smart Pattern Matching
 export async function generateMockLLMResponse(userMessage: string): Promise<string> {
   const lowerMessage = userMessage.toLowerCase();
   
-  // Intelligent context-based responses
+  // Comprehensive responses database
   const responses = {
-    services: `हमारी प्रीमियम सेवाएं:\n\n🌟 **VIP Escort Service**\n   - High-class companions for elite clients\n   - Available for business events and social gatherings\n\n⭐ **Celebrity Escorts**\n   - Celebrity-level companions with exceptional elegance\n   - Perfect for high-profile events\n\n🎓 **College Girl Escorts**\n   - Young, fresh, and energetic companions\n   - Verified student profiles\n\n💼 **Independent Escorts**\n   - Self-employed professional companions\n   - Direct booking available\n\n🏠 **Housewife Escorts**\n   - Mature, experienced companions\n   - Discreet and understanding\n\n📞 Call now: +91-9372662471 for instant booking!`,
+    greeting: `नमस्ते! 🙏 Welcome to Saumya Kapoor Premium Escort Service! 🌹\n\nमैं आपकी personal assistant हूं। मैं आपकी हर तरह से मदद कर सकती हूं!\n\n**Quick Help:**\n💼 Services की जानकारी\n📞 Booking process\n💰 Pricing details\n📍 Location coverage\n🔒 Safety & Privacy\n⏰ Availability\n\n**Direct Contact:**\n📱 Call/WhatsApp: +91-9372662471\n⚡ Instant response guaranteed!\n\nआप मुझसे Hindi या English में कुछ भी पूछ सकते हैं! 😊`,
     
-    booking: `📱 **Booking Process (3 Easy Steps):**\n\n1️⃣ **Choose Your Companion**\n   - Browse our verified profiles\n   - Select based on your preferences\n\n2️⃣ **Contact Us**\n   - Call: +91-9372662471\n   - WhatsApp: +91-9372662471\n   - Tell us your requirements\n\n3️⃣ **Confirm Booking**\n   - We'll arrange the meeting\n   - 100% discreet and safe\n\n⚡ **Same-day booking available!**\n🔒 **All bookings are confidential**`,
+    services: `हमारी **Premium Services** की complete list:\n\n🌟 **VIP Escort Service**\n   • Elite companions for high-class clients\n   • Business meetings & social events\n   • Sophisticated and well-educated\n\n⭐ **Celebrity Escorts**\n   • Model-like appearance\n   • Perfect for special occasions\n   • High-profile event companions\n\n🎓 **College Girl Escorts**\n   • Young, fresh, energetic (18-24 years)\n   • Student profiles verified\n   • Fun and vibrant personalities\n\n💼 **Independent Escorts**\n   • Self-employed professionals\n   • Direct booking, no middleman\n   • Flexible and understanding\n\n🏠 **Housewife Escorts**\n   • Mature & experienced (25-40 years)\n   • Discreet married companions\n   • Understanding and caring\n\n💎 **Russian Escorts**\n   • International companions\n   • Exotic and stunning\n   • Premium rates apply\n\n📞 **Call now: +91-9372662471** for instant booking!`,
     
-    pricing: `💰 **Transparent Pricing Structure:**\n\n**VIP Escorts**: ₹₹₹₹\n- Premium experience\n- 3-4 hours minimum\n\n**Celebrity Escorts**: ₹₹₹₹₹\n- Exclusive service\n- Full evening packages\n\n**College Escorts**: ₹₹₹\n- Budget-friendly\n- Flexible duration\n\n**Independent Escorts**: ₹₹₹\n- Competitive rates\n- Direct negotiation\n\n📞 **For exact pricing, call: +91-9372662471**\n\n✅ No hidden charges\n✅ Transparent rates\n✅ Multiple payment options`,
+    booking: `📱 **Easy Booking Process:**\n\n**Step 1: Choose**\n   → Browse our gallery\n   → Select your preferred companion\n   → Check availability\n\n**Step 2: Contact**\n   📞 Call: +91-9372662471\n   💬 WhatsApp: +91-9372662471\n   ✉️ या direct website से contact करें\n\n**Step 3: Confirm**\n   → बताएं आपकी requirements\n   → Date, time और location confirm करें\n   → Payment method discuss करें\n\n**Step 4: Meet**\n   → हम arrange करेंगे meeting\n   → 100% safe और discreet\n   → Enjoy your time!\n\n⚡ **Same-day booking available!**\n🔒 **Complete confidentiality guaranteed**\n✅ **No advance payment required**`,
     
-    location: `📍 **Service Locations in Indore:**\n\n✅ **Vijay Nagar** - Residential & Hotel visits\n✅ **AB Road** - All major hotels covered\n✅ **Palasia** - Premium locations\n✅ **Scheme 78** - Residential area service\n✅ **MG Road** - Commercial area coverage\n✅ **Saket** - Peaceful residential service\n✅ **Ring Road** - Wide area coverage\n✅ **Airport Road** - Airport pickup available\n✅ **Bhawar Kuan** - Central location service\n✅ **Rajwada** - Old city area\n\n🏨 **Hotel Visits**: All major hotels\n🏠 **Home Service**: Available across Indore\n\n📞 Call +91-9372662471 for your area!`,
+    pricing: `💰 **Transparent Pricing (Starting Rates):**\n\n**VIP Escorts**\n   • ₹15,000 - ₹25,000 (3-4 hours)\n   • Premium experience included\n\n**Celebrity Escorts**\n   • ₹20,000 - ₹50,000 (Full evening)\n   • Exclusive companionship\n\n**College Girl Escorts**\n   • ₹8,000 - ₹15,000 (2-3 hours)\n   • Budget-friendly options\n\n**Independent Escorts**\n   • ₹10,000 - ₹20,000 (3-4 hours)\n   • Negotiable rates\n\n**Housewife Escorts**\n   • ₹12,000 - ₹18,000 (3-4 hours)\n   • Special packages available\n\n**Russian Escorts**\n   • ₹30,000 - ₹80,000 (Full night)\n   • Premium international service\n\n📞 **Exact pricing: +91-9372662471**\n\n✅ No hidden charges\n✅ Flexible payment options\n✅ Special discounts for regular clients`,
     
-    safety: `🔒 **Your Safety & Privacy is Our Priority:**\n\n✅ **100% Verified Profiles**\n   - All escorts are background checked\n   - Photo verification mandatory\n   - Real profiles with current pictures\n\n🔐 **Complete Confidentiality**\n   - Anonymous booking process\n   - Encrypted communication\n   - No data sharing with third parties\n\n🛡️ **Safe Meetings**\n   - Secure locations\n   - Professional escorts trained in safety\n   - Emergency support available 24/7\n\n📱 **Privacy Guaranteed**\n   - Discreet billing\n   - No records kept\n   - Client information protected\n\n**Your trust matters most to us!**`,
+    location: `📍 **Complete Location Coverage in Indore:**\n\n**Premium Areas:**\n✅ **Vijay Nagar** - Residential & all hotels\n✅ **AB Road** - Major hotels & business areas\n✅ **Palasia** - High-end locations\n✅ **Scheme 78** - Quiet residential service\n\n**Central Locations:**\n✅ **MG Road** - Commercial hub\n✅ **Rajwada** - Old city area\n✅ **Bhawar Kuan** - Central Indore\n\n**Other Areas:**\n✅ **Saket** - Peaceful residential\n✅ **Ring Road** - Wide coverage\n✅ **Airport Road** - Airport pickups\n✅ **Bombay Hospital** - Hospital vicinity\n✅ **Treasure Island** - Mall area\n\n**Service Types:**\n🏨 **Hotel Visits** - All major hotels\n🏠 **Home Service** - Your residence\n🚗 **Outcall Service** - We come to you\n🏢 **Incall Service** - Our locations\n\n📞 **Call +91-9372662471** for your specific area!`,
     
-    availability: `⏰ **24/7 Availability:**\n\n🌞 **Day Service (9 AM - 6 PM)**\n   - Business meetings\n   - Lunch dates\n   - Daytime companionship\n\n🌆 **Evening Service (6 PM - 12 AM)**\n   - Dinner dates\n   - Party companions\n   - Event escorts\n\n🌙 **Night Service (12 AM - 9 AM)**\n   - Midnight bookings\n   - Overnight stays\n   - Late night companionship\n\n⚡ **Instant Booking**\n   - Call anytime: +91-9372662471\n   - Quick response guaranteed\n   - Same hour service possible\n\n**We never sleep - always at your service!**`
+    safety: `🔒 **Your Safety & Privacy - Our Top Priority:**\n\n**✅ 100% Verified Profiles**\n   • Background verification done\n   • Photo verification mandatory\n   • Real & recent pictures only\n   • No fake profiles guaranteed\n\n**🔐 Complete Confidentiality**\n   • Anonymous booking possible\n   • No personal data stored\n   • Encrypted communication\n   • Zero data sharing\n\n**🛡️ Safe Meetings**\n   • Secure locations only\n   • Professional trained escorts\n   • 24/7 emergency support\n   • Safety protocols followed\n\n**📱 Privacy Protected**\n   • Discreet billing\n   • Private transactions\n   • No call recordings\n   • Client privacy respected\n\n**💎 Additional Safety:**\n   • Health checkups regular\n   • Safe practices followed\n   • Professional behavior\n   • Respectful service\n\n**Trust & Discretion Guaranteed!**`,
+    
+    availability: `⏰ **24/7 Service - हमेशा Available:**\n\n**🌞 Day Time (9 AM - 6 PM)**\n   • Business lunch dates\n   • Shopping companions\n   • Daytime meetings\n   • Office area service\n\n**🌆 Evening Time (6 PM - 12 AM)**\n   • Dinner dates\n   • Party companions\n   • Movie dates\n   • Event escorts\n\n**🌙 Night Time (12 AM - 9 AM)**\n   • Late night bookings\n   • Overnight stays\n   • Midnight companions\n   • Early morning service\n\n**⚡ Instant Availability:**\n   • 1-2 hour notice sufficient\n   • Same day booking\n   • Emergency bookings\n   • Last minute arrangements\n\n**📞 24/7 Helpline:**\n   Call anytime: +91-9372662471\n   WhatsApp: +91-9372662471\n   \n**कभी भी call करें - हम हमेशा available हैं!**`,
+    
+    contact: `📞 **Contact Information:**\n\n**Primary Contact:**\n📱 Phone: +91-9372662471\n💬 WhatsApp: +91-9372662471\n\n**Website:**\n🌐 https://saumyakapoor.in\n\n**Working Hours:**\n⏰ 24/7 Available (कभी भी)\n\n**Response Time:**\n⚡ Instant (within 5 minutes)\n\n**Services:**\n✅ Call booking\n✅ WhatsApp booking\n✅ Website inquiry\n✅ Emergency booking\n\n**हम तुरंत जवाब देते हैं!**\nCall करें और अपनी requirements बताएं। 😊`,
+    
+    payment: `💳 **Payment Options:**\n\n**Accepted Methods:**\n✅ Cash (सबसे common)\n✅ UPI (Google Pay, PhonePe, Paytm)\n✅ Bank Transfer\n✅ Card Payment (at hotels)\n\n**Payment Policy:**\n📌 No advance payment required\n📌 Pay after meeting\n📌 Full transparency\n📌 Receipt provided (if needed)\n\n**Special:**\n💰 Discounts for regular clients\n💰 Package deals available\n💰 Negotiable for long bookings\n\n📞 Payment details पर discuss करने के लिए:\n**Call: +91-9372662471**`,
+    
+    gallery: `📸 **Photo Gallery & Profiles:**\n\n**देखिए real profiles:**\n🌐 Visit: https://saumyakapoor.in/gallery\n\n**Gallery Features:**\n✅ Real & verified photos\n✅ Recent pictures only\n✅ Multiple angles\n✅ Complete profile info\n\n**Categories:**\n🌟 VIP Escorts\n⭐ Celebrity Escorts  \n🎓 College Girls\n💼 Independent\n🏠 Housewife\n💎 Russian\n\n**Privacy Note:**\nकुछ photos privacy के लिए blurred हैं।\nCall करने पर original photos share करेंगे।\n\n📞 **Call +91-9372662471** for complete gallery!`,
+    
+    about: `👋 **About Saumya Kapoor Service:**\n\n**हम कौन हैं?**\nIndore की #1 Premium Escort Service\n5+ years का trusted experience\n\n**Our USPs:**\n✅ 100% Verified profiles\n✅ Complete privacy & safety\n✅ Professional service\n✅ 24/7 availability\n✅ Pan-Indore coverage\n✅ Transparent pricing\n\n**Why Choose Us:**\n🌟 Largest selection in Indore\n🌟 Instant booking available\n🌟 No fake promises\n🌟 Real photos guarantee\n🌟 Discreet & professional\n\n**Our Promise:**\n💎 Quality companions\n💎 Safe experience\n💎 Complete satisfaction\n💎 Privacy protected\n\n📞 **Experience the difference!**\nCall: +91-9372662471`,
+    
+    help: `❓ **How Can I Help You?**\n\nमैं आपकी assistant हूं! मुझसे पूछें:\n\n**Services:**\n💼 कौन सी services हैं?\n🎓 College girls available?\n🌟 VIP escorts कैसे book करें?\n\n**Booking:**\n📞 कैसे book करूं?\n⏰ कब available हो?\n� मेरे area में service है?\n\n**Pricing:**\n💰 Rates क्या हैं?\n� Payment कैसे करूं?\n💎 Packages available?\n\n**Others:**\n🔒 कितना safe है?\n📸 Photos देख सकते हैं?\n🏨 Hotel visit होगी?\n\n**या direct call करें:**\n📱 +91-9372662471 (24/7)\n\nकुछ भी पूछें - मैं यहां हूं! 😊`
   };
   
-  // Keyword matching with priority
-  if (lowerMessage.includes('service') || lowerMessage.includes('सेवा')) return responses.services;
-  if (lowerMessage.includes('book') || lowerMessage.includes('बुकिंग')) return responses.booking;
-  if (lowerMessage.includes('price') || lowerMessage.includes('rate') || lowerMessage.includes('कीमत')) return responses.pricing;
-  if (lowerMessage.includes('location') || lowerMessage.includes('area') || lowerMessage.includes('जगह')) return responses.location;
-  if (lowerMessage.includes('safe') || lowerMessage.includes('privacy') || lowerMessage.includes('सुरक्षा')) return responses.safety;
-  if (lowerMessage.includes('available') || lowerMessage.includes('timing') || lowerMessage.includes('उपलब्ध')) return responses.availability;
+  // Advanced keyword matching with scoring system
+  const keywords = {
+    greeting: ['hi', 'hello', 'hey', 'namaste', 'नमस्ते', 'hii', 'hlo', 'start'],
+    services: ['service', 'सेवा', 'type', 'category', 'vip', 'celebrity', 'college', 'russian', 'housewife', 'independent', 'कौन'],
+    booking: ['book', 'बुकिंग', 'कैसे', 'how to', 'process', 'reserve', 'appointment'],
+    pricing: ['price', 'rate', 'cost', 'fee', 'charge', 'कीमत', 'रेट', 'पैसे', 'kitna', 'कितना'],
+    location: ['location', 'area', 'जगह', 'where', 'कहां', 'vijay nagar', 'ab road', 'palasia', 'indore'],
+    safety: ['safe', 'सुरक्षा', 'privacy', 'secure', 'confidential', 'trust', 'verified'],
+    availability: ['available', 'उपलब्ध', 'timing', 'when', 'कब', 'time', '24/7', 'night'],
+    contact: ['contact', 'phone', 'whatsapp', 'number', 'नंबर', 'call', 'फोन'],
+    payment: ['payment', 'pay', 'cash', 'upi', 'card', 'भुगतान', 'पेमेंट'],
+    gallery: ['photo', 'picture', 'image', 'फोटो', 'तस्वीर', 'gallery', 'see', 'देखना'],
+    about: ['about', 'who', 'के बारे', 'कौन', 'company', 'service provider'],
+    help: ['help', 'मदद', 'सहायता', 'assist', 'support', 'question', 'सवाल']
+  };
   
-  // Default intelligent response
-  return `मैं आपकी मदद के लिए यहां हूं! 🌟\n\nमुझसे पूछ सकते हैं:\n\n💼 **Services** - कौन सी सेवाएं available हैं?\n📞 **Booking** - कैसे book करें?\n💰 **Pricing** - rates क्या हैं?\n📍 **Locations** - कहां available हैं?\n🔒 **Safety** - कितना safe है?\n⏰ **Availability** - कब available हैं?\n\n**या direct call करें: +91-9372662471**\n\nमैं Hindi और English दोनों में जवाब दे सकती हूं!`;
+  // Calculate match score for each category
+  let maxScore = 0;
+  let bestMatch = 'help';
+  
+  for (const [category, words] of Object.entries(keywords)) {
+    let score = 0;
+    for (const word of words) {
+      if (lowerMessage.includes(word)) {
+        score += word.length; // Longer matches get higher scores
+      }
+    }
+    if (score > maxScore) {
+      maxScore = score;
+      bestMatch = category;
+    }
+  }
+  
+  // Return best matching response
+  return responses[bestMatch as keyof typeof responses] || responses.help;
 }
 
 // Real LLM Integration (requires API key)
