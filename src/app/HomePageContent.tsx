@@ -630,48 +630,48 @@ export default function HomePageContent() {
           </section>
 
           {/* Client Testimonials Content Section */}
-          <section className="py-16 bg-gradient-to-r from-pink-600 via-purple-600 to-orange-600 relative overflow-hidden">
-            <div className="absolute inset-0 bg-black/20"></div>
+          <section className="py-16 bg-gradient-to-r from-pink-100 via-pink-200 to-pink-300 relative overflow-hidden">
+            <div className="absolute inset-0 bg-pink-500/10"></div>
             <div className="absolute top-0 left-0 w-full h-full">
-              <div className="absolute top-10 left-10 w-32 h-32 bg-pink-400/30 rounded-full blur-xl animate-pulse"></div>
-              <div className="absolute bottom-10 right-10 w-40 h-40 bg-orange-400/30 rounded-full blur-xl animate-pulse delay-300"></div>
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-purple-400/30 rounded-full blur-xl animate-pulse delay-700"></div>
+              <div className="absolute top-10 left-10 w-32 h-32 bg-pink-300/40 rounded-full blur-xl animate-pulse"></div>
+              <div className="absolute bottom-10 right-10 w-40 h-40 bg-pink-400/40 rounded-full blur-xl animate-pulse delay-300"></div>
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-pink-200/40 rounded-full blur-xl animate-pulse delay-700"></div>
             </div>
             
             <div className="max-w-8xl mx-auto px-6 relative z-10">
               <div className="text-center">
-                <h2 className="text-2xl md:text-5xl lg:text-6xl font-extrabold text-white mb-8 drop-shadow-2xl">
+                <h2 className="text-2xl md:text-5xl lg:text-6xl font-extrabold text-pink-800 mb-8 drop-shadow-2xl">
                   🌟 What Our Premium Clients Say About Us 🌟
                 </h2>
                 <div className="max-w-6xl mx-auto">
-                  <p className="text-2xl md:text-3xl text-white/95 mb-8 leading-relaxed font-semibold drop-shadow-lg">
+                  <p className="text-2xl md:text-3xl text-pink-700 mb-8 leading-relaxed font-semibold drop-shadow-lg">
                     💎 Thousands of satisfied clients across Indore trust us for premium escort services
                   </p>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-                    <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 border border-white/30 shadow-2xl transform hover:scale-105 transition-all duration-300">
+                    <div className="bg-white/60 backdrop-blur-md rounded-2xl p-6 border border-pink-200/50 shadow-2xl transform hover:scale-105 transition-all duration-300">
                       <div className="text-4xl mb-4">🏆</div>
-                      <h3 className="text-2xl font-bold text-white mb-3">Premium Quality</h3>
-                      <p className="text-white/90 text-lg">Handpicked professional escorts with guaranteed satisfaction</p>
+                      <h3 className="text-2xl font-bold text-pink-800 mb-3">Premium Quality</h3>
+                      <p className="text-pink-700 text-lg">Handpicked professional escorts with guaranteed satisfaction</p>
                     </div>
-                    <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 border border-white/30 shadow-2xl transform hover:scale-105 transition-all duration-300">
+                    <div className="bg-white/60 backdrop-blur-md rounded-2xl p-6 border border-pink-200/50 shadow-2xl transform hover:scale-105 transition-all duration-300">
                       <div className="text-4xl mb-4">🔒</div>
-                      <h3 className="text-2xl font-bold text-white mb-3">100% Discrete</h3>
-                      <p className="text-white/90 text-lg">Complete privacy and confidentiality for all our VIP clients</p>
+                      <h3 className="text-2xl font-bold text-pink-800 mb-3">100% Discrete</h3>
+                      <p className="text-pink-700 text-lg">Complete privacy and confidentiality for all our VIP clients</p>
                     </div>
-                    <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 border border-white/30 shadow-2xl transform hover:scale-105 transition-all duration-300">
+                    <div className="bg-white/60 backdrop-blur-md rounded-2xl p-6 border border-pink-200/50 shadow-2xl transform hover:scale-105 transition-all duration-300">
                       <div className="text-4xl mb-4">⚡</div>
-                      <h3 className="text-2xl font-bold text-white mb-3">24/7 Available</h3>
-                      <p className="text-white/90 text-lg">Round the clock service with instant booking confirmation</p>
+                      <h3 className="text-2xl font-bold text-pink-800 mb-3">24/7 Available</h3>
+                      <p className="text-pink-700 text-lg">Round the clock service with instant booking confirmation</p>
                     </div>
                   </div>
                   <div className="flex flex-wrap justify-center gap-4">
-                    <span className="bg-white/30 backdrop-blur-md text-white px-8 py-4 rounded-full text-xl font-bold border border-white/40 shadow-lg">
+                    <span className="bg-pink-500/20 backdrop-blur-md text-pink-800 px-8 py-4 rounded-full text-xl font-bold border border-pink-300/60 shadow-lg">
                       ⭐ 5000+ Happy Clients
                     </span>
-                    <span className="bg-white/30 backdrop-blur-md text-white px-8 py-4 rounded-full text-xl font-bold border border-white/40 shadow-lg">
+                    <span className="bg-pink-500/20 backdrop-blur-md text-pink-800 px-8 py-4 rounded-full text-xl font-bold border border-pink-300/60 shadow-lg">
                       💯 100% Satisfaction
                     </span>
-                    <span className="bg-white/30 backdrop-blur-md text-white px-8 py-4 rounded-full text-xl font-bold border border-white/40 shadow-lg">
+                    <span className="bg-pink-500/20 backdrop-blur-md text-pink-800 px-8 py-4 rounded-full text-xl font-bold border border-pink-300/60 shadow-lg">
                       🔥 Premium Service
                     </span>
                   </div>
