@@ -32,13 +32,13 @@ export default function Header() {
       >
         <div className="hidden md:grid md:grid-cols-3 md:items-center md:gap-4">
           {/* Logo - Left */}
-          <div className="text-2xl font-bold">
+          <div className="text-2xl font-bold relative z-10">
             <Link 
               href="/" 
               aria-label="Saumya Kapoor - Go to homepage"
-              className="inline-block focus:outline-none focus:ring-2 focus:ring-pink-500 rounded"
+              className="inline-block focus:outline-none focus:ring-2 focus:ring-pink-500 rounded relative"
             >
-              <span className="bg-gradient-to-r from-blue-600 via-orange-500 to-blue-700 bg-clip-text text-transparent drop-shadow-2xl filter brightness-110">
+              <span className="bg-gradient-to-r from-blue-600 via-orange-500 to-blue-700 bg-clip-text text-transparent font-extrabold" style={{ WebkitTextFillColor: 'transparent', WebkitBackgroundClip: 'text' }}>
                 Saumya Kapoor
               </span>
             </Link>
@@ -137,13 +137,13 @@ export default function Header() {
         {/* Mobile Layout */}
         <div className="md:hidden flex items-center justify-between">
           {/* Logo */}
-          <div className="text-2xl font-bold">
+          <div className="text-2xl font-bold relative z-10">
             <Link 
               href="/" 
               aria-label="Saumya Kapoor - Go to homepage"
-              className="inline-block focus:outline-none focus:ring-2 focus:ring-pink-500 rounded"
+              className="inline-block focus:outline-none focus:ring-2 focus:ring-pink-500 rounded relative"
             >
-              <span className="bg-gradient-to-r from-blue-600 via-orange-500 to-blue-700 bg-clip-text text-transparent drop-shadow-2xl filter brightness-110">
+              <span className="bg-gradient-to-r from-blue-600 via-orange-500 to-blue-700 bg-clip-text text-transparent font-extrabold" style={{ WebkitTextFillColor: 'transparent', WebkitBackgroundClip: 'text' }}>
                 Saumya Kapoor
               </span>
             </Link>

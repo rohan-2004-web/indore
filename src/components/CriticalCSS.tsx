@@ -46,6 +46,12 @@ export default function CriticalCSS() {
         will-change: transform;
       }
       
+      /* Ensure logo text renders properly */
+      header a, header span {
+        position: relative;
+        z-index: 1;
+      }
+      
       /* Hero section critical styles - optimize for LCP */
       .hero-section {
         background: linear-gradient(135deg, #fdf2f8 0%, #eff6ff 100%);
