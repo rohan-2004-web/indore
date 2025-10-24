@@ -107,19 +107,7 @@ export default function HomePageContent() {
       "latitude": 22.7196,
       "longitude": 75.8577
     },
-    "areaServed": {
-      "@type": "City",
-      "name": "Indore",
-      "containedInPlace": {
-        "@type": "State", 
-        "name": "Madhya Pradesh"
-      }
-    },
-    "serviceArea": [
-      "Vijay Nagar", "AB Road", "Palasia", "Bhawar Kuan", "Saket", "Scheme 78", "Airport Road", "MG Road", "Rajwada"
-    ],
     "availableLanguage": ["Hindi", "English"],
-    "priceRange": "₹₹₹",
     "openingHours": "Mo-Su 00:00-23:59"
   }
 
