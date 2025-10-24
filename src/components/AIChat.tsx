@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect } from 'react';
+import { getAIResponse } from '@/lib/llmIntegration';
 
 interface Message {
   id: string;
@@ -31,54 +32,6 @@ export default function AIChat() {
     scrollToBottom();
   }, [messages]);
 
-  // AI Response Logic - Simulated LLM
-  const generateAIResponse = async (userMessage: string): Promise<string> => {
-    const lowerMessage = userMessage.toLowerCase();
-    
-    // Service inquiries
-    if (lowerMessage.includes('service') || lowerMessage.includes('सेवा')) {
-      return 'हम निम्नलिखित प्रीमियम सेवाएं प्रदान करते हैं:\n\n✅ VIP Escort Service\n✅ Celebrity Escorts\n✅ College Girl Escorts\n✅ Independent Escorts\n✅ Housewife Escorts\n✅ Event Companions\n\nसभी सेवाएं 24/7 उपलब्ध हैं। अधिक जानकारी के लिए कॉल करें: +91-9372662471';
-    }
-    
-    // Booking inquiries
-    if (lowerMessage.includes('book') || lowerMessage.includes('booking') || lowerMessage.includes('बुकिंग')) {
-      return '📞 Instant Booking के लिए:\n\n✅ Call: +91-9372662471\n✅ WhatsApp: +91-9372662471\n\n⚡ Same-day service available\n🔒 100% discreet और safe\n💯 Verified profiles\n\nहम 24/7 उपलब्ध हैं!';
-    }
-    
-    // Location inquiries
-    if (lowerMessage.includes('location') || lowerMessage.includes('area') || lowerMessage.includes('जगह') || lowerMessage.includes('क्षेत्र')) {
-      return '📍 हम Indore के सभी प्रमुख क्षेत्रों में उपलब्ध हैं:\n\n• Vijay Nagar\n• AB Road\n• Palasia\n• Scheme 78\n• MG Road\n• Saket\n• Ring Road\n• Airport Road\n• Bhawar Kuan\n• Rajwada\n\n🏨 Hotel visits और home service भी available!';
-    }
-    
-    // Pricing inquiries
-    if (lowerMessage.includes('price') || lowerMessage.includes('rate') || lowerMessage.includes('cost') || lowerMessage.includes('कीमत') || lowerMessage.includes('दाम')) {
-      return '💰 हमारी pricing transparent है:\n\n• VIP Escorts: Premium rates\n• College Girls: Budget-friendly\n• Celebrity Escorts: Exclusive rates\n• Independent Escorts: Flexible rates\n\n📞 Exact pricing के लिए कॉल करें: +91-9372662471\n\nNo hidden charges! 💯';
-    }
-    
-    // Safety/Privacy inquiries
-    if (lowerMessage.includes('safe') || lowerMessage.includes('privacy') || lowerMessage.includes('discreet') || lowerMessage.includes('सुरक्षा') || lowerMessage.includes('गोपनीय')) {
-      return '🔒 Your Privacy is Our Priority!\n\n✅ 100% Confidential Service\n✅ Verified और Safe Escorts\n✅ Secure Booking Process\n✅ Anonymous Meetings\n✅ Data Protection\n\nहम complete discretion की गारंटी देते हैं। आपकी privacy हमारे लिए सबसे महत्वपूर्ण है।';
-    }
-    
-    // Availability
-    if (lowerMessage.includes('available') || lowerMessage.includes('timing') || lowerMessage.includes('उपलब्ध') || lowerMessage.includes('समय')) {
-      return '⏰ 24/7 Service Available!\n\n🌙 Midnight Service ✅\n☀️ Day Service ✅\n🌆 Evening Service ✅\n⚡ Instant Booking ✅\n\nकभी भी कॉल करें: +91-9372662471\n\nहम हमेशा आपकी सेवा के लिए तैयार हैं!';
-    }
-    
-    // Contact inquiries
-    if (lowerMessage.includes('contact') || lowerMessage.includes('call') || lowerMessage.includes('whatsapp') || lowerMessage.includes('संपर्क')) {
-      return '📞 Contact Us:\n\n✅ Phone: +91-9372662471\n✅ WhatsApp: +91-9372662471\n📧 Email: booking@saumyakapoor.in\n🌐 Website: saumyakapoor.in\n\n⚡ Instant response guaranteed!\n🔒 100% confidential\n\nअभी कॉल करें!';
-    }
-    
-    // Greeting responses
-    if (lowerMessage.includes('hello') || lowerMessage.includes('hi') || lowerMessage.includes('hey') || lowerMessage.includes('नमस्ते')) {
-      return 'Hello! Welcome to Saumya Kapoor Premium Escort Service! 🌟\n\nमैं आपकी कैसे मदद कर सकती हूं?\n\n• Services के बारे में जानना चाहते हैं?\n• Booking करना चाहते हैं?\n• Location के बारे में पूछना है?\n• Pricing जानना चाहते हैं?\n\nबस पूछिए, मैं यहां हूं! 😊';
-    }
-    
-    // Default response
-    return 'मैं आपकी मदद करने के लिए यहां हूं! 😊\n\nमुझसे पूछ सकते हैं:\n\n💼 Services के बारे में\n📞 Booking के बारे में\n📍 Locations के बारे में\n💰 Pricing के बारे में\n🔒 Privacy & Safety के बारे में\n⏰ Availability के बारे में\n\nया direct कॉल करें: +91-9372662471';
-  };
-
   const handleSend = async () => {
     if (!input.trim()) return;
 
@@ -94,9 +47,10 @@ export default function AIChat() {
     setIsTyping(true);
 
     // Simulate AI thinking delay
-    await new Promise(resolve => setTimeout(resolve, 1000 + Math.random() * 1000));
+    await new Promise(resolve => setTimeout(resolve, 800 + Math.random() * 700));
 
-    const aiResponse = await generateAIResponse(input);
+    // Use the smart LLM integration
+    const aiResponse = await getAIResponse(input);
     
     const assistantMessage: Message = {
       id: (Date.now() + 1).toString(),
