@@ -27,6 +27,11 @@ const IndoreEscortsContent = dynamic(() => import("@/app/components/IndoreEscort
   ssr: false
 })
 
+const LSIContentSection = dynamic(() => import('@/components/LSIContentSection'), {
+  loading: () => null,
+  ssr: false
+})
+
 export default function HomePageContent() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
 
@@ -1094,6 +1099,9 @@ export default function HomePageContent() {
               </div>
             </div>
           </section>
+
+          {/* LSI Content Section for SEO */}
+          <LSIContentSection />
 
           <section className="py-16 bg-white">
             <div className="max-w-7xl mx-auto px-4">
