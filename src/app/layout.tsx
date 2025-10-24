@@ -297,24 +297,18 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         
         {/* Service Worker Registration - Deferred for better performance */}
+        {/* Deferred Service Worker for better performance - load after 3 seconds */}
         <Script
           id="sw-registration"
           strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
-              if ('serviceWorker' in navigator) {
+              if ('serviceWorker' in navigator && window.location.protocol === 'https:') {
                 window.addEventListener('load', function() {
                   setTimeout(function() {
-                    navigator.serviceWorker.register('/sw-v3.js')
-                      .then(function(registration) {
-                        if ('sync' in registration) {
-                          registration.sync.register('background-sync');
-                        }
-                      })
-                      .catch(function(err) {
-                        console.error('SW registration failed:', err);
-                      });
-                  }, 2000);
+                    navigator.serviceWorker.register('/sw-v3.js', { scope: '/' })
+                      .catch(function(err) { /* Silently fail */ });
+                  }, 3000);
                 });
               }
             `,
@@ -329,6 +323,15 @@ export default function RootLayout({
         {/* Critical performance optimizations */}
         <CriticalInlineCSS />
         <CriticalResourceHints />
+        
+        {/* Preload critical resources */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://saumyakapoor.in" />
+        
+        {/* Preload critical CSS */}
+        <link rel="preload" href="/styles/performance.css" as="style" />
+        <link rel="preload" href="/styles/critical-inline.css" as="style" />
         
         {/* Alternate hreflang for international SEO */}
         <link rel="alternate" hrefLang="en" href="https://saumyakapoor.in" />

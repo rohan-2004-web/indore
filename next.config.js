@@ -11,21 +11,28 @@ const nextConfig = {
     scrollRestoration: true,
     optimizeCss: true,
     optimizeServerReact: true,
+    webVitalsAttribution: ['CLS', 'LCP'],
+    gzipSize: true,
   },
   
   // Compiler optimizations
   compiler: {
-    removeConsole: process.env.NODE_ENV === 'production',
+    removeConsole: process.env.NODE_ENV === 'production' ? {
+      exclude: ['error', 'warn'],
+    } : false,
     reactRemoveProperties: process.env.NODE_ENV === 'production',
   },
+  
+  // Production optimizations
+  productionBrowserSourceMaps: false,
   
   // Image optimization for better page speed
   images: {
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 31536000, // 1 year cache
     dangerouslyAllowSVG: false,
-    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
-    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256],
     domains: ['saumyakapoor.in'],
     loader: 'default',
     unoptimized: false,
@@ -79,8 +86,8 @@ const nextConfig = {
             reuseExistingChunk: true,
           },
         },
-        maxInitialRequests: 25,
-        minSize: 20000,
+        maxInitialRequests: 20,
+        minSize: 30000,
       };
       
       // Enable module concatenation
@@ -88,7 +95,18 @@ const nextConfig = {
       
       // Minimize bundle size
       config.optimization.minimize = true;
+      
+      // Additional performance optimization
+      config.optimization.usedExports = true;
+      config.optimization.sideEffects = true;
     }
+    
+    // Optimize for all environments
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@': '/src',
+    };
+    
     return config;
   },
 
