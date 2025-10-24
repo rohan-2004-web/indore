@@ -4,11 +4,14 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   reactStrictMode: true,
+  swcMinify: true,
   
   // Experimental performance features
   experimental: {
     optimizePackageImports: ['@headlessui/react', '@heroicons/react'],
     scrollRestoration: true,
+    optimizeCss: true,
+    webVitalsAttribution: ['CLS', 'LCP', 'FCP', 'FID', 'TTFB', 'INP'],
   },
   
   // Compiler optimizations
