@@ -11,6 +11,7 @@ import { FastIndexingSchemas } from "@/components/FastIndexingSchemas";
 import InternalLinkingFooter from "@/components/InternalLinkingFooter";
 import { Suspense } from "react";
 import Script from "next/script";
+import AIChatWrapper from "@/components/AIChatWrapper";
 
 // Optimize font loading with display swap and fallback for better performance
 const inter = Inter({ 
@@ -357,6 +358,9 @@ export default function RootLayout({
         </main>
         
         <InternalLinkingFooter />
+        
+        {/* AI Chat Assistant */}
+        <AIChatWrapper />
       </body>
     </html>
   );
