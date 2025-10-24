@@ -13,20 +13,18 @@ interface BreadcrumbProps {
 }
 
 export default function Breadcrumb({ items, className = '' }: BreadcrumbProps) {
+  // Don't show breadcrumb if only showing home
+  if (items.length === 1 && items[0].name === 'Home') {
+    return null
+  }
+  
   return (
     <nav className={`flex items-center space-x-1 text-sm text-gray-500 mb-6 ${className}`} aria-label="Breadcrumb">
-      <Link 
-        href="/" 
-        className="hover:text-pink-600 transition-colors flex items-center"
-        title="Home - Indore Escort Service"
-        aria-label="Home"
-      >
-        <HomeIcon className="w-5 h-5" />
-      </Link>
+      {/* Home icon removed as per user request */}
       
       {items.map((item, index) => (
         <div key={item.name} className="flex items-center">
-          <ChevronRightIcon className="w-4 h-4 mx-2 text-gray-400" />
+          {index > 0 && <ChevronRightIcon className="w-4 h-4 mx-2 text-gray-400" />}
           
           {item.current ? (
             <span 
