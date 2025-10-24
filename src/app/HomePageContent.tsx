@@ -276,7 +276,8 @@ export default function HomePageContent() {
         }}
       />
       <div className="min-h-screen bg-gradient-to-br from-pink-100 via-orange-50 to-pink-200">
-        <main className="pt-6" id="main-content">
+        {/* Add proper spacing for fixed header */}
+        <main className="pt-20 sm:pt-24 md:pt-28" id="main-content">
           <Breadcrumb 
             items={[
               { name: 'Home', href: '/' }
@@ -284,7 +285,7 @@ export default function HomePageContent() {
           />
           
           <section 
-            className="relative py-16 bg-pink-200 overflow-hidden"
+            className="relative py-12 sm:py-16 md:py-20 bg-pink-200 overflow-hidden"
             aria-labelledby="hero-heading"
             role="banner"
           >

@@ -20,13 +20,13 @@ export default function Header() {
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
         isScrolled 
           ? 'bg-white/95 backdrop-blur-lg shadow-lg border-b border-pink-100' 
-          : 'bg-transparent'
+          : 'bg-white/90 backdrop-blur-md shadow-md border-b border-pink-100/50'
       }`}
       role="banner"
       aria-label="Site header"
     >
       <nav 
-        className="container mx-auto px-4 py-2" 
+        className="container mx-auto px-4 py-3 md:py-4" 
         role="navigation" 
         aria-label="Main navigation"
       >
