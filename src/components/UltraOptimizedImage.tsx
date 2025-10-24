@@ -23,7 +23,7 @@ export function UltraOptimizedImage({
   priority = false,
   fetchPriority = 'auto',
   className = '',
-  quality = 75,
+  quality = 85,
   sizes = '(max-width: 640px) 100vw, (max-width: 1080px) 50vw, 33vw'
 }: UltraOptimizedImageProps) {
   const [isLoaded, setIsLoaded] = useState(false)

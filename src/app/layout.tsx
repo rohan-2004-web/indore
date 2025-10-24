@@ -11,7 +11,12 @@ import { FastIndexingSchemas } from "@/components/FastIndexingSchemas";
 import InternalLinkingFooter from "@/components/InternalLinkingFooter";
 import { Suspense } from "react";
 import Script from "next/script";
-import AIChatWrapper from "@/components/AIChatWrapper";
+import dynamic from "next/dynamic";
+
+// Lazy load AI Chat - reduces initial JS bundle
+const AIChatWrapper = dynamic(() => import("@/components/AIChatWrapper"), {
+  loading: () => null,
+});
 
 // Optimize font loading with display swap and fallback for better performance
 const inter = Inter({ 
@@ -324,6 +329,14 @@ export default function RootLayout({
         {/* Critical performance optimizations */}
         <CriticalInlineCSS />
         <CriticalResourceHints />
+        
+        {/* Preload LCP hero image - CRITICAL for performance */}
+        <link 
+          rel="preload" 
+          as="image" 
+          href="/images/hero/escort-service-indore.webp"
+          fetchPriority="high"
+        />
         
         {/* Preconnect only - faster than preload */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
