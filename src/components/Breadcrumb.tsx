@@ -19,9 +19,9 @@ export default function Breadcrumb({ items, className = '' }: BreadcrumbProps) {
         href="/" 
         className="hover:text-pink-600 transition-colors flex items-center"
         title="Home - Indore Escort Service"
+        aria-label="Home"
       >
-        <HomeIcon className="w-4 h-4 mr-1" />
-        Home
+        <HomeIcon className="w-5 h-5" />
       </Link>
       
       {items.map((item, index) => (
