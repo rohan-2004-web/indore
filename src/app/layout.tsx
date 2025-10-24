@@ -106,13 +106,12 @@ export const metadata: Metadata = {
   applicationName: 'Indore Premium Escort Service',
   icons: {
     icon: [
-      { url: '/heart-favicon.png', type: 'image/png', sizes: '32x32' },
-      { url: '/heart-favicon.png', type: 'image/png', sizes: '16x16' },
+      { url: '/favicon.png', type: 'image/png', sizes: '32x32' },
+      { url: '/favicon.png', type: 'image/png', sizes: '16x16' },
+      { url: '/favicon.ico', sizes: 'any' },
     ],
-    apple: [
-      { url: '/heart-favicon.png', sizes: '180x180' },
-    ],
-    shortcut: '/heart-favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/apple-touch-icon.png',
   },
 };
 
