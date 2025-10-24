@@ -913,92 +913,92 @@ export default function HomePageContent() {
           </section>
 
           {/* Why Choose Our Services & Locations - Content Section */}
-          <section className="py-20 bg-gradient-to-br from-purple-600/90 via-pink-600/90 to-orange-600/90 relative overflow-hidden">
-            <div className="absolute inset-0 bg-black/20"></div>
+          <section className="py-20 bg-gradient-to-br from-pink-100 via-pink-200 to-pink-300 relative overflow-hidden">
+            <div className="absolute inset-0 bg-pink-500/10"></div>
             <div className="absolute top-0 left-0 w-full h-full">
-              <div className="absolute top-16 left-16 w-40 h-40 bg-white/20 rounded-full blur-xl animate-pulse"></div>
-              <div className="absolute bottom-16 right-16 w-48 h-48 bg-white/15 rounded-full blur-xl animate-pulse delay-500"></div>
-              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-white/10 rounded-full blur-xl animate-pulse delay-1000"></div>
+              <div className="absolute top-16 left-16 w-40 h-40 bg-pink-300/40 rounded-full blur-xl animate-pulse"></div>
+              <div className="absolute bottom-16 right-16 w-48 h-48 bg-pink-400/40 rounded-full blur-xl animate-pulse delay-500"></div>
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-pink-200/40 rounded-full blur-xl animate-pulse delay-1000"></div>
             </div>
             
             <div className="max-w-8xl mx-auto px-6 relative z-10">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                 
                 {/* Left Side - Services Content */}
-                <div className="bg-white/20 backdrop-blur-md rounded-3xl p-10 border border-white/30 shadow-2xl">
+                <div className="bg-white/60 backdrop-blur-md rounded-3xl p-10 border border-pink-200/50 shadow-2xl">
                   <div className="text-center mb-8">
-                    <h3 className="text-4xl md:text-5xl font-bold text-white mb-6 drop-shadow-xl">
+                    <h3 className="text-4xl md:text-5xl font-bold text-pink-800 mb-6 drop-shadow-lg">
                       💎 Why Our Premium Services Are Best
                     </h3>
                   </div>
                   <div className="space-y-6">
                     <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-white/30 rounded-full flex items-center justify-center flex-shrink-0">
+                      <div className="w-12 h-12 bg-pink-200/60 rounded-full flex items-center justify-center flex-shrink-0">
                         <span className="text-2xl">🌟</span>
                       </div>
                       <div>
-                        <h4 className="text-xl font-bold text-white mb-2">100% Verified & Authentic Escorts</h4>
-                        <p className="text-white/90 text-lg">All our companions are thoroughly verified with authentic profiles and genuine photographs</p>
+                        <h4 className="text-xl font-bold text-pink-800 mb-2">100% Verified & Authentic Escorts</h4>
+                        <p className="text-pink-700 text-lg">All our companions are thoroughly verified with authentic profiles and genuine photographs</p>
                       </div>
                     </div>
                     
                     <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-white/30 rounded-full flex items-center justify-center flex-shrink-0">
+                      <div className="w-12 h-12 bg-pink-200/60 rounded-full flex items-center justify-center flex-shrink-0">
                         <span className="text-2xl">🔒</span>
                       </div>
                       <div>
-                        <h4 className="text-xl font-bold text-white mb-2">Complete Privacy & Discretion Guaranteed</h4>
-                        <p className="text-white/90 text-lg">Your privacy is our priority with confidential meetings and secure booking process always</p>
+                        <h4 className="text-xl font-bold text-pink-800 mb-2">Complete Privacy & Discretion Guaranteed</h4>
+                        <p className="text-pink-700 text-lg">Your privacy is our priority with confidential meetings and secure booking process always</p>
                       </div>
                     </div>
                     
                     <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-white/30 rounded-full flex items-center justify-center flex-shrink-0">
+                      <div className="w-12 h-12 bg-pink-200/60 rounded-full flex items-center justify-center flex-shrink-0">
                         <span className="text-2xl">⚡</span>
                       </div>
                       <div>
-                        <h4 className="text-xl font-bold text-white mb-2">24/7 Instant Booking & Quick Response</h4>
-                        <p className="text-white/90 text-lg">Round the clock availability with immediate confirmation and same day booking facility</p>
+                        <h4 className="text-xl font-bold text-pink-800 mb-2">24/7 Instant Booking & Quick Response</h4>
+                        <p className="text-pink-700 text-lg">Round the clock availability with immediate confirmation and same day booking facility</p>
                       </div>
                     </div>
                   </div>
                 </div>
 
                 {/* Right Side - Location Content */}
-                <div className="bg-white/20 backdrop-blur-md rounded-3xl p-10 border border-white/30 shadow-2xl">
+                <div className="bg-white/60 backdrop-blur-md rounded-3xl p-10 border border-pink-200/50 shadow-2xl">
                   <div className="text-center mb-8">
-                    <h3 className="text-4xl md:text-5xl font-bold text-white mb-6 drop-shadow-xl">
+                    <h3 className="text-4xl md:text-5xl font-bold text-pink-800 mb-6 drop-shadow-lg">
                       📍 Why Our Indore Locations Are Perfect
                     </h3>
                   </div>
                   <div className="space-y-6">
                     <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-white/30 rounded-full flex items-center justify-center flex-shrink-0">
+                      <div className="w-12 h-12 bg-pink-200/60 rounded-full flex items-center justify-center flex-shrink-0">
                         <span className="text-2xl">🏙️</span>
                       </div>
                       <div>
-                        <h4 className="text-xl font-bold text-white mb-2">15+ Premium Central Locations Coverage</h4>
-                        <p className="text-white/90 text-lg">Strategic coverage across Vijay Nagar, AB Road, Palasia and all major premium areas</p>
+                        <h4 className="text-xl font-bold text-pink-800 mb-2">15+ Premium Central Locations Coverage</h4>
+                        <p className="text-pink-700 text-lg">Strategic coverage across Vijay Nagar, AB Road, Palasia and all major premium areas</p>
                       </div>
                     </div>
                     
                     <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-white/30 rounded-full flex items-center justify-center flex-shrink-0">
+                      <div className="w-12 h-12 bg-pink-200/60 rounded-full flex items-center justify-center flex-shrink-0">
                         <span className="text-2xl">🚗</span>
                       </div>
                       <div>
-                        <h4 className="text-xl font-bold text-white mb-2">Easy Access & Discreet Meeting Points</h4>
-                        <p className="text-white/90 text-lg">Convenient locations with easy access, safe environments and complete discretion for clients</p>
+                        <h4 className="text-xl font-bold text-pink-800 mb-2">Easy Access & Discreet Meeting Points</h4>
+                        <p className="text-pink-700 text-lg">Convenient locations with easy access, safe environments and complete discretion for clients</p>
                       </div>
                     </div>
                     
                     <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-white/30 rounded-full flex items-center justify-center flex-shrink-0">
+                      <div className="w-12 h-12 bg-pink-200/60 rounded-full flex items-center justify-center flex-shrink-0">
                         <span className="text-2xl">🏨</span>
                       </div>
                       <div>
-                        <h4 className="text-xl font-bold text-white mb-2">Luxury Hotels & Premium Venues Available</h4>
-                        <p className="text-white/90 text-lg">Partnership with 5-star hotels and luxury venues for unforgettable premium experiences always</p>
+                        <h4 className="text-xl font-bold text-pink-800 mb-2">Luxury Hotels & Premium Venues Available</h4>
+                        <p className="text-pink-700 text-lg">Partnership with 5-star hotels and luxury venues for unforgettable premium experiences always</p>
                       </div>
                     </div>
                   </div>
@@ -1009,21 +1009,21 @@ export default function HomePageContent() {
               {/* Bottom Statistics */}
               <div className="mt-16 text-center">
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-                  <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 border border-white/30">
-                    <div className="text-4xl font-bold text-white mb-2">5000+</div>
-                    <div className="text-white/90 text-lg font-semibold">Happy Clients</div>
+                  <div className="bg-white/60 backdrop-blur-md rounded-2xl p-6 border border-pink-300/60">
+                    <div className="text-4xl font-bold text-pink-800 mb-2">5000+</div>
+                    <div className="text-pink-700 text-lg font-semibold">Happy Clients</div>
                   </div>
-                  <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 border border-white/30">
-                    <div className="text-4xl font-bold text-white mb-2">200+</div>
-                    <div className="text-white/90 text-lg font-semibold">Premium Escorts</div>
+                  <div className="bg-white/60 backdrop-blur-md rounded-2xl p-6 border border-pink-300/60">
+                    <div className="text-4xl font-bold text-pink-800 mb-2">200+</div>
+                    <div className="text-pink-700 text-lg font-semibold">Premium Escorts</div>
                   </div>
-                  <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 border border-white/30">
-                    <div className="text-4xl font-bold text-white mb-2">15+</div>
-                    <div className="text-white/90 text-lg font-semibold">Prime Locations</div>
+                  <div className="bg-white/60 backdrop-blur-md rounded-2xl p-6 border border-pink-300/60">
+                    <div className="text-4xl font-bold text-pink-800 mb-2">15+</div>
+                    <div className="text-pink-700 text-lg font-semibold">Prime Locations</div>
                   </div>
-                  <div className="bg-white/20 backdrop-blur-md rounded-2xl p-6 border border-white/30">
-                    <div className="text-4xl font-bold text-white mb-2">24/7</div>
-                    <div className="text-white/90 text-lg font-semibold">Service Available</div>
+                  <div className="bg-white/60 backdrop-blur-md rounded-2xl p-6 border border-pink-300/60">
+                    <div className="text-4xl font-bold text-pink-800 mb-2">24/7</div>
+                    <div className="text-pink-700 text-lg font-semibold">Service Available</div>
                   </div>
                 </div>
               </div>
