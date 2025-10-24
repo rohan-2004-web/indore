@@ -20,6 +20,8 @@ const inter = Inter({
   preload: true,
   fallback: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'sans-serif'],
   adjustFontFallback: true,
+  variable: '--font-inter',
+  weight: ['400', '500', '600', '700'],
 });
 
 export const metadata: Metadata = {
@@ -296,7 +298,7 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         
         {/* Service Worker Registration - Deferred for better performance */}
-        {/* Deferred Service Worker for better performance - load after 3 seconds */}
+        {/* Deferred Service Worker for better performance - load after 5 seconds */}
         <Script
           id="sw-registration"
           strategy="lazyOnload"
@@ -307,7 +309,7 @@ export default function RootLayout({
                   setTimeout(function() {
                     navigator.serviceWorker.register('/sw-v3.js', { scope: '/' })
                       .catch(function(err) { /* Silently fail */ });
-                  }, 3000);
+                  }, 5000);
                 });
               }
             `,
@@ -323,14 +325,10 @@ export default function RootLayout({
         <CriticalInlineCSS />
         <CriticalResourceHints />
         
-        {/* Preload critical resources */}
+        {/* Preconnect only - faster than preload */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://saumyakapoor.in" />
-        
-        {/* Preload critical CSS */}
-        <link rel="preload" href="/styles/performance.css" as="style" />
-        <link rel="preload" href="/styles/critical-inline.css" as="style" />
         
         {/* Alternate hreflang for international SEO */}
         <link rel="alternate" hrefLang="en" href="https://saumyakapoor.in" />
