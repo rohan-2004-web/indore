@@ -3,10 +3,17 @@ const nextConfig = {
   // Performance optimizations
   compress: true,
   poweredByHeader: false,
+  reactStrictMode: true,
   
   // Experimental performance features
   experimental: {
     optimizePackageImports: ['@headlessui/react', '@heroicons/react'],
+    scrollRestoration: true,
+  },
+  
+  // Compiler optimizations
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
   },
   
   // Image optimization for better page speed
@@ -14,9 +21,17 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 31536000, // 1 year cache
     dangerouslyAllowSVG: false,
-    deviceSizes: [640, 768, 1024, 1280, 1920],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
     domains: ['saumyakapoor.in'],
+    loader: 'default',
+    unoptimized: false,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'saumyakapoor.in',
+      },
+    ],
   },
 
   // Webpack optimizations
