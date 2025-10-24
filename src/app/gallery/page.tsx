@@ -206,26 +206,6 @@ export default function GalleryPage() {
                 </p>
               </div>
 
-              {/* Top 8 Gallery Grid (2 rows x 4 cols on desktop) */}
-              <div className="max-w-7xl mx-auto mb-12">
-                <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6">
-                  {galleryImages.slice(0, 8).map((img) => (
-                    <div key={img.id} className="bg-white/90 rounded-2xl overflow-hidden shadow-2xl border border-gray-100">
-                      <div className="w-full h-48 overflow-hidden">
-                        <img src={img.src} alt={img.title} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
-                      </div>
-                      <div className="p-4 text-center">
-                        <h4 className="text-lg font-bold text-gray-800">{img.title}</h4>
-                        <p className="text-sm text-gray-600">{img.category}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-                <div className="text-center mt-8">
-                  <a href="#gallery-faq" className="inline-block bg-gradient-to-r from-pink-600 to-pink-700 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:scale-105 transition-transform">See Gallery FAQs</a>
-                </div>
-              </div>
-
               {/* Gallery Features Grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
                 <div className="bg-gradient-to-br from-pink-100/80 to-rose-200/60 rounded-3xl p-8 shadow-2xl border-2 border-pink-200/50 transform hover:-translate-y-3 transition-all duration-300">
