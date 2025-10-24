@@ -1,10 +1,29 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Header from '@/components/Header'
 
 export default function ABRoadPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
+  
+  // Set page metadata
+  useEffect(() => {
+    document.title = 'Escorts in Bhawar Kuan Indore | Premium Call Girls 24/7 | Central Hub'
+    const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
+    metaDescription.setAttribute('name', 'description')
+    metaDescription.setAttribute('content', '⭐ Best escorts in Bhawar Kuan, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in central area 💯 Safe service ☎️ +91-9372662471')
+    if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
+    
+    const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
+    metaKeywords.setAttribute('name', 'keywords')
+    metaKeywords.setAttribute('content', 'escorts in Bhawar Kuan, escorts in Bhawar Kuan Indore, call girls in Bhawar Kuan, Bhawar Kuan escorts, escort service in Bhawar Kuan, central area escorts, Indore center companions')
+    if (!document.querySelector('meta[name="keywords"]')) document.head.appendChild(metaKeywords)
+    
+    const canonical = document.querySelector('link[rel="canonical"]') || document.createElement('link')
+    canonical.setAttribute('rel', 'canonical')
+    canonical.setAttribute('href', 'https://saumyakapoor.in/locations/bhawar-kuan')
+    if (!document.querySelector('link[rel="canonical"]')) document.head.appendChild(canonical)
+  }, [])
 
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index)

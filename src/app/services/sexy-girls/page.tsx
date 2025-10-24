@@ -1,11 +1,30 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Header from '@/components/Header'
 
 export default function SexyGirlsPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
+  
+  // Set page metadata
+  useEffect(() => {
+    document.title = 'Sexy Girls Escorts in Indore | Hot & Glamorous Call Girls 24/7'
+    const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
+    metaDescription.setAttribute('name', 'description')
+    metaDescription.setAttribute('content', '⭐ Sexy girl escorts in Indore with 300+ hot & glamorous companions 🔥 Available 24/7 💯 Premium service ☎️ +91-9372662471')
+    if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
+    
+    const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
+    metaKeywords.setAttribute('name', 'keywords')
+    metaKeywords.setAttribute('content', 'sexy girls Indore, hot call girls, glamorous escorts Indore, sexy companions, hot escort service, attractive girls Indore')
+    if (!document.querySelector('meta[name="keywords"]')) document.head.appendChild(metaKeywords)
+    
+    const canonical = document.querySelector('link[rel="canonical"]') || document.createElement('link')
+    canonical.setAttribute('rel', 'canonical')
+    canonical.setAttribute('href', 'https://saumyakapoor.in/services/sexy-girls')
+    if (!document.querySelector('link[rel="canonical"]')) document.head.appendChild(canonical)
+  }, [])
 
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index)

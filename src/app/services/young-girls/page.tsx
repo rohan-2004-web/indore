@@ -1,11 +1,30 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Header from '@/components/Header'
 
 export default function YoungGirlsPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
+  
+  // Set page metadata
+  useEffect(() => {
+    document.title = 'Young Girls Escorts in Indore | Fresh & Energetic Call Girls 24/7'
+    const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
+    metaDescription.setAttribute('name', 'description')
+    metaDescription.setAttribute('content', '⭐ Young girl escorts in Indore with 250+ fresh & energetic companions 🔥 Available 24/7 💯 Safe service ☎️ +91-9372662471')
+    if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
+    
+    const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
+    metaKeywords.setAttribute('name', 'keywords')
+    metaKeywords.setAttribute('content', 'young girls Indore, fresh call girls, energetic escorts Indore, young companions, youthful escorts, fresh girls service')
+    if (!document.querySelector('meta[name="keywords"]')) document.head.appendChild(metaKeywords)
+    
+    const canonical = document.querySelector('link[rel="canonical"]') || document.createElement('link')
+    canonical.setAttribute('rel', 'canonical')
+    canonical.setAttribute('href', 'https://saumyakapoor.in/services/young-girls')
+    if (!document.querySelector('link[rel="canonical"]')) document.head.appendChild(canonical)
+  }, [])
 
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index)

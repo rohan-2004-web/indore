@@ -1,11 +1,30 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Header from '@/components/Header'
 
 export default function PremiumModelsPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
+  
+  // Set page metadata
+  useEffect(() => {
+    document.title = 'Premium Model Escorts in Indore | Fashion Model Call Girls 24/7'
+    const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
+    metaDescription.setAttribute('name', 'description')
+    metaDescription.setAttribute('content', '⭐ Premium model escorts in Indore with 100+ fashion models 🔥 Available 24/7 💯 Elite service ☎️ +91-9372662471')
+    if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
+    
+    const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
+    metaKeywords.setAttribute('name', 'keywords')
+    metaKeywords.setAttribute('content', 'premium models Indore, fashion model escorts, model call girls Indore, glamour models, premium model service, elite models Indore')
+    if (!document.querySelector('meta[name="keywords"]')) document.head.appendChild(metaKeywords)
+    
+    const canonical = document.querySelector('link[rel="canonical"]') || document.createElement('link')
+    canonical.setAttribute('rel', 'canonical')
+    canonical.setAttribute('href', 'https://saumyakapoor.in/services/premium-models')
+    if (!document.querySelector('link[rel="canonical"]')) document.head.appendChild(canonical)
+  }, [])
 
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index)

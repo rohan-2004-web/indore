@@ -1,10 +1,29 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Header from '@/components/Header'
 
 export default function BombayHospitalPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
+  
+  // Set page metadata
+  useEffect(() => {
+    document.title = 'Escorts in Bombay Hospital Area Indore | Premium Call Girls 24/7 | Medical District'
+    const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
+    metaDescription.setAttribute('name', 'description')
+    metaDescription.setAttribute('content', '⭐ Best escorts near Bombay Hospital, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in medical area 💯 Discreet service ☎️ +91-9372662471')
+    if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
+    
+    const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
+    metaKeywords.setAttribute('name', 'keywords')
+    metaKeywords.setAttribute('content', 'escorts near Bombay Hospital, escorts in Bombay Hospital Indore, call girls near Bombay Hospital, Bombay Hospital escorts, medical district escorts, discreet companions Indore')
+    if (!document.querySelector('meta[name="keywords"]')) document.head.appendChild(metaKeywords)
+    
+    const canonical = document.querySelector('link[rel="canonical"]') || document.createElement('link')
+    canonical.setAttribute('rel', 'canonical')
+    canonical.setAttribute('href', 'https://saumyakapoor.in/locations/bombay-hospital')
+    if (!document.querySelector('link[rel="canonical"]')) document.head.appendChild(canonical)
+  }, [])
 
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index)

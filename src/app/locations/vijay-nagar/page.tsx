@@ -1,10 +1,68 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import Head from 'next/head'
 import Header from '@/components/Header'
 
 export default function VijayNagarPage() {
   const [openFaq, setOpenFaq] = useState<number | null>(null)
+
+  // Set page metadata
+  useEffect(() => {
+    document.title = 'Escorts in Vijay Nagar Indore | Premium Call Girls 24/7 | VIP Service'
+    
+    // Update meta description
+    let metaDescription = document.querySelector('meta[name="description"]')
+    if (!metaDescription) {
+      metaDescription = document.createElement('meta')
+      metaDescription.setAttribute('name', 'description')
+      document.head.appendChild(metaDescription)
+    }
+    metaDescription.setAttribute('content', '⭐ Best escorts in Vijay Nagar, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in central business district 💯 Safe, discreet service ☎️ +91-9372662471')
+    
+    // Update meta keywords
+    let metaKeywords = document.querySelector('meta[name="keywords"]')
+    if (!metaKeywords) {
+      metaKeywords = document.createElement('meta')
+      metaKeywords.setAttribute('name', 'keywords')
+      document.head.appendChild(metaKeywords)
+    }
+    metaKeywords.setAttribute('content', 'escorts in Vijay Nagar, escorts in Vijay Nagar Indore, call girls in Vijay Nagar, Vijay Nagar escorts, escort service in Vijay Nagar, VIP escorts Vijay Nagar, premium call girls Vijay Nagar, Vijay Nagar call girls 24/7, commercial center escorts, business district escorts Indore')
+    
+    // Update canonical URL
+    let canonical = document.querySelector('link[rel="canonical"]')
+    if (!canonical) {
+      canonical = document.createElement('link')
+      canonical.setAttribute('rel', 'canonical')
+      document.head.appendChild(canonical)
+    }
+    canonical.setAttribute('href', 'https://saumyakapoor.in/locations/vijay-nagar')
+    
+    // Update OG tags
+    let ogTitle = document.querySelector('meta[property="og:title"]')
+    if (!ogTitle) {
+      ogTitle = document.createElement('meta')
+      ogTitle.setAttribute('property', 'og:title')
+      document.head.appendChild(ogTitle)
+    }
+    ogTitle.setAttribute('content', '🔥 Escorts in Vijay Nagar Indore | 500+ Verified Call Girls 24/7')
+    
+    let ogDescription = document.querySelector('meta[property="og:description"]')
+    if (!ogDescription) {
+      ogDescription = document.createElement('meta')
+      ogDescription.setAttribute('property', 'og:description')
+      document.head.appendChild(ogDescription)
+    }
+    ogDescription.setAttribute('content', '⭐ Premium escorts in Vijay Nagar with verified call girls & VIP companions 🔥 Available 24/7 📞 +91-9372662471')
+    
+    let ogUrl = document.querySelector('meta[property="og:url"]')
+    if (!ogUrl) {
+      ogUrl = document.createElement('meta')
+      ogUrl.setAttribute('property', 'og:url')
+      document.head.appendChild(ogUrl)
+    }
+    ogUrl.setAttribute('content', 'https://saumyakapoor.in/locations/vijay-nagar')
+  }, [])
 
   const toggleFaq = (index: number) => {
     setOpenFaq(openFaq === index ? null : index)
