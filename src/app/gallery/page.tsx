@@ -522,86 +522,35 @@ export default function GalleryPage() {
         </section>
 
   {/* FAQ Section */}
-  <section id="gallery-faq" className="py-20 bg-gradient-to-br from-pink-100/80 via-orange-50/60 to-purple-100/70">
+  <section id="gallery-faq" className="py-20 bg-gradient-to-br from-pink-200/60 via-orange-100/50 to-pink-200/60">
           <div className="w-full px-4">
-            <div className="max-w-6xl mx-auto">
+            <div className="max-w-7xl mx-auto">
               <div className="text-center mb-16">
-                <h2 className="text-5xl font-bold bg-gradient-to-r from-pink-600 via-purple-500 to-blue-600 bg-clip-text text-transparent mb-6">
-                  🔍 Gallery FAQs
+                <h2 className="text-6xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6">
+                  Frequently Asked Questions
                 </h2>
-                <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-medium">
-                  Everything you need to know about our premium escort gallery and booking process
+                <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                  Common questions about our premium escort gallery and booking process
                 </p>
               </div>
 
-              <div className="space-y-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 {faqs.map((faq, index) => (
-                  <div 
-                    key={index}
-                    className={`backdrop-blur-md rounded-3xl shadow-2xl overflow-hidden transform transition-all duration-300 hover:shadow-3xl hover:-translate-y-2 ${
-                      index % 4 === 0 ? 'bg-gradient-to-r from-pink-50/95 to-rose-100/95 border-2 border-pink-200/60' :
-                      index % 4 === 1 ? 'bg-gradient-to-r from-blue-50/95 to-cyan-100/95 border-2 border-blue-200/60' :
-                      index % 4 === 2 ? 'bg-gradient-to-r from-purple-50/95 to-violet-100/95 border-2 border-purple-200/60' :
-                      'bg-gradient-to-r from-orange-50/95 to-yellow-100/95 border-2 border-orange-200/60'
-                    }`}
-                  >
+                  <div key={index} className="bg-gradient-to-br from-pink-100 to-pink-200 backdrop-blur-md rounded-3xl shadow-2xl border-2 border-pink-300/60 overflow-hidden hover:shadow-3xl transition-all duration-300 transform hover:scale-105">
                     <button
-                      className="w-full text-left p-8 focus:outline-none focus:ring-4 focus:ring-pink-300 transition-all duration-300 hover:bg-white/30"
                       onClick={() => toggleFaq(index)}
+                      className="w-full p-8 text-left hover:bg-gradient-to-r hover:from-pink-200/80 hover:to-orange-100/80 transition-all duration-200 flex justify-between items-center group"
                     >
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center">
-                          <div className={`w-12 h-12 rounded-full flex items-center justify-center mr-4 text-2xl ${
-                            index % 4 === 0 ? 'bg-gradient-to-br from-pink-500 to-rose-600' :
-                            index % 4 === 1 ? 'bg-gradient-to-br from-blue-500 to-cyan-600' :
-                            index % 4 === 2 ? 'bg-gradient-to-br from-purple-500 to-violet-600' :
-                            'bg-gradient-to-br from-orange-500 to-yellow-600'
-                          }`}>
-                            <span className="text-white font-bold">
-                              {index % 4 === 0 ? '🎨' :
-                               index % 4 === 1 ? '💎' :
-                               index % 4 === 2 ? '🌟' : '🚀'}
-                            </span>
-                          </div>
-                          <h3 className="text-xl font-bold text-gray-800 pr-8 leading-relaxed">
-                            {faq.question}
-                          </h3>
-                        </div>
-                        <div className={`flex-shrink-0 transform transition-all duration-300 ${openFaq === index ? 'rotate-180 scale-110' : ''}`}>
-                          <div className={`w-10 h-10 rounded-full flex items-center justify-center ${
-                            index % 4 === 0 ? 'bg-pink-500' :
-                            index % 4 === 1 ? 'bg-blue-500' :
-                            index % 4 === 2 ? 'bg-purple-500' :
-                            'bg-orange-500'
-                          }`}>
-                            <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 9l-7 7-7-7" />
-                            </svg>
-                          </div>
-                        </div>
-                      </div>
+                      <h3 className="text-xl font-bold text-pink-900 pr-4 group-hover:text-orange-700">{faq.question}</h3>
+                      <span className={`text-3xl transition-all duration-300 text-pink-700 ${openFaq === index ? 'rotate-180 scale-110' : ''}`}>
+                        ▼
+                      </span>
                     </button>
-                    <div className={`transition-all duration-500 ease-in-out overflow-hidden ${openFaq === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
-                      <div className="px-8 pb-8">
-                        <div className={`border-t-2 pt-6 ${
-                          index % 4 === 0 ? 'border-pink-300' :
-                          index % 4 === 1 ? 'border-blue-300' :
-                          index % 4 === 2 ? 'border-purple-300' :
-                          'border-orange-300'
-                        }`}>
-                          <div className={`rounded-2xl p-6 ${
-                            index % 4 === 0 ? 'bg-gradient-to-br from-pink-100/50 to-rose-50/50' :
-                            index % 4 === 1 ? 'bg-gradient-to-br from-blue-100/50 to-cyan-50/50' :
-                            index % 4 === 2 ? 'bg-gradient-to-br from-purple-100/50 to-violet-50/50' :
-                            'bg-gradient-to-br from-orange-100/50 to-yellow-50/50'
-                          }`}>
-                            <p className="text-gray-700 leading-relaxed text-lg font-medium">
-                              {faq.answer}
-                            </p>
-                          </div>
-                        </div>
+                    {openFaq === index && (
+                      <div className="px-8 pb-8 bg-gradient-to-r from-pink-50/90 to-orange-50/90">
+                        <p className="text-gray-700 leading-relaxed text-lg font-medium">{faq.answer}</p>
                       </div>
-                    </div>
+                    )}
                   </div>
                 ))}
               </div>
