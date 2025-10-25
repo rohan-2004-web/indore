@@ -11,12 +11,12 @@ export default function ABRoadPage() {
     document.title = 'Escorts Service Bhawar Kuan Indore | Call Girls 24/7 | Central Hub'
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
     metaDescription.setAttribute('name', 'description')
-    metaDescription.setAttribute('content', '⭐ Best escorts service Bhawar Kuan, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in central area 💯 Safe escorts service Bhawar Kuan ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Best escorts service Bhawar Kuan with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in central area 💯 Safe escorts service Bhawar Kuan ☎️ +91-9372662471')
     if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
     
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
     metaKeywords.setAttribute('name', 'keywords')
-    metaKeywords.setAttribute('content', 'escorts service bhawar kuan, escorts in Bhawar Kuan, escorts service Indore bhawar kuan, call girls in Bhawar Kuan, escorts service bhawar kuan indore')
+    metaKeywords.setAttribute('content', 'escorts service bhawar kuan, escorts in Bhawar Kuan, call girls in Bhawar Kuan, central hub escorts')
     if (!document.querySelector('meta[name="keywords"]')) document.head.appendChild(metaKeywords)
     
     const canonical = document.querySelector('link[rel="canonical"]') || document.createElement('link')

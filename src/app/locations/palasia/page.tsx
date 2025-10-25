@@ -11,12 +11,12 @@ export default function PalasiaPage() {
     document.title = 'Escorts Service Palasia Indore | Call Girls 24/7 | Prime Shopping District'
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
     metaDescription.setAttribute('name', 'description')
-    metaDescription.setAttribute('content', '⭐ Best escorts service Palasia, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in shopping district 💯 Safe escorts service Palasia ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Best escorts service Palasia with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in shopping district 💯 Safe escorts service Palasia ☎️ +91-9372662471')
     if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
     
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
     metaKeywords.setAttribute('name', 'keywords')
-    metaKeywords.setAttribute('content', 'escorts service palasia, escorts in Palasia, escorts service Indore palasia, call girls in Palasia, Palasia escorts, escort service in Palasia, shopping district escorts, escorts service palasia indore')
+    metaKeywords.setAttribute('content', 'escorts service palasia, escorts in Palasia, call girls in Palasia, Palasia escorts, shopping district escorts')
     if (!document.querySelector('meta[name="keywords"]')) document.head.appendChild(metaKeywords)
     
     const canonical = document.querySelector('link[rel="canonical"]') || document.createElement('link')

@@ -11,12 +11,12 @@ export default function RingRoadPage() {
     document.title = 'Escorts Service Ring Road Indore | Call Girls 24/7 | Business District'
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
     metaDescription.setAttribute('name', 'description')
-    metaDescription.setAttribute('content', '⭐ Best escorts service Ring Road, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in business district 💯 Professional escorts service ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Best escorts service Ring Road with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in business district 💯 Professional escorts service ☎️ +91-9372662471')
     if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
     
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
     metaKeywords.setAttribute('name', 'keywords')
-    metaKeywords.setAttribute('content', 'escorts service ring road, escorts in Ring Road, escorts service Indore ring road, call girls in Ring Road, Ring Road escorts, escort service in Ring Road, business district escorts, corporate companions Indore')
+    metaKeywords.setAttribute('content', 'escorts service ring road, escorts in Ring Road, call girls in Ring Road, Ring Road escorts, business district escorts')
     if (!document.querySelector('meta[name="keywords"]')) document.head.appendChild(metaKeywords)
     
     const canonical = document.querySelector('link[rel="canonical"]') || document.createElement('link')

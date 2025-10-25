@@ -12,12 +12,12 @@ export default function AirportRoadPage() {
     document.title = 'Escorts Service Airport Road Indore | Call Girls 24/7 | Airport Area'
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
     metaDescription.setAttribute('name', 'description')
-    metaDescription.setAttribute('content', '⭐ Best escorts service Airport Road, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 near airport 💯 escorts service Airport Road ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Best escorts service Airport Road with 500+ verified call girls & VIP escorts 🔥 Available 24/7 near airport 💯 escorts service Airport Road ☎️ +91-9372662471')
     if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
     
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
     metaKeywords.setAttribute('name', 'keywords')
-    metaKeywords.setAttribute('content', 'escorts service airport road, escorts in Airport Road, escorts service Indore airport road, call girls in Airport Road, escorts service airport road indore')
+    metaKeywords.setAttribute('content', 'escorts service airport road, escorts in Airport Road, call girls in Airport Road, airport area escorts')
     if (!document.querySelector('meta[name="keywords"]')) document.head.appendChild(metaKeywords)
     
     const canonical = document.querySelector('link[rel="canonical"]') || document.createElement('link')

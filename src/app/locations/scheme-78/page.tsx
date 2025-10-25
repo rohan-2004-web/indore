@@ -11,12 +11,12 @@ export default function Scheme78Page() {
     document.title = 'Escorts Service Scheme 78 Indore | Call Girls 24/7 | Residential Area'
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
     metaDescription.setAttribute('name', 'description')
-    metaDescription.setAttribute('content', '⭐ Best escorts service Scheme 78, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in residential area 💯 Discreet escorts service ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Best escorts service Scheme 78 with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in residential area 💯 Discreet escorts service ☎️ +91-9372662471')
     if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
     
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
     metaKeywords.setAttribute('name', 'keywords')
-    metaKeywords.setAttribute('content', 'escorts service scheme 78, escorts in Scheme 78, escorts service Indore scheme 78, call girls in Scheme 78, Scheme 78 escorts, escort service in Scheme 78, residential area escorts, discreet companions Indore')
+    metaKeywords.setAttribute('content', 'escorts service scheme 78, escorts in Scheme 78, call girls in Scheme 78, Scheme 78 escorts, residential area escorts')
     if (!document.querySelector('meta[name="keywords"]')) document.head.appendChild(metaKeywords)
     
     const canonical = document.querySelector('link[rel="canonical"]') || document.createElement('link')

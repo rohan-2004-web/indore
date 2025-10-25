@@ -11,12 +11,12 @@ export default function RajwadaPage() {
     document.title = 'Escorts Service Rajwada Indore | Call Girls 24/7 | Historic Area'
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
     metaDescription.setAttribute('name', 'description')
-    metaDescription.setAttribute('content', '⭐ Best escorts service Rajwada, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in historic district 💯 escorts service Rajwada ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Best escorts service Rajwada with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in historic district 💯 escorts service Rajwada ☎️ +91-9372662471')
     if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
     
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
     metaKeywords.setAttribute('name', 'keywords')
-    metaKeywords.setAttribute('content', 'escorts service rajwada, escorts in Rajwada, escorts service Indore rajwada, call girls in Rajwada, escorts service rajwada indore')
+    metaKeywords.setAttribute('content', 'escorts service rajwada, escorts in Rajwada, call girls in Rajwada, historic area escorts')
     if (!document.querySelector('meta[name="keywords"]')) document.head.appendChild(metaKeywords)
     
     const canonical = document.querySelector('link[rel="canonical"]') || document.createElement('link')
