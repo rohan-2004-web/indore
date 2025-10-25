@@ -11,12 +11,12 @@ export default function SaketPage() {
     document.title = 'Escorts Service Saket Indore | Call Girls 24/7 | Upscale Residential Area'
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
     metaDescription.setAttribute('name', 'description')
-    metaDescription.setAttribute('content', '⭐ Best escorts service Saket, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in upscale area 💯 Elite escorts service ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Best escorts service Saket with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in upscale area 💯 Elite escorts service Saket ☎️ +91-9372662471')
     if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
     
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
     metaKeywords.setAttribute('name', 'keywords')
-    metaKeywords.setAttribute('content', 'escorts service saket, escorts in Saket, escorts service Indore saket, call girls in Saket, Saket escorts, escort service in Saket, upscale area escorts, elite companions Indore')
+    metaKeywords.setAttribute('content', 'escorts service saket, escorts in Saket, call girls in Saket, Saket escorts, escort service in Saket, upscale area escorts, elite companions Saket')
     if (!document.querySelector('meta[name="keywords"]')) document.head.appendChild(metaKeywords)
     
     const canonical = document.querySelector('link[rel="canonical"]') || document.createElement('link')
