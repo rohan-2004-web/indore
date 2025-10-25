@@ -8,15 +8,15 @@ export default function PalasiaPage() {
   
   // Set page metadata
   useEffect(() => {
-    document.title = 'Escorts in Palasia Indore | Premium Call Girls 24/7 | Prime Shopping District'
+    document.title = 'Escorts Service Palasia Indore | Call Girls 24/7 | Prime Shopping District'
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
     metaDescription.setAttribute('name', 'description')
-    metaDescription.setAttribute('content', '⭐ Best escorts in Palasia, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in shopping district 💯 Safe service ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Best escorts service Palasia, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in shopping district 💯 Safe escorts service Palasia ☎️ +91-9372662471')
     if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
     
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
     metaKeywords.setAttribute('name', 'keywords')
-    metaKeywords.setAttribute('content', 'escorts in Palasia, escorts in Palasia Indore, call girls in Palasia, Palasia escorts, escort service in Palasia, shopping district escorts, high-class companions Indore')
+    metaKeywords.setAttribute('content', 'escorts service palasia, escorts in Palasia, escorts service Indore palasia, call girls in Palasia, Palasia escorts, escort service in Palasia, shopping district escorts, escorts service palasia indore')
     if (!document.querySelector('meta[name="keywords"]')) document.head.appendChild(metaKeywords)
     
     const canonical = document.querySelector('link[rel="canonical"]') || document.createElement('link')
@@ -271,19 +271,19 @@ export default function PalasiaPage() {
             </div>
 
             <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-10 leading-tight tracking-tight drop-shadow-2xl">
-              Palasia Escorts
+              Escorts Service Palasia
               <br />
               <span className="text-5xl md:text-7xl bg-gradient-to-r from-orange-600 via-pink-600 to-orange-600 bg-clip-text text-transparent">
-                Residential Elite
+                Prime Shopping District
               </span>
             </h1>
 
             <div className="max-w-5xl mx-auto mb-12">
               <p className="text-2xl md:text-4xl text-gray-800 font-bold leading-relaxed mb-4">
-                Premium Companions in Palasia with Upscale residential area
+                Escorts Service Palasia Indore | Call Girls Available 24/7
               </p>
               <p className="text-xl md:text-2xl text-gray-700 font-medium leading-relaxed">
-                Corporate events • Business meetings • Social gatherings • Professional companionship • Elite services across Palasia
+                ⭐ Best escorts service Palasia with verified call girls & VIP escorts in prime shopping district area 🔥 Professional escorts service available 24/7 💯 Safe & discreet service ☎️ +91-9372662471 • Corporate events • Business meetings • Social gatherings • Professional companionship • Elite services across Palasia
               </p>
             </div>
 
