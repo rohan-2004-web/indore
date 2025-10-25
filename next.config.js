@@ -32,10 +32,12 @@ const nextConfig = {
     minimumCacheTTL: 31536000, // 1 year cache
     dangerouslyAllowSVG: false,
     deviceSizes: [640, 750, 828, 1080, 1200],
-    imageSizes: [16, 32, 48, 64, 96, 128],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256],
     domains: ['saumyakapoor.in'],
     loader: 'default',
     unoptimized: false,
+    contentDispositionType: 'inline',
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     remotePatterns: [
       {
         protocol: 'https',

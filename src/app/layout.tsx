@@ -269,6 +269,15 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="//fonts.googleapis.com" />
         <link rel="dns-prefetch" href="//fonts.gstatic.com" />
         
+        {/* Preload Hero Image - CRITICAL FOR LCP */}
+        <link 
+          rel="preload" 
+          as="image" 
+          href="/images/hero/escorts-service-indore-hero.webp" 
+          fetchPriority="high"
+          type="image/webp"
+        />
+        
         {/* Preload critical resources */}
         <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
         
