@@ -11,7 +11,7 @@ export default function BombayHospitalPage() {
     document.title = 'Escorts Service Bombay Hospital Indore | Call Girls 24/7 | Medical District'
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
     metaDescription.setAttribute('name', 'description')
-    metaDescription.setAttribute('content', '⭐ Best escorts service near Bombay Hospital with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in medical area 💯 Discreet escorts service ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Best escorts service Bombay Hospital with 500+ verified call girls & VIP escorts 🔥 escorts service Bombay Hospital available 24/7 in medical area 💯 escorts service Bombay Hospital ☎️ +91-9372662471')
     if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
     
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')

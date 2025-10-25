@@ -18,7 +18,7 @@ export default function VijayNagarPage() {
       metaDescription.setAttribute('name', 'description')
       document.head.appendChild(metaDescription)
     }
-    metaDescription.setAttribute('content', '⭐ Best escorts service Vijay Nagar with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in central business district 💯 Safe escorts service Vijay Nagar ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Best escorts service Vijay Nagar with 500+ verified call girls & VIP escorts 🔥 escorts service Vijay Nagar available 24/7 in central business district 💯 escorts service Vijay Nagar ☎️ +91-9372662471')
     
     // Update meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]')

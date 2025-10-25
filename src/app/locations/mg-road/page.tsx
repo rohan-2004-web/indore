@@ -11,7 +11,7 @@ export default function MGRoadPage() {
     document.title = 'Escorts Service MG Road Indore | Call Girls 24/7 | Shopping Area'
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
     metaDescription.setAttribute('name', 'description')
-    metaDescription.setAttribute('content', '⭐ Best escorts service MG Road with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in premium area 💯 Safe escorts service MG Road ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Best escorts service MG Road with 500+ verified call girls & VIP escorts 🔥 escorts service MG Road available 24/7 in premium area 💯 Safe escorts service MG Road ☎️ +91-9372662471')
     if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
     
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
