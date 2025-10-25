@@ -772,10 +772,11 @@ export default function HomePageContent() {
                       height="100%" 
                       style={{border: 0}} 
                       allowFullScreen={true}
-                      loading="lazy" 
+                      loading="eager" 
                       referrerPolicy="no-referrer-when-downgrade"
-                      title="Indore Location Map - Premium Escort Services" 
+                      title="Indore Location Map - Escorts Service Indore" 
                       className="rounded-xl"
+                      allow="geolocation"
                     ></iframe>
                   </div>
                   
