@@ -160,9 +160,9 @@ export default function HomePageContent() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "@id": "https://saumyakapoor.in/#localbusiness",
-            "name": "Saumya Kapoor - Indore Premium Escort Service",
+            "name": "Escorts Service Indore - Saumya Kapoor",
             "alternateName": "Indore Call Girls Service",
-            "description": "Top-rated escort service in Indore with premium call girls available 24/7. Professional VIP companions serving all major locations in Indore.",
+            "description": "Top-rated escorts service Indore with call girls available 24/7. Professional VIP companions serving all major locations in Indore.",
             "url": "https://saumyakapoor.in",
             "telephone": "+919372662471",
             "address": {
@@ -302,7 +302,7 @@ export default function HomePageContent() {
                   id="hero-heading"
                   className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-6 sm:mb-8 md:mb-10 leading-tight tracking-tight drop-shadow-2xl px-2"
                 >
-                  Indore Escort Service | Premium Call Girls 24/7 | #1 Rated Agency
+                  Escorts Service Indore | Call Girls 24/7 | #1 Rated Agency
                 </h1>
                 
                 {/* Mobile-Friendly Subheading with badges */}
@@ -312,9 +312,9 @@ export default function HomePageContent() {
                   </h2>
                   
                   <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-gray-700 font-medium leading-relaxed max-w-6xl mx-auto mb-6 sm:mb-8 md:mb-10 px-3 sm:px-4">
-                    ⭐ <strong>Premium Indore escort service</strong> with 5000+ verified call girls & VIP escorts available 24/7. 
+                    ⭐ <strong>Escorts service Indore</strong> with 5000+ verified call girls & VIP escorts available 24/7. 
                     Professional <strong>escorts in Indore</strong> serving Vijay Nagar, AB Road, Palasia. 
-                    Book premium <strong>Indore call girls</strong> now: <strong className="text-pink-700">+91-9372662471</strong>
+                    Book <strong>escorts service Indore</strong> now: <strong className="text-pink-700">+91-9372662471</strong>
                   </p>
                   
                   {/* Mobile-Responsive Feature badges */}
