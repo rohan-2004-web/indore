@@ -8,15 +8,15 @@ export default function BombayHospitalPage() {
   
   // Set page metadata
   useEffect(() => {
-    document.title = 'Escorts in Bombay Hospital Area Indore | Premium Call Girls 24/7 | Medical District'
+    document.title = 'Escorts Service Bombay Hospital Indore | Call Girls 24/7 | Medical District'
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
     metaDescription.setAttribute('name', 'description')
-    metaDescription.setAttribute('content', '⭐ Best escorts near Bombay Hospital, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in medical area 💯 Discreet service ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Best escorts service near Bombay Hospital, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in medical area 💯 Discreet escorts service ☎️ +91-9372662471')
     if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
     
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
     metaKeywords.setAttribute('name', 'keywords')
-    metaKeywords.setAttribute('content', 'escorts near Bombay Hospital, escorts in Bombay Hospital Indore, call girls near Bombay Hospital, Bombay Hospital escorts, medical district escorts, discreet companions Indore')
+    metaKeywords.setAttribute('content', 'escorts service bombay hospital, escorts near Bombay Hospital, escorts service Indore bombay hospital, call girls near Bombay Hospital, Bombay Hospital escorts, medical district escorts, discreet companions Indore')
     if (!document.querySelector('meta[name="keywords"]')) document.head.appendChild(metaKeywords)
     
     const canonical = document.querySelector('link[rel="canonical"]') || document.createElement('link')

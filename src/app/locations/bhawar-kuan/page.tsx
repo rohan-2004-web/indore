@@ -8,15 +8,15 @@ export default function ABRoadPage() {
   
   // Set page metadata
   useEffect(() => {
-    document.title = 'Escorts in Bhawar Kuan Indore | Premium Call Girls 24/7 | Central Hub'
+    document.title = 'Escorts Service Bhawar Kuan Indore | Call Girls 24/7 | Central Hub'
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
     metaDescription.setAttribute('name', 'description')
-    metaDescription.setAttribute('content', '⭐ Best escorts in Bhawar Kuan, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in central area 💯 Safe service ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Best escorts service Bhawar Kuan, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in central area 💯 Safe escorts service Bhawar Kuan ☎️ +91-9372662471')
     if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
     
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
     metaKeywords.setAttribute('name', 'keywords')
-    metaKeywords.setAttribute('content', 'escorts in Bhawar Kuan, escorts in Bhawar Kuan Indore, call girls in Bhawar Kuan, Bhawar Kuan escorts, escort service in Bhawar Kuan, central area escorts, Indore center companions')
+    metaKeywords.setAttribute('content', 'escorts service bhawar kuan, escorts in Bhawar Kuan, escorts service Indore bhawar kuan, call girls in Bhawar Kuan, escorts service bhawar kuan indore')
     if (!document.querySelector('meta[name="keywords"]')) document.head.appendChild(metaKeywords)
     
     const canonical = document.querySelector('link[rel="canonical"]') || document.createElement('link')

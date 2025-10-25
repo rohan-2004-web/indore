@@ -9,7 +9,7 @@ export default function VijayNagarPage() {
 
   // Set page metadata
   useEffect(() => {
-    document.title = 'Escorts in Vijay Nagar Indore | Premium Call Girls 24/7 | VIP Service'
+    document.title = 'Escorts Service Vijay Nagar Indore | Call Girls 24/7 | VIP Service'
     
     // Update meta description
     let metaDescription = document.querySelector('meta[name="description"]')
@@ -18,7 +18,7 @@ export default function VijayNagarPage() {
       metaDescription.setAttribute('name', 'description')
       document.head.appendChild(metaDescription)
     }
-    metaDescription.setAttribute('content', '⭐ Best escorts in Vijay Nagar, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in central business district 💯 Safe, discreet service ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Best escorts service Vijay Nagar, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 in central business district 💯 Safe escorts service Vijay Nagar ☎️ +91-9372662471')
     
     // Update meta keywords
     let metaKeywords = document.querySelector('meta[name="keywords"]')
@@ -27,7 +27,7 @@ export default function VijayNagarPage() {
       metaKeywords.setAttribute('name', 'keywords')
       document.head.appendChild(metaKeywords)
     }
-    metaKeywords.setAttribute('content', 'escorts in Vijay Nagar, escorts in Vijay Nagar Indore, call girls in Vijay Nagar, Vijay Nagar escorts, escort service in Vijay Nagar, VIP escorts Vijay Nagar, premium call girls Vijay Nagar, Vijay Nagar call girls 24/7, commercial center escorts, business district escorts Indore')
+    metaKeywords.setAttribute('content', 'escorts service vijay nagar, escorts in Vijay Nagar, escorts service Indore vijay nagar, call girls in Vijay Nagar, Vijay Nagar escorts, escorts service vijay nagar indore')
     
     // Update canonical URL
     let canonical = document.querySelector('link[rel="canonical"]')

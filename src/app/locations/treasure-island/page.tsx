@@ -8,15 +8,15 @@ export default function TreasureIslandPage() {
   
   // Set page metadata
   useEffect(() => {
-    document.title = 'Escorts in Treasure Island Indore | Premium Call Girls 24/7 | Mall Area'
+    document.title = 'Escorts Service Treasure Island Indore | Call Girls 24/7 | Mall Area'
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
     metaDescription.setAttribute('name', 'description')
-    metaDescription.setAttribute('content', '⭐ Best escorts in Treasure Island, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 near mall 💯 Safe service ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Best escorts service Treasure Island, Indore with 500+ verified call girls & VIP escorts 🔥 Available 24/7 near mall 💯 Safe escorts service ☎️ +91-9372662471')
     if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
     
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
     metaKeywords.setAttribute('name', 'keywords')
-    metaKeywords.setAttribute('content', 'escorts in Treasure Island, escorts in Treasure Island Indore, call girls in Treasure Island, Treasure Island escorts, escort service in Treasure Island, mall area escorts, shopping center companions Indore')
+    metaKeywords.setAttribute('content', 'escorts service treasure island, escorts in Treasure Island, escorts service Indore treasure island, call girls in Treasure Island, Treasure Island escorts, escort service in Treasure Island, mall area escorts, shopping center companions Indore')
     if (!document.querySelector('meta[name="keywords"]')) document.head.appendChild(metaKeywords)
     
     const canonical = document.querySelector('link[rel="canonical"]') || document.createElement('link')
