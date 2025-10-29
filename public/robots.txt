@@ -4,14 +4,12 @@ Allow: /
 # Primary Sitemap
 Sitemap: https://saumyakapoor.in/sitemap.xml
 
-# Block only sensitive directories
+# Block sensitive directories only
 Disallow: /api/
-Disallow: /admin/
 Disallow: /_next/
 Disallow: /private/
 
-# Explicitly allow all important pages for maximum indexing
-Allow: /
+# Allow all important pages for maximum indexing
 Allow: /services/
 Allow: /locations/
 Allow: /gallery/
@@ -34,5 +32,5 @@ Allow: /locations/palasia
 Allow: /locations/bhawar-kuan
 Allow: /locations/saket
 
-# For Google Search Console
+# Search Console Verification
 # Host: saumyakapoor.in
