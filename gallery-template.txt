@@ -1,0 +1,55 @@
+const galleryData = [
+  { title: "Celebrity Escorts", image: "/images/services/Celebrity Escorts.webp", link: "/services/celebrity-escorts", color: "pink" },
+  { title: "VIP Escorts", image: "/images/services/VIP Escorts.jpg", link: "/services/vip-escorts", color: "blue" },
+  { title: "Premium Models", image: "/images/services/Premium Models.jpg", link: "/services/premium-models", color: "orange" },
+  { title: "College Girls", image: "/images/services/College Girls.webp", link: "/services/college-girls", color: "purple" },
+  { title: "Housewife Escorts", image: "/images/services/Housewife Escorts.jpg", link: "/services/housewife-escorts", color: "green" },
+  { title: "Punjabi Women", image: "/images/services/Punjabi women.webp", link: "/services/punjabi-women", color: "red" },
+  { title: "Slim Escorts", image: "/images/services/Slim Escorts.webp", link: "/services/slim-escorts", color: "teal" },
+  { title: "Unsatisfied Bhabhi", image: "/images/services/Unsatisfied Bhabhi.webp", link: "/services/unsatisfied-bhabhi", color: "indigo" },
+  { title: "Local Beauties", image: "/images/services/Local Beauties.webp", link: "/services/local-beauties", color: "pink" },
+  { title: "Event Companion", image: "/images/services/Event Companion.webp", link: "/services/event-companion", color: "yellow" },
+  { title: "Pink Special", image: "/images/services/Pink Special.webp", link: "/services/pink-special", color: "rose" },
+  { title: "Unsatisfied Females", image: "/images/services/Unsatisfied Females.webp", link: "/services/unsatisfied-females", color: "violet" },
+  { title: "Incall Escorts", image: "/images/services/Incall Escorts.webp", link: "/services/incall-escorts", color: "blue" },
+  { title: "Mature Escorts", image: "/images/services/Mature Escorts.webp", link: "/services/mature-escorts", color: "amber" },
+  { title: "Young Girls", image: "/images/services/Young Girls.webp", link: "/services/young-girls", color: "emerald" },
+  { title: "Indore Escorts", image: "/images/services/indore escorts.webp", link: "/services/indore-escorts", color: "indigo" },
+  { title: "Expert Services", image: "/images/services/Expert Services.webp", link: "/services/expert-services", color: "cyan" },
+  { title: "High Class Models", image: "/images/services/High Class Models.webp", link: "/services/high-class-models", color: "purple" },
+  { title: "Bold Girls", image: "/images/services/bold girls.webp", link: "/services/bold-girls", color: "red" },
+  { title: "Sexy Girls", image: "/images/services/sexy girls.webp", link: "/services/sexy-girls", color: "pink" }
+];
+
+        {/* Gallery Grid Section */}
+        <section className="py-16 bg-gradient-to-br from-pink-200/70 via-orange-100/60 to-pink-300/70">
+          <div className="w-full px-4">
+            <div className="text-center mb-12">
+              <h2 className="text-4xl font-bold bg-gradient-to-r from-pink-600 via-orange-500 to-pink-700 bg-clip-text text-transparent mb-4">
+                Our Premium Services
+              </h2>
+              <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                Explore our comprehensive collection of premium escort services in Indore.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 max-w-6xl mx-auto">
+              
+              {galleryData.map((item, index) => (
+                <div key={index} className={`bg-white/95 backdrop-blur-md rounded-2xl shadow-xl p-4 border border-${item.color}-100/50 text-center transform hover:-translate-y-2 transition-all duration-300 flex flex-col`}>
+                  <div className="w-full h-48 mb-3 rounded-xl overflow-hidden shadow-md">
+                    <img src={item.image} alt={item.title} className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300" />
+                  </div>
+                  <h3 className="text-sm font-bold text-gray-800 mb-2">{item.title}</h3>
+                  <div className="flex-grow mb-3">
+                    <p className="text-xs text-gray-600">Premium companionship service</p>
+                  </div>
+                  <a href={item.link} className={`inline-block bg-gradient-to-r from-${item.color}-500 to-${item.color}-600 text-white px-4 py-2 rounded-lg font-bold text-xs hover:scale-105 transition-transform shadow-lg`}>
+                    Book Now
+                  </a>
+                </div>
+              ))}
+
+            </div>
+          </div>
+        </section>

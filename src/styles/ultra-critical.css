@@ -1,0 +1,14 @@
+/* Ultra-Minimal Critical CSS - Only Above-the-Fold Essentials */
+*{box-sizing:border-box;margin:0;padding:0}
+html{line-height:1.15}
+body{font-family:system-ui,-apple-system,sans-serif;font-size:16px;color:#1f2937}
+.hero-section{background:linear-gradient(135deg,#ec4899,#3b82f6);color:#fff;padding:2rem 1rem;text-align:center;min-height:60vh;display:flex;align-items:center;justify-content:center;flex-direction:column}
+.hero-title{font-size:clamp(1.8rem,5vw,3.5rem);font-weight:700;margin-bottom:1rem;line-height:1.2}
+.hero-subtitle{font-size:clamp(1rem,3vw,1.25rem);margin-bottom:2rem;opacity:0.95}
+.btn-primary{background:#fff;color:#ec4899;padding:0.75rem 2rem;border:none;border-radius:9999px;font-weight:600;text-decoration:none;display:inline-block;transition:transform 0.2s}
+.btn-primary:hover{transform:translateY(-2px)}
+.container{max-width:1200px;margin:0 auto;padding:0 1rem}
+.text-center{text-align:center}
+.mb-4{margin-bottom:1rem}
+.mb-8{margin-bottom:2rem}
+@media(max-width:768px){.hero-section{padding:1.5rem 1rem;min-height:50vh}}

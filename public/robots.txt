@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+
+# Primary Sitemap
+Sitemap: https://saumyakapoor.in/sitemap.xml
+
+# Block sensitive directories only
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow all important pages for maximum indexing
+Allow: /services/
+Allow: /locations/
+Allow: /gallery/
+Allow: /contact/
+Allow: /about/
+Allow: /privacy/
+Allow: /terms/
+
+# Allow specific high-priority service pages
+Allow: /services/indore-escorts
+Allow: /services/call-girl
+Allow: /services/vip-escorts
+Allow: /services/celebrity-escorts
+Allow: /services/college-girls
+
+# Allow specific high-priority location pages  
+Allow: /locations/vijay-nagar
+Allow: /locations/ab-road
+Allow: /locations/palasia
+Allow: /locations/bhawar-kuan
+Allow: /locations/saket
+
+# Search Console Verification
+# Host: saumyakapoor.in

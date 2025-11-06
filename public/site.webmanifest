@@ -1,0 +1,79 @@
+{
+  "name": "Saumya Kapoor - Premium Escort Service in Indore",
+  "short_name": "Saumya Kapoor",
+  "description": "Premium escort service in Indore with 24/7 availability and top-rated call girls - Saumya Kapoor",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdf2f8",
+  "theme_color": "#ec4899",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "categories": ["lifestyle", "entertainment"],
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "32x32 64x64 128x128 192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Services",
+      "short_name": "Services",
+      "description": "View our premium services",
+      "url": "/services",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "16x16"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Get in touch with us",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "16x16"
+        }
+      ]
+    },
+    {
+      "name": "Locations",
+      "short_name": "Locations",
+      "description": "Service areas in Indore",
+      "url": "/locations/ab-road",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "16x16"
+        }
+      ]
+    }
+  ]
+}
