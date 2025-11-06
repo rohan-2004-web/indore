@@ -1,3 +1,21 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'About Us | Most Trusted Escort Service In Indore | Saumya Kapoor',
+  description: 'Learn about Indore\'s most trusted escort service with 5000+ verified call girls. Professional, discreet, and reliable escort service since years. Call +91-9372662471',
+  keywords: 'about escort service indore, trusted call girls service, professional escorts indore, verified escort service, saumya kapoor about',
+  robots: 'index, follow',
+  openGraph: {
+    title: 'About Us | Most Trusted Escort Service In Indore',
+    description: 'Learn about Indore\'s most trusted escort service with verified call girls and professional companions',
+    url: 'https://saumyakapoor.in/about',
+    type: 'website'
+  },
+  alternates: {
+    canonical: 'https://saumyakapoor.in/about'
+  }
+}
+
 export default function AboutPage() {
   const locations = [
     { name: "Vijay Nagar", description: "Central Business District", emoji: "🏢" },

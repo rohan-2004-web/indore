@@ -1,3 +1,21 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Escort Gallery | Verified Call Girls Photos In Indore | Saumya Kapoor',
+  description: 'Browse verified escort gallery with authentic photos of call girls in Indore. 5000+ verified profiles with genuine pictures. View our premium escort collection.',
+  keywords: 'escort gallery indore, call girls photos, verified escort pictures, indore escorts gallery, authentic escort photos, call girls gallery',
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Escort Gallery | Verified Call Girls Photos In Indore',
+    description: 'Browse verified escort gallery with authentic photos of call girls in Indore',
+    url: 'https://saumyakapoor.in/gallery',
+    type: 'website'
+  },
+  alternates: {
+    canonical: 'https://saumyakapoor.in/gallery'
+  }
+}
+
 export default function GalleryPage() {
   const services = [
     {

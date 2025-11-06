@@ -1,3 +1,21 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Escort Services In Indore | VIP Call Girls Available 24/7 | Saumya Kapoor',
+  description: 'Professional escort services in Indore with verified VIP call girls, independent escorts, and celebrity companions available 24/7. Book now +91-9372662471',
+  keywords: 'escort services indore, call girls service indore, vip escorts indore, independent escorts indore, celebrity escorts indore, professional escort service',
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Escort Services In Indore | VIP Call Girls Available 24/7',
+    description: 'Professional escort services in Indore with verified companions available 24/7',
+    url: 'https://saumyakapoor.in/services',
+    type: 'website'
+  },
+  alternates: {
+    canonical: 'https://saumyakapoor.in/services'
+  }
+}
+
 export default function ServicesPage() {
   const services = [
     {

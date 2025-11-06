@@ -1,3 +1,27 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: '🔥 Escorts In Indore | #1 Call Girls Service 24/7 ⭐ 5000+ Verified | Saumya Kapoor',
+  description: '🌟 #1 Escorts In Indore with 5000+ verified call girls ⚡ Available 24/7 in all areas 🔒 100% discreet ☎️ +919372662471 instant booking',
+  keywords: 'escorts in indore, call girls indore, indore escorts, vip escorts indore, independent escorts indore, call girls service indore, best escorts indore',
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Escorts In Indore | #1 Call Girls Service 24/7',
+    description: '#1 Escorts In Indore with 5000+ verified call girls & VIP companions available 24/7',
+    url: 'https://saumyakapoor.in',
+    type: 'website',
+    images: [{
+      url: 'https://saumyakapoor.in/images/services/escorts-in-indore.webp',
+      width: 1200,
+      height: 630,
+      alt: 'Escorts In Indore Service'
+    }]
+  },
+  alternates: {
+    canonical: 'https://saumyakapoor.in'
+  }
+}
+
 export default function Home() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
@@ -13,9 +37,9 @@ export default function Home() {
         </p>
       </div>
 
-      {/* Premium Services Section */}
+      {/* Services Section */}
       <div className="mb-12">
-        <h2 className="text-3xl font-bold text-center mb-8">Premium Escorts In Indore - Our Services</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">Escorts In Indore - Our Services</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-white rounded-lg shadow-lg p-6 text-center">
             <h3 className="text-xl font-bold mb-3 text-pink-600">VIP Escorts In Indore</h3>

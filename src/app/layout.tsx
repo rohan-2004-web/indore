@@ -1,13 +1,22 @@
-import React from 'react'
+import type { Metadata } from 'next'
 import './globals.css'
 import Link from 'next/link'
-import { escortsInIndoreSchema } from '@/utils/escortsInIndoreSchema'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: '🔥 Escorts In Indore | #1 Call Girls Service 24/7 ⭐ 5000+ Verified | Saumya Kapoor',
-  description: '🌟 #1 Escorts In Indore with 5000+ verified call girls & VIP companions ⚡ Available 24/7 in Vijay Nagar, Palasia, AB Road 🔒 100% discreet ☎️ +919372662471 instant booking',
+  description: '🌟 #1 Escorts In Indore with 5000+ verified call girls ⚡ Available 24/7 in all areas 🔒 100% discreet ☎️ +919372662471 instant booking',
   keywords: 'escorts in indore, call girls indore, indore escorts, vip escorts indore, independent escorts indore, call girls service indore, saumya kapoor escorts',
-  robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
     title: 'Escorts In Indore | #1 Call Girls Service 24/7',
     description: '#1 Escorts In Indore with 5000+ verified call girls & VIP companions available 24/7',
@@ -16,6 +25,17 @@ export const metadata = {
     locale: 'en_IN',
     type: 'website',
   },
+  alternates: {
+    canonical: 'https://saumyakapoor.in'
+  },
+  verification: {
+    google: 'escorts-in-indore-verification'
+  },
+  other: {
+    'geo.region': 'IN-MP',
+    'geo.placename': 'Indore',
+    'ICBM': '22.7196, 75.8577'
+  }
 }
 
 export default function RootLayout({

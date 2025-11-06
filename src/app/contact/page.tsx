@@ -1,3 +1,21 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Contact Us | Book Escorts In Indore | Instant Booking +91-9372662471',
+  description: 'Contact us to book escorts in Indore. Instant booking via phone +91-9372662471 or WhatsApp. 24/7 customer support for call girls service in Indore.',
+  keywords: 'contact escort service indore, book escorts indore, call girls booking, instant booking indore, escort service contact, +919372662471',
+  robots: 'index, follow',
+  openGraph: {
+    title: 'Contact Us | Book Escorts In Indore | Instant Booking',
+    description: 'Contact us to book escorts in Indore. Instant booking via phone or WhatsApp',
+    url: 'https://saumyakapoor.in/contact',
+    type: 'website'
+  },
+  alternates: {
+    canonical: 'https://saumyakapoor.in/contact'
+  }
+}
+
 export default function ContactPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
