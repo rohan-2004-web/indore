@@ -1,9 +1,21 @@
+import React from 'react'
 import './globals.css'
 import Link from 'next/link'
+import { escortsInIndoreSchema } from '@/utils/escortsInIndoreSchema'
 
 export const metadata = {
-  title: 'Escort Services In Indore',
-  description: 'Professional escort services in Indore with verified companions available 24/7.',
+  title: '🔥 Escorts In Indore | #1 Call Girls Service 24/7 ⭐ 5000+ Verified | Saumya Kapoor',
+  description: '🌟 #1 Escorts In Indore with 5000+ verified call girls & VIP companions ⚡ Available 24/7 in Vijay Nagar, Palasia, AB Road 🔒 100% discreet ☎️ +919372662471 instant booking',
+  keywords: 'escorts in indore, call girls indore, indore escorts, vip escorts indore, independent escorts indore, call girls service indore, saumya kapoor escorts',
+  robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
+  openGraph: {
+    title: 'Escorts In Indore | #1 Call Girls Service 24/7',
+    description: '#1 Escorts In Indore with 5000+ verified call girls & VIP companions available 24/7',
+    url: 'https://saumyakapoor.in',
+    siteName: 'Escorts In Indore - Saumya Kapoor',
+    locale: 'en_IN',
+    type: 'website',
+  },
 }
 
 export default function RootLayout({
@@ -13,6 +25,46 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script 
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "Escorts In Indore - Saumya Kapoor Service",
+              "description": "Premium escorts in Indore with 5000+ verified call girls and VIP companions available 24/7",
+              "url": "https://saumyakapoor.in",
+              "telephone": "+919372662471",
+              "priceRange": "₹₹₹",
+              "openingHours": "Mo-Su 00:00-23:59",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Indore",
+                "addressRegion": "Madhya Pradesh",
+                "addressCountry": "IN",
+                "postalCode": "452001"
+              },
+              "areaServed": [
+                {"@type": "Place", "name": "Vijay Nagar, Indore"},
+                {"@type": "Place", "name": "Palasia, Indore"},
+                {"@type": "Place", "name": "AB Road, Indore"},
+                {"@type": "Place", "name": "Saket, Indore"}
+              ],
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "2847",
+                "bestRating": "5"
+              }
+            })
+          }}
+        />
+        <link rel="canonical" href="https://saumyakapoor.in" />
+        <meta name="geo.region" content="IN-MP" />
+        <meta name="geo.placename" content="Indore" />
+        <meta name="ICBM" content="22.7196, 75.8577" />
+      </head>
       <body className="min-h-screen bg-gradient-to-br from-pink-50 to-orange-50">
         <nav className="bg-white shadow-lg">
           <div className="max-w-7xl mx-auto px-4">

@@ -195,6 +195,51 @@ export default function ServicesPage() {
           </div>
         </div>
       </div>
+
+      {/* SEO Content Section */}
+      <div className="mt-16 mb-12">
+        <div className="bg-white rounded-lg shadow-lg p-8">
+          <h2 className="text-3xl font-bold mb-6 text-center text-gray-800">About Our Escort Services In Indore</h2>
+          <div className="prose max-w-none">
+            <p className="text-gray-700 mb-4">
+              Welcome to the most comprehensive <strong>escort services in Indore</strong>, where luxury meets discretion. 
+              Our premium <strong>call girls in Indore</strong> service features over 5000+ verified profiles of professional 
+              companions available 24/7 across all major locations including Vijay Nagar, Palasia, AB Road, and Saket.
+            </p>
+            <p className="text-gray-700 mb-4">
+              We specialize in providing top-tier <strong>escorts in Indore</strong> for various occasions - from intimate 
+              companionship to business events and social gatherings. All our <strong>VIP escorts Indore</strong> undergo 
+              strict verification processes to ensure authenticity and maintain our reputation as the city's most trusted service provider.
+            </p>
+            
+            <h3 className="text-2xl font-bold mt-8 mb-4 text-pink-600">Why Choose Our Escorts Service Indore?</h3>
+            <ul className="list-disc list-inside text-gray-700 mb-4 space-y-2">
+              <li><strong>Verified Profiles:</strong> All escorts in Indore are 100% verified with authentic photos</li>
+              <li><strong>24/7 Availability:</strong> Round-the-clock service for instant booking and confirmation</li>
+              <li><strong>Complete Discretion:</strong> Your privacy and confidentiality are our top priorities</li>
+              <li><strong>All Areas Covered:</strong> Service available across entire Indore with home/hotel visits</li>
+              <li><strong>Instant Booking:</strong> Quick WhatsApp and phone booking for immediate companionship</li>
+            </ul>
+
+            <h3 className="text-2xl font-bold mt-8 mb-4 text-pink-600">Service Areas - Escorts In Indore Coverage</h3>
+            <p className="text-gray-700 mb-4">
+              Our <strong>independent escorts Indore</strong> service covers all prime locations: Vijay Nagar, Palasia, 
+              AB Road, Saket, Scheme 78, Bhawar Kuan, Airport Road, Ring Road, MR 10, and surrounding areas. 
+              Whether you need <strong>call girls service Indore</strong> for business or personal companionship, 
+              we ensure prompt service delivery with complete satisfaction guarantee.
+            </p>
+
+            <div className="bg-gradient-to-br from-pink-50 to-orange-50 p-6 rounded-lg mt-6">
+              <h4 className="text-xl font-bold text-pink-600 mb-3">Book Escorts In Indore - Contact Information</h4>
+              <p className="text-gray-700">
+                Ready to experience premium <strong>escorts in Indore</strong> service? Call +91 9372662471 or WhatsApp 
+                for instant booking with verified companions. Our professional <strong>call girls in Indore</strong> are 
+                available 24/7 for immediate confirmation and exceptional service delivery.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
