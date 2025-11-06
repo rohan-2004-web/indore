@@ -24,18 +24,31 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
-      <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-pink-500 to-orange-500 bg-clip-text text-transparent">
+    <>
+      {/* Hero Section */}
+      <div className="bg-gradient-to-r from-pink-500 to-orange-500 text-white py-16 mb-8">
+      <div className="max-w-7xl mx-auto px-4 text-center">
+        <h1 className="text-4xl md:text-6xl font-bold mb-6">
           Escorts In Indore | #1 Call Girls Service 24/7
         </h1>
-        <p className="text-lg text-gray-600 mb-8">
+        <p className="text-xl mb-8">
           🌟 #1 Escorts In Indore with 5000+ verified call girls & VIP companions available 24/7 in all major areas including Vijay Nagar, Palasia, AB Road, and Saket.
         </p>
-        <p className="text-gray-600">
+        <p className="text-lg mb-8">
           ⚡ Book escorts in Indore instantly! Premium call girls service with 100% verified profiles and complete discretion guaranteed.
         </p>
+        <div className="flex justify-center space-x-4">
+          <a href="tel:+919372662471" className="bg-white text-pink-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
+            📞 Call Now: +91 9372662471
+          </a>
+          <a href="https://wa.me/919372662471" className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition-colors">
+            💬 WhatsApp
+          </a>
+        </div>
       </div>
+    </div>
+
+    <div className="max-w-7xl mx-auto px-4 py-8">
 
       {/* Services Section */}
       <div className="mb-12">
@@ -188,5 +201,6 @@ export default function Home() {
         </div>
       </div>
     </div>
+    </>
   )
 }

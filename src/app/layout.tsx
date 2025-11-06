@@ -90,27 +90,27 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-4">
             <div className="flex justify-between h-16">
               <div className="flex items-center">
-                <Link href="/" className="text-2xl font-bold text-primary-pink">
+                <Link href="/" className="text-2xl font-bold text-pink-600">
                   Saumya Kapoor
                 </Link>
               </div>
               <div className="flex items-center space-x-8">
-                <Link href="/" className="text-gray-600 hover:text-primary-pink transition-colors">
+                <Link href="/" className="text-gray-600 hover:text-pink-600 transition-colors">
                   Home
                 </Link>
-                <Link href="/services" className="text-gray-600 hover:text-primary-pink transition-colors">
+                <Link href="/services" className="text-gray-600 hover:text-pink-600 transition-colors">
                   Services
                 </Link>
-                <Link href="/about" className="text-gray-600 hover:text-primary-pink transition-colors">
+                <Link href="/about" className="text-gray-600 hover:text-pink-600 transition-colors">
                   About
                 </Link>
-                <Link href="/gallery" className="text-gray-600 hover:text-primary-pink transition-colors">
+                <Link href="/gallery" className="text-gray-600 hover:text-pink-600 transition-colors">
                   Gallery
                 </Link>
-                <Link href="/contact" className="text-gray-600 hover:text-primary-pink transition-colors">
+                <Link href="/contact" className="text-gray-600 hover:text-pink-600 transition-colors">
                   Contact
                 </Link>
-                <a href="tel:+919372662471" className="bg-primary-pink text-white px-4 py-2 rounded-lg hover:bg-primary-pink-dark transition-colors">
+                <a href="tel:+919372662471" className="bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition-colors">
                   Call Now
                 </a>
               </div>

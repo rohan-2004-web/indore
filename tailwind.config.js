@@ -8,21 +8,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: {
-          pink: {
-            light: '#FF80AB',
-            DEFAULT: '#FF4081',
-            dark: '#F50057'
-          },
-          orange: {
-            light: '#FFB74D',
-            DEFAULT: '#FF9800',
-            dark: '#F57C00'
-          }
+        'primary-pink': {
+          light: '#FF80AB',
+          DEFAULT: '#E91E63',
+          dark: '#C2185B'
+        },
+        'primary-orange': {
+          light: '#FFB74D', 
+          DEFAULT: '#FF9800',
+          dark: '#F57C00'
         }
       },
       backgroundImage: {
-        'gradient-primary': 'linear-gradient(135deg, var(--tw-colors-primary-pink-DEFAULT) 0%, var(--tw-colors-primary-orange-DEFAULT) 100%)',
+        'gradient-primary': 'linear-gradient(135deg, #E91E63 0%, #FF9800 100%)',
       },
     },
   },
