@@ -137,7 +137,7 @@ export default function ServicesPage() {
 
       {/* Services Grid */}
       <div className="mb-12">
-        <h2 className="text-3xl font-bold text-center mb-8">Escorts In Indore - Our Services</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">Escort Services In Indore</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
