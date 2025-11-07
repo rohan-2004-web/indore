@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-pink-500 to-orange-500 text-white py-16 mb-8">
+      <div className="bg-gradient-to-r from-pink-400 to-pink-600 text-white py-16 mb-8">
       <div className="max-w-7xl mx-auto px-4 text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
           Escorts In Indore | #1 Call Girls Service 24/7
@@ -76,19 +76,19 @@ export default function Home() {
       <div className="mb-12">
         <h2 className="text-3xl font-bold text-center mb-8">Top Areas We Serve - Escorts In Indore</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <a href="/locations/vijay-nagar" className="bg-gradient-to-r from-pink-100 to-orange-100 rounded-lg p-4 text-center hover:shadow-lg transition-shadow">
+          <a href="/locations/vijay-nagar" className="bg-gradient-to-r from-pink-50 to-pink-100 rounded-lg p-4 text-center hover:shadow-lg transition-shadow">
             <h3 className="font-semibold text-pink-700">Escorts In Vijay Nagar</h3>
             <p className="text-sm text-gray-600">Central Business District</p>
           </a>
-          <a href="/locations/palasia" className="bg-gradient-to-r from-pink-100 to-orange-100 rounded-lg p-4 text-center hover:shadow-lg transition-shadow">
+          <a href="/locations/palasia" className="bg-gradient-to-r from-pink-50 to-pink-100 rounded-lg p-4 text-center hover:shadow-lg transition-shadow">
             <h3 className="font-semibold text-pink-700">Escorts In Palasia</h3>
             <p className="text-sm text-gray-600">City Center</p>
           </a>
-          <a href="/locations/ab-road" className="bg-gradient-to-r from-pink-100 to-orange-100 rounded-lg p-4 text-center hover:shadow-lg transition-shadow">
+          <a href="/locations/ab-road" className="bg-gradient-to-r from-pink-50 to-pink-100 rounded-lg p-4 text-center hover:shadow-lg transition-shadow">
             <h3 className="font-semibold text-pink-700">Escorts In AB Road</h3>
             <p className="text-sm text-gray-600">Commercial Hub</p>
           </a>
-          <a href="/locations/saket" className="bg-gradient-to-r from-pink-100 to-orange-100 rounded-lg p-4 text-center hover:shadow-lg transition-shadow">
+          <a href="/locations/saket" className="bg-gradient-to-r from-pink-50 to-pink-100 rounded-lg p-4 text-center hover:shadow-lg transition-shadow">
             <h3 className="font-semibold text-pink-700">Escorts In Saket</h3>
             <p className="text-sm text-gray-600">Residential Area</p>
           </a>
@@ -120,7 +120,7 @@ export default function Home() {
 
       {/* Call to Action */}
       <div className="text-center py-8">
-        <div className="bg-gradient-to-r from-pink-500 to-orange-500 rounded-lg shadow-lg p-8 mb-8 text-white">
+        <div className="bg-gradient-to-r from-pink-500 to-pink-700 rounded-lg shadow-lg p-8 mb-8 text-white">
           <h2 className="text-3xl font-bold mb-4">Book Escorts In Indore - Contact Now</h2>
           <p className="text-xl mb-6">
             🔥 Ready to hire escorts in Indore? Call now for instant booking with verified call girls available 24/7!
@@ -168,7 +168,7 @@ export default function Home() {
 
       {/* FAQ Section for SEO */}
       <div className="mb-12">
-        <div className="bg-gradient-to-br from-pink-50 to-orange-50 rounded-lg shadow-lg p-8">
+        <div className="bg-gradient-to-br from-pink-50 to-pink-100 rounded-lg shadow-lg p-8">
           <h2 className="text-3xl font-bold mb-8 text-center text-gray-800">Frequently Asked Questions - Escorts In Indore</h2>
           <div className="space-y-6">
             
