@@ -207,7 +207,7 @@ export default function PremiumModelsPage() {
 
               {/* Premium Model Services Offered */}
               <div className="bg-gradient-to-r from-blue-100/80 to-purple-100/80 rounded-3xl p-12">
-                <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Model Services in Indore</h2>
+                <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Premium Model Services in Indore</h2>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                   <div className="bg-white rounded-2xl p-6 shadow-lg text-center">

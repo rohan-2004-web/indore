@@ -221,7 +221,7 @@ export default function ServicesPage() {
           <div className="prose max-w-none">
             <p className="text-gray-700 mb-4">
               Welcome to the most comprehensive <strong>escort services in Indore</strong>, where luxury meets discretion. 
-              Our premium <strong>call girls in Indore</strong> service features over 5000+ verified profiles of professional 
+              Our premium <strong>call girls in Indore</strong> service features over 500+ verified profiles of professional 
               companions available 24/7 across all major locations including Vijay Nagar, Palasia, AB Road, and Saket.
             </p>
             <p className="text-gray-700 mb-4">
