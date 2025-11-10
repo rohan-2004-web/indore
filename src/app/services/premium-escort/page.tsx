@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import ServicePageTemplate from '@/components/ServicePageTemplate'
 
 const serviceData = {
-  name: 'Premium Escort Service',
+  name: 'Escort Service',
   slug: 'premium-escort',
   description: 'Premium escort services in Indore with high-class companions. Professional, elegant, and discreet service available 24/7.',
   features: [
