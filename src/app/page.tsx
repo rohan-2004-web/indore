@@ -1,13 +1,13 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: '🔥 Escorts In Indore | #1 Call Girls Service 24/7 ⭐ 5000+ Verified | Saumya Kapoor',
-  description: '🌟 #1 Escorts In Indore with 5000+ verified call girls ⚡ Available 24/7 in all areas 🔒 100% discreet ☎️ +919372662471 instant booking',
-  keywords: 'escorts in indore, call girls indore, indore escorts, vip escorts indore, independent escorts indore, call girls service indore, best escorts indore',
+  title: 'Escorts Service Indore | Call Girls 24/7 | #1 Rated Agency',
+  description: '⭐ Escorts service Indore with 5000+ verified call girls & VIP escorts available 24/7. Professional escorts in Indore serving Vijay Nagar, AB Road, Palasia.',
+  keywords: 'escorts service indore, call girls indore, indore escorts, vip escorts indore, escorts in indore, verified call girls indore',
   robots: 'index, follow',
   openGraph: {
-    title: 'Escorts In Indore | #1 Call Girls Service 24/7',
-    description: '#1 Escorts In Indore with 5000+ verified call girls & VIP companions available 24/7',
+    title: 'Escorts Service Indore | Call Girls 24/7 | #1 Rated Agency',
+    description: '5000+ verified call girls & VIP escorts available 24/7 in Indore',
     url: 'https://saumyakapoor.in',
     type: 'website',
     images: [{
@@ -26,16 +26,16 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-pink-400 to-pink-600 text-white py-16 mb-8">
+      <div className="bg-gradient-to-br from-pink-300/95 via-orange-200/90 to-pink-300/95 text-white py-16 mb-8">
       <div className="max-w-7xl mx-auto px-4 text-center">
-        <h1 className="text-4xl md:text-6xl font-bold mb-6">
-          Escorts In Indore | #1 Call Girls Service 24/7
+        <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-pink-700 via-orange-500 to-pink-700 bg-clip-text text-transparent">
+          Escorts Service Indore | Call Girls 24/7 | #1 Rated Agency
         </h1>
-        <p className="text-xl mb-8">
-          🌟 #1 Escorts In Indore with 5000+ verified call girls & VIP companions available 24/7 in all major areas including Vijay Nagar, Palasia, AB Road, and Saket.
+        <p className="text-xl mb-8 text-gray-800 font-semibold">
+          🌟 5000+ Verified Call Girls in Indore | VIP Escorts 24/7
         </p>
-        <p className="text-lg mb-8">
-          ⚡ Book escorts in Indore instantly! Premium call girls service with 100% verified profiles and complete discretion guaranteed.
+        <p className="text-lg mb-8 text-gray-700">
+          ⭐ Escorts service Indore with 5000+ verified call girls & VIP escorts available 24/7. Professional escorts in Indore serving Vijay Nagar, AB Road, Palasia. Book escorts service Indore now: +91-9372662471
         </p>
         <div className="flex justify-center space-x-4">
           <a href="tel:+919372662471" className="bg-white text-pink-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
