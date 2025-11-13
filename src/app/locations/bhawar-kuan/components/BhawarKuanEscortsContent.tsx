@@ -407,10 +407,10 @@ export default function BhawarKuanEscortsContent() {
               <h3 className="text-2xl font-bold mb-4">📞 Ready to Experience Premium Escorts in Bhawar Kuan?</h3>
               <p className="mb-6 text-lg">Connect with our rapid response team for instant access to premium companionship.</p>
               <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-                <a href="tel:+919372662471" className="bg-white text-pink-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-pink-50 transition-colors flex items-center">
-                  📞 Call: +91 9372 662 471
+                <a href="tel:+919867564994" className="bg-white text-pink-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-pink-50 transition-colors flex items-center">
+                  📞 Call: +91 9867564994
                 </a>
-                <a href="https://wa.me/919372662471" className="bg-green-500 text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-green-600 transition-colors flex items-center">
+                <a href="https://wa.me/919867564994" className="bg-green-500 text-white px-8 py-3 rounded-full font-bold text-lg hover:bg-green-600 transition-colors flex items-center">
                   💬 WhatsApp Now
                 </a>
               </div>

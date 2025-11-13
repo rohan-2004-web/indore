@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: '🔥 Escorts In Indore | #1 Call Girls Service 24/7 ⭐ 5000+ Verified | Saumya Kapoor',
-  description: '🌟 #1 Escorts In Indore with 5000+ verified call girls ⚡ Available 24/7 in all areas 🔒 100% discreet ☎️ +919372662471 instant booking',
+  description: '🌟 #1 Escorts In Indore with 5000+ verified call girls ⚡ Available 24/7 in all areas 🔒 100% discreet ☎️ +919867564994 instant booking',
   keywords: 'escorts in indore, call girls indore, indore escorts, vip escorts indore, independent escorts indore, call girls service indore, saumya kapoor escorts',
   robots: {
     index: true,
@@ -55,7 +55,7 @@ export default function RootLayout({
               "name": "Escorts In Indore - Saumya Kapoor Service",
               "description": "Premium escorts in Indore with 5000+ verified call girls and VIP companions available 24/7",
               "url": "https://saumyakapoor.in",
-              "telephone": "+919372662471",
+              "telephone": "+919867564994",
               "priceRange": "₹₹₹",
               "openingHours": "Mo-Su 00:00-23:59",
               "address": {
@@ -110,7 +110,7 @@ export default function RootLayout({
                 <Link href="/contact" className="text-gray-600 hover:text-pink-600 transition-colors">
                   Contact
                 </Link>
-                <a href="tel:+919372662471" className="bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition-colors">
+                <a href="tel:+919867564994" className="bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition-colors">
                   Call Now
                 </a>
               </div>

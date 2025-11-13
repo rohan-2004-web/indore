@@ -107,7 +107,7 @@ export default function TermsPage() {
                 For questions about these Terms of Service, contact us:
               </p>
               <ul className="list-none text-gray-700">
-                <li>📞 Phone: +91 9372662471</li>
+                <li>📞 Phone: +91 9867564994</li>
                 <li>🌐 Website: https://saumyakapoor.in</li>
                 <li>⏰ Available 24/7</li>
               </ul>

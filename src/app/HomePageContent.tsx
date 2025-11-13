@@ -47,7 +47,7 @@ export default function HomePageContent() {
     "alternateName": ["Indore Escort Service", "Call Girls in Indore", "Indore Call Girls"],
     "description": "⭐ #1 rated Indore escort service with 5000+ verified premium call girls & VIP escorts. Professional, safe & discreet service available 24/7 across all Indore locations. Book premium companions now!",
     "url": "https://saumyakapoor.in",
-    "telephone": "+919372662471",
+    "telephone": "+919867564994",
     "email": "booking@saumyakapoor.in",
     "priceRange": "₹₹₹",
     "paymentAccepted": ["Cash", "UPI", "Card"],
@@ -117,7 +117,7 @@ export default function HomePageContent() {
   const faqs = [
     {
       question: "🕐 Are your escort services available 24/7 in Indore?",
-      answer: "Yes! Our premium escort service is available 24 hours a day, 7 days a week. Whether you need a companion at midnight or early morning, we're always ready. Call +91-9372662471 anytime for instant booking."
+      answer: "Yes! Our premium escort service is available 24 hours a day, 7 days a week. Whether you need a companion at midnight or early morning, we're always ready. Call +91-9867564994 anytime for instant booking."
     },
     {
       question: "📍 Which areas in Indore do you provide escort services?",
@@ -125,7 +125,7 @@ export default function HomePageContent() {
     },
     {
       question: "📞 How do I book an escort in Indore? What's the process?",
-      answer: "Simple 3-step process: 1) Call/WhatsApp +91-9372662471, 2) Tell us your preferences (age, type, location, time), 3) We'll send verified photos and arrange the meeting. No advance payment required!"
+      answer: "Simple 3-step process: 1) Call/WhatsApp +91-9867564994, 2) Tell us your preferences (age, type, location, time), 3) We'll send verified photos and arrange the meeting. No advance payment required!"
     },
     {
       question: "🔒 Is privacy and confidentiality guaranteed for escort bookings?",
@@ -133,7 +133,7 @@ export default function HomePageContent() {
     },
     {
       question: "💰 What are the rates for escort services in Indore?",
-      answer: "Rates vary by service type: College Girls ₹8k-15k (2-3hrs), VIP Escorts ₹15k-25k (3-4hrs), Celebrity Escorts ₹20k-50k (evening), Russian Escorts ₹30k-80k (full night). Special packages available. Call +91-9372662471 for exact pricing."
+      answer: "Rates vary by service type: College Girls ₹8k-15k (2-3hrs), VIP Escorts ₹15k-25k (3-4hrs), Celebrity Escorts ₹20k-50k (evening), Russian Escorts ₹30k-80k (full night). Special packages available. Call +91-9867564994 for exact pricing."
     },
     {
       question: "✅ Are all your escorts verified? How do I know profiles are real?",
@@ -164,7 +164,7 @@ export default function HomePageContent() {
             "alternateName": "Indore Call Girls Service",
             "description": "Top-rated escorts service Indore with call girls available 24/7. Professional VIP companions serving all major locations in Indore.",
             "url": "https://saumyakapoor.in",
-            "telephone": "+919372662471",
+            "telephone": "+919867564994",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Indore",
@@ -241,7 +241,7 @@ export default function HomePageContent() {
             "logo": "https://saumyakapoor.in/logo.png",
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+919372662471",
+              "telephone": "+919867564994",
               "contactType": "customer service",
               "areaServed": "IN",
               "availableLanguage": ["Hindi", "English"]
@@ -314,7 +314,7 @@ export default function HomePageContent() {
                   <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-gray-700 font-medium leading-relaxed max-w-6xl mx-auto mb-6 sm:mb-8 md:mb-10 px-3 sm:px-4">
                     ⭐ <strong>Escorts service Indore</strong> with 5000+ verified call girls & VIP escorts available 24/7. 
                     Professional <strong>escorts in Indore</strong> serving Vijay Nagar, AB Road, Palasia. 
-                    Book <strong>escorts service Indore</strong> now: <strong className="text-pink-700">+91-9372662471</strong>
+                    Book <strong>escorts service Indore</strong> now: <strong className="text-pink-700">+91-9867564994</strong>
                   </p>
                   
                   {/* Mobile-Responsive Feature badges */}
@@ -353,15 +353,15 @@ export default function HomePageContent() {
                 {/* Mobile-Optimized CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-stretch sm:items-center mb-8 sm:mb-10 px-4">
                   <a
-                    href="tel:+919372662471"
+                    href="tel:+919867564994"
                     className="group bg-gradient-to-r from-pink-600 to-orange-600 text-white px-6 sm:px-8 md:px-12 py-4 sm:py-5 rounded-full text-base sm:text-lg md:text-xl font-bold hover:from-pink-700 hover:to-orange-700 transition-all duration-300 shadow-2xl hover:shadow-pink-500/50 transform hover:scale-105 flex items-center justify-center gap-3 active:scale-95"
                     aria-label="Call now to book escort service"
                   >
                     <span className="text-2xl sm:text-3xl group-hover:animate-bounce">📞</span>
-                    <span>Call Now: <span className="font-black">+91-9372662471</span></span>
+                    <span>Call Now: <span className="font-black">+91-9867564994</span></span>
                   </a>
                   <a
-                    href="https://wa.me/919372662471?text=Hi,%20I%20want%20to%20book%20an%20escort%20in%20Indore"
+                    href="https://wa.me/919867564994?text=Hi,%20I%20want%20to%20book%20an%20escort%20in%20Indore"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group bg-gradient-to-r from-green-600 to-green-700 text-white px-6 sm:px-8 md:px-12 py-4 sm:py-5 rounded-full text-base sm:text-lg md:text-xl font-bold hover:from-green-700 hover:to-green-800 transition-all duration-300 shadow-2xl hover:shadow-green-500/50 transform hover:scale-105 flex items-center justify-center gap-3 active:scale-95"
@@ -614,8 +614,8 @@ export default function HomePageContent() {
                   <div className="bg-gradient-to-br from-white/95 to-pink-50/95 backdrop-blur-sm rounded-2xl p-8 text-center shadow-xl border border-pink-200/50 transform hover:scale-105 transition-all duration-300">
                     <div className="text-6xl mb-4">☎️</div>
                     <h3 className="text-2xl font-bold text-gray-800 mb-4">Phone</h3>
-                    <a href="tel:+919372662471" className="text-xl text-pink-600 font-bold hover:text-pink-800 transition-colors">
-                      +91 9372 662 471
+                    <a href="tel:+919867564994" className="text-xl text-pink-600 font-bold hover:text-pink-800 transition-colors">
+                      +91 9867564994
                     </a>
                     <p className="text-gray-600 mt-2">Instant Response</p>
                   </div>
@@ -623,7 +623,7 @@ export default function HomePageContent() {
                   <div className="bg-gradient-to-br from-white/95 to-green-50/95 backdrop-blur-sm rounded-2xl p-8 text-center shadow-xl border border-green-200/50 transform hover:scale-105 transition-all duration-300">
                     <div className="text-6xl mb-4">📱</div>
                     <h3 className="text-2xl font-bold text-gray-800 mb-4">WhatsApp</h3>
-                    <a href="https://wa.me/919372662471" className="text-xl text-green-600 font-bold hover:text-green-800 transition-colors">
+                    <a href="https://wa.me/919867564994" className="text-xl text-green-600 font-bold hover:text-green-800 transition-colors">
                       Chat Now
                     </a>
                     <p className="text-gray-600 mt-2">Quick & Private</p>
@@ -949,14 +949,14 @@ export default function HomePageContent() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4">
                   <a
-                    href="tel:+919372662471"
+                    href="tel:+919867564994"
                     className="w-full sm:w-auto bg-gradient-to-r from-pink-600 to-orange-600 text-white px-6 sm:px-10 py-4 rounded-full text-base sm:text-lg font-bold hover:from-pink-700 hover:to-orange-700 transition-all duration-300 shadow-2xl hover:shadow-pink-500/50 transform hover:scale-105 flex items-center justify-center gap-3"
                   >
                     <span className="text-2xl">📞</span>
-                    Call Now: +91-9372662471
+                    Call Now: +91-9867564994
                   </a>
                   <a
-                    href="https://wa.me/919372662471"
+                    href="https://wa.me/919867564994"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-full sm:w-auto bg-gradient-to-r from-green-600 to-green-700 text-white px-6 sm:px-10 py-4 rounded-full text-base sm:text-lg font-bold hover:from-green-700 hover:to-green-800 transition-all duration-300 shadow-2xl hover:shadow-green-500/50 transform hover:scale-105 flex items-center justify-center gap-3"

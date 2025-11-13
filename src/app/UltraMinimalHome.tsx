@@ -88,7 +88,7 @@ export default function UltraMinimalHome() {
             <h2 style={{ color: '#ec4899', fontSize: '1.5rem', fontWeight: 'bold' }}>
               Saumya Kapoor
             </h2>
-            <a href="tel:+919372662471" style={{ 
+            <a href="tel:+919867564994" style={{ 
               background: '#ec4899', 
               color: 'white', 
               padding: '0.5rem 1.5rem', 
@@ -97,7 +97,7 @@ export default function UltraMinimalHome() {
               fontWeight: '600',
               fontSize: '0.9rem'
             }}>
-              📞 +919372662471
+              📞 +919867564994
             </a>
           </div>
           
@@ -147,8 +147,8 @@ export default function UltraMinimalHome() {
         <p>
           ⭐ Premium call girls in Indore 24/7 • 5000+ verified profiles • 100% discreet service
         </p>
-        <a href="tel:+919372662471" className="btn">
-          📞 Instant Booking +919372662471
+        <a href="tel:+919867564994" className="btn">
+          📞 Instant Booking +919867564994
         </a>
       </section>
 
@@ -394,7 +394,7 @@ export default function UltraMinimalHome() {
 
         {/* CTA */}
         <div style={{ marginTop: '3rem' }}>
-          <a href="tel:+919372662471" className="btn" style={{ fontSize: '1.2rem', padding: '1.2rem 3rem' }}>
+          <a href="tel:+919867564994" className="btn" style={{ fontSize: '1.2rem', padding: '1.2rem 3rem' }}>
             🚀 Book Now - Instant Response
           </a>
         </div>
@@ -410,7 +410,7 @@ export default function UltraMinimalHome() {
         <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
           <p>© 2024 Saumya Kapoor - Premium Indore Escort Service</p>
           <p style={{ marginTop: '0.5rem', opacity: 0.8 }}>
-            📞 +919372662471 • 🌐 saumyakapoor.in • 100% Professional & Discreet
+            📞 +919867564994 • 🌐 saumyakapoor.in • 100% Professional & Discreet
           </p>
         </div>
       </footer>

@@ -315,13 +315,13 @@ const RingRoadEscortsContent: React.FC = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <a 
-                href="tel:+919372662471" 
+                href="tel:+919867564994" 
                 className="inline-block bg-white text-pink-600 px-12 py-4 rounded-full font-bold text-xl hover:bg-pink-50 transition-all duration-300 transform hover:scale-105"
               >
-                📞 Call Now: +91 9372662471
+                📞 Call Now: +91 9867564994
               </a>
               <a 
-                href="https://wa.me/919372662471" 
+                href="https://wa.me/919867564994" 
                 className="inline-block bg-green-500 hover:bg-green-600 text-white px-12 py-4 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105"
               >
                 💬 WhatsApp Now

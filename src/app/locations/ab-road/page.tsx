@@ -10,7 +10,7 @@ export default function ABRoadPage() {
     document.title = 'Escorts Service AB Road Indore | Call Girls 24/7 | Commercial Hub'
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
     metaDescription.setAttribute('name', 'description')
-    metaDescription.setAttribute('content', '⭐ Best escorts service AB Road with 500+ verified call girls & VIP escorts 🔥 escorts service AB Road available 24/7 in commercial hub 💯 Safe escorts service AB Road ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Best escorts service AB Road with 500+ verified call girls & VIP escorts 🔥 escorts service AB Road available 24/7 in commercial hub 💯 Safe escorts service AB Road ☎️ +91-9867564994')
     if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
     
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')

@@ -16,7 +16,7 @@ Each page now includes:
 2. **Meta Description**: 150-160 characters with emojis for better CTR
 3. **Meta Keywords**: 6-8 relevant keywords targeting search queries
 4. **Canonical URL**: Prevents duplicate content issues
-5. **Phone Number**: Consistent +91-9372662471 across all pages
+5. **Phone Number**: Consistent +91-9867564994 across all pages
 
 ---
 

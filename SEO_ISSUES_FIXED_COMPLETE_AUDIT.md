@@ -11,17 +11,17 @@
 
 #### **Homepage (page.tsx)**
 - **Title**: '🔥 Escorts In Indore | #1 Call Girls Service 24/7 ⭐ 5000+ Verified | Saumya Kapoor'
-- **Description**: '🌟 #1 Escorts In Indore with 5000+ verified call girls ⚡ Available 24/7 in all areas 🔒 100% discreet ☎️ +919372662471 instant booking'
+- **Description**: '🌟 #1 Escorts In Indore with 5000+ verified call girls ⚡ Available 24/7 in all areas 🔒 100% discreet ☎️ +919867564994 instant booking'
 - **Length**: 141 characters (Under 160 ✅)
 
 #### **Services Page (/services)**
 - **Title**: 'Escort Services In Indore | VIP Call Girls Available 24/7 | Saumya Kapoor'
-- **Description**: 'Professional escort services in Indore with verified VIP call girls, independent escorts, and celebrity companions available 24/7. Book now +91-9372662471'
+- **Description**: 'Professional escort services in Indore with verified VIP call girls, independent escorts, and celebrity companions available 24/7. Book now +91-9867564994'
 - **Length**: 154 characters (Under 160 ✅)
 
 #### **About Page (/about)**
 - **Title**: 'About Us | Most Trusted Escort Service In Indore | Saumya Kapoor'
-- **Description**: 'Learn about Indore\'s most trusted escort service with 5000+ verified call girls. Professional, discreet, and reliable escort service since years. Call +91-9372662471'
+- **Description**: 'Learn about Indore\'s most trusted escort service with 5000+ verified call girls. Professional, discreet, and reliable escort service since years. Call +91-9867564994'
 - **Length**: 158 characters (Under 160 ✅)
 
 #### **Gallery Page (/gallery)**
@@ -30,8 +30,8 @@
 - **Length**: 159 characters (Under 160 ✅)
 
 #### **Contact Page (/contact)**
-- **Title**: 'Contact Us | Book Escorts In Indore | Instant Booking +91-9372662471'
-- **Description**: 'Contact us to book escorts in Indore. Instant booking via phone +91-9372662471 or WhatsApp. 24/7 customer support for call girls service in Indore.'
+- **Title**: 'Contact Us | Book Escorts In Indore | Instant Booking +91-9867564994'
+- **Description**: 'Contact us to book escorts in Indore. Instant booking via phone +91-9867564994 or WhatsApp. 24/7 customer support for call girls service in Indore.'
 - **Length**: 151 characters (Under 160 ✅)
 
 ### 3. **Proper Next.js 14 Metadata Structure** ✅ COMPLETED

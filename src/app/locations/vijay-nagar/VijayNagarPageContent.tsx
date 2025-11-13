@@ -53,7 +53,7 @@ export default function VijayNagarPageContent() {
   const faqs = [
     {
       question: "Are escort services available in Vijay Nagar 24/7?",
-      answer: "Yes, our premium escort services in Vijay Nagar are available round the clock. Call +919372662471 anytime for immediate assistance."
+      answer: "Yes, our premium escort services in Vijay Nagar are available round the clock. Call +919867564994 anytime for immediate assistance."
     },
     {
       question: "What makes Vijay Nagar special for escort services?",
@@ -61,7 +61,7 @@ export default function VijayNagarPageContent() {
     },
     {
       question: "How do I book escorts in Vijay Nagar?",
-      answer: "Simply call +919372662471 or WhatsApp us. Our team will help you select the perfect companion and arrange meeting in Vijay Nagar area."
+      answer: "Simply call +919867564994 or WhatsApp us. Our team will help you select the perfect companion and arrange meeting in Vijay Nagar area."
     }
   ]
 
@@ -81,10 +81,10 @@ export default function VijayNagarPageContent() {
               Premium escort services in Indore's most prestigious locality. Experience luxury companionship in Vijay Nagar's upscale environment.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="tel:+919372662471" className="bg-white text-pink-600 px-8 py-3 rounded-full font-semibold hover:bg-pink-50 transition-colors">
-                📞 Call Now: +91 9372662471
+              <a href="tel:+919867564994" className="bg-white text-pink-600 px-8 py-3 rounded-full font-semibold hover:bg-pink-50 transition-colors">
+                📞 Call Now: +91 9867564994
               </a>
-              <a href="https://wa.me/919372662471" className="bg-green-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-600 transition-colors">
+              <a href="https://wa.me/919867564994" className="bg-green-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-600 transition-colors">
                 💬 WhatsApp
               </a>
             </div>
@@ -132,10 +132,10 @@ export default function VijayNagarPageContent() {
                 Book your perfect companion in Vijay Nagar now! Our premium escort services are just a call away.
               </p>
               <div className="flex flex-wrap justify-center gap-6">
-                <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
-                  📞 Call +91 9372662471
+                <a href="tel:+919867564994" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                  📞 Call +91 9867564994
                 </a>
-                <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                <a href="https://wa.me/919867564994" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
                   💬 WhatsApp Chat
                 </a>
               </div>

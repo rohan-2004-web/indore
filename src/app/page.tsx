@@ -35,13 +35,13 @@ export default function Home() {
           🌟 5000+ Verified Call Girls in Indore | VIP Escorts 24/7
         </p>
         <p className="text-lg mb-8 text-gray-700">
-          ⭐ Escorts service Indore with 5000+ verified call girls & VIP escorts available 24/7. Professional escorts in Indore serving Vijay Nagar, AB Road, Palasia. Book escorts service Indore now: +91-9372662471
+          ⭐ Escorts service Indore with 5000+ verified call girls & VIP escorts available 24/7. Professional escorts in Indore serving Vijay Nagar, AB Road, Palasia. Book escorts service Indore now: +91-9867564994
         </p>
         <div className="flex justify-center space-x-4">
-          <a href="tel:+919372662471" className="bg-white text-pink-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
-            📞 Call Now: +91 9372662471
+          <a href="tel:+919867564994" className="bg-white text-pink-600 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition-colors">
+            📞 Call Now: +91 9867564994
           </a>
-          <a href="https://wa.me/919372662471" className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition-colors">
+          <a href="https://wa.me/919867564994" className="bg-green-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-green-600 transition-colors">
             💬 WhatsApp
           </a>
         </div>
@@ -127,13 +127,13 @@ export default function Home() {
           </p>
           <div className="flex justify-center space-x-4">
             <a 
-              href="tel:+919372662471" 
+              href="tel:+919867564994" 
               className="bg-white text-pink-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition-colors font-bold text-lg"
             >
-              📞 Call Now: +91 9372662471
+              📞 Call Now: +91 9867564994
             </a>
             <a 
-              href="https://wa.me/919372662471" 
+              href="https://wa.me/919867564994" 
               className="bg-green-500 text-white px-8 py-4 rounded-lg hover:bg-green-600 transition-colors font-bold text-lg"
               target="_blank"
               rel="noopener noreferrer"
@@ -160,7 +160,7 @@ export default function Home() {
             </p>
             <h3 className="text-2xl font-bold mt-8 mb-4">Book Escorts In Indore - Simple Process</h3>
             <p className="text-gray-700">
-              Booking <strong>escorts in Indore</strong> through our service is straightforward and secure. Simply call +91 9372662471 or WhatsApp us to browse verified profiles, select your preferred companion, and arrange a meeting. Our <strong>hire escorts Indore</strong> process ensures complete discretion and professional service delivery every time.
+              Booking <strong>escorts in Indore</strong> through our service is straightforward and secure. Simply call +91 9867564994 or WhatsApp us to browse verified profiles, select your preferred companion, and arrange a meeting. Our <strong>hire escorts Indore</strong> process ensures complete discretion and professional service delivery every time.
             </p>
           </div>
         </div>
@@ -174,7 +174,7 @@ export default function Home() {
             
             <div className="bg-white/80 backdrop-blur-sm p-6 rounded-lg border-l-4 border-pink-500">
               <h3 className="text-xl font-bold text-pink-600 mb-3">How to book escorts in Indore instantly?</h3>
-              <p className="text-gray-700">Booking <strong>escorts in Indore</strong> is simple - call +91 9372662471 or WhatsApp for instant confirmation. Our verified <strong>call girls in Indore</strong> are available 24/7 across all locations including Vijay Nagar, Palasia, and AB Road for immediate booking.</p>
+              <p className="text-gray-700">Booking <strong>escorts in Indore</strong> is simple - call +91 9867564994 or WhatsApp for instant confirmation. Our verified <strong>call girls in Indore</strong> are available 24/7 across all locations including Vijay Nagar, Palasia, and AB Road for immediate booking.</p>
             </div>
 
             <div className="bg-white/80 backdrop-blur-sm p-6 rounded-lg border-l-4 border-pink-500">

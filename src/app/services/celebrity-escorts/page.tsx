@@ -4,7 +4,7 @@ import ServicePageTemplate from '@/components/ServicePageTemplate'
 // SEO Metadata for Celebrity Escorts
 export const metadata: Metadata = {
   title: 'Celebrity Escorts in Indore | Star Quality Escort Service | Saumya Kapoor',
-  description: 'Premium celebrity escorts in Indore with star quality service. VIP celebrity companions available 24/7 for events, parties, and private meetings. Call +91 9372662471.',
+  description: 'Premium celebrity escorts in Indore with star quality service. VIP celebrity companions available 24/7 for events, parties, and private meetings. Call +91 9867564994.',
   keywords: [
     'celebrity escorts Indore',
     'star quality escorts',

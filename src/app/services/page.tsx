@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Escort Services In Indore | VIP Call Girls Available 24/7 | Saumya Kapoor',
-  description: 'Professional escort services in Indore with verified VIP call girls, independent escorts, and celebrity companions available 24/7. Book now +91-9372662471',
+  description: 'Professional escort services in Indore with verified VIP call girls, independent escorts, and celebrity companions available 24/7. Book now +91-9867564994',
   keywords: 'escort services indore, call girls service indore, vip escorts indore, independent escorts indore, celebrity escorts indore, professional escort service',
   robots: 'index, follow',
   openGraph: {
@@ -168,7 +168,7 @@ export default function ServicesPage() {
         <div className="space-y-4">
           <div className="border-b pb-4">
             <h3 className="text-lg font-semibold mb-2">How can I book escort services in Indore?</h3>
-            <p className="text-gray-600">You can book our services by calling +91 9372662471 or contacting us via WhatsApp for instant booking.</p>
+            <p className="text-gray-600">You can book our services by calling +91 9867564994 or contacting us via WhatsApp for instant booking.</p>
           </div>
           
           <div className="border-b pb-4">
@@ -197,13 +197,13 @@ export default function ServicesPage() {
           </p>
           <div className="flex justify-center space-x-4">
             <a 
-              href="tel:+919372662471" 
+              href="tel:+919867564994" 
               className="bg-primary-pink text-white px-6 py-3 rounded-lg hover:bg-primary-pink-dark transition-colors"
             >
-              Call Now: +91 9372662471
+              Call Now: +91 9867564994
             </a>
             <a 
-              href="https://wa.me/919372662471" 
+              href="https://wa.me/919867564994" 
               className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-colors"
               target="_blank"
               rel="noopener noreferrer"
@@ -250,7 +250,7 @@ export default function ServicesPage() {
             <div className="bg-gradient-to-br from-pink-50 to-orange-50 p-6 rounded-lg mt-6">
               <h4 className="text-xl font-bold text-pink-600 mb-3">Book Escorts In Indore - Contact Information</h4>
               <p className="text-gray-700">
-                Ready to experience premium <strong>escorts in Indore</strong> service? Call +91 9372662471 or WhatsApp 
+                Ready to experience premium <strong>escorts in Indore</strong> service? Call +91 9867564994 or WhatsApp 
                 for instant booking with verified companions. Our professional <strong>call girls in Indore</strong> are 
                 available 24/7 for immediate confirmation and exceptional service delivery.
               </p>

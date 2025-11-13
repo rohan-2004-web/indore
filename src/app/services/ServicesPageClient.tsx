@@ -14,7 +14,7 @@ export default function ServicesPageClient() {
   const faqs = [
     {
       question: "How can I book premium escort services in Indore?",
-      answer: "Booking is simple and discreet. You can call us directly at +91 9372662471, send a WhatsApp message, or email us. Our booking team is available 24/7 to assist you with selecting the perfect companion based on your preferences and requirements."
+      answer: "Booking is simple and discreet. You can call us directly at +91 9867564994, send a WhatsApp message, or email us. Our booking team is available 24/7 to assist you with selecting the perfect companion based on your preferences and requirements."
     },
     {
       question: "Are all your escorts verified and professional?",
@@ -296,10 +296,10 @@ export default function ServicesPageClient() {
                 Still have questions? Contact us directly for personalized assistance
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
-                  📞 Call +91 9372662471
+                <a href="tel:+919867564994" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                  📞 Call +91 9867564994
                 </a>
-                <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                <a href="https://wa.me/919867564994" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
                   💬 WhatsApp Chat
                 </a>
               </div>
@@ -462,8 +462,8 @@ export default function ServicesPageClient() {
                   🎯 Can't find your location? We serve all areas in Indore! Contact us for instant service.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-12 py-5 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-xl">
-                    📞 Call +91 9372662471
+                  <a href="tel:+919867564994" className="inline-block bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-12 py-5 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-xl">
+                    📞 Call +91 9867564994
                   </a>
                   <a href="/locations" className="inline-block bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-12 py-5 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-xl">
                     📍 View All Locations
@@ -487,13 +487,13 @@ export default function ServicesPageClient() {
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a 
-                  href="tel:+919372662471" 
+                  href="tel:+919867564994" 
                   className="inline-block bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-16 py-6 rounded-full font-bold text-2xl transition-all duration-300 transform hover:scale-105 shadow-lg"
                 >
-                   Call Now: +91 9372662471
+                   Call Now: +91 9867564994
                 </a>
                 <a 
-                  href="https://wa.me/919372662471" 
+                  href="https://wa.me/919867564994" 
                   className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-16 py-6 rounded-full font-bold text-2xl transition-all duration-300 transform hover:scale-105 shadow-lg"
                 >
                    WhatsApp Now

@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'About Us | Most Trusted Escort Service In Indore | Saumya Kapoor',
-  description: 'Learn about Indore\'s most trusted escort service with 500+ verified call girls. Professional, discreet, and reliable escort service since years. Call +91-9372662471',
+  description: 'Learn about Indore\'s most trusted escort service with 500+ verified call girls. Professional, discreet, and reliable escort service since years. Call +91-9867564994',
   keywords: 'about escort service indore, trusted call girls service, professional escorts indore, verified escort service, saumya kapoor about',
   robots: 'index, follow',
   openGraph: {
@@ -222,13 +222,13 @@ export default function AboutPage() {
           </p>
           <div className="flex justify-center space-x-4">
             <a 
-              href="tel:+919372662471" 
+              href="tel:+919867564994" 
               className="bg-primary-pink text-white px-6 py-3 rounded-lg hover:bg-primary-pink-dark transition-colors"
             >
-              📞 Call Now: +91 9372662471
+              📞 Call Now: +91 9867564994
             </a>
             <a 
-              href="https://wa.me/919372662471" 
+              href="https://wa.me/919867564994" 
               className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-colors"
               target="_blank"
               rel="noopener noreferrer"

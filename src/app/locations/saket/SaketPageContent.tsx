@@ -54,7 +54,7 @@ export default function SaketPageContent() {
   const faqs = [
     {
       question: "How can I book premium escorts in Saket, Indore?",
-      answer: "Booking escorts in Saket is simple and discreet. Call us directly at +91 9372662471 or WhatsApp. Our team is available 24/7 to help you select the perfect companion in the Saket area based on your preferences."
+      answer: "Booking escorts in Saket is simple and discreet. Call us directly at +91 9867564994 or WhatsApp. Our team is available 24/7 to help you select the perfect companion in the Saket area based on your preferences."
     },
     {
       question: "Are your Saket escorts verified and professional?",
@@ -82,10 +82,10 @@ export default function SaketPageContent() {
               Premium escort services in Indore's peaceful residential area. Experience quality companionship in Saket's serene environment.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="tel:+919372662471" className="bg-white text-pink-600 px-8 py-3 rounded-full font-semibold hover:bg-pink-50 transition-colors">
-                📞 Call Now: +91 9372662471
+              <a href="tel:+919867564994" className="bg-white text-pink-600 px-8 py-3 rounded-full font-semibold hover:bg-pink-50 transition-colors">
+                📞 Call Now: +91 9867564994
               </a>
-              <a href="https://wa.me/919372662471" className="bg-green-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-600 transition-colors">
+              <a href="https://wa.me/919867564994" className="bg-green-500 text-white px-8 py-3 rounded-full font-semibold hover:bg-green-600 transition-colors">
                 💬 WhatsApp
               </a>
             </div>
@@ -133,10 +133,10 @@ export default function SaketPageContent() {
                 Book your perfect companion in Saket now! Our premium escort services are just a call away.
               </p>
               <div className="flex flex-wrap justify-center gap-6">
-                <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
-                  📞 Call +91 9372662471
+                <a href="tel:+919867564994" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                  📞 Call +91 9867564994
                 </a>
-                <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                <a href="https://wa.me/919867564994" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
                   💬 WhatsApp Chat
                 </a>
               </div>

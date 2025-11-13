@@ -27,7 +27,7 @@ const faqData = [
   },
   {
     question: "📱 How can I book or get more information?",
-    answer: "You can call us at +91 9372 662 471, WhatsApp us, or fill out our contact form. We're available 24/7 to assist you with bookings and queries."
+    answer: "You can call us at +91 9867564994, WhatsApp us, or fill out our contact form. We're available 24/7 to assist you with bookings and queries."
   }
 ]
 
@@ -47,7 +47,7 @@ export default function LocationsPage() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     const whatsappMessage = `Hi! I want to book escort service.%0AName: ${formData.name}%0APhone: ${formData.phone}%0AEmail: ${formData.email}%0ALocation: ${formData.location}%0AService: ${formData.service}%0AMessage: ${formData.message}`
-    window.open(`https://wa.me/919372662471?text=${whatsappMessage}`, '_blank')
+    window.open(`https://wa.me/919867564994?text=${whatsappMessage}`, '_blank')
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -227,10 +227,10 @@ export default function LocationsPage() {
                   Click on any location above or contact us directly for immediate booking
                 </p>
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                  <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-12 py-4 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl">
-                    📞 Call +91 9372662471
+                  <a href="tel:+919867564994" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-12 py-4 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl">
+                    📞 Call +91 9867564994
                   </a>
-                  <a href="https://wa.me/919372662471" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-12 py-4 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl">
+                  <a href="https://wa.me/919867564994" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-12 py-4 rounded-full font-bold text-xl transition-all duration-300 transform hover:scale-105 shadow-2xl">
                     💬 WhatsApp Now
                   </a>
                 </div>
@@ -385,14 +385,14 @@ export default function LocationsPage() {
                     <h3 className="text-2xl font-bold text-center mb-6 bg-gradient-to-r from-pink-600 to-orange-600 bg-clip-text text-transparent">⚡ Quick Contact ⚡</h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <a
-                        href="tel:+919372662471"
+                        href="tel:+919867564994"
                         className="flex items-center justify-center space-x-3 bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white font-bold py-4 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-xl"
                       >
                         <span className="text-2xl">📞</span>
                         <span className="text-lg">Call Now</span>
                       </a>
                       <a
-                        href="https://wa.me/919372662471"
+                        href="https://wa.me/919867564994"
                         className="flex items-center justify-center space-x-3 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-bold py-4 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 shadow-xl"
                       >
                         <span className="text-2xl">💬</span>
@@ -436,8 +436,8 @@ export default function LocationsPage() {
                     <div className="text-center">
                       <div className="text-4xl mb-4">📞</div>
                       <h4 className="font-bold text-gray-800 mb-2">Phone</h4>
-                      <a href="tel:+919372662471" className="text-pink-600 font-bold text-lg hover:text-pink-700 transition-colors">
-                        +91 9372 662 471
+                      <a href="tel:+919867564994" className="text-pink-600 font-bold text-lg hover:text-pink-700 transition-colors">
+                        +91 9867564994
                       </a>
                     </div>
                   </div>
@@ -446,7 +446,7 @@ export default function LocationsPage() {
                     <div className="text-center">
                       <div className="text-4xl mb-4">💬</div>
                       <h4 className="font-bold text-gray-800 mb-2">WhatsApp</h4>
-                      <a href="https://wa.me/919372662471" className="text-green-600 font-bold text-lg hover:text-green-700 transition-colors">
+                      <a href="https://wa.me/919867564994" className="text-green-600 font-bold text-lg hover:text-green-700 transition-colors">
                         Chat Now
                       </a>
                     </div>
@@ -552,13 +552,13 @@ export default function LocationsPage() {
                   </h3>
                   <div className="flex flex-col sm:flex-row gap-6 justify-center">
                     <a
-                      href="tel:+919372662471"
+                      href="tel:+919867564994"
                       className="bg-gradient-to-r from-pink-500 via-pink-600 to-pink-700 hover:from-pink-600 hover:via-pink-700 hover:to-pink-800 text-white font-bold py-5 px-10 rounded-2xl text-lg transition-all duration-300 transform hover:scale-110 shadow-2xl hover:shadow-pink-500/50 border-2 border-white/50"
                     >
-                      📞 Call +91 9372 662 471
+                      📞 Call +91 9867564994
                     </a>
                     <a
-                      href="https://wa.me/919372662471"
+                      href="https://wa.me/919867564994"
                       className="bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 hover:from-orange-600 hover:via-orange-700 hover:to-orange-800 text-white font-bold py-5 px-10 rounded-2xl text-lg transition-all duration-300 transform hover:scale-110 shadow-2xl hover:shadow-orange-500/50 border-2 border-white/50"
                     >
                       💬 WhatsApp Chat
@@ -588,10 +588,10 @@ export default function LocationsPage() {
                 Premium escort services in Indore with verified professional companions. Available 24/7 across all major locations.
               </p>
               <div className="flex flex-col gap-4">
-                <a href="tel:+919372662471" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
+                <a href="tel:+919867564994" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
                   📞 Call Now
                 </a>
-                <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-green-600 to-lime-600 hover:from-green-700 hover:to-lime-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
+                <a href="https://wa.me/919867564994" className="bg-gradient-to-r from-green-600 to-lime-600 hover:from-green-700 hover:to-lime-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
                   💬 WhatsApp
                 </a>
               </div>
@@ -626,11 +626,11 @@ export default function LocationsPage() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3 p-3">
                   <span className="text-2xl">📞</span>
-                  <a href="tel:+919372662471" className="text-yellow-200 hover:text-yellow-100 font-bold text-lg">+91 9372 662 471</a>
+                  <a href="tel:+919867564994" className="text-yellow-200 hover:text-yellow-100 font-bold text-lg">+91 9867564994</a>
                 </div>
                 <div className="flex items-center space-x-3 p-3">
                   <span className="text-2xl">💬</span>
-                  <a href="https://wa.me/919372662471" className="text-green-200 hover:text-green-100 font-bold text-lg">WhatsApp Available</a>
+                  <a href="https://wa.me/919867564994" className="text-green-200 hover:text-green-100 font-bold text-lg">WhatsApp Available</a>
                 </div>
                 <div className="flex items-center space-x-3 p-3">
                   <span className="text-2xl">✉️</span>

@@ -12,7 +12,7 @@ export default function HousewifeEscortsPage() {
     document.title = 'Housewife Escorts in Indore | Married Women Call Girls 24/7'
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
     metaDescription.setAttribute('name', 'description')
-    metaDescription.setAttribute('content', '⭐ Housewife escorts in Indore with 150+ married women companions 🔥 Available 24/7 💯 Discreet service ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Housewife escorts in Indore with 150+ married women companions 🔥 Available 24/7 💯 Discreet service ☎️ +91-9867564994')
     if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
     
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
@@ -33,7 +33,7 @@ export default function HousewifeEscortsPage() {
   const faqs = [
     {
       question: "How can I book housewife escorts in Indore?",
-      answer: "Booking our housewife escorts is simple and highly confidential. Call us directly at +91 9372662471, send a WhatsApp message, or email us. Our booking team is available 24/7 to help you connect with mature, experienced companions who understand your needs in Indore."
+      answer: "Booking our housewife escorts is simple and highly confidential. Call us directly at +91 9867564994, send a WhatsApp message, or email us. Our booking team is available 24/7 to help you connect with mature, experienced companions who understand your needs in Indore."
     },
     {
       question: "What makes housewife escorts different from other escort services?",
@@ -108,14 +108,14 @@ export default function HousewifeEscortsPage() {
             {/* Enhanced CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-8 justify-center mb-16">
               <a 
-                href="tel:+919372662471" 
+                href="tel:+919867564994" 
                 className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-green-600 via-green-700 to-green-800 hover:from-green-700 hover:via-green-800 hover:to-green-900 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 border-2 border-green-400/30"
               >
                 <span className="text-3xl group-hover:animate-bounce">📞</span>
-                <span>Call Now: +91 9372 662 471</span>
+                <span>Call Now: +91 9867564994</span>
               </a>
               <a 
-                href="https://wa.me/919372662471" 
+                href="https://wa.me/919867564994" 
                 className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:from-green-600 hover:via-green-700 hover:to-green-800 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 border-2 border-green-400/30"
               >
                 <span className="text-3xl group-hover:animate-bounce">💬</span>
@@ -266,14 +266,14 @@ export default function HousewifeEscortsPage() {
             
             <div className="flex flex-col sm:flex-row gap-8 justify-center">
               <a 
-                href="tel:+919372662471" 
+                href="tel:+919867564994" 
                 className="group inline-flex items-center justify-center gap-4 bg-white text-green-600 px-12 py-6 rounded-full font-black text-xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-white/30"
               >
                 <span className="text-2xl group-hover:animate-bounce">📞</span>
-                <span>Call: +91 9372 662 471</span>
+                <span>Call: +91 9867564994</span>
               </a>
               <a 
-                href="https://wa.me/919372662471" 
+                href="https://wa.me/919867564994" 
                 className="group inline-flex items-center justify-center gap-4 bg-green-500 text-white px-12 py-6 rounded-full font-black text-xl hover:bg-green-600 transition-all duration-500 transform hover:scale-110 shadow-2xl"
               >
                 <span className="text-2xl group-hover:animate-bounce">💬</span>

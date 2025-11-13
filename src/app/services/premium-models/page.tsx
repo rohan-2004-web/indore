@@ -12,7 +12,7 @@ export default function PremiumModelsPage() {
     document.title = 'Premium Model Escorts in Indore | Fashion Model Call Girls 24/7'
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
     metaDescription.setAttribute('name', 'description')
-    metaDescription.setAttribute('content', '⭐ Premium model escorts in Indore with 100+ fashion models 🔥 Available 24/7 💯 Elite service ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Premium model escorts in Indore with 100+ fashion models 🔥 Available 24/7 💯 Elite service ☎️ +91-9867564994')
     if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
     
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
@@ -33,7 +33,7 @@ export default function PremiumModelsPage() {
   const faqs = [
     {
       question: "How can I book premium models in Indore?",
-      answer: "Booking premium models is easy and professional. Call us directly at +91 9372662471, send a WhatsApp message, or email us. Our booking team is available 24/7 to help you select the perfect premium model companion based on your event requirements and preferences."
+      answer: "Booking premium models is easy and professional. Call us directly at +91 9867564994, send a WhatsApp message, or email us. Our booking team is available 24/7 to help you select the perfect premium model companion based on your event requirements and preferences."
     },
     {
       question: "What makes your premium models different from regular escort services?",
@@ -108,14 +108,14 @@ export default function PremiumModelsPage() {
             {/* Enhanced CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-8 justify-center mb-16">
               <a 
-                href="tel:+919372662471" 
+                href="tel:+919867564994" 
                 className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 hover:from-blue-700 hover:via-blue-800 hover:to-blue-900 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-blue-500/50 border-2 border-blue-400/30"
               >
                 <span className="text-3xl group-hover:animate-bounce">📞</span>
-                <span>Call Now: +91 9372 662 471</span>
+                <span>Call Now: +91 9867564994</span>
               </a>
               <a 
-                href="https://wa.me/919372662471" 
+                href="https://wa.me/919867564994" 
                 className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:from-green-600 hover:via-green-700 hover:to-green-800 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 border-2 border-green-400/30"
               >
                 <span className="text-3xl group-hover:animate-bounce">💬</span>
@@ -293,10 +293,10 @@ export default function PremiumModelsPage() {
                 Have more questions about our premium model services? Contact us directly!
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
-                  📞 Call +91 9372662471
+                <a href="tel:+919867564994" className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                  📞 Call +91 9867564994
                 </a>
-                <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                <a href="https://wa.me/919867564994" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
                   💬 WhatsApp Chat
                 </a>
                 <Link href="/services" className="inline-block bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">

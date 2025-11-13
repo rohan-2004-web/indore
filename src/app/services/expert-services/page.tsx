@@ -14,7 +14,7 @@ export default function ExpertServicesPage() {
   const faqs = [
     {
       question: "How can I book celebrity escorts in Indore?",
-      answer: "Booking our celebrity escorts is simple and discreet. Call us directly at +91 9372662471, send a WhatsApp message, or email us. Our booking team is available 24/7 to help you select the perfect celebrity companion based on your preferences for high-profile events, parties, or private meetings in Indore."
+      answer: "Booking our celebrity escorts is simple and discreet. Call us directly at +91 9867564994, send a WhatsApp message, or email us. Our booking team is available 24/7 to help you select the perfect celebrity companion based on your preferences for high-profile events, parties, or private meetings in Indore."
     },
     {
       question: "What makes your celebrity escorts different from regular escort services?",
@@ -89,14 +89,14 @@ export default function ExpertServicesPage() {
             {/* Enhanced CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-8 justify-center mb-16">
               <a 
-                href="tel:+919372662471" 
+                href="tel:+919867564994" 
                 className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-pink-600 via-pink-700 to-pink-800 hover:from-pink-700 hover:via-pink-800 hover:to-pink-900 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-pink-500/50 border-2 border-pink-400/30"
               >
                 <span className="text-3xl group-hover:animate-bounce">📞</span>
-                <span>Call Now: +91 9372 662 471</span>
+                <span>Call Now: +91 9867564994</span>
               </a>
               <a 
-                href="https://wa.me/919372662471" 
+                href="https://wa.me/919867564994" 
                 className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:from-green-600 hover:via-green-700 hover:to-green-800 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 border-2 border-green-400/30"
               >
                 <span className="text-3xl group-hover:animate-bounce">💬</span>
@@ -274,10 +274,10 @@ export default function ExpertServicesPage() {
                 Have more questions about our celebrity escort services? Contact us directly!
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
-                  📞 Call +91 9372662471
+                <a href="tel:+919867564994" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                  📞 Call +91 9867564994
                 </a>
-                <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                <a href="https://wa.me/919867564994" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
                   💬 WhatsApp Chat
                 </a>
                 <Link href="/services" className="inline-block bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">

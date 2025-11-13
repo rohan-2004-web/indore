@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Book Escorts In Indore | Instant Booking +91-9372662471',
-  description: 'Contact us to book escorts in Indore. Instant booking via phone +91-9372662471 or WhatsApp. 24/7 customer support for call girls service in Indore.',
-  keywords: 'contact escort service indore, book escorts indore, call girls booking, instant booking indore, escort service contact, +919372662471',
+  title: 'Contact Us | Book Escorts In Indore | Instant Booking +91-9867564994',
+  description: 'Contact us to book escorts in Indore. Instant booking via phone +91-9867564994 or WhatsApp. 24/7 customer support for call girls service in Indore.',
+  keywords: 'contact escort service indore, book escorts indore, call girls booking, instant booking indore, escort service contact, +919867564994',
   robots: 'index, follow',
   openGraph: {
     title: 'Contact Us | Book Escorts In Indore | Instant Booking',
@@ -35,10 +35,10 @@ export default function ContactPage() {
           <h3 className="text-2xl font-bold mb-4">Call Us Now</h3>
           <p className="text-gray-600 mb-6">Available 24/7 for instant booking</p>
           <a 
-            href="tel:+919372662471" 
+            href="tel:+919867564994" 
             className="bg-primary-pink text-white px-6 py-3 rounded-lg hover:bg-primary-pink-dark transition-colors inline-block text-xl font-semibold"
           >
-            +91 9372662471
+            +91 9867564994
           </a>
         </div>
 
@@ -47,7 +47,7 @@ export default function ContactPage() {
           <h3 className="text-2xl font-bold mb-4">WhatsApp Chat</h3>
           <p className="text-gray-600 mb-6">Quick and convenient messaging</p>
           <a 
-            href="https://wa.me/919372662471" 
+            href="https://wa.me/919867564994" 
             className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-colors inline-block text-xl font-semibold"
             target="_blank"
             rel="noopener noreferrer"

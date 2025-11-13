@@ -121,7 +121,7 @@ export default function Home() {
   const faqs = [
     {
       question: "How can I book an escort service in Indore?",
-      answer: "You can book our services by calling us at +91 9372 662 471, WhatsApp, or through our contact form. We're available 24/7 for instant bookings."
+      answer: "You can book our services by calling us at +91 9867564994, WhatsApp, or through our contact form. We're available 24/7 for instant bookings."
     },
     {
       question: "Are your escort services available across all areas of Indore?",
@@ -195,15 +195,15 @@ export default function Home() {
             {/* Enhanced CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-8 justify-center mb-16">
               <a 
-                href="tel:+919372662471" 
+                href="tel:+919867564994" 
                 className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-pink-600 via-pink-700 to-pink-800 hover:from-pink-700 hover:via-pink-800 hover:to-pink-900 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-pink-500/50 border-2 border-pink-400/30"
               >
                 <span className="text-3xl group-hover:animate-bounce">📞</span>
-                <span>Call Now: +91 9372662471</span>
+                <span>Call Now: +91 9867564994</span>
                 <span className="text-2xl group-hover:translate-x-2 transition-transform duration-300">→</span>
               </a>
               <a 
-                href="https://wa.me/919372662471" 
+                href="https://wa.me/919867564994" 
                 className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 hover:from-orange-600 hover:via-orange-700 hover:to-orange-800 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-orange-500/50 border-2 border-orange-400/30"
               >
                 <span className="text-3xl group-hover:animate-bounce">💬</span>
@@ -242,8 +242,8 @@ export default function Home() {
                 <div className="text-5xl mb-4">📞</div>
                 <h3 className="text-2xl font-bold text-gray-800 mb-3">Instant Booking</h3>
                 <p className="text-gray-600 mb-4">Call now for immediate service</p>
-                <a href="tel:+919372662471" className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-xl font-bold hover:scale-105 transition-transform">
-                  📞 +91 9372 662 471
+                <a href="tel:+919867564994" className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-xl font-bold hover:scale-105 transition-transform">
+                  📞 +91 9867564994
                 </a>
               </div>
               
@@ -251,7 +251,7 @@ export default function Home() {
                 <div className="text-5xl mb-4">💬</div>
                 <h3 className="text-2xl font-bold text-gray-800 mb-3">WhatsApp Chat</h3>
                 <p className="text-gray-600 mb-4">Quick response guaranteed</p>
-                <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-pink-600 to-orange-600 text-white px-6 py-3 rounded-xl font-bold hover:scale-105 transition-transform">
+                <a href="https://wa.me/919867564994" className="bg-gradient-to-r from-pink-600 to-orange-600 text-white px-6 py-3 rounded-xl font-bold hover:scale-105 transition-transform">
                   💬 Chat Now
                 </a>
               </div>
@@ -519,7 +519,7 @@ export default function Home() {
                     <a href="/services" className="bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
                       📞 Book Now
                     </a>
-                    <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                    <a href="https://wa.me/919867564994" className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
                       💬 WhatsApp
                     </a>
                   </div>
@@ -546,7 +546,7 @@ export default function Home() {
                   <div className="text-6xl mb-4">📞</div>
                   <h3 className="text-2xl font-bold text-gray-800 mb-4">Call Now</h3>
                   <a href="/services" className="text-xl text-pink-600 font-bold hover:text-pink-800 transition-colors">
-                    +91 9372 662 471
+                    +91 9867564994
                   </a>
                   <p className="text-gray-600 mt-2">Instant Response</p>
                 </div>
@@ -554,7 +554,7 @@ export default function Home() {
                 <div className="bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-2xl border border-orange-200/50 text-center">
                   <div className="text-6xl mb-4">💬</div>
                   <h3 className="text-2xl font-bold text-gray-800 mb-4">WhatsApp</h3>
-                  <a href="https://wa.me/919372662471" className="text-xl text-orange-600 font-bold hover:text-orange-800 transition-colors">
+                  <a href="https://wa.me/919867564994" className="text-xl text-orange-600 font-bold hover:text-orange-800 transition-colors">
                     Chat Instantly
                   </a>
                   <p className="text-gray-600 mt-2">Quick Response</p>
@@ -772,10 +772,10 @@ export default function Home() {
               <div className="bg-white/90 backdrop-blur-md rounded-3xl p-8 shadow-2xl border border-pink-100/50 text-center">
                 <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-pink-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-6">1</div>
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">Contact Us</h3>
-                <p className="text-gray-600 mb-6">Call us at +91 9372662471 or WhatsApp to discuss your requirements</p>
+                <p className="text-gray-600 mb-6">Call us at +91 9867564994 or WhatsApp to discuss your requirements</p>
                 <div className="flex justify-center gap-4">
                   <a href="/services" className="bg-pink-500 text-white px-4 py-2 rounded-full text-sm font-bold">📞 Call</a>
-                  <a href="https://wa.me/919372662471" className="bg-green-500 text-white px-4 py-2 rounded-full text-sm font-bold">💬 WhatsApp</a>
+                  <a href="https://wa.me/919867564994" className="bg-green-500 text-white px-4 py-2 rounded-full text-sm font-bold">💬 WhatsApp</a>
                 </div>
               </div>
               
@@ -968,7 +968,7 @@ export default function Home() {
                       <a href="/services" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-emerald-600 hover:to-green-700 text-white px-4 py-3 rounded-xl font-bold text-sm text-center transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-green-300/50">
                         📞 Call Now
                       </a>
-                      <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-green-600 to-lime-600 hover:from-lime-600 hover:to-green-700 text-white px-4 py-3 rounded-xl font-bold text-sm text-center transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-lime-300/50">
+                      <a href="https://wa.me/919867564994" className="bg-gradient-to-r from-green-600 to-lime-600 hover:from-lime-600 hover:to-green-700 text-white px-4 py-3 rounded-xl font-bold text-sm text-center transition-all duration-300 transform hover:scale-105 shadow-lg border-2 border-lime-300/50">
                         💬 WhatsApp
                       </a>
                     </div>
@@ -1051,15 +1051,15 @@ export default function Home() {
                 
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">
                   <a 
-                    href="tel:+919372662471" 
+                    href="tel:+919867564994" 
                     className="inline-flex items-center justify-center bg-white text-pink-600 px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-all duration-300 shadow-xl"
                   >
                     <span className="mr-2">📞</span>
-                    Call Now: +91 9372662471
+                    Call Now: +91 9867564994
                     <span className="ml-2">→</span>
                   </a>
                   <a 
-                    href="https://wa.me/919372662471" 
+                    href="https://wa.me/919867564994" 
                     className="inline-flex items-center justify-center bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-all duration-300 shadow-xl"
                   >
                     <span className="mr-2">💬</span>
@@ -1093,7 +1093,7 @@ export default function Home() {
                   <a href="/services" className="bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
                     📞 Call Now
                   </a>
-                  <a href="https://wa.me/919372662471" className="bg-gradient-to-r from-green-600 to-lime-600 hover:from-green-700 hover:to-lime-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
+                  <a href="https://wa.me/919867564994" className="bg-gradient-to-r from-green-600 to-lime-600 hover:from-green-700 hover:to-lime-700 text-white px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 font-bold text-center text-lg">
                     💬 WhatsApp
                   </a>
                 </div>
@@ -1127,11 +1127,11 @@ export default function Home() {
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3 p-3">
                     <span className="text-2xl">📞</span>
-                    <a href="/services" className="text-yellow-200 hover:text-yellow-100 font-bold text-lg">+91 9372 662 471</a>
+                    <a href="/services" className="text-yellow-200 hover:text-yellow-100 font-bold text-lg">+91 9867564994</a>
                   </div>
                   <div className="flex items-center space-x-3 p-3">
                     <span className="text-2xl">💬</span>
-                    <a href="https://wa.me/919372662471" className="text-green-200 hover:text-green-100 font-bold text-lg">WhatsApp Available</a>
+                    <a href="https://wa.me/919867564994" className="text-green-200 hover:text-green-100 font-bold text-lg">WhatsApp Available</a>
                   </div>
                   <div className="flex items-center space-x-3 p-3">
                     <span className="text-2xl">✉️</span>

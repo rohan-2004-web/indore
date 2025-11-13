@@ -11,7 +11,7 @@ export default function Scheme78Page() {
     document.title = 'Escorts Service Scheme 78 Indore | Call Girls 24/7 | Residential Area'
     const metaDescription = document.querySelector('meta[name="description"]') || document.createElement('meta')
     metaDescription.setAttribute('name', 'description')
-    metaDescription.setAttribute('content', '⭐ Best escorts service Scheme 78 with 500+ verified call girls & VIP escorts 🔥 escorts service Scheme 78 available 24/7 in residential area 💯 escorts service Scheme 78 ☎️ +91-9372662471')
+    metaDescription.setAttribute('content', '⭐ Best escorts service Scheme 78 with 500+ verified call girls & VIP escorts 🔥 escorts service Scheme 78 available 24/7 in residential area 💯 escorts service Scheme 78 ☎️ +91-9867564994')
     if (!document.querySelector('meta[name="description"]')) document.head.appendChild(metaDescription)
     
     const metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta')
@@ -215,7 +215,7 @@ export default function Scheme78Page() {
   const faqs = [
     {
       question: "How can I book premium escorts in Scheme 78, Indore?",
-      answer: "Booking escorts in Scheme 78 is simple and discreet. Call us directly at +91 9372662471 or WhatsApp. Our team is available 24/7 to help you select the perfect companion in the Scheme 78 area based on your preferences."
+      answer: "Booking escorts in Scheme 78 is simple and discreet. Call us directly at +91 9867564994 or WhatsApp. Our team is available 24/7 to help you select the perfect companion in the Scheme 78 area based on your preferences."
     },
     {
       question: "What types of escort services are available in Scheme 78?",
@@ -231,7 +231,7 @@ export default function Scheme78Page() {
     },
     {
       question: "What are the rates for escort services in Scheme 78?",
-      answer: "Escort service rates in Scheme 78 vary based on companion type, duration, and specific services. Contact us directly at +91 9372662471 for detailed pricing information tailored to your requirements."
+      answer: "Escort service rates in Scheme 78 vary based on companion type, duration, and specific services. Contact us directly at +91 9867564994 for detailed pricing information tailored to your requirements."
     },
     {
       question: "Do you provide 24/7 escort services in Scheme 78?",
@@ -290,14 +290,14 @@ export default function Scheme78Page() {
             {/* Enhanced CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-8 justify-center mb-16">
               <a 
-                href="tel:+919372662471" 
+                href="tel:+919867564994" 
                 className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-pink-600 via-pink-700 to-pink-800 hover:from-pink-700 hover:via-pink-800 hover:to-pink-900 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-pink-500/50 border-2 border-pink-400/30"
               >
                 <span className="text-3xl group-hover:animate-bounce">📞</span>
-                <span>Call Now: +91 9372 662 471</span>
+                <span>Call Now: +91 9867564994</span>
               </a>
               <a 
-                href="https://wa.me/919372662471" 
+                href="https://wa.me/919867564994" 
                 className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:from-green-600 hover:via-green-700 hover:to-green-800 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 border-2 border-green-400/30"
               >
                 <span className="text-3xl group-hover:animate-bounce">💬</span>
@@ -410,10 +410,10 @@ export default function Scheme78Page() {
                 Have more questions about our escort services in Scheme 78? Contact us directly!
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                <a href="tel:+919372662471" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
-                  📞 Call +91 9372662471
+                <a href="tel:+919867564994" className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                  📞 Call +91 9867564994
                 </a>
-                <a href="https://wa.me/919372662471" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
+                <a href="https://wa.me/919867564994" target="_blank" className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-10 py-4 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-xl">
                   💬 WhatsApp Chat
                 </a>
               </div>
@@ -434,13 +434,13 @@ export default function Scheme78Page() {
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center">
                 <a 
-                  href="tel:+919372662471" 
+                  href="tel:+919867564994" 
                   className="inline-block bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-16 py-6 rounded-full font-bold text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
                 >
-                   Call Now: +91 9372662471
+                   Call Now: +91 9867564994
                 </a>
                 <a 
-                  href="https://wa.me/919372662471" 
+                  href="https://wa.me/919867564994" 
                   className="inline-block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-16 py-6 rounded-full font-bold text-2xl transition-all duration-300 transform hover:scale-105 shadow-2xl"
                 >
                    WhatsApp Now
@@ -622,13 +622,13 @@ export default function Scheme78Page() {
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a 
-                      href="tel:+919372662471" 
+                      href="tel:+919867564994" 
                       className="inline-block bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-700 hover:to-purple-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
                     >
-                      📞 Call +91 9372662471
+                      📞 Call +91 9867564994
                     </a>
                     <a 
-                      href="https://wa.me/919372662471" 
+                      href="https://wa.me/919867564994" 
                       className="inline-block bg-gradient-to-r from-green-500 to-teal-500 hover:from-green-600 hover:to-teal-600 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
                     >
                       💬 WhatsApp Now

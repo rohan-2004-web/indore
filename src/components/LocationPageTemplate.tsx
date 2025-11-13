@@ -38,10 +38,10 @@ export default function LocationPageTemplate({ locationData }: LocationPageTempl
                 Book Now
               </Link>
               <a 
-                href="tel:+919372662471"
+                href="tel:+919867564994"
                 className="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-pink-600 transition-colors"
               >
-                Call +91 9372662471
+                Call +91 9867564994
               </a>
             </div>
           </div>
@@ -161,10 +161,10 @@ export default function LocationPageTemplate({ locationData }: LocationPageTempl
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a 
-              href="tel:+919372662471"
+              href="tel:+919867564994"
               className="bg-white text-pink-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-pink-50 transition-colors"
             >
-              📞 Call +91 9372662471
+              📞 Call +91 9867564994
             </a>
             <Link 
               href="/contact"

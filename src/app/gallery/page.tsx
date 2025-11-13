@@ -263,7 +263,7 @@ export default function GalleryPage() {
           
           <div className="border-b pb-4">
             <h3 className="text-lg font-semibold mb-2">How can I book the escort shown in the gallery?</h3>
-            <p className="text-gray-600">You can book by calling +91 9372662471 or contacting us via WhatsApp. Mention the specific companion or service category from the gallery.</p>
+            <p className="text-gray-600">You can book by calling +91 9867564994 or contacting us via WhatsApp. Mention the specific companion or service category from the gallery.</p>
           </div>
           
           <div className="border-b pb-4">
@@ -287,13 +287,13 @@ export default function GalleryPage() {
           </p>
           <div className="flex justify-center space-x-4">
             <a 
-              href="tel:+919372662471" 
+              href="tel:+919867564994" 
               className="bg-primary-pink text-white px-6 py-3 rounded-lg hover:bg-primary-pink-dark transition-colors"
             >
-              📞 Call to Browse: +91 9372662471
+              📞 Call to Browse: +91 9867564994
             </a>
             <a 
-              href="https://wa.me/919372662471?text=I%20want%20to%20browse%20your%20complete%20gallery" 
+              href="https://wa.me/919867564994?text=I%20want%20to%20browse%20your%20complete%20gallery" 
               className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-colors"
               target="_blank"
               rel="noopener noreferrer"
@@ -313,13 +313,13 @@ export default function GalleryPage() {
           </p>
           <div className="flex justify-center space-x-4">
             <a 
-              href="tel:+919372662471" 
+              href="tel:+919867564994" 
               className="bg-primary-pink text-white px-6 py-3 rounded-lg hover:bg-primary-pink-dark transition-colors"
             >
-              📞 Call Now: +91 9372662471
+              📞 Call Now: +91 9867564994
             </a>
             <a 
-              href="https://wa.me/919372662471" 
+              href="https://wa.me/919867564994" 
               className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition-colors"
               target="_blank"
               rel="noopener noreferrer"

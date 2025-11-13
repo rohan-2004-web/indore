@@ -87,8 +87,8 @@ export default function Header() {
           <div className="flex items-center justify-end gap-3">
             {/* Call Now Button */}
             <a 
-              href="tel:+919372662471" 
-              aria-label="Call now at +91 9372662471"
+              href="tel:+919867564994" 
+              aria-label="Call now at +91 9867564994"
               className="inline-flex items-center gap-2 bg-[#E91E63] hover:bg-[#C2185B] text-white px-6 py-3 rounded-full font-bold text-sm shadow-lg transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-pink-300"
             >
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
@@ -99,7 +99,7 @@ export default function Header() {
 
             {/* WhatsApp Button */}
             <a 
-              href="https://wa.me/919372662471" 
+              href="https://wa.me/919867564994" 
               target="_blank" 
               rel="noopener noreferrer"
               aria-label="Contact us on WhatsApp (opens in new window)"
@@ -219,9 +219,9 @@ export default function Header() {
               {/* Mobile Contact Buttons */}
               <div className="flex gap-2 px-3 mt-4" role="group" aria-label="Contact options">
                 <a 
-                  href="tel:+919372662471" 
+                  href="tel:+919867564994" 
                   className="flex-1 bg-[#E91E63] hover:bg-[#C2185B] text-white px-4 py-3 rounded-full font-bold text-center text-sm flex items-center justify-center gap-2 focus:outline-none focus:ring-2 focus:ring-pink-300"
-                  aria-label="Call now at +91 9372662471"
+                  aria-label="Call now at +91 9867564994"
                 >
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
@@ -229,7 +229,7 @@ export default function Header() {
                   <span>Call Now</span>
                 </a>
                 <a 
-                  href="https://wa.me/919372662471" 
+                  href="https://wa.me/919867564994" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="flex-1 bg-[#25D366] hover:bg-[#128C7E] text-white px-4 py-3 rounded-full font-bold text-center text-sm flex items-center justify-center gap-2 focus:outline-none focus:ring-2 focus:ring-green-300"

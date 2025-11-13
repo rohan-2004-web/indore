@@ -5,7 +5,7 @@ export const escortsInIndoreSchema = {
     "name": "Escorts In Indore - Saumya Kapoor Service",
     "description": "Premium escorts in Indore with 5000+ verified call girls and VIP companions available 24/7",
     "url": "https://saumyakapoor.in",
-    "telephone": "+919372662471",
+    "telephone": "+919867564994",
     "priceRange": "₹₹₹",
     "openingHours": [
       "Mo 00:00-23:59",
@@ -82,7 +82,7 @@ export const escortsInIndoreSchema = {
     "provider": {
       "@type": "LocalBusiness",
       "name": "Saumya Kapoor Escort Service",
-      "telephone": "+919372662471",
+      "telephone": "+919867564994",
       "url": "https://saumyakapoor.in"
     },
     "areaServed": {
@@ -118,7 +118,7 @@ export const escortsInIndoreSchema = {
     },
     "availableChannel": {
       "@type": "ServiceChannel",
-      "servicePhone": "+919372662471",
+      "servicePhone": "+919867564994",
       "availableLanguage": ["en", "hi"]
     }
   },
@@ -161,7 +161,7 @@ export const escortsInIndoreSchema = {
         "name": "How to book escorts in Indore?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "You can book escorts in Indore by calling +91 9372662471 or WhatsApp. We provide 24/7 instant booking with verified call girls."
+          "text": "You can book escorts in Indore by calling +91 9867564994 or WhatsApp. We provide 24/7 instant booking with verified call girls."
         }
       },
       {

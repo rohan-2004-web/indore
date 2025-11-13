@@ -173,13 +173,13 @@ export function SEOOptimizedContent({
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a 
-            href="tel:+919372662471" 
+            href="tel:+919867564994" 
             className="bg-white text-pink-600 px-8 py-3 rounded-full font-bold hover:bg-gray-100 transition-colors"
           >
             Call Now: +91 93726 62471
           </a>
           <a 
-            href="https://wa.me/919372662471" 
+            href="https://wa.me/919867564994" 
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 text-white px-8 py-3 rounded-full font-bold hover:bg-green-600 transition-colors"

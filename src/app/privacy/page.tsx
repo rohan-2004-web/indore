@@ -94,7 +94,7 @@ export default function PrivacyPage() {
                 If you have any questions about this Privacy Policy, please contact us:
               </p>
               <ul className="list-none text-gray-700">
-                <li>📞 Phone: +91 9372662471</li>
+                <li>📞 Phone: +91 9867564994</li>
                 <li>🌐 Website: https://saumyakapoor.in</li>
                 <li>📧 Available 24/7 for queries</li>
               </ul>

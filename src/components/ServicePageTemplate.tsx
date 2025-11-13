@@ -74,14 +74,14 @@ export default function ServicePageTemplate({ serviceData }: ServicePageTemplate
           {/* Enhanced CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-8 justify-center mb-16">
             <a 
-              href="tel:+919372662471" 
+              href="tel:+919867564994" 
               className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-pink-600 via-pink-700 to-pink-800 hover:from-pink-700 hover:via-pink-800 hover:to-pink-900 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-pink-500/50 border-2 border-pink-400/30"
             >
               <span className="text-3xl group-hover:animate-bounce">📞</span>
-              <span>Call Now: +91 9372 662 471</span>
+              <span>Call Now: +91 9867564994</span>
             </a>
             <a 
-              href="https://wa.me/919372662471" 
+              href="https://wa.me/919867564994" 
               className="group inline-flex items-center justify-center gap-4 bg-gradient-to-r from-green-500 via-green-600 to-green-700 hover:from-green-600 hover:via-green-700 hover:to-green-800 text-white px-16 py-8 rounded-full font-black text-2xl transition-all duration-500 transform hover:scale-110 shadow-2xl hover:shadow-green-500/50 border-2 border-green-400/30"
             >
               <span className="text-3xl group-hover:animate-bounce">💬</span>
@@ -155,14 +155,14 @@ export default function ServicePageTemplate({ serviceData }: ServicePageTemplate
                 {/* CTA Buttons */}
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a 
-                    href="tel:+919372662471" 
+                    href="tel:+919867564994" 
                     className="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-pink-600 to-pink-700 hover:from-pink-700 hover:to-pink-800 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
                   >
                     <span className="text-xl">📞</span>
                     Call Now
                   </a>
                   <a 
-                    href="https://wa.me/919372662471" 
+                    href="https://wa.me/919867564994" 
                     className="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
                   >
                     <span className="text-xl">💬</span>
@@ -324,10 +324,10 @@ export default function ServicePageTemplate({ serviceData }: ServicePageTemplate
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a 
-              href="tel:+919372662471"
+              href="tel:+919867564994"
               className="bg-white text-pink-600 px-8 py-4 rounded-full font-semibold text-lg hover:bg-pink-50 transition-colors"
             >
-              📞 Call +91 9372662471
+              📞 Call +91 9867564994
             </a>
             <Link 
               href="/contact"

@@ -88,7 +88,7 @@ Every page includes 3 JSON-LD scripts:
 - **Location naming**: Use kebab-case (`ab-road`, `vijay-nagar`)
 - **Service naming**: Use descriptive kebab-case (`luxury-escort`, `call-girl`)
 - **Image paths**: `/images/services/` and `/images/gallery/` structure
-- **Phone number**: +919372662471 (consistent across all pages)
+- **Phone number**: +919867564994 (consistent across all pages)
 - **Canonical URLs**: Always use https://saumyakapoor.in
 
 When adding content, prioritize SEO optimization and maintain the template-based architecture for consistency.
